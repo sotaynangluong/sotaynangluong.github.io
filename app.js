@@ -1,7 +1,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
 import { getAuth, GoogleAuthProvider, signInWithPopup, signInWithRedirect, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 import { getFirestore, collection, addDoc, getDocs, deleteDoc, doc, query as fq, where, orderBy, limit, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
-import { firebaseConfig, ADMIN_UIDS } from "./firebase-config.js?v=17";
+import { firebaseConfig, ADMIN_UIDS } from "./firebase-config.js?v=19";
 
 /* ---------- Khởi tạo ---------- */
 const configured = !!firebaseConfig.projectId;
@@ -16,7 +16,7 @@ const isAdmin = () => !!user && ADMIN_UIDS.includes(user.uid);
 const $ = s => document.querySelector(s);
 const view = $("#view");
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
-let DATA = { questions: [], risks: [], lookup: {} };
+let DATA = { questions: [], risks: [], lookup: {}, tech: null };
 let query = "";
 const store = {
   get(k, d) { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch { return d; } },
@@ -339,14 +339,58 @@ async function paneAdmin() {
   } catch (e) { $("#pane").innerHTML = `<p class="empty">Không tải được: ${esc(e.message)}</p>`; }
 }
 
-/* ---------- 02. Cẩm nang rủi ro ---------- */
-function renderRisk() {
-  const lab = { c: "CAO", w: "TB", o: "THẤP" };
-  const list = DATA.risks.map(r => ({ ...r, items: r.items.filter(i => hit(r.type, i.join(" "))) })).filter(r => r.items.length);
-  view.innerHTML = `<h1>Cẩm nang rủi ro</h1>
-  <p class="lede">Ma trận rủi ro chính theo 8 loại hình dự án, kèm biện pháp kiểm soát. Mức độ: <span class="sev c">CAO</span> <span class="sev w">TB</span> <span class="sev o">THẤP</span></p>
-  <div class="grid-r">${list.map(r => `<article class="card"><div class="r-head"><h3>${hl(r.type)}</h3><span class="tag">${r.items.length} rủi ro</span></div>
-   ${r.items.map(i => `<div class="risk"><span class="sev ${i[0]}">${lab[i[0]]}</span><div><b>${hl(i[1])}:</b> ${hl(i[2])}</div><div class="m">→ ${hl(i[3])}</div></div>`).join("")}</article>`).join("") || `<p class="empty">Không có rủi ro phù hợp.</p>`}</div>`;
+/* ---------- III. Cẩm nang công nghệ ---------- */
+const SEV = { c: "CAO", w: "TB", o: "THẤP" };
+const riskBlock = types => {
+  const rs = (DATA.risks || []).filter(r => types.includes(r.type));
+  if (!rs.length) return "";
+  return `<section class="card"><h3>Rủi ro phát triển dự án</h3><p class="hint">Do Sổ tay tổng hợp từ thực tế, không thuộc tài liệu nguồn.</p>
+    ${rs.map(r => `${rs.length > 1 ? `<div class="eyebrow">${esc(r.type)}</div>` : ""}${r.items.map(i => `<div class="risk"><span class="sev ${i[0]}">${SEV[i[0]]}</span><div><b>${hl(i[1])}:</b> ${hl(i[2])}</div><div class="m">→ ${hl(i[3])}</div></div>`).join("")}`).join("")}</section>`;
+};
+const srcLine = (T, t) => { const s = T.sources[t.src]; return `${esc(s.title)}, ${esc(t.chapter)}, trang ${esc(t.pages)} (số trang theo file PDF). ${esc(s.org)}. ${esc(s.date)}.`; };
+const firstVal = (t, re) => { for (const sh of t.sheets) { const r = sh.rows.find(x => re.test(x[0])); if (r) return { v: r[2], u: r[1], y: (sh.cols || ["2025"])[0] }; } return null; };
+function techSheet(sh) {
+  const cols = sh.cols || ["2025", "2030", "2040", "2050"];
+  return `<div class="tbl-wrap"><table class="tsheet"><caption>${esc(sh.name)} <span class="hint">· trang ${sh.page}</span></caption>
+    <thead><tr><th>Thông số</th><th>Đơn vị</th>${cols.map(c => `<th class="num">${c}</th>`).join("")}</tr></thead>
+    <tbody>${sh.rows.map(r => `<tr><td>${hl(r[0])}</td><td class="hint">${esc(r[1])}</td>${r.slice(2).map(v => `<td class="num">${esc(v)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+}
+function renderTech(sub) {
+  const T = DATA.tech;
+  if (!T || !T.items) { view.innerHTML = `<h1>Cẩm nang công nghệ</h1><p class="empty">Chưa tải được dữ liệu.</p>`; return; }
+  const disc = `<section class="card disclaimer"><h3>Nguồn và miễn trừ trách nhiệm</h3>
+    <p><b>Nguồn:</b></p><ul>${Object.values(T.sources).map(s => `<li>${esc(s.title)} – ${esc(s.org)}, ${esc(s.date)}. ${esc(s.note)}.</li>`).join("")}</ul>
+    <p class="hint">Tài liệu nguồn cho phép sử dụng, chia sẻ, in tái bản với điều kiện ghi rõ nguồn.</p>
+    <p><b>Miễn trừ trách nhiệm:</b></p><ul>${T.disclaimer.map(d => `<li>${esc(d)}</li>`).join("")}</ul></section>`;
+  const t = T.items.find(x => x.id === sub);
+  if (!t) {
+    const list = T.items.filter(x => hit(x.name, x.summary, x.group));
+    view.innerHTML = `<h1>Cẩm nang công nghệ</h1>
+    <p class="lede">Tóm lược đặc tính kỹ thuật, chi phí và xu hướng đến 2050 của từng loại hình công nghệ, theo Cẩm nang Công nghệ Việt Nam 2026 của Cục Điện lực và Cục Năng lượng Đan Mạch (EAV & DEA). Chi phí tính bằng USD năm 2025.</p>
+    ${T.groups.map(g => { const it = list.filter(x => x.group === g); return it.length ? `<h2>${g}</h2><div class="tgrid">${it.map(x => {
+      const cap = firstVal(x, /^Suất đầu tư/), cf = firstVal(x, /^Hệ số công suất|^Hiệu suất/);
+      return `<a class="card tcard" href="#cong-nghe/${x.id}"><h3>${hl(x.name)}</h3><p>${hl(x.summary.split(". ")[0].replace(/\.$/, ""))}.</p>
+        <div class="tkpi">${cap ? `<span><b class="num">${esc(cap.v)}</b> ${esc(cap.u)} <i>(${cap.y})</i></span>` : ""}${cf ? `<span><b class="num">${esc(cf.v)}%</b> ${/Hiệu suất/.test(x.sheets[0].rows.map(r => r[0]).join()) && !/Hệ số công suất/.test(x.sheets[0].rows.map(r => r[0]).join()) ? "hiệu suất" : "hệ số công suất"}</span>` : ""}</div>
+        <span class="hint">${esc(x.chapter)} · trang ${esc(x.pages)}</span></a>`; }).join("")}</div>` : ""; }).join("") || `<p class="empty">Không có công nghệ phù hợp.</p>`}
+    <h2>Rủi ro chung – dự án lưới truyền tải</h2>${riskBlock(["Lưới truyền tải"])}
+    <p class="hint">Đợt 1: 8 công nghệ cốt lõi. Các công nghệ còn lại (điện sinh khối, rác thải, địa nhiệt, hạt nhân, pin dòng vanadium, hydrogen, ammonia xanh…) đang được bổ sung.</p>
+    ${disc}`;
+    return;
+  }
+  const others = T.items.filter(x => x.id !== t.id);
+  view.innerHTML = `<p class="crumb"><a href="#cong-nghe">Cẩm nang công nghệ</a> / ${esc(t.group)}</p>
+  <h1>${esc(t.name)}</h1>
+  <p class="lede">${hl(t.summary)}</p>
+  <div class="stack">
+    ${t.vn && t.vn.length ? `<section class="card"><h3>Đặc điểm tại Việt Nam và giả định chính</h3><ul>${t.vn.map(v => `<li>${hl(v)}</li>`).join("")}</ul></section>` : ""}
+    <section class="card"><h3>Bảng số liệu chính</h3><p class="hint">Giá trị trung tâm; chi phí USD năm 2025, chưa gồm VAT. Khoảng bất định xem bản gốc.</p>${t.sheets.map(techSheet).join("")}</section>
+    <div class="pc"><section class="card pro"><h3>Ưu điểm</h3><ul>${t.pros.map(v => `<li>${hl(v)}</li>`).join("")}</ul></section>
+    <section class="card con"><h3>Nhược điểm</h3><ul>${t.cons.map(v => `<li>${hl(v)}</li>`).join("")}</ul></section></div>
+    ${riskBlock(t.risk || [])}
+    <section class="card src"><h3>Nguồn tài liệu</h3><p>${srcLine(T, t)}</p></section>
+    ${disc}
+    <div class="tnext">${others.map(x => `<a class="chip" href="#cong-nghe/${x.id}">${esc(x.name)}</a>`).join("")}</div>
+  </div>`;
 }
 
 /* ---------- 01. Tin tức ngành điện ---------- */
@@ -476,15 +520,18 @@ function renderPolicy() {
 }
 
 /* ---------- Điều hướng ---------- */
-const routes = { "tin-tuc": renderNews, "tu-kiem-tra": renderQuizSection, "rui-ro": renderRisk, "tra-cuu": renderLookup, "chinh-sach": renderPolicy };
+const routes = { "tin-tuc": renderNews, "tu-kiem-tra": renderQuizSection, "cong-nghe": renderTech, "tra-cuu": renderLookup, "chinh-sach": renderPolicy };
 let current = "";
 function route() {
-  const v = routes[location.hash.slice(1)] ? location.hash.slice(1) : "tin-tuc";
+  if (location.hash === "#rui-ro") { history.replaceState(null, "", "#cong-nghe"); }
+  const [h, sub] = location.hash.slice(1).split("/");
+  const v = routes[h] ? h : "tin-tuc";
   if (current === "tu-kiem-tra" && v !== current && exam && !confirmLeave()) { history.replaceState(null, "", "#tu-kiem-tra"); return; }
   if (v === "tu-kiem-tra" && current !== v) practiceSet = null;
   current = v;
   document.querySelectorAll("#nav a").forEach(a => a.dataset.v === v ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current"));
-  routes[v]();
+  routes[v](sub);
+  if (sub) scrollTo(0, 0);
 }
 window.addEventListener("hashchange", route);
 window.addEventListener("beforeunload", e => { if (exam) { e.preventDefault(); e.returnValue = ""; } });
@@ -500,8 +547,8 @@ $("#theme").onclick = () => {
 
 async function boot() {
   try {
-    const [questions, risks, lookup, news] = await Promise.all(["questions", "risks", "lookup", "news"].map(n => fetch(`data/${n}.json`, { cache: "no-cache" }).then(r => r.ok ? r.json() : null)));
-    DATA = { questions: questions || [], risks: risks || [], lookup: lookup || {}, news: news || { items: [] } };
+    const [questions, risks, lookup, news, tech] = await Promise.all(["questions", "risks", "lookup", "news", "tech"].map(n => fetch(`data/${n}.json`, { cache: "no-cache" }).then(r => r.ok ? r.json() : null)));
+    DATA = { questions: questions || [], risks: risks || [], lookup: lookup || {}, news: news || { items: [] }, tech };
   } catch (e) { view.innerHTML = `<p class="empty">Không tải được dữ liệu (${esc(e.message)}). Nếu mở file trực tiếp trên máy, hãy dùng GitHub Pages hoặc một máy chủ web.</p>`; return; }
   renderUser();
   route();

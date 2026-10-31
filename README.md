@@ -4,7 +4,7 @@ Sổ tay tra cứu và tự kiểm tra cho phát triển, xây dựng, quản l�
 
 - **I. Tin tức ngành điện:** tự động tổng hợp tiêu đề và link từ cổng thông tin Bộ Công Thương, Chính phủ, Bộ Tài chính, EVN, NSMO, EVNNPT (không lấy tin báo chí, không chép ảnh, nội dung).
 - **II. Kiểm tra kiến thức:** luyện tập, tạo đề thi có tính giờ, chấm điểm, bảng xếp hạng, lịch sử, quản trị.
-- **III. Cẩm nang rủi ro:** ma trận rủi ro theo 8 loại hình dự án.
+- **III. Cẩm nang công nghệ:** tóm lược từng loại hình công nghệ theo Cẩm nang Công nghệ Việt Nam 2026 (EAV & DEA), kèm rủi ro phát triển dự án.
 - **IV. Tra cứu nhanh:** giá điện 2026, khung giá phát điện, thẩm quyền, thời hạn, văn bản pháp luật có link.
 
 Công nghệ: HTML/JS tĩnh trên GitHub Pages, đăng nhập Google và lưu kết quả bằng Firebase (gói miễn phí Spark).
@@ -17,7 +17,8 @@ Công nghệ: HTML/JS tĩnh trên GitHub Pages, đăng nhập Google và lưu k�
 | `firebase-config.js` | Cấu hình Firebase và email quản trị |
 | `firestore.rules` | Quy tắc bảo mật, dán vào Firebase Console |
 | `data/questions.json` | Ngân hàng câu hỏi |
-| `data/risks.json` | Cẩm nang rủi ro |
+| `data/tech.json` | Cẩm nang công nghệ (nguồn EAV & DEA 2026) |
+| `data/risks.json` | Rủi ro phát triển dự án theo loại hình |
 | `data/lookup.json` | Bảng tra cứu, giá điện, văn bản |
 | `data/news.json` | Tin tức (do GitHub Actions tự ghi) |
 | `scripts/fetch_news.py`, `.github/workflows/news.yml` | Lấy tin tự động lúc 8h và 18h |
