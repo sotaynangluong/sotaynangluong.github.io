@@ -42,7 +42,9 @@ TOPICS = [
     ("Giá điện", ["giá điện", "khung giá", "biểu giá", "giá bán lẻ", "giá phát điện", "giá bán điện"]),
     ("Chính sách", ["nghị định", "thông tư", "quyết định", "luật", "quy hoạch", "dự thảo", "cơ chế", "chính sách"]),
     ("Dự án", ["dự án", "đấu nối", "khởi công", "đóng điện", "vận hành thương mại", "cod", "nhà đầu tư", "đấu thầu", "nhà máy"]),
-    ("Vận hành", ["vận hành", "phụ tải", "cung ứng điện", "điều độ", "hệ thống điện", "tiết kiệm điện", "sản lượng"]),
+    ("Dự án", ["chấp thuận đầu tư", "rót", "tỷ đồng", "tỷ usd", "triệu usd", "đầu tư"]),
+    ("Vận hành", ["vận hành", "phụ tải", "cung ứng điện", "điều độ", "hệ thống điện", "tiết kiệm điện", "sản lượng", "mất điện", "cắt điện", "lưới điện"]),
+    ("NLTT – Lưu trữ", ["điện gió", "điện mặt trời", "tái tạo", "pin lưu trữ", "bess", "hydrogen", "hydro xanh", "điện hạt nhân", "điện khí", "lng"]),
 ]
 
 
@@ -82,7 +84,7 @@ def main():
             old = json.loads(OUT.read_text(encoding="utf-8")).get("items", [])
         except Exception:
             old = []
-    items = {i["link"]: i for i in old}
+    items = {i["link"]: {**i, "topic": topic_of(i["title"])} for i in old}
     cutoff = datetime.now(timezone.utc) - timedelta(days=KEEP_DAYS)
     errors = []
 
@@ -98,7 +100,7 @@ def main():
             source = (src_el.text or "").strip() if src_el is not None else group
             title = clean_title(it.findtext("title") or "", source)
             date = parse_date(it.findtext("pubDate") or "")
-            if not link or not title or not date or date < cutoff:
+            if not link or len(title) < 20 or not date or date < cutoff:
                 continue
             if need_kw and not any(k in title.lower() for k in POWER_KW):
                 continue
@@ -117,7 +119,7 @@ def main():
     seen, out = set(), []
     for i in sorted(items.values(), key=lambda x: x["date"], reverse=True):
         key = re.sub(r"\W+", "", i["title"].lower())
-        if key in seen or datetime.fromisoformat(i["date"]) < cutoff:
+        if key in seen or len(i["title"]) < 20 or datetime.fromisoformat(i["date"]) < cutoff:
             continue
         seen.add(key)
         out.append(i)
