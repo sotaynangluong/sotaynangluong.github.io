@@ -1,7 +1,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
 import { getAuth, GoogleAuthProvider, signInWithPopup, signInWithRedirect, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 import { getFirestore, collection, addDoc, getDocs, deleteDoc, doc, query as fq, where, orderBy, limit, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
-import { firebaseConfig, ADMIN_UIDS } from "./firebase-config.js?v=12";
+import { firebaseConfig, ADMIN_UIDS } from "./firebase-config.js?v=13";
 
 /* ---------- Khởi tạo ---------- */
 const configured = !!firebaseConfig.projectId;
@@ -360,10 +360,10 @@ function renderLookup() {
   view.innerHTML = `<h1>Tra cứu nhanh</h1>
   <p class="lede">Giá điện, thẩm quyền, thời hạn và văn bản thường dùng. Bấm "Xem" để mở văn bản hoặc nguồn tham chiếu.</p>
   ${gateBanner("Đăng nhập để mở link văn bản gốc và nguồn tham chiếu.")}
-  <h2>Giá bán lẻ điện 2025</h2>${table(["Nội dung", "Mức / phạm vi", "Thời điểm", "Văn bản", "Xem"], L.retail, [], 4)}
-  <h2>Khung giá phát điện 2025</h2>
+  <h2>Giá bán lẻ điện 2026</h2>${table(["Nội dung", "Mức / phạm vi", "Thời điểm", "Văn bản", "Xem"], L.retail, [], 4)}
+  <h2>Khung giá phát điện 2026</h2>
   <p class="hint">Giá tối đa, đồng/kWh, chưa gồm VAT.</p>
-  ${table(["Loại hình", "Miền Bắc", "Miền Trung", "Miền Nam", "Văn bản", "Xem"], L.gen, [1, 2, 3], 5)}
+  ${table(["Loại hình", "Miền Bắc", "Miền Trung", "Miền Nam", "Năm", "Văn bản", "Xem"], L.gen, [1, 2, 3, 4], 6)}
   <ul class="hint">${(L.genNotes || []).map(n => `<li>${esc(n)}</li>`).join("")}</ul>
   <h2>Cơ chế giá khác</h2>${table(["Đối tượng", "Cơ chế", "Văn bản", "Xem"], L.other, [], 3)}
   <h2>Cấp điện áp và quản lý lưới</h2>${table(["Phân loại", "Cấp điện áp", "Đơn vị quản lý"], L.voltage, [1])}
@@ -377,7 +377,7 @@ function renderLookup() {
   <h2>Cấp giấy phép xây dựng</h2>
   ${table(["Cơ quan cấp", "Phạm vi", "Căn cứ"], L.permit)}
   <ul class="hint">${(L.permitNotes || []).map(n => `<li>${esc(n)}</li>`).join("")}</ul>
-  <h2>Văn bản pháp luật</h2>${table(["Loại", "Số hiệu", "Trích yếu", "Xem"], L.docs, [1], 3)}
+  <h2>Văn bản pháp luật</h2>${table(["Lĩnh vực", "Loại", "Số hiệu", "Trích yếu", "Xem"], L.docs, [2], 4)}
   <p class="hint">Link dẫn đến cổng thông tin cơ quan nhà nước hoặc trang tra cứu pháp luật. Đối chiếu bản gốc có chữ ký số trước khi viện dẫn chính thức.</p>`;
   wireGate();
 }

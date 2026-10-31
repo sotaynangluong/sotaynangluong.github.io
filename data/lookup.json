@@ -23,11 +23,18 @@
  ],
  "retail": [
   [
-   "Giá bán lẻ điện bình quân",
-   "2.204,0655 đ/kWh (chưa VAT), tăng 4,8%",
+   "Giá bán lẻ điện bình quân hiện hành",
+   "2.204,0655 đ/kWh (chưa VAT); năm 2026 chưa có lần điều chỉnh nào tính đến 30/10/2026",
    "Áp dụng từ 10/5/2025",
    "599/QĐ-EVN",
    "https://moit.gov.vn/tin-tuc/phat-trien-nang-luong/dieu-chinh-gia-ban-le-dien-binh-quan-tu-ngay-10-5-2025.html"
+  ],
+  [
+   "Dự kiến giảm giá bán lẻ bình quân 2026",
+   "Giảm khoảng 2%, về khoảng 2.159,98 đ/kWh, áp dụng 01/11/2026 – 31/3/2027; đang chờ EVN công bố quyết định",
+   "Chỉ đạo của Phó Thủ tướng ngày 27/10/2026",
+   "Chưa ban hành",
+   "https://tuoitre.vn/gia-dien-giam-2-ve-muc-2159-dong-kwh-100261028153056264.htm"
   ],
   [
    "Biểu giá bán lẻ theo nhóm khách hàng",
@@ -38,10 +45,10 @@
   ],
   [
    "Cơ chế điều chỉnh giá bán lẻ bình quân",
-   "Thời gian và thẩm quyền điều chỉnh",
-   "Ban hành 28/3/2025",
-   "72/2025/NĐ-CP",
-   ""
+   "EVN không điều chỉnh khi tăng dưới 2% hoặc giảm dưới 1%; giảm từ 1% hoặc tăng 2% – dưới 5% phải lập phương án báo cáo Bộ Công Thương",
+   "NĐ 72/2025, sửa đổi 2026",
+   "72/2025/NĐ-CP; 278/2026/NĐ-CP",
+   "https://dantri.com.vn/kinh-doanh/chinh-thuc-co-quy-dinh-moi-ve-viec-dieu-chinh-gia-ban-le-dien-binh-quan-20260710192057069.htm"
   ],
   [
    "Phương pháp tính giá bán lẻ bình quân",
@@ -57,6 +64,7 @@
    "1.382,7",
    "1.107,1",
    "1.012,0",
+   "2025",
    "988/QĐ-BCT · 10/4/2025",
    "https://hethongphapluat.com/decision-no-988-qd-bct-dated-april-10-2025-on-approval-of-electricity-generation-price-bracket-of-solar-power-plants.html"
   ],
@@ -65,6 +73,7 @@
    "1.685,8",
    "1.336,1",
    "1.228,2",
+   "2025",
    "988/QĐ-BCT · 10/4/2025",
    "https://hethongphapluat.com/decision-no-988-qd-bct-dated-april-10-2025-on-approval-of-electricity-generation-price-bracket-of-solar-power-plants.html"
   ],
@@ -73,6 +82,7 @@
    "1.571,98",
    "1.257,05",
    "1.149,86",
+   "2025",
    "988/QĐ-BCT · 10/4/2025",
    "https://hethongphapluat.com/decision-no-988-qd-bct-dated-april-10-2025-on-approval-of-electricity-generation-price-bracket-of-solar-power-plants.html"
   ],
@@ -81,6 +91,7 @@
    "1.876,57",
    "1.487,18",
    "1.367,13",
+   "2025",
    "988/QĐ-BCT · 10/4/2025",
    "https://hethongphapluat.com/decision-no-988-qd-bct-dated-april-10-2025-on-approval-of-electricity-generation-price-bracket-of-solar-power-plants.html"
   ],
@@ -89,6 +100,7 @@
    "1.959,4",
    "1.807,4",
    "1.840,3",
+   "2025",
    "1508/QĐ-BCT · 30/5/2025",
    "https://caselaw.vn/van-ban-phap-luat/587208-quyet-dinh-so-1508-qd-bct-ngay-30-5-2025-cua-bo-truong-bo-cong-thuong-phe-duyet-khung-gia-phat-dien-loai-hinh-nha-may-dien-gio-nam-2025"
   ],
@@ -97,6 +109,7 @@
    "1.987,4",
    "1.987,4",
    "1.987,4",
+   "2025",
    "1508/QĐ-BCT · 30/5/2025",
    "https://caselaw.vn/van-ban-phap-luat/587208-quyet-dinh-so-1508-qd-bct-ngay-30-5-2025-cua-bo-truong-bo-cong-thuong-phe-duyet-khung-gia-phat-dien-loai-hinh-nha-may-dien-gio-nam-2025"
   ],
@@ -105,38 +118,52 @@
    "1.110",
    "1.110",
    "1.110",
-   "982/QĐ-BCT · 10/4/2025",
-   "https://vietnamenergy.vn/approving-the-price-framework-for-electricity-generation-from-hydropower-gas-power-and-solar-power-sources-in-2025-34077.html"
+   "2026",
+   "1127/QĐ-BCT · 14/5/2026",
+   "https://tapchicongthuong.vn/bo-cong-thuong-phe-duyet-khung-gia-phat-dien-cho-thuy-dien-nam-2026-518752.htm"
   ],
   [
    "Thủy điện tích năng",
    "3.457,02",
    "3.457,02",
    "3.457,02",
+   "2025",
    "1198/QĐ-BCT · 26/4/2025",
    "https://hethongphapluat.com/decision-no-1198-qd-bct-dated-april-26-2025-on-approval-of-electricity-generation-price-bracket-of-pumped-storage-hydropower-plants-in-2025.html"
   ],
   [
-   "Nhiệt điện than",
+   "Nhiệt điện than – DNNN 100% vốn ²",
+   "2.218,95",
+   "2.218,95",
+   "2.218,95",
+   "2026",
+   "1692/QĐ-BCT · 07/7/2026",
+   "https://luatvietnam.vn/dau-tu/quyet-dinh-1692-qd-bct-2026-phe-duyet-khung-gia-phat-dien-cho-nha-may-nhiet-dien-than-439842-d1.html"
+  ],
+  [
+   "Nhiệt điện than – các nhà máy khác",
    "1.705,68",
    "1.705,68",
    "1.705,68",
+   "2025",
    "1009/QĐ-BCT · 14/4/2025",
    "https://luatvietnam.vn/dien-luc/quyet-dinh-1009-qd-bct-cua-bo-cong-thuong-phe-duyet-khung-gia-phat-dien-nha-may-nhiet-dien-than-nam-2025-398622-d1.html"
   ],
   [
    "Tuabin khí CTHH – khí thiên nhiên",
-   "3.069,38",
-   "3.069,38",
-   "3.069,38",
-   "983/QĐ-BCT · 10/4/2025",
-   "https://tapchicongthuong.vn/bo-cong-thuong-ban-hanh-khung-gia-phat-dien-cho-nha-may-dien-khi-nam-2025-139267.htm"
+   "3.410,64",
+   "3.410,64",
+   "3.410,64",
+   "2026",
+   "1882/QĐ-BCT · 23/7/2026",
+   "https://vtcnews.vn/bo-cong-thuong-chot-khung-gia-dien-khi-toi-da-3-410-64-dong-kwh-ar1031402.html"
   ],
   [
    "Tuabin khí CTHH – LNG",
    "3.327,42",
    "3.327,42",
    "3.327,42",
+   "2025",
    "1313/QĐ-BCT · 13/5/2025",
    "https://luatvietnam.vn/dien-luc/quyet-dinh-1313-qd-bct-2025-phe-duyet-khung-gia-phat-dien-nha-may-tua-bin-khi-chu-trinh-hon-hop-400668-d1.html"
   ],
@@ -145,6 +172,7 @@
    "2.091,74",
    "2.091,74",
    "2.091,74",
+   "2025",
    "1008/QĐ-BCT · 14/4/2025",
    "https://luatvietnam.vn/tin-van-ban-moi/bo-cong-thuong-ban-hanh-3-quyet-dinh-phe-duyet-khung-gia-phat-dien-186-101896-article.html"
   ],
@@ -153,13 +181,16 @@
    "2.575,18",
    "2.575,18",
    "2.575,18",
+   "2025",
    "1251/QĐ-BCT · 06/5/2025",
    "https://luatvietnam.vn/dien-luc/quyet-dinh-1251-qd-bct-cua-bo-cong-thuong-phe-duyet-khung-gia-phat-dien-nha-may-dien-chat-thai-nam-2025-399481-d1.html"
   ]
  ],
  "genNotes": [
   "Giá tối đa của khung giá, đồng/kWh, chưa gồm VAT. Khung giá từ 0 đến mức tối đa; giá cụ thể do bên bán và EVN đàm phán.",
+  "Loại hình chưa có khung giá 2026 (tính đến 30/10/2026) giữ khung 2025. Khung giá điện mặt trời, điện gió 2026 đang lấy ý kiến (Bộ Công Thương, 7/2026), có đề xuất bỏ cách tính theo 3 miền.",
   "¹ Thủy điện: chưa gồm thuế tài nguyên nước, tiền dịch vụ môi trường rừng, tiền cấp quyền khai thác tài nguyên nước.",
+  "² Áp dụng cho nhà máy nhiệt điện than do doanh nghiệp nhà nước nắm 100% vốn điều lệ, đầu tư bằng 100% vốn chủ sở hữu.",
   "Điện nhập khẩu từ Lào (vận hành 31/12/2025 – 31/12/2030): thủy điện và điện gió 6,95 UScent/kWh; nhiệt điện than 7,02 UScent/kWh (1007/QĐ-BCT · 14/4/2025)."
  ],
  "other": [
@@ -184,72 +215,168 @@
  ],
  "docs": [
   [
+   "Xây dựng",
    "Luật",
    "135/2025/QH15",
    "Luật Xây dựng",
    "https://thuviennhadat.vn/vbpl/luat-xay-dung-2025-so-135-2025-qh15-675213.html"
   ],
   [
-   "Luật",
-   "61/2024/QH15",
-   "Luật Điện lực",
-   "https://thuviennhadat.vn/vbpl/luat-dien-luc-2024-so-61-2024-qh15-613892.html"
-  ],
-  [
+   "Xây dựng",
    "Nghị định",
    "217/2026/NĐ-CP",
    "Quy định chi tiết Luật Xây dựng về quản lý hoạt động xây dựng (thay NĐ 175/2024)",
    "https://cdn.haiphong.gov.vn/gov-hpg/6866/tintuc/2026/7/nghi-dinh-217_2026_nd-cp639189458744453590.pdf"
   ],
   [
+   "Xây dựng",
    "Nghị định",
    "206/2026/NĐ-CP",
-   "Quy định chi tiết về quản lý chi phí đầu tư xây dựng (thay NĐ 10/2021)",
+   "Quy định chi tiết về quản lý chi phí đầu tư xây dựng (thay NĐ 10/2021), hiệu lực 01/7/2026",
    "https://thuvienphapluat.vn/van-ban/Xay-dung-Do-thi/Nghị-dịnh-206-2026-ND-CP-huong-dan-quan-ly-chi-phi-dau-tu-xay-dung-457659.aspx"
   ],
   [
-   "Nghị định",
-   "57/2025/NĐ-CP",
-   "Cơ chế mua bán điện trực tiếp (DPPA)",
-   "https://luatvietnam.vn/cong-nghiep/nghi-dinh-57-2025-nd-cp-co-che-mua-ban-dien-giua-don-vi-phat-dien-va-khach-hang-392209-d1.html"
-  ],
-  [
-   "Nghị định",
-   "58/2025/NĐ-CP",
-   "Hướng dẫn Luật Điện lực về phát triển điện năng lượng tái tạo, điện năng lượng mới",
-   "https://caselaw.vn/van-ban-phap-luat/411509-nghi-dinh-so-58-2025-nd-cp-ngay-03-03-2025-cua-chinh-phu-huong-dan-luat-dien-luc-ve-phat-trien-dien-nang-luong-tai-tao-dien-nang-luong-moi"
-  ],
-  [
-   "Nghị định",
-   "243/2026/NĐ-CP",
-   "Sửa đổi NĐ 57/2025 và NĐ 58/2025 (DPPA, ĐMT mái nhà)",
-   "https://luatvietnam.vn/linh-vuc-khac/bang-so-sanh-nghi-dinh-243-2026-va-nghi-dinh-57-2025-nd-cp-va-nghi-dinh-58-2025-nd-cp-ve-co-che-mua-ban-dien-truc-tiep-va-phat-trien-dien-tai-tao-883-110339-article.html"
-  ],
-  [
-   "Thông tư",
-   "05/2025/TT-BCT",
-   "Quy định hệ thống truyền tải điện, phân phối điện và đo đếm điện năng",
-   "https://caselaw.vn/van-ban-phap-luat/412062-thong-tu-so-05-2025-tt-bct-ngay-01-02-2025-cua-bo-truong-bo-cong-thuong-quy-dinh-he-thong-truyen-tai-dien-phan-phoi-dien-va-do-dem-dien-nang"
-  ],
-  [
+   "Xây dựng",
    "Thông tư",
    "34/2026/TT-BXD",
    "Quy định chi tiết cấp công trình xây dựng (hiệu lực 01/7/2026)",
    "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/34-bxd.pdf"
   ],
   [
+   "Xây dựng",
    "Thông tư",
-   "62/2025/TT-BCT",
-   "Khung giá và giá dịch vụ phát điện của hệ thống pin lưu trữ",
-   "https://luatvietnam.vn/cong-nghiep/thong-tu-62-2025-tt-bct-quy-dinh-khung-gia-va-dich-vu-phat-dien-tu-pin-luu-tru-421392-d1.html"
+   "36/2026/TT-BXD",
+   "Hướng dẫn xác định và quản lý chi phí đầu tư xây dựng",
+   "https://thuvienphapluat.vn/hoi-dap-phap-luat/toan-van-thong-tu-362026ttbxd-huong-dan-xac-dinh-va-quan-ly-chi-phi-dau-tu-xay-dung-ra-sao-138095876.html"
   ],
   [
+   "Đầu tư",
+   "Luật",
+   "143/2025/QH15",
+   "Luật Đầu tư 2025, hiệu lực 01/3/2026 (riêng quy định ngành nghề kinh doanh có điều kiện từ 01/7/2026)",
+   "https://thuviennhadat.vn/phap-luat/tai-file-luat-dau-tu-2025-luat-so-143-2025-qh15-729177.html"
+  ],
+  [
+   "Đầu tư",
+   "Luật",
+   "58/2024/QH15",
+   "Luật Đầu tư công, sửa đổi bởi Luật 90/2025/QH15 và Luật Xây dựng 135/2025/QH15",
+   ""
+  ],
+  [
+   "Đầu tư",
+   "Luật",
+   "64/2020/QH14",
+   "Luật Đầu tư theo phương thức đối tác công tư (PPP), đã sửa đổi nhiều lần (gần nhất 133/2025/QH15)",
+   ""
+  ],
+  [
+   "Đấu thầu",
+   "Luật",
+   "22/2023/QH15",
+   "Luật Đấu thầu, sửa đổi bởi Luật 57/2024/QH15 và Luật 90/2025/QH15 (hiệu lực 01/7/2025)",
+   "https://luatvietnam.vn/bai-viet-lien-quan/luat-22-2023-qh15-259737.html"
+  ],
+  [
+   "Đấu thầu",
+   "Luật",
+   "90/2025/QH15",
+   "Sửa đổi Luật Đấu thầu, Luật PPP, Luật Hải quan, Luật Thuế GTGT, Luật Đầu tư công…",
+   "https://legalzone.vn/wp-content/uploads/legal-sources/procurement-ppp/luat-90-2025-qh15-sua-doi-dau-thau-ppp.pdf"
+  ],
+  [
+   "Đấu thầu",
+   "Nghị định",
+   "214/2025/NĐ-CP",
+   "Quy định chi tiết Luật Đấu thầu về lựa chọn nhà thầu (thay NĐ 24/2024), ban hành 04/8/2025",
+   "https://cdn.haiphong.gov.vn/gov-hpg/6874/tintuc/2025/8/nghi-dinh-214-4.8.2025.signed638921834575839494.pdf"
+  ],
+  [
+   "Đấu thầu",
+   "Nghị định",
+   "225/2025/NĐ-CP",
+   "Sửa đổi các nghị định hướng dẫn Luật Đấu thầu",
+   "https://hoatieu.vn/phap-luat/nghi-dinh-225-2025-nd-cp-236790"
+  ],
+  [
+   "Quy hoạch",
+   "Luật",
+   "112/2025/QH15",
+   "Luật Quy hoạch 2025 (thay Luật Quy hoạch 2017), thông qua 10/12/2025, hiệu lực 01/3/2026",
+   "https://thuvienphapluat.vn/phap-luat-nha-dat/toan-van-luat-quy-hoach-2025-luat-so-1122025qh15-cu-the-the-nao-13413.html"
+  ],
+  [
+   "Quy hoạch",
+   "Luật",
+   "47/2024/QH15",
+   "Luật Quy hoạch đô thị và nông thôn",
+   "https://baovanhoa.vn/kinh-te/luat-quy-hoach-do-thi-va-nong-thon-moi-nhat-toan-bo-quy-dinh-can-biet-260352.html"
+  ],
+  [
+   "Điện lực",
+   "Luật",
+   "61/2024/QH15",
+   "Luật Điện lực",
+   "https://thuviennhadat.vn/vbpl/luat-dien-luc-2024-so-61-2024-qh15-613892.html"
+  ],
+  [
+   "Điện lực",
+   "Nghị định",
+   "56/2025/NĐ-CP",
+   "Quy định chi tiết Luật Điện lực về quy hoạch phát triển điện lực, đầu tư xây dựng dự án điện lực và đấu thầu lựa chọn nhà đầu tư dự án kinh doanh điện (sửa đổi bởi NĐ 100/2025)",
+   "https://hcc.nghean.gov.vn/laws/detail/Nghi-dinh-so-56-2025-ND-CP-cua-Chinh-phu-Quy-dinh-chi-tiet-mot-so-dieu-cua-Luat-Dien-luc-ve-quy-hoach-phat-trien-dien-luc-phuong-an-phat-trien-mang-luoi-cap-dien-dau-tu-xay-dung-du-an-dien-luc-va-dau-thau-lua-chon-nha-dau-tu-du-an-kinh-doanh-dien-1627/"
+  ],
+  [
+   "Điện lực",
+   "Nghị định",
+   "57/2025/NĐ-CP",
+   "Cơ chế mua bán điện trực tiếp (DPPA)",
+   "https://luatvietnam.vn/cong-nghiep/nghi-dinh-57-2025-nd-cp-co-che-mua-ban-dien-giua-don-vi-phat-dien-va-khach-hang-392209-d1.html"
+  ],
+  [
+   "Điện lực",
+   "Nghị định",
+   "58/2025/NĐ-CP",
+   "Hướng dẫn Luật Điện lực về phát triển điện năng lượng tái tạo, điện năng lượng mới",
+   "https://caselaw.vn/van-ban-phap-luat/411509-nghi-dinh-so-58-2025-nd-cp-ngay-03-03-2025-cua-chinh-phu-huong-dan-luat-dien-luc-ve-phat-trien-dien-nang-luong-tai-tao-dien-nang-luong-moi"
+  ],
+  [
+   "Điện lực",
+   "Nghị định",
+   "243/2026/NĐ-CP",
+   "Sửa đổi NĐ 57/2025 và NĐ 58/2025 (DPPA, ĐMT mái nhà)",
+   "https://luatvietnam.vn/linh-vuc-khac/bang-so-sanh-nghi-dinh-243-2026-va-nghi-dinh-57-2025-nd-cp-va-nghi-dinh-58-2025-nd-cp-ve-co-che-mua-ban-dien-truc-tiep-va-phat-trien-dien-tai-tao-883-110339-article.html"
+  ],
+  [
+   "Điện lực",
+   "Nghị định",
+   "72/2025/NĐ-CP",
+   "Cơ chế, thời gian điều chỉnh giá bán lẻ điện bình quân (sửa đổi bởi NĐ 278/2026)",
+   ""
+  ],
+  [
+   "Điện lực",
+   "Thông tư",
+   "05/2025/TT-BCT",
+   "Quy định hệ thống truyền tải điện, phân phối điện và đo đếm điện năng",
+   "https://caselaw.vn/van-ban-phap-luat/412062-thong-tu-so-05-2025-tt-bct-ngay-01-02-2025-cua-bo-truong-bo-cong-thuong-quy-dinh-he-thong-truyen-tai-dien-phan-phoi-dien-va-do-dem-dien-nang"
+  ],
+  [
+   "Điện lực",
    "Thông tư",
    "09/2025/TT-BCT",
    "Phương pháp xác định, phê duyệt khung giá phát điện và khung giá nhập khẩu điện",
    "https://caselaw.vn/van-ban-phap-luat/412063-thong-tu-so-09-2025-tt-bct-ngay-01-02-2025-cua-bo-truong-bo-cong-thuong-quy-dinh-ho-so-trinh-tu-thu-tuc-phuong-phap-xac-dinh-phe-duyet-khung-gia-phat-dien-quy-dinh-ho-so-trinh-tu-thu-tuc-xay-dung-phe-duyet-khung-gia-nhap-khau-dien"
   ],
   [
+   "Điện lực",
+   "Thông tư",
+   "62/2025/TT-BCT",
+   "Khung giá và giá dịch vụ phát điện của hệ thống pin lưu trữ",
+   "https://luatvietnam.vn/cong-nghiep/thong-tu-62-2025-tt-bct-quy-dinh-khung-gia-va-dich-vu-phat-dien-tu-pin-luu-tru-421392-d1.html"
+  ],
+  [
+   "Điện lực",
    "Quyết định",
    "1279/QĐ-BCT",
    "Giá bán lẻ điện theo nhóm khách hàng từ 10/5/2025",
