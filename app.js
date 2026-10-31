@@ -1,13 +1,13 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
-import { getAuth, GoogleAuthProvider, signInWithPopup, signInWithRedirect, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
-import { getFirestore, collection, addDoc, getDocs, deleteDoc, doc, query as fq, where, orderBy, limit, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
-import { firebaseConfig, ADMIN_UIDS } from "./firebase-config.js?v=28";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/12.11.0/firebase-app.js";
+import { getAuth, GoogleAuthProvider, signInWithPopup, signInWithRedirect, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/12.11.0/firebase-auth.js";
+import { getFirestore, collection, addDoc, getDocs, deleteDoc, doc, query as fq, where, orderBy, limit, serverTimestamp } from "https://www.gstatic.com/firebasejs/12.11.0/firebase-firestore.js";
+import { firebaseConfig, ADMIN_UIDS, RECAPTCHA_SITE_KEY, AI_MODEL } from "./firebase-config.js?v=29";
 
 /* ---------- Khởi tạo ---------- */
 const configured = !!firebaseConfig.projectId;
-let auth = null, db = null, user = null;
+let auth = null, db = null, user = null, app = null;
 if (configured) {
-  const app = initializeApp(firebaseConfig);
+  app = initializeApp(firebaseConfig);
   auth = getAuth(app);
   db = getFirestore(app);
 }
@@ -542,6 +542,8 @@ function renderPolicy() {
     <section class="card"><h3>1. Dữ liệu cá nhân</h3>
       <p>Đăng nhập bằng Google chỉ để xác định người thi. Trang lưu trên Firebase (Google, máy chủ Singapore): mã người dùng, tên hiển thị (đầy đủ hoặc viết tắt theo lựa chọn), ảnh đại diện, kết quả, thời gian làm bài. Trang không lưu email, không bán hay chia sẻ dữ liệu cho bên thứ ba.</p>
       <p>Mục đích: chấm điểm, lưu lịch sử, lập bảng xếp hạng công khai (hiển thị tên đã chọn và điểm). Người dùng có thể đổi cách hiển thị tên ở tab "Lịch sử của tôi" và yêu cầu xóa dữ liệu qua email liên hệ.</p></section>
+    <section class="card"><h3>1a. Trợ lý hỏi đáp AI</h3>
+      <p>Trợ lý dùng mô hình Gemini của Google qua Firebase AI Logic. Câu hỏi của người dùng cùng các đoạn nội dung liên quan của Sổ tay được gửi tới Google để tạo câu trả lời; Sổ tay không lưu lịch sử hỏi đáp trên máy chủ. Không nhập thông tin cá nhân, bí mật kinh doanh vào ô hỏi đáp. Câu trả lời do AI tạo, có thể sai, chỉ mang tính tham khảo.</p></section>
     <section class="card"><h3>2. Tin tức</h3>
       <p>Mục Tin tức chỉ hiển thị tiêu đề, tên nguồn, ngày đăng và đường dẫn đến bài gốc trên cổng thông tin của cơ quan nhà nước, doanh nghiệp ngành điện. Trang không sao chép nội dung, hình ảnh của bài viết.</p></section>
     <section class="card"><h3>3. Văn bản và đường dẫn</h3>
@@ -595,3 +597,103 @@ boot();
 
 /* Nút lên đầu trang */
 { const b = $("#totop"); if (b) { const f = () => b.classList.toggle("show", scrollY > 500); addEventListener("scroll", f, { passive: true }); f(); b.onclick = () => smoothTo(0); } }
+
+/* ---------- Trợ lý hỏi đáp AI (Gemini qua Firebase AI Logic) ----------
+   Chỉ trả lời dựa trên nội dung trang: chọn các đoạn dữ liệu liên quan nhất rồi gửi kèm câu hỏi. */
+const FB = "https://www.gstatic.com/firebasejs/12.11.0/";
+let aiModel = null, aiBusy = false, chunks = null;
+const fold = t => String(t).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/đ/g, "d");
+function buildChunks() {
+  const C = [];
+  const T = DATA.tech;
+  if (T) T.items.forEach(t => {
+    const rows = t.sheets.map(sh => `${sh.name} (trang ${sh.page}): ` + sh.rows.map(r => `${r[0]} ${r.slice(2).join("/")} ${r[1]}`).join("; ")).join(" | ");
+    const pot = t.potential ? [(t.potential.kpis || []).map(k => k.join(": ")).join("; "), t.potential.table ? t.potential.table.rows.map(r => r.join(" – ")).join("; ") : "", t.potential.chart ? t.potential.chart.title + ": " + t.potential.chart.cats.map((c, i) => c + " " + t.potential.chart.series.map(s => s.values[i]).join("+")).join("; ") : ""].join(" ") : "";
+    C.push({ title: "Cẩm nang công nghệ – " + t.name, link: "#cong-nghe/" + t.id, src: `${T.sources[t.src].title}, ${t.chapter}`, text: `${t.summary} Việt Nam: ${(t.vn || []).join(" ")} Tiềm năng: ${pot} Ưu điểm: ${t.pros.join("; ")} Nhược điểm: ${t.cons.join("; ")} Số liệu (các mốc năm theo bảng): ${rows}` });
+  });
+  const L = DATA.lookup || {};
+  if (L.gen) C.push({ title: "Khung giá phát điện", link: "#tra-cuu", src: "Mục IV. Tra cứu nhanh", text: "Giá tối đa đồng/kWh chưa VAT (Bắc/Trung/Nam, năm, văn bản): " + L.gen.map(r => `${r[0]}: ${r[1]}/${r[2]}/${r[3]} (${r[4]}, ${r[5]})`).join("; ") + " " + (L.genNotes || []).join(" ") });
+  if (L.other) C.push({ title: "Cơ chế giá khác", link: "#tra-cuu", src: "Mục IV. Tra cứu nhanh", text: L.other.map(r => r.slice(0, 3).join(" – ")).join("; ") });
+  if (L.docs) [...new Set(L.docs.map(r => r[0]))].forEach(f => C.push({ title: "Văn bản pháp luật – " + f, link: "#tra-cuu", src: "Mục IV. Tra cứu nhanh", text: L.docs.filter(r => r[0] === f).map(r => `${r[1]} ${r[2]}: ${r[3]}`).join("; ") }));
+  (DATA.questions || []).forEach(q => C.push({ title: "Câu hỏi " + q.topic, link: "#tu-kiem-tra", src: q.b, text: `Hỏi: ${q.q} Đáp án đúng: ${q.o[q.a]}. Giải thích: ${q.e} Căn cứ: ${q.b}` }));
+  (DATA.risks || []).forEach(r => C.push({ title: "Rủi ro dự án – " + r.type, link: "#cong-nghe", src: "Sổ tay tổng hợp", text: r.items.map(i => `${i[1]}: ${i[2]} → ${i[3]}`).join("; ") }));
+  C.forEach(c => { c.f = fold(c.title + " " + c.text); });
+  return C;
+}
+function retrieve(q, k = 8) {
+  if (!chunks && DATA.tech) chunks = buildChunks();
+  if (!chunks) return [];
+  const w = fold(q).split(/[^a-z0-9.,%]+/).filter(x => x.length > 1);
+  const bi = w.slice(1).map((x, i) => w[i] + " " + x);
+  const scored = chunks.map(c => {
+    let s = 0;
+    w.forEach(x => { if (c.f.includes(x)) s += x.length > 3 ? 2 : 1; });
+    bi.forEach(x => { if (c.f.includes(x)) s += 4; });
+    if (w.some(x => fold(c.title).includes(x))) s += 3;
+    return [s, c];
+  }).filter(x => x[0] > 0).sort((a, b) => b[0] - a[0]).slice(0, k).map(x => x[1]);
+  let total = 0;
+  return scored.filter(c => (total += c.text.length) < 14000);
+}
+async function ensureAI() {
+  if (aiModel) return aiModel;
+  if (!RECAPTCHA_SITE_KEY) throw new Error("Trợ lý AI chưa được cấu hình App Check.");
+  const [{ initializeAppCheck, ReCaptchaV3Provider }, { getAI, getGenerativeModel, GoogleAIBackend }] = await Promise.all([import(FB + "firebase-app-check.js"), import(FB + "firebase-ai.js")]);
+  initializeAppCheck(app, { provider: new ReCaptchaV3Provider(RECAPTCHA_SITE_KEY), isTokenAutoRefreshEnabled: true });
+  const ai = getAI(app, { backend: new GoogleAIBackend() });
+  aiModel = getGenerativeModel(ai, {
+    model: AI_MODEL,
+    systemInstruction: "Bạn là trợ lý của trang Sổ tay đầu tư xây dựng ngành điện (Việt Nam). Chỉ trả lời dựa trên các đoạn TƯ LIỆU được cung cấp trong mỗi câu hỏi. Nếu tư liệu không đủ để trả lời, nói rõ 'Sổ tay chưa có thông tin này' và gợi ý mục liên quan, không tự suy đoán hay dùng kiến thức ngoài. Trả lời bằng tiếng Việt, ngắn gọn, nêu kết luận trước, giữ nguyên số liệu, đơn vị, số hiệu văn bản như trong tư liệu. Ghi nguồn bằng ký hiệu [số] tương ứng với đoạn tư liệu đã dùng. Không đưa lời khuyên pháp lý, đầu tư có tính ràng buộc.",
+    generationConfig: { temperature: 0.2, maxOutputTokens: 900 }
+  });
+  return aiModel;
+}
+const DAY_LIMIT = 30;
+const usageKey = () => "stnl-ai-" + (user ? user.uid : "x") + "-" + new Date().toISOString().slice(0, 10);
+function renderAnswer(text, ctx) {
+  let h = esc(text).replace(/\*\*(.+?)\*\*/g, "<b>$1</b>").replace(/^\s*[-*•]\s+(.*)$/gm, "<li>$1</li>").replace(/(<li>.*<\/li>\n?)+/g, m => `<ul>${m}</ul>`).replace(/\n{2,}/g, "<br><br>").replace(/\n/g, "<br>");
+  h = h.replace(/\[(\d+)\]/g, (m, n) => { const c = ctx[+n - 1]; return c ? `<a class="cite" href="${c.link}" title="${esc(c.title)}">[${n}]</a>` : m; });
+  return h;
+}
+function chatUI() {
+  const box = document.createElement("div");
+  box.innerHTML = `<button id="ai-fab" class="ai-fab" type="button" aria-label="Hỏi đáp AI" title="Hỏi đáp AI"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M4 5h16v11H8l-4 4z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M8 9.5h8M8 12.5h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span>Hỏi đáp</span></button>
+  <section id="ai-panel" class="ai-panel" hidden aria-label="Trợ lý hỏi đáp">
+    <header><b>Trợ lý Sổ tay</b><span class="hint">Gemini · trả lời theo nội dung trang</span><button type="button" class="ai-x" aria-label="Đóng">×</button></header>
+    <div class="ai-log" id="ai-log" aria-live="polite"></div>
+    <form id="ai-form"><textarea id="ai-q" rows="2" maxlength="600" placeholder="Ví dụ: Suất đầu tư điện gió ngoài khơi 2030?"></textarea><button class="btn primary" type="submit">Gửi</button></form>
+    <p class="ai-note">AI có thể sai. Câu trả lời chỉ dựa trên nội dung Sổ tay, không thay thế văn bản gốc hay tư vấn chuyên môn. Không nhập thông tin cá nhân, bí mật.</p>
+  </section>`;
+  document.body.append(...box.children);
+  const panel = $("#ai-panel"), log = $("#ai-log");
+  const add = (cls, html) => { const d = document.createElement("div"); d.className = "ai-msg " + cls; d.innerHTML = html; log.append(d); log.scrollTop = log.scrollHeight; return d; };
+  const greet = () => { log.innerHTML = ""; add("bot", user ? "Xin chào. Anh/chị hỏi về công nghệ, khung giá, quy định đấu nối, đầu tư xây dựng… Tôi trả lời theo nội dung Sổ tay và ghi nguồn [số] bấm được." : `Đăng nhập Google để dùng trợ lý hỏi đáp. <button class="btn" type="button" data-login>Đăng nhập</button>`); log.querySelector("[data-login]")?.addEventListener("click", login); };
+  $("#ai-fab").onclick = () => { panel.hidden = !panel.hidden; document.body.classList.toggle("ai-open", !panel.hidden); if (!panel.hidden) { if (!log.children.length || !user || log.querySelector("[data-login]")) greet(); $("#ai-q").focus(); } };
+  panel.querySelector(".ai-x").onclick = () => { panel.hidden = true; document.body.classList.remove("ai-open"); };
+  $("#ai-q").addEventListener("keydown", e => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); $("#ai-form").requestSubmit(); } });
+  $("#ai-form").onsubmit = async e => {
+    e.preventDefault();
+    const q = $("#ai-q").value.trim();
+    if (!q || aiBusy) return;
+    if (!user) { greet(); return; }
+    const used = +store.get(usageKey(), 0);
+    if (used >= DAY_LIMIT) { add("bot", `Anh/chị đã dùng hết ${DAY_LIMIT} câu hỏi hôm nay. Vui lòng quay lại ngày mai.`); return; }
+    $("#ai-q").value = ""; add("me", esc(q));
+    const out = add("bot", `<span class="hint">Đang tra cứu…</span>`);
+    aiBusy = true;
+    try {
+      const ctx = retrieve(q);
+      if (!ctx.length) { out.innerHTML = "Sổ tay chưa có nội dung liên quan đến câu hỏi này. Anh/chị thử diễn đạt khác hoặc dùng ô tìm kiếm phía trên."; return; }
+      const model = await ensureAI();
+      const prompt = "TƯ LIỆU:\n" + ctx.map((c, i) => `[${i + 1}] ${c.title} (nguồn: ${c.src})\n${c.text}`).join("\n\n") + "\n\nCÂU HỎI: " + q;
+      const res = await model.generateContentStream(prompt);
+      let txt = "";
+      for await (const ch of res.stream) { txt += ch.text(); out.innerHTML = renderAnswer(txt, ctx); log.scrollTop = log.scrollHeight; }
+      out.innerHTML = renderAnswer(txt || "Không nhận được câu trả lời.", ctx) + `<div class="ai-src">Tư liệu: ${ctx.slice(0, 5).map((c, i) => `<a href="${c.link}">[${i + 1}] ${esc(c.title)}</a>`).join(" · ")}</div>`;
+      store.set(usageKey(), used + 1);
+    } catch (err) {
+      out.innerHTML = `Không gọi được trợ lý AI (${esc(err.message || err)}). Vui lòng thử lại sau.`;
+    } finally { aiBusy = false; }
+  };
+}
+if (configured) chatUI();
