@@ -673,5 +673,605 @@
   "a": 2,
   "e": "Điểm a khoản 6 Điều 40: tăng tổng mức đầu tư vượt quá 10% mức quy định đối với dự án chỉ lập BCKTKT thì phải lập BCNCKT điều chỉnh.",
   "b": "Điểm a khoản 6 Điều 40 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "c01",
+  "topic": "NĐ 217 – Khảo sát, thiết kế xây dựng",
+  "level": 1,
+  "q": "Trình tự khảo sát xây dựng theo Điều 10 NĐ 217/2026 bắt đầu bằng bước nào?",
+  "o": [
+   "Lập, phê duyệt phương án kỹ thuật khảo sát",
+   "Thực hiện khảo sát hiện trường",
+   "Nghiệm thu kết quả khảo sát",
+   "Lập, phê duyệt nhiệm vụ khảo sát xây dựng"
+  ],
+  "a": 3,
+  "e": "Điều 10: (1) lập, phê duyệt nhiệm vụ khảo sát; (2) lập, phê duyệt phương án kỹ thuật khảo sát; (3) thực hiện khảo sát; (4) nghiệm thu, phê duyệt kết quả.",
+  "b": "Điều 10 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "c02",
+  "topic": "NĐ 217 – Khảo sát, thiết kế xây dựng",
+  "level": 1,
+  "q": "Ai lập phương án kỹ thuật khảo sát xây dựng?",
+  "o": [
+   "Nhà thầu tư vấn thiết kế",
+   "Nhà thầu khảo sát xây dựng",
+   "Chủ đầu tư",
+   "Cơ quan chuyên môn về xây dựng"
+  ],
+  "a": 1,
+  "e": "Khoản 1 Điều 12: nhà thầu khảo sát xây dựng lập phương án kỹ thuật khảo sát phù hợp với nhiệm vụ khảo sát được phê duyệt.",
+  "b": "Khoản 1 Điều 12 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "c03",
+  "topic": "NĐ 217 – Khảo sát, thiết kế xây dựng",
+  "level": 2,
+  "q": "Trường hợp nào nhiệm vụ khảo sát xây dựng được sửa đổi, bổ sung?",
+  "o": [
+   "Khi giá vật liệu tăng",
+   "Khi chủ đầu tư thay đổi nhà thầu khảo sát",
+   "Khi trong thi công phát hiện yếu tố địa chất khác thường, không đáp ứng nhiệm vụ khảo sát đã duyệt",
+   "Khi chậm tiến độ khảo sát quá 30 ngày"
+  ],
+  "a": 2,
+  "e": "Điểm c khoản 5 Điều 11: phát hiện yếu tố địa chất khác thường trong thi công, nhiệm vụ khảo sát đã duyệt không đáp ứng, có thể ảnh hưởng chất lượng công trình hoặc biện pháp thi công.",
+  "b": "Điểm c khoản 5 Điều 11 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "c04",
+  "topic": "NĐ 217 – Khảo sát, thiết kế xây dựng",
+  "level": 2,
+  "q": "Chủ đầu tư có quyền gì khi phát hiện nhà thầu khảo sát không thực hiện đúng phương án khảo sát đã duyệt?",
+  "o": [
+   "Tự ý thay nhà thầu không cần căn cứ hợp đồng",
+   "Báo cáo Sở Xây dựng xử lý",
+   "Chỉ được nhắc nhở bằng văn bản",
+   "Đình chỉ công việc khảo sát"
+  ],
+  "a": 3,
+  "e": "Khoản 3 Điều 13: chủ đầu tư hoặc cơ quan chuẩn bị dự án được quyền đình chỉ công việc khảo sát.",
+  "b": "Khoản 3 Điều 13 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "c05",
+  "topic": "NĐ 217 – Khảo sát, thiết kế xây dựng",
+  "level": 2,
+  "q": "Việc chủ đầu tư phê duyệt Báo cáo kết quả khảo sát ảnh hưởng thế nào đến trách nhiệm của nhà thầu khảo sát?",
+  "o": [
+   "Chia đều trách nhiệm giữa hai bên",
+   "Miễn trách nhiệm cho nhà thầu sau 12 tháng",
+   "Không thay thế và không làm giảm trách nhiệm về chất lượng khảo sát của nhà thầu",
+   "Chuyển toàn bộ trách nhiệm sang chủ đầu tư"
+  ],
+  "a": 2,
+  "e": "Khoản 2 Điều 15: nhà thầu khảo sát chịu trách nhiệm toàn diện; việc phê duyệt không thay thế, không làm giảm trách nhiệm của nhà thầu.",
+  "b": "Khoản 2 Điều 15 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "c06",
+  "topic": "NĐ 217 – Khảo sát, thiết kế xây dựng",
+  "level": 1,
+  "q": "Ai quyết định số bước thiết kế xây dựng trước hoặc khi phê duyệt dự án?",
+  "o": [
+   "Sở Xây dựng",
+   "Cơ quan chuyên môn về xây dựng",
+   "Người quyết định đầu tư",
+   "Nhà thầu tư vấn thiết kế"
+  ],
+  "a": 2,
+  "e": "Khoản 2 Điều 16: người quyết định đầu tư quyết định số bước thiết kế; nếu được giao tại quyết định phê duyệt dự án thì chủ đầu tư quyết định số bước thiết kế triển khai sau.",
+  "b": "Khoản 2 Điều 16 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "c07",
+  "topic": "NĐ 217 – Khảo sát, thiết kế xây dựng",
+  "level": 1,
+  "q": "Thiết kế một bước theo NĐ 217/2026 là loại thiết kế nào?",
+  "o": [
+   "Thiết kế FEED",
+   "Thiết kế cơ sở",
+   "Thiết kế kỹ thuật",
+   "Thiết kế bản vẽ thi công"
+  ],
+  "a": 3,
+  "e": "Điểm a khoản 3 Điều 16: thiết kế một bước là thiết kế bản vẽ thi công.",
+  "b": "Điểm a khoản 3 Điều 16 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "c08",
+  "topic": "NĐ 217 – Khảo sát, thiết kế xây dựng",
+  "level": 2,
+  "q": "Tổ hợp nào sau đây là thiết kế hai bước theo NĐ 217/2026?",
+  "o": [
+   "Thiết kế bản vẽ thi công + chỉ dẫn kỹ thuật",
+   "Thiết kế cơ sở + thiết kế kỹ thuật + thiết kế bản vẽ thi công",
+   "Thiết kế FEED + thiết kế bản vẽ thi công",
+   "Thiết kế sơ bộ + thiết kế cơ sở"
+  ],
+  "a": 2,
+  "e": "Điểm b khoản 3 Điều 16: thiết kế hai bước gồm TKCS + TKBVTC; FEED + TKBVTC; TKKT + TKBVTC.",
+  "b": "Điểm b khoản 3 Điều 16 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "c09",
+  "topic": "NĐ 217 – Khảo sát, thiết kế xây dựng",
+  "level": 3,
+  "q": "Chủ đầu tư báo cáo người quyết định đầu tư về thay đổi thiết kế triển khai sau (không thuộc điều chỉnh dự án). Nếu người quyết định đầu tư không có ý kiến sau bao lâu thì chủ đầu tư được phê duyệt thiết kế?",
+  "o": [
+   "10 ngày làm việc",
+   "05 ngày làm việc",
+   "15 ngày",
+   "03 ngày làm việc"
+  ],
+  "a": 1,
+  "e": "Khoản 8 Điều 16: sau 05 ngày làm việc kể từ khi nhận đủ hồ sơ mà người quyết định đầu tư không có ý kiến, chủ đầu tư quyết định phê duyệt thiết kế.",
+  "b": "Khoản 8 Điều 16 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "c10",
+  "topic": "NĐ 217 – Khảo sát, thiết kế xây dựng",
+  "level": 3,
+  "q": "Với công trình theo tuyến (như đường dây), thay đổi nào ở thiết kế triển khai sau KHÔNG được coi là phù hợp với bước thiết kế trước?",
+  "o": [
+   "Thay đổi giải pháp kết cấu chính của công trình chính thuộc dự án (không phải cục bộ)",
+   "Thay đổi vật liệu hoàn thiện",
+   "Chuẩn xác lại số liệu tính toán",
+   "Thay đổi cục bộ giải pháp kết cấu"
+  ],
+  "a": 0,
+  "e": "Điểm a khoản 6 Điều 16: với công trình theo tuyến, thay đổi quy mô đầu tư (trừ chuẩn xác số liệu) hoặc thay đổi giải pháp kết cấu chính của công trình chính (trừ thay đổi cục bộ) thì không còn phù hợp bước trước.",
+  "b": "Điểm a khoản 6 Điều 16 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "c11",
+  "topic": "NĐ 217 – Khảo sát, thiết kế xây dựng",
+  "level": 2,
+  "q": "Nhiệm vụ thiết kế xây dựng theo Điều 17 phải có yêu cầu nào liên quan đến chuyển đổi số?",
+  "o": [
+   "Yêu cầu chứng thư số của nhà thầu thi công",
+   "Yêu cầu nộp hồ sơ giấy 08 bộ",
+   "Yêu cầu về mức độ, nhu cầu thông tin trong mô hình BIM của dự án",
+   "Yêu cầu sử dụng phần mềm do Bộ Xây dựng chỉ định"
+  ],
+  "a": 2,
+  "e": "Điểm g khoản 3 Điều 17: nhiệm vụ thiết kế gồm các yêu cầu về mức độ, nhu cầu thông tin trong mô hình BIM của dự án.",
+  "b": "Điểm g khoản 3 Điều 17 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "c12",
+  "topic": "NĐ 217 – Khảo sát, thiết kế xây dựng",
+  "level": 3,
+  "q": "Nội dung nào là riêng của nhiệm vụ thiết kế FEED so với nhiệm vụ thiết kế thông thường?",
+  "o": [
+   "Mục tiêu xây dựng công trình",
+   "Yêu cầu về chi phí, định hướng biện pháp, kế hoạch thi công tổng thể và quản lý rủi ro của dự án",
+   "Căn cứ lập nhiệm vụ thiết kế",
+   "Địa điểm xây dựng"
+  ],
+  "a": 1,
+  "e": "Điểm c khoản 4 Điều 17: nhiệm vụ thiết kế FEED có thêm yêu cầu về chi phí, định hướng biện pháp, kế hoạch thi công tổng thể và quản lý rủi ro.",
+  "b": "Điểm c khoản 4 Điều 17 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "c13",
+  "topic": "NĐ 217 – Khảo sát, thiết kế xây dựng",
+  "level": 1,
+  "q": "Khung tên bản vẽ thiết kế xây dựng phải có chữ ký của những ai?",
+  "o": [
+   "Giám đốc tổ chức tư vấn và đại diện cơ quan thẩm định",
+   "Chỉ chủ nhiệm thiết kế",
+   "Chủ đầu tư và nhà thầu thi công",
+   "Người trực tiếp thiết kế, người kiểm tra thiết kế, chủ trì thiết kế, chủ nhiệm thiết kế"
+  ],
+  "a": 3,
+  "e": "Khoản 2 Điều 18: khung tên có tên, chữ ký của người trực tiếp thiết kế, người kiểm tra, chủ trì thiết kế, chủ nhiệm thiết kế; tổ chức tư vấn ký, đóng dấu.",
+  "b": "Khoản 2 Điều 18 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "c14",
+  "topic": "NĐ 217 – Khảo sát, thiết kế xây dựng",
+  "level": 1,
+  "q": "Thiết kế sơ bộ được lập ở đâu?",
+  "o": [
+   "Tại hồ sơ đề nghị cấp giấy phép xây dựng",
+   "Tại Báo cáo nghiên cứu tiền khả thi hoặc trong giai đoạn chuẩn bị dự án",
+   "Tại hồ sơ mời thầu thi công",
+   "Tại hồ sơ hoàn công"
+  ],
+  "a": 1,
+  "e": "Khoản 1 Điều 19: thiết kế sơ bộ được lập tại BCNCTKT hoặc trong giai đoạn chuẩn bị dự án làm cơ sở cho các bước thiết kế tiếp theo.",
+  "b": "Khoản 1 Điều 19 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "c15",
+  "topic": "NĐ 217 – Khảo sát, thiết kế xây dựng",
+  "level": 2,
+  "q": "Với công trình theo tuyến, bản vẽ thiết kế cơ sở thay tổng mặt bằng bằng bản vẽ gì?",
+  "o": [
+   "Bản đồ địa chính",
+   "Sơ đồ tổ chức thi công",
+   "Bản vẽ hoàn công",
+   "Bản vẽ phương án tuyến công trình"
+  ],
+  "a": 3,
+  "e": "Điểm a khoản 3 Điều 20: tổng mặt bằng công trình hoặc bản vẽ phương án tuyến công trình đối với công trình theo tuyến.",
+  "b": "Điểm a khoản 3 Điều 20 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "c16",
+  "topic": "NĐ 217 – Khảo sát, thiết kế xây dựng",
+  "level": 2,
+  "q": "Thiết kế FEED được lập cho loại dự án nào?",
+  "o": [
+   "Dự án chỉ lập BCKTKT",
+   "Dự án nhà ở riêng lẻ",
+   "Mọi dự án nhóm A",
+   "Dự án có thiết kế công nghệ"
+  ],
+  "a": 3,
+  "e": "Khoản 1 Điều 21: thiết kế FEED được lập đối với dự án có thiết kế công nghệ, cụ thể hóa phương án công nghệ, thông số thiết bị, vật liệu chủ yếu.",
+  "b": "Khoản 1 Điều 21 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "c17",
+  "topic": "NĐ 217 – Khảo sát, thiết kế xây dựng",
+  "level": 3,
+  "q": "Thuyết minh tính toán kết cấu ở thiết kế kỹ thuật phải có bảng tổng hợp kết quả tính toán thể hiện tiêu chí nào?",
+  "o": [
+   "Chỉ tổng khối lượng thép",
+   "Chi phí kết cấu theo từng hạng mục",
+   "Chỉ hệ số an toàn tổng thể",
+   "Ổn định, chuyển vị, biến dạng giới hạn của nền móng; khả năng chịu lực, biến dạng của cấu kiện chịu lực, có đối chiếu quy chuẩn, tiêu chuẩn"
+  ],
+  "a": 3,
+  "e": "Điểm c khoản 2 Điều 22: bảng tổng hợp thể hiện tiêu chí đánh giá an toàn kết cấu, đối chiếu thông số tương ứng tại quy chuẩn kỹ thuật, tiêu chuẩn.",
+  "b": "Điểm c khoản 2 Điều 22 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "c18",
+  "topic": "NĐ 217 – Khảo sát, thiết kế xây dựng",
+  "level": 2,
+  "q": "Chỉ dẫn kỹ thuật bắt buộc lập riêng đối với công trình nào?",
+  "o": [
+   "Công trình cấp đặc biệt, cấp I hoặc quy mô lớn, kỹ thuật phức tạp theo yêu cầu chủ đầu tư",
+   "Chỉ công trình cấp III, IV",
+   "Mọi công trình",
+   "Chỉ công trình nhà ở riêng lẻ"
+  ],
+  "a": 0,
+  "e": "Khoản 3 Điều 24: lập riêng với công trình cấp đặc biệt, cấp I hoặc quy mô lớn, kỹ thuật phức tạp theo yêu cầu chủ đầu tư; công trình khác có thể lập riêng hoặc nêu trong thuyết minh.",
+  "b": "Khoản 3 Điều 24 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "c19",
+  "topic": "NĐ 217 – Khảo sát, thiết kế xây dựng",
+  "level": 1,
+  "q": "Chỉ dẫn kỹ thuật được phê duyệt có vai trò gì trong đấu thầu?",
+  "o": [
+   "Thay thế hồ sơ thiết kế bản vẽ thi công",
+   "Không liên quan đến đấu thầu",
+   "Chỉ dùng cho nghiệm thu",
+   "Là một thành phần của hồ sơ mời thầu thi công xây dựng"
+  ],
+  "a": 3,
+  "e": "Khoản 2 Điều 24: chỉ dẫn kỹ thuật được phê duyệt là một thành phần của hồ sơ mời thầu thi công xây dựng.",
+  "b": "Khoản 2 Điều 24 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "c20",
+  "topic": "NĐ 217 – Thẩm định thiết kế, quản lý dự án",
+  "level": 1,
+  "q": "Ai thẩm định bước thiết kế được triển khai ngay trước khi lựa chọn nhà thầu thi công, EPC, EC, EP?",
+  "o": [
+   "Sở Xây dựng",
+   "Cơ quan chuyên môn về xây dựng",
+   "Chủ đầu tư",
+   "Người quyết định đầu tư"
+  ],
+  "a": 2,
+  "e": "Khoản 1 Điều 41: chủ đầu tư thẩm định bước thiết kế triển khai ngay trước khi lựa chọn nhà thầu thi công, EPC, EC, EP làm cơ sở phê duyệt.",
+  "b": "Khoản 1 Điều 41 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "c21",
+  "topic": "NĐ 217 – Thẩm định thiết kế, quản lý dự án",
+  "level": 2,
+  "q": "Với các bước thiết kế triển khai sau còn lại (không phải bước ngay trước khi chọn nhà thầu), chủ đầu tư xử lý thế nào?",
+  "o": [
+   "Không cần kiểm soát",
+   "Quyết định việc kiểm soát thiết kế theo hợp đồng xây dựng và quy định pháp luật",
+   "Bắt buộc trình cơ quan chuyên môn thẩm định",
+   "Trình người quyết định đầu tư phê duyệt"
+  ],
+  "a": 1,
+  "e": "Khoản 1 Điều 41: các bước thiết kế còn lại do chủ đầu tư quyết định việc kiểm soát thiết kế theo hợp đồng xây dựng và quy định pháp luật.",
+  "b": "Khoản 1 Điều 41 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "c22",
+  "topic": "NĐ 217 – Thẩm định thiết kế, quản lý dự án",
+  "level": 2,
+  "q": "Với công trình thuộc dự án đầu tư kinh doanh của doanh nghiệp nhà nước, việc thẩm định, xác định dự toán xây dựng do ai quyết định?",
+  "o": [
+   "Chủ đầu tư tự quyết định, bảo đảm hiệu quả sử dụng vốn",
+   "Cơ quan chuyên môn về xây dựng",
+   "Bộ Tài chính",
+   "Kiểm toán nhà nước"
+  ],
+  "a": 0,
+  "e": "Điểm d khoản 2 Điều 41: chủ đầu tư tự quyết định việc thẩm định, xác định dự toán xây dựng bảo đảm hiệu quả sử dụng vốn của doanh nghiệp.",
+  "b": "Điểm d khoản 2 Điều 41 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "c23",
+  "topic": "NĐ 217 – Thẩm định thiết kế, quản lý dự án",
+  "level": 2,
+  "q": "Khi Báo cáo kết quả thẩm tra thiết kế chưa đủ cơ sở kết luận, đơn vị thẩm định có quyền gì?",
+  "o": [
+   "Yêu cầu bổ sung, hoàn thiện Báo cáo kết quả thẩm tra",
+   "Chuyển hồ sơ lên Bộ Xây dựng",
+   "Hủy hợp đồng thẩm tra",
+   "Tự kết luận thay thẩm tra"
+  ],
+  "a": 0,
+  "e": "Điểm b khoản 4 Điều 41: đơn vị thẩm định được quyền yêu cầu bổ sung, hoàn thiện Báo cáo kết quả thẩm tra.",
+  "b": "Điểm b khoản 4 Điều 41 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "c24",
+  "topic": "NĐ 217 – Thẩm định thiết kế, quản lý dự án",
+  "level": 1,
+  "q": "Quyết định phê duyệt thiết kế triển khai sau khi dự án được phê duyệt phải nêu nội dung nào?",
+  "o": [
+   "Tiến độ giải ngân theo quý",
+   "Giá gói thầu tư vấn giám sát đã ký",
+   "Danh sách công nhân thi công",
+   "Giá trị dự toán xây dựng theo từng khoản mục chi phí"
+  ],
+  "a": 3,
+  "e": "Điểm k khoản 1 Điều 42: giá trị dự toán xây dựng theo từng khoản mục chi phí; cùng tên công trình, loại cấp, nhà thầu, thời hạn sử dụng theo thiết kế…",
+  "b": "Điểm k khoản 1 Điều 42 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "c25",
+  "topic": "NĐ 217 – Thẩm định thiết kế, quản lý dự án",
+  "level": 3,
+  "q": "Chủ đầu tư được ủy quyền cho Ban quản lý dự án phê duyệt thiết kế xây dựng, trừ trường hợp nào?",
+  "o": [
+   "Áp dụng hình thức thuê tư vấn quản lý dự án",
+   "Công trình cấp I",
+   "Dự án có vốn ODA",
+   "Dự án đầu tư công"
+  ],
+  "a": 0,
+  "e": "Khoản 3 Điều 42: được ủy quyền cho Ban quản lý dự án phê duyệt thiết kế, trừ trường hợp thuê tư vấn quản lý dự án.",
+  "b": "Khoản 3 Điều 42 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "c26",
+  "topic": "NĐ 217 – Thẩm định thiết kế, quản lý dự án",
+  "level": 2,
+  "q": "Chưa thi công, chủ đầu tư muốn điều chỉnh thiết kế triển khai sau, không dẫn đến điều chỉnh dự án. Chủ đầu tư phải làm gì trước?",
+  "o": [
+   "Báo cáo người quyết định đầu tư xem xét, chấp thuận trước khi thực hiện",
+   "Xin ý kiến cơ quan chuyên môn về xây dựng",
+   "Không cần làm gì",
+   "Xin điều chỉnh giấy phép xây dựng"
+  ],
+  "a": 0,
+  "e": "Khoản 2 Điều 43: chủ đầu tư báo cáo người quyết định đầu tư xem xét, chấp thuận trước khi thực hiện.",
+  "b": "Khoản 2 Điều 43 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "c27",
+  "topic": "NĐ 217 – Thẩm định thiết kế, quản lý dự án",
+  "level": 1,
+  "q": "Hình thức quản lý dự án đối với dự án đầu tư công theo NĐ 217/2026 là gì?",
+  "o": [
+   "Tổng thầu EPC quản lý",
+   "Ban quản lý dự án đầu tư xây dựng",
+   "Chủ đầu tư tự quản lý",
+   "Thuê tư vấn quản lý dự án"
+  ],
+  "a": 1,
+  "e": "Khoản 2 Điều 44: dự án đầu tư công áp dụng hình thức Ban quản lý dự án đầu tư xây dựng (có ngoại lệ khi Ban không đủ điều kiện).",
+  "b": "Khoản 2 Điều 44 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "c28",
+  "topic": "NĐ 217 – Thẩm định thiết kế, quản lý dự án",
+  "level": 2,
+  "q": "Hình thức quản lý dự án của dự án đầu tư kinh doanh do ai quyết định?",
+  "o": [
+   "Người quyết định đầu tư, phù hợp yêu cầu quản lý và điều kiện cụ thể",
+   "Nhà thầu thi công",
+   "Sở Xây dựng",
+   "Ngân hàng cho vay"
+  ],
+  "a": 0,
+  "e": "Khoản 3 Điều 44: người quyết định đầu tư quyết định hình thức quản lý dự án theo khoản 1 Điều 32 Luật XD 2025.",
+  "b": "Khoản 3 Điều 44 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "c29",
+  "topic": "NĐ 217 – Thẩm định thiết kế, quản lý dự án",
+  "level": 2,
+  "q": "Với dự án dùng vốn ODA, hình thức tổ chức quản lý dự án áp dụng theo đâu trước tiên?",
+  "o": [
+   "Theo hướng dẫn của Sở Tài chính",
+   "Theo NĐ 217/2026",
+   "Theo điều ước quốc tế, văn bản thỏa thuận về vốn ODA, vốn vay ưu đãi",
+   "Theo quyết định của chủ đầu tư"
+  ],
+  "a": 2,
+  "e": "Khoản 4 Điều 44: áp dụng theo điều ước quốc tế, văn bản thỏa thuận về vốn ODA; không có quy định cụ thể mới theo NĐ 217.",
+  "b": "Khoản 4 Điều 44 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "c30",
+  "topic": "NĐ 217 – Thẩm định thiết kế, quản lý dự án",
+  "level": 3,
+  "q": "Ban quản lý dự án trực thuộc chủ đầu tư (Điều 47) chấm dứt hoạt động thế nào?",
+  "o": [
+   "Tự giải thể sau khi hoàn thành công việc quản lý dự án được giao",
+   "Chuyển thành đơn vị sự nghiệp công lập",
+   "Tồn tại vô thời hạn",
+   "Do UBND tỉnh quyết định giải thể"
+  ],
+  "a": 0,
+  "e": "Khoản 7 Điều 47: Ban quản lý dự án trực thuộc chủ đầu tư tự giải thể sau khi hoàn thành công việc được giao.",
+  "b": "Khoản 7 Điều 47 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "c31",
+  "topic": "NĐ 217 – Thẩm định thiết kế, quản lý dự án",
+  "level": 2,
+  "q": "Ban quản lý dự án trực thuộc chủ đầu tư có đặc điểm pháp lý nào?",
+  "o": [
+   "Là pháp nhân độc lập với chủ đầu tư",
+   "Phải đăng ký kinh doanh",
+   "Có con dấu riêng, được mở tài khoản tại Kho bạc hoặc ngân hàng thương mại",
+   "Không có con dấu, dùng con dấu của chủ đầu tư"
+  ],
+  "a": 2,
+  "e": "Khoản 2 Điều 47: có con dấu riêng và được mở tài khoản tại Kho bạc Nhà nước hoặc ngân hàng thương mại để thực hiện nhiệm vụ được giao.",
+  "b": "Khoản 2 Điều 47 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "c32",
+  "topic": "NĐ 217 – Giấy phép xây dựng",
+  "level": 1,
+  "q": "Thời hạn khởi công công trình ghi trong giấy phép xây dựng là bao lâu?",
+  "o": [
+   "Không quá 06 tháng kể từ ngày cấp hoặc gia hạn",
+   "Không quá 24 tháng",
+   "Không quá 18 tháng",
+   "Không quá 12 tháng kể từ ngày cấp hoặc gia hạn"
+  ],
+  "a": 3,
+  "e": "Khoản 10 Điều 49: thời hạn khởi công không quá 12 tháng kể từ ngày được cấp hoặc gia hạn giấy phép xây dựng.",
+  "b": "Khoản 10 Điều 49 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "c33",
+  "topic": "NĐ 217 – Giấy phép xây dựng",
+  "level": 1,
+  "q": "Cơ quan nào cấp giấy phép xây dựng cho công trình trong khu công nghiệp, khu kinh tế?",
+  "o": [
+   "Ban quản lý khu công nghiệp, khu chế xuất, khu công nghệ cao, khu kinh tế",
+   "Bộ Xây dựng",
+   "Sở Xây dựng",
+   "UBND cấp xã"
+  ],
+  "a": 0,
+  "e": "Khoản 2 Điều 53: Ban quản lý các khu cấp giấy phép xây dựng cho công trình trong phạm vi được giao quản lý.",
+  "b": "Khoản 2 Điều 53 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "c34",
+  "topic": "NĐ 217 – Giấy phép xây dựng",
+  "level": 2,
+  "q": "UBND cấp xã cấp giấy phép xây dựng cho công trình nào?",
+  "o": [
+   "Công trình cấp I trở lên",
+   "Mọi công trình trên địa bàn",
+   "Công trình cấp III, cấp IV và nhà ở riêng lẻ trên địa bàn (trừ công trình trong các khu)",
+   "Chỉ công trình tạm"
+  ],
+  "a": 2,
+  "e": "Khoản 1 Điều 53: UBND cấp xã cấp phép công trình cấp III, IV, nhà ở riêng lẻ trên địa bàn, trừ công trình thuộc khoản 2.",
+  "b": "Khoản 1 Điều 53 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "c35",
+  "topic": "NĐ 217 – Giấy phép xây dựng",
+  "level": 2,
+  "q": "Dự án có nhiều công trình với loại, cấp khác nhau thì thẩm quyền cấp giấy phép xây dựng xác định theo đâu?",
+  "o": [
+   "Do chủ đầu tư lựa chọn",
+   "Công trình có cấp cao nhất của dự án",
+   "Công trình có giá trị lớn nhất",
+   "Công trình khởi công đầu tiên"
+  ],
+  "a": 1,
+  "e": "Điểm c khoản 4 Điều 53: xác định theo công trình có cấp cao nhất của dự án.",
+  "b": "Điểm c khoản 4 Điều 53 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "c36",
+  "topic": "NĐ 217 – Giấy phép xây dựng",
+  "level": 2,
+  "q": "Thời gian cấp giấy phép xây dựng mới cho công trình không phải nhà ở riêng lẻ là bao lâu kể từ khi nhận đủ hồ sơ hợp lệ?",
+  "o": [
+   "10 ngày làm việc",
+   "07 ngày làm việc",
+   "20 ngày",
+   "09 ngày làm việc"
+  ],
+  "a": 0,
+  "e": "Điểm b khoản 1 Điều 54: công trình còn lại cấp mới, di dời, có thời hạn trong 10 ngày làm việc; điều chỉnh, sửa chữa, cải tạo 09 ngày; nhà ở riêng lẻ 07 ngày; gia hạn, cấp lại 05 ngày.",
+  "b": "Điểm b khoản 1 Điều 54 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "c37",
+  "topic": "NĐ 217 – Giấy phép xây dựng",
+  "level": 2,
+  "q": "Mỗi giấy phép xây dựng được gia hạn tối đa mấy lần, mỗi lần bao lâu?",
+  "o": [
+   "02 lần, mỗi lần 06 tháng",
+   "02 lần, mỗi lần 12 tháng",
+   "03 lần, mỗi lần 06 tháng",
+   "01 lần, 12 tháng"
+  ],
+  "a": 1,
+  "e": "Điểm a khoản 3 Điều 63: mỗi giấy phép xây dựng chỉ được gia hạn tối đa 02 lần, mỗi lần 12 tháng.",
+  "b": "Điểm a khoản 3 Điều 63 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "c38",
+  "topic": "NĐ 217 – Giấy phép xây dựng",
+  "level": 3,
+  "q": "Thay đổi nào trong thiết kế bắt buộc chủ đầu tư phải đề nghị điều chỉnh giấy phép xây dựng?",
+  "o": [
+   "Thay đổi nhà thầu thi công",
+   "Thay đổi số tầng hoặc giải pháp kết cấu chính của công trình",
+   "Thay đổi nhà cung cấp thiết bị cùng thông số",
+   "Thay đổi màu sơn nội thất"
+  ],
+  "a": 1,
+  "e": "Điểm b khoản 1 Điều 63: thay đổi vị trí xây dựng, diện tích xây dựng, số tầng, giải pháp kết cấu chính phải điều chỉnh giấy phép.",
+  "b": "Điểm b khoản 1 Điều 63 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "c39",
+  "topic": "NĐ 217 – Giấy phép xây dựng",
+  "level": 2,
+  "q": "Chủ đầu tư không nộp lại giấy phép xây dựng trong bao lâu kể từ ngày có quyết định thu hồi thì giấy phép bị hủy?",
+  "o": [
+   "15 ngày",
+   "05 ngày làm việc",
+   "10 ngày làm việc",
+   "30 ngày"
+  ],
+  "a": 2,
+  "e": "Khoản 2 Điều 65: hủy giấy phép khi chủ đầu tư không nộp lại trong vòng 10 ngày làm việc kể từ ngày có quyết định thu hồi.",
+  "b": "Khoản 2 Điều 65 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "c40",
+  "topic": "NĐ 217 – Giấy phép xây dựng",
+  "level": 1,
+  "q": "Cơ quan cấp giấy phép xây dựng phải công khai nội dung giấy phép trên trang thông tin điện tử tối thiểu bao lâu?",
+  "o": [
+   "03 tháng",
+   "12 tháng kể từ ngày cấp hoặc gia hạn",
+   "Trong suốt thời gian thi công",
+   "06 tháng"
+  ],
+  "a": 1,
+  "e": "Khoản 1 Điều 66: công bố công khai tối thiểu 12 tháng kể từ ngày cấp hoặc gia hạn; chủ đầu tư công khai tại công trường suốt quá trình thi công.",
+  "b": "Khoản 1 Điều 66 NĐ 217/2026/NĐ-CP"
  }
 ]
