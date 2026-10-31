@@ -1,7 +1,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
 import { getAuth, GoogleAuthProvider, signInWithPopup, signInWithRedirect, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 import { getFirestore, collection, addDoc, getDocs, deleteDoc, doc, query as fq, where, orderBy, limit, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
-import { firebaseConfig, ADMIN_UIDS } from "./firebase-config.js?v=7";
+import { firebaseConfig, ADMIN_UIDS } from "./firebase-config.js?v=8";
 
 /* ---------- Khởi tạo ---------- */
 const configured = !!firebaseConfig.projectId;
@@ -356,7 +356,16 @@ function renderLookup() {
   <ul class="hint">${(L.genNotes || []).map(n => `<li>${esc(n)}</li>`).join("")}</ul>
   <h2>Cơ chế giá khác</h2>${table(["Đối tượng", "Cơ chế", "Văn bản", "Xem"], L.other, [], 3)}
   <h2>Cấp điện áp và quản lý lưới</h2>${table(["Phân loại", "Cấp điện áp", "Đơn vị quản lý"], L.voltage, [1])}
-  <h2>Phân loại nhóm dự án <span class="pending">· ngưỡng chờ rà</span></h2>${table(["Nhóm", "Tiêu chí (công trình điện)", "Thẩm quyền quyết định"], L.group)}
+  <h2>Thẩm định BCNCKT tại cơ quan chuyên môn – thời hạn</h2>
+  <p class="hint">Theo NĐ 217/2026/NĐ-CP.</p>
+  ${table(["Nhóm dự án", "Có công trình cấp I trở lên", "Các dự án còn lại", "Căn cứ"], L.apprTime, [1, 2])}
+  <ul class="hint">${(L.apprNotes || []).map(n => `<li>${esc(n)}</li>`).join("")}</ul>
+  <h2>Thẩm định BCNCKT tại cơ quan chuyên môn – thẩm quyền</h2>
+  <ul class="hint">${(L.apprScope || []).map(n => `<li>${esc(n)}</li>`).join("")}</ul>
+  ${table(["Trường hợp", "Cơ quan thẩm định", "Căn cứ"], L.apprAuth)}
+  <h2>Cấp giấy phép xây dựng</h2>
+  ${table(["Cơ quan cấp", "Phạm vi", "Căn cứ"], L.permit)}
+  <ul class="hint">${(L.permitNotes || []).map(n => `<li>${esc(n)}</li>`).join("")}</ul>
   <h2>Văn bản pháp luật</h2>${table(["Loại", "Số hiệu", "Trích yếu", "Xem"], L.docs, [1], 3)}
   <p class="hint">Link dẫn đến cổng thông tin cơ quan nhà nước hoặc trang tra cứu pháp luật. Đối chiếu bản gốc có chữ ký số trước khi viện dẫn chính thức.</p>`;
 }
