@@ -13,7 +13,7 @@ export const firebaseConfig = {
 export const ADMIN_UIDS = ["FGHJtWDW8RTqoL0m2gfFT3ntN1K3"];
 
 // Trợ lý hỏi đáp AI (Firebase AI Logic, Gemini Developer API).
-// Site key reCAPTCHA v3 là khóa công khai dùng cho App Check; khóa bí mật chỉ nhập trong Firebase Console.
+// Site key reCAPTCHA (Google Cloud Fraud Defense, trước là reCAPTCHA Enterprise), khóa công khai dùng cho App Check.
 export const RECAPTCHA_SITE_KEY = "6Le7CAouAAAAAKPETYR2UnxhK9ebgpdbxf3dzTdB";
 // Đổi mô hình tại đây khi Google ngừng hỗ trợ mô hình cũ.
 export const AI_MODEL = "gemini-3.1-flash-lite";

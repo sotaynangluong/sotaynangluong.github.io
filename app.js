@@ -1,7 +1,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/12.11.0/firebase-app.js";
 import { getAuth, GoogleAuthProvider, signInWithPopup, signInWithRedirect, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/12.11.0/firebase-auth.js";
 import { getFirestore, collection, addDoc, getDocs, deleteDoc, doc, query as fq, where, orderBy, limit, serverTimestamp } from "https://www.gstatic.com/firebasejs/12.11.0/firebase-firestore.js";
-import { firebaseConfig, ADMIN_UIDS, RECAPTCHA_SITE_KEY, AI_MODEL } from "./firebase-config.js?v=29";
+import { firebaseConfig, ADMIN_UIDS, RECAPTCHA_SITE_KEY, AI_MODEL } from "./firebase-config.js?v=30";
 
 /* ---------- Khởi tạo ---------- */
 const configured = !!firebaseConfig.projectId;
@@ -638,8 +638,8 @@ function retrieve(q, k = 8) {
 async function ensureAI() {
   if (aiModel) return aiModel;
   if (!RECAPTCHA_SITE_KEY) throw new Error("Trợ lý AI chưa được cấu hình App Check.");
-  const [{ initializeAppCheck, ReCaptchaV3Provider }, { getAI, getGenerativeModel, GoogleAIBackend }] = await Promise.all([import(FB + "firebase-app-check.js"), import(FB + "firebase-ai.js")]);
-  initializeAppCheck(app, { provider: new ReCaptchaV3Provider(RECAPTCHA_SITE_KEY), isTokenAutoRefreshEnabled: true });
+  const [{ initializeAppCheck, ReCaptchaEnterpriseProvider }, { getAI, getGenerativeModel, GoogleAIBackend }] = await Promise.all([import(FB + "firebase-app-check.js"), import(FB + "firebase-ai.js")]);
+  initializeAppCheck(app, { provider: new ReCaptchaEnterpriseProvider(RECAPTCHA_SITE_KEY), isTokenAutoRefreshEnabled: true });
   const ai = getAI(app, { backend: new GoogleAIBackend() });
   aiModel = getGenerativeModel(ai, {
     model: AI_MODEL,
