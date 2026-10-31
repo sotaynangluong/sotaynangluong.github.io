@@ -1,7 +1,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
 import { getAuth, GoogleAuthProvider, signInWithPopup, signInWithRedirect, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 import { getFirestore, collection, addDoc, getDocs, deleteDoc, doc, query as fq, where, orderBy, limit, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
-import { firebaseConfig, ADMIN_UIDS } from "./firebase-config.js?v=25";
+import { firebaseConfig, ADMIN_UIDS } from "./firebase-config.js?v=26";
 
 /* ---------- Khởi tạo ---------- */
 const configured = !!firebaseConfig.projectId;
@@ -376,9 +376,11 @@ function capexTrend(t) {
 function potentialBlock(t) {
   const p = t.potential;
   const kp = p && p.kpis ? `<div class="pkpi">${p.kpis.map(k => `<div><b>${esc(k[0])}</b><span>${esc(k[1])}</span></div>`).join("")}</div>` : "";
+  const trend = capexTrend(t);
+  if (!p && !trend) return "";
   const tb = p && p.table ? `<div class="tbl-wrap"><table><thead><tr>${p.table.head.map(h => `<th>${esc(h)}</th>`).join("")}</tr></thead><tbody>${p.table.rows.map(r => `<tr>${r.map((c, i) => `<td class="${i ? "num" : ""}">${esc(c)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>` : "";
   return `<section class="card"><h3>${p ? "Tiềm năng và số liệu trực quan" : "Biểu đồ trực quan"}</h3>
-    ${kp}${p && p.maps ? `<div class="pmaps">${p.maps.map(m => `<figure class="pmap"><a href="${esc(m[0])}" target="_blank" rel="noopener"><img src="${esc(m[0])}" alt="${esc(m[1])}" loading="lazy"></a><figcaption><b>${esc(m[1])}</b><br>${esc(m[2])}. Trích từ ${esc(DATA.tech.sources[t.src].title)}, trang ${esc(m[3])}.</figcaption></figure>`).join("")}</div>` : ""}${p && p.chart ? hbars(p.chart) : ""}${tb}${capexTrend(t)}
+    ${kp}${p && p.maps ? `<div class="pmaps">${p.maps.map(m => `<figure class="pmap"><a href="${esc(m[0])}" target="_blank" rel="noopener"><img src="${esc(m[0])}" alt="${esc(m[1])}" loading="lazy"></a><figcaption><b>${esc(m[1])}</b><br>${esc(m[2])}. Trích từ ${esc(DATA.tech.sources[t.src].title)}, trang ${esc(m[3])}.</figcaption></figure>`).join("")}</div>` : ""}${p && p.chart ? hbars(p.chart) : ""}${tb}${trend}
     ${p && p.map ? `<p><a class="btn" href="${esc(p.map[1])}" target="_blank" rel="noopener">🗺 ${esc(p.map[0])} ↗</a></p>` : ""}
     ${p && p.note ? `<p class="hint">${esc(p.note)}${p.page ? ` Trang ${esc(p.page)} tài liệu nguồn.` : ""}</p>` : ""}</section>`;
 }
@@ -397,10 +399,10 @@ function renderTech(sub) {
     ${T.groups.map(g => { const it = list.filter(x => x.group === g); return it.length ? `<h2>${g}</h2><div class="tgrid">${it.map(x => {
       const cap = firstVal(x, /^Suất đầu tư/), cf = firstVal(x, /^Hệ số công suất|^Hiệu suất/);
       return `<a class="card tcard" href="#cong-nghe/${x.id}"><h3>${hl(x.name)}</h3><p>${hl(x.summary.split(". ")[0].replace(/\.$/, ""))}.</p>
-        <div class="tkpi">${cap ? `<span><b class="num">${esc(cap.v)}</b> ${esc(cap.u)} <i>(${cap.y})</i></span>` : ""}${cf ? `<span><b class="num">${esc(cf.v)}%</b> ${/Hiệu suất/.test(x.sheets[0].rows.map(r => r[0]).join()) && !/Hệ số công suất/.test(x.sheets[0].rows.map(r => r[0]).join()) ? "hiệu suất" : "hệ số công suất"}</span>` : ""}</div>
+        <div class="tkpi">${cap ? `<span><b class="num">${esc(cap.v)}</b> ${esc(cap.u)} <i>(${cap.y})</i></span>` : ""}${cf ? `<span><b class="num">${esc(cf.v)}${/^%/.test(cf.u) ? "%" : ""}</b>${/^%/.test(cf.u) ? "" : " " + esc(cf.u)} ${/Hiệu suất/.test(x.sheets[0].rows.map(r => r[0]).join()) && !/Hệ số công suất/.test(x.sheets[0].rows.map(r => r[0]).join()) ? "hiệu suất" : "hệ số công suất"}</span>` : ""}</div>
         <span class="hint">${esc(x.chapter)} · trang ${esc(x.pages)}</span></a>`; }).join("")}</div>` : ""; }).join("") || `<p class="empty">Không có công nghệ phù hợp.</p>`}
     <h2>Rủi ro chung – dự án lưới truyền tải</h2>${riskBlock(["Lưới truyền tải"])}
-    <p class="hint">Đã có 17 công nghệ phát điện và 2 công nghệ lưu trữ. Các công nghệ lưu trữ, nhiên liệu tái tạo và Power-to-X còn lại (pin dòng vanadium, hydrogen, khí nén, bánh đà, pin nhiên liệu, điện phân, ammonia xanh, methanol…) đang được bổ sung.</p>
+    <p class="hint">Đủ 30 công nghệ theo 2 cẩm nang: 17 phát điện, 6 lưu trữ, 7 nhiên liệu tái tạo và Power-to-X.</p>
     ${disc}`;
     return;
   }
@@ -411,9 +413,10 @@ function renderTech(sub) {
   <div class="stack">
     ${t.vn && t.vn.length ? `<section class="card"><h3>Đặc điểm tại Việt Nam và giả định chính</h3><ul>${t.vn.map(v => `<li>${hl(v)}</li>`).join("")}</ul></section>` : ""}
     ${potentialBlock(t)}
-    <section class="card"><h3>Bảng số liệu chính</h3><p class="hint">Giá trị trung tâm; chi phí USD năm 2025, chưa gồm VAT. Khoảng bất định xem bản gốc.</p>${t.sheets.map(techSheet).join("")}</section>
+    ${t.sheets.length ? `<section class="card"><h3>Bảng số liệu chính</h3><p class="hint">Giá trị trung tâm; chi phí USD năm 2025, chưa gồm VAT. Khoảng bất định xem bản gốc.</p>${t.sheets.map(techSheet).join("")}</section>` : ""}
     <div class="pc"><section class="card pro"><h3>Ưu điểm</h3><ul>${t.pros.map(v => `<li>${hl(v)}</li>`).join("")}</ul></section>
     <section class="card con"><h3>Nhược điểm</h3><ul>${t.cons.map(v => `<li>${hl(v)}</li>`).join("")}</ul></section></div>
+    ${t.sheets.length ? "" : `<section class="card"><p class="hint">Tài liệu nguồn chưa xây dựng bảng số liệu cho công nghệ này.</p></section>`}
     ${riskBlock(t.risk || [])}
     <section class="card src"><h3>Nguồn tài liệu</h3><p>${srcLine(T, t)}</p></section>
     ${disc}

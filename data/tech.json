@@ -21,7 +21,8 @@
  ],
  "groups": [
   "Phát điện",
-  "Lưu trữ điện năng"
+  "Lưu trữ điện năng",
+  "Nhiên liệu tái tạo và Power-to-X"
  ],
  "items": [
   {
@@ -3065,6 +3066,822 @@
     ],
     "note": "Quy hoạch tổng thể thủy điện tích năng do EVN phối hợp JICA lập năm 2004; tài liệu nhận định Việt Nam còn thiếu khảo sát tiềm năng quy mô toàn quốc."
    }
+  },
+  {
+   "id": "pin-dong-vanadium",
+   "group": "Lưu trữ điện năng",
+   "name": "Pin dòng oxy hóa khử vanadium (VRFB)",
+   "src": "sto",
+   "chapter": "Chương 3",
+   "pages": "49–61",
+   "risk": [
+    "BESS"
+   ],
+   "summary": "Năng lượng lưu trong hai dung dịch điện phân chứa vanadium ở các trạng thái oxy hóa khác nhau, bơm tuần hoàn qua ngăn pin có màng trao đổi ion. Dung lượng (thể tích bồn) và công suất (số ngăn pin) mở rộng độc lập.",
+   "vn": [
+    "Ví dụ cấu hình 500 kW × 8 giờ (4.000 kWh) trong tài liệu; hệ thống lớn thường thiết kế, lắp đặt như một nhà máy điện hóa.",
+    "Phát thải vòng đời khoảng 160–190 kg CO₂/kWh do sản xuất hợp chất vanadium tốn năng lượng, được bù lại nhờ tuổi thọ và số chu kỳ lớn."
+   ],
+   "pros": [
+    "Dung lượng và công suất mở rộng độc lập; phù hợp lưu trữ dài giờ.",
+    "Chịu xả sâu rất tốt; trạng thái sạc đồng nhất nên ít suy giảm dung lượng.",
+    "Dung dịch điện phân không bắt lửa, không gây nổ; tuổi thọ dài."
+   ],
+   "cons": [
+    "Dung dịch điện phân khối lượng lớn, nặng; mật độ năng lượng thấp.",
+    "Hợp chất vanadium có độc tính; dùng vật liệu quý trong ngăn pin.",
+    "Cần bơm, van và thiết bị phụ; hiệu suất chu trình thấp hơn pin Li-ion."
+   ],
+   "sheets": [
+    {
+     "name": "Pin dòng vanadium",
+     "page": 60,
+     "rows": [
+      [
+       "Công suất một đơn vị pin",
+       "MW",
+       "0,25",
+       "0,5",
+       "0,5",
+       "0,5"
+      ],
+      [
+       "Hiệu suất một chu kỳ",
+       "% DC",
+       "78",
+       "80",
+       "83",
+       "85"
+      ],
+      [
+       "Tổn thất khi lưu trữ",
+       "%/ngày",
+       "0,25",
+       "0,2",
+       "0,15",
+       "0,1"
+      ],
+      [
+       "Vòng đời kỹ thuật",
+       "năm",
+       "25",
+       "30",
+       "35",
+       "40"
+      ],
+      [
+       "Thời gian xây dựng",
+       "năm",
+       "0,5",
+       "0,25",
+       "0,2",
+       "0,15"
+      ],
+      [
+       "Suất đầu tư",
+       "triệu USD/MWh",
+       "0,72",
+       "0,74",
+       "0,53",
+       "0,43"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "luu-tru-hydrogen",
+   "group": "Lưu trữ điện năng",
+   "name": "Lưu trữ hydrogen",
+   "src": "sto",
+   "chapter": "Chương 4",
+   "pages": "62–75",
+   "risk": [],
+   "summary": "Hydrogen được lưu dưới dạng khí nén trong bình áp lực (loại I–IV), hóa lỏng, trong hang muối hoặc vật liệu hấp phụ. Bảng số liệu tài liệu dùng cho lưu trữ khí nén trong bình áp lực.",
+   "vn": [
+    "Hiện khoảng 95% hydrogen toàn cầu sản xuất từ hydrocarbon, chủ yếu methane; hydrogen xanh từ năng lượng tái tạo dư thừa đang được quan tâm.",
+    "Bảng số liệu tính cho một đơn vị lưu trữ 16,7 MWh."
+   ],
+   "pros": [
+    "Lưu trữ dài hạn hầu như không thất thoát nếu chọn đúng vật liệu bình.",
+    "Công nghệ bình nén phổ biến, đã kiểm chứng.",
+    "Chi phí vật liệu bình thấp so với các phương pháp lưu trữ quy mô công nghiệp khác."
+   ],
+   "cons": [
+    "Mật độ năng lượng theo thể tích thấp; khó vận chuyển khối lượng lớn.",
+    "Cần năng lượng để nén; yêu cầu an toàn cao do hydrogen dễ rò rỉ, dễ cháy.",
+    "Bình áp lực composite (loại III, IV) đắt."
+   ],
+   "sheets": [
+    {
+     "name": "Lưu trữ hydrogen trong bình nén",
+     "page": 75,
+     "rows": [
+      [
+       "Dung lượng một đơn vị lưu trữ",
+       "MWh",
+       "16,7",
+       "16,7",
+       "16,7",
+       "16,7"
+      ],
+      [
+       "Hiệu suất khứ hồi (lưu trữ)",
+       "%",
+       "88",
+       "89",
+       "90",
+       "90"
+      ],
+      [
+       "Tuổi thọ kỹ thuật",
+       "năm",
+       "25",
+       "30",
+       "30",
+       "30"
+      ],
+      [
+       "Thời gian xây dựng",
+       "năm",
+       "0,5",
+       "0,4",
+       "0,4",
+       "0,3"
+      ],
+      [
+       "Suất đầu tư",
+       "triệu USD/MWh",
+       "0,085",
+       "0,067",
+       "0,040",
+       "0,031"
+      ],
+      [
+       "Chi phí O&M cố định",
+       "USD/MW/năm",
+       "895",
+       "746",
+       "746",
+       "597"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "khi-nen",
+   "group": "Lưu trữ điện năng",
+   "name": "Lưu trữ năng lượng khí nén (CAES)",
+   "src": "sto",
+   "chapter": "Chương 5",
+   "pages": "76–85",
+   "risk": [],
+   "summary": "Dùng điện thừa nén không khí vào hang ngầm hoặc bồn áp lực; khi cần, khí nén giãn nở qua tua bin phát điện. Biến thể đoạn nhiệt (A-CAES) lưu lại nhiệt nén để tăng hiệu suất.",
+   "vn": [
+    "Thế giới mới có 2 nhà máy CAES thương mại (Đức và Mỹ); nhiều dự án thí điểm như A-CAES 2,2 MW / 10 MWh tại Ontario, Canada.",
+    "Bảng số liệu dùng nhà máy 300 MW, dung lượng 3.000 MWh; cột mốc 2025, 2030, 2050."
+   ],
+   "pros": [
+    "Dự trữ lớn đến hàng nghìn MWh với chi phí khá thấp.",
+    "Tổ máy xả đa dạng kích cỡ (10–400 MW); tối ưu theo điều kiện địa điểm.",
+    "Có khả năng khởi động đen; tuổi thọ dài (khoảng 40 năm)."
+   ],
+   "cons": [
+    "Hiệu suất khứ hồi thấp (khoảng 60–72%).",
+    "Phụ thuộc địa chất phù hợp (hang muối, mỏ khai thác cũ).",
+    "CAES truyền thống vẫn đốt khí để gia nhiệt khi giãn nở."
+   ],
+   "sheets": [
+    {
+     "name": "Lưu trữ năng lượng khí nén",
+     "page": 85,
+     "cols": [
+      "2025",
+      "2030",
+      "2050"
+     ],
+     "rows": [
+      [
+       "Dung lượng lưu trữ",
+       "MWh",
+       "3.000",
+       "3.000",
+       "3.000"
+      ],
+      [
+       "Công suất đầu ra",
+       "MW",
+       "300",
+       "300",
+       "300"
+      ],
+      [
+       "Hiệu suất khứ hồi",
+       "%",
+       "60",
+       "70",
+       "72"
+      ],
+      [
+       "Tuổi thọ kỹ thuật",
+       "năm",
+       "40",
+       "40",
+       "40"
+      ],
+      [
+       "Thời gian xây dựng",
+       "năm",
+       "< 3",
+       "< 3",
+       "< 3"
+      ],
+      [
+       "Suất đầu tư",
+       "triệu USD/MWh",
+       "0,13",
+       "0,13",
+       "0,11"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "banh-da",
+   "group": "Lưu trữ điện năng",
+   "name": "Bánh đà",
+   "src": "sto",
+   "chapter": "Chương 6",
+   "pages": "86–94",
+   "risk": [],
+   "summary": "Lưu năng lượng dưới dạng động năng của khối quay tốc độ cao trong buồng chân không, trên ổ đỡ từ; động cơ – máy phát nạp, xả điện. Phù hợp dịch vụ công suất ngắn hạn như điều tần, ổn định điện áp.",
+   "vn": [
+    "Bảng số liệu tính cho đơn vị 1 MW / 0,1 MWh (xả khoảng 6 phút); cột mốc 2025, 2030, 2050."
+   ],
+   "pros": [
+    "Phản ứng rất nhanh, hiệu suất khứ hồi cao (khoảng 98%).",
+    "Số chu kỳ rất lớn (khoảng 350.000), tuổi thọ 20–25 năm.",
+    "Sạch về sử dụng tài nguyên và chất thải."
+   ],
+   "cons": [
+    "Thời gian xả ngắn, dung lượng năng lượng nhỏ.",
+    "Tự xả đáng kể nếu lưu trữ lâu.",
+    "Suất đầu tư tính theo năng lượng rất cao."
+   ],
+   "sheets": [
+    {
+     "name": "Bánh đà 1 MW / 0,1 MWh",
+     "page": 94,
+     "cols": [
+      "2025",
+      "2030",
+      "2050"
+     ],
+     "rows": [
+      [
+       "Dung lượng một đơn vị",
+       "MWh",
+       "0,1",
+       "0,1",
+       "0,1"
+      ],
+      [
+       "Công suất một đơn vị",
+       "MW",
+       "1",
+       "1",
+       "1"
+      ],
+      [
+       "Hiệu suất khứ hồi",
+       "%",
+       "98",
+       "98",
+       "98"
+      ],
+      [
+       "Tuổi thọ kỹ thuật",
+       "năm",
+       "20",
+       "25",
+       "25"
+      ],
+      [
+       "Vòng đời",
+       "chu kỳ",
+       "350.000",
+       "350.000",
+       "350.000"
+      ],
+      [
+       "Suất đầu tư",
+       "triệu USD (theo bảng gốc)",
+       "21,8",
+       "20,4",
+       "19,7"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pin-nhien-lieu",
+   "group": "Nhiên liệu tái tạo và Power-to-X",
+   "name": "Pin nhiên liệu",
+   "src": "sto",
+   "chapter": "Chương 7",
+   "pages": "95–102",
+   "risk": [],
+   "summary": "Chuyển hóa năng lượng hóa học của hydrogen (hoặc nhiên liệu khác) thành điện qua phản ứng điện hóa giữa anot và catot ngăn bởi chất điện phân; sản phẩm phụ là nước và nhiệt.",
+   "vn": [
+    "Tài liệu chưa xây dựng bảng số liệu cho pin nhiên liệu do mức độ triển khai toàn cầu còn hạn chế và độ bất định cao.",
+    "Ví dụ quy mô lớn: nhà máy pin nhiên liệu Daesan 50 MW (Seosan, Hàn Quốc, 2020) dùng hydrogen phụ phẩm hóa dầu."
+   ],
+   "pros": [
+    "Hiệu suất nhiệt động cao, mật độ công suất lớn, gọn nhẹ.",
+    "Phát thải thấp tại điểm sử dụng, độ ồn thấp, chất lượng điện tốt.",
+    "Tính mô-đun, giữ hiệu suất tốt ở quy mô nhỏ: nguồn dự phòng, phát điện phân tán."
+   ],
+   "cons": [
+    "Chi phí cao, phụ thuộc nguồn hydrogen giá rẻ và sạch.",
+    "Một số loại cần kim loại quý làm xúc tác.",
+    "Triển khai quy mô lớn còn ít, số liệu chi phí bất định."
+   ],
+   "sheets": []
+  },
+  {
+   "id": "dien-phan",
+   "group": "Nhiên liệu tái tạo và Power-to-X",
+   "name": "Thiết bị điện phân sản xuất hydrogen",
+   "src": "sto",
+   "chapter": "Chương 8",
+   "pages": "104–130",
+   "risk": [],
+   "summary": "Dùng điện tách nước thành hydrogen và oxygen. Ba công nghệ chính: điện phân kiềm (AEC), màng trao đổi proton (PEMEC) và tế bào oxit rắn (SOEC). Hydrogen xanh là đầu vào của ammonia, methanol, nhiên liệu tổng hợp.",
+   "vn": [
+    "Các ngành khó giảm phát thải (phân bón, thép, hóa chất) cần nguồn hydrogen liên tục trên 10.000 tấn/năm, tương ứng hệ thống điện phân đến khoảng 100 MW.",
+    "Bảng số liệu tính cho nhà máy 100 MW đầu vào; chi phí O&M cố định khoảng 4% vốn đầu tư mỗi năm."
+   ],
+   "pros": [
+    "Sản xuất hydrogen không phát thải khi dùng điện tái tạo.",
+    "Hấp thụ điện tái tạo dư thừa, tăng tính linh hoạt hệ thống.",
+    "Nhiệt thải (khoảng 13–29% đầu vào) có thể thu hồi cho sưởi, quy trình."
+   ],
+   "cons": [
+    "Hiệu suất chuyển đổi khoảng 55–70% (theo nhiệt trị thấp), tổn thất đáng kể.",
+    "Suất đầu tư còn cao; ngăn điện phân phải thay sau khoảng 80.000–100.000 giờ.",
+    "Cần nước sạch và hạ tầng lưu trữ, vận chuyển hydrogen."
+   ],
+   "sheets": [
+    {
+     "name": "Điện phân kiềm (AEC), nhà máy 100 MW",
+     "page": 125,
+     "rows": [
+      [
+       "Điện tiêu thụ (ngăn xếp + phụ trợ)",
+       "kWh/kg H₂",
+       "56,7",
+       "53,6",
+       "51,0",
+       "47,6"
+      ],
+      [
+       "Hydrogen đầu ra (theo nhiệt trị thấp)",
+       "% đầu vào",
+       "58,7",
+       "62,2",
+       "65,3",
+       "69,9"
+      ],
+      [
+       "Tuổi thọ kỹ thuật",
+       "năm",
+       "25",
+       "25",
+       "25",
+       "25"
+      ],
+      [
+       "Thời gian xây dựng",
+       "năm",
+       "2",
+       "2",
+       "2",
+       "2"
+      ],
+      [
+       "Suất đầu tư",
+       "USD/kW đầu vào",
+       "1.175",
+       "750",
+       "575",
+       "400"
+      ]
+     ]
+    },
+    {
+     "name": "Điện phân màng trao đổi proton (PEMEC), nhà máy 100 MW",
+     "page": 128,
+     "rows": [
+      [
+       "Điện tiêu thụ (ngăn xếp + phụ trợ)",
+       "kWh/kg H₂",
+       "60,5",
+       "56,9",
+       "54,1",
+       "50,2"
+      ],
+      [
+       "Hydrogen đầu ra (theo nhiệt trị thấp)",
+       "% đầu vào",
+       "55,0",
+       "58,5",
+       "61,6",
+       "66,4"
+      ],
+      [
+       "Tuổi thọ kỹ thuật",
+       "năm",
+       "25",
+       "25",
+       "25",
+       "25"
+      ],
+      [
+       "Suất đầu tư",
+       "USD/kW đầu vào",
+       "1.325",
+       "875",
+       "675",
+       "475"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ammonia-xanh",
+   "group": "Nhiên liệu tái tạo và Power-to-X",
+   "name": "Tổng hợp ammonia xanh",
+   "src": "sto",
+   "chapter": "Chương 9",
+   "pages": "131–149",
+   "risk": [],
+   "summary": "Hydrogen xanh từ điện phân kết hợp nitơ tách từ không khí (thiết bị ASU) qua quá trình Haber-Bosch tạo ammonia. Ammonia xanh dùng làm phân bón, nhiên liệu hàng hải, đồng đốt trong nhà máy nhiệt điện.",
+   "vn": [
+    "Bảng số liệu tính suất đầu tư theo MW sản lượng ammonia; chi phí O&M cố định khoảng 3% vốn đầu tư; cột mốc 2025, 2030, 2050.",
+    "Ví dụ thế giới: thí điểm Minnesota (25 tấn/năm, chạy điện gió); Yara Pilbara (Tây Úc) dùng điện mặt trời 100 MW cho điện phân 50–60 MW."
+   ],
+   "pros": [
+    "Nhiên liệu không chứa carbon, dễ hóa lỏng, lưu trữ và vận chuyển hơn hydrogen.",
+    "Hạ tầng sản xuất, vận chuyển ammonia đã có sẵn trong công nghiệp phân bón.",
+    "Dùng được cho đồng đốt than, tua bin khí, động cơ tàu biển."
+   ],
+   "cons": [
+    "Độc tính cao, yêu cầu an toàn nghiêm ngặt.",
+    "Đốt ammonia có thể sinh NOx.",
+    "Chuỗi điện → hydrogen → ammonia có tổn thất năng lượng lớn."
+   ],
+   "sheets": [
+    {
+     "name": "Tổng hợp ammonia xanh",
+     "page": 148,
+     "cols": [
+      "2025",
+      "2030",
+      "2050"
+     ],
+     "rows": [
+      [
+       "Tiêu thụ hydrogen",
+       "t/t ammonia",
+       "0,18",
+       "0,18",
+       "0,18"
+      ],
+      [
+       "Hiệu suất (ammonia/tổng đầu vào)",
+       "MWh/MWh",
+       "0,82",
+       "0,82",
+       "0,82"
+      ],
+      [
+       "Dải vận hành",
+       "% công suất",
+       "20–100",
+       "20–100",
+       "20–100"
+      ],
+      [
+       "Tuổi thọ kỹ thuật",
+       "năm",
+       "30",
+       "30",
+       "30"
+      ],
+      [
+       "Thời gian xây dựng",
+       "năm",
+       "2",
+       "2",
+       "2"
+      ],
+      [
+       "Suất đầu tư",
+       "triệu USD/MW ammonia",
+       "2,33",
+       "1,90",
+       "1,20"
+      ],
+      [
+       "Chi phí O&M cố định",
+       "nghìn USD/MW/năm",
+       "56",
+       "46",
+       "29"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e-methanol",
+   "group": "Nhiên liệu tái tạo và Power-to-X",
+   "name": "Tổng hợp methanol từ hydrogen và CO₂ (e-methanol)",
+   "src": "sto",
+   "chapter": "Chương 10",
+   "pages": "150–161",
+   "risk": [],
+   "summary": "Hydrogen xanh phản ứng với CO₂ thu giữ (từ sinh khối, công nghiệp) trong thiết bị tổng hợp methanol. Methanol dùng làm nhiên liệu hàng hải, hóa chất, chất mang hydrogen.",
+   "vn": [
+    "Bảng số liệu dùng cột mốc 2025, 2040, 2050; suất đầu tư tính theo MW sản lượng methanol."
+   ],
+   "pros": [
+    "Methanol trung hòa carbon khi dùng CO₂ và H₂ xanh.",
+    "Không cần bước chuyển hóa hơi; nhiệt phản ứng thấp hơn quy trình truyền thống.",
+    "Nhiên liệu lỏng, dễ lưu trữ, vận chuyển, dùng được hạ tầng sẵn có."
+   ],
+   "cons": [
+    "Phụ thuộc nguồn CO₂ xanh và hydrogen xanh giá hợp lý.",
+    "Tổn thất năng lượng qua nhiều bước chuyển đổi.",
+    "Công nghệ quy mô thương mại còn ít."
+   ],
+   "sheets": [
+    {
+     "name": "E-methanol",
+     "page": 160,
+     "cols": [
+      "2025",
+      "2040",
+      "2050"
+     ],
+     "rows": [
+      [
+       "Tiêu thụ CO₂",
+       "t/t methanol",
+       "1,4",
+       "1,4",
+       "1,4"
+      ],
+      [
+       "Tiêu thụ hydrogen",
+       "t/t methanol",
+       "0,19",
+       "0,19",
+       "0,19"
+      ],
+      [
+       "Hiệu suất (methanol/tổng đầu vào)",
+       "MWh/MWh",
+       "0,78",
+       "0,78",
+       "0,78"
+      ],
+      [
+       "Tuổi thọ kỹ thuật",
+       "năm",
+       "30",
+       "30",
+       "30"
+      ],
+      [
+       "Suất đầu tư",
+       "triệu USD/MW methanol",
+       "1,65",
+       "1,33",
+       "1,06"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "methanol-sinh-hoc",
+   "group": "Nhiên liệu tái tạo và Power-to-X",
+   "name": "Methanol sinh học từ khí hóa sinh khối",
+   "src": "sto",
+   "chapter": "Chương 11",
+   "pages": "162–170",
+   "risk": [],
+   "summary": "Sinh khối rắn được khí hóa ở trên 700°C thành khí tổng hợp (CO, H₂, CO₂), làm sạch rồi tổng hợp thành methanol. Có thể bổ sung hydrogen xanh để tăng sản lượng.",
+   "vn": [
+    "Tài liệu đánh giá công nghệ có độ bất định cao; cột mốc 2025, 2030, 2050."
+   ],
+   "pros": [
+    "Tận dụng sinh khối thành nhiên liệu lỏng giá trị cao.",
+    "Methanol dùng làm nhiên liệu hàng hải đáp ứng giới hạn lưu huỳnh của IMO, chất mang hydrogen cho pin nhiên liệu."
+   ],
+   "cons": [
+    "Suất đầu tư hiện rất cao, chi phí vận hành lớn.",
+    "Công nghệ khí hóa sinh khối quy mô lớn còn ít kinh nghiệm.",
+    "Phụ thuộc nguồn sinh khối ổn định."
+   ],
+   "sheets": [
+    {
+     "name": "Methanol sinh học",
+     "page": 169,
+     "cols": [
+      "2025",
+      "2030",
+      "2050"
+     ],
+     "rows": [
+      [
+       "Hiệu suất (methanol/tổng đầu vào)",
+       "MWh/MWh",
+       "0,58",
+       "0,61",
+       "0,65"
+      ],
+      [
+       "Tuổi thọ kỹ thuật",
+       "năm",
+       "20",
+       "20",
+       "20"
+      ],
+      [
+       "Thời gian xây dựng",
+       "năm",
+       "2,5",
+       "2,5",
+       "2,5"
+      ],
+      [
+       "Suất đầu tư",
+       "triệu USD/MW methanol",
+       "7,44",
+       "4,13",
+       "2,07"
+      ],
+      [
+       "Chi phí O&M biến đổi",
+       "USD/MWh methanol",
+       "28,9",
+       "19,2",
+       "19,2"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "khi-sinh-hoc-nang-cap",
+   "group": "Nhiên liệu tái tạo và Power-to-X",
+   "name": "Sản xuất và nâng cấp khí sinh học (biomethane)",
+   "src": "sto",
+   "chapter": "Chương 12",
+   "pages": "171–185",
+   "risk": [],
+   "summary": "Phân hủy kỵ khí chất hữu cơ (phân, phụ phẩm nông nghiệp) tạo khí giàu methane; khí được loại bỏ CO₂, tạp chất để thành biomethane dùng thay khí thiên nhiên hoặc cho công nghiệp, giao thông.",
+   "vn": [
+    "Tại Việt Nam, quản lý chất thải chăn nuôi kém hiệu quả là nguồn phát thải khí nhà kính tăng nhanh nhất trong nông nghiệp; dùng phân sản xuất khí sinh học giúp giảm phát thải.",
+    "Bảng số liệu dùng cột mốc 2025, 2040, 2050."
+   ],
+   "pros": [
+    "Giảm phát thải khí nhà kính từ xử lý, lưu trữ phân.",
+    "Chuyển sinh khối ướt, không có cách dùng khác thành nhiên liệu giá trị cao.",
+    "Biomethane dùng được hạ tầng khí sẵn có."
+   ],
+   "cons": [
+    "Chi phí đầu tư và vận hành cao so với quy mô.",
+    "Cần nguồn nguyên liệu tập trung, ổn định.",
+    "Rò rỉ methane làm giảm lợi ích khí hậu."
+   ],
+   "sheets": [
+    {
+     "name": "Sản xuất và nâng cấp khí sinh học",
+     "page": 183,
+     "cols": [
+      "2025",
+      "2040",
+      "2050"
+     ],
+     "rows": [
+      [
+       "Tuổi thọ kỹ thuật",
+       "năm",
+       "20",
+       "20",
+       "20"
+      ],
+      [
+       "Thời gian xây dựng",
+       "năm",
+       "2",
+       "2",
+       "2"
+      ],
+      [
+       "Suất đầu tư",
+       "triệu USD/MW đầu ra",
+       "1,33",
+       "1,16",
+       "1,05"
+      ],
+      [
+       "Tổng chi phí O&M",
+       "nghìn USD/MW/năm",
+       "98,67",
+       "85,84",
+       "77,95"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "nhien-lieu-long-xanh",
+   "group": "Nhiên liệu tái tạo và Power-to-X",
+   "name": "Nhiên liệu lỏng xanh (Fischer-Tropsch)",
+   "src": "sto",
+   "chapter": "Chương 13",
+   "pages": "186–208",
+   "risk": [],
+   "summary": "Khí tổng hợp tái tạo (từ hydrogen xanh và CO₂, hoặc khí hóa sinh khối) qua phản ứng xúc tác Fischer-Tropsch ở 150–300°C tạo hydrocarbon lỏng như nhiên liệu máy bay, diesel tổng hợp.",
+   "vn": [
+    "Bảng số liệu tính cho sản xuất nhiên liệu máy bay từ hydrogen; cột mốc 2025, 2030, 2050."
+   ],
+   "pros": [
+    "Nhiên liệu lỏng phát thải khí nhà kính rất thấp cho vận tải nặng, hàng không khó điện khí hóa.",
+    "Dùng ngay được hạ tầng nhiên liệu hiện có."
+   ],
+   "cons": [
+    "Chuỗi chuyển đổi dài, tổn thất năng lượng lớn.",
+    "Suất đầu tư và chi phí sản xuất cao so với nhiên liệu hóa thạch.",
+    "Cần nguồn CO₂ và hydrogen xanh quy mô lớn."
+   ],
+   "sheets": [
+    {
+     "name": "Nhiên liệu máy bay từ hydrogen",
+     "page": 192,
+     "cols": [
+      "2025",
+      "2030",
+      "2050"
+     ],
+     "rows": [
+      [
+       "Tuổi thọ kỹ thuật",
+       "năm",
+       "25",
+       "25",
+       "25"
+      ],
+      [
+       "Thời gian xây dựng",
+       "năm",
+       "2",
+       "2",
+       "2"
+      ],
+      [
+       "Suất đầu tư",
+       "triệu USD/MW nhiên liệu lỏng",
+       "2,88",
+       "2,19",
+       "1,23"
+      ],
+      [
+       "Chi phí O&M cố định",
+       "USD/MWh nhiên liệu",
+       "23,14",
+       "17,39",
+       "10,13"
+      ],
+      [
+       "Chi phí O&M biến đổi",
+       "USD/MWh nhiên liệu",
+       "7,26",
+       "5,75",
+       "2,88"
+      ]
+     ]
+    }
+   ]
   }
  ]
 }
