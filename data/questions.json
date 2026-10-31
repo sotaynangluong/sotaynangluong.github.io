@@ -73,5 +73,605 @@
   "a": 2,
   "e": "NĐ 217/2026/NĐ-CP quy định chi tiết Luật Xây dựng 135/2025 về quản lý dự án, thay thế hệ thống nghị định cũ.",
   "b": "NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "b01",
+  "topic": "NĐ 217 – Phân loại, lập dự án",
+  "level": 1,
+  "q": "Theo NĐ 217/2026, đường dây tải điện được xếp vào loại công trình nào sau đây?",
+  "o": [
+   "Công trình xây dựng theo tuyến",
+   "Công trình ảnh hưởng lớn đến an toàn cộng đồng trong mọi trường hợp",
+   "Công trình chính của dự án",
+   "Công trình xây dựng tạm"
+  ],
+  "a": 0,
+  "e": "Khoản 3 Điều 3 liệt kê đường dây tải điện là ví dụ của công trình xây dựng theo tuyến, cùng với đường bộ, đường ống dẫn dầu khí, đập đầu mối thủy điện…",
+  "b": "Khoản 3 Điều 3 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "b02",
+  "topic": "NĐ 217 – Phân loại, lập dự án",
+  "level": 1,
+  "q": "Danh mục công trình ảnh hưởng lớn đến an toàn, lợi ích cộng đồng được quy định ở đâu trong NĐ 217/2026?",
+  "o": [
+   "Do Bộ Xây dựng ban hành riêng",
+   "Phụ lục I",
+   "Phụ lục IV",
+   "Phụ lục III"
+  ],
+  "a": 2,
+  "e": "Khoản 2 Điều 3 dẫn chiếu danh mục tại Phụ lục IV ban hành kèm Nghị định.",
+  "b": "Khoản 2 Điều 3 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "b03",
+  "topic": "NĐ 217 – Phân loại, lập dự án",
+  "level": 2,
+  "q": "\"Thời gian thực hiện dự án\" theo NĐ 217/2026 được tính từ thời điểm nào đến thời điểm nào?",
+  "o": [
+   "Từ khi quyết định đầu tư đến khi hoàn thành, bàn giao đưa công trình vào sử dụng",
+   "Từ khi có chủ trương đầu tư đến khi quyết toán vốn",
+   "Từ khi khởi công đến khi nghiệm thu hoàn thành",
+   "Từ khi được cấp giấy phép xây dựng đến khi hết bảo hành"
+  ],
+  "a": 0,
+  "e": "Khoản 6 Điều 3: tính từ thời điểm quyết định đầu tư đến thời điểm hoàn thành, bàn giao đưa vào sử dụng các công trình của dự án.",
+  "b": "Khoản 6 Điều 3 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "b04",
+  "topic": "NĐ 217 – Phân loại, lập dự án",
+  "level": 1,
+  "q": "Công việc nào thuộc giai đoạn chuẩn bị dự án theo Điều 4 NĐ 217/2026?",
+  "o": [
+   "Lập, thẩm định thiết kế triển khai sau khi dự án được phê duyệt",
+   "Lập, thẩm định Báo cáo nghiên cứu khả thi và phê duyệt dự án",
+   "Cấp giấy phép xây dựng",
+   "Nghiệm thu hoàn thành công trình"
+  ],
+  "a": 1,
+  "e": "Điểm a khoản 1 Điều 4 xếp việc lập, thẩm định BCNCKT/BCKTKT và phê duyệt dự án vào giai đoạn chuẩn bị dự án; các phương án còn lại thuộc giai đoạn thực hiện.",
+  "b": "Điểm a khoản 1 Điều 4 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "b05",
+  "topic": "NĐ 217 – Phân loại, lập dự án",
+  "level": 2,
+  "q": "Với dự án không phải khẩn cấp, cấp bách, PPP hay chìa khóa trao tay, ai quyết định thực hiện tuần tự hay đồng thời các công việc của giai đoạn thực hiện và kết thúc xây dựng?",
+  "o": [
+   "Cơ quan chuyên môn về xây dựng",
+   "Ủy ban nhân dân cấp tỉnh",
+   "Chủ đầu tư",
+   "Người quyết định đầu tư"
+  ],
+  "a": 3,
+  "e": "Khoản 5 Điều 4: người quyết định đầu tư quyết định trình tự tuần tự hoặc đồng thời, phù hợp với quyết định phê duyệt dự án.",
+  "b": "Khoản 5 Điều 4 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "b06",
+  "topic": "NĐ 217 – Phân loại, lập dự án",
+  "level": 2,
+  "q": "Dự án của doanh nghiệp sử dụng vốn ODA, vốn vay ưu đãi nước ngoài được quản lý hoạt động xây dựng theo quy định đối với loại dự án nào?",
+  "o": [
+   "Dự án PPP",
+   "Dự án đầu tư công đặc biệt",
+   "Dự án đầu tư công",
+   "Dự án đầu tư kinh doanh"
+  ],
+  "a": 3,
+  "e": "Điểm c khoản 4 Điều 5: dự án thuộc doanh nghiệp sử dụng vốn ODA, vay ưu đãi thực hiện theo quy định đối với dự án đầu tư kinh doanh (điểm d khoản 1 Điều 17 Luật XD 2025).",
+  "b": "Điểm c khoản 4 Điều 5 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "b07",
+  "topic": "NĐ 217 – Phân loại, lập dự án",
+  "level": 2,
+  "q": "Khi NĐ 217/2026 và pháp luật về vốn ODA quy định khác nhau về cùng một vấn đề đối với dự án dùng vốn ODA, áp dụng thế nào?",
+  "o": [
+   "Ưu tiên NĐ 217/2026",
+   "Áp dụng văn bản ban hành sau",
+   "Ưu tiên pháp luật về quản lý sử dụng vốn ODA, vốn vay ưu đãi nước ngoài",
+   "Do người quyết định đầu tư lựa chọn"
+  ],
+  "a": 2,
+  "e": "Khoản 3 Điều 5: ưu tiên áp dụng pháp luật về quản lý sử dụng vốn ODA, vốn vay ưu đãi nước ngoài.",
+  "b": "Khoản 3 Điều 5 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "b08",
+  "topic": "NĐ 217 – Phân loại, lập dự án",
+  "level": 1,
+  "q": "Dự án đầu tư xây dựng có tổng mức đầu tư tối đa bao nhiêu (không gồm bồi thường, GPMB, tiền sử dụng đất) thì chỉ cần lập Báo cáo kinh tế - kỹ thuật?",
+  "o": [
+   "15 tỷ đồng",
+   "45 tỷ đồng",
+   "40 tỷ đồng",
+   "20 tỷ đồng"
+  ],
+  "a": 2,
+  "e": "Điểm b khoản 2 Điều 27: dự án có tổng mức đầu tư không quá 40 tỷ đồng chỉ cần lập BCKTKT.",
+  "b": "Điểm b khoản 2 Điều 27 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "b09",
+  "topic": "NĐ 217 – Phân loại, lập dự án",
+  "level": 2,
+  "q": "Dự án chủ yếu mua sắm, lắp đặt thiết bị chỉ cần lập BCKTKT khi chi phí xây dựng (không gồm thiết bị) đáp ứng điều kiện nào?",
+  "o": [
+   "Dưới 10% tổng mức đầu tư và không quá 20 tỷ đồng",
+   "Dưới 20% tổng mức đầu tư và không quá 40 tỷ đồng",
+   "Không quá 10 tỷ đồng",
+   "Dưới 15% tổng mức đầu tư, không giới hạn giá trị"
+  ],
+  "a": 0,
+  "e": "Điểm đ khoản 2 Điều 27: chi phí xây dựng dưới 10% tổng mức đầu tư và không quá 20 tỷ đồng (trừ dự án quan trọng quốc gia, nhóm A, PPP).",
+  "b": "Điểm đ khoản 2 Điều 27 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "b10",
+  "topic": "NĐ 217 – Phân loại, lập dự án",
+  "level": 2,
+  "q": "Một dự án chủ yếu lắp đặt thiết bị, chi phí xây dựng chỉ 5% tổng mức đầu tư và 8 tỷ đồng, nhưng là dự án nhóm A. Dự án phải lập loại báo cáo nào?",
+  "o": [
+   "Báo cáo kinh tế - kỹ thuật",
+   "Tùy chủ đầu tư lựa chọn",
+   "Không phải lập dự án",
+   "Báo cáo nghiên cứu khả thi"
+  ],
+  "a": 3,
+  "e": "Điểm đ khoản 2 Điều 27 loại trừ dự án quan trọng quốc gia, nhóm A, PPP khỏi trường hợp chỉ lập BCKTKT, nên phải lập BCNCKT.",
+  "b": "Điểm đ khoản 2 Điều 27 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "b11",
+  "topic": "NĐ 217 – Phân loại, lập dự án",
+  "level": 1,
+  "q": "Công tác bảo trì thực hiện trên cơ sở thiết kế của công trình hiện hữu có phải lập dự án đầu tư xây dựng không?",
+  "o": [
+   "Có, phải lập BCKTKT",
+   "Không phải lập dự án đầu tư xây dựng",
+   "Có, phải lập BCNCKT",
+   "Chỉ phải lập khi giá trị trên 5 tỷ đồng"
+  ],
+  "a": 1,
+  "e": "Khoản 4 Điều 27: bảo trì trên cơ sở thiết kế của công trình hiện hữu hoặc không cần lập thiết kế xây dựng thì không phải lập dự án.",
+  "b": "Khoản 4 Điều 27 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "b12",
+  "topic": "NĐ 217 – Phân loại, lập dự án",
+  "level": 3,
+  "q": "Dự án thuộc diện chỉ cần lập BCKTKT nhưng người quyết định đầu tư yêu cầu lập BCNCKT (do cần thiết kế cơ sở). Dự án này có phải thẩm định tại cơ quan chuyên môn về xây dựng không?",
+  "o": [
+   "Không; người quyết định đầu tư tổ chức thẩm định BCNCKT",
+   "Chỉ khi có công trình cấp I",
+   "Chỉ khi dùng vốn đầu tư công",
+   "Có, bắt buộc"
+  ],
+  "a": 0,
+  "e": "Khoản 3 Điều 27: các dự án này không thuộc trường hợp phải thẩm định tại cơ quan chuyên môn về xây dựng; người quyết định đầu tư tổ chức thẩm định BCNCKT.",
+  "b": "Khoản 3 Điều 27 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "b13",
+  "topic": "NĐ 217 – Phân loại, lập dự án",
+  "level": 2,
+  "q": "Với công trình theo tuyến (như đường dây), khi lập BCNCKT được điều chỉnh nội dung nào so với quy hoạch mà vẫn được coi là phù hợp quy hoạch?",
+  "o": [
+   "Điều chỉnh cục bộ hướng tuyến, điểm khống chế để đảm bảo yêu cầu kỹ thuật, không đổi mục tiêu dự án",
+   "Thay đổi mục tiêu dự án",
+   "Thay đổi điểm đầu, điểm cuối tuyến",
+   "Tăng quy mô công suất"
+  ],
+  "a": 0,
+  "e": "Điểm b khoản 5 Điều 27: được điều chỉnh ranh giới, diện tích đất, điều chỉnh cục bộ hướng tuyến, điểm khống chế khi không thay đổi mục tiêu dự án.",
+  "b": "Điểm b khoản 5 Điều 27 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "b14",
+  "topic": "NĐ 217 – Phân loại, lập dự án",
+  "level": 2,
+  "q": "Dự án xây dựng ở khu vực không phải lập quy hoạch phân khu, quy hoạch chi tiết thì căn cứ lập BCNCKT có thể là gì?",
+  "o": [
+   "Phương án tuyến, vị trí công trình, mặt bằng tổng thể được cơ quan có thẩm quyền chấp thuận",
+   "Báo cáo đề xuất của nhà đầu tư",
+   "Giấy chứng nhận quyền sử dụng đất",
+   "Văn bản thỏa thuận đấu nối"
+  ],
+  "a": 0,
+  "e": "Điểm h khoản 1 Điều 26: phương án tuyến công trình, vị trí công trình, mặt bằng tổng thể được cơ quan có thẩm quyền chấp thuận.",
+  "b": "Điểm h khoản 1 Điều 26 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "b15",
+  "topic": "NĐ 217 – Phân loại, lập dự án",
+  "level": 2,
+  "q": "Dự án cải tạo, nâng cấp công trình hiện có nhưng giữ nguyên mục tiêu, địa điểm, quy mô có phải căn cứ quy hoạch để lập, thẩm định BCNCKT không?",
+  "o": [
+   "Có, phải căn cứ quy hoạch tỉnh",
+   "Có, phải căn cứ quy hoạch chi tiết",
+   "Không yêu cầu căn cứ vào quy hoạch",
+   "Chỉ cần căn cứ quy hoạch sử dụng đất"
+  ],
+  "a": 2,
+  "e": "Khoản 2 Điều 26: trường hợp này không yêu cầu căn cứ vào quy hoạch để lập, thẩm định BCNCKT, BCKTKT.",
+  "b": "Khoản 2 Điều 26 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "b16",
+  "topic": "NĐ 217 – Phân loại, lập dự án",
+  "level": 3,
+  "q": "Dự án thành phần độc lập có được lập Báo cáo kinh tế - kỹ thuật không?",
+  "o": [
+   "Chỉ được với dự án đầu tư kinh doanh",
+   "Không; quy mô dự án thành phần độc lập không thuộc trường hợp được lập BCKTKT",
+   "Được, nếu người quyết định đầu tư đồng ý",
+   "Được, nếu tổng mức đầu tư dưới 40 tỷ đồng"
+  ],
+  "a": 1,
+  "e": "Điểm c khoản 3 Điều 28: quy mô dự án thành phần độc lập không thuộc trường hợp được lập BCKTKT theo khoản 2 Điều 27.",
+  "b": "Điểm c khoản 3 Điều 28 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "b17",
+  "topic": "NĐ 217 – Phân loại, lập dự án",
+  "level": 3,
+  "q": "Khi BCNCKT lập thiết kế FEED hoặc thiết kế kỹ thuật và dự định lựa chọn nhà thầu ngay sau phê duyệt dự án, thuyết minh phải bổ sung nội dung gì?",
+  "o": [
+   "Kế hoạch bảo trì 10 năm",
+   "Đề xuất kế hoạch tổng thể lựa chọn nhà thầu, phương án phân chia gói thầu thi công, EPC, EC, EP",
+   "Phương án vận hành thương mại",
+   "Báo cáo thẩm tra an toàn đập"
+  ],
+  "a": 1,
+  "e": "Điểm o khoản 1 Điều 29: đề xuất kế hoạch tổng thể lựa chọn nhà thầu, phương án phân chia gói thầu thi công xây dựng, EPC, EC, EP.",
+  "b": "Điểm o khoản 1 Điều 29 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "b18",
+  "topic": "NĐ 217 – Phân loại, lập dự án",
+  "level": 2,
+  "q": "Nội dung nào có trong thuyết minh Báo cáo kinh tế - kỹ thuật theo Điều 30 NĐ 217/2026?",
+  "o": [
+   "Kế hoạch tổng thể lựa chọn nhà đầu tư",
+   "Báo cáo nghiên cứu tiền khả thi",
+   "Thiết kế FEED",
+   "Cấp công trình của dự án và phương án phòng cháy chữa cháy (nếu có)"
+  ],
+  "a": 3,
+  "e": "Điểm e và g khoản 1 Điều 30 yêu cầu nêu cấp công trình và phương án PCCC (nếu có) trong thuyết minh BCKTKT.",
+  "b": "Điểm e, g khoản 1 Điều 30 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "b19",
+  "topic": "NĐ 217 – Thẩm quyền thẩm định",
+  "level": 1,
+  "q": "Dự án đầu tư kinh doanh nào sau đây thuộc diện cơ quan chuyên môn về xây dựng thẩm định BCNCKT?",
+  "o": [
+   "Dự án có công trình ảnh hưởng đến an toàn, lợi ích cộng đồng thuộc Phụ lục IV",
+   "Dự án trong khu công nghiệp",
+   "Mọi dự án đầu tư kinh doanh trên 40 tỷ đồng",
+   "Dự án có vốn nước ngoài"
+  ],
+  "a": 0,
+  "e": "Điểm d khoản 1 Điều 32: dự án đầu tư kinh doanh có công trình ảnh hưởng đến an toàn, lợi ích cộng đồng thuộc Phụ lục IV.",
+  "b": "Điểm d khoản 1 Điều 32 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "b20",
+  "topic": "NĐ 217 – Thẩm quyền thẩm định",
+  "level": 2,
+  "q": "Dự án đầu tư kinh doanh nào được coi là \"quy mô lớn\" phải thẩm định BCNCKT tại cơ quan chuyên môn về xây dựng?",
+  "o": [
+   "Dự án do Quốc hội, Thủ tướng chấp thuận chủ trương hoặc có tiêu chí của dự án quan trọng quốc gia",
+   "Dự án do UBND cấp tỉnh chấp thuận chủ trương",
+   "Dự án có vốn trên 1.000 tỷ đồng",
+   "Dự án nhóm B trở lên"
+  ],
+  "a": 0,
+  "e": "Điểm c khoản 1 Điều 32: dự án do Quốc hội, Thủ tướng chấp thuận chủ trương đầu tư hoặc đáp ứng tiêu chí dự án quan trọng quốc gia.",
+  "b": "Điểm c khoản 1 Điều 32 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "b21",
+  "topic": "NĐ 217 – Thẩm quyền thẩm định",
+  "level": 2,
+  "q": "Dự án nhà máy điện gió có tuyến đường dây đấu nối đi qua địa bàn 02 tỉnh, thuộc diện thẩm định tại cơ quan chuyên môn. Cơ quan nào thẩm định BCNCKT?",
+  "o": [
+   "UBND cấp tỉnh nơi có trạm biến áp",
+   "Ban quản lý khu kinh tế",
+   "Cơ quan chuyên môn về xây dựng thuộc bộ quản lý công trình xây dựng chuyên ngành",
+   "Sở Công Thương nơi đặt nhà máy"
+  ],
+  "a": 2,
+  "e": "Khoản 2 Điều 32: dự án đầu tư xây dựng trên địa bàn hành chính từ 02 tỉnh, thành phố trở lên do cơ quan chuyên môn thuộc bộ quản lý công trình chuyên ngành thẩm định.",
+  "b": "Khoản 2 Điều 32 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "b22",
+  "topic": "NĐ 217 – Thẩm quyền thẩm định",
+  "level": 2,
+  "q": "Dự án trong khu công nghiệp thuộc diện thẩm định tại cơ quan chuyên môn, có công trình cấp I, nằm trọn trong 1 tỉnh. Cơ quan nào thẩm định BCNCKT?",
+  "o": [
+   "Sở Kế hoạch và Đầu tư",
+   "Bộ Xây dựng",
+   "Ban Quản lý khu công nghiệp được giao quản lý địa bàn",
+   "UBND cấp xã"
+  ],
+  "a": 2,
+  "e": "Khoản 3 Điều 32: Ban Quản lý KCN, KCX, KCNC, KKT thẩm định dự án trên địa bàn được giao quản lý, trừ dự án thuộc khoản 2 (cấp đặc biệt, liên tỉnh…).",
+  "b": "Khoản 3 Điều 32 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "b23",
+  "topic": "NĐ 217 – Thẩm quyền thẩm định",
+  "level": 2,
+  "q": "Theo NĐ 217/2026, cơ quan chuyên môn về xây dựng thuộc UBND cấp tỉnh thẩm định BCNCKT trong trường hợp nào?",
+  "o": [
+   "Chỉ dự án nhóm C",
+   "Dự án thuộc diện thẩm định trên địa bàn tỉnh, trừ dự án thuộc thẩm quyền của bộ, Ban quản lý khu và UBND cấp xã",
+   "Chỉ dự án đầu tư công do tỉnh quyết định",
+   "Mọi dự án trên địa bàn tỉnh"
+  ],
+  "a": 1,
+  "e": "Khoản 5 Điều 32: thẩm định dự án trên địa bàn tỉnh, trừ dự án quy định tại khoản 2, 3 và 4 Điều 32.",
+  "b": "Khoản 5 Điều 32 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "b24",
+  "topic": "NĐ 217 – Thẩm quyền thẩm định",
+  "level": 3,
+  "q": "Dự án công trình theo chức năng quản lý của Bộ Công Thương xây dựng trên biển, nằm ngoài phạm vi quản lý của UBND cấp tỉnh (ví dụ điện gió ngoài khơi). Cơ quan nào thẩm định BCNCKT?",
+  "o": [
+   "Bộ Nông nghiệp và Môi trường",
+   "Bộ Xây dựng",
+   "Cơ quan chuyên môn về xây dựng thuộc Bộ Công Thương",
+   "UBND tỉnh ven biển gần nhất"
+  ],
+  "a": 2,
+  "e": "Điểm d khoản 1 Điều 33: cơ quan chuyên môn về xây dựng thuộc Bộ Công Thương thẩm định dự án công trình trên biển ngoài phạm vi quản lý của UBND cấp tỉnh.",
+  "b": "Điểm d khoản 1 Điều 33 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "b25",
+  "topic": "NĐ 217 – Thẩm quyền thẩm định",
+  "level": 2,
+  "q": "Cơ quan chuyên môn về xây dựng thuộc Bộ Xây dựng thẩm định BCNCKT của các dự án thuộc lĩnh vực nào theo điểm b khoản 1 Điều 33?",
+  "o": [
+   "Hạ tầng viễn thông",
+   "Năng lượng, dầu khí",
+   "Thủy lợi, đê điều",
+   "Hàng không, đường sắt quốc gia và hàng hải"
+  ],
+  "a": 3,
+  "e": "Điểm b khoản 1 Điều 33: lĩnh vực hàng không, đường sắt quốc gia và hàng hải.",
+  "b": "Điểm b khoản 1 Điều 33 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "b26",
+  "topic": "NĐ 217 – Thẩm quyền thẩm định",
+  "level": 3,
+  "q": "Dự án đầu tư kinh doanh trên địa bàn Hà Nội, có công trình cấp I, không thuộc các trường hợp riêng của bộ. Cơ quan nào thẩm định BCNCKT?",
+  "o": [
+   "Bộ Công Thương",
+   "Bộ Xây dựng",
+   "UBND cấp xã nơi có dự án",
+   "Cơ quan chuyên môn về xây dựng thuộc UBND thành phố Hà Nội"
+  ],
+  "a": 3,
+  "e": "Điểm e khoản 1 Điều 33: cơ quan chuyên môn thuộc UBND TP Hà Nội, TP HCM thẩm định dự án trên địa bàn, trừ công trình cấp đặc biệt do người đứng đầu cơ quan trung ương quyết định đầu tư và các trường hợp điểm a, b, c, d.",
+  "b": "Điểm e khoản 1 Điều 33 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "b27",
+  "topic": "NĐ 217 – Thẩm quyền thẩm định",
+  "level": 2,
+  "q": "Dự án gồm nhiều công trình với loại, cấp khác nhau thì thẩm quyền thẩm định được xác định theo công trình nào?",
+  "o": [
+   "Công trình có giá trị lớn nhất",
+   "Công trình chính, hoặc công trình chính có cấp cao nhất nếu có nhiều công trình chính",
+   "Công trình phụ trợ có cấp cao nhất",
+   "Công trình được khởi công đầu tiên"
+  ],
+  "a": 1,
+  "e": "Khoản 3 Điều 33: xác định theo công trình chính, hoặc công trình chính có cấp cao nhất khi dự án có nhiều công trình chính.",
+  "b": "Khoản 3 Điều 33 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "b28",
+  "topic": "NĐ 217 – Thẩm quyền thẩm định",
+  "level": 3,
+  "q": "Dự án chia thành dự án thành phần không độc lập và trình thẩm định theo giai đoạn. Thẩm quyền thẩm định xác định thế nào?",
+  "o": [
+   "Theo quy mô nhóm và cấp công trình của toàn bộ dự án",
+   "Theo dự án thành phần có tổng mức đầu tư lớn nhất",
+   "Theo nhóm và cấp công trình của từng dự án thành phần",
+   "Do người quyết định đầu tư lựa chọn"
+  ],
+  "a": 0,
+  "e": "Khoản 5 Điều 33: trường hợp này thẩm quyền xác định theo quy mô nhóm và cấp công trình của toàn bộ dự án.",
+  "b": "Khoản 5 Điều 33 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "b29",
+  "topic": "NĐ 217 – Thẩm quyền thẩm định",
+  "level": 2,
+  "q": "Hội đồng thẩm định BCNCKT được thành lập cho loại dự án nào?",
+  "o": [
+   "Mọi dự án nhóm A",
+   "Dự án quan trọng quốc gia, dự án do Quốc hội quyết định hoặc chấp thuận chủ trương đầu tư",
+   "Dự án liên tỉnh",
+   "Dự án có công trình cấp đặc biệt"
+  ],
+  "a": 1,
+  "e": "Khoản 2 Điều 33 và khoản 1 Điều 34: thành lập Hội đồng thẩm định cho dự án quan trọng quốc gia, dự án do Quốc hội quyết định hoặc chấp thuận chủ trương.",
+  "b": "Khoản 2 Điều 33; khoản 1 Điều 34 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "b30",
+  "topic": "NĐ 217 – Thẩm quyền thẩm định",
+  "level": 3,
+  "q": "Kết luận cuối cùng thông qua nội dung thẩm định BCNCKT của Hội đồng thẩm định cần tối thiểu bao nhiêu thành viên thông qua?",
+  "o": [
+   "Ít nhất 3/4 số thành viên",
+   "Trên 50% số thành viên",
+   "Ít nhất 2/3 số thành viên Hội đồng",
+   "Toàn bộ thành viên có mặt"
+  ],
+  "a": 2,
+  "e": "Khoản 7 Điều 34: kết luận cuối cùng phải được ít nhất 2/3 số thành viên Hội đồng thẩm định thông qua; phiên họp hợp lệ khi có ít nhất 50% thành viên.",
+  "b": "Khoản 7 Điều 34 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "b31",
+  "topic": "NĐ 217 – Thời hạn, hồ sơ, điều chỉnh",
+  "level": 1,
+  "q": "Thời gian thẩm định BCNCKT tại cơ quan chuyên môn về xây dựng đối với dự án nhóm B có công trình cấp I trở lên là bao lâu?",
+  "o": [
+   "Không quá 16 ngày làm việc",
+   "Không quá 25 ngày làm việc",
+   "Không quá 30 ngày",
+   "Không quá 20 ngày làm việc"
+  ],
+  "a": 3,
+  "e": "Điểm c khoản 1 Điều 37: không quá 20 ngày làm việc với dự án nhóm B có công trình cấp I trở lên; 16 ngày với dự án nhóm B còn lại.",
+  "b": "Điểm c khoản 1 Điều 37 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "b32",
+  "topic": "NĐ 217 – Thời hạn, hồ sơ, điều chỉnh",
+  "level": 1,
+  "q": "Thời gian thẩm định BCNCKT đối với dự án nhóm A có công trình cấp I trở lên là bao lâu?",
+  "o": [
+   "Không quá 60 ngày",
+   "Không quá 25 ngày làm việc",
+   "Không quá 40 ngày",
+   "Không quá 20 ngày làm việc"
+  ],
+  "a": 1,
+  "e": "Điểm b khoản 1 Điều 37: không quá 25 ngày làm việc; nhóm A còn lại không quá 20 ngày làm việc.",
+  "b": "Điểm b khoản 1 Điều 37 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "b33",
+  "topic": "NĐ 217 – Thời hạn, hồ sơ, điều chỉnh",
+  "level": 2,
+  "q": "Thời gian thẩm định BCNCKT dự án quan trọng quốc gia và số lần được gia hạn là bao nhiêu?",
+  "o": [
+   "Không quá 90 ngày; không được gia hạn",
+   "Không quá 60 ngày; được gia hạn 01 lần, không quá thời gian thẩm định tương ứng",
+   "Không quá 45 ngày; gia hạn 01 lần 15 ngày",
+   "Không quá 60 ngày làm việc; gia hạn tối đa 02 lần"
+  ],
+  "a": 1,
+  "e": "Điểm a khoản 1 và khoản 2 Điều 37: không quá 60 ngày; chỉ được gia hạn 01 lần, thời gian gia hạn không quá thời gian thẩm định tương ứng.",
+  "b": "Điểm a khoản 1, khoản 2 Điều 37 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "b34",
+  "topic": "NĐ 217 – Thời hạn, hồ sơ, điều chỉnh",
+  "level": 2,
+  "q": "Trong bao lâu sau khi tiếp nhận hồ sơ, cơ quan chuyên môn về xây dựng phải gửi một lần yêu cầu bổ sung hồ sơ trình thẩm định BCNCKT?",
+  "o": [
+   "03 ngày làm việc",
+   "05 ngày làm việc",
+   "07 ngày làm việc",
+   "10 ngày làm việc"
+  ],
+  "a": 1,
+  "e": "Khoản 3 Điều 36: trong 05 ngày làm việc sau khi tiếp nhận, xem xét, gửi một lần yêu cầu bổ sung thành phần hồ sơ.",
+  "b": "Khoản 3 Điều 36 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "b35",
+  "topic": "NĐ 217 – Thời hạn, hồ sơ, điều chỉnh",
+  "level": 2,
+  "q": "Cơ quan chuẩn bị dự án không bổ sung hồ sơ theo yêu cầu trong thời hạn bao lâu thì cơ quan chuyên môn dừng thẩm định?",
+  "o": [
+   "10 ngày làm việc",
+   "30 ngày",
+   "15 ngày làm việc",
+   "20 ngày làm việc"
+  ],
+  "a": 3,
+  "e": "Khoản 5 Điều 36: trong 20 ngày làm việc kể từ ngày nhận yêu cầu, nếu không khắc phục, bổ sung thì dừng thẩm định; nộp lại thì thời hạn tính lại từ đầu.",
+  "b": "Khoản 5 Điều 36 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "b36",
+  "topic": "NĐ 217 – Thời hạn, hồ sơ, điều chỉnh",
+  "level": 2,
+  "q": "Trong quá trình thẩm định BCNCKT, cơ quan chuyên môn về xây dựng được tạm dừng thẩm định tối đa bao nhiêu lần?",
+  "o": [
+   "Không được tạm dừng",
+   "Không giới hạn",
+   "Không quá 01 lần",
+   "Không quá 02 lần"
+  ],
+  "a": 2,
+  "e": "Khoản 4 Điều 36: có quyền tạm dừng thẩm định không quá 01 lần, có văn bản nêu lỗi, sai sót về thông tin, số liệu.",
+  "b": "Khoản 4 Điều 36 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "b37",
+  "topic": "NĐ 217 – Thời hạn, hồ sơ, điều chỉnh",
+  "level": 1,
+  "q": "Văn bản nào thuộc hồ sơ trình thẩm định BCNCKT tại cơ quan chuyên môn về xây dựng theo Điều 35?",
+  "o": [
+   "Văn bản thỏa thuận, xác nhận về đấu nối hạ tầng kỹ thuật của dự án (nếu có)",
+   "Hợp đồng EPC đã ký",
+   "Giấy phép xây dựng",
+   "Biên bản nghiệm thu hoàn thành"
+  ],
+  "a": 0,
+  "e": "Điểm đ khoản 2 Điều 35: các văn bản thỏa thuận, xác nhận về đấu nối hạ tầng kỹ thuật; văn bản chấp thuận độ cao công trình (nếu có).",
+  "b": "Điểm đ khoản 2 Điều 35 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "b38",
+  "topic": "NĐ 217 – Thời hạn, hồ sơ, điều chỉnh",
+  "level": 3,
+  "q": "Chủ đầu tư nhận chuyển nhượng toàn bộ dự án đã được cơ quan chuyên môn thẩm định BCNCKT, không điều chỉnh dự án. Có phải thẩm định lại không?",
+  "o": [
+   "Phải thẩm định lại toàn bộ",
+   "Chỉ thẩm định lại tổng mức đầu tư",
+   "Phải thẩm định lại thiết kế cơ sở",
+   "Không; tổ chức nhận chuyển nhượng được kế thừa kết quả thẩm định"
+  ],
+  "a": 3,
+  "e": "Khoản 7 Điều 38: tổ chức nhận chuyển nhượng, góp vốn, hình thành sau chia tách, sáp nhập được kế thừa kết quả thẩm định, trừ trường hợp điều chỉnh dự án theo khoản 2 Điều 40.",
+  "b": "Khoản 7 Điều 38 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "b39",
+  "topic": "NĐ 217 – Thời hạn, hồ sơ, điều chỉnh",
+  "level": 3,
+  "q": "Dự án đầu tư kinh doanh điều chỉnh trường hợp nào sau đây phải thẩm định BCNCKT điều chỉnh tại cơ quan chuyên môn về xây dựng?",
+  "o": [
+   "Chuẩn xác lại số liệu tính toán",
+   "Cắt giảm một hạng mục độc lập đã được người quyết định đầu tư chấp thuận",
+   "Thay đổi nhà thầu tư vấn giám sát",
+   "Thay đổi giải pháp kết cấu chính của thiết kế tại BCNCKT"
+  ],
+  "a": 3,
+  "e": "Điểm c khoản 2 Điều 40: thiết kế tại BCNCKT thay đổi giải pháp kết cấu chính phải thẩm định điều chỉnh; chuẩn xác số liệu, cắt giảm hạng mục độc lập là ngoại lệ tại điểm b.",
+  "b": "Điểm c khoản 2 Điều 40 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "b40",
+  "topic": "NĐ 217 – Thời hạn, hồ sơ, điều chỉnh",
+  "level": 3,
+  "q": "Dự án chỉ lập BCKTKT (loại tổng mức đầu tư không quá 40 tỷ đồng) điều chỉnh làm tăng tổng mức đầu tư vượt bao nhiêu thì phải lập BCNCKT điều chỉnh?",
+  "o": [
+   "Vượt 15% mức quy định",
+   "Vượt 5% mức quy định",
+   "Vượt 10% mức quy định",
+   "Vượt 20% mức quy định"
+  ],
+  "a": 2,
+  "e": "Điểm a khoản 6 Điều 40: tăng tổng mức đầu tư vượt quá 10% mức quy định đối với dự án chỉ lập BCKTKT thì phải lập BCNCKT điều chỉnh.",
+  "b": "Điểm a khoản 6 Điều 40 NĐ 217/2026/NĐ-CP"
  }
 ]
