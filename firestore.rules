@@ -10,8 +10,8 @@ service cloud.firestore {
     }
 
     match /attempts/{id} {
-      // Người đã đăng nhập được xem kết quả (phục vụ bảng xếp hạng).
-      allow read: if request.auth != null;
+      // Bảng xếp hạng công khai: ai cũng xem được (dữ liệu chỉ gồm tên hiển thị đã chọn, điểm, thời gian).
+      allow read: if true;
 
       // Chỉ tạo lượt thi của chính mình, dữ liệu phải hợp lệ.
       allow create: if request.auth != null

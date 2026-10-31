@@ -3,7 +3,7 @@
 Sổ tay tra cứu và tự kiểm tra cho phát triển, xây dựng, quản lý dự án năng lượng tại Việt Nam.
 
 - **I. Tin tức ngành điện:** tự động tổng hợp tiêu đề và link từ cổng thông tin Bộ Công Thương, Chính phủ, Bộ Tài chính, EVN, NSMO, EVNNPT (không lấy tin báo chí, không chép ảnh, nội dung).
-- **II. Tự kiểm tra:** luyện tập, tạo đề thi có tính giờ, chấm điểm, bảng xếp hạng, lịch sử, quản trị.
+- **II. Kiểm tra kiến thức:** luyện tập, tạo đề thi có tính giờ, chấm điểm, bảng xếp hạng, lịch sử, quản trị.
 - **III. Cẩm nang rủi ro:** ma trận rủi ro theo 8 loại hình dự án.
 - **IV. Tra cứu nhanh:** giá điện 2026, khung giá phát điện, thẩm quyền, thời hạn, văn bản pháp luật có link.
 

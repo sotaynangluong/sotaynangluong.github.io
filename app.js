@@ -1,7 +1,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
 import { getAuth, GoogleAuthProvider, signInWithPopup, signInWithRedirect, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 import { getFirestore, collection, addDoc, getDocs, deleteDoc, doc, query as fq, where, orderBy, limit, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
-import { firebaseConfig, ADMIN_UIDS } from "./firebase-config.js?v=14";
+import { firebaseConfig, ADMIN_UIDS } from "./firebase-config.js?v=15";
 
 /* ---------- Khởi tạo ---------- */
 const configured = !!firebaseConfig.projectId;
@@ -63,7 +63,7 @@ function consentCard() {
   const full = esc(user.displayName || "Ẩn danh"), sh = esc(shortName(user.displayName));
   return `<div class="card consent">
     <h3>Thông báo xử lý dữ liệu cá nhân</h3>
-    <p>Khi anh/chị dùng chức năng thi, trang lưu trên Firebase (Google, máy chủ Singapore) các dữ liệu: mã người dùng Google, tên hiển thị, ảnh đại diện, kết quả và thời gian làm bài. Mục đích: chấm điểm, lưu lịch sử và lập bảng xếp hạng. Trang không lưu email, không chia sẻ cho bên thứ ba. Quản trị viên xem và xóa được các lượt thi. Muốn xóa toàn bộ dữ liệu của mình, liên hệ email ở thanh bên.</p>
+    <p>Khi anh/chị dùng chức năng thi, trang lưu trên Firebase (Google, máy chủ Singapore) các dữ liệu: mã người dùng Google, tên hiển thị, ảnh đại diện, kết quả và thời gian làm bài. Mục đích: chấm điểm, lưu lịch sử và lập bảng xếp hạng công khai (mọi người truy cập trang đều xem được tên hiển thị và điểm). Trang không lưu email, không chia sẻ cho bên thứ ba. Quản trị viên xem và xóa được các lượt thi. Muốn xóa toàn bộ dữ liệu của mình, liên hệ email ở thanh bên.</p>
     <fieldset class="nm"><legend>Tên hiển thị trên bảng xếp hạng</legend>
       <label><input type="radio" name="nm" value="full" id="nm-full" checked> Họ tên đầy đủ: <b>${full}</b></label>
       <label><input type="radio" name="nm" value="short" id="nm-short"> Viết tắt: <b>${sh}</b></label>
@@ -79,7 +79,7 @@ function gateBanner(msg) {
 }
 function wireGate(root = view) { root.querySelectorAll("[data-login]").forEach(b => b.onclick = login); }
 
-/* ---------- 01. Tự kiểm tra ---------- */
+/* ---------- II. Kiểm tra kiến thức ---------- */
 let tab = "luyen-tap", topicFilter = "Tất cả";
 let exam = null;      // đề đang làm
 let result = null;    // kết quả vừa nộp
@@ -88,15 +88,9 @@ let timerId = null;
 function renderQuizSection() {
   const tabs = [["luyen-tap", "Luyện tập"], ["thi", "Thi"], ["bang-tong", "Bảng xếp hạng"], ["xep-hang", "Xếp hạng theo đề"], ["lich-su", "Lịch sử của tôi"]];
   if (isAdmin()) tabs.push(["quan-tri", "Quản trị"]);
-  if (user && configured && !getConsent()) {
-    view.innerHTML = `<h1>Tự kiểm tra</h1>${consentCard()}`;
-    $("#agree").onclick = () => { store.set(consentKey(), { at: new Date().toISOString(), nameMode: view.querySelector('input[name="nm"]:checked').value }); renderQuizSection(); };
-    $("#decline").onclick = () => signOut(auth);
-    return;
-  }
-  view.innerHTML = `<h1>Tự kiểm tra</h1>
+  view.innerHTML = `<h1>Kiểm tra kiến thức</h1>
     <p class="lede">Luyện tập tự do, hoặc tạo đề thi có tính giờ để chấm điểm và xếp hạng. Ngân hàng hiện có <b class="num">${DATA.questions.length}</b> câu hỏi.</p>
-    ${gateBanner("Đăng nhập để thi, lưu kết quả, xem bảng xếp hạng và lịch sử. Chưa đăng nhập chỉ luyện tập được bộ 5 câu.")}
+    ${gateBanner("Mọi người đều luyện tập, thi thử và xem bảng xếp hạng được. Đăng nhập Google để lưu kết quả, có tên trên bảng xếp hạng và xem lịch sử thi.")}
     <div class="tabs" role="tablist">${tabs.map(([k, l]) => `<button role="tab" type="button" data-tab="${k}" aria-selected="${k === tab}">${l}</button>`).join("")}</div>
     <div id="pane"></div>`;
   wireGate();
@@ -154,7 +148,12 @@ function panePractice() {
 /* Thi */
 const examKey = (topic, n) => `${topic}|${n}`;
 function paneExam() {
-  if (needLogin("Đăng nhập Google để tạo đề thi, chấm điểm và tham gia xếp hạng.")) return;
+  if (user && configured && !getConsent() && !exam && !result) {
+    $("#pane").innerHTML = consentCard();
+    $("#agree").onclick = () => { store.set(consentKey(), { at: new Date().toISOString(), nameMode: $("#pane").querySelector('input[name="nm"]:checked').value }); paneExam(); };
+    $("#decline").onclick = () => signOut(auth);
+    return;
+  }
   if (exam) return renderExam();
   if (result) return renderResult();
   const pool = t => DATA.questions.filter(q => t === "Tất cả" || q.topic === t);
@@ -254,7 +253,7 @@ function needLogin(msg) {
   return false;
 }
 async function paneRank() {
-  if (needLogin("Đăng nhập để xem bảng xếp hạng.")) return;
+  if (!configured) { $("#pane").innerHTML = `<p class="empty">Trang chưa kết nối Firebase.</p>`; return; }
   const keys = ["Tất cả", ...topics()].flatMap(t => [10, 20, 40].map(n => examKey(t, n)));
   $("#pane").innerHTML = `<div class="form"><label for="rk">Bộ đề<select id="rk">${keys.map(k => `<option value="${esc(k)}" ${k === rankKey ? "selected" : ""}>${esc(k.replace("|", " · "))} câu</option>`).join("")}</select></label></div><div id="rk-body"><p class="empty">Đang tải…</p></div>`;
   $("#rk").onchange = e => { rankKey = e.target.value; paneRank(); };
@@ -264,13 +263,13 @@ async function paneRank() {
     rows.forEach(a => { const b = best[a.uid]; if (!b || a.score > b.score || (a.score === b.score && a.duration < b.duration)) best[a.uid] = { ...a, count: (b?.count || 0) + 1 }; else b.count++; });
     const list = Object.values(best).sort((a, b) => b.score - a.score || a.duration - b.duration);
     $("#rk-body").innerHTML = list.length ? `<div class="tbl-wrap"><table><thead><tr><th>Hạng</th><th>Người thi</th><th>Điểm</th><th>Thời gian</th><th>Số lượt</th></tr></thead><tbody>
-      ${list.map((a, i) => `<tr class="${i === 0 ? "rank1" : ""} ${a.uid === user.uid ? "me-row" : ""}"><td class="num">${i + 1}</td><td>${esc(a.name)}</td><td class="num">${a.score.toFixed(1)}</td><td class="num">${fmtTime(a.duration)}</td><td class="num">${a.count}</td></tr>`).join("")}
+      ${list.map((a, i) => `<tr class="${i === 0 ? "rank1" : ""} ${a.uid === user?.uid ? "me-row" : ""}"><td class="num">${i + 1}</td><td>${esc(a.name)}</td><td class="num">${a.score.toFixed(1)}</td><td class="num">${fmtTime(a.duration)}</td><td class="num">${a.count}</td></tr>`).join("")}
       </tbody></table></div><p class="hint">Xếp theo điểm cao nhất, bằng điểm thì thời gian ngắn hơn đứng trước.</p>` : `<p class="empty">Chưa có lượt thi nào cho bộ đề này.</p>`;
   } catch (e) { $("#rk-body").innerHTML = `<p class="empty">Không tải được: ${esc(e.message)}</p>`; }
 }
 /* Bảng xếp hạng tổng hợp theo người: gộp mọi lượt thi đã lưu */
 async function paneOverall() {
-  if (needLogin("Đăng nhập để xem bảng xếp hạng.")) return;
+  if (!configured) { $("#pane").innerHTML = `<p class="empty">Trang chưa kết nối Firebase.</p>`; return; }
   $("#pane").innerHTML = `<p class="empty">Đang tải…</p>`;
   try {
     const per = {};
@@ -282,11 +281,11 @@ async function paneOverall() {
     const all = Object.values(per).map(p => ({ ...p, avg: p.t ? p.c / p.t * 10 : 0 }));
     const list = all.filter(p => p.t >= 10).sort((a, b) => b.avg - a.avg || b.t - a.t || b.best - a.best);
     const pending = all.filter(p => p.t < 10);
-    const me = all.find(p => p.uid === user.uid);
-    $("#pane").innerHTML = `${me ? `<div class="card"><div class="score"><span class="big num">${me.avg.toFixed(1)}</span><span>Điểm trung bình của anh/chị · <b class="num">${me.n}</b> lượt · đúng <b class="num">${me.c}/${me.t}</b> câu · cao nhất <b class="num">${me.best.toFixed(1)}</b>${me.t < 10 ? " · cần làm đủ 10 câu để vào bảng" : ` · hạng <b class="num">${list.findIndex(p => p.uid === user.uid) + 1}/${list.length}</b>`}</span></div></div>` : `<p class="hint">Anh/chị chưa có lượt thi nào. Vào tab Thi để bắt đầu.</p>`}
+    const me = user ? all.find(p => p.uid === user.uid) : null;
+    $("#pane").innerHTML = `${me ? `<div class="card"><div class="score"><span class="big num">${me.avg.toFixed(1)}</span><span>Điểm trung bình của anh/chị · <b class="num">${me.n}</b> lượt · đúng <b class="num">${me.c}/${me.t}</b> câu · cao nhất <b class="num">${me.best.toFixed(1)}</b>${me.t < 10 ? " · cần làm đủ 10 câu để vào bảng" : ` · hạng <b class="num">${list.findIndex(p => p.uid === user?.uid) + 1}/${list.length}</b>`}</span></div></div>` : (user ? `<p class="hint">Anh/chị chưa có lượt thi nào. Vào tab Thi để bắt đầu.</p>` : `<p class="hint">Đăng nhập Google để lưu kết quả thi và có tên trên bảng xếp hạng.</p>`)}
     <h2>Bảng xếp hạng tổng</h2>
     ${list.length ? `<div class="tbl-wrap"><table><thead><tr><th>Hạng</th><th>Người thi</th><th>Điểm TB</th><th>Đúng / tổng câu</th><th>Số lượt</th><th>Cao nhất</th></tr></thead><tbody>
-      ${list.map((p, i) => `<tr class="${i === 0 ? "rank1" : ""} ${p.uid === user.uid ? "me-row" : ""}"><td class="num">${i + 1}</td><td>${esc(p.name)}</td><td class="num">${p.avg.toFixed(2)}</td><td class="num">${p.c}/${p.t}</td><td class="num">${p.n}</td><td class="num">${p.best.toFixed(1)}</td></tr>`).join("")}
+      ${list.map((p, i) => `<tr class="${i === 0 ? "rank1" : ""} ${p.uid === user?.uid ? "me-row" : ""}"><td class="num">${i + 1}</td><td>${esc(p.name)}</td><td class="num">${p.avg.toFixed(2)}</td><td class="num">${p.c}/${p.t}</td><td class="num">${p.n}</td><td class="num">${p.best.toFixed(1)}</td></tr>`).join("")}
       </tbody></table></div>` : `<p class="empty">Chưa có ai đủ điều kiện xếp hạng.</p>`}
     <p class="hint">Điểm TB = tổng câu đúng / tổng câu đã thi × 10, gộp mọi lượt thi (kể cả đề không xếp hạng theo bộ đề). Cần tối thiểu 10 câu để vào bảng. Bằng điểm thì ai làm nhiều câu hơn đứng trước.${pending.length ? ` Có ${pending.length} người chưa đủ 10 câu.` : ""}</p>`;
   } catch (e) { $("#pane").innerHTML = `<p class="empty">Không tải được: ${esc(e.message)}</p>`; }
@@ -415,7 +414,7 @@ function renderPolicy() {
   <div class="stack policy">
     <section class="card"><h3>1. Dữ liệu cá nhân</h3>
       <p>Đăng nhập bằng Google chỉ để xác định người thi. Trang lưu trên Firebase (Google, máy chủ Singapore): mã người dùng, tên hiển thị (đầy đủ hoặc viết tắt theo lựa chọn), ảnh đại diện, kết quả, thời gian làm bài. Trang không lưu email, không bán hay chia sẻ dữ liệu cho bên thứ ba.</p>
-      <p>Mục đích: chấm điểm, lưu lịch sử, lập bảng xếp hạng. Người dùng có thể đổi cách hiển thị tên ở tab "Lịch sử của tôi" và yêu cầu xóa dữ liệu qua email liên hệ.</p></section>
+      <p>Mục đích: chấm điểm, lưu lịch sử, lập bảng xếp hạng công khai (hiển thị tên đã chọn và điểm). Người dùng có thể đổi cách hiển thị tên ở tab "Lịch sử của tôi" và yêu cầu xóa dữ liệu qua email liên hệ.</p></section>
     <section class="card"><h3>2. Tin tức</h3>
       <p>Mục Tin tức chỉ hiển thị tiêu đề, tên nguồn, ngày đăng và đường dẫn đến bài gốc trên cổng thông tin của cơ quan nhà nước, doanh nghiệp ngành điện. Trang không sao chép nội dung, hình ảnh của bài viết.</p></section>
     <section class="card"><h3>3. Văn bản và đường dẫn</h3>
