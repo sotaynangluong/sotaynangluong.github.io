@@ -1,7 +1,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
 import { getAuth, GoogleAuthProvider, signInWithPopup, signInWithRedirect, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 import { getFirestore, collection, addDoc, getDocs, deleteDoc, doc, query as fq, where, orderBy, limit, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
-import { firebaseConfig, ADMIN_UIDS } from "./firebase-config.js?v=21";
+import { firebaseConfig, ADMIN_UIDS } from "./firebase-config.js?v=22";
 
 /* ---------- Khởi tạo ---------- */
 const configured = !!firebaseConfig.projectId;
@@ -378,7 +378,7 @@ function potentialBlock(t) {
   const kp = p && p.kpis ? `<div class="pkpi">${p.kpis.map(k => `<div><b>${esc(k[0])}</b><span>${esc(k[1])}</span></div>`).join("")}</div>` : "";
   const tb = p && p.table ? `<div class="tbl-wrap"><table><thead><tr>${p.table.head.map(h => `<th>${esc(h)}</th>`).join("")}</tr></thead><tbody>${p.table.rows.map(r => `<tr>${r.map((c, i) => `<td class="${i ? "num" : ""}">${esc(c)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>` : "";
   return `<section class="card"><h3>${p ? "Tiềm năng và số liệu trực quan" : "Biểu đồ trực quan"}</h3>
-    ${kp}${p && p.chart ? hbars(p.chart) : ""}${tb}${capexTrend(t)}
+    ${kp}${p && p.maps ? `<div class="pmaps">${p.maps.map(m => `<figure class="pmap"><a href="${esc(m[0])}" target="_blank" rel="noopener"><img src="${esc(m[0])}" alt="${esc(m[1])}" loading="lazy"></a><figcaption><b>${esc(m[1])}</b><br>${esc(m[2])}. Trích từ ${esc(DATA.tech.sources[t.src].title)}, trang ${esc(m[3])}.</figcaption></figure>`).join("")}</div>` : ""}${p && p.chart ? hbars(p.chart) : ""}${tb}${capexTrend(t)}
     ${p && p.map ? `<p><a class="btn" href="${esc(p.map[1])}" target="_blank" rel="noopener">🗺 ${esc(p.map[0])} ↗</a></p>` : ""}
     ${p && p.note ? `<p class="hint">${esc(p.note)}${p.page ? ` Trang ${esc(p.page)} tài liệu nguồn.` : ""}</p>` : ""}</section>`;
 }

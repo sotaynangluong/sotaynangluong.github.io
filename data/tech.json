@@ -291,6 +291,14 @@
     "map": [
      "Bản đồ bức xạ mặt trời tương tác (Global Solar Atlas – World Bank)",
      "https://globalsolaratlas.info/map?c=16,106,6"
+    ],
+    "maps": [
+     [
+      "assets/maps/map-solar.jpg",
+      "Hình 44: Tiềm năng bức xạ mặt trời tại Việt Nam",
+      "Bản đồ gốc: © 2019 The World Bank, Global Solar Atlas 2.0, dữ liệu Solargis",
+      "144"
+     ]
     ]
    }
   },
@@ -506,6 +514,14 @@
     "map": [
      "Bản đồ tài nguyên gió tương tác (Global Wind Atlas – World Bank, DTU)",
      "https://globalwindatlas.info/en"
+    ],
+    "maps": [
+     [
+      "assets/maps/map-wind.jpg",
+      "Hình 53: Tài nguyên gió trên đất liền Việt Nam, độ cao 100 m",
+      "Bản đồ gốc: Global Wind Atlas",
+      "165"
+     ]
     ]
    }
   },
@@ -727,6 +743,20 @@
     "map": [
      "Bản đồ tài nguyên gió tương tác (Global Wind Atlas – World Bank, DTU)",
      "https://globalwindatlas.info/en"
+    ],
+    "maps": [
+     [
+      "assets/maps/map-offshore-esmap.jpg",
+      "Hình 57: Vị trí điện gió ngoài khơi tiềm năng theo móng cố định và móng nổi",
+      "Bản đồ gốc: WB-ESMAP",
+      "182"
+     ],
+     [
+      "assets/maps/map-offshore-tech.jpg",
+      "Hình 58: Tiềm năng kỹ thuật điện gió ngoài khơi tại vùng biển Việt Nam",
+      "Bản đồ gốc: đánh giá do UNDP hỗ trợ Trung tâm Dự báo KTTV quốc gia",
+      "183"
+     ]
     ]
    }
   },
