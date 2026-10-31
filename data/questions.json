@@ -2428,5 +2428,455 @@
   "a": 3,
   "e": "Đề án trung tâm điều khiển được duyệt sau khi có ý kiến bằng văn bản của cấp điều độ có quyền điều khiển, kiểm tra. Với nhóm nhà máy NLTT, nhóm nhà máy tổng trên 30 MW hoặc nhóm trạm truyền tải, phải có ý kiến chính thức của Bộ Công Thương trước khi phê duyệt.",
   "b": "Khoản 1 Điều 83 TT 06/2025/TT-BCT"
+ },
+ {
+  "id": "f01",
+  "topic": "Luật Điện lực – Đầu tư dự án điện",
+  "level": 2,
+  "q": "Đường dây 220 kV đi qua 2 tỉnh, thuộc diện chấp thuận chủ trương đầu tư theo Luật Đầu tư. Ai có thẩm quyền chấp thuận?",
+  "o": [
+   "UBND tỉnh có chiều dài tuyến đường dây đi qua trên địa bàn lớn hơn",
+   "Thủ tướng Chính phủ vì dự án đi qua địa giới từ 02 tỉnh trở lên",
+   "Bộ Công Thương với tư cách cơ quan quản lý quy hoạch điện",
+   "UBND tỉnh nơi có điểm đầu đường dây theo tên dự án trong quy hoạch"
+  ],
+  "a": 3,
+  "e": "Lưới điện từ 220 kV trở xuống đi qua từ 02 tỉnh: UBND tỉnh nơi có điểm đầu đường dây (xác định theo tên dự án trong quy hoạch) chấp thuận chủ trương đầu tư.",
+  "b": "Điểm a khoản 2 Điều 13 Luật Điện lực 61/2024/QH15"
+ },
+ {
+  "id": "f02",
+  "topic": "Luật Điện lực – Đầu tư dự án điện",
+  "level": 2,
+  "q": "Trong thủ tục chủ trương đầu tư đường dây liên tỉnh, UBND tỉnh còn lại phải có ý kiến trong thời hạn nào?",
+  "o": [
+   "30 ngày kể từ ngày nhận đủ hồ sơ",
+   "20 ngày kể từ ngày nhận đủ hồ sơ",
+   "15 ngày kể từ ngày nhận đủ hồ sơ",
+   "07 ngày làm việc kể từ ngày nhận hồ sơ"
+  ],
+  "a": 2,
+  "e": "UBND tỉnh chủ trì lấy ý kiến tỉnh còn lại trong 07 ngày làm việc; tỉnh còn lại trả lời trong 15 ngày kể từ ngày nhận đủ hồ sơ.",
+  "b": "Điểm d, đ khoản 2 Điều 13 Luật Điện lực 61/2024/QH15"
+ },
+ {
+  "id": "f03",
+  "topic": "Luật Điện lực – Đầu tư dự án điện",
+  "level": 2,
+  "q": "Với lưới điện trung áp, hạ áp thuộc diện UBND tỉnh chấp thuận chủ trương đầu tư, văn bản nào thay thế chấp thuận chủ trương cho từng dự án?",
+  "o": [
+   "Quyết định phê duyệt danh mục lưới trung áp, hạ áp của UBND tỉnh",
+   "Quyết định phê duyệt phương án phát triển mạng lưới cấp điện",
+   "Giấy chứng nhận đăng ký đầu tư cấp cho từng dự án riêng lẻ",
+   "Văn bản thỏa thuận đấu nối của đơn vị phân phối điện cấp tỉnh"
+  ],
+  "a": 0,
+  "e": "UBND tỉnh phê duyệt danh mục lưới trung áp, hạ áp; quyết định này thay văn bản chấp thuận chủ trương đầu tư cho từng dự án và là cơ sở giao đất, cho thuê đất.",
+  "b": "Khoản 3 Điều 13 Luật Điện lực 61/2024/QH15"
+ },
+ {
+  "id": "f04",
+  "topic": "Luật Điện lực – Đầu tư dự án điện",
+  "level": 3,
+  "q": "Dự án nguồn điện được xác định là khẩn cấp do dự án khác chậm tiến độ gây nguy cơ thiếu điện. Thủ tục chủ trương đầu tư được xử lý thế nào?",
+  "o": [
+   "Vẫn phải xin chấp thuận chủ trương đầu tư nhưng rút ngắn thời hạn",
+   "Quyết định của Thủ tướng thay văn bản chấp thuận chủ trương đầu tư",
+   "Bộ Công Thương chấp thuận chủ trương đầu tư thay Thủ tướng",
+   "UBND tỉnh chấp thuận chủ trương đầu tư theo thủ tục rút gọn"
+  ],
+  "a": 1,
+  "e": "Dự án khẩn cấp theo điểm b, c khoản 1 Điều 14 không phải chấp thuận chủ trương đầu tư; quyết định của Thủ tướng thay thế văn bản chấp thuận và là cơ sở giao đất, cho thuê đất.",
+  "b": "Điểm a khoản 1 Điều 15 Luật Điện lực 61/2024/QH15"
+ },
+ {
+  "id": "f05",
+  "topic": "Luật Điện lực – Đầu tư dự án điện",
+  "level": 3,
+  "q": "Với công trình điện lực khẩn cấp, thẩm định thiết kế triển khai sau TKCS và thẩm duyệt PCCC được thực hiện ra sao?",
+  "o": [
+   "Chỉ thẩm định thiết kế cơ sở, miễn thẩm duyệt thiết kế PCCC",
+   "Thực hiện sau khi hoàn thành thi công, trước khi nghiệm thu",
+   "Đồng thời ở các bước thiết kế, vẫn đủ nội dung theo quy định",
+   "Được miễn toàn bộ, chủ đầu tư tự chịu trách nhiệm về chất lượng"
+  ],
+  "a": 2,
+  "e": "Cơ quan quản lý nhà nước thẩm định thiết kế sau TKCS và thẩm duyệt PCCC đồng thời ở các bước thiết kế, bảo đảm đủ nội dung theo pháp luật xây dựng và PCCC.",
+  "b": "Điểm đ khoản 1 Điều 15 Luật Điện lực 61/2024/QH15"
+ },
+ {
+  "id": "f06",
+  "topic": "Luật Điện lực – Đầu tư dự án điện",
+  "level": 2,
+  "q": "Ai được Thủ tướng giao làm chủ đầu tư dự án nguồn, lưới điện khẩn cấp (điểm b, c khoản 1 Điều 14)?",
+  "o": [
+   "Nhà đầu tư trúng thầu qua đấu thầu lựa chọn nhà đầu tư",
+   "DN nhà nước giữ 100% vốn hoặc DN do DN này giữ 100% vốn",
+   "Bất kỳ nhà đầu tư nào có dự án trong quy hoạch điện lực",
+   "UBND tỉnh nơi xây dựng dự án, công trình điện khẩn cấp"
+  ],
+  "a": 1,
+  "e": "Thủ tướng giao doanh nghiệp nhà nước nắm giữ 100% vốn điều lệ hoặc doanh nghiệp do doanh nghiệp này nắm 100% vốn làm chủ đầu tư.",
+  "b": "Điểm b khoản 2 Điều 15 Luật Điện lực 61/2024/QH15"
+ },
+ {
+  "id": "f07",
+  "topic": "NĐ 56/2025 – Quy hoạch, đầu tư điện lực",
+  "level": 2,
+  "q": "Nhà máy điện mặt trời 45 MW đấu nối cấp 110 kV thuộc quy hoạch nào?",
+  "o": [
+   "Cả quy hoạch điện quốc gia và quy hoạch tỉnh đồng thời",
+   "Không thuộc quy hoạch vì công suất dưới 50 MW",
+   "Quy hoạch phát triển điện lực quốc gia (Quy hoạch điện)",
+   "Phương án phát triển mạng lưới cấp điện trong quy hoạch tỉnh"
+  ],
+  "a": 3,
+  "e": "Nguồn dưới 50 MW và lưới đấu nối đồng bộ từ 110 kV trở xuống thuộc phương án phát triển mạng lưới cấp điện trong quy hoạch tỉnh. Nguồn từ 50 MW, hoặc dưới 50 MW đấu nối từ 220 kV, thuộc quy hoạch điện quốc gia.",
+  "b": "Khoản 1, 2 Điều 4 NĐ 56/2025/NĐ-CP"
+ },
+ {
+  "id": "f08",
+  "topic": "NĐ 56/2025 – Quy hoạch, đầu tư điện lực",
+  "level": 3,
+  "q": "Nhà máy điện gió 40 MW đấu nối trực tiếp lưới 220 kV thuộc quy hoạch nào?",
+  "o": [
+   "Quy hoạch tỉnh, kèm thỏa thuận EVNNPT",
+   "Không thuộc quy hoạch do dưới 50 MW",
+   "Quy hoạch phát triển điện lực (quốc gia)",
+   "Phương án cấp điện trong quy hoạch tỉnh"
+  ],
+  "a": 2,
+  "e": "Nguồn dưới 50 MW nhưng lưới đấu nối đồng bộ từ 220 kV trở lên thuộc quy hoạch phát triển điện lực.",
+  "b": "Điểm c khoản 1 Điều 4 NĐ 56/2025/NĐ-CP"
+ },
+ {
+  "id": "f09",
+  "topic": "NĐ 56/2025 – Quy hoạch, đầu tư điện lực",
+  "level": 2,
+  "q": "Trường hợp nào KHÔNG phải nằm trong quy hoạch phát triển điện lực hoặc phương án cấp điện của tỉnh?",
+  "o": [
+   "Nguồn có đấu nối nhưng lắp thiết bị chống phát ngược vào lưới",
+   "Nâng công suất nhà máy thủy điện hiện hữu thêm 10 MW",
+   "Nguồn điện mặt trời 30 MW bán toàn bộ điện cho EVN qua 110 kV",
+   "Đường dây 110 kV mới cấp điện cho một khu công nghiệp lớn"
+  ],
+  "a": 0,
+  "e": "Nguồn tác động nhỏ (đấu nối nhưng lắp thiết bị chống phát ngược, tự sản xuất tự tiêu thụ đấu nối hạ áp…), lưới hạ áp, cải tạo không tăng công suất hoặc cấp điện áp… không thuộc quy hoạch.",
+  "b": "Khoản 2 Điều 5 NĐ 56/2025/NĐ-CP"
+ },
+ {
+  "id": "f10",
+  "topic": "NĐ 56/2025 – Quy hoạch, đầu tư điện lực",
+  "level": 2,
+  "q": "Cải tạo trạm biến áp 110 kV nào không phải đưa vào quy hoạch?",
+  "o": [
+   "Tăng công suất máy biến áp nhưng nằm trong hàng rào trạm",
+   "Không tăng công suất, không cần đất ngoài phạm vi hiện hữu",
+   "Mở rộng thêm ngăn lộ, cần thêm đất ngoài phạm vi trạm",
+   "Nâng cấp điện áp lên 220 kV trên mặt bằng trạm hiện có"
+  ],
+  "a": 1,
+  "e": "Cải tạo, nâng cấp nhà máy điện, trạm biến áp không làm tăng quy mô công suất, không phát sinh nhu cầu đất ngoài phạm vi hiện hữu thì không thuộc quy hoạch.",
+  "b": "Điểm a khoản 5 Điều 5 NĐ 56/2025/NĐ-CP"
+ },
+ {
+  "id": "f11",
+  "topic": "NĐ 56/2025 – Quy hoạch, đầu tư điện lực",
+  "level": 2,
+  "q": "Theo NĐ 56/2025, mốc tiến độ nào phải ghi trong Giấy chứng nhận đăng ký đầu tư hoặc văn bản chấp thuận chủ trương đầu tư dự án nguồn điện?",
+  "o": [
+   "Phê duyệt FS, ký thỏa thuận đấu nối, ký hợp đồng mua bán điện",
+   "Giao đất, cấp giấy phép xây dựng, vận hành thương mại (COD)",
+   "Quyết định đầu tư, khởi công công trình chính, đưa vào vận hành",
+   "Ký hợp đồng EPC, nhập thiết bị chính, nghiệm thu hoàn thành"
+  ],
+  "a": 2,
+  "e": "Ngoài mốc theo pháp luật đầu tư, dự án nguồn điện phải ghi các mốc: quyết định đầu tư; khởi công công trình chính; đưa dự án vào vận hành.",
+  "b": "Điều 10 NĐ 56/2025/NĐ-CP; khoản 1 Điều 12 Luật Điện lực 61/2024/QH15"
+ },
+ {
+  "id": "f12",
+  "topic": "NĐ 56/2025 – Quy hoạch, đầu tư điện lực",
+  "level": 3,
+  "q": "Dự án điện của doanh nghiệp tư nhân có thuộc danh mục ưu tiên đầu tư của Nhà nước theo Điều 11 NĐ 56/2025 không?",
+  "o": [
+   "Không; tiêu chí chỉ áp dụng cho DN nhà nước giữ 100% vốn",
+   "Có, nếu dự án cấp điện cho vùng đặc biệt khó khăn",
+   "Có, nếu là dự án năng lượng tái tạo giúp giảm phát thải",
+   "Có, nếu dự án thuộc danh mục ưu tiên trong quy hoạch điện"
+  ],
+  "a": 0,
+  "e": "Tiêu chí danh mục ưu tiên áp dụng cho dự án do doanh nghiệp nhà nước nắm 100% vốn điều lệ hoặc doanh nghiệp do doanh nghiệp này nắm 100% vốn thực hiện.",
+  "b": "Điều 11 NĐ 56/2025/NĐ-CP"
+ },
+ {
+  "id": "f13",
+  "topic": "NĐ 56/2025 – Quy hoạch, đầu tư điện lực",
+  "level": 2,
+  "q": "Hồ sơ đề nghị phê duyệt danh mục lưới trung áp, hạ áp đã đầy đủ, hợp lệ. Sở Công Thương lập báo cáo thẩm định trình UBND tỉnh trong bao lâu?",
+  "o": [
+   "15 ngày làm việc",
+   "07 ngày làm việc",
+   "05 ngày làm việc",
+   "03 ngày làm việc"
+  ],
+  "a": 1,
+  "e": "Sở Công Thương kiểm tra hồ sơ trong 03 ngày làm việc, lập báo cáo thẩm định trong 07 ngày làm việc; UBND tỉnh xem xét phê duyệt trong 05 ngày làm việc.",
+  "b": "Khoản 3, 4 Điều 13 NĐ 56/2025/NĐ-CP"
+ },
+ {
+  "id": "f14",
+  "topic": "NĐ 56/2025 – Quy hoạch, đầu tư điện lực",
+  "level": 3,
+  "q": "Dự án nhiệt điện khí dùng LNG nhập khẩu: sản lượng điện hợp đồng tối thiểu dài hạn theo NĐ 100/2025 là bao nhiêu?",
+  "o": [
+   "≥ 65% sản lượng bình quân nhiều năm, suốt thời hạn PPA",
+   "≥ 70% sản lượng bình quân nhiều năm, tối đa 12 năm",
+   "≥ 80% sản lượng bình quân nhiều năm, tối đa 15 năm",
+   "≥ 65% sản lượng bình quân nhiều năm, tối đa 10 năm"
+  ],
+  "a": 3,
+  "e": "Sản lượng tối thiểu dài hạn không thấp hơn 65% sản lượng điện phát bình quân nhiều năm, áp dụng trong thời hạn trả nợ gốc và lãi vay nhưng không quá 10 năm kể từ ngày vận hành.",
+  "b": "Điểm a khoản 4 Điều 15 NĐ 56/2025 (sửa bởi NĐ 100/2025/NĐ-CP)"
+ },
+ {
+  "id": "f15",
+  "topic": "NĐ 56/2025 – Quy hoạch, đầu tư điện lực",
+  "level": 3,
+  "q": "Cơ chế sản lượng tối thiểu dài hạn 65% áp dụng cho dự án điện khí LNG vận hành phát điện trước ngày nào?",
+  "o": [
+   "01/01/2031",
+   "31/12/2035",
+   "01/01/2036",
+   "01/01/2030"
+  ],
+  "a": 0,
+  "e": "Áp dụng cho dự án điện khí LNG nhập khẩu được chấp thuận kết quả nghiệm thu và bắt đầu phát điện bằng LNG trước 01/01/2031. Mốc 01/01/2036 dành cho dự án dùng khí trong nước.",
+  "b": "Điểm d khoản 4 Điều 15 NĐ 56/2025 (sửa bởi NĐ 100/2025/NĐ-CP)"
+ },
+ {
+  "id": "f16",
+  "topic": "NĐ 56/2025 – Quy hoạch, đầu tư điện lực",
+  "level": 2,
+  "q": "Dự án nhiệt điện khí dùng khí thiên nhiên khai thác trong nước được huy động theo cơ chế nào?",
+  "o": [
+   "Huy động theo sản lượng tối thiểu 65% trong thời hạn trả nợ",
+   "Huy động tối đa theo khả năng cấp khí và ràng buộc hệ thống",
+   "Huy động theo giá chào trên thị trường điện như nguồn khác",
+   "Huy động ưu tiên vào giờ cao điểm theo lệnh cấp điều độ"
+  ],
+  "a": 1,
+  "e": "Dự án dùng khí trong nước được vận hành, huy động ở mức tối đa theo khả năng cấp khí, đáp ứng ràng buộc nhiên liệu, công suất và hệ thống; áp dụng cho dự án phát điện bằng khí trong nước trước 01/01/2036.",
+  "b": "Khoản 3 Điều 15 NĐ 56/2025 (sửa bởi NĐ 100/2025/NĐ-CP)"
+ },
+ {
+  "id": "f17",
+  "topic": "NĐ 58/2025 – NLTT, điện gió ngoài khơi",
+  "level": 2,
+  "q": "Dự án điện mặt trời có lắp hệ thống lưu trữ, đấu nối lưới quốc gia được hưởng ưu đãi nào theo NĐ 58/2025?",
+  "o": [
+   "Ưu tiên huy động vào giờ cao điểm của hệ thống điện",
+   "Được bao tiêu sản lượng tối thiểu 70% trong 12 năm",
+   "Giá mua điện bằng giá tối đa khung giá cộng thêm 10%",
+   "Miễn tiền thuê đất trong toàn bộ thời gian vận hành"
+  ],
+  "a": 0,
+  "e": "Dự án NLTT có lắp hệ thống lưu trữ, có đấu nối lưới quốc gia được ưu tiên huy động vào giờ cao điểm, trừ nguồn tự sản xuất, tự tiêu thụ.",
+  "b": "Điều 4 NĐ 58/2025/NĐ-CP"
+ },
+ {
+  "id": "f18",
+  "topic": "NĐ 58/2025 – NLTT, điện gió ngoài khơi",
+  "level": 3,
+  "q": "Dự án điện năng lượng mới cần đáp ứng điều kiện nào để hưởng ưu đãi theo Điều 6 NĐ 58/2025?",
+  "o": [
+   "Công suất từ 50 MW trở lên, có trong quy hoạch điện lực quốc gia",
+   "Tỷ lệ phối trộn hydrogen từ 30% trở lên với khí thiên nhiên",
+   "Sử dụng công nghệ trong nước, bán điện trực tiếp cho khách hàng",
+   "100% hydrogen xanh/amoniac xanh, cấp lên lưới, là dự án đầu tiên"
+  ],
+  "a": 3,
+  "e": "Điều kiện: sản xuất từ 100% hydrogen xanh hoặc 100% amoniac xanh (hoặc hỗn hợp); cấp điện cho hệ thống quốc gia; là dự án đầu tiên của từng loại hình.",
+  "b": "Khoản 1 Điều 6 NĐ 58/2025/NĐ-CP"
+ },
+ {
+  "id": "f19",
+  "topic": "NĐ 58/2025 – NLTT, điện gió ngoài khơi",
+  "level": 2,
+  "q": "Dự án điện năng lượng mới đủ điều kiện được hưởng sản lượng hợp đồng tối thiểu dài hạn bao nhiêu?",
+  "o": [
+   "90%, trong toàn bộ thời hạn hợp đồng mua bán điện đã ký",
+   "65%, trong thời hạn trả nợ gốc và lãi nhưng không quá 10 năm",
+   "80%, trong thời hạn trả nợ gốc nhưng không quá 15 năm",
+   "70%, trong thời hạn trả nợ gốc nhưng không quá 12 năm"
+  ],
+  "a": 3,
+  "e": "Điện năng lượng mới: 70%, thời hạn trả nợ gốc nhưng không quá 12 năm. Điện gió ngoài khơi: 80%, không quá 15 năm.",
+  "b": "Điểm c khoản 2 Điều 6 NĐ 58/2025/NĐ-CP"
+ },
+ {
+  "id": "f20",
+  "topic": "NĐ 58/2025 – NLTT, điện gió ngoài khơi",
+  "level": 2,
+  "q": "Nhà máy điện gió trên đất liền thuộc dự án nhóm B chấm dứt hoạt động. Thời hạn tối đa hoàn thành tháo dỡ là bao lâu?",
+  "o": [
+   "01 năm",
+   "02 năm",
+   "05 năm",
+   "03 năm"
+  ],
+  "a": 1,
+  "e": "Trên đất liền: nhóm A trở lên tối đa 03 năm, dự án còn lại 02 năm. Trên biển: nhóm A trở lên 05 năm, còn lại 03 năm.",
+  "b": "Khoản 1 Điều 8 NĐ 58/2025/NĐ-CP"
+ },
+ {
+  "id": "f21",
+  "topic": "NĐ 58/2025 – NLTT, điện gió ngoài khơi",
+  "level": 2,
+  "q": "Dự án điện gió ngoài khơi (không thuộc nhóm A) chấm dứt hoạt động. Thời hạn tối đa hoàn thành tháo dỡ là bao lâu?",
+  "o": [
+   "05 năm",
+   "02 năm",
+   "10 năm",
+   "03 năm"
+  ],
+  "a": 3,
+  "e": "Dự án trên biển: nhóm A trở lên tối đa 05 năm; dự án còn lại tối đa 03 năm.",
+  "b": "Khoản 2 Điều 8 NĐ 58/2025/NĐ-CP"
+ },
+ {
+  "id": "f22",
+  "topic": "NĐ 58/2025 – NLTT, điện gió ngoài khơi",
+  "level": 3,
+  "q": "Dự án điện gió dùng khu vực biển liên vùng trong vùng biển 06 hải lý. Ai cấp Giấy chứng nhận đăng ký đầu tư cho toàn bộ dự án?",
+  "o": [
+   "Bộ Công Thương với tư cách cơ quan quản lý ngành",
+   "Cơ quan đăng ký đầu tư của tỉnh do Thủ tướng chỉ định",
+   "Bộ Tài chính vì dự án thuộc thẩm quyền Thủ tướng",
+   "Cơ quan đăng ký đầu tư của từng tỉnh theo phần diện tích"
+  ],
+  "a": 1,
+  "e": "Dự án NLTT dùng khu vực biển liên vùng trong 06 hải lý thuộc thẩm quyền chấp thuận chủ trương của Thủ tướng; Thủ tướng chỉ định cơ quan đăng ký đầu tư một tỉnh cấp GCNĐKĐT cho toàn bộ dự án.",
+  "b": "Khoản 1 Điều 9 NĐ 58/2025/NĐ-CP"
+ },
+ {
+  "id": "f23",
+  "topic": "NĐ 58/2025 – NLTT, điện gió ngoài khơi",
+  "level": 2,
+  "q": "Để hưởng ưu đãi điện gió ngoài khơi theo NĐ 58/2025, dự án phải được quyết định hoặc chấp thuận chủ trương đầu tư trước ngày nào?",
+  "o": [
+   "31/12/2035",
+   "01/01/2031",
+   "01/01/2030",
+   "01/01/2036"
+  ],
+  "a": 1,
+  "e": "Dự án phải được quyết định hoặc chấp thuận chủ trương trước 01/01/2031; dự án bán điện lên lưới phải nằm trong 6.000 MW đã duyệt tại quy hoạch.",
+  "b": "Điểm a khoản 1 Điều 25 NĐ 58/2025/NĐ-CP"
+ },
+ {
+  "id": "f24",
+  "topic": "NĐ 58/2025 – NLTT, điện gió ngoài khơi",
+  "level": 3,
+  "q": "Ưu đãi tiền sử dụng khu vực biển cho dự án điện gió ngoài khơi đủ điều kiện là gì?",
+  "o": [
+   "Miễn trong xây dựng cơ bản (≤ 03 năm), giảm 50% trong 12 năm tiếp",
+   "Giảm 50% trong suốt thời hạn giao khu vực biển cho dự án",
+   "Miễn trong xây dựng cơ bản (≤ 03 năm), giảm 50% trong 09 năm tiếp",
+   "Miễn toàn bộ trong 15 năm đầu kể từ ngày khởi công xây dựng"
+  ],
+  "a": 0,
+  "e": "Điện gió ngoài khơi: miễn tiền sử dụng khu vực biển trong xây dựng cơ bản (không quá 03 năm), giảm 50% trong 12 năm tiếp theo. Mức 09 năm áp dụng cho điện năng lượng mới.",
+  "b": "Điểm a khoản 2 Điều 25 NĐ 58/2025/NĐ-CP"
+ },
+ {
+  "id": "f25",
+  "topic": "NĐ 58/2025 – NLTT, điện gió ngoài khơi",
+  "level": 2,
+  "q": "Sản lượng hợp đồng tối thiểu dài hạn cho dự án điện gió ngoài khơi bán điện lên lưới quốc gia là bao nhiêu?",
+  "o": [
+   "65%, trong thời hạn trả nợ gốc và lãi nhưng không quá 10 năm",
+   "80%, trong thời hạn hợp đồng mua bán điện tối đa 20 năm",
+   "80%, trong thời hạn trả nợ gốc nhưng không quá 15 năm",
+   "70%, trong thời hạn trả nợ gốc nhưng không quá 12 năm"
+  ],
+  "a": 2,
+  "e": "Điện gió ngoài khơi bán lên lưới: 80% trong thời hạn trả nợ gốc vốn vay nhưng không quá 15 năm, trừ khi nhà đầu tư và bên mua thỏa thuận khác.",
+  "b": "Điểm c khoản 2 Điều 25 NĐ 58/2025/NĐ-CP"
+ },
+ {
+  "id": "f26",
+  "topic": "NĐ 58/2025 – NLTT, điện gió ngoài khơi",
+  "level": 2,
+  "q": "Diện tích khu vực biển tối đa cho khảo sát và cho thực hiện dự án điện gió ngoài khơi là bao nhiêu?",
+  "o": [
+   "Khảo sát 20 ha/MW; thực hiện dự án 05 ha/MW",
+   "Khảo sát 50 ha/MW; thực hiện dự án 20 ha/MW",
+   "Khảo sát 10 ha/MW; thực hiện dự án 05 ha/MW",
+   "Khảo sát 20 ha/MW; thực hiện dự án 10 ha/MW"
+  ],
+  "a": 0,
+  "e": "Khảo sát tối đa 20 ha/01 MW; thực hiện dự án tối đa 05 ha/01 MW; Bộ Công Thương báo cáo Chính phủ điều chỉnh theo công nghệ.",
+  "b": "Khoản 5 Điều 27 NĐ 58/2025/NĐ-CP"
+ },
+ {
+  "id": "f27",
+  "topic": "NĐ 58/2025 – NLTT, điện gió ngoài khơi",
+  "level": 2,
+  "q": "Kết thúc khảo sát điện gió ngoài khơi, đơn vị khảo sát phải nộp hồ sơ kết quả cho Bộ Công Thương và Bộ NN&MT trong bao lâu?",
+  "o": [
+   "60 ngày",
+   "30 ngày",
+   "90 ngày",
+   "06 tháng"
+  ],
+  "a": 0,
+  "e": "Trong 60 ngày kể từ khi kết thúc khảo sát, nộp 01 bộ giấy và 01 bộ điện tử báo cáo kết quả khảo sát về Bộ Công Thương và Bộ Nông nghiệp và Môi trường.",
+  "b": "Điểm a khoản 3 Điều 27 NĐ 58/2025/NĐ-CP"
+ },
+ {
+  "id": "f28",
+  "topic": "NĐ 58/2025 – NLTT, điện gió ngoài khơi",
+  "level": 3,
+  "q": "Nhà đầu tư nước ngoài tham gia dự án điện gió ngoài khơi phải đáp ứng điều kiện vốn nào?",
+  "o": [
+   "Vốn ≥ 30% TMĐT dự kiến; không yêu cầu tỷ lệ vốn chủ sở hữu",
+   "Vốn ≥ 15% TMĐT dự kiến; vốn chủ sở hữu ≥ 30% phần vốn góp",
+   "Vốn ≥ 15% TMĐT dự kiến; vốn chủ sở hữu ≥ 20% phần vốn góp",
+   "Vốn ≥ 5% TMĐT dự kiến; vốn chủ sở hữu ≥ 20% phần vốn góp"
+  ],
+  "a": 2,
+  "e": "Nhà đầu tư nước ngoài: phần vốn ≥ 15% TMĐT dự kiến, vốn chủ sở hữu ≥ 20% phần vốn góp; phải có DN trong nước (DNNN…) nắm tối thiểu 5%. Nhà đầu tư trong nước: ≥ 5% TMĐT.",
+  "b": "Điểm b khoản 1, khoản 2 Điều 28 NĐ 58/2025/NĐ-CP"
+ },
+ {
+  "id": "f29",
+  "topic": "NĐ 58/2025 – NLTT, điện gió ngoài khơi",
+  "level": 3,
+  "q": "Nhà đầu tư trúng thầu dự án điện gió ngoài khơi phải phê duyệt BCNCKT trong bao lâu kể từ ngày ký hợp đồng dự án?",
+  "o": [
+   "12 tháng",
+   "30 tháng",
+   "24 tháng",
+   "36 tháng"
+  ],
+  "a": 2,
+  "e": "Trong 24 tháng kể từ ngày ký hợp đồng dự án, nhà đầu tư phê duyệt BCNCKT; trong 30 tháng, bên mua điện và nhà đầu tư phải thống nhất giá và giao kết hợp đồng mua bán điện.",
+  "b": "Điểm a, b khoản 2 Điều 29 NĐ 58/2025/NĐ-CP"
+ },
+ {
+  "id": "f30",
+  "topic": "NĐ 58/2025 – NLTT, điện gió ngoài khơi",
+  "level": 2,
+  "q": "Cơ quan nào quyết định tổ chức đấu thầu lựa chọn nhà đầu tư dự án điện gió ngoài khơi?",
+  "o": [
+   "Bộ NN và Môi trường",
+   "UBND tỉnh ven biển",
+   "Bộ Tài chính",
+   "Bộ Công Thương"
+  ],
+  "a": 3,
+  "e": "Bộ Công Thương là cơ quan quyết định tổ chức đấu thầu; Bộ Quốc phòng, Công an, Ngoại giao, Tài chính, NN&MT cử đại diện phối hợp.",
+  "b": "Khoản 6 Điều 29 NĐ 58/2025/NĐ-CP"
  }
 ]
