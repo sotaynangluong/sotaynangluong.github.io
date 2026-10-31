@@ -1,7 +1,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
 import { getAuth, GoogleAuthProvider, signInWithPopup, signInWithRedirect, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 import { getFirestore, collection, addDoc, getDocs, deleteDoc, doc, query as fq, where, orderBy, limit, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
-import { firebaseConfig, ADMIN_UIDS } from "./firebase-config.js?v=4";
+import { firebaseConfig, ADMIN_UIDS } from "./firebase-config.js?v=5";
 
 /* ---------- Khởi tạo ---------- */
 const configured = !!firebaseConfig.projectId;
@@ -288,7 +288,7 @@ function renderLookup() {
   const L = DATA.lookup;
   view.innerHTML = `<h1>Tra cứu nhanh</h1>
   <p class="lede">Giá điện, phân cấp, nhóm dự án và văn bản thường dùng. Bấm "Xem" để mở văn bản hoặc nguồn tham chiếu.</p>
-  <h2>Giá bán lẻ điện 2025</h2>${table(["Nội dung", "Mức / phạm vi", "Thời điểm", "Văn bản", "Xem"], L.retail, [1], 4)}
+  <h2>Giá bán lẻ điện 2025</h2>${table(["Nội dung", "Mức / phạm vi", "Thời điểm", "Văn bản", "Xem"], L.retail, [], 4)}
   <h2>Khung giá phát điện 2025</h2>
   <p class="hint">Giá tối đa, đồng/kWh, chưa gồm VAT.</p>
   ${table(["Loại hình", "Miền Bắc", "Miền Trung", "Miền Nam", "Văn bản", "Xem"], L.gen, [1, 2, 3], 5)}
