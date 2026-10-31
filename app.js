@@ -1,7 +1,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
 import { getAuth, GoogleAuthProvider, signInWithPopup, signInWithRedirect, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 import { getFirestore, collection, addDoc, getDocs, deleteDoc, doc, query as fq, where, orderBy, limit, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
-import { firebaseConfig, ADMIN_UIDS } from "./firebase-config.js?v=19";
+import { firebaseConfig, ADMIN_UIDS } from "./firebase-config.js?v=20";
 
 /* ---------- Khởi tạo ---------- */
 const configured = !!firebaseConfig.projectId;
@@ -355,6 +355,33 @@ function techSheet(sh) {
     <thead><tr><th>Thông số</th><th>Đơn vị</th>${cols.map(c => `<th class="num">${c}</th>`).join("")}</tr></thead>
     <tbody>${sh.rows.map(r => `<tr><td>${hl(r[0])}</td><td class="hint">${esc(r[1])}</td>${r.slice(2).map(v => `<td class="num">${esc(v)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
 }
+const nfmt = v => v.toLocaleString("vi-VN", { maximumFractionDigits: 3 });
+function hbars(c) {
+  const totals = c.cats.map((_, i) => c.series.reduce((a, s) => a + s.values[i], 0));
+  const max = Math.max(...totals);
+  const stack = c.series.length > 1;
+  return `<figure class="pchart"><figcaption>${esc(c.title)}</figcaption>
+    ${stack ? `<div class="glegend">${c.series.map((s, k) => `<span><b class="pc${k}"></b>${esc(s.name)}</span>`).join("")}</div>` : ""}
+    ${c.cats.map((cat, i) => `<div class="prow"><div class="plab">${esc(cat)}</div><div class="ptrack"><div class="pbar" style="--w:${(totals[i] / max * 100).toFixed(2)}%">${c.series.map((s, k) => `<i class="pc${stack ? k : 0}" style="flex:${s.values[i]}" title="${esc(s.name)}: ${nfmt(s.values[i])} ${esc(c.unit)}"></i>`).join("")}<span>${nfmt(totals[i])}</span></div></div></div>`).join("")}
+    <p class="hint">Đơn vị: ${esc(c.unit)}.</p></figure>`;
+}
+function capexTrend(t) {
+  const rows = t.sheets.map(sh => { const r = sh.rows.find(x => /^Suất đầu tư/.test(x[0])); return r ? { name: sh.name.replace(/ \(cột đầu là 2030\)/, ""), unit: r[1], cols: sh.cols || ["2025", "2030", "2040", "2050"], v: r.slice(2).map(num), raw: r.slice(2) } : null; }).filter(Boolean);
+  if (!rows.length) return "";
+  const max = Math.max(...rows.flatMap(r => r.v));
+  return `<figure class="pchart trend"><figcaption>Xu hướng suất đầu tư (${esc(rows[0].unit)}, USD 2025)</figcaption>
+    ${rows.map(r => `<div class="tgroup"><div class="plab">${esc(r.name)}</div><div class="tyears">${r.v.map((v, i) => `<div class="ty"><div class="tcol"><div style="--h:${(v / max * 100).toFixed(1)}%"><span>${esc(r.raw[i])}</span></div></div><em>${r.cols[i]}</em></div>`).join("")}</div></div>`).join("")}
+  </figure>`;
+}
+function potentialBlock(t) {
+  const p = t.potential;
+  const kp = p && p.kpis ? `<div class="pkpi">${p.kpis.map(k => `<div><b>${esc(k[0])}</b><span>${esc(k[1])}</span></div>`).join("")}</div>` : "";
+  const tb = p && p.table ? `<div class="tbl-wrap"><table><thead><tr>${p.table.head.map(h => `<th>${esc(h)}</th>`).join("")}</tr></thead><tbody>${p.table.rows.map(r => `<tr>${r.map((c, i) => `<td class="${i ? "num" : ""}">${esc(c)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>` : "";
+  return `<section class="card"><h3>${p ? "Tiềm năng và số liệu trực quan" : "Biểu đồ trực quan"}</h3>
+    ${kp}${p && p.chart ? hbars(p.chart) : ""}${tb}${capexTrend(t)}
+    ${p && p.map ? `<p><a class="btn" href="${esc(p.map[1])}" target="_blank" rel="noopener">🗺 ${esc(p.map[0])} ↗</a></p>` : ""}
+    ${p && p.note ? `<p class="hint">${esc(p.note)}${p.page ? ` Trang ${esc(p.page)} tài liệu nguồn.` : ""}</p>` : ""}</section>`;
+}
 function renderTech(sub) {
   const T = DATA.tech;
   if (!T || !T.items) { view.innerHTML = `<h1>Cẩm nang công nghệ</h1><p class="empty">Chưa tải được dữ liệu.</p>`; return; }
@@ -383,6 +410,7 @@ function renderTech(sub) {
   <p class="lede">${hl(t.summary)}</p>
   <div class="stack">
     ${t.vn && t.vn.length ? `<section class="card"><h3>Đặc điểm tại Việt Nam và giả định chính</h3><ul>${t.vn.map(v => `<li>${hl(v)}</li>`).join("")}</ul></section>` : ""}
+    ${potentialBlock(t)}
     <section class="card"><h3>Bảng số liệu chính</h3><p class="hint">Giá trị trung tâm; chi phí USD năm 2025, chưa gồm VAT. Khoảng bất định xem bản gốc.</p>${t.sheets.map(techSheet).join("")}</section>
     <div class="pc"><section class="card pro"><h3>Ưu điểm</h3><ul>${t.pros.map(v => `<li>${hl(v)}</li>`).join("")}</ul></section>
     <section class="card con"><h3>Nhược điểm</h3><ul>${t.cons.map(v => `<li>${hl(v)}</li>`).join("")}</ul></section></div>

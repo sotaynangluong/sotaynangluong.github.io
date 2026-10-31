@@ -1,7 +1,17 @@
 {
  "sources": {
-  "gen": {"title": "EAV & DEA: Cẩm nang Công nghệ Sản xuất điện Việt Nam năm 2026", "org": "Cục Điện lực (Bộ Công Thương), Viện Năng lượng, Cục Năng lượng Đan Mạch, Đại sứ quán Đan Mạch", "date": "Tháng 5/2026", "note": "Chi phí quy đổi về USD năm 2025"},
-  "sto": {"title": "EAV & DEA: Cẩm nang Công nghệ Việt Nam về Lưu trữ điện năng, Nhiên liệu tái tạo, Power-to-X (2026)", "org": "Cục Điện lực (Bộ Công Thương), Viện Năng lượng, Cục Năng lượng Đan Mạch, Đại sứ quán Đan Mạch", "date": "Tháng 5/2026", "note": "Chi phí quy đổi về USD năm 2025"}
+  "gen": {
+   "title": "EAV & DEA: Cẩm nang Công nghệ Sản xuất điện Việt Nam năm 2026",
+   "org": "Cục Điện lực (Bộ Công Thương), Viện Năng lượng, Cục Năng lượng Đan Mạch, Đại sứ quán Đan Mạch",
+   "date": "Tháng 5/2026",
+   "note": "Chi phí quy đổi về USD năm 2025"
+  },
+  "sto": {
+   "title": "EAV & DEA: Cẩm nang Công nghệ Việt Nam về Lưu trữ điện năng, Nhiên liệu tái tạo, Power-to-X (2026)",
+   "org": "Cục Điện lực (Bộ Công Thương), Viện Năng lượng, Cục Năng lượng Đan Mạch, Đại sứ quán Đan Mạch",
+   "date": "Tháng 5/2026",
+   "note": "Chi phí quy đổi về USD năm 2025"
+  }
  },
  "disclaimer": [
   "Nội dung là bản tóm lược do Sổ tay biên soạn từ tài liệu nguồn ghi ở từng mục, phục vụ học tập và tham khảo nhanh. Số liệu là giá trị trung tâm trong bảng số liệu của tài liệu nguồn; khoảng bất định, ghi chú và giả định tính toán xem tại bản gốc.",
@@ -9,234 +19,1590 @@
   "Sổ tay không phải đơn vị biên soạn tài liệu nguồn và không chịu trách nhiệm về quyết định đầu tư, kỹ thuật hay pháp lý dựa trên nội dung này. Khi trích dẫn chính thức, đối chiếu bản gốc và ghi nguồn theo hướng dẫn của tài liệu.",
   "Phần 'Rủi ro phát triển dự án' do Sổ tay tổng hợp từ kinh nghiệm thực tế, không thuộc tài liệu nguồn."
  ],
- "groups": ["Phát điện", "Lưu trữ điện năng"],
+ "groups": [
+  "Phát điện",
+  "Lưu trữ điện năng"
+ ],
  "items": [
   {
-   "id": "dien-mat-troi", "group": "Phát điện", "name": "Điện mặt trời", "src": "gen", "chapter": "Chương 7", "pages": "138–160", "risk": ["ĐMT mặt đất", "ĐMT nổi"],
+   "id": "dien-mat-troi",
+   "group": "Phát điện",
+   "name": "Điện mặt trời",
+   "src": "gen",
+   "chapter": "Chương 7",
+   "pages": "138–160",
+   "risk": [
+    "ĐMT mặt đất",
+    "ĐMT nổi"
+   ],
    "summary": "Tấm quang điện (tế bào silicon) biến bức xạ mặt trời thành điện một chiều; biến tần chuyển sang điện xoay chiều để phát lên lưới. Các cấu hình chính: mặt đất, nổi trên mặt nước, áp mái.",
    "vn": [
     "Tổng bức xạ GHI trung bình năm 1.200–2.000 kWh/m²; tiềm năng tốt nhất ở Tây Nguyên, Nam Trung Bộ và Nam Bộ.",
     "Tiềm năng ước tính theo quỹ đất khả dụng khoảng 295.646 MW: mặt đất 80.500 MW, nổi 77.476 MW, áp mái công trình 59.000 MW, áp mái KCN 29.756 MW, áp mái hộ gia đình 48.914 MW.",
     "Bảng số liệu dùng tỉ lệ DC/AC 1,3 và tuổi thọ biến tần 15 năm cho điện mặt trời mặt đất."
    ],
-   "pros": ["Không dùng nhiên liệu, không phát thải khi vận hành, không gây ồn đáng kể.", "Tính mô-đun cao, lắp đặt nhanh; vận hành, bảo dưỡng đơn giản vì hầu như không có bộ phận quay.", "Dễ kết hợp pin lưu trữ để giảm biến động phát lên lưới.", "Hệ thống áp mái, tích hợp công trình không cần thêm quỹ đất."],
-   "cons": ["Phát điện gián đoạn theo thời tiết, biến động lớn theo giờ.", "Sản lượng dồn vào giữa trưa, lệch giờ cao điểm; gây 'đường cong con vịt' và dư thừa công suất buổi trưa.", "Khả năng cung cấp dịch vụ phụ trợ hạn chế.", "Ảnh hưởng mỹ quan ở một số khu đô thị; phụ thuộc nguồn cung một số vật liệu."],
+   "pros": [
+    "Không dùng nhiên liệu, không phát thải khi vận hành, không gây ồn đáng kể.",
+    "Tính mô-đun cao, lắp đặt nhanh; vận hành, bảo dưỡng đơn giản vì hầu như không có bộ phận quay.",
+    "Dễ kết hợp pin lưu trữ để giảm biến động phát lên lưới.",
+    "Hệ thống áp mái, tích hợp công trình không cần thêm quỹ đất."
+   ],
+   "cons": [
+    "Phát điện gián đoạn theo thời tiết, biến động lớn theo giờ.",
+    "Sản lượng dồn vào giữa trưa, lệch giờ cao điểm; gây 'đường cong con vịt' và dư thừa công suất buổi trưa.",
+    "Khả năng cung cấp dịch vụ phụ trợ hạn chế.",
+    "Ảnh hưởng mỹ quan ở một số khu đô thị; phụ thuộc nguồn cung một số vật liệu."
+   ],
    "sheets": [
-    {"name": "Điện mặt trời mặt đất", "page": 157, "rows": [
-     ["Công suất nhà máy điển hình", "MWe", "100", "100", "100", "100"],
-     ["Vòng đời kỹ thuật", "năm", "30", "32", "35", "40"],
-     ["Thời gian xây dựng", "năm", "0,7", "0,7", "0,5", "0,5"],
-     ["Hệ số công suất (gồm ngừng máy)", "%", "19,5", "20,0", "20,4", "21,1"],
-     ["Hiệu suất tấm quang điện", "%", "21,5", "23,0", "24,5", "26,0"],
-     ["Suất đầu tư (AC)", "triệu USD/MWe", "0,73", "0,52", "0,40", "0,36"],
-     ["Suất đầu tư (DC)", "triệu USD/MWp", "0,56", "0,40", "0,31", "0,28"],
-     ["Chi phí O&M cố định", "USD/MWe/năm", "10.000", "8.676", "7.715", "7.363"]]},
-    {"name": "Điện mặt trời nổi", "page": 159, "rows": [
-     ["Công suất nhà máy điển hình", "MWe", "40", "70", "80", "100"],
-     ["Vòng đời kỹ thuật", "năm", "30", "32", "35", "40"],
-     ["Hệ số công suất (gồm ngừng máy)", "%", "20,5", "21,0", "21,5", "22,2"],
-     ["Suất đầu tư (AC)", "triệu USD/MWe", "1,04", "0,75", "0,58", "0,52"]]},
-    {"name": "Điện mặt trời áp mái (quy mô 10 kW)", "page": 155, "rows": [
-     ["Công suất hệ thống điển hình", "kWe", "10", "10", "10", "10"],
-     ["Hệ số công suất (gồm ngừng máy)", "%", "17,2", "17,7", "18,1", "18,7"],
-     ["Suất đầu tư (AC)", "triệu USD/MWe", "0,85", "0,61", "0,47", "0,42"],
-     ["Chi phí O&M cố định", "USD/MWe/năm", "12.800", "11.105", "9.875", "9.425"]]}
-   ]
+    {
+     "name": "Điện mặt trời mặt đất",
+     "page": 157,
+     "rows": [
+      [
+       "Công suất nhà máy điển hình",
+       "MWe",
+       "100",
+       "100",
+       "100",
+       "100"
+      ],
+      [
+       "Vòng đời kỹ thuật",
+       "năm",
+       "30",
+       "32",
+       "35",
+       "40"
+      ],
+      [
+       "Thời gian xây dựng",
+       "năm",
+       "0,7",
+       "0,7",
+       "0,5",
+       "0,5"
+      ],
+      [
+       "Hệ số công suất (gồm ngừng máy)",
+       "%",
+       "19,5",
+       "20,0",
+       "20,4",
+       "21,1"
+      ],
+      [
+       "Hiệu suất tấm quang điện",
+       "%",
+       "21,5",
+       "23,0",
+       "24,5",
+       "26,0"
+      ],
+      [
+       "Suất đầu tư (AC)",
+       "triệu USD/MWe",
+       "0,73",
+       "0,52",
+       "0,40",
+       "0,36"
+      ],
+      [
+       "Suất đầu tư (DC)",
+       "triệu USD/MWp",
+       "0,56",
+       "0,40",
+       "0,31",
+       "0,28"
+      ],
+      [
+       "Chi phí O&M cố định",
+       "USD/MWe/năm",
+       "10.000",
+       "8.676",
+       "7.715",
+       "7.363"
+      ]
+     ]
+    },
+    {
+     "name": "Điện mặt trời nổi",
+     "page": 159,
+     "rows": [
+      [
+       "Công suất nhà máy điển hình",
+       "MWe",
+       "40",
+       "70",
+       "80",
+       "100"
+      ],
+      [
+       "Vòng đời kỹ thuật",
+       "năm",
+       "30",
+       "32",
+       "35",
+       "40"
+      ],
+      [
+       "Hệ số công suất (gồm ngừng máy)",
+       "%",
+       "20,5",
+       "21,0",
+       "21,5",
+       "22,2"
+      ],
+      [
+       "Suất đầu tư (AC)",
+       "triệu USD/MWe",
+       "1,04",
+       "0,75",
+       "0,58",
+       "0,52"
+      ]
+     ]
+    },
+    {
+     "name": "Điện mặt trời áp mái (quy mô 10 kW)",
+     "page": 155,
+     "rows": [
+      [
+       "Công suất hệ thống điển hình",
+       "kWe",
+       "10",
+       "10",
+       "10",
+       "10"
+      ],
+      [
+       "Hệ số công suất (gồm ngừng máy)",
+       "%",
+       "17,2",
+       "17,7",
+       "18,1",
+       "18,7"
+      ],
+      [
+       "Suất đầu tư (AC)",
+       "triệu USD/MWe",
+       "0,85",
+       "0,61",
+       "0,47",
+       "0,42"
+      ],
+      [
+       "Chi phí O&M cố định",
+       "USD/MWe/năm",
+       "12.800",
+       "11.105",
+       "9.875",
+       "9.425"
+      ]
+     ]
+    }
+   ],
+   "potential": {
+    "page": "144–145",
+    "kpis": [
+     [
+      "295.646 MW",
+      "Tổng tiềm năng theo quỹ đất khả dụng"
+     ],
+     [
+      "1.200–2.000 kWh/m²",
+      "Tổng bức xạ GHI trung bình năm"
+     ],
+     [
+      "9°–14° B",
+      "Vùng tốt nhất: Cà Mau – Gia Lai"
+     ]
+    ],
+    "chart": {
+     "type": "stack",
+     "title": "Tiềm năng điện mặt trời theo vùng và loại hình (MW)",
+     "unit": "MW",
+     "cats": [
+      "Bắc Bộ",
+      "Bắc Trung Bộ",
+      "Trung Trung Bộ",
+      "Tây Nguyên",
+      "Nam Trung Bộ",
+      "Nam Bộ"
+     ],
+     "series": [
+      {
+       "name": "Mặt đất",
+       "values": [
+        22345,
+        3952,
+        4815,
+        16418,
+        15391,
+        17579
+       ]
+      },
+      {
+       "name": "Nổi",
+       "values": [
+        16859,
+        8895,
+        11323,
+        9124,
+        10872,
+        20403
+       ]
+      },
+      {
+       "name": "Áp mái công trình",
+       "values": [
+        20692,
+        5150,
+        3756,
+        1496,
+        3091,
+        24815
+       ]
+      },
+      {
+       "name": "Áp mái KCN",
+       "values": [
+        12650,
+        3121,
+        2027,
+        1506,
+        2207,
+        8245
+       ]
+      },
+      {
+       "name": "Áp mái hộ gia đình",
+       "values": [
+        11147,
+        5542,
+        3521,
+        2448,
+        4164,
+        22092
+       ]
+      }
+     ]
+    },
+    "note": "Bảng 20 tài liệu nguồn; ước tính theo quỹ đất quy hoạch (Nghị quyết 39/2021/QH15, Quyết định 326/QĐ-TTg).",
+    "map": [
+     "Bản đồ bức xạ mặt trời tương tác (Global Solar Atlas – World Bank)",
+     "https://globalsolaratlas.info/map?c=16,106,6"
+    ]
+   }
   },
   {
-   "id": "dien-gio-tren-bo", "group": "Phát điện", "name": "Điện gió trên bờ", "src": "gen", "chapter": "Chương 8", "pages": "161–179", "risk": ["Điện gió trên bờ"],
+   "id": "dien-gio-tren-bo",
+   "group": "Phát điện",
+   "name": "Điện gió trên bờ",
+   "src": "gen",
+   "chapter": "Chương 8",
+   "pages": "161–179",
+   "risk": [
+    "Điện gió trên bờ"
+   ],
    "summary": "Tua bin trục ngang ba cánh biến động năng của gió thành điện năng. Tài liệu chia theo cấp tốc độ gió: cao, trung bình, thấp; tua bin cho gió thấp có rô to lớn hơn so với công suất định mức nên suất đầu tư cao hơn.",
    "vn": [
     "Tài liệu nêu điện gió bổ sung cho thủy điện nhờ khác biệt mùa phát điện trong năm.",
     "Có giai đoạn tua bin phát rất ít hoặc không phát, kéo dài tới cả tháng; nguồn gió tốt thường xa trung tâm phụ tải, cần đầu tư lưới đấu nối."
    ],
-   "pros": ["Không phát thải khi vận hành, không tốn nhiên liệu; cơ cấu chi phí ổn định, dễ dự báo.", "Tính mô-đun cao, mở rộng quy mô linh hoạt; thời gian thực hiện ngắn hơn nhiều nguồn khác.", "Dễ kết hợp pin lưu trữ; giảm phụ thuộc nhiên liệu nhập khẩu."],
-   "cons": ["Phát điện không ổn định theo thời tiết, mùa; hệ thống phải duy trì công suất dự phòng, nguồn điều tiết.", "Vốn đầu tư ban đầu lớn.", "Đóng góp bảo đảm công suất ở mức vừa phải so với nhiệt điện.", "Tác động cảnh quan, tiếng ồn tới dân cư lân cận."],
+   "pros": [
+    "Không phát thải khi vận hành, không tốn nhiên liệu; cơ cấu chi phí ổn định, dễ dự báo.",
+    "Tính mô-đun cao, mở rộng quy mô linh hoạt; thời gian thực hiện ngắn hơn nhiều nguồn khác.",
+    "Dễ kết hợp pin lưu trữ; giảm phụ thuộc nhiên liệu nhập khẩu."
+   ],
+   "cons": [
+    "Phát điện không ổn định theo thời tiết, mùa; hệ thống phải duy trì công suất dự phòng, nguồn điều tiết.",
+    "Vốn đầu tư ban đầu lớn.",
+    "Đóng góp bảo đảm công suất ở mức vừa phải so với nhiệt điện.",
+    "Tác động cảnh quan, tiếng ồn tới dân cư lân cận."
+   ],
    "sheets": [
-    {"name": "Tua bin tốc độ gió cao", "page": 174, "rows": [
-     ["Công suất một tua bin", "MWe", "5,0", "6,0", "6,2", "6,5"],
-     ["Công suất nhà máy điển hình", "MWe", "100", "100", "100", "100"],
-     ["Vòng đời kỹ thuật", "năm", "27", "30", "30", "30"],
-     ["Thời gian xây dựng", "năm", "1,5", "1,5", "1,5", "1,5"],
-     ["Hệ số công suất (gồm ngừng máy)", "%", "34,0", "34,5", "35,5", "36,0"],
-     ["Suất đầu tư", "triệu USD/MWe", "1,37", "1,32", "1,28", "1,26"],
-     ["Chi phí O&M cố định", "USD/MWe/năm", "34.250", "32.787", "31.541", "31.075"]]},
-    {"name": "Tua bin tốc độ gió trung bình", "page": 176, "rows": [
-     ["Công suất nhà máy điển hình", "MWe", "50", "70", "80", "100"],
-     ["Hệ số công suất (gồm ngừng máy)", "%", "35,0", "35,5", "36,0", "37,0"],
-     ["Suất đầu tư", "triệu USD/MWe", "1,50", "1,45", "1,40", "1,38"],
-     ["Chi phí O&M cố định", "USD/MWe/năm", "37.500", "35.898", "34.534", "34.024"]]},
-    {"name": "Tua bin tốc độ gió thấp", "page": 178, "rows": [
-     ["Công suất nhà máy điển hình", "MWe", "50", "70", "80", "100"],
-     ["Hệ số công suất (gồm ngừng máy)", "%", "37,0", "38,0", "39,0", "40,0"],
-     ["Suất đầu tư", "triệu USD/MWe", "1,65", "1,59", "1,54", "1,52"],
-     ["Chi phí O&M cố định", "USD/MWe/năm", "41.250", "35.898", "34.534", "34.024"]]}
-   ]
+    {
+     "name": "Tua bin tốc độ gió cao",
+     "page": 174,
+     "rows": [
+      [
+       "Công suất một tua bin",
+       "MWe",
+       "5,0",
+       "6,0",
+       "6,2",
+       "6,5"
+      ],
+      [
+       "Công suất nhà máy điển hình",
+       "MWe",
+       "100",
+       "100",
+       "100",
+       "100"
+      ],
+      [
+       "Vòng đời kỹ thuật",
+       "năm",
+       "27",
+       "30",
+       "30",
+       "30"
+      ],
+      [
+       "Thời gian xây dựng",
+       "năm",
+       "1,5",
+       "1,5",
+       "1,5",
+       "1,5"
+      ],
+      [
+       "Hệ số công suất (gồm ngừng máy)",
+       "%",
+       "34,0",
+       "34,5",
+       "35,5",
+       "36,0"
+      ],
+      [
+       "Suất đầu tư",
+       "triệu USD/MWe",
+       "1,37",
+       "1,32",
+       "1,28",
+       "1,26"
+      ],
+      [
+       "Chi phí O&M cố định",
+       "USD/MWe/năm",
+       "34.250",
+       "32.787",
+       "31.541",
+       "31.075"
+      ]
+     ]
+    },
+    {
+     "name": "Tua bin tốc độ gió trung bình",
+     "page": 176,
+     "rows": [
+      [
+       "Công suất nhà máy điển hình",
+       "MWe",
+       "50",
+       "70",
+       "80",
+       "100"
+      ],
+      [
+       "Hệ số công suất (gồm ngừng máy)",
+       "%",
+       "35,0",
+       "35,5",
+       "36,0",
+       "37,0"
+      ],
+      [
+       "Suất đầu tư",
+       "triệu USD/MWe",
+       "1,50",
+       "1,45",
+       "1,40",
+       "1,38"
+      ],
+      [
+       "Chi phí O&M cố định",
+       "USD/MWe/năm",
+       "37.500",
+       "35.898",
+       "34.534",
+       "34.024"
+      ]
+     ]
+    },
+    {
+     "name": "Tua bin tốc độ gió thấp",
+     "page": 178,
+     "rows": [
+      [
+       "Công suất nhà máy điển hình",
+       "MWe",
+       "50",
+       "70",
+       "80",
+       "100"
+      ],
+      [
+       "Hệ số công suất (gồm ngừng máy)",
+       "%",
+       "37,0",
+       "38,0",
+       "39,0",
+       "40,0"
+      ],
+      [
+       "Suất đầu tư",
+       "triệu USD/MWe",
+       "1,65",
+       "1,59",
+       "1,54",
+       "1,52"
+      ],
+      [
+       "Chi phí O&M cố định",
+       "USD/MWe/năm",
+       "41.250",
+       "35.898",
+       "34.534",
+       "34.024"
+      ]
+     ]
+    }
+   ],
+   "potential": {
+    "page": "164–166",
+    "kpis": [
+     [
+      "≈130.000 MW",
+      "Tiềm năng kỹ thuật cả nước"
+     ],
+     [
+      "320,1 GW",
+      "Tiềm năng lý thuyết (5,1 MW/km²)"
+     ],
+     [
+      "179,8 GW",
+      "Lý thuyết theo TT 06/2013 (gió ≥ 6 m/s ở 80 m)"
+     ]
+    ],
+    "chart": {
+     "type": "bar",
+     "title": "Tiềm năng kỹ thuật điện gió trên bờ theo vùng (MW)",
+     "unit": "MW",
+     "cats": [
+      "Nam Bộ",
+      "Tây Nguyên",
+      "Bắc Bộ",
+      "Nam Trung Bộ",
+      "Bắc Trung Bộ",
+      "Trung Trung Bộ"
+     ],
+     "series": [
+      {
+       "name": "Tiềm năng kỹ thuật",
+       "values": [
+        44700,
+        42700,
+        14300,
+        12400,
+        8700,
+        7200
+       ]
+      }
+     ]
+    },
+    "note": "Nam Bộ và Tây Nguyên lấy theo số liệu trong văn bản; các vùng khác đọc từ Hình 54 (biểu đồ cột), làm tròn đến 100 MW.",
+    "map": [
+     "Bản đồ tài nguyên gió tương tác (Global Wind Atlas – World Bank, DTU)",
+     "https://globalwindatlas.info/en"
+    ]
+   }
   },
   {
-   "id": "dien-gio-ngoai-khoi", "group": "Phát điện", "name": "Điện gió ngoài khơi và gần bờ", "src": "gen", "chapter": "Chương 9", "pages": "180–198", "risk": ["Gió gần bờ / ngoài khơi"],
+   "id": "dien-gio-ngoai-khoi",
+   "group": "Phát điện",
+   "name": "Điện gió ngoài khơi và gần bờ",
+   "src": "gen",
+   "chapter": "Chương 9",
+   "pages": "180–198",
+   "risk": [
+    "Gió gần bờ / ngoài khơi"
+   ],
    "summary": "Tua bin công suất lớn đặt trên biển, móng cố định (đơn cọc, chân đế) ở vùng nước nông hoặc móng nổi ở vùng nước sâu; điện được truyền vào bờ bằng cáp ngầm. Tài liệu tách riêng điện gió gần bờ.",
    "vn": [
     "Bảng số liệu điện gió ngoài khơi móng cố định bắt đầu từ mốc 2030 (chưa có số liệu 2025).",
     "Cơ cấu suất đầu tư móng cố định: thiết bị khoảng 55%, lắp đặt 30%, lưới đấu nối 15%."
    ],
-   "pros": ["Không phát thải khi vận hành, chi phí vận hành ổn định, không tốn nhiên liệu.", "Hệ số công suất cao hơn điện gió trên bờ.", "Tính mô-đun, mở rộng quy mô theo giai đoạn."],
-   "cons": ["Vốn đầu tư rất lớn: tua bin, móng, cáp đấu nối, cảng và tàu chuyên dụng.", "Biến động sản lượng ảnh hưởng cân bằng hệ thống và dự báo vận hành; cần dịch vụ phụ trợ.", "Điện gió gần bờ có thể gây tranh luận về cảnh quan, tiếng ồn với cộng đồng ven biển."],
+   "pros": [
+    "Không phát thải khi vận hành, chi phí vận hành ổn định, không tốn nhiên liệu.",
+    "Hệ số công suất cao hơn điện gió trên bờ.",
+    "Tính mô-đun, mở rộng quy mô theo giai đoạn."
+   ],
+   "cons": [
+    "Vốn đầu tư rất lớn: tua bin, móng, cáp đấu nối, cảng và tàu chuyên dụng.",
+    "Biến động sản lượng ảnh hưởng cân bằng hệ thống và dự báo vận hành; cần dịch vụ phụ trợ.",
+    "Điện gió gần bờ có thể gây tranh luận về cảnh quan, tiếng ồn với cộng đồng ven biển."
+   ],
    "sheets": [
-    {"name": "Điện gió ngoài khơi, móng cố định (cột đầu là 2030)", "page": 193, "cols": ["2030", "2040", "2050"], "rows": [
-     ["Công suất một tua bin", "MWe", "15", "20", "25"],
-     ["Công suất nhà máy điển hình", "MWe", "500", "1.000", "1.500"],
-     ["Vòng đời kỹ thuật", "năm", "27", "30", "30"],
-     ["Thời gian xây dựng", "năm", "3", "3", "2,5"],
-     ["Hệ số công suất (gồm ngừng máy)", "%", "44,5", "45,7", "45,7"],
-     ["Suất đầu tư", "triệu USD/MWe", "4,30", "3,69", "3,45"],
-     ["Chi phí O&M cố định", "USD/MWe/năm", "150.500", "133.245", "128.736"]]},
-    {"name": "Điện gió ngoài khơi, móng nổi (cột đầu là 2030)", "page": 195, "cols": ["2030", "2040", "2050"], "rows": [
-     ["Suất đầu tư", "triệu USD/MWe", "5,59", "4,79", "4,59"],
-     ["Chi phí O&M cố định", "USD/MWe/năm", "195.650", "167.747", "160.607"]]},
-    {"name": "Điện gió gần bờ", "page": 197, "rows": [
-     ["Công suất một tua bin", "MWe", "5", "6", "8", "10"],
-     ["Công suất nhà máy điển hình", "MWe", "150", "200", "300", "500"],
-     ["Vòng đời kỹ thuật", "năm", "27", "30", "30", "30"],
-     ["Thời gian xây dựng", "năm", "2,5", "2,0", "2,0", "1,5"],
-     ["Hệ số công suất (gồm ngừng máy)", "%", "32,8", "34,3", "35,6", "35,8"],
-     ["Suất đầu tư", "triệu USD/MWe", "2,70", "2,38", "2,11", "2,04"],
-     ["Chi phí O&M cố định", "USD/MWe/năm", "94.500", "86.102", "78.662", "76.678"]]}
-   ]
+    {
+     "name": "Điện gió ngoài khơi, móng cố định (cột đầu là 2030)",
+     "page": 193,
+     "cols": [
+      "2030",
+      "2040",
+      "2050"
+     ],
+     "rows": [
+      [
+       "Công suất một tua bin",
+       "MWe",
+       "15",
+       "20",
+       "25"
+      ],
+      [
+       "Công suất nhà máy điển hình",
+       "MWe",
+       "500",
+       "1.000",
+       "1.500"
+      ],
+      [
+       "Vòng đời kỹ thuật",
+       "năm",
+       "27",
+       "30",
+       "30"
+      ],
+      [
+       "Thời gian xây dựng",
+       "năm",
+       "3",
+       "3",
+       "2,5"
+      ],
+      [
+       "Hệ số công suất (gồm ngừng máy)",
+       "%",
+       "44,5",
+       "45,7",
+       "45,7"
+      ],
+      [
+       "Suất đầu tư",
+       "triệu USD/MWe",
+       "4,30",
+       "3,69",
+       "3,45"
+      ],
+      [
+       "Chi phí O&M cố định",
+       "USD/MWe/năm",
+       "150.500",
+       "133.245",
+       "128.736"
+      ]
+     ]
+    },
+    {
+     "name": "Điện gió ngoài khơi, móng nổi (cột đầu là 2030)",
+     "page": 195,
+     "cols": [
+      "2030",
+      "2040",
+      "2050"
+     ],
+     "rows": [
+      [
+       "Suất đầu tư",
+       "triệu USD/MWe",
+       "5,59",
+       "4,79",
+       "4,59"
+      ],
+      [
+       "Chi phí O&M cố định",
+       "USD/MWe/năm",
+       "195.650",
+       "167.747",
+       "160.607"
+      ]
+     ]
+    },
+    {
+     "name": "Điện gió gần bờ",
+     "page": 197,
+     "rows": [
+      [
+       "Công suất một tua bin",
+       "MWe",
+       "5",
+       "6",
+       "8",
+       "10"
+      ],
+      [
+       "Công suất nhà máy điển hình",
+       "MWe",
+       "150",
+       "200",
+       "300",
+       "500"
+      ],
+      [
+       "Vòng đời kỹ thuật",
+       "năm",
+       "27",
+       "30",
+       "30",
+       "30"
+      ],
+      [
+       "Thời gian xây dựng",
+       "năm",
+       "2,5",
+       "2,0",
+       "2,0",
+       "1,5"
+      ],
+      [
+       "Hệ số công suất (gồm ngừng máy)",
+       "%",
+       "32,8",
+       "34,3",
+       "35,6",
+       "35,8"
+      ],
+      [
+       "Suất đầu tư",
+       "triệu USD/MWe",
+       "2,70",
+       "2,38",
+       "2,11",
+       "2,04"
+      ],
+      [
+       "Chi phí O&M cố định",
+       "USD/MWe/năm",
+       "94.500",
+       "86.102",
+       "78.662",
+       "76.678"
+      ]
+     ]
+    }
+   ],
+   "potential": {
+    "page": "182–184",
+    "kpis": [
+     [
+      "≈600 GW",
+      "Tiềm năng kỹ thuật trong 200 km (WB-ESMAP)"
+     ],
+     [
+      "261 / 338 GW",
+      "Móng cố định / móng nổi (WB-ESMAP)"
+     ],
+     [
+      "≈1.068 GW",
+      "Tiềm năng trong vùng đặc quyền kinh tế (UNDP)"
+     ]
+    ],
+    "chart": {
+     "type": "bar",
+     "title": "Tiềm năng kỹ thuật điện gió gần bờ (đến 6 hải lý) theo vùng (GW)",
+     "unit": "GW",
+     "cats": [
+      "Nam Bộ",
+      "Duyên hải Nam Trung Bộ",
+      "Duyên hải miền Trung",
+      "Bắc Trung Bộ",
+      "Đồng bằng sông Hồng"
+     ],
+     "series": [
+      {
+       "name": "Gần bờ",
+       "values": [
+        28.372,
+        25.899,
+        2.244,
+        1.345,
+        0.169
+       ]
+      }
+     ]
+    },
+    "note": "Đánh giá của UNDP và Đại sứ quán Na Uy hỗ trợ Trung tâm Dự báo KTTV quốc gia; WB-ESMAP tính trong 200 km, gió > 7 m/s ở độ cao 100 m.",
+    "map": [
+     "Bản đồ tài nguyên gió tương tác (Global Wind Atlas – World Bank, DTU)",
+     "https://globalwindatlas.info/en"
+    ]
+   }
   },
   {
-   "id": "thuy-dien", "group": "Phát điện", "name": "Thủy điện", "src": "gen", "chapter": "Chương 6", "pages": "126–137", "risk": ["Thủy điện"],
+   "id": "thuy-dien",
+   "group": "Phát điện",
+   "name": "Thủy điện",
+   "src": "gen",
+   "chapter": "Chương 6",
+   "pages": "126–137",
+   "risk": [
+    "Thủy điện"
+   ],
    "summary": "Dòng nước từ hồ chứa hoặc dòng chảy tự nhiên làm quay tua bin – máy phát. Thủy điện có hồ chứa điều chỉnh được lưu lượng qua tua bin nên huy động linh hoạt theo nhu cầu.",
    "vn": [
     "Suất đầu tư phụ thuộc mạnh vào vị trí; hạng mục xây dựng dân dụng và đào đắp chiếm tỷ trọng lớn.",
     "Chi phí O&M cố định khoảng 2,2% suất đầu tư mỗi năm (theo IEA)."
    ],
-   "pros": ["Nguồn năng lượng tái tạo, nội địa, không phát thải khi vận hành.", "Huy động linh hoạt; tốc độ tăng giảm công suất nhanh, khởi động trong vài phút.", "Tuổi thọ rất dài, có thể cải tạo kéo dài; lợi ích phụ: cấp nước, thủy lợi, cắt lũ."],
-   "cons": ["Ảnh hưởng đường di cư của cá, chất lượng nước và dòng chảy hạ du.", "Phụ thuộc thủy văn; hạn hán làm giảm hoặc mất khả năng phát điện.", "Bồi lắng làm giảm dung tích, sản lượng, ảnh hưởng an toàn đập; giữ phù sa ở thượng lưu.", "Cạnh tranh sử dụng đất, tác động sinh kế, di tích; độ linh hoạt bị giới hạn bởi nhu cầu nước thủy lợi."],
+   "pros": [
+    "Nguồn năng lượng tái tạo, nội địa, không phát thải khi vận hành.",
+    "Huy động linh hoạt; tốc độ tăng giảm công suất nhanh, khởi động trong vài phút.",
+    "Tuổi thọ rất dài, có thể cải tạo kéo dài; lợi ích phụ: cấp nước, thủy lợi, cắt lũ."
+   ],
+   "cons": [
+    "Ảnh hưởng đường di cư của cá, chất lượng nước và dòng chảy hạ du.",
+    "Phụ thuộc thủy văn; hạn hán làm giảm hoặc mất khả năng phát điện.",
+    "Bồi lắng làm giảm dung tích, sản lượng, ảnh hưởng an toàn đập; giữ phù sa ở thượng lưu.",
+    "Cạnh tranh sử dụng đất, tác động sinh kế, di tích; độ linh hoạt bị giới hạn bởi nhu cầu nước thủy lợi."
+   ],
    "sheets": [
-    {"name": "Thủy điện – hệ thống lớn", "page": 136, "rows": [
-     ["Công suất nhà máy điển hình", "MWe", "150", "150", "150", "150"],
-     ["Vòng đời kỹ thuật", "năm", "50", "50", "50", "50"],
-     ["Thời gian xây dựng", "năm", "4", "4", "4", "4"],
-     ["Hệ số công suất (gồm ngừng máy)", "%", "45", "45", "45", "45"],
-     ["Tốc độ tăng giảm công suất", "% định mức/phút", "50", "50", "50", "50"],
-     ["Suất đầu tư", "triệu USD/MWe", "2,00", "2,00", "1,99", "1,98"],
-     ["Chi phí O&M cố định", "USD/MWe/năm", "44.000", "43.893", "43.739", "43.644"],
-     ["Chi phí O&M biến đổi", "USD/MWh", "0,75", "0,75", "0,74", "0,74"]]},
-    {"name": "Thủy điện – hệ thống nhỏ", "page": 134, "rows": [
-     ["Công suất nhà máy điển hình", "MWe", "20", "20", "20", "20"],
-     ["Vòng đời kỹ thuật", "năm", "50", "50", "50", "50"],
-     ["Thời gian xây dựng", "năm", "3", "4", "4", "4"],
-     ["Hệ số công suất (lý thuyết)", "%", "59", "59", "59", "59"],
-     ["Suất đầu tư", "triệu USD/MWe", "1,80", "1,80", "1,79", "1,79"],
-     ["Chi phí O&M cố định", "USD/MWe/năm", "39.600", "39.503", "39.365", "39.280"],
-     ["Chi phí O&M biến đổi", "USD/MWh", "0,5", "0,5", "0,5", "0,5"]]}
-   ]
+    {
+     "name": "Thủy điện – hệ thống lớn",
+     "page": 136,
+     "rows": [
+      [
+       "Công suất nhà máy điển hình",
+       "MWe",
+       "150",
+       "150",
+       "150",
+       "150"
+      ],
+      [
+       "Vòng đời kỹ thuật",
+       "năm",
+       "50",
+       "50",
+       "50",
+       "50"
+      ],
+      [
+       "Thời gian xây dựng",
+       "năm",
+       "4",
+       "4",
+       "4",
+       "4"
+      ],
+      [
+       "Hệ số công suất (gồm ngừng máy)",
+       "%",
+       "45",
+       "45",
+       "45",
+       "45"
+      ],
+      [
+       "Tốc độ tăng giảm công suất",
+       "% định mức/phút",
+       "50",
+       "50",
+       "50",
+       "50"
+      ],
+      [
+       "Suất đầu tư",
+       "triệu USD/MWe",
+       "2,00",
+       "2,00",
+       "1,99",
+       "1,98"
+      ],
+      [
+       "Chi phí O&M cố định",
+       "USD/MWe/năm",
+       "44.000",
+       "43.893",
+       "43.739",
+       "43.644"
+      ],
+      [
+       "Chi phí O&M biến đổi",
+       "USD/MWh",
+       "0,75",
+       "0,75",
+       "0,74",
+       "0,74"
+      ]
+     ]
+    },
+    {
+     "name": "Thủy điện – hệ thống nhỏ",
+     "page": 134,
+     "rows": [
+      [
+       "Công suất nhà máy điển hình",
+       "MWe",
+       "20",
+       "20",
+       "20",
+       "20"
+      ],
+      [
+       "Vòng đời kỹ thuật",
+       "năm",
+       "50",
+       "50",
+       "50",
+       "50"
+      ],
+      [
+       "Thời gian xây dựng",
+       "năm",
+       "3",
+       "4",
+       "4",
+       "4"
+      ],
+      [
+       "Hệ số công suất (lý thuyết)",
+       "%",
+       "59",
+       "59",
+       "59",
+       "59"
+      ],
+      [
+       "Suất đầu tư",
+       "triệu USD/MWe",
+       "1,80",
+       "1,80",
+       "1,79",
+       "1,79"
+      ],
+      [
+       "Chi phí O&M cố định",
+       "USD/MWe/năm",
+       "39.600",
+       "39.503",
+       "39.365",
+       "39.280"
+      ],
+      [
+       "Chi phí O&M biến đổi",
+       "USD/MWh",
+       "0,5",
+       "0,5",
+       "0,5",
+       "0,5"
+      ]
+     ]
+    }
+   ],
+   "potential": {
+    "page": "128–132",
+    "kpis": [
+     [
+      "15.000 MW",
+      "Tiềm năng kinh tế thủy điện nhỏ (< 30 MW)"
+     ],
+     [
+      "> 5.000 MW",
+      "Thủy điện nhỏ đã lắp đặt"
+     ],
+     [
+      "2.400 MW",
+      "Sơn La – nhà máy lớn nhất (6 × 400 MW)"
+     ]
+    ],
+    "table": {
+     "head": [
+      "Dự án ví dụ",
+      "Công suất",
+      "Ghi chú"
+     ],
+     "rows": [
+      [
+       "Lai Châu (thủy điện lớn, có hồ chứa)",
+       "1.200 MW (3 × 400)",
+       "Tổng mức đầu tư 1,105 tỷ USD (kể cả đập); dung tích hồ 1,21 tỷ m³"
+      ],
+      [
+       "Hòa Bình mở rộng",
+       "480 MW (2 tổ máy)",
+       "Tổng mức đầu tư 303 triệu USD (giá 2019)"
+      ]
+     ]
+    },
+    "note": "Phân loại: thủy điện lớn > 30 MW; nhỏ 1–30 MW; cực nhỏ và siêu nhỏ < 1 MW (Bảng 19)."
+   }
   },
   {
-   "id": "tua-bin-khi", "group": "Phát điện", "name": "Nhiệt điện tua bin khí (khí, LNG)", "src": "gen", "chapter": "Chương 3", "pages": "78–103", "risk": ["Nhiệt điện / LNG"],
+   "id": "tua-bin-khi",
+   "group": "Phát điện",
+   "name": "Nhiệt điện tua bin khí (khí, LNG)",
+   "src": "gen",
+   "chapter": "Chương 3",
+   "pages": "78–103",
+   "risk": [
+    "Nhiệt điện / LNG"
+   ],
    "summary": "Tua bin khí đốt khí thiên nhiên hoặc LNG tái hóa khí. Chu trình đơn (OCGT) khởi động nhanh, dùng cho phủ đỉnh; chu trình hỗn hợp (CCGT) tận dụng nhiệt khói thải qua lò thu hồi nhiệt và tua bin hơi, hiệu suất cao nhất trong các công nghệ dùng khí.",
    "vn": [
     "Nhơn Trạch 3 và Nhơn Trạch 4 (LNG) đang vận hành; các dự án LNG khác đang ở giai đoạn nghiên cứu khả thi hoặc bắt đầu triển khai.",
     "Thông số linh hoạt của CCGT dự án mới thường giả định tương tự các nhà máy CCGT hiện hữu trong nước.",
     "Tài liệu có thêm bảng số liệu CCGT đồng đốt hydrogen 20% và 100% (trang 99–102)."
    ],
-   "pros": ["OCGT khởi động, dừng máy nhanh; khởi động nóng khoảng 10–15 phút.", "CCGT có hiệu suất cao nhất trong các công nghệ dùng khí; phát thải CO₂ trên mỗi kWh thấp hơn nhiệt điện than.", "Diện tích nhỏ hơn nhiệt điện than, có thể đặt gần trung tâm phụ tải.", "Vận hành linh hoạt, hỗ trợ tích hợp năng lượng tái tạo."],
-   "cons": ["Vẫn phát thải CO₂ và NOx.", "Phụ thuộc nguồn khí trong nước suy giảm hoặc LNG nhập khẩu, giá nhiên liệu biến động.", "Với tổ máy trên 15 MW, chu trình đơn kém hấp dẫn hơn chu trình hỗn hợp về hiệu suất."],
+   "pros": [
+    "OCGT khởi động, dừng máy nhanh; khởi động nóng khoảng 10–15 phút.",
+    "CCGT có hiệu suất cao nhất trong các công nghệ dùng khí; phát thải CO₂ trên mỗi kWh thấp hơn nhiệt điện than.",
+    "Diện tích nhỏ hơn nhiệt điện than, có thể đặt gần trung tâm phụ tải.",
+    "Vận hành linh hoạt, hỗ trợ tích hợp năng lượng tái tạo."
+   ],
+   "cons": [
+    "Vẫn phát thải CO₂ và NOx.",
+    "Phụ thuộc nguồn khí trong nước suy giảm hoặc LNG nhập khẩu, giá nhiên liệu biến động.",
+    "Với tổ máy trên 15 MW, chu trình đơn kém hấp dẫn hơn chu trình hỗn hợp về hiệu suất."
+   ],
    "sheets": [
-    {"name": "Tua bin khí chu trình hỗn hợp (CCGT)", "page": 89, "rows": [
-     ["Công suất một tổ máy", "MWe", "750", "750", "750", "750"],
-     ["Hiệu suất điện thuần, danh định", "%", "58", "60", "61", "61"],
-     ["Vòng đời kỹ thuật", "năm", "50", "50", "50", "50"],
-     ["Thời gian xây dựng", "năm", "3,5", "3,5", "3,5", "3,5"],
-     ["Tốc độ tăng giảm công suất", "% định mức/phút", "11,7", "20", "20", "20"],
-     ["Thời gian khởi động lạnh", "giờ", "2,5", "2,5", "2,5", "2,5"],
-     ["Suất đầu tư", "triệu USD/MWe", "1,15", "1,14", "1,12", "1,09"],
-     ["Chi phí O&M cố định", "USD/MWe/năm", "42.326", "41.904", "41.074", "40.260"],
-     ["Chi phí O&M biến đổi", "USD/MWh", "2,48", "2,46", "2,41", "2,36"]]},
-    {"name": "Tua bin khí chu trình đơn – hệ thống lớn (OCGT)", "page": 87, "rows": [
-     ["Công suất một tổ máy", "MWe", "510", "510", "510", "510"],
-     ["Hiệu suất điện thuần, danh định", "%", "42", "43", "45", "46"],
-     ["Thời gian xây dựng", "năm", "3", "3", "3", "3"],
-     ["Tốc độ tăng giảm công suất", "% định mức/phút", "15", "20", "20", "20"],
-     ["Thời gian khởi động lạnh", "giờ", "0,75", "0,5", "0,5", "0,5"],
-     ["Suất đầu tư", "triệu USD/MWe", "1,02", "1,01", "0,99", "0,97"],
-     ["Chi phí O&M cố định", "USD/MWe/năm", "30.004", "29.705", "29.116", "28.539"],
-     ["Chi phí O&M biến đổi", "USD/MWh", "4,58", "4,53", "4,44", "4,36"]]}
-   ]
+    {
+     "name": "Tua bin khí chu trình hỗn hợp (CCGT)",
+     "page": 89,
+     "rows": [
+      [
+       "Công suất một tổ máy",
+       "MWe",
+       "750",
+       "750",
+       "750",
+       "750"
+      ],
+      [
+       "Hiệu suất điện thuần, danh định",
+       "%",
+       "58",
+       "60",
+       "61",
+       "61"
+      ],
+      [
+       "Vòng đời kỹ thuật",
+       "năm",
+       "50",
+       "50",
+       "50",
+       "50"
+      ],
+      [
+       "Thời gian xây dựng",
+       "năm",
+       "3,5",
+       "3,5",
+       "3,5",
+       "3,5"
+      ],
+      [
+       "Tốc độ tăng giảm công suất",
+       "% định mức/phút",
+       "11,7",
+       "20",
+       "20",
+       "20"
+      ],
+      [
+       "Thời gian khởi động lạnh",
+       "giờ",
+       "2,5",
+       "2,5",
+       "2,5",
+       "2,5"
+      ],
+      [
+       "Suất đầu tư",
+       "triệu USD/MWe",
+       "1,15",
+       "1,14",
+       "1,12",
+       "1,09"
+      ],
+      [
+       "Chi phí O&M cố định",
+       "USD/MWe/năm",
+       "42.326",
+       "41.904",
+       "41.074",
+       "40.260"
+      ],
+      [
+       "Chi phí O&M biến đổi",
+       "USD/MWh",
+       "2,48",
+       "2,46",
+       "2,41",
+       "2,36"
+      ]
+     ]
+    },
+    {
+     "name": "Tua bin khí chu trình đơn – hệ thống lớn (OCGT)",
+     "page": 87,
+     "rows": [
+      [
+       "Công suất một tổ máy",
+       "MWe",
+       "510",
+       "510",
+       "510",
+       "510"
+      ],
+      [
+       "Hiệu suất điện thuần, danh định",
+       "%",
+       "42",
+       "43",
+       "45",
+       "46"
+      ],
+      [
+       "Thời gian xây dựng",
+       "năm",
+       "3",
+       "3",
+       "3",
+       "3"
+      ],
+      [
+       "Tốc độ tăng giảm công suất",
+       "% định mức/phút",
+       "15",
+       "20",
+       "20",
+       "20"
+      ],
+      [
+       "Thời gian khởi động lạnh",
+       "giờ",
+       "0,75",
+       "0,5",
+       "0,5",
+       "0,5"
+      ],
+      [
+       "Suất đầu tư",
+       "triệu USD/MWe",
+       "1,02",
+       "1,01",
+       "0,99",
+       "0,97"
+      ],
+      [
+       "Chi phí O&M cố định",
+       "USD/MWe/năm",
+       "30.004",
+       "29.705",
+       "29.116",
+       "28.539"
+      ],
+      [
+       "Chi phí O&M biến đổi",
+       "USD/MWh",
+       "4,58",
+       "4,53",
+       "4,44",
+       "4,36"
+      ]
+     ]
+    }
+   ],
+   "potential": {
+    "page": "84",
+    "table": {
+     "head": [
+      "Thông số CCGT",
+      "Nhà máy trong nước (TB)",
+      "Cẩm nang Indonesia 2020",
+      "Cẩm nang VN 2025"
+     ],
+     "rows": [
+      [
+       "Công suất một tổ máy (MWe)",
+       "750",
+       "600",
+       "750"
+      ],
+      [
+       "Hiệu suất điện thuần (%)",
+       "60",
+       "57",
+       "58"
+      ],
+      [
+       "Tốc độ tăng giảm (%/phút)",
+       "11,7",
+       "20",
+       "11,7"
+      ],
+      [
+       "Phụ tải tối thiểu (% đầy tải)",
+       "33",
+       "45",
+       "33"
+      ],
+      [
+       "Khởi động lạnh (giờ)",
+       "–",
+       "4",
+       "2,5"
+      ],
+      [
+       "Suất đầu tư (triệu USD/MWe)",
+       "1,18",
+       "0,78",
+       "1,15"
+      ],
+      [
+       "O&M cố định (USD/MWe/năm)",
+       "42.326",
+       "24.100",
+       "42.300"
+      ]
+     ]
+    },
+    "note": "Bảng 12 tài liệu nguồn: số liệu 2020 từ các nhà máy trong nước, Cẩm nang Công nghệ Indonesia và giá trị ước tính cho Việt Nam (USD 2025)."
+   }
   },
   {
-   "id": "nhiet-dien-than", "group": "Phát điện", "name": "Nhiệt điện than (than phun)", "src": "gen", "chapter": "Chương 1", "pages": "19–66", "risk": ["Nhiệt điện / LNG"],
+   "id": "nhiet-dien-than",
+   "group": "Phát điện",
+   "name": "Nhiệt điện than (than phun)",
+   "src": "gen",
+   "chapter": "Chương 1",
+   "pages": "19–66",
+   "risk": [
+    "Nhiệt điện / LNG"
+   ],
    "summary": "Than nghiền mịn được phun và đốt trong lò hơi; hơi nước áp suất cao quay tua bin – máy phát. Thông số hơi càng cao (siêu tới hạn, trên siêu tới hạn) thì hiệu suất càng cao.",
    "vn": [
     "Tài liệu có thêm bảng số liệu kéo dài vòng đời nhà máy hiện hữu, đồng đốt ammonia và đồng đốt sinh khối 20%, 100% (trang 46–66); công nghệ lò hơi tầng sôi tuần hoàn (CFB) ở Chương 2."
    ],
-   "pros": ["Công nghệ truyền thống, đã chín muồi.", "Hiệu suất ít suy giảm khi non tải so với CCGT.", "Vận hành ổn định, đáp ứng phụ tải nền."],
-   "cons": ["Phát thải NOx, SO₂, bụi cao nếu không kiểm soát, kéo theo chi phí xã hội về sức khỏe.", "Phát thải CO₂ cao.", "Nhà máy siêu tới hạn đòi hỏi chất lượng nhiên liệu cao hơn; đốt sinh khối có thể gây ăn mòn, đóng cặn nếu không xử lý đúng.", "Khởi động chậm, tốc độ tăng giảm công suất thấp."],
+   "pros": [
+    "Công nghệ truyền thống, đã chín muồi.",
+    "Hiệu suất ít suy giảm khi non tải so với CCGT.",
+    "Vận hành ổn định, đáp ứng phụ tải nền."
+   ],
+   "cons": [
+    "Phát thải NOx, SO₂, bụi cao nếu không kiểm soát, kéo theo chi phí xã hội về sức khỏe.",
+    "Phát thải CO₂ cao.",
+    "Nhà máy siêu tới hạn đòi hỏi chất lượng nhiên liệu cao hơn; đốt sinh khối có thể gây ăn mòn, đóng cặn nếu không xử lý đúng.",
+    "Khởi động chậm, tốc độ tăng giảm công suất thấp."
+   ],
    "sheets": [
-    {"name": "Nhiệt điện than siêu tới hạn", "page": 26, "rows": [
-     ["Công suất một tổ máy", "MWe", "600", "600", "600", "600"],
-     ["Hiệu suất điện thuần, danh định", "%", "37,7", "38,8", "39,4", "39,9"],
-     ["Vòng đời kỹ thuật", "năm", "30", "30", "30", "30"],
-     ["Thời gian xây dựng", "năm", "3,75", "3", "3", "3"],
-     ["Tốc độ tăng giảm công suất", "% định mức/phút", "2", "4", "4", "4"],
-     ["Thời gian khởi động lạnh", "giờ", "10", "12", "12", "12"],
-     ["Suất đầu tư", "triệu USD/MWe", "1,81", "1,79", "1,75", "1,72"],
-     ["Chi phí O&M cố định", "USD/MWe/năm", "49.301", "48.810", "47.843", "46.895"],
-     ["Chi phí O&M biến đổi", "USD/MWh", "1,40", "1,40", "1,39", "1,36"]]},
-    {"name": "Nhiệt điện than trên siêu tới hạn", "page": 28, "rows": [
-     ["Công suất một tổ máy", "MWe", "1.000", "1.000", "1.000", "1.000"],
-     ["Hiệu suất điện thuần, danh định", "%", "42,5", "43,8", "44,4", "45,1"],
-     ["Vòng đời kỹ thuật", "năm", "30", "30", "30", "30"],
-     ["Thời gian xây dựng", "năm", "4,33", "3", "3", "3"],
-     ["Tốc độ tăng giảm công suất", "% định mức/phút", "5", "5", "5", "5"],
-     ["Thời gian khởi động lạnh", "giờ", "12", "12", "12", "12"],
-     ["Suất đầu tư", "triệu USD/MWe", "2,01", "1,99", "1,95", "1,91"],
-     ["Chi phí O&M biến đổi", "USD/MWh", "1,30", "1,29", "1,26", "1,24"]]}
+    {
+     "name": "Nhiệt điện than siêu tới hạn",
+     "page": 26,
+     "rows": [
+      [
+       "Công suất một tổ máy",
+       "MWe",
+       "600",
+       "600",
+       "600",
+       "600"
+      ],
+      [
+       "Hiệu suất điện thuần, danh định",
+       "%",
+       "37,7",
+       "38,8",
+       "39,4",
+       "39,9"
+      ],
+      [
+       "Vòng đời kỹ thuật",
+       "năm",
+       "30",
+       "30",
+       "30",
+       "30"
+      ],
+      [
+       "Thời gian xây dựng",
+       "năm",
+       "3,75",
+       "3",
+       "3",
+       "3"
+      ],
+      [
+       "Tốc độ tăng giảm công suất",
+       "% định mức/phút",
+       "2",
+       "4",
+       "4",
+       "4"
+      ],
+      [
+       "Thời gian khởi động lạnh",
+       "giờ",
+       "10",
+       "12",
+       "12",
+       "12"
+      ],
+      [
+       "Suất đầu tư",
+       "triệu USD/MWe",
+       "1,81",
+       "1,79",
+       "1,75",
+       "1,72"
+      ],
+      [
+       "Chi phí O&M cố định",
+       "USD/MWe/năm",
+       "49.301",
+       "48.810",
+       "47.843",
+       "46.895"
+      ],
+      [
+       "Chi phí O&M biến đổi",
+       "USD/MWh",
+       "1,40",
+       "1,40",
+       "1,39",
+       "1,36"
+      ]
+     ]
+    },
+    {
+     "name": "Nhiệt điện than trên siêu tới hạn",
+     "page": 28,
+     "rows": [
+      [
+       "Công suất một tổ máy",
+       "MWe",
+       "1.000",
+       "1.000",
+       "1.000",
+       "1.000"
+      ],
+      [
+       "Hiệu suất điện thuần, danh định",
+       "%",
+       "42,5",
+       "43,8",
+       "44,4",
+       "45,1"
+      ],
+      [
+       "Vòng đời kỹ thuật",
+       "năm",
+       "30",
+       "30",
+       "30",
+       "30"
+      ],
+      [
+       "Thời gian xây dựng",
+       "năm",
+       "4,33",
+       "3",
+       "3",
+       "3"
+      ],
+      [
+       "Tốc độ tăng giảm công suất",
+       "% định mức/phút",
+       "5",
+       "5",
+       "5",
+       "5"
+      ],
+      [
+       "Thời gian khởi động lạnh",
+       "giờ",
+       "12",
+       "12",
+       "12",
+       "12"
+      ],
+      [
+       "Suất đầu tư",
+       "triệu USD/MWe",
+       "2,01",
+       "1,99",
+       "1,95",
+       "1,91"
+      ],
+      [
+       "Chi phí O&M biến đổi",
+       "USD/MWh",
+       "1,30",
+       "1,29",
+       "1,26",
+       "1,24"
+      ]
+     ]
+    }
    ]
   },
   {
-   "id": "pin-lithium-ion", "group": "Lưu trữ điện năng", "name": "Pin Lithium-ion (BESS)", "src": "sto", "chapter": "Chương 2", "pages": "26–48", "risk": ["BESS"],
+   "id": "pin-lithium-ion",
+   "group": "Lưu trữ điện năng",
+   "name": "Pin Lithium-ion (BESS)",
+   "src": "sto",
+   "chapter": "Chương 2",
+   "pages": "26–48",
+   "risk": [
+    "BESS"
+   ],
    "summary": "Hệ thống lưu trữ điện năng bằng pin Lithium-ion lắp trong container mô-đun, gồm pin, hệ thống chuyển đổi công suất (PCS), quản lý pin (BMS) và điều khiển; nạp khi dư công suất và xả khi cần.",
    "vn": [
     "Bảng số liệu lấy cấu hình điển hình 1 MW / 4 MWh (xả 4 giờ).",
     "Suất đầu tư tính theo dung lượng (triệu USD/MWh), gồm thành phần năng lượng, thành phần công suất và chi phí khác."
    ],
-   "pros": ["Dùng chung chuỗi cung ứng với ngành ô tô điện nên mở rộng sản xuất, giảm giá nhanh.", "Đáp ứng rất nhanh (khoảng 0,08 giây), cung cấp được hầu hết dịch vụ lưới.", "Hiệu suất chu trình cao; bảo dưỡng ít.", "Container mô-đun, dễ đặt tại trạm biến áp hoặc nhà máy điện hiện hữu."],
-   "cons": ["Nguy cơ cháy nổ tế bào pin; yêu cầu cao về PCCC, làm tăng diện tích do vùng an toàn.", "Rủi ro điện áp cao.", "Chi phí đầu tư còn lớn."],
+   "pros": [
+    "Dùng chung chuỗi cung ứng với ngành ô tô điện nên mở rộng sản xuất, giảm giá nhanh.",
+    "Đáp ứng rất nhanh (khoảng 0,08 giây), cung cấp được hầu hết dịch vụ lưới.",
+    "Hiệu suất chu trình cao; bảo dưỡng ít.",
+    "Container mô-đun, dễ đặt tại trạm biến áp hoặc nhà máy điện hiện hữu."
+   ],
+   "cons": [
+    "Nguy cơ cháy nổ tế bào pin; yêu cầu cao về PCCC, làm tăng diện tích do vùng an toàn.",
+    "Rủi ro điện áp cao.",
+    "Chi phí đầu tư còn lớn."
+   ],
    "sheets": [
-    {"name": "Pin Lithium-ion, 1 MW / 4 MWh", "page": 46, "rows": [
-     ["Thời gian xả", "giờ", "4", "4", "4", "4"],
-     ["Hiệu suất một chu kỳ (AC)", "%", "91", "92", "92", "92"],
-     ["Vòng đời kỹ thuật", "chu kỳ", "5.000", "6.000", "12.000", "20.000"],
-     ["Vòng đời kỹ thuật", "năm", "15", "20", "30", "30"],
-     ["Thời gian xây dựng", "năm", "0,25", "0,20", "0,20", "0,20"],
-     ["Suất đầu tư", "triệu USD/MWh", "0,36", "0,24", "0,20", "0,18"],
-     ["Chi phí O&M cố định", "USD/MW/năm", "12.000", "9.269", "8.035", "7.592"],
-     ["Chi phí O&M biến đổi", "USD/MWh", "2,0", "1,54", "1,34", "1,27"]]}
-   ]
+    {
+     "name": "Pin Lithium-ion, 1 MW / 4 MWh",
+     "page": 46,
+     "rows": [
+      [
+       "Thời gian xả",
+       "giờ",
+       "4",
+       "4",
+       "4",
+       "4"
+      ],
+      [
+       "Hiệu suất một chu kỳ (AC)",
+       "%",
+       "91",
+       "92",
+       "92",
+       "92"
+      ],
+      [
+       "Vòng đời kỹ thuật",
+       "chu kỳ",
+       "5.000",
+       "6.000",
+       "12.000",
+       "20.000"
+      ],
+      [
+       "Vòng đời kỹ thuật",
+       "năm",
+       "15",
+       "20",
+       "30",
+       "30"
+      ],
+      [
+       "Thời gian xây dựng",
+       "năm",
+       "0,25",
+       "0,20",
+       "0,20",
+       "0,20"
+      ],
+      [
+       "Suất đầu tư",
+       "triệu USD/MWh",
+       "0,36",
+       "0,24",
+       "0,20",
+       "0,18"
+      ],
+      [
+       "Chi phí O&M cố định",
+       "USD/MW/năm",
+       "12.000",
+       "9.269",
+       "8.035",
+       "7.592"
+      ],
+      [
+       "Chi phí O&M biến đổi",
+       "USD/MWh",
+       "2,0",
+       "1,54",
+       "1,34",
+       "1,27"
+      ]
+     ]
+    }
+   ],
+   "potential": {
+    "page": "42",
+    "kpis": [
+     [
+      "≈1.200 MW",
+      "BESS lưới phân phối EVN giao các Tổng công ty điện lực 2026–2030"
+     ],
+     [
+      "≥ 2 giờ",
+      "Thời gian lưu trữ tối thiểu theo quy định"
+     ]
+    ],
+    "chart": {
+     "type": "bar",
+     "title": "Dự án BESS đã được phê duyệt, vận hành dự kiến 2025–2030 (MW)",
+     "unit": "MW",
+     "cats": [
+      "Các dự án pin lưu trữ khác",
+      "Pin lưu trữ tích hợp ĐMT 400 MW",
+      "Dự án pin lưu trữ 50 MW",
+      "Tích hợp ĐMT 50 MW",
+      "Krông Pa",
+      "Krông Pa 2",
+      "Điện gió Hải Anh"
+     ],
+     "series": [
+      {
+       "name": "Công suất",
+       "values": [
+        138,
+        105,
+        50,
+        7,
+        7,
+        7,
+        4
+       ]
+      }
+     ]
+    },
+    "note": "Bảng 5 tài liệu nguồn."
+   }
   },
   {
-   "id": "thuy-dien-tich-nang", "group": "Lưu trữ điện năng", "name": "Thủy điện tích năng", "src": "sto", "chapter": "Chương 1", "pages": "19–25", "risk": ["Thủy điện"],
+   "id": "thuy-dien-tich-nang",
+   "group": "Lưu trữ điện năng",
+   "name": "Thủy điện tích năng",
+   "src": "sto",
+   "chapter": "Chương 1",
+   "pages": "19–25",
+   "risk": [
+    "Thủy điện"
+   ],
    "summary": "Hai hồ chứa ở hai cao độ nối bằng đường hầm dẫn nước và tổ máy tua bin – bơm thuận nghịch. Giờ thấp điểm bơm nước lên hồ trên; giờ cao điểm xả nước phát điện. Điện năng lưu trữ tỉ lệ với thể tích nước và chênh lệch cột nước.",
    "vn": [
     "Bảng số liệu dùng nhà máy điển hình 1.200 MW (4 × 300 MW), hồ chứa 6.000 MWh, thời gian lưu trữ 5 giờ.",
     "Mở rộng thủy điện hiện hữu để bổ sung chế độ tích năng có suất đầu tư trên mỗi MW thấp hơn đáng kể so với xây mới."
    ],
-   "pros": ["Lưu trữ quy mô lớn, công nghệ chiếm ưu thế toàn cầu (khoảng 100 GW đang vận hành).", "Dịch chuyển biểu đồ phát, cân bằng cung – cầu, hỗ trợ tích hợp năng lượng tái tạo.", "Vận hành linh hoạt như thủy điện truyền thống, đồng thời làm phụ tải giờ thấp điểm.", "Tuổi thọ rất dài."],
-   "cons": ["Hiệu suất chu trình thấp hơn thủy điện thông thường (khoảng 80%).", "Vốn đầu tư ban đầu cao, thời gian xây dựng dài khi xây mới cả đập.", "Phụ thuộc điều kiện địa hình, địa chất phù hợp."],
+   "pros": [
+    "Lưu trữ quy mô lớn, công nghệ chiếm ưu thế toàn cầu (khoảng 100 GW đang vận hành).",
+    "Dịch chuyển biểu đồ phát, cân bằng cung – cầu, hỗ trợ tích hợp năng lượng tái tạo.",
+    "Vận hành linh hoạt như thủy điện truyền thống, đồng thời làm phụ tải giờ thấp điểm.",
+    "Tuổi thọ rất dài."
+   ],
+   "cons": [
+    "Hiệu suất chu trình thấp hơn thủy điện thông thường (khoảng 80%).",
+    "Vốn đầu tư ban đầu cao, thời gian xây dựng dài khi xây mới cả đập.",
+    "Phụ thuộc điều kiện địa hình, địa chất phù hợp."
+   ],
    "sheets": [
-    {"name": "Thủy điện tích năng", "page": 24, "rows": [
-     ["Công suất nhà máy điển hình", "MWe", "1.200", "1.200", "1.200", "1.200"],
-     ["Hiệu suất điện thuần (chu trình)", "%", "80", "80", "80", "80"],
-     ["Thời gian lưu trữ", "giờ", "5", "5", "5", "5"],
-     ["Vòng đời kỹ thuật", "năm", "50", "50", "50", "50"],
-     ["Thời gian xây dựng", "năm", "5", "5", "5", "5"],
-     ["Tốc độ tăng giảm công suất", "% định mức/phút", "50", "50", "50", "50"],
-     ["Suất đầu tư", "triệu USD/MW", "0,75", "0,75", "0,75", "0,74"],
-     ["Chi phí O&M cố định", "USD/MW/năm", "15.000", "14.963", "14.911", "14.879"],
-     ["Chi phí O&M biến đổi", "USD/MWh", "1,4", "1,4", "1,4", "1,4"]]}
-   ]
+    {
+     "name": "Thủy điện tích năng",
+     "page": 24,
+     "rows": [
+      [
+       "Công suất nhà máy điển hình",
+       "MWe",
+       "1.200",
+       "1.200",
+       "1.200",
+       "1.200"
+      ],
+      [
+       "Hiệu suất điện thuần (chu trình)",
+       "%",
+       "80",
+       "80",
+       "80",
+       "80"
+      ],
+      [
+       "Thời gian lưu trữ",
+       "giờ",
+       "5",
+       "5",
+       "5",
+       "5"
+      ],
+      [
+       "Vòng đời kỹ thuật",
+       "năm",
+       "50",
+       "50",
+       "50",
+       "50"
+      ],
+      [
+       "Thời gian xây dựng",
+       "năm",
+       "5",
+       "5",
+       "5",
+       "5"
+      ],
+      [
+       "Tốc độ tăng giảm công suất",
+       "% định mức/phút",
+       "50",
+       "50",
+       "50",
+       "50"
+      ],
+      [
+       "Suất đầu tư",
+       "triệu USD/MW",
+       "0,75",
+       "0,75",
+       "0,75",
+       "0,74"
+      ],
+      [
+       "Chi phí O&M cố định",
+       "USD/MW/năm",
+       "15.000",
+       "14.963",
+       "14.911",
+       "14.879"
+      ],
+      [
+       "Chi phí O&M biến đổi",
+       "USD/MWh",
+       "1,4",
+       "1,4",
+       "1,4",
+       "1,4"
+      ]
+     ]
+    }
+   ],
+   "potential": {
+    "page": "22",
+    "kpis": [
+     [
+      "≈10.000 MW",
+      "10 dự án khả thi theo QĐ 3837/QĐ-BCN (2005)"
+     ],
+     [
+      "1.200 MW",
+      "Bác Ái – dự án đầu tiên được khởi công"
+     ],
+     [
+      "≈54 GW",
+      "Công suất các địa phương đang nghiên cứu"
+     ]
+    ],
+    "note": "Quy hoạch tổng thể thủy điện tích năng do EVN phối hợp JICA lập năm 2004; tài liệu nhận định Việt Nam còn thiếu khảo sát tiềm năng quy mô toàn quốc."
+   }
   }
  ]
 }

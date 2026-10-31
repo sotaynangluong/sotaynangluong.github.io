@@ -264,3 +264,30 @@ abbr[title] { text-decoration: underline dotted; text-underline-offset: 3px; tex
 .tnext .chip{text-decoration:none}
 @media (max-width:760px){.pc{grid-template-columns:1fr}.tsheet td:first-child{min-width:150px}}
 .tnext .chip{width:auto;flex:0 0 auto;display:inline-flex}
+
+/* Tiềm năng, biểu đồ công nghệ */
+:root{--pc0:#00532a;--pc1:#3f9a62;--pc2:#9ccfac;--pc3:#b9892f;--pc4:#e3c27d}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--pc0:#8fd1a2;--pc1:#4fa86f;--pc2:#2c6b45;--pc3:#d9ab52;--pc4:#8a6a2a}}
+:root[data-theme="dark"]{--pc0:#8fd1a2;--pc1:#4fa86f;--pc2:#2c6b45;--pc3:#d9ab52;--pc4:#8a6a2a}
+.pc0{background:var(--pc0)}.pc1{background:var(--pc1)}.pc2{background:var(--pc2)}.pc3{background:var(--pc3)}.pc4{background:var(--pc4)}
+.pkpi{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px;margin:8px 0 14px}
+.pkpi div{border:1px solid var(--line);border-radius:10px;padding:10px 12px;background:var(--bg)}
+.pkpi b{display:block;font:600 20px var(--f-mono);color:var(--accent)}
+.pkpi span{font-size:13px;color:var(--muted)}
+.pchart{margin:10px 0 16px}
+.pchart figcaption{font-weight:600;margin-bottom:8px}
+.prow{display:flex;align-items:center;padding:3px 0}
+.plab{flex:0 0 190px;font-size:13px;padding-right:10px}
+.ptrack{flex:1;padding-right:80px}
+.pbar{display:flex;height:18px;width:var(--w);min-width:3px;position:relative;border-radius:0 4px 4px 0;overflow:visible}
+.pbar i{display:block;height:100%}
+.pbar i:last-of-type{border-radius:0 4px 4px 0}
+.pbar span{position:absolute;left:calc(100% + 6px);top:50%;transform:translateY(-50%);font:12px var(--f-mono);white-space:nowrap}
+.trend .tgroup{display:flex;align-items:flex-end;padding:6px 0;border-bottom:1px solid var(--line)}
+.tyears{flex:1;display:flex;gap:10px;max-width:420px}
+.ty{flex:1;text-align:center}
+.tcol{height:90px;padding-top:18px;box-sizing:content-box;display:flex;align-items:flex-end;justify-content:center}
+.tcol div{width:70%;height:var(--h);background:var(--pc1);border-radius:4px 4px 0 0;position:relative;min-height:2px}
+.tcol span{position:absolute;bottom:calc(100% + 2px);left:50%;transform:translateX(-50%);font:11px var(--f-mono);white-space:nowrap}
+.ty em{font:11px var(--f-mono);color:var(--muted);font-style:normal}
+@media (max-width:760px){.prow,.trend .tgroup{flex-direction:column;align-items:stretch}.plab{flex:none;padding:0 0 3px}.ptrack{padding-right:70px}.tyears{max-width:none}}
