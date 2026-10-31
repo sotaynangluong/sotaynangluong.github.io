@@ -1828,5 +1828,605 @@
   "a": 0,
   "e": "Khoản 2 Điều 27: xác định theo dự toán hoặc cơ sở dữ liệu chi phí thuê tư vấn nước ngoài của công trình, dự án tương tự tại Việt Nam.",
   "b": "Khoản 2 Điều 27 NĐ 206/2026/NĐ-CP"
+ },
+ {
+  "id": "e01",
+  "topic": "TT 05/2025 – Đấu nối, yêu cầu kỹ thuật",
+  "level": 1,
+  "q": "Theo TT 05/2025/TT-BCT, lưới 110 kV thuộc cấp điện áp nào?",
+  "o": [
+   "Cao áp (trên 35 kV đến 220 kV)",
+   "Cao áp (trên 66 kV đến 500 kV)",
+   "Trung áp (trên 1 kV đến 35 kV)",
+   "Siêu cao áp (trên 220 kV)"
+  ],
+  "a": 0,
+  "e": "Cao áp là cấp điện áp danh định trên 35 kV đến 220 kV; siêu cao áp trên 220 kV; trung áp trên 1 kV đến 35 kV.",
+  "b": "Khoản 4 Điều 3 TT 05/2025/TT-BCT"
+ },
+ {
+  "id": "e02",
+  "topic": "TT 05/2025 – Đấu nối, yêu cầu kỹ thuật",
+  "level": 2,
+  "q": "Một trạm biến áp 110 kV của nhà máy điện mặt trời đấu nối vào lưới. Theo TT 05/2025, cấp 110 kV thuộc hệ thống nào?",
+  "o": [
+   "Tùy chủ sở hữu trạm biến áp",
+   "Lưới điện truyền tải",
+   "Hệ thống phân phối điện",
+   "Lưới điện truyền tải khu vực"
+  ],
+  "a": 2,
+  "e": "Cấp điện áp danh định của lưới truyền tải gồm 500 kV, 220 kV; hệ thống phân phối gồm 110 kV, 35 kV, 22 kV, 15 kV, 10 kV, 6 kV và 0,38 kV.",
+  "b": "Khoản 1 Điều 6 TT 05/2025/TT-BCT"
+ },
+ {
+  "id": "e03",
+  "topic": "TT 05/2025 – Đấu nối, yêu cầu kỹ thuật",
+  "level": 2,
+  "q": "Sự cố đơn lẻ làm tần số giảm xuống 49,3 Hz. Theo TT 05/2025, sau bao lâu tần số phải về dải 49,8–50,2 Hz?",
+  "o": [
+   "10 giây kể từ khi xảy ra sự cố",
+   "10 phút kể từ khi xảy ra sự cố",
+   "05 phút kể từ khi xảy ra sự cố",
+   "02 phút kể từ khi xảy ra sự cố"
+  ],
+  "a": 2,
+  "e": "Sự cố đơn lẻ: dải 49–51 Hz; 02 phút để về 49,5–50,5 Hz và 05 phút để về 49,8–50,2 Hz.",
+  "b": "Bảng 1 khoản 1 Điều 4 TT 05/2025/TT-BCT"
+ },
+ {
+  "id": "e04",
+  "topic": "TT 05/2025 – Đấu nối, yêu cầu kỹ thuật",
+  "level": 2,
+  "q": "Nhà máy điện mặt trời đấu nối vào thanh cái 110 kV của lưới phân phối. Độ lệch điện áp cho phép tại điểm đấu nối ở chế độ bình thường là bao nhiêu?",
+  "o": [
+   "+10% và -05% so với điện áp danh định",
+   "±10% so với điện áp danh định",
+   "±05% so với điện áp danh định",
+   "+05% và -10% so với điện áp danh định"
+  ],
+  "a": 0,
+  "e": "Tại điểm đấu nối với nhà máy điện trên lưới phân phối: +10% và -05%; với khách hàng sử dụng điện: ±05%.",
+  "b": "Điểm d khoản 2 Điều 6 TT 05/2025/TT-BCT"
+ },
+ {
+  "id": "e05",
+  "topic": "TT 05/2025 – Đấu nối, yêu cầu kỹ thuật",
+  "level": 3,
+  "q": "Tính toán cho thấy dòng ngắn mạch tại điểm đấu nối 220 kV của dự án là 55 kA. Theo TT 05/2025, trách nhiệm xử lý thuộc về ai?",
+  "o": [
+   "Cấp điều độ đổi phương thức vận hành, chủ đầu tư không phải xử lý",
+   "Hai bên chia đều chi phí lắp kháng điện theo Thỏa thuận đấu nối",
+   "Đơn vị truyền tải điện thay thiết bị đóng cắt trên lưới hiện có",
+   "Chủ đầu tư công trình áp dụng biện pháp hạ dòng ngắn mạch ≤ 50 kA"
+  ],
+  "a": 3,
+  "e": "Dòng ngắn mạch lớn nhất cho phép cấp 220 kV là 50 kA. Công trình đấu nối có dòng ngắn mạch tính toán vượt mức này thì chủ đầu tư phải áp dụng biện pháp hạ xuống bằng hoặc thấp hơn giá trị cho phép.",
+  "b": "Bảng 8, khoản 5 Điều 12 TT 05/2025/TT-BCT"
+ },
+ {
+  "id": "e06",
+  "topic": "TT 05/2025 – Đấu nối, yêu cầu kỹ thuật",
+  "level": 2,
+  "q": "Theo TT 05/2025, thời gian tối đa loại trừ sự cố bằng bảo vệ chính ở cấp 110 kV là bao nhiêu?",
+  "o": [
+   "500 ms",
+   "80 ms",
+   "150 ms",
+   "100 ms"
+  ],
+  "a": 2,
+  "e": "Bảng 8: 500 kV – 80 ms; 220 kV – 100 ms; 110 kV – 150 ms; trung áp – 500 ms.",
+  "b": "Bảng 8 khoản 1 Điều 12 TT 05/2025/TT-BCT"
+ },
+ {
+  "id": "e07",
+  "topic": "TT 05/2025 – Đấu nối, yêu cầu kỹ thuật",
+  "level": 3,
+  "q": "Khi chọn máy cắt cho trạm nâng áp, khả năng cắt dòng ngắn mạch phải tính cho khoảng thời gian nào?",
+  "o": [
+   "Ít nhất 10 năm kể từ khi dự kiến đưa thiết bị vào vận hành",
+   "Hết thời hạn hợp đồng mua bán điện đã ký với bên mua điện",
+   "Theo dòng ngắn mạch hiện tại do đơn vị lưới thông báo khi khảo sát",
+   "Ít nhất 05 năm kể từ khi ký Thỏa thuận đấu nối với đơn vị lưới"
+  ],
+  "a": 0,
+  "e": "Thiết bị đóng cắt phải đủ khả năng cắt dòng ngắn mạch lớn nhất trong ít nhất 10 năm tiếp theo kể từ thời điểm dự kiến đưa vào vận hành; đơn vị lưới thông báo dòng ngắn mạch hiện tại và tính toán 10 năm tới.",
+  "b": "Khoản 2, khoản 6 Điều 12 TT 05/2025/TT-BCT"
+ },
+ {
+  "id": "e08",
+  "topic": "TT 05/2025 – Đấu nối, yêu cầu kỹ thuật",
+  "level": 2,
+  "q": "Đường dây trên không 110 kV của nhà máy đấu vào trạm biến áp của đơn vị lưới. Nếu hai bên không thỏa thuận khác, điểm đấu nối nằm ở đâu?",
+  "o": [
+   "Cột néo cuối cùng của đường dây trước cổng trạm biến áp của đơn vị lưới",
+   "Điểm cuối chuỗi cách điện đỡ dây xuất tuyến nối vào dao cách ly của trạm",
+   "Đầu cốt trụ cách điện dao cách ly phía thanh cái trong trạm của nhà máy",
+   "Đầu cực phía cao áp của máy biến áp tăng áp trong trạm biến áp nhà máy"
+  ],
+  "a": 1,
+  "e": "Với đường dây trên không, điểm đấu nối là điểm cuối chuỗi cách điện đỡ treo dây xuất tuyến nối vào dao cách ly của trạm điện hoặc sân phân phối; với cáp ngầm là đầu cốt trụ cách điện dao cách ly phía xuất tuyến.",
+  "b": "Khoản 2 Điều 21 TT 05/2025/TT-BCT"
+ },
+ {
+  "id": "e09",
+  "topic": "TT 05/2025 – Đấu nối, yêu cầu kỹ thuật",
+  "level": 1,
+  "q": "Theo TT 05/2025, ranh giới phân định tài sản giữa khách hàng và đơn vị lưới là gì?",
+  "o": [
+   "Vị trí đo đếm chính",
+   "Điểm đấu nối",
+   "Hàng rào trạm biến áp",
+   "Ranh giới thửa đất dự án"
+  ],
+  "a": 1,
+  "e": "Ranh giới phân định tài sản là điểm đấu nối; tài sản bên nào thì bên đó đầu tư, quản lý, vận hành, trừ khi có thỏa thuận khác.",
+  "b": "Điều 22 TT 05/2025/TT-BCT"
+ },
+ {
+  "id": "e10",
+  "topic": "TT 05/2025 – Đấu nối, yêu cầu kỹ thuật",
+  "level": 2,
+  "q": "Phương án đấu nối khách hàng đề xuất không phù hợp quy hoạch phát triển điện lực đã duyệt. Đơn vị truyền tải điện xử lý thế nào?",
+  "o": [
+   "Tự đề xuất phương án đấu nối khác và ký ngay với khách hàng đó",
+   "Thông báo để khách hàng điều chỉnh, bổ sung quy hoạch theo quy định",
+   "Chuyển hồ sơ lên Bộ Công Thương để quyết định phương án đấu nối",
+   "Vẫn ký Thỏa thuận đấu nối có điều kiện, chờ bổ sung quy hoạch sau"
+  ],
+  "a": 1,
+  "e": "Trường hợp phương án đấu nối không phù hợp quy hoạch, kế hoạch thực hiện quy hoạch đã duyệt, đơn vị lưới thông báo để khách hàng thực hiện điều chỉnh, bổ sung quy hoạch.",
+  "b": "Khoản 3 Điều 24 TT 05/2025/TT-BCT"
+ },
+ {
+  "id": "e11",
+  "topic": "TT 05/2025 – Đấu nối, yêu cầu kỹ thuật",
+  "level": 1,
+  "q": "Nội dung nào là nội dung chính bắt buộc của Thỏa thuận đấu nối?",
+  "o": [
+   "Tiến độ hoàn thành đấu nối, trách nhiệm đầu tư và quản lý vận hành",
+   "Giá bán điện, sản lượng cam kết và thời hạn hợp đồng mua bán điện",
+   "Tổng mức đầu tư dự án và kế hoạch huy động vốn của chủ đầu tư",
+   "Danh sách nhà thầu EPC và tiến độ thi công từng hạng mục chính"
+  ],
+  "a": 0,
+  "e": "Thỏa thuận đấu nối gồm: vị trí điểm đấu nối; nội dung kỹ thuật; tiến độ hoàn thành đấu nối; trách nhiệm đầu tư, quản lý vận hành; nội dung thương mại.",
+  "b": "Khoản 5 Điều 24 TT 05/2025/TT-BCT"
+ },
+ {
+  "id": "e12",
+  "topic": "TT 05/2025 – Đấu nối, yêu cầu kỹ thuật",
+  "level": 3,
+  "q": "Khi đánh giá ảnh hưởng của đấu nối vào lưới truyền tải, đơn vị truyền tải điện phải tính chế độ xác lập và dòng ngắn mạch cho giai đoạn nào?",
+  "o": [
+   "Năm đưa công trình vào vận hành và năm liền kề sau đó",
+   "Toàn bộ vòng đời dự án theo hợp đồng mua bán điện ký",
+   "10 năm tiếp theo, gồm đánh giá tiêu chí N-1 lưới khu vực",
+   "05 năm tiếp theo, theo kế hoạch thực hiện quy hoạch điện"
+  ],
+  "a": 2,
+  "e": "Đơn vị truyền tải điện tính các chế độ xác lập lưới khu vực trong 10 năm tiếp theo (kể cả đánh giá N-1) và dòng ngắn mạch tại điểm đấu nối trong 10 năm tiếp theo.",
+  "b": "Điểm b khoản 3 Điều 45 TT 05/2025/TT-BCT"
+ },
+ {
+  "id": "e13",
+  "topic": "TT 05/2025 – Đấu nối, yêu cầu kỹ thuật",
+  "level": 2,
+  "q": "Hồ sơ đề nghị đấu nối vào lưới truyền tải đã đầy đủ, hợp lệ. Chậm nhất bao lâu đơn vị truyền tải phải gửi lấy ý kiến cấp điều độ?",
+  "o": [
+   "05 ngày làm việc",
+   "15 ngày làm việc",
+   "10 ngày làm việc",
+   "20 ngày làm việc"
+  ],
+  "a": 1,
+  "e": "Chậm nhất 15 ngày làm việc kể từ khi nhận hồ sơ đầy đủ, hợp lệ, đơn vị truyền tải gửi văn bản đề nghị cấp điều độ có quyền điều khiển và đơn vị liên quan góp ý; các đơn vị này trả lời trong 20 ngày làm việc.",
+  "b": "Điểm d khoản 3, khoản 6 Điều 45 TT 05/2025/TT-BCT"
+ },
+ {
+  "id": "e14",
+  "topic": "TT 05/2025 – Đấu nối, yêu cầu kỹ thuật",
+  "level": 2,
+  "q": "Theo Bảng 18 TT 05/2025, thời hạn xem xét hồ sơ, chuẩn bị dự thảo và lấy ý kiến cho đấu nối vào lưới truyền tải là bao lâu?",
+  "o": [
+   "Không quá 20 ngày làm việc",
+   "Không quá 35 ngày làm việc",
+   "Không quá 15 ngày làm việc",
+   "Không quá 45 ngày làm việc"
+  ],
+  "a": 1,
+  "e": "Không quá 35 ngày làm việc kể từ khi nhận hồ sơ đầy đủ, hợp lệ; sau đó không quá 20 ngày làm việc kể từ khi nhận ý kiến góp ý để hoàn thiện và ký Thỏa thuận đấu nối.",
+  "b": "Bảng 18 khoản 1 Điều 47 TT 05/2025/TT-BCT"
+ },
+ {
+  "id": "e15",
+  "topic": "TT 05/2025 – Đấu nối, yêu cầu kỹ thuật",
+  "level": 3,
+  "q": "Nhà máy điện mặt trời 40 MW đề nghị đấu nối vào lưới trung áp. Tổng thời hạn tối đa (ngày làm việc) để xem xét hồ sơ, dự thảo và ký Thỏa thuận đấu nối là bao nhiêu?",
+  "o": [
+   "18 ngày (15 + 03)",
+   "55 ngày (35 + 20)",
+   "35 ngày (20 + 08 + 07)",
+   "25 ngày (15 + 03 + 07)"
+  ],
+  "a": 3,
+  "e": "Với khách hàng có tổ máy phát đấu nối lưới trung áp hoặc khách hàng 110 kV: xem xét hồ sơ ≤ 15 ngày, dự thảo ≤ 03 ngày, đàm phán và ký ≤ 07 ngày làm việc.",
+  "b": "Bảng 18 khoản 1 Điều 47 TT 05/2025/TT-BCT"
+ },
+ {
+  "id": "e16",
+  "topic": "TT 05/2025 – Đấu nối, yêu cầu kỹ thuật",
+  "level": 1,
+  "q": "Thỏa thuận đấu nối vào lưới truyền tải được lập thành mấy bản?",
+  "o": [
+   "02 bản, mỗi bên giữ 01 bản",
+   "06 bản, mỗi bên giữ 03 bản",
+   "05 bản, gửi kèm cấp điều độ 01 bản",
+   "04 bản, mỗi bên giữ 02 bản"
+  ],
+  "a": 3,
+  "e": "Thỏa thuận đấu nối lập thành 04 bản, mỗi bên giữ 02 bản; trong 05 ngày làm việc sau khi ký, đơn vị lưới gửi bản sao cho cấp điều độ có quyền điều khiển.",
+  "b": "Khoản 8 Điều 45 TT 05/2025/TT-BCT"
+ },
+ {
+  "id": "e17",
+  "topic": "TT 05/2025 – Đấu nối, yêu cầu kỹ thuật",
+  "level": 2,
+  "q": "Đơn vị phân phối điện và khách hàng không thống nhất được phương án đấu nối. Đơn vị phân phối điện phải làm gì?",
+  "o": [
+   "Thông báo bằng văn bản cho khách hàng và báo cáo Bộ Công Thương lý do",
+   "Đề nghị UBND cấp tỉnh hòa giải trước khi chấm dứt việc xem xét hồ sơ",
+   "Ký Thỏa thuận đấu nối theo phương án của đơn vị phân phối điện đề xuất",
+   "Chuyển hồ sơ sang đơn vị truyền tải điện để tiếp tục xem xét đấu nối"
+  ],
+  "a": 0,
+  "e": "Trường hợp không thỏa thuận được phương án đấu nối, đơn vị phân phối điện thông báo bằng văn bản cho khách hàng và báo cáo Bộ Công Thương về lý do.",
+  "b": "Khoản 8 Điều 46 TT 05/2025/TT-BCT"
+ },
+ {
+  "id": "e18",
+  "topic": "TT 05/2025 – Đấu nối, yêu cầu kỹ thuật",
+  "level": 2,
+  "q": "Nhà máy điện gió 48 MW đấu nối lưới 110 kV, chưa kết nối trung tâm điều khiển. Yêu cầu kết nối SCADA tối thiểu là gì?",
+  "o": [
+   "Gateway/RTU với hai kết nối độc lập vật lý về SCADA cấp điều độ",
+   "Gateway/RTU với một kết nối về trung tâm điều khiển gần nhất",
+   "Gateway/RTU với một kết nối về SCADA của cấp điều độ có quyền",
+   "Hai bên tự thỏa thuận vì nhà máy đấu nối vào lưới phân phối"
+  ],
+  "a": 0,
+  "e": "Nhà máy từ 10 MW trở lên (không phân biệt cấp điện áp đấu nối) chưa kết nối trung tâm điều khiển phải có Gateway hoặc RTU và hai kết nối độc lập về mặt vật lý với SCADA của cấp điều độ có quyền điều khiển.",
+  "b": "Khoản 1 Điều 30 TT 05/2025/TT-BCT"
+ },
+ {
+  "id": "e19",
+  "topic": "TT 05/2025 – Đấu nối, yêu cầu kỹ thuật",
+  "level": 3,
+  "q": "Nhà máy điện mặt trời 8 MW đấu nối lưới phân phối. Yêu cầu kết nối SCADA được xác định thế nào?",
+  "o": [
+   "Bắt buộc hai kết nối độc lập vật lý như nhà máy từ 10 MW trở lên",
+   "Theo quyết định riêng của chủ đầu tư, ghi vào hồ sơ thiết kế",
+   "Không phải kết nối SCADA vì công suất lắp đặt nhỏ hơn 10 MW",
+   "Đơn vị phân phối, cấp điều độ và chủ đầu tư phối hợp thống nhất"
+  ],
+  "a": 3,
+  "e": "Nhà máy dưới 10 MW đấu nối lưới phân phối: đơn vị phân phối điện phối hợp cấp điều độ và chủ đầu tư thống nhất yêu cầu kết nối SCADA; nếu có kết nối thì tuân thủ yêu cầu kỹ thuật của cấp điều độ.",
+  "b": "Khoản 3 Điều 30 TT 05/2025/TT-BCT"
+ },
+ {
+  "id": "e20",
+  "topic": "TT 05/2025 – Đấu nối, yêu cầu kỹ thuật",
+  "level": 2,
+  "q": "Khách hàng nhận điện trực tiếp từ lưới truyền tải đang nhận công suất phản kháng. Hệ số công suất tại vị trí đo đếm chính tối thiểu là bao nhiêu?",
+  "o": [
+   "0,98",
+   "0,95",
+   "0,90",
+   "0,85"
+  ],
+  "a": 2,
+  "e": "Ở chế độ bình thường: cos φ ≥ 0,9 khi nhận công suất phản kháng và ≥ 0,98 khi phát công suất phản kháng.",
+  "b": "Khoản 1 Điều 31 TT 05/2025/TT-BCT"
+ },
+ {
+  "id": "e21",
+  "topic": "TT 05/2025 – Đấu nối, yêu cầu kỹ thuật",
+  "level": 2,
+  "q": "Nhà máy điện gió đấu nối lưới truyền tải; tần số hệ thống ở mức 48,5 Hz. Nhà máy phải duy trì phát điện tối thiểu bao lâu?",
+  "o": [
+   "Phát liên tục",
+   "10 phút",
+   "01 phút",
+   "30 phút"
+  ],
+  "a": 3,
+  "e": "Bảng 11: 47,5–48,0 Hz: 10 phút; trên 48 đến dưới 49 Hz: 30 phút; 49–51 Hz: liên tục; trên 51 đến 51,5 Hz: 30 phút; trên 51,5 đến 52 Hz: 01 phút.",
+  "b": "Bảng 11 khoản 2 Điều 40 TT 05/2025/TT-BCT"
+ },
+ {
+  "id": "e22",
+  "topic": "TT 05/2025 – Đấu nối, yêu cầu kỹ thuật",
+  "level": 3,
+  "q": "Tần số tăng lên 50,7 Hz. Nhà máy điện mặt trời đấu nối lưới truyền tải phải đáp ứng thế nào?",
+  "o": [
+   "Tách khỏi lưới ngay để tránh tần số tiếp tục tăng cao hơn nữa",
+   "Giảm công suất theo droop 2–10%, bắt đầu ≤ 02 giây, xong trong 15 giây",
+   "Giảm 10% công suất định mức mỗi phút cho đến khi tần số về 50,2 Hz",
+   "Giữ nguyên công suất vì tần số vẫn trong dải phát điện liên tục"
+  ],
+  "a": 1,
+  "e": "Khi tần số lớn hơn 50,5 Hz, nhà máy giảm công suất tác dụng theo độ dốc đặc tuyến tĩnh 2–10% (cấp điều độ cài đặt), bắt đầu không muộn hơn 02 giây và hoàn thành trong 15 giây.",
+  "b": "Khoản 3 Điều 40 TT 05/2025/TT-BCT"
+ },
+ {
+  "id": "e23",
+  "topic": "TT 05/2025 – Đấu nối, yêu cầu kỹ thuật",
+  "level": 3,
+  "q": "Nhà máy điện mặt trời phát 60% công suất định mức, điện áp phía cao áp MBA tăng áp trong dải ±10%. Yêu cầu điều chỉnh công suất phản kháng là gì?",
+  "o": [
+   "Liên tục trong dải cos φ 0,90 phát đến 0,90 nhận tại phía hạ áp",
+   "Liên tục trong dải cos φ 0,95 phát đến 0,95 nhận tại phía cao áp",
+   "Chỉ phát công suất phản kháng khi cấp điều độ ra lệnh trực tiếp",
+   "Giữ cos φ bằng 1,0 tại điểm đấu nối, không trao đổi phản kháng"
+  ],
+  "a": 1,
+  "e": "Khi phát ≥ 20% công suất định mức và điện áp phía cao áp MBA tăng áp trong ±10%, nhà máy phải điều chỉnh liên tục công suất phản kháng trong dải cos φ 0,95 (phát) đến 0,95 (nhận) tại phía cao áp MBA tăng áp.",
+  "b": "Điểm a khoản 4 Điều 40 TT 05/2025/TT-BCT"
+ },
+ {
+  "id": "e24",
+  "topic": "TT 05/2025 – Đấu nối, yêu cầu kỹ thuật",
+  "level": 3,
+  "q": "Sự cố làm điện áp phía cao áp MBA tăng áp của nhà máy điện gió giảm còn 0,5 pu. Thời gian duy trì phát điện tối thiểu là bao nhiêu?",
+  "o": [
+   "3,0 giây (áp dụng cho điện áp từ 1,1 pu)",
+   "0,15 giây (áp dụng cho điện áp dưới 0,3 pu)",
+   "1,4 giây (Tmin = 4 × 0,5 − 0,6)",
+   "2,6 giây (Tmin = 4 × 0,5 + 0,6)"
+  ],
+  "a": 2,
+  "e": "Điện áp từ 0,3 pu đến dưới 0,9 pu: Tmin = 4 × U − 0,6; với U = 0,5 pu, Tmin = 1,4 giây.",
+  "b": "Điểm b khoản 6 Điều 40 TT 05/2025/TT-BCT"
+ },
+ {
+  "id": "e25",
+  "topic": "TT 05/2025 – Đấu nối, yêu cầu kỹ thuật",
+  "level": 2,
+  "q": "Theo TT 05/2025, hệ thống BESS công suất từ bao nhiêu phải tham gia điều khiển tần số sơ cấp theo hai chiều?",
+  "o": [
+   "Từ 1 MW trở lên",
+   "Từ 3 MW trở lên",
+   "Từ 30 MW trở lên",
+   "Từ 10 MW trở lên"
+  ],
+  "a": 1,
+  "e": "Hệ thống pin lưu trữ từ 3 MW trở lên đấu nối hệ thống điện quốc gia phải có khả năng tham gia điều khiển tần số sơ cấp theo hai chiều phát hoặc thu công suất.",
+  "b": "Điểm a khoản 8 Điều 44 TT 05/2025/TT-BCT"
+ },
+ {
+  "id": "e26",
+  "topic": "TT 05/2025 – Đấu nối, yêu cầu kỹ thuật",
+  "level": 3,
+  "q": "BESS 50 MW đấu nối lưới. Khi ngắn mạch làm điện áp pha tại điểm đấu nối xuống dưới 0,85 pu, hệ thống phải làm gì?",
+  "o": [
+   "Giữ nguyên công suất tác dụng theo giá trị đặt trước sự cố",
+   "Phát tối đa dòng phản kháng, đạt cực đại trong 60–80 ms",
+   "Ngừng phát công suất và tách khỏi lưới trong vòng 150 ms",
+   "Chuyển sang chế độ nạp để hấp thụ công suất tác dụng thừa"
+  ],
+  "a": 1,
+  "e": "BESS từ 10 MW trở lên phải hỗ trợ nhanh dòng sự cố: phát tối đa dòng phản kháng, đạt cực đại trong 60–80 ms; kích hoạt khi điện áp pha dưới 0,85 pu, dừng khi về 0,9 pu.",
+  "b": "Khoản 5 Điều 44 TT 05/2025/TT-BCT"
+ },
+ {
+  "id": "e27",
+  "topic": "TT 05/2025 – Đấu nối, yêu cầu kỹ thuật",
+  "level": 2,
+  "q": "Ở chế độ điều khiển công suất tác dụng, tốc độ thay đổi công suất mỗi phút của BESS phải nằm trong dải nào?",
+  "o": [
+   "Từ 5% đến 50% công suất định mức",
+   "Từ 2% đến 10% công suất định mức",
+   "Từ 30% đến 200% công suất định mức",
+   "Từ 1% đến 20% công suất định mức"
+  ],
+  "a": 3,
+  "e": "Tốc độ thay đổi công suất mỗi phút không nhỏ hơn 1% và không lớn hơn 20% công suất định mức; sai số điều khiển ±1% (không thấp hơn 0,5 MW). Dải 30–200% Pđm/giây áp dụng khi khôi phục sau sự cố.",
+  "b": "Khoản 6, khoản 7 Điều 44 TT 05/2025/TT-BCT"
+ },
+ {
+  "id": "e28",
+  "topic": "TT 05/2025 – Đấu nối, yêu cầu kỹ thuật",
+  "level": 2,
+  "q": "Chậm nhất bao lâu trước ngày dự kiến đóng điện điểm đấu nối, khách hàng và đơn vị truyền tải phải kiểm tra thực tế, nghiệm thu điểm đấu nối?",
+  "o": [
+   "10 ngày làm việc",
+   "03 ngày làm việc",
+   "05 ngày làm việc",
+   "15 ngày làm việc"
+  ],
+  "a": 2,
+  "e": "Chậm nhất 05 ngày làm việc trước ngày dự kiến đóng điện, hai bên kiểm tra thực tế và nghiệm thu điểm đấu nối, ký biên bản kiểm tra điều kiện đóng điện.",
+  "b": "Khoản 1 Điều 50 TT 05/2025/TT-BCT"
+ },
+ {
+  "id": "e29",
+  "topic": "TT 05/2025 – Đấu nối, yêu cầu kỹ thuật",
+  "level": 3,
+  "q": "Hồ sơ đăng ký đóng điện điểm đấu nối để chạy thử phải kèm tài liệu pháp lý nào?",
+  "o": [
+   "Giấy chứng nhận đủ điều kiện hoạt động phát điện đã được cấp",
+   "Biên bản nghiệm thu hoàn thành công trình đưa vào sử dụng",
+   "Quyết định công nhận vận hành thương mại của bên mua điện",
+   "Hợp đồng mua bán điện đã ký hoặc thỏa thuận về mua bán điện"
+  ],
+  "a": 3,
+  "e": "Hồ sơ đăng ký đóng điện kèm: xác nhận của chủ đầu tư về thiết bị; văn bản chấp thuận đóng điện của đơn vị truyền tải; biên bản nghiệm thu hệ thống đo đếm; hợp đồng mua bán điện đã ký hoặc thỏa thuận mua bán điện.",
+  "b": "Điểm a khoản 1 Điều 51 TT 05/2025/TT-BCT"
+ },
+ {
+  "id": "e30",
+  "topic": "TT 05/2025 – Đấu nối, yêu cầu kỹ thuật",
+  "level": 2,
+  "q": "Trong bao lâu kể từ khi nhận văn bản đăng ký đóng điện, cấp điều độ phải thông báo thời gian và phương thức đóng điện điểm đấu nối?",
+  "o": [
+   "05 ngày làm việc",
+   "07 ngày làm việc",
+   "03 ngày làm việc",
+   "10 ngày làm việc"
+  ],
+  "a": 0,
+  "e": "Trong 05 ngày làm việc kể từ khi nhận văn bản đăng ký đóng điện, cấp điều độ có quyền điều khiển thông báo thời gian và phương thức đóng điện.",
+  "b": "Khoản 3 Điều 51 TT 05/2025/TT-BCT"
+ },
+ {
+  "id": "e31",
+  "topic": "TT 05/2025 – Đấu nối, yêu cầu kỹ thuật",
+  "level": 3,
+  "q": "Nhà máy điện lớn có trạm nâng áp riêng chứa điểm đấu nối. Nếu không thỏa thuận khác, vị trí đo đếm chính đặt ở đâu?",
+  "o": [
+   "Đầu cực máy phát điện của từng tổ máy phát điện trong nhà máy điện",
+   "Xuất tuyến lộ đường dây tại trạm điện của nhà máy, trừ khi có thỏa thuận",
+   "Thanh cái trạm biến áp của đơn vị quản lý lưới điện nhận điện năng",
+   "Máy cắt tổng hoặc đầu cực cao áp MBA tăng áp nối trực tiếp lưới"
+  ],
+  "a": 3,
+  "e": "Mỗi điểm đấu nối có 01 vị trí đo đếm chính và 02 dự phòng. Chính: máy cắt tổng hoặc đầu cực cao áp MBA tăng áp; dự phòng 1: xuất tuyến đường dây; dự phòng 2: đầu cực máy phát.",
+  "b": "Điểm a, b khoản 1 Điều 90 TT 05/2025/TT-BCT"
+ },
+ {
+  "id": "e32",
+  "topic": "TT 05/2025 – Đấu nối, yêu cầu kỹ thuật",
+  "level": 3,
+  "q": "Với công trình điện mới, thỏa thuận thiết kế kỹ thuật hệ thống đo đếm phải hoàn thành khi nào?",
+  "o": [
+   "Ngay sau thỏa thuận đấu nối, trước khi phê duyệt TKKT và tổng dự toán",
+   "Sau khi lắp đặt xong công tơ, trước khi đóng điện điểm đấu nối",
+   "Sau khi ký hợp đồng mua bán điện, trước ngày vận hành thương mại",
+   "Đồng thời với thẩm định BCNCKT tại cơ quan chuyên môn về xây dựng"
+  ],
+  "a": 0,
+  "e": "Thỏa thuận TKKT hệ thống đo đếm và thu thập số liệu thực hiện ở giai đoạn TKKT, ngay sau khi đạt thỏa thuận đấu nối; phải thống nhất trước khi phê duyệt TKKT và tổng dự toán.",
+  "b": "Khoản 1 Điều 112 TT 05/2025/TT-BCT"
+ },
+ {
+  "id": "e33",
+  "topic": "TT 06/2025 – Đưa công trình mới vào vận hành",
+  "level": 1,
+  "q": "TT 06/2025/TT-BCT quy định nội dung gì?",
+  "o": [
+   "Trình tự lập, thẩm định hồ sơ thỏa thuận đấu nối nhà máy năng lượng",
+   "Phương pháp xác định khung giá phát điện cho các loại hình nhà máy",
+   "Hệ thống truyền tải điện, phân phối điện và đo đếm điện năng quốc gia",
+   "Điều độ, vận hành, thao tác, xử lý sự cố, khởi động đen hệ thống điện"
+  ],
+  "a": 3,
+  "e": "TT 06/2025/TT-BCT ngày 01/02/2025 quy định điều độ, vận hành, thao tác, xử lý sự cố, khởi động đen và khôi phục hệ thống điện quốc gia; hiệu lực từ 01/02/2025, thay TT 40/2014 và TT 44/2014.",
+  "b": "Điều 1 TT 06/2025/TT-BCT"
+ },
+ {
+  "id": "e34",
+  "topic": "TT 06/2025 – Đưa công trình mới vào vận hành",
+  "level": 2,
+  "q": "Trước ngày nào hằng năm, đơn vị quản lý vận hành phải gửi cấp điều độ kế hoạch đưa công trình mới vào vận hành?",
+  "o": [
+   "31/12, cho năm tiếp theo và hai năm sau đó",
+   "01/4, cho năm hiện tại và năm tiếp theo",
+   "01/7, cho năm hiện tại và hai năm tiếp theo",
+   "01/10, cho năm hiện tại và năm tiếp theo"
+  ],
+  "a": 2,
+  "e": "Trước ngày 01/7 hằng năm, đơn vị quản lý vận hành cung cấp dự kiến kế hoạch đưa công trình mới vào vận hành của năm hiện tại và hai năm tiếp theo.",
+  "b": "Điểm a khoản 1 Điều 37 TT 06/2025/TT-BCT"
+ },
+ {
+  "id": "e35",
+  "topic": "TT 06/2025 – Đưa công trình mới vào vận hành",
+  "level": 2,
+  "q": "Trước khi đóng điện công trình mới, việc cài đặt trị số chỉnh định rơ le bảo vệ thuộc trách nhiệm của ai?",
+  "o": [
+   "Nhà thầu EPC tự tính toán và cài đặt theo hồ sơ thiết kế đã duyệt",
+   "Đơn vị truyền tải điện cài đặt và nghiệm thu thay cho chủ đầu tư",
+   "Đơn vị quản lý vận hành hoàn tất, xác nhận theo yêu cầu cấp điều độ",
+   "Cấp điều độ trực tiếp cài đặt rơ le tại trạm của khách hàng mới"
+  ],
+  "a": 2,
+  "e": "Cấp điều độ tính toán, ban hành phiếu chỉnh định; đơn vị quản lý vận hành hoàn tất và xác nhận việc cài đặt theo yêu cầu của cấp điều độ trước khi đóng điện. Mọi thay đổi sau đó phải được cấp điều độ đồng ý.",
+  "b": "Khoản 5 Điều 36, điểm e khoản 1 Điều 37 TT 06/2025/TT-BCT"
+ },
+ {
+  "id": "e36",
+  "topic": "TT 06/2025 – Đưa công trình mới vào vận hành",
+  "level": 2,
+  "q": "Phương thức đóng điện nghiệm thu công trình mới đã được duyệt. Khi nào được tiến hành đóng điện?",
+  "o": [
+   "Ngay theo thời gian ghi trong phương thức",
+   "Khi nhà thầu EPC báo hoàn thành lắp đặt",
+   "Khi có lệnh của Điều độ viên trực ban",
+   "Khi tư vấn giám sát ký biên bản nghiệm thu"
+  ],
+  "a": 2,
+  "e": "Kế hoạch đóng điện, thử nghiệm đã duyệt chỉ được thực hiện khi có lệnh của Điều độ viên trực ban; Điều độ viên có quyền không cho phép nếu sai đăng ký hoặc ảnh hưởng an toàn hệ thống.",
+  "b": "Điểm d khoản 7 Điều 36 TT 06/2025/TT-BCT"
+ },
+ {
+  "id": "e37",
+  "topic": "TT 06/2025 – Đưa công trình mới vào vận hành",
+  "level": 2,
+  "q": "Ai lập và thỏa thuận phương án đóng điện, đăng ký chương trình thử nghiệm công trình mới với cấp điều độ?",
+  "o": [
+   "Đơn vị truyền tải điện",
+   "Chủ đầu tư công trình",
+   "Nhà thầu thi công EPC",
+   "Bên mua điện (EVN/EPTC)"
+  ],
+  "a": 1,
+  "e": "Chủ đầu tư lập và thỏa thuận phương án đóng điện, đăng ký chương trình thử nghiệm với cấp điều độ có quyền điều khiển; cấp điều độ thống nhất phương thức đóng điện trên cơ sở đó.",
+  "b": "Điểm a, b khoản 7 Điều 36 TT 06/2025/TT-BCT"
+ },
+ {
+  "id": "e38",
+  "topic": "TT 06/2025 – Đưa công trình mới vào vận hành",
+  "level": 3,
+  "q": "Trong quá trình xây dựng, thông số thiết bị nhà máy thay đổi so với hồ sơ thỏa thuận đấu nối. Trước khi đóng điện, đơn vị phát điện phải làm gì?",
+  "o": [
+   "Cập nhật, cung cấp nội dung điều chỉnh cho cấp điều độ có quyền",
+   "Không cần báo vì thông số chỉ dùng cho giai đoạn đầu tư xây dựng",
+   "Ký lại Thỏa thuận đấu nối mới với đơn vị lưới trước khi đóng điện",
+   "Báo cáo Bộ Công Thương phê duyệt điều chỉnh thông số trước khi chạy"
+  ],
+  "a": 0,
+  "e": "Đơn vị phát điện, khách hàng có trạm riêng phải cập nhật và cung cấp cho cấp điều độ có quyền điều khiển các nội dung đã điều chỉnh so với hồ sơ thỏa thuận đấu nối.",
+  "b": "Điểm b khoản 6 Điều 36 TT 06/2025/TT-BCT"
+ },
+ {
+  "id": "e39",
+  "topic": "TT 06/2025 – Đưa công trình mới vào vận hành",
+  "level": 2,
+  "q": "Khi đóng điện nghiệm thu đường dây lần đầu, yêu cầu nào là bắt buộc?",
+  "o": [
+   "Khóa mạch tự động đóng lại trước khi đóng điện lần đầu",
+   "Đóng điện đồng thời từ hai đầu để kiểm tra đồng vị pha",
+   "Đóng điện mang tải ngay để kiểm tra khả năng tải của dây dẫn",
+   "Bật tự động đóng lại để xử lý nhanh nếu có sự cố thoáng qua"
+  ],
+  "a": 0,
+  "e": "Đóng điện đường dây lần đầu: có máy cắt và rơ le dự phòng đã chỉnh định; khóa tự động đóng lại; đóng không tải từ một đầu rồi kiểm tra thứ tự pha, đồng vị pha trước khi khép vòng.",
+  "b": "Điều 165 TT 06/2025/TT-BCT"
+ },
+ {
+  "id": "e40",
+  "topic": "TT 06/2025 – Đưa công trình mới vào vận hành",
+  "level": 3,
+  "q": "Chủ đầu tư muốn lập trung tâm điều khiển cho cụm nhà máy điện mặt trời để vận hành không người trực. Trước khi phê duyệt đề án phải có ý kiến của ai?",
+  "o": [
+   "Không cần ý kiến bên ngoài, chủ đầu tư tự phê duyệt đề án của mình",
+   "UBND cấp tỉnh nơi đặt trung tâm điều khiển và các nhà máy trong cụm",
+   "Đơn vị truyền tải điện quản lý trạm biến áp nhận điện của cụm nhà máy",
+   "Bộ Công Thương bằng văn bản, sau ý kiến của các cấp điều độ liên quan"
+  ],
+  "a": 3,
+  "e": "Đề án trung tâm điều khiển được duyệt sau khi có ý kiến bằng văn bản của cấp điều độ có quyền điều khiển, kiểm tra. Với nhóm nhà máy NLTT, nhóm nhà máy tổng trên 30 MW hoặc nhóm trạm truyền tải, phải có ý kiến chính thức của Bộ Công Thương trước khi phê duyệt.",
+  "b": "Khoản 1 Điều 83 TT 06/2025/TT-BCT"
  }
 ]
