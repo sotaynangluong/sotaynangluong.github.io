@@ -1,7 +1,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
 import { getAuth, GoogleAuthProvider, signInWithPopup, signInWithRedirect, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 import { getFirestore, collection, addDoc, getDocs, deleteDoc, doc, query as fq, where, orderBy, limit, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
-import { firebaseConfig, ADMIN_UIDS } from "./firebase-config.js?v=3";
+import { firebaseConfig, ADMIN_UIDS } from "./firebase-config.js?v=4";
 
 /* ---------- Khởi tạo ---------- */
 const configured = !!firebaseConfig.projectId;
@@ -256,25 +256,55 @@ function renderRisk() {
    ${r.items.map(i => `<div class="risk"><span class="sev ${i[0]}">${lab[i[0]]}</span><div><b>${hl(i[1])}:</b> ${hl(i[2])}</div><div class="m">→ ${hl(i[3])}</div></div>`).join("")}</article>`).join("") || `<p class="empty">Không có rủi ro phù hợp.</p>`}</div>`;
 }
 
-/* ---------- 03. Tra cứu nhanh ---------- */
-function table(head, rows, monoCol) {
+/* ---------- 01. Tin tức ngành điện ---------- */
+let newsGroup = "Tất cả", newsTopic = "Tất cả";
+function renderNews() {
+  const N = DATA.news || { items: [] };
+  const items = N.items || [];
+  const groups = ["Tất cả", ...new Set(items.map(i => i.group))];
+  const tops = ["Tất cả", ...new Set(items.map(i => i.topic))];
+  const list = items.filter(i => (newsGroup === "Tất cả" || i.group === newsGroup) && (newsTopic === "Tất cả" || i.topic === newsTopic) && hit(i.title, i.source, i.topic));
+  const chips = (arr, cur, key) => `<div class="chips">${arr.map(t => `<button class="chip" type="button" aria-pressed="${t === cur}" data-${key}="${esc(t)}">${esc(t)}</button>`).join("")}</div>`;
+  const upd = N.updated ? new Date(N.updated).toLocaleString("vi-VN") : "chưa cập nhật";
+  view.innerHTML = `<h1>Tin tức ngành điện</h1>
+  <p class="lede">Tổng hợp tự động từ Bộ Công Thương, EVN, NSMO, Bộ Tài chính, Cổng TTĐT Chính phủ và báo chí năng lượng. Chỉ hiển thị tiêu đề và link đến bài gốc. Cập nhật lúc 6h và 14h hằng ngày.</p>
+  <p class="hint">Lần cập nhật gần nhất: <b class="num">${esc(upd)}</b> · ${items.length} tin trong 45 ngày</p>
+  <div class="eyebrow" style="margin-top:12px">Nguồn</div>${chips(groups, newsGroup, "g")}
+  <div class="eyebrow">Chủ đề</div>${chips(tops, newsTopic, "t")}
+  <div class="tbl-wrap"><table><thead><tr><th>Ngày</th><th>Tiêu đề</th><th>Nguồn</th><th>Chủ đề</th></tr></thead><tbody>
+  ${list.slice(0, 150).map(i => `<tr><td class="num">${new Date(i.date).toLocaleDateString("vi-VN")}</td><td><a href="${esc(i.link)}" target="_blank" rel="noopener">${hl(i.title)}</a></td><td>${esc(i.source)}</td><td><span class="tag">${esc(i.topic)}</span></td></tr>`).join("") || `<tr><td colspan="4" class="empty">${items.length ? "Không có tin phù hợp." : "Chưa có tin. Hệ thống sẽ tự cập nhật trong lần chạy tới."}</td></tr>`}
+  </tbody></table></div>`;
+  view.querySelectorAll("[data-g]").forEach(b => b.onclick = () => { newsGroup = b.dataset.g; renderNews(); });
+  view.querySelectorAll("[data-t]").forEach(b => b.onclick = () => { newsTopic = b.dataset.t; renderNews(); });
+}
+
+/* ---------- 04. Tra cứu nhanh ---------- */
+const linkCell = u => u ? `<a href="${esc(u)}" target="_blank" rel="noopener">Xem ↗</a>` : `<span class="hint">–</span>`;
+function table(head, rows, monoCols = [], linkCol = -1) {
   const r = (rows || []).filter(x => hit(x.join(" ")));
-  return `<div class="tbl-wrap"><table><thead><tr>${head.map(h => `<th>${h}</th>`).join("")}</tr></thead><tbody>${r.map(x => `<tr>${x.map((c, i) => `<td class="${i === monoCol ? "num" : ""}">${hl(c)}</td>`).join("")}</tr>`).join("") || `<tr><td colspan="${head.length}" class="empty">Không có kết quả.</td></tr>`}</tbody></table></div>`;
+  return `<div class="tbl-wrap"><table><thead><tr>${head.map(h => `<th>${h}</th>`).join("")}</tr></thead><tbody>${r.map(x => `<tr>${x.map((c, i) => i === linkCol ? `<td>${linkCell(c)}</td>` : `<td class="${monoCols.includes(i) ? "num" : ""}">${hl(c)}</td>`).join("")}</tr>`).join("") || `<tr><td colspan="${head.length}" class="empty">Không có kết quả.</td></tr>`}</tbody></table></div>`;
 }
 function renderLookup() {
   const L = DATA.lookup;
   view.innerHTML = `<h1>Tra cứu nhanh</h1>
-  <p class="lede">Bảng tra phân cấp, nhóm dự án, thẩm quyền và danh mục văn bản thường dùng.</p>
-  <h2>Cấp điện áp và quản lý lưới</h2>${table(["Phân loại", "Cấp điện áp", "Đơn vị quản lý"], L.voltage, 1)}
-  <h2>Phân loại nhóm dự án <span class="pending">· ngưỡng chờ rà</span></h2>${table(["Nhóm", "Tiêu chí (công trình điện)", "Thẩm quyền quyết định"], L.group, -1)}
-  <h2>Văn bản pháp luật</h2>${table(["Loại", "Số hiệu", "Trích yếu"], L.docs, 1)}`;
+  <p class="lede">Giá điện, phân cấp, nhóm dự án và văn bản thường dùng. Bấm "Xem" để mở văn bản hoặc nguồn tham chiếu.</p>
+  <h2>Giá bán lẻ điện 2025</h2>${table(["Nội dung", "Mức / phạm vi", "Thời điểm", "Văn bản", "Xem"], L.retail, [1], 4)}
+  <h2>Khung giá phát điện 2025</h2>
+  <p class="hint">Giá tối đa, đồng/kWh, chưa gồm VAT.</p>
+  ${table(["Loại hình", "Miền Bắc", "Miền Trung", "Miền Nam", "Văn bản", "Xem"], L.gen, [1, 2, 3], 5)}
+  <ul class="hint">${(L.genNotes || []).map(n => `<li>${esc(n)}</li>`).join("")}</ul>
+  <h2>Cơ chế giá khác</h2>${table(["Đối tượng", "Cơ chế", "Văn bản", "Xem"], L.other, [], 3)}
+  <h2>Cấp điện áp và quản lý lưới</h2>${table(["Phân loại", "Cấp điện áp", "Đơn vị quản lý"], L.voltage, [1])}
+  <h2>Phân loại nhóm dự án <span class="pending">· ngưỡng chờ rà</span></h2>${table(["Nhóm", "Tiêu chí (công trình điện)", "Thẩm quyền quyết định"], L.group)}
+  <h2>Văn bản pháp luật</h2>${table(["Loại", "Số hiệu", "Trích yếu", "Xem"], L.docs, [1], 3)}
+  <p class="hint">Link dẫn đến cổng thông tin cơ quan nhà nước hoặc trang tra cứu pháp luật. Đối chiếu bản gốc có chữ ký số trước khi viện dẫn chính thức.</p>`;
 }
 
 /* ---------- Điều hướng ---------- */
-const routes = { "tu-kiem-tra": renderQuizSection, "rui-ro": renderRisk, "tra-cuu": renderLookup };
+const routes = { "tin-tuc": renderNews, "tu-kiem-tra": renderQuizSection, "rui-ro": renderRisk, "tra-cuu": renderLookup };
 let current = "";
 function route() {
-  const v = routes[location.hash.slice(1)] ? location.hash.slice(1) : "tu-kiem-tra";
+  const v = routes[location.hash.slice(1)] ? location.hash.slice(1) : "tin-tuc";
   if (current === "tu-kiem-tra" && v !== current && exam && !confirmLeave()) { history.replaceState(null, "", "#tu-kiem-tra"); return; }
   current = v;
   document.querySelectorAll("#nav a").forEach(a => a.dataset.v === v ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current"));
@@ -294,8 +324,8 @@ $("#theme").onclick = () => {
 
 async function boot() {
   try {
-    const [questions, risks, lookup] = await Promise.all(["questions", "risks", "lookup"].map(n => fetch(`data/${n}.json`, { cache: "no-cache" }).then(r => r.json())));
-    DATA = { questions, risks, lookup };
+    const [questions, risks, lookup, news] = await Promise.all(["questions", "risks", "lookup", "news"].map(n => fetch(`data/${n}.json`, { cache: "no-cache" }).then(r => r.ok ? r.json() : null)));
+    DATA = { questions: questions || [], risks: risks || [], lookup: lookup || {}, news: news || { items: [] } };
   } catch (e) { view.innerHTML = `<p class="empty">Không tải được dữ liệu (${esc(e.message)}). Nếu mở file trực tiếp trên máy, hãy dùng GitHub Pages hoặc một máy chủ web.</p>`; return; }
   renderUser();
   route();

@@ -2,9 +2,10 @@
 
 Sổ tay tra cứu và tự kiểm tra cho phát triển, xây dựng, quản lý dự án năng lượng tại Việt Nam.
 
-- **01 Tự kiểm tra:** luyện tập, tạo đề thi có tính giờ, chấm điểm, bảng xếp hạng, lịch sử, quản trị.
-- **02 Cẩm nang rủi ro:** ma trận rủi ro theo 8 loại hình dự án.
-- **03 Tra cứu nhanh:** cấp điện áp, nhóm dự án, thẩm quyền, văn bản pháp luật.
+- **01 Tin tức ngành điện:** tự động tổng hợp tiêu đề và link từ Bộ Công Thương, EVN, NSMO, Bộ Tài chính, Chính phủ, báo chí năng lượng.
+- **02 Tự kiểm tra:** luyện tập, tạo đề thi có tính giờ, chấm điểm, bảng xếp hạng, lịch sử, quản trị.
+- **03 Cẩm nang rủi ro:** ma trận rủi ro theo 8 loại hình dự án.
+- **04 Tra cứu nhanh:** giá điện 2025, khung giá phát điện, cấp điện áp, nhóm dự án, văn bản pháp luật có link.
 
 Công nghệ: HTML/JS tĩnh trên GitHub Pages, đăng nhập Google và lưu kết quả bằng Firebase (gói miễn phí Spark).
 
@@ -17,7 +18,9 @@ Công nghệ: HTML/JS tĩnh trên GitHub Pages, đăng nhập Google và lưu k�
 | `firestore.rules` | Quy tắc bảo mật, dán vào Firebase Console |
 | `data/questions.json` | Ngân hàng câu hỏi |
 | `data/risks.json` | Cẩm nang rủi ro |
-| `data/lookup.json` | Bảng tra cứu |
+| `data/lookup.json` | Bảng tra cứu, giá điện, văn bản |
+| `data/news.json` | Tin tức (do GitHub Actions tự ghi) |
+| `scripts/fetch_news.py`, `.github/workflows/news.yml` | Lấy tin tự động lúc 6h và 14h |
 
 ## Cài đặt lần đầu
 
@@ -55,3 +58,8 @@ Sửa `data/questions.json` trực tiếp trên GitHub (biểu tượng bút ch�
 - Chỉ đề đủ số câu và chọn "Mọi mức độ" mới tính xếp hạng.
 - Xếp hạng theo điểm cao nhất của mỗi người, bằng điểm thì thời gian ngắn hơn đứng trước.
 - Giới hạn: điểm chấm trên trình duyệt (gói miễn phí). Quy tắc Firestore chặn điểm vượt thang, điểm không khớp số câu đúng và thời gian làm bài dưới 3 giây/câu. Quản trị viên xóa được lượt thi bất thường.
+
+## Tin tức
+
+- Chạy tự động lúc 6h và 14h (giờ Việt Nam). Chạy tay: tab **Actions** → *Cập nhật tin tức ngành điện* → **Run workflow**.
+- Thêm/bớt nguồn: sửa danh sách `FEEDS` trong `scripts/fetch_news.py`.
