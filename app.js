@@ -1,7 +1,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
 import { getAuth, GoogleAuthProvider, signInWithPopup, signInWithRedirect, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 import { getFirestore, collection, addDoc, getDocs, deleteDoc, doc, query as fq, where, orderBy, limit, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
-import { firebaseConfig, ADMIN_UIDS } from "./firebase-config.js?v=27";
+import { firebaseConfig, ADMIN_UIDS } from "./firebase-config.js?v=28";
 
 /* ---------- Khởi tạo ---------- */
 const configured = !!firebaseConfig.projectId;
@@ -342,7 +342,8 @@ async function paneAdmin() {
 /* Danh sách truy cập nhanh: nút cuộn tới mục trong trang (không dùng #id vì # dành cho điều hướng) */
 const slug = t => t.normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/đ/g, "d").replace(/Đ/g, "D").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const quickNav = (items, label = "Truy cập nhanh") => items.length ? `<div class="qnavbar" role="navigation" aria-label="${esc(label)}"><span class="qlabel">${esc(label)}</span>${items.map(([id, t]) => `<button type="button" class="chip" data-jump="${esc(id)}">${esc(t)}</button>`).join("")}</div>` : "";
-view.addEventListener("click", e => { const b = e.target.closest("[data-jump]"); if (!b) return; const el = document.getElementById(b.dataset.jump); if (el) el.scrollIntoView({ behavior: "smooth", block: "start" }); });
+const smoothTo = y => { const start = scrollY; scrollTo({ top: y, behavior: "smooth" }); setTimeout(() => { if (Math.abs(scrollY - start) < 2 && Math.abs(y - start) > 2) scrollTo(0, y); }, 400); };
+view.addEventListener("click", e => { const b = e.target.closest("[data-jump]"); if (!b) return; const el = document.getElementById(b.dataset.jump); if (el) smoothTo(el.getBoundingClientRect().top + scrollY - parseFloat(getComputedStyle(el).scrollMarginTop || 0)); });
 
 /* ---------- III. Cẩm nang công nghệ ---------- */
 const SEV = { c: "CAO", w: "TB", o: "THẤP" };
@@ -593,4 +594,4 @@ async function boot() {
 boot();
 
 /* Nút lên đầu trang */
-{ const b = $("#totop"); if (b) { const f = () => b.classList.toggle("show", scrollY > 500); addEventListener("scroll", f, { passive: true }); f(); b.onclick = () => scrollTo({ top: 0, behavior: "smooth" }); } }
+{ const b = $("#totop"); if (b) { const f = () => b.classList.toggle("show", scrollY > 500); addEventListener("scroll", f, { passive: true }); f(); b.onclick = () => smoothTo(0); } }
