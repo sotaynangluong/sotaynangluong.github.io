@@ -3,8 +3,10 @@
 Chạy bằng GitHub Actions (.github/workflows/news.yml). Chỉ lưu tiêu đề, nguồn, ngày, link;
 không lưu nội dung bài để tôn trọng bản quyền của các trang nguồn.
 """
+import html
 import json
 import re
+import time
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -77,6 +79,64 @@ def clean_title(title, source):
     return title
 
 
+ENRICH_DAYS = 3        # chỉ lấy ảnh/trích dẫn cho tin trong 3 ngày gần nhất
+ENRICH_MAX = 90        # giới hạn số bài xử lý mỗi lần chạy
+EXCERPT_LEN = 220      # trích dẫn ngắn, cắt theo từ
+
+
+def meta(page, *names):
+    for n in names:
+        for pat in (rf'<meta[^>]+(?:property|name)=["\']{n}["\'][^>]*content=["\']([^"\']+)',
+                    rf'<meta[^>]+content=["\']([^"\']+)["\'][^>]*(?:property|name)=["\']{n}["\']'):
+            m = re.search(pat, page, re.I)
+            if m:
+                return html.unescape(m.group(1)).strip()
+    return ""
+
+
+def short(text, n=EXCERPT_LEN):
+    text = re.sub(r"\s+", " ", text).strip()
+    if len(text) <= n:
+        return text
+    return text[:n].rsplit(" ", 1)[0].rstrip(",.;:–-") + "…"
+
+
+def resolve(link):
+    if "news.google.com" not in link:
+        return link
+    try:
+        from googlenewsdecoder import gnewsdecoder
+        r = gnewsdecoder(link, interval=1)
+        return r.get("decoded_url") if r.get("success") else None
+    except Exception:
+        return None
+
+
+def enrich(item):
+    """Thêm url gốc, ảnh đại diện và trích dẫn ngắn từ thẻ chia sẻ (og:*) của bài viết."""
+    item["enriched"] = True
+    url = resolve(item["link"])
+    if not url:
+        return
+    item["url"] = url
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "vi"})
+        with urllib.request.urlopen(req, timeout=15) as r:
+            page = r.read(600_000).decode("utf-8", "ignore")
+    except Exception:
+        return
+    img = meta(page, "og:image", "twitter:image")
+    if img.startswith("//"):
+        img = "https:" + img
+    if img.startswith("http://"):
+        img = "https://" + img[7:]
+    if img.startswith("https://"):
+        item["image"] = img
+    desc = meta(page, "og:description", "description", "twitter:description")
+    if desc:
+        item["excerpt"] = short(desc)
+
+
 def main():
     old = []
     if OUT.exists():
@@ -124,6 +184,13 @@ def main():
         seen.add(key)
         out.append(i)
     out = out[:MAX_ITEMS]
+
+    recent = datetime.now(timezone.utc) - timedelta(days=ENRICH_DAYS)
+    todo = [i for i in out if not i.get("enriched") and datetime.fromisoformat(i["date"]) >= recent][:ENRICH_MAX]
+    for n, i in enumerate(todo, 1):
+        enrich(i)
+        time.sleep(0.5)
+    print(f"Bổ sung ảnh/trích dẫn: {len(todo)} bài; có ảnh {sum(1 for i in todo if i.get('image'))}")
 
     OUT.write_text(json.dumps({
         "updated": datetime.now(timezone.utc).isoformat(),

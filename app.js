@@ -1,7 +1,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
 import { getAuth, GoogleAuthProvider, signInWithPopup, signInWithRedirect, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 import { getFirestore, collection, addDoc, getDocs, deleteDoc, doc, query as fq, where, orderBy, limit, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
-import { firebaseConfig, ADMIN_UIDS } from "./firebase-config.js?v=5";
+import { firebaseConfig, ADMIN_UIDS } from "./firebase-config.js?v=6";
 
 /* ---------- Khởi tạo ---------- */
 const configured = !!firebaseConfig.projectId;
@@ -257,25 +257,52 @@ function renderRisk() {
 }
 
 /* ---------- 01. Tin tức ngành điện ---------- */
-let newsGroup = "Tất cả", newsTopic = "Tất cả";
+let newsGroup = "Tất cả", newsTopic = "Tất cả", newsDays = 3, newsLayout = store.get("stnl-news-layout", "grid");
+const RANGES = [[3, "3 ngày"], [7, "7 ngày"], [45, "45 ngày"]];
+const ago = d => { const h = Math.round((Date.now() - new Date(d)) / 36e5); return h < 1 ? "vừa xong" : h < 24 ? `${h} giờ trước` : new Date(d).toLocaleDateString("vi-VN"); };
+function newsCard(i) {
+  const href = esc(i.url || i.link);
+  const pic = i.image
+    ? `<img src="${esc(i.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentElement.classList.add('noimg');this.remove()">`
+    : "";
+  return `<article class="ncard">
+    <a class="nimg ${i.image ? "" : "noimg"}" href="${href}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">${pic}<span>${esc((i.source || "?").slice(0, 1))}</span></a>
+    <div class="nbody">
+      <div class="nmeta"><span>${esc(i.source)}</span><span class="num">${ago(i.date)}</span></div>
+      <h3><a href="${href}" target="_blank" rel="noopener">${hl(i.title)}</a></h3>
+      ${i.excerpt ? `<p>${hl(i.excerpt)}</p>` : ""}
+      <span class="tag">${esc(i.topic)}</span>
+    </div></article>`;
+}
 function renderNews() {
   const N = DATA.news || { items: [] };
-  const items = N.items || [];
+  const all = N.items || [];
+  const since = Date.now() - newsDays * 864e5;
+  const items = all.filter(i => new Date(i.date) >= since);
   const groups = ["Tất cả", ...new Set(items.map(i => i.group))];
   const tops = ["Tất cả", ...new Set(items.map(i => i.topic))];
-  const list = items.filter(i => (newsGroup === "Tất cả" || i.group === newsGroup) && (newsTopic === "Tất cả" || i.topic === newsTopic) && hit(i.title, i.source, i.topic));
-  const chips = (arr, cur, key) => `<div class="chips">${arr.map(t => `<button class="chip" type="button" aria-pressed="${t === cur}" data-${key}="${esc(t)}">${esc(t)}</button>`).join("")}</div>`;
+  if (!groups.includes(newsGroup)) newsGroup = "Tất cả";
+  if (!tops.includes(newsTopic)) newsTopic = "Tất cả";
+  const list = items.filter(i => (newsGroup === "Tất cả" || i.group === newsGroup) && (newsTopic === "Tất cả" || i.topic === newsTopic) && hit(i.title, i.source, i.topic, i.excerpt || ""));
+  const chips = (arr, cur, key) => `<div class="chips">${arr.map(t => { const [v, l] = Array.isArray(t) ? t : [t, t]; return `<button class="chip" type="button" aria-pressed="${v === cur}" data-${key}="${esc(v)}">${esc(l)}</button>`; }).join("")}</div>`;
   const upd = N.updated ? new Date(N.updated).toLocaleString("vi-VN") : "chưa cập nhật";
+  const empty = `<p class="empty">${all.length ? "Không có tin phù hợp." : "Chưa có tin. Hệ thống sẽ tự cập nhật trong lần chạy tới."}</p>`;
   view.innerHTML = `<h1>Tin tức ngành điện</h1>
-  <p class="lede">Tổng hợp tự động từ Bộ Công Thương, EVN, NSMO, Bộ Tài chính, Cổng TTĐT Chính phủ và báo chí năng lượng. Chỉ hiển thị tiêu đề và link đến bài gốc. Cập nhật lúc 6h và 14h hằng ngày.</p>
-  <p class="hint">Lần cập nhật gần nhất: <b class="num">${esc(upd)}</b> · ${items.length} tin trong 45 ngày</p>
-  <div class="eyebrow" style="margin-top:12px">Nguồn</div>${chips(groups, newsGroup, "g")}
-  <div class="eyebrow">Chủ đề</div>${chips(tops, newsTopic, "t")}
-  <div class="tbl-wrap"><table><thead><tr><th>Ngày</th><th>Tiêu đề</th><th>Nguồn</th><th>Chủ đề</th></tr></thead><tbody>
-  ${list.slice(0, 150).map(i => `<tr><td class="num">${new Date(i.date).toLocaleDateString("vi-VN")}</td><td><a href="${esc(i.link)}" target="_blank" rel="noopener">${hl(i.title)}</a></td><td>${esc(i.source)}</td><td><span class="tag">${esc(i.topic)}</span></td></tr>`).join("") || `<tr><td colspan="4" class="empty">${items.length ? "Không có tin phù hợp." : "Chưa có tin. Hệ thống sẽ tự cập nhật trong lần chạy tới."}</td></tr>`}
-  </tbody></table></div>`;
+  <p class="lede">Tổng hợp tự động từ Bộ Công Thương, EVN, NSMO, Bộ Tài chính, Cổng TTĐT Chính phủ và báo chí năng lượng. Trích dẫn ngắn lấy từ thẻ chia sẻ của bài; bấm tiêu đề để đọc bài gốc.</p>
+  <div class="nbar"><span class="hint">Cập nhật: <b class="num">${esc(upd)}</b> · <b class="num">${list.length}</b> tin</span>
+    <div class="seg" role="group" aria-label="Kiểu hiển thị"><button type="button" data-l="grid" aria-pressed="${newsLayout === "grid"}">Lưới</button><button type="button" data-l="list" aria-pressed="${newsLayout === "list"}">Danh sách</button></div></div>
+  <div class="frow"><span class="eyebrow">Thời gian</span>${chips(RANGES, newsDays, "d")}</div>
+  <div class="frow"><span class="eyebrow">Nguồn</span>${chips(groups, newsGroup, "g")}</div>
+  <div class="frow"><span class="eyebrow">Chủ đề</span>${chips(tops, newsTopic, "t")}</div>
+  ${!list.length ? empty : newsLayout === "grid"
+    ? `<div class="ngrid">${list.slice(0, 120).map(newsCard).join("")}</div>`
+    : `<div class="tbl-wrap"><table><thead><tr><th>Ngày</th><th>Tiêu đề</th><th>Nguồn</th><th>Chủ đề</th></tr></thead><tbody>
+      ${list.slice(0, 200).map(i => `<tr><td class="num">${new Date(i.date).toLocaleDateString("vi-VN")}</td><td><a href="${esc(i.url || i.link)}" target="_blank" rel="noopener">${hl(i.title)}</a></td><td>${esc(i.source)}</td><td><span class="tag">${esc(i.topic)}</span></td></tr>`).join("")}
+      </tbody></table></div>`}`;
+  view.querySelectorAll("[data-d]").forEach(b => b.onclick = () => { newsDays = +b.dataset.d; renderNews(); });
   view.querySelectorAll("[data-g]").forEach(b => b.onclick = () => { newsGroup = b.dataset.g; renderNews(); });
   view.querySelectorAll("[data-t]").forEach(b => b.onclick = () => { newsTopic = b.dataset.t; renderNews(); });
+  view.querySelectorAll("[data-l]").forEach(b => b.onclick = () => { newsLayout = b.dataset.l; store.set("stnl-news-layout", newsLayout); renderNews(); });
 }
 
 /* ---------- 04. Tra cứu nhanh ---------- */

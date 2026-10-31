@@ -145,3 +145,26 @@ mark{background:var(--accent-soft);color:inherit;border-radius:2px}
 td a{color:var(--accent);text-decoration:none;font-weight:500}
 td a:hover{text-decoration:underline}
 ul.hint{margin:8px 0 0;padding-left:18px;display:flex;flex-direction:column;gap:4px}
+/* Tin tức dạng lưới */
+.nbar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:10px}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.seg button{font:500 13px var(--f-body);border:0;background:var(--panel);color:var(--muted);padding:7px 12px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+.frow{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+.frow .eyebrow{min-width:72px}
+.frow .chips{margin-bottom:10px}
+.ngrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px;margin-top:6px}
+.ncard{background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden;display:flex;flex-direction:column;min-width:0}
+.nimg{display:block;aspect-ratio:16/9;max-width:100%;background:var(--bg);position:relative;overflow:hidden}
+.nimg img{width:100%;height:100%;object-fit:cover;display:block}
+.nimg span{display:none}
+.nimg.noimg{background:var(--steel);display:grid;place-items:center}
+.nimg.noimg span{display:block;font:700 44px var(--f-display);color:#dfe7ea;opacity:.5;text-transform:uppercase}
+.nbody{padding:12px 14px 14px;display:flex;flex-direction:column;gap:6px;flex:1}
+.nmeta{display:flex;justify-content:space-between;gap:8px;font:500 12px var(--f-mono);color:var(--muted)}
+.nmeta span:first-child{color:var(--accent);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ncard h3{font:600 16px/1.35 var(--f-body);margin:0;text-wrap:pretty}
+.ncard h3 a{color:var(--ink);text-decoration:none}
+.ncard h3 a:hover{color:var(--accent)}
+.ncard p{margin:0;font-size:14px;color:var(--muted);display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.ncard .tag{align-self:flex-start;margin-top:auto}
