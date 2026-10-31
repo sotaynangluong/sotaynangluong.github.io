@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-31T07:50:35.084429+00:00",
- "count": 289,
+ "updated": "2026-10-31T07:52:02.938788+00:00",
+ "count": 300,
  "errors": [],
  "items": [
   {
@@ -18,14 +18,6 @@
    "group": "Báo chí",
    "topic": "Dự án",
    "date": "2026-10-31T02:31:00+00:00"
-  },
-  {
-   "title": "- NSMO",
-   "link": "https://news.google.com/rss/articles/CBMiOEFVX3lxTE81cVY2UmZWMnpyR243R0JOZGNGVG9Kc3BxSUN4Mmk4d3BmbjBXYXBoX01CdHF6Z0pn?oc=5",
-   "source": "NSMO",
-   "group": "NSMO",
-   "topic": "Khác",
-   "date": "2026-10-31T02:23:09+00:00"
   },
   {
    "title": "Trungnam được chấp thuận đầu tư dự án điện gió 2.900 tỷ đồng ở Đắk Lắk",
@@ -48,7 +40,7 @@
    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVXFzYmdwcFIwR25ZbzNITUQ3SkVLUXRXTGRRd0NMeTMyTHVxenVDRF8ycVJPOTRvLWNTWExnUEtHaHlLc093a18zYlh6TlVMdlFIRDhzTWFuREV3VFhTUnNGWGNWM29aTHRfWlA2UEtFdmFkT284c0g5Zkh1c1RLSkhpd3h4TXhqeTByX1V4SDhhQWZPOWtsSUJoeWM4YldieXpLZ09yYw?oc=5",
    "source": "baodautu",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "Dự án",
    "date": "2026-10-31T01:01:00+00:00"
   },
   {
@@ -56,7 +48,7 @@
    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMTYySXRiZWNxbW5iNE5QVHdqSlNIVFo3ZUV4SV9HcmV1RjdPZGl0LXhiQlVJdDBCSXdncFR1Yl9yZVI0X0t4UXNIcnRsWXY5eHl4SnBNN3RCMWFJeENrSFIzQmxlb0d6UU5ZVTdjZVpibks5MUhCR0JiUFc0N19UOURrbWI0OENOWFVkZ3hhWmduQ296WmRyMHFucG16WFVoN0k1QVhmcHg?oc=5",
    "source": "Báo và Phát thanh Truyền hình Hà Nội",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-30T23:58:00+00:00"
   },
   {
@@ -76,11 +68,19 @@
    "date": "2026-10-30T12:31:00+00:00"
   },
   {
+   "title": "Đoàn Thanh niên EVN bồi dưỡng kiến thức, kỹ năng cho 106 cán bộ Đoàn",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWWplV2trT3kwTUZvQjJtWlpvV1BBcVh2TlUzWTJ6a3l5OHota05kUVoyVXlSbGF4R0F1UnNXUVJnb0hHNGhKMFFZUkJSd2JoMkJWN2p1X0UwMXR4TE9jR3pwem9vUVJTZmxOQkZGSUR6ZGVvMlhQcXE0NTcyLUctRHByYlJxWG9PU0FMbExRQ2k5dXdPTTRlN0FWMGhXQmZaMlNCOEFick9Wc19lbkFCOWw4UUVQckI2aVE?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Khác",
+   "date": "2026-10-30T12:28:00+00:00"
+  },
+  {
    "title": "EVNHCMC bổ sung tiện ích về tra cứu nguồn điện mặt trời mái nhà",
    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRG90RkQwRkkwa2R1OFlvZVdna0hMVGZOdE8yTWgxbnN5bWNET1dBVmlRdXl2UmxmUFcyVTllZlI0eWpsb1VsMUdQdnN2WjYwV0pWX1ltdERBYmFyNUdKMWJZMXJBRXRrWHpMOWI4ZVoxeUdmeVc5d0FQZURVWjJuMDJHN25vSGxCYzVFVVNfZWQ5OTBxc3IyX1g5bFVNaTg?oc=5",
    "source": "Báo Nhân Dân điện tử",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-30T12:25:47+00:00"
   },
   {
@@ -88,7 +88,7 @@
    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdUEtQ2Z5SGI3ZlJyQzdVd2U5Xzl6RE4wRnB6VTJfR2ZVcllhdjM5SlZHWDMtZ1E5T3RxdVFQeDlsQnNBZG1UQXZsUUUwRjZCd0RGVmFGT2tCcXJEMHBmVzZvVFlIUjdsejZvX1ZBSjBuLTR0cVN6X3REZ3ppYndTNUlrelk1b3F6c1RObGk4UWotMl9LNGpJdHJ5djY?oc=5",
    "source": "Báo Thanh Niên",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-30T09:03:00+00:00"
   },
   {
@@ -96,7 +96,7 @@
    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUS1fU1dKOTl4cFZHWldpS1M2TU1MeUZ4c3MtdEdTT2dZeUM4ZEwxWm1ubVExa2JzQVJQb2VhZk0xQlZwdGpRMDctUng4cDVua2RXQ3JZRnNTMjBxc0lIT0V6Ump3TE52dWpFNmoya18yWC1sWEtqQklxVGFJSWpEX0ZSNkh4eUpqZWdNSVZrNXYtVXpyZnpJaHVNLVV6ejZXNTJRaThob1pOb0JJenlZ?oc=5",
    "source": "Tuổi Trẻ",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-30T09:00:00+00:00"
   },
   {
@@ -104,7 +104,7 @@
    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQbXBKV1lpS2VzS3Zja085VnFFbTkwb2FHSHFSbTFLTnkzY3QtTm1YUUM4ZkZhRzVodndTX3p2S2lvcXN4dXA2Z3pTT2x1N2xoRGthSWVqcGZwWS1pWGpfR0pwSGY4cWd1YWRneUtuU21UaWFiRU9KelAtV1Q3akRFaFl1S3pnN19BMkVSWi01bWx4RVJ4NzRaUndsamdLYWRZNlE0VnVoaGpNZi0zQlJPb2J6aWNJSlVJQXhxOHlkdFVYblFKYzdTczM5Y2FHdEU4bWdPeGtyVTZ4T2ZoTWM3MTdJU3J5eGx3QV9aZ3BtYw?oc=5",
    "source": "Tin tức 24h",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-30T08:06:00+00:00"
   },
   {
@@ -128,7 +128,7 @@
    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWTBFRkRGbHk1Sm91dHpFRTNEZldYcko1b1VsV0VFeGZpb1BPZDZmUExvajFnZWY0dldUdUpadk9lNXI3RFRqVXM0TG8zMjh3c2dWVEVBZVpRUGlqaWdFbE5MUDlxa0VHSklTVGNGTUh6WXR5SGdWMWpUQ2VMRkVTX01RZnVnaGU0emdBVGNWaGhDT1Y1U1BjdlZvZ3RxZEhXbmxicktlLWtvdw?oc=5",
    "source": "Báo Thế giới và Việt Nam",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-30T04:37:32+00:00"
   },
   {
@@ -136,7 +136,7 @@
    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTUVhcjBBWV9obHVTLVlpa2ZkaWZ2c3dYQVMyaDZWSTJINGdNeWo2cHdVYXhXbFplbkhyVHp0dHhLb0EyQm5VdWF0eUlvd0V0ekJLN2U1MGNVSklxZDBsVWdRVDl0ZmR2ODNsMXpfaUZGWXRZYUVzRl8xazMxbTNJSU5SaHFKWjBZVk9rQk80eUVsY0dwcTczekItdDBXX1BLM1Y4RkdVT2JSUQ?oc=5",
    "source": "moitruong.net.vn",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "Dự án",
    "date": "2026-10-30T04:00:01+00:00"
   },
   {
@@ -144,7 +144,7 @@
    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVlZnMVdpOXlsRkdxUnlvdkQ4N3hqLUJfdnItQlFCNGNhdmhxY0R1OTZaSTFERXdnell6cm9QT2JMZGRlb0tHUHBWQm9EYmthTGhDVUlQQTI3Q0hkTGNSM2R0X1gxazRiU0NiR1MzREN3YmY1UFBiWUxpajRnYlZhNUlXYWtjRkxhUTVBR0o2MDA5dUpoQUJrOVN6TmJnRGxnNV9QRXJEQmhMc3lNYXdGUHVQRW1HcmJSWmg3Y2piRlRZd9IBvgFBVV95cUxPa1VJVGk4ajdGLU54ZFZuT1B3VzRiclpReEwwRFpodG5KUDI0OXJ0VVYxYkdJRUlLalZXbE1tRFlFOWI4TFBOVE9YR0RrRU5DM005TEV1Q1E3b0xxV3BfckpHZ3dxV0ZGbHpNUGFRcTc2WW5XSmZ3RDBTVFN0Rk9jNjFyeGJkQkRDQmxfcW84SWYySVh5cFJTSDhuTUQ3T1E4R216X011dEltTEJqMmplWDJRTGJFanRTM09Jakln?oc=5",
    "source": "Tin nhanh chứng khoán",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "Dự án",
    "date": "2026-10-30T03:37:22+00:00"
   },
   {
@@ -160,7 +160,7 @@
    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQcjNHZTFxUEJBQ01tM3JzbXFlQkJPam5NWjBXZEZfc3JrcW95eENJTE5raDRsVU5BVk53YkdYTlFYSUtuVG83TVd4TXdIdGVzbk9GMGJBcEtxMHhTVHd5UjF0U2hrTVh6RGMxS0tDd1JjME0wa05XNUozYVhYOE0zSkpNVmNyZlBHZWNJb2psM3FuenRMTTQwRkRubjVHTzJWLVVSTU5VVzZXMzU5T3ZQeFdSN2I4NmNjU0l0VGNCdDdseWhBN1FIRnFTR0Z3UUxncE5rMlozaU80VFNXLTFWSm1Vb19JRW5KVlZac0IyWnlvSXJuLTduaA?oc=5",
    "source": "Tạp chí Công Thương",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-30T02:00:00+00:00"
   },
   {
@@ -170,6 +170,14 @@
    "group": "Báo chí",
    "topic": "Vận hành",
    "date": "2026-10-30T01:04:00+00:00"
+  },
+  {
+   "title": "Cổng thông tin điện tử Bộ Tài Chính",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBnUXBldGRLSVI3ei14Z3pyalBscktabm5fR0RacU5hODhabWtVNmJ6RUtGblFvMDdrTkRXbm5lWTJTQ1pMZk9lRlZNNGQzaWxsMWtVakpFajZGMTl3ZHpXYlBVUXphQUpPS3NxdFdoNWs3Q0k0OUtOY3YxT0pCUQ?oc=5",
+   "source": "Cổng thông tin điện tử Bộ Tài Chính",
+   "group": "Bộ Tài chính",
+   "topic": "Khác",
+   "date": "2026-10-30T01:01:07+00:00"
   },
   {
    "title": "Thư chúc mừng của đồng chí Bí thư Đảng ủy, Chủ tịch Hội đông thành viên Tập đoàn Điện lực Việt Nam nhân ngày Pháp luật Việt Nam (09/11)",
@@ -184,8 +192,16 @@
    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZUwza3J6RWNlLXlZTlJMb0NfQ0R3dTFaWm43d05wSEVXOWl5YXlsMWNMaTZDVk8tc3UxY0NVU0lCRC1rZVRqQm55RDFVMDRIckFNd1N0bmI5dHkwbEJpNEI1NTA3emE5WkFfMzdvWDFhRFlUM1FKTUxRQ2JmZGE1SWMzSnd1bGZIY09sanR3TXNoUFRNNkE?oc=5",
    "source": "Báo Diễn đàn Doanh nghiệp",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-29T20:34:01+00:00"
+  },
+  {
+   "title": "Đánh thức nguồn điện từ mỗi mái nhà",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0waXZlOHRwc0cweC1ZM3VCWnFQWVBuaTF2UGg2TUJuUHk0SDFOTTFrS0p5NjV4Z3FZcE95WWJCa3FmaDlYMjlrbnNSQlBzVWZvR21qSGRHYm93NFVwVW50SDh2SHpjRndpRlVrZ01B?oc=5",
+   "source": "Vietnam.vn",
+   "group": "NSMO",
+   "topic": "Khác",
+   "date": "2026-10-29T14:44:42+00:00"
   },
   {
    "title": "Bộ Công Thương và Bộ Nông nghiệp và Môi trường chủ trì họp tăng cường phối hợp công tác vì mục tiêu bảo đảm cung ứng điện 2027",
@@ -208,23 +224,15 @@
    "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQN3dEaExCUGY3VkEzT1NtMEFSZm05REg4S2lXbk11Y01UOFY5Mk9GVk1SU1p6S1NIUTFDWDVZUXFvZGd2eE5VLWU2dkxvRkx2Z2FRbDVieEhrMy1GRkdRQXpNclZGamhfV3Y2d2szUktKSHNuZTF1Ql9GdmZLczZpbG50STJqdTlSa1pVMmRkMHp2TnBYQi1KS3pnTnl6Tm91QmhjRUlWNXFuSDhzUV9oQnhIQTA1eHU1UVRBS2lnMktGSzVmMnNYMlpmRWZhQkp6em5SZUFibERWVDdUTnRCNzNKcnV1ekoxcG9KTDdKWEE?oc=5",
    "source": "LuatVietnam",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-29T13:20:34+00:00"
-  },
-  {
-   "title": "Đánh thức nguồn điện từ mỗi mái nhà",
-   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1SR1BFOUdsN1FFQ0V5OWJTc2ZtTEJmR0FQNzdiZnFOSnlwQTZfcFo3cXJ4ZDhLSkJJZnVpM0xaUm5NT1JDdXc5N0NTYjM1Z3hfWlR4S19yNzBnVzMwSGxES01UbjNfNEJhRVE?oc=5",
-   "source": "Vietnam.vn",
-   "group": "NSMO",
-   "topic": "Khác",
-   "date": "2026-10-29T11:48:35+00:00"
   },
   {
    "title": "Gia Lai: Điện gió Ia Pech mở cửa đón dân, hướng tới phát triển bền vững",
    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcXlNZWtwWXNmTllDbElmejl4ekRDZW5COTdnT0JLRXh1a0VtYVdPZU5NNDlGVmIyb1RRdU1ZaTlSYmN4TGp1emhGMzdNRjQ2SXhpWC1HT0kzSFM5VFhGYUhpcWFEQTl6ZTdRVGdVS2RrY2ZieUdJSVJ4UnptTF94bnRFTV9mN3RINVFZU0ZRRzFoNjFpMGo0TW9HbmFac3lrRjJQcThzdWVDVzdLY1BF?oc=5",
    "source": "Báo Văn Hóa",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-29T11:00:00+00:00"
   },
   {
@@ -232,7 +240,7 @@
    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOekRFbDFKNXNfb0h1YWRnS0ktT0Q5NUxMSW5tb1V4aE5PRWlMUm4zLVhnTVpFUC1LcXJmNTBzOFFXX2ZScXdTcWFUTy1vY0p4TDNGcG5qV1hwS1YxQmE5czVNeXBNN0JfdUNDMFkzQWlUVTNvcjR5bnl3NXU5Ui05MzNuN2NoRmY5YjJ2SHM5eXJ6YTJ6bFU2d21MdHU5MGVnTUZTTjduS2RGR09BTllROW91VXRGdGt6MHpzdlQwbmoydjM5YW5CczhvUzdfZHJLZXlLcw?oc=5",
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
    "group": "EVN",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-29T09:30:00+00:00"
   },
   {
@@ -240,7 +248,7 @@
    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWmJIUE9kTjRodzBKSmU2cUk1ak16RDFSM3pvUjZKU0hHbTB0c1J2OW1lWE1oelY1NDhCVm00UUpvUmk4bWVDX2pDdm01bVdGT2VzTDFfMl8weWtsT296SGJyZDBfaDhLdXljREhqRmFrRzVjZFJIbGJmdXdBMWFmMmxteE9fNVVRWnJFdXdSakVUZW8?oc=5",
    "source": "Tuổi Trẻ",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-29T09:28:00+00:00"
   },
   {
@@ -256,7 +264,7 @@
    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMm9CU09YR2steFJwLVRib2JBeDUydnU1d2s4N1dzNjZsRkxfX1Jhd0JTZjAzRkdBb3dXWl84MVpWTWd5OG9weGFFbzZCbnIzTU5wMHVPNnlDMVdDamlnZjNTT2haRmVRVnNFUVlTMTRFdFFqQThBa3p6NzhQdVU5X2RvVW4yV2lJVTZlZDR6ckJKVVNxWFdTTmFDSTNzMWVSYUhIRkdoQndOdkVhTkHSAVZBVV95cUxNZFVmZl8wZER6WjAtMUtoSVdCLUhCMnctRXlYNlJwNHdLYTRRSlEzZVgzTXBWajFsWlRhQ2ZNNDloZlpGRk0wUE92WUlvTEV0NHEyTGhrQQ?oc=5",
    "source": "HueNgayNay",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-29T08:35:00+00:00"
   },
   {
@@ -264,7 +272,7 @@
    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWFc5Uk1IV2hOYnRjbndMbGhJSzY3TS1kaWF0VjNNOW5UbTJzUFl5aEl3V190UU55anljclF4X0NnZy1uT1ViSU90WjJaQk5aSi1mb0Fac0JBVDdkOFR3WDJheVIwS3FneGk0WmxqUGNfbzEya0t1dkRLak00WFU5WUhwSC1zYUl4V04wM3JROTd3OXh5TlJ6akFMTXZlX1Rm?oc=5",
    "source": "VTV.vn",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-29T07:02:00+00:00"
   },
   {
@@ -280,7 +288,7 @@
    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa3dRRUhsc1VFeHJpSFZDbm83VXN4VFpuMFZwQ0w3VkJKUjZjNmpVS1k0Q0p5emlOYnMyS3c2RlRrRlNTSVhKbURnUmRqdUVkYWlzWU1WUjFwVHVWNFhCN2VuUkdNcUx6bnFZTC10MllHdWZQYUFxUldwUU1yTFVOdFQtc29NRHVKV0MyVm5mNFRlODlKRFNROUdQbjN1cjhydjZWSVR6aDRMZ19rdXpfcXktYm9BclVMaV85cXVtSlByaHc?oc=5",
    "source": "Cổng thông tin điện tử tỉnh Hà Tĩnh",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-29T05:25:40+00:00"
   },
   {
@@ -288,7 +296,7 @@
    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQX1VUNmJTZ3hFTklhb1NkUzNnS2FZQkJNaFVRNzFoTGNVS0VNelFyT2FfVWNwdlc3VWZmS2RMVWw0Q1V3dmswbmh3THZuaEhOd3Q0enZrdXFiS1VfMGNmNmJYbGs2d2FZNzVwSDJPaDJPdUUzU1JOaHE1MU5vVDY1U1lHeXNXaTJkc2hqSW9zUTE5ZDcxWnBGaFMzaGswYU56NDhZcFlsVQ?oc=5",
    "source": "VOV.VN",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-29T04:59:51+00:00"
   },
   {
@@ -304,7 +312,7 @@
    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZm53MmNsVFROUEIxSkJ3YUd1VlhJeHY5c1VSekxPV3drMTlzT1cwYnpTQ1FBaHZGZFIybnFMa243NHAyUzZ4azM2VGV3MG5ZQUpYdWhSQ1RwZXRoMUlhMXk0bmYxaU5BUFlsS2dVYmpMaHM5TWFOMVFzNGRlUS1JRHRRV3JIQ0NGMXl4Mk9qZTU?oc=5",
    "source": "VnBusiness",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-29T03:43:45+00:00"
   },
   {
@@ -336,7 +344,7 @@
    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQM1U2MFdNWkdfekxEeUpUZ2EtandiNElFUnZXSkdGR1NMZWNVTkN6T2dxVEc2aVJTUkxpWU4xdldZT05xSDNHSlhXbVUxblYwZDByNWZ1QjZaTmhlV2RqTnR3UHRieWxqLUJtcUVsd0dfWnB2X3plTUYzbUJZMU1hYllBdkVSRV9jZVlfYzg1QUFvRVcwMUVXNEs5OFctVTRYZjRHMXI4TUUyNm9uVjluakxaM2gzeTYxeGpwOHpHa2otQQ?oc=5",
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
    "group": "EVN",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-29T03:07:00+00:00"
   },
   {
@@ -368,7 +376,7 @@
    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNjRadDh4X29iYjVCRlhBYTdmenRFLXpvMjVNOHRHbFduWXIzclJEZWhYVTd3MFdUUS1zblRNNjV6TUd4cVhiYjY0eENqQWtPbkU5NzZ3dllLZXIyOUNPQWNoc0NwM0wtMHEyWlBnZmtRWWJCUFRTcGYwdll2aFA1MTRJcXZaYjVxWml5RzN6ZHRZYW5oeV96cmxQZWV6MGhWb2ZYcTVn?oc=5",
    "source": "Báo Dân trí",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-29T00:38:00+00:00"
   },
   {
@@ -376,7 +384,7 @@
    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaDVfbV9MVHNRZDNLYnJCSjBQaUJ5UjRQaUxQc094TWZkX3JNUXU1aVo0c2VCTDhqdVBNSTBEc3JpVWRONmNaWVhKMUdNY0R6UC01SU9Lb2l3NFRVQmpBTzByT1poS29fS0dKOUNHTzVhWEVxSE1TTkFOS1g3V0ZBT0FWekdYakMtak9KcFV4TmZqc1gwRHFOOGNtWmhOcEZUS3BORE5NYzltMHdMd2pNMGwtTVduOUk?oc=5",
    "source": "Báo Nhân Dân điện tử",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-28T23:16:00+00:00"
   },
   {
@@ -384,7 +392,7 @@
    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYjN5TFZ0U0RVUGo1WlE5LTNCbWJkNldHNkdTSkpJdko0X29GLUFtLTZidWVxMGRQNHZaLXk5NU9wcVkzZTBvdEwxcUlvR2NCUGs5RUZacjA2R244ZkM2cFoyQ2VaR0paOG02NXVTVmZsMy04cUVVSmFUd1E0SXcyU3pieDhkYXEyMGVCYW1vZHJMVDcxUlpzVmh3YmIyZWtETWswbzFB?oc=5",
    "source": "Tạp Chí Điện Tử Thiên Nhiên Và Môi Trường",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-28T22:10:00+00:00"
   },
   {
@@ -408,8 +416,16 @@
    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYjdBbUNhOVRubFBUbW5DQ0M4ODFVMmJZUzh6bkttT09ITVFsVTlEV1JuSmczZ3FmaExqSlpneWZsZEtrRHVlTXJjS3VpajRXSkE5MVUyRFp6VVBKNnczcVBmN3dldnlGMVZ1SHFuMzcwOENTcUN3NjU5T3F0WWJBcE9ZQ2t6YzNwX3NvN2JYbEJsSEJFMlNqN2RTSVhjUQ?oc=5",
    "source": "baodautu",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "Dự án",
    "date": "2026-10-28T14:51:00+00:00"
+  },
+  {
+   "title": "Lãnh đạo EVN đôn đốc công tác thi công Dự án Nhà máy thuỷ điện tích năng Bác Ái",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUExVVEVUQ1ctTjJrUDBKOHYyWU1lbE12eUdyc3FCb3ROTXluRGtRSEttWVZYQ3czMWVSZkYtUENLSDhTMmRiZVZQWVdaMjJlbXVwWXNGQjg0VllsMGpPUVRQOTMyaFo2blNvSFFrYlhCdGNvbVI2SWM2SlJQc281aHB4TWtvcllsNFhEeXlYazh6N1pCUFo0WDhwUDlFY3YzZ0tZbEtveFdFZVdLUVA4eS1Na0ktZFBNRnZQcm1jOHVmZw?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Dự án",
+   "date": "2026-10-28T13:17:00+00:00"
   },
   {
    "title": "VinEnergo đưa hệ thống điện mặt trời vào vận hành, VinFast trở thành khách hàng đầu tiên",
@@ -444,6 +460,14 @@
    "date": "2026-10-28T10:13:00+00:00"
   },
   {
+   "title": "Dự kiến triển khai 12 tiểu dự án di dời công trình điện phục vụ xây dựng đường sắt Lào Cai - Hà Nội - Hải Phòng",
+   "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxONTBwNkxDdjB4ejR4Z2tTXzBKUGgtMERBaXdBRGlHc01CWF81WjVuUVVzRHZkUkR2M2NxX2QwN0UwVDRYZng3dThZbS04bFY4Mjd4WFhMbGR1ODNvN0VmVHNvSlBGcjJvRlQ2MEFZSkZfSGl6VWw0eVVSemE0UHlHWm1iTC15eG1aa1hoT2hqcnAzZ3JGRmdtZGVfSUJtakpsMGJ3b0JRUGhaZnFiYm8wM0xfTHdGY0UyeDU1OHZJRmtUb1cwNGJZMTdFQ1B6cUtqOV8zRE9OT3FoMmlibFAyZzIxSkVNcEI5N3pqNQ?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Dự án",
+   "date": "2026-10-28T10:01:00+00:00"
+  },
+  {
    "title": "VinEnergo vận hành điện mặt trời kết hợp pin lưu trữ tại Hà Tĩnh",
    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcURpUm95cHJPMmdTdm9CTW5sWURIRmtwUm9hLUJodGhkQTltekNHOUl5RS0tSVdFa2NDTEtVTU9Md1phMjdnMVlqMFZBWUFvR05haXdWcTg2ak91OGZtRnN2U2o4M2RzNWlacW9VV05GczFhVVRJOWZndk01RURtREUtU0d0bkQ4ZldxMEprUF95LVVsX0psamxQNTZnRktj?oc=5",
    "source": "VnExpress",
@@ -472,7 +496,7 @@
    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOSTFjTTBncVhIYXk4bmd0MVJTLUNQYmFKakRJWUpRVU1Sc19ManNnUjRDcjdUUFJEclpFY1ctZnh5SXdJRC1CMV84YW5vMHFCalJDTHpMam9XeDAzSFJNcUxNUTRzZHlaX2ZxazRwTkRqTHRjUjBwWXRMWHZadW1HMEZxYjFkZw?oc=5",
    "source": "Tuổi Trẻ",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-28T08:52:00+00:00"
   },
   {
@@ -480,7 +504,7 @@
    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSzg2Rm90dGVqb0dmYUxfb2V1azZGX092QjFCTVBISlZHbm53SUpZeUtFak51NEc1emRBU0tXblhvVXZfdHg0WVJpd3NkNThfa0syMVduY3QwcHhCUHdwQ2swNjMwcUtPQWhBVi1sMy0taE9NbmwwSzFpdVhoeGstYy1OdlhCWmwwUHlsdHItNFIxaXF2MHNlOWlCalM0ZzYtcEVJVnpxNk9YdkhmbDAxYWxZYWg0Ulo0NnFweXI0dw?oc=5",
    "source": "moitruong.net.vn",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-28T08:00:01+00:00"
   },
   {
@@ -520,7 +544,7 @@
    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYnFsOGFWcnlpUHktanZmWm83YlVkLXV1QUxNcUl0NlZUOGNXaHdZZjY4TWN6ek9fSmE5UGZiTVV5Y25iMzBMMThmNHdmb2hPb3NWclpST2psUzhOd3k0RnU3akRpSndiNDB3dXZjTVlkdnFKN3N3Zm4tb0FmZXdZdUM3aXpKWndZck5ncTVTUnlSTldrRmN4WDIxUUVab1NsZ3E5ZWRjdzk?oc=5",
    "source": "Báo Dân trí",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "Dự án",
    "date": "2026-10-28T01:13:27+00:00"
   },
   {
@@ -536,7 +560,7 @@
    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVW9DWEd4RF8zNGRISlNvY1BMSGtLREpJTGg3dHduMGRoYi1mMHVlYWdweXhNSWFnNy1qekxQSVBObnJUeVgzVVZMMHQtaS1aenlLQXRHWURrQXMyTW52S0g4Z2lfMHB0R2FweDZneHRaODRqampJQ01PZG9qR0pZWnZjcHFrbVA4X1ZOTWNScE5ndlVqNEh0dWpMV3NYR1pXQndFVV9sdw?oc=5",
    "source": "theleader.vn",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "Dự án",
    "date": "2026-10-27T14:17:07+00:00"
   },
   {
@@ -544,7 +568,7 @@
    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMzJvSFBqNUNRLUVyYlVWZzZJazNjREwySlRYRW5QUUg3V1FwaThvMkpJMkpDRTdGRy1OSE5FWXpiOWlSMG9UNkFpWFRqWWNhTTBWWm9kSkVXYTkyR2NDMjEwNWR3cm1QSElkZm83NGE2d2JMSUZZbzd1ZEswa0FyWlJiLVVqbWY5UUJQeFRIb1YzcW1JR3VycS14TDJPRE1JelE?oc=5",
    "source": "Công Luận",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-27T12:54:03+00:00"
   },
   {
@@ -560,7 +584,7 @@
    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQY1hyZkJJblZHcFIwS0xERkR0bVFoNDFWa0tPLWJINzhzWDZUVUdCRXdkMVFTRVhYaUZqc2c5QTBJelVNSmZDOUkzd0F4THoyc0pBbWpCSkpFdFpWX2hsMVljaGgwTTBrNVNPWTgtUnpKbzd5Wi1EcjJ6MmFyN0VDNnBOWVlWUzBCaW9CR2w3T0NWN2VpQUxSbzdfeDlfeFZVZXR1czlQRTJ6b1lYakRkTVpGM2ZFWjVZQnhv?oc=5",
    "source": "Tuổi Trẻ",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-27T12:04:00+00:00"
   },
   {
@@ -592,7 +616,7 @@
    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdXl5dXN2VE5LaUVzY2tlMXFfb3l1ZHFhQzhPSjB0RDRKSVlYWm5uTS03c0NMcVJ0Mlprb3FiYUVOLWk0Y1kwWHZ3UUR5ak9iZ0tia3VDMFljRjMtd1RacmJOZC1wc0NPaVZ1Qms2SGFCb3JDTEpIWHFRenBhWkZUV3dHWXYwSDN1SmFEc0JMbS16ZDVUUDBwWWRqaFRKb1M2X2VaaEJlVkNqLVR2dm1uM1B4T1FSeWh0RUE?oc=5",
    "source": "Báo Dân trí",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-27T11:03:34+00:00"
   },
   {
@@ -616,7 +640,7 @@
    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZWJpa2JDdzJJMHNVNUxXLWN0VTFSZUJyM0RkN1FRU2NIU1ZXX1RMbHlnM3dmSEZqYzhnWm1KcjdmNVdXZWN3ajdJLUo1WGZ3SnhRbHRkMTc2SU1POWRBRmpIV1VkOVhlWHo1OUhuTC0wUEhsMHNRZjN2YjROTmdIRDdZbVJiZ00wdk9JeHRNRW9kRkVCNkkyM3pnRm5HUQ?oc=5",
    "source": "Mekong ASEAN",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "Dự án",
    "date": "2026-10-27T08:29:39+00:00"
   },
   {
@@ -624,8 +648,16 @@
    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSmM1X3lRakh0Wi14NWlaeUxaY09pbDF0N3RUYml6NUNISFd5d2VOeHFQZ2pqN0NoTDVVY1U2cUNmek9MM2J5TlNSc0lXMWtDYVJodnJySWhvSVFSYXZhVDNSQjJmNFM2YUdWWmxVWERuRjlIRXgtZ1ZvNlozQmw1OWZDMkRYYXhKR2pqQklhbWNJUE1Xb0w1UUEyWWtocGdJYTJiT0t4bUVxRlJPZF9NcjNkOTN0REFQUVhXeDlDVFh2QQ?oc=5",
    "source": "VIETTIMES",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-27T07:39:07+00:00"
+  },
+  {
+   "title": "Bản tin EVN số 41 năm 2026",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQX09rN09UaUkwR0kxaHRIU3YzTUdGcVdKdXFDcHczRmNKQVJ4cWV4R0gxcmU5NHZlblhtbnl0NG0zN2xmUnM3NWdabHRYYmo0Yk03enFBcmNvNU1zSmFQMHRSVGdYMFY0bXFCclV0S2JjMk1HYUo4OXZDY0RBZHhCdWQ0U1QwRlU?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Khác",
+   "date": "2026-10-27T07:09:00+00:00"
   },
   {
    "title": "Hà Tĩnh đẩy nhanh triển khai các dự án nguồn, lưới điện theo Quy hoạch điện VIII điều chỉnh",
@@ -640,7 +672,7 @@
    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTDg2ZXE0NVR6OW1Sa1daSERhLTdXX0tiQlJETG9sMGdwaTFiRTRpRkxick1WX1F2eHdPUGVQc0dHNjUwd1RSZlV1eVlIVkNKQjJ3bmxxeEF3M1lPaE1aaFo3NE1xLXJIUVBlekZMa1JXYUtYeHFCckZ4TWpFbnBrUlRXejFYVS04Z3VYVzJiMzlyTnRGazZJR2d0MXd3V05hckp2MzFMYTBKMFEwbktVX0gwd09aWGZvcUFnSw?oc=5",
    "source": "Báo Dân trí",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "Dự án",
    "date": "2026-10-27T06:57:44+00:00"
   },
   {
@@ -648,7 +680,7 @@
    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSHVVSDFBeV93emI5ZHIwT19pUFZoQ3ZSdGdnZHdKNnF5cU13cUZCZDllNF8zeWFzNlFMbHFybC1WbGdVbHJPWXAtQ0V0eXNhSmNCTXdTdjY1OUZfa2lENjVSWFFOQjZkMmxjYVVVUlVMWUxTQ2gtUEZycWlJSUtqa0hXeDJzV3VoU21VVW9LenhFakg2?oc=5",
    "source": "Tuổi Trẻ",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-27T06:44:00+00:00"
   },
   {
@@ -660,6 +692,14 @@
    "date": "2026-10-27T06:20:27+00:00"
   },
   {
+   "title": "Nghệ An: Tiết kiệm điện, thúc đẩy năng lượng tái tạo",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOLTJGeWVSeFljUmphODl3a2NlMEJJNnVBaHFjZG5ONkZWakU0cmh6dzZiaHhvcTV1Ny1fZHFPa3d2NjVXdmVYcmtEd29fWTlwNUNKdlhPdUJYLUZYbzZrWjQ2Z1BUVU9OSUdEZFlvU2lLanRzeHo3cndNRGp6MTQ1ZVFlZzNGV2J6MXRQODFTdkFkdW42NzVJenZWNDE0VWNkT3c?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Vận hành",
+   "date": "2026-10-27T04:04:00+00:00"
+  },
+  {
    "title": "Đăng ký cấp điện sinh hoạt mới tại Hà Nội: Thực hiện trực tuyến thế nào?",
    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORFdQUDF0QzFOWUN3NXRRT1lKOFpiQ2VXcGZ0S3hWV0tpM3d6UFZ3TDlrQVlQQ1lqLXpXMUJXY0NrbFlVRkltMTlSSC1yM2tIZ0prcUF2ZjJMRlloU1FYb1ktWm9DRmpfQmxZYWhCUDB5NEF2azJFVlpwd3l5Zmhib0hDMUlDTnRGcWhKWjBLM1lnQjVxbHM1RTVhUlRoSWxUa3pYbVg1eEVsYTJHbWhybjBRNDJZWTBkN0JLbjJn?oc=5",
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
@@ -668,19 +708,11 @@
    "date": "2026-10-27T03:48:00+00:00"
   },
   {
-   "title": "Cổng thông tin điện tử Bộ Tài Chính",
-   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5jb3R2NTNsdUFNWU91djJBV1dRZDlTOGt2RUlMWlNRSk5oNEI1TjBDTjdOODhUMHQ4bUVCX2w2RXYxUXlTSVlkczVtT1JLazBCenZEVmJmZw?oc=5",
-   "source": "Bộ Tài chính",
-   "group": "Bộ Tài chính",
-   "topic": "Khác",
-   "date": "2026-10-27T02:56:22+00:00"
-  },
-  {
    "title": "Biển mây giữa cánh đồng điện gió hút giới trẻ săn ảnh",
    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMkdETGg5RnhzZmRrenBsWEVkOThDUDFlRFhwRWs5YklYbzhsb01hVUZfQXhVQWxJZ1JlakpxSWZ4YW1rbFJXMktub0JVMVpzWTU4V3pwWno1STZiOGp5Y1Jzb1JEODUzYl9NY1ltcTBHc2Zaa3NyTG9meEZYcllGdDRfM1RDdk1hTjVkYlFOZ1hiYklWZWpWclVzRQ?oc=5",
    "source": "Tuổi Trẻ",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-27T01:30:00+00:00"
   },
   {
@@ -708,11 +740,19 @@
    "date": "2026-10-26T14:51:14+00:00"
   },
   {
+   "title": "EVN và 4 Tổng công ty trực thuộc có trụ sở tại Hà Nội ủng hộ Quỹ “Vì người nghèo” và an sinh xã hội Thành phố Hà Nội năm 2026 tổng số tiền 3 tỷ đồng",
+   "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNc19aRms3ZGk0VGFqb0tObzZ1cmhwRWtmYTVtVXRyMkloc1YxWklwMF9mcTQzZjZoY3ZkNlFxM3RURlRtUE9rb3llbW1sU0lMT05Ldk82c1RLS0pYM2QyNjZQU2Zab2dROUJmTnRtVzJFeXZoRHF1M2U5Q0JMNmZ0Y0hqTE9BclZSSTF0Wm54Z1Zra2lvQm1HbjVBSVJ5QlMyc0RIYXJMd3NTTVNRWWNCY3UtY1FJWU9IbzlMblVJeGFDTFFxNjducE1IU2hOSnlCVmFDNXltNFdvdTlLY1N1NFhFaDRZLU5CbG1RSXhtSUlLSGtHa29rbVZnMDZOUlpMMnVaRHEyRXJJVVkzbGhmN01BSXR3ZkNTeDBaSk15TXE?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Dự án",
+   "date": "2026-10-26T14:50:24+00:00"
+  },
+  {
    "title": "Lắp điện mặt trời mái nhà công sở, từ chủ trương đến thực tế",
    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOS2s0M1hUcXQ3Y19qSUFfV3ZpZ1FnOHJlTkwxMkRpMjdmaUxMbzFmWFZRLTh2aTN6blk4a2dTWVN3VXg4N1JKT1JpOUR6ek9vT2JuYVZRQXNCZTF4ZmxMZTV2VG9mSEtJYTVuX3VJWEJrbzNCcFYweDdBYnoyR2FuMWtNUHVibDg4ZzR5cWRrX2NWSUt3YS1xVmpTM2ZoaFoxQkRhVkQ1bVhPTWtOZmxYano4WkhQaXprZUNWbU9DZWJ5VVp0?oc=5",
    "source": "Báo và Phát thanh, Truyền hình Nghệ An",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-26T14:16:00+00:00"
   },
   {
@@ -732,14 +772,6 @@
    "date": "2026-10-26T09:54:00+00:00"
   },
   {
-   "title": "Tìm kiếm",
-   "link": "https://news.google.com/rss/articles/CBMihwNBVV95cUxQUEhmemJ0OURlTVZvQkpETXkwMTBjQjVpV0VmNk5BbmRPWGxTYUM0SW1wWUlTOVU0bTlGekpRdjNFQV9QNV83bnNVdGwtV3Z3Y0VELTlieE15dHB6VjZnNVFMUl9XZW00ZFFWYjYzczlxakpjNmVIbWUyMkNYRU5OX3A2RTdZLXNtRXYxZ2RKTWNDdGJWRkx5U0d1SzU0MjBDSnV2QlFnYVZTNU01ZXRaTGgtd05Gd3JLZUVmUHVucDQtVTY5cjFsLWVqMHdWemlua3RqSVdDMHlOVFdHdlJHRWRuVDBZWE1VYTh1TnRnUms2MVh6NXQxNzlKd3FGTWYyRnNZMTZNY25yRUVVZVlnLUstby11TUhTajZfMlQ2d2xKU1RQei1vMWZNd3V6dVdGTWFFS2szSldfa2tyc2MxRUhicm8wM01LOW5lRW9kcHV4OFl0TnMtV2ctblpMQlVWbXpJRTFNZVhxbnR6U2hxZzJoV0tmal9wYjdxZ2JfSkVDUHBVd3Nz?oc=5",
-   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
-   "group": "EVN",
-   "topic": "Khác",
-   "date": "2026-10-26T09:54:00+00:00"
-  },
-  {
    "title": "Phát động cuộc thi tìm hiểu pháp luật về sử dụng năng lượng tiết kiệm và hiệu quả năm 2026",
    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNWGI0bkE1VFY0bk1uTnJUTEoxa2F1eTZtUHpOTkZrSXB5dDhGSlFzY05LTFUwU19QV184bWJfSDhEcndHRS05LWN4ZDdYdlNJU1ppX0t3RGpNRWNGbkt6NDRmTWl3OW9lVHRUdldodUVaWXNHTlItQTVNc0FSYWxQQTE5MGYtWHVPYVRoRmFGSW5fbHh0TjRjd2xpX05MdTNCZzltZEphd0RQclgxeEZEa0lBT1IzRk1OcmRwdW9fbnBuWkZUYUZJdGtsZWFpZ0Z4ck40anozYw?oc=5",
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
@@ -752,8 +784,16 @@
    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRG9kYVEzSE5Ic0NPcW52Rl90Rl9CY25sSWVFdmgtUE56cndadnpTTDlpdUpUZU5KVEJxUkowT2FrdDk4STJ1Y1ZvNVRUaXZKaE1ZekE3UFppOVpObFBwa2V3bXA2MHRzN05teVVZUXhYMUZWNVdZZ0FjYVBsQnN2VnV5TWJQb0hOV1N2dllORnQzTVJtaW94bkx6VDJmS2ZoV2FCQjBNOUs?oc=5",
    "source": "Báo và Phát thanh Truyền hình Hà Nội",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-26T08:18:00+00:00"
+  },
+  {
+   "title": "EVN ký kết gói thầu cung cấp thiết bị cơ điện cho Dự án Nhà máy thủy điện tích năng Bác Ái",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQanMzVWwyZG1wc2pFa1N4bzMwRUJkY21yVUptN01BX0dtOF91WjRiR1lvZHAyN0VKX3kzcVk1UUYxR0JZUlJDYzVCclE5c0RTZjc3bEZMVjhLdE15M0U5Z3VYaFVNTEpMTFN0Q0JxRUVpYVQxREcxNVR4dUlPbmhPTC1TX3FpR2MwQ1hUSGxrd0dHMTVNRDJjS2s4cWJ3OVZLZDBqeGZjbk5ndllBT2RpajNjTWp4TEVnTk9LeVhuVjZaSkZnOF9UNTFQZkxvZGhpclhqLUpR?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Dự án",
+   "date": "2026-10-26T08:10:00+00:00"
   },
   {
    "title": "Lễ ký kết Hợp đồng Gói thầu số 01TB-BA: Cung cấp thiết bị cơ điện - Dự án thủy điện tích năng Bác Ái, tỉnh Khánh Hòa",
@@ -780,6 +820,14 @@
    "date": "2026-10-26T06:53:00+00:00"
   },
   {
+   "title": "Chủ tịch HĐTV EVN Đặng Hoàng An làm việc với liên danh nhà thầu cung cấp thiết bị cơ điện Dự án Thủy điện tích năng Bác Ái",
+   "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOczF4QUlKNDJXUktfX3lteU1ka2Q1bU85TTVPVTlOdm54WS0wZXZrMG1UQU00d2V1c2Z1SkJnQjFiRG9JalRsVzYtMGdfUWI1cWVaazI5d3VPRzNJalZlWUZ5elpWZmMwMzZmVHVkdzlubU5YNnowR0V1YUVFMUU1UWE4eDNOUXdOMG9EbTAtTnVHekN2Y0RsN2NpUjI3YVowX3RSUWlFNG95RDNIS1l2MmEtN1BEbUN2c3RieTV1NWxFQ2VpYTNYcG91NWtBOXBxOWUyb05aMlk1cEV1ZzBYM2ZIQ0tRVEc2NHFsRDVmMTVELWtFWTNJM0VrYmVKUm9R?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Dự án",
+   "date": "2026-10-26T06:14:00+00:00"
+  },
+  {
    "title": "VinEnergo sắp khởi công nhà máy điện mặt trời hơn 6.000 tỷ",
    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYkNqcmsxQ1Y1c24wWEphQzdka1poMW0ySEdZV1N0cG1iMHNZSDc4bjNITUE2ZkxoVUp6bzZmczg5LTJpYVdaUFZiaVZSS0xvNkplWnNkUGs4LThkQlMyeTNVLVcyX1phTmEyVHFDaXNObW13UlRTWlhOU3BHYXhqR2VidXRUOUZDZlVLUks1ekhveUtkcG41T1hR?oc=5",
    "source": "nguoiquansat.vn",
@@ -792,7 +840,7 @@
    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNYk95M0NwRGFwN3MxekJzbWRHNXVoNUtsVlBPVnhCV0RqX19Ib2tFQjZSYlRETFNwaFA4TEpMVjJNRXpIWm1vRUl4NzJUMDRKVUt6YnVuWlZDVmoxcjhoeGt6TEw4NGhHMkFab2tPNTlNaEVIV3VSbW1hYW5rQTFFR0V3RG5aSUJIOXA5b3VVQ3V5VTJ4dDM5dUxtemhnU3dIVjBIX3JYalJwak5QYUVHT3pR?oc=5",
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
    "group": "EVN",
-   "topic": "Khác",
+   "topic": "Dự án",
    "date": "2026-10-26T03:26:00+00:00"
   },
   {
@@ -824,7 +872,7 @@
    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdTMzX2g5ZzNpdThzV0NIZ2pzaG9hWHhHRXdMbUZqSm1EeE9GeUM5Q2hTMzRDU0RMaHB5X3dqSHF4RlN6d1NJcVltUXh0NWh6Wm4zeUZQcUpPemd2a05VN0o2dmlpd0pMdFhCT0djZVZvUWMwTGRhRXFISmx0b1Z4X0h6SU90ZDAwOHZRT0QwSEdtM3VhYTVOY1M5SmhwdEhWLTh0QWFMb2NqSklzeWt0aFBGWGlETjBsZGpDamE0WmRndw?oc=5",
    "source": "kinhtemoitruong.vn",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-25T22:23:00+00:00"
   },
   {
@@ -832,7 +880,7 @@
    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUkJTZDBoNi1zdFJ2amxPaG1GS05lbkxkb2dvMk16elZWWF9jcGlzVUM3a2FvVzBvdFVCZktWdzh4bjE1R2c0bjBJdzhTMUt3U2kxSjRIbHl0RmpNRmMta2VhV1pKQS1QMG1rYVlIYWh3V01LTkdtYkcwbmJVVVhpdVZMYVozT0dIQzcxVWMwdUF4TTk5WFBIMWpSZms0U0p2VzJYbEpZdnFLMVprYzRUSGVLa0xJSU9vdm1R?oc=5",
    "source": "Báo và phát thanh, truyền hình Tây Ninh",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-25T13:09:00+00:00"
   },
   {
@@ -880,8 +928,16 @@
    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYmdWY2E4YlhNejdweVpyUXdnZTd3QUxFUjEwODlGemlOUXcxbHBNTE50VlRwLXJIMUxMN3pZRGZKQXhRRUVGTDlDTlFhajItV2x3a291X3BPN0M1XzJmck1JTFhwSEVnNVFqSmFNY2x3RUMxcGc3dzFMRGZNUlV4UXgwUWpFWWpUWkpUTElDeTBtUEtoUGpxd3Mwc1VBTUUxUGF3eE4tTWJPakw2UE9qTTlVcFVQZw?oc=5",
    "source": "Doanh nghiệp và Tiếp thị",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-24T00:57:00+00:00"
+  },
+  {
+   "title": "EVNGENCO2 chuẩn bị sẵn sàng cho mùa khô năm 2027",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSFNnVVctM2x2b201bGFFNWJpcmNnQTR0c0xDbXE2ZDl1SzMwMEJ5WlhuZDNHei1scHEyc3FUSjM5RkZ1dEI1M0hZLVptZXUyN0xQRjhZQktJY1JXekNNanZNalNMenFwWDV1b1JQaGw1UDRiOEJZZ3JFaHNhQlI0YVMzYXY4QWVmdDAyaDliZ3ZydW0yTFZTLU1naU9yZw?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Khác",
+   "date": "2026-10-24T00:37:00+00:00"
   },
   {
    "title": "EVNGENCO2: Trao đổi kinh nghiệm nâng cao năng lực quản trị trong công ty cổ phần",
@@ -904,7 +960,7 @@
    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMUFBWkJidGw2WndOX2RheEFXM0htcDQ1LTR5a09nc01DWHhVQ281UzdYZ2NLWHdZZkpFX3Z5SmRxVWF4bHR2SEFBeTdNS0IzT2JhOWR1cHFrZl80d2h2aDdRWktmNkI1Z2RTeFA2X1gwaE1aNzBIVnMwQlRzR2I4SW8tXzBqVmcyVnk1Q0pqQnd6emZ6QmdjZ204UHUyY285ZUZfbHRlOGZVZW9TOVBsd1pRUGk4VnFlRGVfMDQ5YW1jZlpCenlR?oc=5",
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
    "group": "EVN",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-23T10:49:00+00:00"
   },
   {
@@ -960,7 +1016,7 @@
    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNb1pDX29UclZmWllRS0dXLWh1alExbTdtbVBmUDVrSUYzeFVXZFBOQzVKTmFXMzlsTHlHUzNJc051LVJad3B6eWVuemM5aGlwVzN5NDU4SmZpX201VWM5UW82ZXNmUm5LdkdKVFBNekJ1VlZCS0xuOGRBNnJoNkFaaGFCd1I3WGRLdGdPVkozV2NyOGJKNUVaNmNBanJiUExMQmc?oc=5",
    "source": "CafeF",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-23T07:55:00+00:00"
   },
   {
@@ -976,7 +1032,7 @@
    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcV9jeENOV0FqeDJGM1VaZHk3MjR3djI2Y29DMnZOR09naWRYMjdEejVFbGt3VVVHaEJlZVc2ZEFndFRzd0U1a3dBY1hKdVFtVlg3TkZxaWJKQ3hYcmRBeGhjQTdkQXI5TXFIaWF2UFFRdVpUZHBMNXl1ZlBfb3NyelNYUHNjdlJiLU9fdUdKbkJiUzFRUFlrZ01HUTVyb09TQ0dUYWdqMERzWXR2MWVXQlZrTnA?oc=5",
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
    "group": "EVN",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-23T06:54:00+00:00"
   },
   {
@@ -1002,6 +1058,14 @@
    "group": "EVN",
    "topic": "Khác",
    "date": "2026-10-23T05:27:00+00:00"
+  },
+  {
+   "title": "Chuyển đổi số đi vào chiều sâu, nâng cao hiệu quả hoạt động",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQzVEMXhKbkNHbUtFdmJqSUxXckRBQ2R0NVQtMmEyZ0xXNXdLNmszdTR6TVJQNGl6VVYxQmVWZ1JybmJQT1VWc3h2VWw2QzM1RmNSY0MxM3dZX3IxVkdKT2tHOXltNy1CcENhQm9Dem1GQ21XRVpRalEzNk5iYWNTZ0pUQ1RyVzc3VHJxVG03akkzOE1zeGpGS3c2WS1iZ0FYQThuV0ZwZGNveTFCNGJwcg?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Khác",
+   "date": "2026-10-23T04:30:00+00:00"
   },
   {
    "title": "HEPC hướng dẫn kỹ năng tham gia giao thông an toàn",
@@ -1040,7 +1104,7 @@
    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM253WEdpTHQ2N3k3Q2N4bzRaTVZSMHZRRnQ1R0FwSFJVanoxUkhrOENLY1RxQk5neV9Ec0dYeVUyaWpWRnJYZWVzNXA2LWw2YzVUV2x3WHlfcW94eDQ3bmtZSlZlT3RNNkxSVENiZGkwem1GVWV4R2hjRlJiX1pYX0ZuNV9wX3dl?oc=5",
    "source": "CafeF",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-23T01:02:00+00:00"
   },
   {
@@ -1100,6 +1164,14 @@
    "date": "2026-10-22T07:00:00+00:00"
   },
   {
+   "title": "Thành viên HĐTV EVN Cao Quang Quỳnh làm việc với ​​đoàn công tác cấp cao Đại học Adelaide (Úc)",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdjFJeTJGWUh0YUtCODUtZDZCX3ZOYlNrSlhoNDFwNlpIbzVObEo2OVJnRFl2bkh6azB0VFN3eGcwd3FEdzRrV3dSN1RVV3lUTUdGdDVvSmFvUFd1RF8yT1RPaWwzT3NpeWlZbVphd1ljb1dGQ18zczJiakJreldXWDktVmRXdjdtYVdmWGlqaHpUNGtieWVwTFc2cW1sVlNzaUdtZGRYcFNHMllvd0xZeS1hNEZxWkdQNGF1NExQcE5KOUxGLVBfR3I0bTZEdklqZmo1OFBR?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Khác",
+   "date": "2026-10-22T07:00:00+00:00"
+  },
+  {
    "title": "Lãnh đạo Tập đoàn kiểm tra tiến độ 2 dự án truyền tải điện tại Điện Biên",
    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUW9XYU1fSmg5dTNlaURqWmw5U29SdGNDM1NIQkNwVE5jWUMzc21LbWhERktRNFFWdGE0N2MyOGNOZ2lKdUQzWEsxZVZHbzQ0Z0k3d0dCdUVjSEVvX1ZKajFXOW1DV3RPSFRGTWlDTmhYNFQxYmVnUjBSbjdfcmwydE9WRlRrR24xaUdKQ0ZpSFc4d0lNMWFNRGh6STJ2cF9ZUGlaOUNXbUEyT0VJNXFtR09xajk0ZF9mQmNKSXZn?oc=5",
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
@@ -1114,6 +1186,14 @@
    "group": "EVN",
    "topic": "Khác",
    "date": "2026-10-22T03:23:00+00:00"
+  },
+  {
+   "title": "Phó Tổng giám đốc EVN Phạm Hồng Phương kiểm tra tiến độ một số dự án truyền tải điện tại Tây Bắc",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPd3RHZWtZcHFKREotd2dNOW45RE1McGt2Nlp1YXVLdk16dkhQenJFTjdMbkI1M3NxSFFQS1RzZjdjYzNzY05yNjVIRzAxX1VaOGpGb3UwMDVrcGpFc2hORHIzN3JNRDRkNjd6dkhwMWNsa0doQUtXbzQ4TVVEdjhKWk1PMHhINHM5dGlPdjBqS1ZHLTVldjI0cl9idHE0QVBaSVFFYnJjMVhlVTEwdlFoT3RpaUh3OEp0X1FrZUlYX3B6dkNEYXBOSEVqNnNFTDBnNUlDbjJ4a1FlUlUtUXc?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Dự án",
+   "date": "2026-10-21T17:23:00+00:00"
   },
   {
    "title": "Sửa Luật Điện lực giúp doanh nghiệp tiếp cận điện xanh",
@@ -1212,6 +1292,14 @@
    "date": "2026-10-21T07:00:00+00:00"
   },
   {
+   "title": "Phó Tổng giám đốc EVN Nguyễn Tài Anh tiếp và làm việc với đoàn công tác Bộ Ngoại giao Hoa Kỳ",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPVjh0Uk9xU1NsR05FXzN0MkVCaWxoYjlNVzRUS2ZOOFdXVmllSmkxWVFhY1pEVEx5WXlhTEpITnFYb2FmQU9HdHdFNzE0WU1nWEdlMFdSRDJIZU9YSklULVY4V3lMYXJTbmk5eXRBXzh3dnlnY2xrUlRMMXZFcHBRRUs2UDBBMTREemRMSV9CMTIydFVQOXJVbnRDVzdaWDY2NmVvY3VTazdjU1d6ZVJrWlBHTTZaZHFJVHVmc2c1TFdZdGpfRllWTlF5RlpvZ0xGX2lqMnVFRlE?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Khác",
+   "date": "2026-10-21T07:00:00+00:00"
+  },
+  {
    "title": "Chủ tịch HĐTV EVNNPT yêu cầu PTC2 chủ động ứng phó thiên tai, bảo đảm vận hành an toàn",
    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNTERQSjBYdTVJZ1ljNm16Ulc4LUlhS1FRdjh1MnZjM3p5dXpyV25DeGVyMGQwQVF1YjM2SzdQUWMyUmNwc01Wdk9JcFkxWHdzNFRRQjh3a1pWcUI4Z20zcUc5NWZvNGVSSWhHVzdBYmxHdFk0cEV3VXVWd1gtYndFVUdvRHdNOFgtUkRLMFFvYUxjem1VSnBxd1YzRkdva1EzTFRacFdKdnpfT3lxeWgyQlRtRUFEemJvWHdWTk0zMkVvc28zb1BHWlpzdnNZb2c?oc=5",
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
@@ -1264,7 +1352,7 @@
    "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQWUprRmNaR1YwWVhTX3NSY1N4c1l1ZmtpV2VxcU5JWmhsU3lRNi1NQkRnQmZoRXhxSklvREVxMHNaRnBPWXdPZ3lKS0daMW1BbXlMY2VjTWZoZ3lwOEhrN2hwWllGbjRFVFdVVDV6NjVIZlRxR0txUjVYT1NQM1pOajFDcG92OG9SM05lSEpzZHV5cUtjQ004UXZZakhTR21yTWxjMFdLbnk2d2Vpc3NEYm8xSmVaRHBpeS1FckVpZEgzRGRMdV91ZG5CZktSaGQtWGt6SVdJRURzbmxEbmJFYWEybzZmZw?oc=5",
    "source": "moit.gov.vn",
    "group": "Bộ Công Thương",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-20T07:00:00+00:00"
   },
   {
@@ -1312,7 +1400,7 @@
    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVkI2Z0NLY21XWFZNNDNPblZXSWUyMzQ1VVpTbE4zR1hvQl9zTXY1bHlGeXc2X3Z4M3cwY3Q5dkc3M1VtUUJYY0Rma1psQWJWajdTZWNKMzlWc203d2JJTER1TmVKTUFpSEtUTjlodnhTNE50Uk5rZVQ0ZXFKS0ExdjVmdzdHWXJvMktrbm9iTmVpbi1yOThFR1VPWTdXTi1OSno5R1JrNW05ZW1BNWNKYVpPdmI?oc=5",
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
    "group": "EVN",
-   "topic": "Khác",
+   "topic": "Dự án",
    "date": "2026-10-20T07:00:00+00:00"
   },
   {
@@ -1336,7 +1424,7 @@
    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQLXBzYVJ3NVY2aFlLTmN1eU81bFFsam1qZlVYel9tek90TjZrQnl2OHl6RktNQzdfaHdSdkh0SXJ1azh3ejh6VW5BalYyWFE4c1JndEpRUWMydWZOUTdjUE9FNVdHX0xkV3FCT3RLRjFGV0ZSQjczQmRtTUxMZTZTWGFDSmRyWUt1SUVKSVJhOUpoOURGNVJqMzVRNE9ENHRKU1NKSi1YV0syeE5xMzgzTTJFR1M0S1dmWHV3?oc=5",
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-20T07:00:00+00:00"
   },
   {
@@ -1364,6 +1452,14 @@
    "date": "2026-10-20T07:00:00+00:00"
   },
   {
+   "title": "EVN khởi công Nhà máy Nhiệt điện LNG Quảng Trạch II, công bố phát điện Quảng Trạch I lên lưới điện quốc gia",
+   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQWkExWWExWXNORnF5bDBBRVJCazQ5OXljdzJCeTFUWWs3QU1xS0pFV3hwVHVxTXg2d3dEQXpDWXdRX1VkU3lOVFlWTFJJTl9uQnBoWUUteVhFcHMtU0FJa085Z2czXzFVQkhuVTdrV2lnYU5PSjJrVWdKbl9adUk1aTZxMFZYTng0Sy1FZ1NacEFXdWRxdHd3SUdNT3F6OFFfSE83bXBXYVQtRjRtdGptakdNazRJTnlmS3FWd2xqNlRqZkVQbHNTMVdBVWg3TmJKbko1QUNWX2xJQnBjMlRJb2FXMVFNb1hSMDU4?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Dự án",
+   "date": "2026-10-20T07:00:00+00:00"
+  },
+  {
    "title": "Dấu ấn sáng tạo của phụ nữ EVN",
    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTEV4RGtBNkFzZ0NtUWhqakgwR2hUM1VoQmJvMWdTRzBKNDZKaDNGWjV2VzM4VGZRMmt6RzdYbnh6Qnk0X1JhOUJ4Zl9RNGJyanJqSXpxbmtIcnR4dTBiSUphSUp0MkZHY2pqbTNwUC1zM3VGSnY4TnV1LVlDaExjMU9NaVpWWW5n?oc=5",
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
@@ -1376,7 +1472,7 @@
    "link": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxPeWxSd1VmeVpWRjEtb2l5ZW1vRV9fN1BCN3pwSk5DS2c5ODd2bG5mRlZ0WDZnbUhsSTJkNHkyeTRyMEN6UVU5bFYzM2Vucm9STnlDMS1remZiczJXM2hFR1lhTDhudE03WXllY1NuNzNQNHRBdFZhcU5EV1U1VS1EZElyMTQ4SXFpWVV6OEhDRHBJSVlsR3dnNk5wNDlmeVNxNS11MFZWVXRvenZVMW0xbzlPb0d4U0o4X1J5anNTeTdXTGVONXFnNFZYMjdjYTFUY2Y1NDRWMzhYZUVrLVRhOGlPNTAzZDY5Z2Zrdk4zMXByNXlnU3dGY0N5cHRFb29uQkltZXBrSVp5UUp6d21pRGV6YXljNC1aQW43Q1lQR2N4bjRYbzhKWS1DSmhNMmdDY09YS3JOSkxHYnJQT0xHdUZfRnl2QTJFbEJHMjlrOUJWQUlrS0g1TjdqRkFqcHM?oc=5",
    "source": "Vietnam Electricity (EVN)",
    "group": "EVN",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-20T05:00:00+00:00"
   },
   {
@@ -1408,7 +1504,7 @@
    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPU2VPcnRubzdIdVNWRmxQdzZyR2NpY1FBczlZYmJncEljVGxhOVhGZEtZSDg4TWxtSWdMN3Rjd2hGMTZiTnMyZThRM3RtVzRjZ3ZCbjZqVkl0SDNIeG5TOVRUaWJsWm5GVkczUjR5S0d2eU9lWjQ4aGRwVl8tZ1JIcUh3MGVlTjREcE1YZzBUc0R2TkVyNlQ0cE9IVVhpTU84NTVCR1VaaU8xX2dVM0E?oc=5",
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
    "group": "EVN",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-19T07:00:00+00:00"
   },
   {
@@ -1432,7 +1528,7 @@
    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVzZ3b1VQRDllejN2UVEwa2xWcWVEWHV6MThEdkRFOFNuMEpGLVhNMld5T0JEMmdUVkdqZGZKYkRGeE04bjlvYWNETmg5cFY0N0Npb0NUUjRTZC1ScjBDTzYyX0Rzc0NrMy12UzJ2a0E4U0JVV2F2UzV4S3BVZmhtZ1o1SlZsRHMzQkE3WVNUWnZNcGRzU25YbHgwUFdMcDV2cG9yWmdBRHEwRUo3N3Nkbg?oc=5",
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
    "group": "EVN",
-   "topic": "Khác",
+   "topic": "Dự án",
    "date": "2026-10-19T07:00:00+00:00"
   },
   {
@@ -1440,7 +1536,7 @@
    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTlNtbW1XQVhrRjNMNnFOZ0pFRFZzT3hfT1E4aHBQYzFpVTZfeWpyWEhyVEZxbW9BdkZwaVNoTkFlZXNVOElub1Z1allOVFFOUGxkUGRad3hQMHZQamllUHhBR0tKaXQ1R1RtUGJ3Q25fRXJUemJuTngxSjJXeDVRdmZXc3RXTHJocGNjak5vbWtvVWZJMllyN0RB?oc=5",
    "source": "Báo Tiền Phong",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-19T07:00:00+00:00"
   },
   {
@@ -1464,7 +1560,7 @@
    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPeFQtS2VQdTJOVXpFX2lTOTJPazFhVGg1TWhtaFFUS2p3R0NKVGhhUTBOZm1kYS1OU2hCbV9URlFHWWxDMGhfSEVBR2d3c2xvc1BWYTFVOEdoWkVaMTFBNG5wUkgxT2lvN3NiMk9NUXBFYW9nZ2hMRndkeGpPaEZfRTBBM3NtZHlwNUZUVGJybktBcU9jTGZabk1UMlR6YWhMV1JLcm9EMWUtRFVTRVhFZDZIVlNwYmNYQS1OODkxQXdrZkFR?oc=5",
    "source": "Báo Dân Việt",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "Dự án",
    "date": "2026-10-19T07:00:00+00:00"
   },
   {
@@ -1472,6 +1568,14 @@
    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQmFEeXNyYk1FM0xwR3hDVTg4V0U1NmFpNVRENE1xcXQ2bkd2dlRFMDBFY0Y2WWlrZ29oNHVHeWg3U1lUaWV5WUxHU2g3RG9QVG9ieGxET3I0NVEwV3hKTWFRclBweUNEQld3UnZoUFI4cDBCU2xtTFR4Z2dYRzFIZHlkSU9zSC1MeXRlSEFwR01PT2ZxaVNZMWtmNUd5OFhZV2plNGVheTBsc214OFBR?oc=5",
    "source": "VnEconomy",
    "group": "Báo chí",
+   "topic": "Khác",
+   "date": "2026-10-19T07:00:00+00:00"
+  },
+  {
+   "title": "Lãnh đạo EVN chúc mừng nữ CBCNV Cơ quan EVN nhân ngày 20/10",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVEY3S0VaV2E4UE8tbGZIcnh4MnpMQVdYMHhuY1lYMjNYXzcwcTNsV2w5VzF2ZXVzM3R5TkVBWlN3OHpQZHFFcjR4a1dmQWxGWnpmVG02el9uSmpwLW56OTZWdWViOTR3cGhnVW9VNXVjWEtEbDd6MlZNcVNQazNPeGVTUUVCb1E4cjhWWXZRUktDM1hOV295MzVZWnN5WXpucG1aVFNqZGtzZUdiNnc?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
    "topic": "Khác",
    "date": "2026-10-19T07:00:00+00:00"
   },
@@ -1524,6 +1628,14 @@
    "date": "2026-10-18T07:00:00+00:00"
   },
   {
+   "title": "Đoàn Thanh niên Cơ quan EVN tổ chức giải Pickleball EVN Ladies Open 2026",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNc19CYjhWQWdtYzBCRjNqdmtfeWI5ZWJPOU1CdnJIT1YzY3RCMTBLSlJ5bGVKcHBJQkRzR0plbW00ekFTak91SmtxQTBoZnJhck03bjVPdXhRakZxcDI3SExOUmVhUUF3TG84Tm1DRTlVWE40dWYwUGhha2pGb3FWZktFYXZEMGk1YVl2eE9vNE1rbUxZY2VIRFlFWWNYNUo5SUhnQjdKNE5KSWthMl8xM25QZlF2cHpFZ1lTbzRpc0c?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Khác",
+   "date": "2026-10-18T07:00:00+00:00"
+  },
+  {
    "title": "PTC3 khẩn trương xử lý sụt trượt tại cột 161 đường dây 220kV Đức Trọng – Di Linh",
    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPaWs0Wlo4RTFQWGw5TndzNjBuaEJyMlJHamVBbGJSaVpZYk83SVNhdDlfcVJPWFJSNjVaT2NRdEhsZzRLdXZxUjc1WUZGSDRFTTRNaGQ3cjh1VTRmQlJPejZNbjUtUkZxODNYV2cyVE82ckxGVEt1RkxlczBnYVNfS0pHSEJWYUJRd1RUT00wRk1faFl3ODFNUC1ZaENZMkl5OFN0MmszT3cyc0I0NEx2THpJMEhSRHVaelpZWjBjc1pFanlQMUE?oc=5",
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
@@ -1544,7 +1656,7 @@
    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZlkxTjNyOFRuX19WNk04WVZvWlZJaUFaUFlEaXNXajBBMDg0bUFrZzVndkYyeDhmNmo2U1JRWEpUWERUZG5yZXRZZ09aWlNuZDNWTmVVZUF1UFlLdHU4VTltRWRoX2tGQnVySWlvZlRDNjNOazZFejNvTmNIbFB2S3ZCbWxOTEJjQUxnc3JvWjNxc1BuRkNsZ3RwWHNRZmNPeW1NNGlJbTNIRzcwWml2aUJGa3dWSVFiQkUyRHI0aUY2dmo4bVE?oc=5",
    "source": "Báo Dân trí",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-17T07:00:00+00:00"
   },
   {
@@ -1552,7 +1664,7 @@
    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZEdKWWJDU0gtYnlxYmJ5N2hsblVmSExxNmVYRUFsMVNIZGdob2RWNnpXSkxvRDd1amctaVpsY3B1SmpkX2l3SlVxdlNtYlRPM2dmaTRFYmdPbFRRMElsRmVUdUIzMWdwVGFHR1p1LUtaSVE3elp3cWRCVXB6QlZ2ZHY5NzB5Z1pmSUNJam1VcTVEVGthMzVENGs0ZTQ2VENBN19FcUh5cW5BVE90T1NaNQ?oc=5",
    "source": "nguoiquansat.vn",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-17T07:00:00+00:00"
   },
   {
@@ -1612,6 +1724,14 @@
    "date": "2026-10-16T07:00:00+00:00"
   },
   {
+   "title": "Hơn 5500 đảng viên EVN tham gia Hội nghị toàn quốc nghiên cứu, học tập, quán triệt và triển khai thực hiện Nghị quyết Hội nghị Trung ương 4",
+   "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQd1B4QUtBMjhhRVlTanRHY21tRUtlZXBGTExGeE1PWTk0bnAyam9odFdSdi1sV0pkOV9nVDJ1cWVuWVdCWnpTa0JiV0d3a0pWaGRpNmNwaVhGTEUxQnlHYVpXbVhvWThoR0oxMkJnMGxEdTVWNWxxSkh0Tk5kNDRXbmN2MzBDeG90dTVHZ3RsT3hSYURUX1dLdl9hY1FlS1ZlYkJxRkt0NkZWYXZmZFdWN21fRUpUaU9HZTUzNm1IWk5hVWtMRmRQSkhGa2FtTk9VLWRMekFuSmgzOHVvbkZVRW1HeklRQjJsZGsxTV96aTVEcFZCYkhtX1JWRWlDTkcwc2F1WE4zMTAtYWUyRDFkZ0hQVkZIdw?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Khác",
+   "date": "2026-10-16T07:00:00+00:00"
+  },
+  {
    "title": "Chủ động đảm bảo than cho sản xuất điện các tháng cuối năm 2026 và năm 2027",
    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWUxVeTFZSm5fVEgxTTJRUkl4empCbXFsNGhNNU1nY0xQRXZpd0JoOXlpZnNLZEFkRjV2WGNPNUJXU2JJUmZwMXloZVNUNndVRnNqWWZoSWJ1M2pnNHJ4TmlwTlYzeHpmdE5mQTVmZVB3R2l3MTlIZFJvQm4zeDVGTzk3TkRDYk9WN05wOG9OLXE5NV9pUlRscnh4UUVJbjIydE1fSzM4Yjc0X0p1UDlzQ1prOU1BV25aS29qYUN1bHhNdw?oc=5",
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
@@ -1664,7 +1784,15 @@
    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNa29TMGI3NUVwcnBmWG1KbUh1amJtVEg3TUFhajhJMWxVdGdMRE1VUzJhSUx5djJ1NkRYMzJib3gwblBWZGE3Z1ZiMVJSRm1xUGprNUlzZlhQMHZMb0pmUWZlYWhtMzFyejFqbllRUTF4NWc5RkdlTzdMLXMwemRyc1pVbi1BSkFkbXVWQWVGRGMteERUcWJkYXNibks0dFhBWFBhQ0JDM3ZaZzdG?oc=5",
    "source": "VnExpress",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
+   "date": "2026-10-15T07:00:00+00:00"
+  },
+  {
+   "title": "Đoàn Thanh niên EVN triển khai chương trình vận động phát triển điện mặt trời mái nhà",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNcXFfVDVVbjJyTmVkeldmQWhWX1lDaXhGdzUzektKRmVRZTBVdmx4Q2MzQ0JxZER4SWZDSzd3a0hxRFhqWDN3ZjdIaDRGQ01xWjdtQUpzU1h4c19RQkVqZUttbmlOLUw0M0NiX2ZxLXpTQk9JTE1wSHFkb2YzZHZ0Q1hZMlNBX0VtRU1ITE4wVVNnUUdvOFh0ZGgyVDQ0UFdEaG5rWE1za3pLYURmOEt0LUFFb29mQVRMN0hJVEhmRjdpeVpJV2tveUhUUnpvQzNkbGc?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-15T07:00:00+00:00"
   },
   {
@@ -1712,7 +1840,7 @@
    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOeU5XRExLVGJIZjRmWXhyM2hsZWMxQ3VsZjg3VkJLQXBnck5aZTZqMjdlNVRvNHpUblVPZGk1Z2VhNjRsc0lJSlpjaUhaemZFZkE1ZVpwLXZfYXp1UTRWWFVlRWpZdzBNQk1ycWI2S2FiWVdmemZoNUFKSWs3Zm8tNmI2RVhUVC01cEt1T21VQ0RVX25OMnV5aDBIYXBZWGI5Z29yS0ZUZDB1SHc5bHZEcDdWMmtVbTJlM1NJSmdia08xTUFnemM1TnFiRQ?oc=5",
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
    "group": "NSMO",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-14T07:00:00+00:00"
   },
   {
@@ -1744,7 +1872,7 @@
    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNE4zTXVQbF9EV2RiNEFma0cteDVOX1FwNm04MHV4X21xUll6bVRpMlVIQ2k1bUozc3BhNFM2dzJydEQzakFDOW55blk3Z0lpbFJxVUVZMnI2TUtCd2NEWTFlblpUalFCYjZfXzEtUklSM2syQkI1d20xZmtwUW1Kc1dTQ2JtTTQxT3pjRkZ1dTJKMkpwSi1iZVBPdDhOMkFJUFdyaUY3bjNPUFhY?oc=5",
    "source": "Báo Văn Hóa",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "Dự án",
    "date": "2026-10-13T09:43:00+00:00"
   },
   {
@@ -1768,7 +1896,7 @@
    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUWJXa01wenotd015ZWd4UHBCWkJxRmNsUjRqdS0yRHQ4bTllc2tkV0Q1SFp4UzBWQ01GOEdYM1k5WGpKSVJlOGhUQ0RDVE1Ic1AwN0FseWpjZl9HcVRRY3RQc1hxYjk3aGFxMGdWc0RrUnVxSTNFR1hQM1E0UHQ3bEtLUUswdzBJcDdTRno5VQ?oc=5",
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
    "group": "EVN",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-13T07:00:00+00:00"
   },
   {
@@ -1800,7 +1928,7 @@
    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONmhaWTVodDdmS1hSdjg1WmM3NTRaU3YyeWVtM01YaE9xR1g5Q2U5TWRlMWsteW1DLTdVQjV4OWFTMFlVYzh5WnB5VkxweTdqM2pKOFR3dFl1eVZLbUtTZG41aGo5QTlWZkt5N25MRzJxWDRRNzU3M0s3bzkwUndhV1c0N3Ywd2xvaEV4NkZxOUFDTVhZS1BTVUd0YTRadGx3cDNOVWl4VklLOVQ1dFJ4T1J3?oc=5",
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-13T07:00:00+00:00"
   },
   {
@@ -1808,7 +1936,7 @@
    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZ2t2QWNSX2dJNEM4ZDBpdTcyQWZadjRCNW9QUHNCdk5vakJ6X2pDR1RmQjY5ems5NFR4bDZXelpFaWJ3czdUSEtVVlJRa29WaU9faVptZjJFblY5MlY0QlNGbElhSTRjVUtQQWhDQzYzRXpZemVOdl9BRkdsUFlrLWVnaERXZVBIRHo1bzkzWWRTN1MtcElLdTV1UVhkTFk?oc=5",
    "source": "Báo Nhân Dân điện tử",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-13T07:00:00+00:00"
   },
   {
@@ -1816,7 +1944,7 @@
    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMHlGSWszNWZ6S1ZHTmxJc0ZxRGpWMEdaUFpXMS1vRVpkUDFya0xmTUtDcC00eDdpd2FtVjJrUG0xUkUzdUUwT3FkQm1iQ09xUHVCZEJITEFCekEwUGpLc2ktQXl2cnpVM3hRTExDdVEwTWtlZTNpbVFRVm84RWpQc0lHdS1YS2lfWDV5c01wNDNsWEZwakNYUXV6SVdLekdyQ0pv?oc=5",
    "source": "Báo Nhân Dân điện tử",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-13T07:00:00+00:00"
   },
   {
@@ -1896,7 +2024,7 @@
    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSWRHY2JRWWM1RzYtdU5lc3lQd1NURVdpNXlnMWNxTVRQUjQzSGpBMllFT21HR0xGMGRubXNyRk96UE1YNW1NbzN5bFhoSHhVcEZ5Z0k5d1N6RVY4ZDMzbDEwX0Z5UFRoV3RmLUhjdVl6eEk2bEFsdUU1U0hBNVBfcDJrbGJBZkhsbnlscHBmZTBUMWM5SE9KdkJlM3JDcnkwMW10c1ZGTU9CNkZDZ3Bv?oc=5",
    "source": "Tuổi Trẻ",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-12T07:00:00+00:00"
   },
   {
@@ -1904,7 +2032,7 @@
    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVU1WNzFVZG0xTjFLVXMzY1NDclY0UkYyR3NnNkVmYVRJR3piWHV5QTRjR2dnNFQzZW10T18yanItLUFIT0lRd3M2VjdxV01GZ21kZkt0UjFvSEdwQzQ4NVdmeVVoaWZRbjB4c1VtS1JUdmhySER6S3Jua3ozbGVyLVQ2aWVBRW53STBySVFXRHhxYkgxMUdCQUdYb2xRRURyOFp4TUNzbkJqY1l6SmpwallVVW9hbjQ?oc=5",
    "source": "Laodong.vn",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-12T07:00:00+00:00"
   },
   {
@@ -1920,7 +2048,7 @@
    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQlM4YzFuVV9nRlB1bnpjNTlsZXZHa0tzU1lJMjlhbjF0MDhzV0hIQkVpbl9XcWlheExabUJJb19RUGlBZlJqVklFcEhqRVloa2JxT1BwWFRuYlRCX0N3MVg2dGJVRUJvSTNFRUdib3RFaGlwQWhEVk1XLUx2a0RQZHdTTkxqUHdtWEJEaUI2blZ2MEFjTHFBMHVYbTRQRUdEVUFuWFltd213Zw?oc=5",
    "source": "baodautu",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-12T07:00:00+00:00"
   },
   {
@@ -1945,6 +2073,14 @@
    "source": "Tạp chí Công Thương",
    "group": "Báo chí",
    "topic": "Vận hành",
+   "date": "2026-10-10T07:00:00+00:00"
+  },
+  {
+   "title": "EVN đẩy mạnh chuyển đổi số, lấy khách hàng làm trung tâm",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQLTJWTkR6cTkzcmFBUS1RMjdfTVp0N3loM0QyTThFVVNCOWJINm11Q0lIb2ZrRVIwZkd6ZE9hbUZvNjJYTjlfUkQzSER5anRUZjJOWlpNbGx4U0ZYeXozVUZXYVVneEtFQ1MwdG9KbXVHOFVMaVhFNUN2QUIzZHYyZm1OQzdYV09PbjYwWXhzNFJHTThORkp4RTN6TEh1b0ZXbWg1TUw0dngxUQ?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Khác",
    "date": "2026-10-10T07:00:00+00:00"
   },
   {
@@ -1984,7 +2120,7 @@
    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWlRIX21FQTc2aWY0TERtOGZacU40Slk5RkVtcUNrb21hYVA5dEtzWGl6UjVMWk96Nk9JM1AzYm1KQXhuTkJYZHh3c0JsOGJibmdkd21IZE95U0Z5SDJkR1hvWFFfZzVkWEt4R1RNTGRaR0s5Vi1hSUtJci1XZjl2MnFpSldaR2NVanVhMlFMdHI0Z2htTlRmVHNXenhTczY5VEtzN0xHclZhbU5NM1dRRWpWcVFCMmd4TExtNXNiaGFrUXprOXNNWg?oc=5",
    "source": "Laodong.vn",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "Dự án",
    "date": "2026-10-09T07:00:00+00:00"
   },
   {
@@ -2024,7 +2160,7 @@
    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObGdhZ1Q0UUR0eDJPUEd1d1d5VWFUd1hNY3E1SG9rampfNXZVdXJLRFpFT1hQYXktNjBGUHBJR0hFWXZYdnF2ZUsxVW5vc1BDWUFTYkNOalVaYlNiMnpkVDdwVUk3R1FCc3Y0UF9laTR6ZWlaTG05RklKQmNUaF9kMWI5WlJSalgwaVpGZ0o2ek9UU1lCdkdoQ2ozeG1wdWh4b1dfOTU3ajkxb3NIcVljYmg2WVVCSG8?oc=5",
    "source": "Báo Dân trí",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-08T07:00:00+00:00"
   },
   {
@@ -2032,7 +2168,7 @@
    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQWJtZHJxOXNrX2l2Z0J2N2RVc3J4a1hYUFJEQTFsb1EzdW1LeDZUSWlOeE9lMVBGNllrUmphNmpoajlmeU1DZ2Vya00xWUNaT2JXUzNLZlVLTU5XMG9yTjVqRUZMU0lOTWFfNGd0VHZUcG1HLWFRT2pPSHVKTVV2VUxUZW1WWkg5M29TVDN2bnIwTjFIRF9lV1llRWsteC1Ma2pkdHJoSW93dHBvbnVOaDRlbTRFTU9a?oc=5",
    "source": "Vietstock",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-08T07:00:00+00:00"
   },
   {
@@ -2040,7 +2176,7 @@
    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOODJyOU82NUlVQV85ZHlBNS1pWmM3VVFEZk0wemRVd2JXaDhFMnkyQ3ZSdVpWWWJFRnc2X25zZTl1Z19nakZwaXNRakMxaDE2TFQ1UmVsdVRKSnN4LS1Za3VkZVVwam9FeGhFN0JvcGZFOEV5TG14YWV3ejJmal8tQkJzOUgyMTVTMHdSR01UdldUVjM1QlY3Vjl2VkhTTlZLUC1iRkxLdGtYUW1uWGxRSmZld1VvWW5mU3c?oc=5",
    "source": "baochinhphu.vn",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "Dự án",
    "date": "2026-10-08T07:00:00+00:00"
   },
   {
@@ -2064,7 +2200,7 @@
    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUmdVYmlSNEdnVEhhMkdNTUVtbzRsX0tlMklLM0xxYW91UGJhdWRWN0pwcXhzWF9wR25vaG52WnAyMmxGUFAxV2l1RWQwV1JFblBKS3RjS0dnOVpPQTQ5aFNLbGNhNnQyRnNxM3dQSTlXX2JIeXBCWGZBUGN5VldCSmRlbFZZV29kVGVwb0ZmeUwzTkdteFI3TzA5bW1CaWp4Snc?oc=5",
    "source": "baodautu",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "Vận hành",
    "date": "2026-10-08T07:00:00+00:00"
   },
   {
@@ -2072,6 +2208,22 @@
    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSXA1Uk9vd1I2Q3BkdEIzTV90Y2FaTVpEUkxrbHM3YUlSNDR2TEpHemhQdXZnRkdITDRBSFIzTUNfeXlJN2c3SDkzUm5feWd4M0gwRjRmNW01SzNDY2Z6aEN6ejFERnE1UmtJZ0xWN0FhZ2FQeXBuTjBZaERSU3VRajFjcHBSUDZ5X2hn?oc=5",
    "source": "CafeF",
    "group": "Báo chí",
+   "topic": "Khác",
+   "date": "2026-10-08T07:00:00+00:00"
+  },
+  {
+   "title": "EVN làm việc với EVNHCMC về công tác đầu tư xây dựng",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPM2laTGM0RFUyMGNRZWVUYkNzZWZxMGtvb1F6NDk0MEhaaVl3UW1kYTdtMTE1SmxhTXE1QzZHR1ZORWdkYzNUSlFMYWpBYl9KdW5BR29PUnRNWXFnci13UDZ0ZGpDRVVNYXBsa2J2U0VQZ0o5dHozTmMxVUxfZnpGMDJBQ3F5eHJkbmRFZmpqS0N2b2F2NnY0YWtsdjZmS0U2R1lz?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Dự án",
+   "date": "2026-10-08T07:00:00+00:00"
+  },
+  {
+   "title": "Hội nghị Ban Chấp hành Đảng bộ EVN lần thứ 7, sơ kết công tác 9 tháng năm 2026",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaU00NjhoNFVMd3B6Y083dElmRGF2c2VWRTZfMzVkQ29ISjVKZktMMU1zRzN5cDdJUmIyc1JHSVhPTlp0MmE1MG55ZUt6OE9TWTd5bGxsOWtUNUduS3Q4MUs1Tjc4SHZ6RUNHWE04eFN1YnlRWGtQSlR4WmI3SlI5NDIxbDN2MTdJSTFLZ2I3TkpvQ0Z5Y2tnUGdvRFNtNjJVT3lSM0RtNzJnNkN1Ym82YVhmWWV4Vkh2Y3UyVzF3YlhnTXg5c2c?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
    "topic": "Khác",
    "date": "2026-10-08T07:00:00+00:00"
   },
@@ -2096,7 +2248,7 @@
    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOXzhUS2FBLW5aX29fTXhEdWlnWFA1YkhlVzJDNTVIVUc4QUwzNlFqcEFwU0o0RDh3c0ROblU1Um8zN1Y5OVZVRnNSRVhmcVowVms1dzJKT0ViaWY0RUl3UkVfZUctbWhjUFpOaHdQMFlVM0xaLUF6dVdwcnQ2UmVwU3NfNFR4cXc?oc=5",
    "source": "VTV.vn",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "Vận hành",
    "date": "2026-10-07T07:00:00+00:00"
   },
   {
@@ -2132,6 +2284,14 @@
    "date": "2026-10-07T07:00:00+00:00"
   },
   {
+   "title": "Năm trung tâm chăm sóc khách hàng EVN trao đổi kinh nghiệm nâng cao chất lượng phục vụ",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOSmtVZjk4ZE11c0duTHMwRnN4VlJSOE5KUjY4eE1kNlFUQTJoRDdTZUNYZTdUR3dxZG1kSnl1ejdBUlhyTnB5VUhrRnpNcW5RU1pHRUh3Q0F1T1U1TExwLVVYYUtSLXdvb2FtdS1QQUZ3Z2ljcks1LTByaFVuZF95XzRHSHlOZGI4Y1NNOVdBNWxoY2lXeHVVaEc3RkFqX25wM0s3am5IN2dHV3NwRklEX1ZJYUw4WFc1VmdGRDZDVUo1SDN1QkpxZlgxUzB1amE0azBj?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Khác",
+   "date": "2026-10-07T07:00:00+00:00"
+  },
+  {
    "title": "Bộ Công Thương lấy ý kiến về đề xuất 14 giải pháp ngăn cháy nhà dân do chập điện",
    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMVBnbGRsdVAtSDNQZ0Uta0lxR1gyTmE1aXpySTdIWFFiSG53VXEwRWRGR2lBVDNWeVhDV0JkT1Qzb2FsczdrWUF2cEJjMGhxZTVQQlRKbUlkZl9OdUpPRWJGaXdYRVNrTUxkbk1sUV9hekVFV0NMRW5ldlZQbHhCWmRaUWdUSUp1ZUVGQVZVSkJWOTk2Wks3SEozZGU4V0xXWmJocmttTzA2ZjFzOVFRVlNTYw?oc=5",
    "source": "moit.gov.vn",
@@ -2160,7 +2320,7 @@
    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQR2hNOTY1T21DZmt0MkJIeE43YjdnR0hlX3lrZ1pWdjhkc0UybTdZS3dKUW5uYzllVGVST0tUUUpkeUJ5VC1ubUYxZWN5cXlJVXl3LWVDQUtNZFlEWVdzNm9rYXRMcW0yNDNVNmJ3MmZrdHdqeHQyVU0tVWwzR2hodWFVZ1VMb0MtVlFZWTNPb1Z0Rm9LSWpHU0ZrVlVjWlZmcjN0YlJ5RVEyQTRCM2ZlREpSeGowRkdNbzluVnpmaHVLMXZNRGJoWG0tc1AtLWdtWWgtSG12N3lVa3A0NVMxaEJIQnAta2dHTFB4TmszRQ?oc=5",
    "source": "Năng lượng Việt Nam Online",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-06T07:00:00+00:00"
   },
   {
@@ -2168,7 +2328,7 @@
    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMU1IdjlWdklWZk5mVlhqMHl0SjhoZjR4dkcxaWNzeV9WMjFGWEgxMlByQy1tTV9zM2pIajNETnVDc1c4TTBpMlZEVDU0eTZWdGUzOE42ZnFEUXN0dlhoZmdJQ1FZRjEtS29nUDVYUjNKRG1LUW9NQWVmdlhFT0xNcEpMT24xZHlNalE?oc=5",
    "source": "Báo Lâm Đồng",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-06T07:00:00+00:00"
   },
   {
@@ -2177,6 +2337,22 @@
    "source": "Bnews.vn",
    "group": "Báo chí",
    "topic": "Chính sách",
+   "date": "2026-10-06T07:00:00+00:00"
+  },
+  {
+   "title": "Đoàn Thanh niên EVN phát động chương trình ‘Thu pin cũ – Đổi cây xanh’",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUWJlelJLQmxOckFwYVVnUWFIM2dsYnNfLUpxdHhZRklfS1lzeGswUnFHMDhmV2VFbFBpeXJWOHJrdHgxT2RRRXhleWFEcEpIMGVNODlLeFE0aFY3R3VJZExhdjJvVWtIS20wNVNkVENLNWxZbWRqRjFLbkNHV0pwejlCVTkyQVFrUXRleDY0OGVBMUdIN0ZlT2p1QkJmcy1GQXVfSFo2LWJUVXpDTWlZaUJSZGxXUFZf?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Khác",
+   "date": "2026-10-06T07:00:00+00:00"
+  },
+  {
+   "title": "EVN đặt mục tiêu phát điện thương mại 2 tổ máy Nhiệt điện Quảng Trạch I trong quý IV",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMUh6VnFLX1V5cWt6WVhUaWtfU3ROampabnNVODNkLTdUX1piWW55TGFsVEFlZEh4SlAwRHhYbHBZYTNOS2hvd3ptREZDOEMxTE9Pb3ZXLUV3dVRZMmUwU2dZUGlCTlpFbjQ2SWZ6RkdVd0gtZGFKNzhyQWs1dHdmRVZKRFdJbEZudi1xcWFjeXBjUGRLQUxVQlpVLXE3MUIteW5LNEw0ZGlScHo3Umt3SUFjMA?oc=5",
+   "source": "Bnews.vn",
+   "group": "NSMO",
+   "topic": "Khác",
    "date": "2026-10-06T07:00:00+00:00"
   },
   {
@@ -2192,7 +2368,7 @@
    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPODNaOTh3U0VpWnFaZzFDd3VmRWlnVjhJVmc1cVFRNk0wVzFsYXF2N2lBVS1JclMzcDZwWnJnZDNHODdmWktSSW1UX0JFaUtZUFZ4ZWVlRV9vVzBaUTJoczF4TXd5cXg4dTBEY3BoUVBfQ1VIUExfQmF3dkMzbFJDc2J4TVJhUkphTlhtVy1JeGQ5THNfaHNfRUtPTlY0NUgtdmFoUUJ3S0Q2MklhaWxYUWVRbUxWMGdTOEs0Sm0wMi1hR2lKMWxYMDh3X0FqRnNu?oc=5",
    "source": "Tuổi Trẻ",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-05T07:00:00+00:00"
   },
   {
@@ -2200,7 +2376,15 @@
    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxONmxsdXFkbVFzZmROcG56cFdJZlZON1hqNWNRcDMyYlZMV1RyYzMwR21odVVDdUoyc1lOZUdzeDQyZWRyR0Z1VXBWd0FWZzFKOU5yOEhKRXNBaHgtTGRRbWgwbWVTdTJfM3pTR05PTlgxdmc3YTFOSFNMSERkTjByYXFFNGhiclJDMWtVY19BZGJ1dWU1aGZ2bnVZOWk2Zw?oc=5",
    "source": "Bnews.vn",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
+   "date": "2026-10-05T07:00:00+00:00"
+  },
+  {
+   "title": "EVN ủng hộ 1 tỷ đồng hỗ trợ phụ nữ, trẻ em mắc bệnh hiểm nghèo",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWGYtRlJhOHRGanF4cHZ0b0tPeENTSHNweEdWcTR4eTZLeFcyNEVsVHpfNi02Q203UjdXR1lRNHpWZ2Rrb016cE1La0VlbjJINGpnOUVXT3NWYW5yTXBmekFzUlZFVS1ZLVV2RjVqRU80bFdjY0lYLTBpNkhreTlpVjVSUzFPZ0xnOVdwYmVnand3SGZSRWlHWHF6bWM5SW1uUkhiZWYxbnNkcWxPV3FJ?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Dự án",
    "date": "2026-10-05T07:00:00+00:00"
   },
   {
@@ -2208,7 +2392,7 @@
    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNa084N3lfUVduYzFiSHJfRDBodmxxbnV0UkRFTG9iUVppWmVYOTRsNXF0dnJ1WEFDMmh3TDVYNlU3ODItZ1AxTi1jd2tPTW9rdV9TOGZ1ZEk3cTNQSXhrV1pEaWhfdkUtZlpFdmJ4bU4zSFhHdzVOdDllZE9lbmVqMnhLa3R2OFJCT0tqY0g1RTVxNWJibS00TGlR?oc=5",
    "source": "VnExpress",
    "group": "Báo chí",
-   "topic": "Khác",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-03T07:00:00+00:00"
   },
   {
@@ -2218,102 +2402,6 @@
    "group": "Báo chí",
    "topic": "Chính sách",
    "date": "2026-10-03T07:00:00+00:00"
-  },
-  {
-   "title": "Bộ Công Thương: Điện mặt trời mái nhà sẽ tiếp tục được thúc đẩy để bổ sung nguồn điện",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSU1lTmNmMnpZY1I4aW1RMXpSU1hyUjJDdElrdnhxT2wzTmxFbE43UFVLdlN4NUpMejJ3dVFjOHFOV1l5djRtZVczOC1VTUltNDRzeXZHalBTbDhxZ2xkdTNWUk0xMlVZU3pIcS0wTDBORkgwbElWRzdXUXlHaEhnZ2FfT21tOGwxTnVwU3J6MXJ5a0c2WXBrSGZsdkl1VzRucXRtVEplWWdocnNmbnJIQVhRNFhrRTVy?oc=5",
-   "source": "Báo Hànộimới",
-   "group": "Báo chí",
-   "topic": "Khác",
-   "date": "2026-10-03T07:00:00+00:00"
-  },
-  {
-   "title": "Sẽ sửa Luật Điện lực và điều chỉnh Quy hoạch Điện VIII",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPM05tZ2s0OW44WnJ3bDBSYmVoNnF5cEVCRllkTmJLYlRENVVVLUFsZlN4cGc1UFhORzlvSnBTWmpTdjNQTUU3VUJpeVdDMVUtR1YydWJCbVQxQ19RR1poRlRDbkIya1BoTU9FWWdvNTQxZFNnT3pXU0R3S0MtamFYZDY1eFY3Vmw2Q1RveC1iQ293cGppSFgtamE5U3FJNEk0dTBGWXBTZ9IBowFBVV95cUxOQ2VTZ0htZTg2cE9NQk1EazdKUFBpdW9aQVJGbFRmOC00aUFrTmUwdkFjZU9FZlcxTWpGWmRYX3l5M1Qtam90N2k4alFMaWhyWEhIRDFRdkE4c0duLXNiaU4tYzExa0JZTWpPaU00Zk1FR0VtMlJKNkZYUnFNUDBoSjhnLW9KNlA3Ni1vOU8wR290bFZ6RmE2LW1Fc2U1UHpHMnJv?oc=5",
-   "source": "Tin nhanh chứng khoán",
-   "group": "Báo chí",
-   "topic": "Chính sách",
-   "date": "2026-10-03T07:00:00+00:00"
-  },
-  {
-   "title": "Lý do triển khai Quy hoạch điện VIII 'tương đối chậm'",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNl9XR3BLWEZMNWR0cWxzbmhzWHVmaTdCY0JIYThGay0xV19DZk5RVVZjYjVRVHZraGhGSGlrb09ER0xnWGFzQXJId0JmV3Z6N1YwbE1sRlQ4cFVMQm5QXzhLLWNWVEQ2Z1NyT0lSZTh2YUVCeHVPaU92Z3hYckVIYzZ4ZTVTRGVmWHFCeHg4Q2dmZw?oc=5",
-   "source": "Báo Tiền Phong",
-   "group": "Báo chí",
-   "topic": "Chính sách",
-   "date": "2026-10-03T07:00:00+00:00"
-  },
-  {
-   "title": "Rà soát Quy hoạch điện VIII, thay thế nguồn điện chậm tiến độ",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNTh2bXdDUnpkSUxOWU14c05zWTROMFZOYTVPX2FPOUcxMGNoOWUwZkIxNWJUaHJ6eUFtVjJNM0dSdzZaNmhGSERRbkxQbkQzekVBWE1vd1F4UVdLT0M1WlRXUDI3dzJUcjJ1bkJ2Unh4ZG1IU3lyeldtMkNLM3JHMFEwU2FndEFLLTRlalpvdTRpbXJobVhOX0YzOW9sR2VR?oc=5",
-   "source": "VietnamFinance",
-   "group": "Báo chí",
-   "topic": "Chính sách",
-   "date": "2026-10-03T07:00:00+00:00"
-  },
-  {
-   "title": "Bộ Công Thương ban hành quyết định phê duyệt Quy trình vận hành hồ chứa thủy điện Bó Sinh",
-   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPY2IwOHpMNy11NWdpWS1BVUVENTM5WkFFeHZBU1kzcG5vVFpxNFJLM0stUFRhNHItRWhDWWhLVUFyM18tNHFBWElmSnNnNU5PRmRFcWRnNWt3TXp4dEFTZXdFcUZhLWZpeXdicG5RX2k3RkZxS2FUcGRROXdvSTZSOWlwcDNTVWw2RlMwT0YyTXVQUXJFYmJxZkx2bmtCaWtJTndVbmNPdWVhV25lUk0xMng1ZEV3NnpRZDRuTzJTcEZLbFVnS1E?oc=5",
-   "source": "moit.gov.vn",
-   "group": "Bộ Công Thương",
-   "topic": "Chính sách",
-   "date": "2026-10-02T10:55:02+00:00"
-  },
-  {
-   "title": "Hải Phòng thúc đẩy kết nối qua thương mại điện tử",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPY3ljbko2VjRENWtOZ21laFZzcE5ZS3ZCYkZrT1NVQnRkRVhiTVNHM1EwaDFRRzUtOGo4SHRkR0E1RFpSaEJqbGxRT2JmcHFjeUxCMHdqbEFHcFZ1REtYX1lKTTBQMkJmZG15blRNSkhuclM2OFVKakFzVHk1clpQVE9qN2ZoZm5ENzJWVnZmV1I?oc=5",
-   "source": "moit.gov.vn",
-   "group": "Bộ Công Thương",
-   "topic": "Khác",
-   "date": "2026-10-02T07:00:00+00:00"
-  },
-  {
-   "title": "EVNNPC đóng điện 22 hệ thống BESS, tổng công suất 145MW",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSlBIQ2cybDMzRXBMU01fMlNsdGxMSHgxTV9PaWxKa0FOMzJJM3ZtTEtkWVNOcHRwcE41VGpObC1oakl2OFZRbVVXd0l0bkQzUkt3Y1J4UEdUN0kwRGsyZ2ExZG9ZNXI5RE11enY3ZU9oOFNMWkZrRVpMVS1zVFNoX2EyU0dhUFpQLVFOYndrMENZQWVxS0V3aFBZSHhzRmdabHZwMWJR?oc=5",
-   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
-   "group": "NSMO",
-   "topic": "Dự án",
-   "date": "2026-10-02T07:00:00+00:00"
-  },
-  {
-   "title": "Chủ động các giải pháp bảo đảm cung ứng điện và an toàn sử dụng điện",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcW54cFM1QVJBRDdRZDBQSUtLWG9xdzRMV2oyQkQxWUFrTmpXRjNWLThxZkhXR0ZBb1dUazZLeGpVTDl4bl9SQVdDSWJ6RF9KNWZERktuSXRCUWJoOWs4eHhaRjZ3MTZmbXRGbDZfaFBhRENyeWpLSllJZjhlQTQ5ei02cHFNTkVaZFRzSkFrdTU0Sk11QjlUMWNtMFJMbU5FQnF5X3NEeExlWENMTVFPQXg1cXZvYWZRTTRfRVVB?oc=5",
-   "source": "thanglong.chinhphu.vn",
-   "group": "Chính phủ",
-   "topic": "Vận hành",
-   "date": "2026-10-02T07:00:00+00:00"
-  },
-  {
-   "title": "Bảo đảm an ninh năng lượng: Đẩy mạnh điện mặt trời mái nhà, tháo gỡ rào cản đầu tư",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOLUloRFd2MWxFMUJHNFVpWmU2Z1ptRU1PbDAtQ1lkNW9CMzVWTU8xZkJnZnJjQUdtNjFudW1PNFZxbTJjOEU3OF9yX0d0d2lSX21QT1Nubi0ycGJhczJkeHB1eFR3TlhId3U2NlVJWlNCSnJ2c0xxLUNpcFhmdmxSM3lfVlRPMllodzhaTGVnZTNDYTRaODhNSGZKeUxmSGlzWm8xN3VIU1ptZmp5RlhueFY2RFJra0xMRWVqQVd2U2g?oc=5",
-   "source": "Vietnam+ (VietnamPlus)",
-   "group": "Báo chí",
-   "topic": "Khác",
-   "date": "2026-10-02T07:00:00+00:00"
-  },
-  {
-   "title": "Ra mắt Nhóm Năng lượng VBLC, tăng kết nối pháp lý cho thị trường điện",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWGpZN2hBNGFDSExIbktKaVpWbG4xd0VrSlJUcmQzS2FVeENGOGo3Tnp1cThVZnVNWEZNSkItUlVTbzk3bHlvcWZQcFRLM016S1h3Mmw3ODdhdG5wdGlyaUFaRXZ5cTgtRWVaN2FaSVBFa1Zhd1o2TkN3Z0lmRXJ2UVpFSENId3p0ejZPYkRBbHctcG9UbmtXRlNQY3MwSjRSQVlV?oc=5",
-   "source": "baodautu",
-   "group": "Báo chí",
-   "topic": "Khác",
-   "date": "2026-10-02T07:00:00+00:00"
-  },
-  {
-   "title": "Trạm sạc xe điện tại Việt Nam được tham gia mua bán điện trực tiếp, nhưng phải đáp ứng điều kiện này",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQQnlucnN1dVBHZUtPLTlXSkVYeFp1bUFPNFNxOUkyQmtkbGtsYnpvUG1FUElKdTRzVlVHLWdhZGZveFBmdTZoamU1cUtRNnVfS0M3cUdwdjV1V3RweVVjeDk2TF9aeU9NUUJ4STdneFE0cE5VclA1amJUSVdkenRfeGw4ckZBQ3dlcnNuNFdtNWk1Z0JnX3BmMGUwU3BNUE1LOEpjUkpaX2NFNjRuSG9KOUU3aTVmT2R3aTAzbzF6N0hOMnVUbkRXSWUzUHJxT0xp?oc=5",
-   "source": "nguoiquansat.vn",
-   "group": "Báo chí",
-   "topic": "Khác",
-   "date": "2026-10-02T07:00:00+00:00"
-  },
-  {
-   "title": "Deputy Prime Minister Pham Gia Tuc Meets with Vietnam Electricity",
-   "link": "https://vietnamenergy.vn/deputy-prime-minister-pham-gia-tuc-meets-with-vietnam-electricity-36649.html",
-   "source": "Tạp chí Năng lượng VN",
-   "group": "Tạp chí Năng lượng VN",
-   "topic": "Khác",
-   "date": "2026-09-17T13:46:12+00:00"
   }
  ]
 }
