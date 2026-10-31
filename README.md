@@ -1,4 +1,4 @@
-# Sổ tay Dự án Năng lượng
+# Sổ tay chuyên môn ngành điện
 
 Sổ tay tra cứu và tự kiểm tra cho phát triển, xây dựng, quản lý dự án năng lượng tại Việt Nam.
 

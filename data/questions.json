@@ -1273,5 +1273,605 @@
   "a": 1,
   "e": "Khoản 1 Điều 66: công bố công khai tối thiểu 12 tháng kể từ ngày cấp hoặc gia hạn; chủ đầu tư công khai tại công trường suốt quá trình thi công.",
   "b": "Khoản 1 Điều 66 NĐ 217/2026/NĐ-CP"
+ },
+ {
+  "id": "d01",
+  "topic": "NĐ 206 – Tổng mức đầu tư",
+  "level": 1,
+  "q": "NĐ 206/2026/NĐ-CP có hiệu lực thi hành từ ngày nào và thay thế văn bản nào?",
+  "o": [
+   "01/7/2026, thay NĐ 10/2021/NĐ-CP",
+   "15/6/2026, thay NĐ 15/2021",
+   "01/01/2026, thay NĐ 68/2019",
+   "01/7/2026, thay NĐ 175/2024"
+  ],
+  "a": 0,
+  "e": "Khoản 1, 3 Điều 38: hiệu lực từ 01/7/2026; NĐ 10/2021/NĐ-CP về quản lý chi phí đầu tư xây dựng hết hiệu lực từ ngày này.",
+  "b": "Khoản 1, 3 Điều 38 NĐ 206/2026/NĐ-CP"
+ },
+ {
+  "id": "d02",
+  "topic": "NĐ 206 – Tổng mức đầu tư",
+  "level": 2,
+  "q": "Nội dung nào KHÔNG thuộc phạm vi điều chỉnh của NĐ 206/2026?",
+  "o": [
+   "Dự toán xây dựng",
+   "Định mức và chỉ số giá xây dựng",
+   "Tổng mức đầu tư xây dựng",
+   "Thanh toán, quyết toán hợp đồng xây dựng"
+  ],
+  "a": 3,
+  "e": "Khoản 2 Điều 1: Nghị định không điều chỉnh giá hợp đồng xây dựng, thanh toán, quyết toán hợp đồng xây dựng; thanh toán và quyết toán vốn đầu tư xây dựng.",
+  "b": "Khoản 2 Điều 1 NĐ 206/2026/NĐ-CP"
+ },
+ {
+  "id": "d03",
+  "topic": "NĐ 206 – Tổng mức đầu tư",
+  "level": 2,
+  "q": "Dự án đầu tư kinh doanh (vốn tư nhân) áp dụng NĐ 206/2026 thế nào?",
+  "o": [
+   "Chỉ áp dụng phần định mức",
+   "Không được áp dụng",
+   "Tham khảo để xác định và quản lý chi phí, tự chịu trách nhiệm về quyết định của mình",
+   "Bắt buộc áp dụng toàn bộ"
+  ],
+  "a": 2,
+  "e": "Khoản 2 Điều 2: tổ chức, cá nhân của các dự án ngoài khoản 1 (đầu tư công, PPP, chi thường xuyên NSNN) tham khảo Nghị định và chịu trách nhiệm về quyết định của mình.",
+  "b": "Khoản 2 Điều 2 NĐ 206/2026/NĐ-CP"
+ },
+ {
+  "id": "d04",
+  "topic": "NĐ 206 – Tổng mức đầu tư",
+  "level": 1,
+  "q": "Sơ bộ tổng mức đầu tư xây dựng gồm những khoản mục chi phí nào?",
+  "o": [
+   "Chỉ chi phí xây dựng và thiết bị",
+   "Chi phí thiết bị và dự phòng",
+   "Chi phí xây dựng, lãi vay, thuế",
+   "Bồi thường, hỗ trợ, tái định cư; xây dựng; thiết bị; quản lý dự án; tư vấn; chi phí khác; dự phòng"
+  ],
+  "a": 3,
+  "e": "Khoản 1 Điều 4: gồm chi phí bồi thường, hỗ trợ và tái định cư (nếu có); xây dựng; thiết bị (nếu có); quản lý dự án; tư vấn xây dựng; chi phí khác và dự phòng.",
+  "b": "Khoản 1 Điều 4 NĐ 206/2026/NĐ-CP"
+ },
+ {
+  "id": "d05",
+  "topic": "NĐ 206 – Tổng mức đầu tư",
+  "level": 2,
+  "q": "Sơ bộ tổng mức đầu tư được dự tính trên cơ sở nào?",
+  "o": [
+   "Báo giá của nhà thầu EPC đã ký",
+   "Kết quả đấu thầu",
+   "Quy mô, công suất theo phương án thiết kế sơ bộ và suất vốn đầu tư, suất chi phí hoặc dữ liệu dự án tương tự",
+   "Thiết kế bản vẽ thi công"
+  ],
+  "a": 2,
+  "e": "Khoản 2 Điều 4: dự tính trên cơ sở quy mô, công suất theo thiết kế sơ bộ và suất vốn đầu tư, suất chi phí, giá nhóm công tác, giá bộ phận kết cấu hoặc dữ liệu công trình tương tự.",
+  "b": "Khoản 2 Điều 4 NĐ 206/2026/NĐ-CP"
+ },
+ {
+  "id": "d06",
+  "topic": "NĐ 206 – Tổng mức đầu tư",
+  "level": 3,
+  "q": "Dự án dùng công nghệ mới chưa phổ biến ở Việt Nam, chưa có suất vốn đầu tư và dữ liệu tương tự trong nước. Sơ bộ tổng mức đầu tư xác định thế nào?",
+  "o": [
+   "Lấy bằng 120% dự án gần nhất",
+   "Không được lập",
+   "Chờ Bộ Xây dựng ban hành suất vốn",
+   "Tham khảo, sử dụng giá, định mức nước ngoài và dữ liệu dự án tương tự ở nước ngoài, có phân tích, quy đổi phù hợp điều kiện Việt Nam"
+  ],
+  "a": 3,
+  "e": "Khoản 2 Điều 4: được tham khảo, sử dụng giá, định mức nước ngoài và dữ liệu chi phí dự án tương tự ở nước ngoài, có phân tích, tính toán phù hợp mặt bằng giá và điều kiện thực hiện tại Việt Nam.",
+  "b": "Khoản 2 Điều 4 NĐ 206/2026/NĐ-CP"
+ },
+ {
+  "id": "d07",
+  "topic": "NĐ 206 – Tổng mức đầu tư",
+  "level": 2,
+  "q": "Việc thẩm định, phê duyệt sơ bộ tổng mức đầu tư được thực hiện vào thời điểm nào?",
+  "o": [
+   "Khi lập dự toán gói thầu",
+   "Khi quyết toán dự án",
+   "Đồng thời với thẩm định, quyết định chủ trương đầu tư",
+   "Sau khi phê duyệt dự án"
+  ],
+  "a": 2,
+  "e": "Khoản 4 Điều 4: thực hiện đồng thời với quá trình thẩm định, quyết định chủ trương đầu tư dự án.",
+  "b": "Khoản 4 Điều 4 NĐ 206/2026/NĐ-CP"
+ },
+ {
+  "id": "d08",
+  "topic": "NĐ 206 – Tổng mức đầu tư",
+  "level": 2,
+  "q": "Chi phí sử dụng đất, thuê đất tính trong thời gian xây dựng thuộc khoản mục nào của tổng mức đầu tư?",
+  "o": [
+   "Chi phí xây dựng",
+   "Chi phí quản lý dự án",
+   "Chi phí bồi thường, hỗ trợ và tái định cư",
+   "Chi phí khác"
+  ],
+  "a": 2,
+  "e": "Điểm a khoản 1 Điều 5: chi phí sử dụng đất, thuê đất trong thời gian xây dựng thuộc chi phí bồi thường, hỗ trợ và tái định cư.",
+  "b": "Điểm a khoản 1 Điều 5 NĐ 206/2026/NĐ-CP"
+ },
+ {
+  "id": "d09",
+  "topic": "NĐ 206 – Tổng mức đầu tư",
+  "level": 2,
+  "q": "Chi phí chạy thử thiết bị theo yêu cầu kỹ thuật thuộc khoản mục nào?",
+  "o": [
+   "Chi phí xây dựng",
+   "Chi phí thiết bị",
+   "Chi phí dự phòng",
+   "Chi phí tư vấn"
+  ],
+  "a": 1,
+  "e": "Điểm c khoản 1 Điều 5: chi phí thiết bị gồm mua sắm, lắp đặt, thí nghiệm, hiệu chỉnh, chạy thử theo yêu cầu kỹ thuật, vận chuyển, bảo hiểm, thuế…",
+  "b": "Điểm c khoản 1 Điều 5 NĐ 206/2026/NĐ-CP"
+ },
+ {
+  "id": "d10",
+  "topic": "NĐ 206 – Tổng mức đầu tư",
+  "level": 1,
+  "q": "Chi phí dự phòng trong tổng mức đầu tư gồm những phần nào?",
+  "o": [
+   "Chỉ dự phòng trượt giá",
+   "Dự phòng bảo hành công trình",
+   "Dự phòng cho khối lượng, công việc phát sinh và dự phòng cho yếu tố trượt giá",
+   "Dự phòng rủi ro tỷ giá và lãi vay"
+  ],
+  "a": 2,
+  "e": "Điểm g khoản 1 Điều 5: dự phòng cho khối lượng, công việc phát sinh và dự phòng cho yếu tố trượt giá trong thời gian thực hiện dự án.",
+  "b": "Điểm g khoản 1 Điều 5 NĐ 206/2026/NĐ-CP"
+ },
+ {
+  "id": "d11",
+  "topic": "NĐ 206 – Tổng mức đầu tư",
+  "level": 2,
+  "q": "Với dự án chỉ lập Báo cáo kinh tế - kỹ thuật, tổng mức đầu tư gồm những gì?",
+  "o": [
+   "Dự toán xây dựng công trình, chi phí bồi thường, hỗ trợ, tái định cư (nếu có) và chi phí liên quan tính chung cho dự án",
+   "Chỉ chi phí xây dựng",
+   "Sơ bộ tổng mức đầu tư nhân hệ số 1,1",
+   "Giá gói thầu thi công"
+  ],
+  "a": 0,
+  "e": "Khoản 6 Điều 5: gồm dự toán xây dựng công trình theo Điều 12, chi phí bồi thường, hỗ trợ, tái định cư (nếu có) và chi phí liên quan tính chung cho dự án.",
+  "b": "Khoản 6 Điều 5 NĐ 206/2026/NĐ-CP"
+ },
+ {
+  "id": "d12",
+  "topic": "NĐ 206 – Tổng mức đầu tư",
+  "level": 2,
+  "q": "Chi phí dự phòng cho khối lượng, công việc phát sinh trong tổng mức đầu tư được tính thế nào?",
+  "o": [
+   "Bằng chỉ số giá xây dựng nhân thời gian",
+   "Bằng tỷ lệ % trên tổng các chi phí bồi thường, xây dựng, thiết bị, QLDA, tư vấn và chi phí khác",
+   "Bằng số tiền cố định do Bộ Tài chính quy định",
+   "Bằng 10% chi phí thiết bị"
+  ],
+  "a": 1,
+  "e": "Điểm g khoản 2 Điều 6: tính bằng tỷ lệ % trên tổng các khoản mục chi phí tại điểm a, b, c, d, đ, e; dự phòng trượt giá tính theo thời gian thực hiện và chỉ số giá.",
+  "b": "Điểm g khoản 2 Điều 6 NĐ 206/2026/NĐ-CP"
+ },
+ {
+  "id": "d13",
+  "topic": "NĐ 206 – Tổng mức đầu tư",
+  "level": 3,
+  "q": "Không có giá vật liệu, thiết bị phù hợp từ các nguồn thông tin, chủ đầu tư được làm gì để xác định giá?",
+  "o": [
+   "Lấy giá cao nhất trong các báo giá",
+   "Tự ấn định giá",
+   "Thuê tổ chức thẩm định giá có năng lực, kinh nghiệm theo pháp luật về giá",
+   "Chờ Sở Xây dựng công bố"
+  ],
+  "a": 2,
+  "e": "Điểm đ khoản 5 Điều 6: trường hợp không có giá hoặc có nhưng không phù hợp, chủ đầu tư được thuê tổ chức thẩm định giá có năng lực, kinh nghiệm.",
+  "b": "Điểm đ khoản 5 Điều 6 NĐ 206/2026/NĐ-CP"
+ },
+ {
+  "id": "d14",
+  "topic": "NĐ 206 – Tổng mức đầu tư",
+  "level": 2,
+  "q": "Thẩm tra tổng mức đầu tư xây dựng được thực hiện khi nào và bởi ai?",
+  "o": [
+   "Trước khi thẩm định, bởi tổ chức tư vấn có năng lực, kinh nghiệm về quản lý chi phí",
+   "Sau quyết toán, bởi kiểm toán",
+   "Sau thẩm định, bởi cơ quan chuyên môn",
+   "Đồng thời với cấp phép xây dựng, bởi Sở Xây dựng"
+  ],
+  "a": 0,
+  "e": "Khoản 1 Điều 8: thẩm tra do tổ chức tư vấn có năng lực, kinh nghiệm trong lĩnh vực quản lý chi phí thực hiện trước khi thẩm định.",
+  "b": "Khoản 1 Điều 8 NĐ 206/2026/NĐ-CP"
+ },
+ {
+  "id": "d15",
+  "topic": "NĐ 206 – Tổng mức đầu tư",
+  "level": 1,
+  "q": "Tổng mức đầu tư xây dựng được phê duyệt có ý nghĩa gì?",
+  "o": [
+   "Là giá hợp đồng EPC",
+   "Là chi phí tối đa để chủ đầu tư thực hiện dự án",
+   "Là giá trị quyết toán",
+   "Là chi phí tham khảo"
+  ],
+  "a": 1,
+  "e": "Khoản 2 Điều 9: tổng mức đầu tư được phê duyệt là chi phí tối đa để chủ đầu tư thực hiện dự án đầu tư xây dựng.",
+  "b": "Khoản 2 Điều 9 NĐ 206/2026/NĐ-CP"
+ },
+ {
+  "id": "d16",
+  "topic": "NĐ 206 – Tổng mức đầu tư",
+  "level": 3,
+  "q": "Dự án chia dự án thành phần; một dự án thành phần tăng tổng mức đầu tư nhưng không vượt tổng mức đầu tư toàn dự án, không đổi mục tiêu, quy mô. Xử lý thế nào?",
+  "o": [
+   "Phải điều chỉnh tổng mức đầu tư tại BCNCKT toàn dự án",
+   "Chủ đầu tư điều chỉnh tổng mức đầu tư dự án thành phần, không phải điều chỉnh tổng mức đầu tư toàn dự án",
+   "Phải dừng dự án thành phần",
+   "Phải xin lại chủ trương đầu tư"
+  ],
+  "a": 1,
+  "e": "Khoản 3 Điều 10: chủ đầu tư tổ chức điều chỉnh tổng mức đầu tư dự án thành phần, không phải điều chỉnh tại BCNCKT; nếu vượt tổng mức toàn dự án thì báo cáo người quyết định đầu tư.",
+  "b": "Khoản 3 Điều 10 NĐ 206/2026/NĐ-CP"
+ },
+ {
+  "id": "d17",
+  "topic": "NĐ 206 – Tổng mức đầu tư",
+  "level": 2,
+  "q": "Ai lập, thẩm định, phê duyệt dự toán chi phí chuẩn bị dự án?",
+  "o": [
+   "Cơ quan chuyên môn về xây dựng",
+   "UBND cấp tỉnh",
+   "Bộ Tài chính",
+   "Cơ quan được giao chuẩn bị dự án hoặc chủ đầu tư (nếu đã xác định)"
+  ],
+  "a": 3,
+  "e": "Khoản 2 Điều 11: cơ quan, tổ chức được giao chuẩn bị dự án hoặc chủ đầu tư (nếu đã xác định) lập, thẩm định, phê duyệt dự toán chi phí chuẩn bị dự án.",
+  "b": "Khoản 2 Điều 11 NĐ 206/2026/NĐ-CP"
+ },
+ {
+  "id": "d18",
+  "topic": "NĐ 206 – Dự toán, giá gói thầu",
+  "level": 1,
+  "q": "Chi phí xây dựng trong dự toán công trình gồm những thành phần nào?",
+  "o": [
+   "Chi phí trực tiếp và lợi nhuận",
+   "Vật liệu, nhân công, máy",
+   "Chi phí trực tiếp, chi phí gián tiếp, thu nhập chịu thuế tính trước, thuế GTGT, chi phí nhà tạm để ở và điều hành thi công",
+   "Chi phí xây dựng và thiết bị"
+  ],
+  "a": 2,
+  "e": "Khoản 2 Điều 12: chi phí xây dựng gồm chi phí trực tiếp, gián tiếp, thu nhập chịu thuế tính trước, thuế GTGT và chi phí nhà tạm để ở và điều hành thi công.",
+  "b": "Khoản 2 Điều 12 NĐ 206/2026/NĐ-CP"
+ },
+ {
+  "id": "d19",
+  "topic": "NĐ 206 – Dự toán, giá gói thầu",
+  "level": 2,
+  "q": "Chi phí gián tiếp trong dự toán được xác định thế nào?",
+  "o": [
+   "Bằng 5% chi phí trực tiếp cố định",
+   "Bằng định mức tỷ lệ % theo quy định hoặc lập dự toán",
+   "Theo báo giá nhà cung cấp",
+   "Theo khối lượng thiết kế"
+  ],
+  "a": 1,
+  "e": "Điểm b khoản 2 Điều 12: chi phí gián tiếp (chi phí chung, chi phí công việc không xác định được khối lượng) xác định bằng định mức tỷ lệ % hoặc lập dự toán.",
+  "b": "Điểm b khoản 2 Điều 12 NĐ 206/2026/NĐ-CP"
+ },
+ {
+  "id": "d20",
+  "topic": "NĐ 206 – Dự toán, giá gói thầu",
+  "level": 2,
+  "q": "Khi thiết kế triển khai sau là thiết kế FEED hoặc thiết kế kỹ thuật, chi phí trực tiếp được xác định theo đâu?",
+  "o": [
+   "Theo tổng mức đầu tư nhân hệ số",
+   "Theo khối lượng và giá nhóm công tác, giá bộ phận, đơn vị kết cấu, giá công tác, suất chi phí",
+   "Theo giá hợp đồng tương tự",
+   "Chỉ theo giá công tác xây dựng chi tiết"
+  ],
+  "a": 1,
+  "e": "Điểm a khoản 2 Điều 12: với FEED/TKKT, chi phí trực tiếp theo khối lượng và giá nhóm công tác, giá bộ phận, đơn vị kết cấu, giá công tác, suất chi phí.",
+  "b": "Điểm a khoản 2 Điều 12 NĐ 206/2026/NĐ-CP"
+ },
+ {
+  "id": "d21",
+  "topic": "NĐ 206 – Dự toán, giá gói thầu",
+  "level": 2,
+  "q": "Dự toán gói thầu xây dựng có thể gồm các công việc nào?",
+  "o": [
+   "Chỉ mua sắm thiết bị",
+   "Tư vấn xây dựng, thi công, cung cấp vật tư, thiết bị lắp đặt vào công trình và công việc liên quan",
+   "Chỉ thi công xây dựng",
+   "Chỉ bồi thường giải phóng mặt bằng"
+  ],
+  "a": 1,
+  "e": "Khoản 1 Điều 13: dự toán gói thầu gồm một hoặc một số công việc: tư vấn, thi công, cung cấp vật tư, thiết bị lắp đặt vào công trình và các công việc liên quan.",
+  "b": "Khoản 1 Điều 13 NĐ 206/2026/NĐ-CP"
+ },
+ {
+  "id": "d22",
+  "topic": "NĐ 206 – Dự toán, giá gói thầu",
+  "level": 2,
+  "q": "Dự toán công việc xây dựng (Điều 14) dùng cho trường hợp nào?",
+  "o": [
+   "Chỉ công việc thi công phần ngầm",
+   "Chỉ công việc khảo sát",
+   "Công việc trong tổng mức đầu tư chưa có định mức hoặc hướng dẫn xác định bằng dự toán",
+   "Mọi công việc có định mức"
+  ],
+  "a": 2,
+  "e": "Khoản 1 Điều 14: dự toán chi phí cho công việc trong tổng mức đầu tư chưa được quy định định mức xây dựng hoặc hướng dẫn xác định bằng dự toán.",
+  "b": "Khoản 1 Điều 14 NĐ 206/2026/NĐ-CP"
+ },
+ {
+  "id": "d23",
+  "topic": "NĐ 206 – Dự toán, giá gói thầu",
+  "level": 1,
+  "q": "Giá gói thầu xây dựng là gì?",
+  "o": [
+   "Giá trúng thầu",
+   "Dự toán chưa gồm thuế",
+   "Giá trị quyết toán gói thầu",
+   "Giá trị gói thầu được phê duyệt trong kế hoạch lựa chọn nhà thầu, gồm cả dự phòng, phí, lệ phí và thuế"
+  ],
+  "a": 3,
+  "e": "Khoản 1 Điều 15: giá gói thầu là giá trị gói thầu được phê duyệt trong kế hoạch lựa chọn nhà thầu, gồm toàn bộ chi phí, kể cả dự phòng, phí, lệ phí và thuế.",
+  "b": "Khoản 1 Điều 15 NĐ 206/2026/NĐ-CP"
+ },
+ {
+  "id": "d24",
+  "topic": "NĐ 206 – Dự toán, giá gói thầu",
+  "level": 2,
+  "q": "Dự toán xây dựng do chủ đầu tư lập được thẩm định cùng với thủ tục nào?",
+  "o": [
+   "Thẩm định chủ trương đầu tư",
+   "Nghiệm thu hoàn thành",
+   "Cấp giấy phép xây dựng",
+   "Thẩm định thiết kế xây dựng triển khai sau khi dự án được phê duyệt"
+  ],
+  "a": 3,
+  "e": "Khoản 1 Điều 16: dự toán được thẩm định cùng thẩm định thiết kế xây dựng triển khai sau khi dự án được phê duyệt.",
+  "b": "Khoản 1 Điều 16 NĐ 206/2026/NĐ-CP"
+ },
+ {
+  "id": "d25",
+  "topic": "NĐ 206 – Dự toán, giá gói thầu",
+  "level": 3,
+  "q": "Dự án dùng thiết kế FEED tại BCNCKT và đã chọn nhà thầu EPC. Có phải thẩm định dự toán xây dựng công trình ở bước triển khai sau không?",
+  "o": [
+   "Chỉ thẩm định phần thiết bị",
+   "Chỉ thẩm định khi vượt 10% giá hợp đồng",
+   "Không phải thẩm định dự toán ở bước triển khai sau",
+   "Có, bắt buộc"
+  ],
+  "a": 2,
+  "e": "Khoản 11 Điều 16: dự án dùng FEED/TKKT tại BCNCKT và đã lựa chọn nhà thầu EPC, EC, EP, thi công thì không phải thẩm định dự toán ở bước triển khai sau.",
+  "b": "Khoản 11 Điều 16 NĐ 206/2026/NĐ-CP"
+ },
+ {
+  "id": "d26",
+  "topic": "NĐ 206 – Dự toán, giá gói thầu",
+  "level": 2,
+  "q": "Việc thẩm tra dự toán xây dựng công trình do ai quyết định?",
+  "o": [
+   "Chủ đầu tư quyết định căn cứ đặc điểm, tính chất và sự cần thiết",
+   "Cơ quan chuyên môn về xây dựng",
+   "Bộ Tài chính",
+   "Bắt buộc với mọi công trình"
+  ],
+  "a": 0,
+  "e": "Khoản 8 Điều 16: việc thẩm tra dự toán do chủ đầu tư quyết định căn cứ đặc điểm, tính chất và sự cần thiết.",
+  "b": "Khoản 8 Điều 16 NĐ 206/2026/NĐ-CP"
+ },
+ {
+  "id": "d27",
+  "topic": "NĐ 206 – Dự toán, giá gói thầu",
+  "level": 3,
+  "q": "Cơ quan nào quy định chi phí thẩm tra, thẩm định dự toán và cơ quan nào quy định phí thẩm định dự toán?",
+  "o": [
+   "Bộ Xây dựng quy định chi phí thẩm tra, thẩm định; Bộ Tài chính quy định phí thẩm định",
+   "Cả hai do Bộ Tài chính",
+   "UBND tỉnh quy định cả hai",
+   "Cả hai do Bộ Xây dựng"
+  ],
+  "a": 0,
+  "e": "Khoản 10 Điều 16: Bộ Xây dựng quy định chi phí thẩm tra, thẩm định dự toán; Bộ Tài chính quy định phí thẩm định dự toán.",
+  "b": "Khoản 10 Điều 16 NĐ 206/2026/NĐ-CP"
+ },
+ {
+  "id": "d28",
+  "topic": "NĐ 206 – Dự toán, giá gói thầu",
+  "level": 2,
+  "q": "Dự toán gói thầu do chủ đầu tư phê duyệt có tác dụng gì đối với kế hoạch lựa chọn nhà thầu?",
+  "o": [
+   "Thay thế giá gói thầu trong kế hoạch lựa chọn nhà thầu",
+   "Thay thế giá hợp đồng",
+   "Thay thế tổng mức đầu tư",
+   "Không liên quan"
+  ],
+  "a": 0,
+  "e": "Khoản 3 Điều 17: chủ đầu tư phê duyệt dự toán gói thầu để thay thế giá gói thầu trong kế hoạch lựa chọn nhà thầu theo pháp luật đấu thầu.",
+  "b": "Khoản 3 Điều 17 NĐ 206/2026/NĐ-CP"
+ },
+ {
+  "id": "d29",
+  "topic": "NĐ 206 – Dự toán, giá gói thầu",
+  "level": 3,
+  "q": "Gói thầu đã ký hợp đồng cần điều chỉnh dự toán. Chủ đầu tư xác định dự toán điều chỉnh căn cứ vào đâu?",
+  "o": [
+   "Nội dung hợp đồng xây dựng phù hợp pháp luật về hợp đồng và quy định quản lý chi phí tại thời điểm điều chỉnh",
+   "Ý kiến nhà thầu",
+   "Mặt bằng giá tại thời điểm điều chỉnh, bỏ qua hợp đồng",
+   "Dự toán ban đầu cộng 10%"
+  ],
+  "a": 0,
+  "e": "Điểm b khoản 1 Điều 18: với gói thầu đã ký hợp đồng, căn cứ nội dung hợp đồng xây dựng phù hợp pháp luật về hợp đồng và quy định quản lý chi phí tại thời điểm điều chỉnh.",
+  "b": "Điểm b khoản 1 Điều 18 NĐ 206/2026/NĐ-CP"
+ },
+ {
+  "id": "d30",
+  "topic": "NĐ 206 – Định mức, giá, chi phí QLDA và tư vấn",
+  "level": 1,
+  "q": "Hệ thống định mức xây dựng gồm những loại nào?",
+  "o": [
+   "Định mức dự toán và suất vốn đầu tư",
+   "Định mức kinh tế - kỹ thuật (định mức cơ sở, định mức dự toán) và định mức chi phí",
+   "Định mức cơ sở và đơn giá",
+   "Định mức vật liệu và định mức lao động"
+  ],
+  "a": 1,
+  "e": "Khoản 1 Điều 19: gồm định mức kinh tế - kỹ thuật (định mức cơ sở và định mức dự toán) và định mức chi phí.",
+  "b": "Khoản 1 Điều 19 NĐ 206/2026/NĐ-CP"
+ },
+ {
+  "id": "d31",
+  "topic": "NĐ 206 – Định mức, giá, chi phí QLDA và tư vấn",
+  "level": 2,
+  "q": "Định mức chi phí là cơ sở để xác định khoản chi phí nào?",
+  "o": [
+   "Giá nhân công",
+   "Chi phí vật liệu chính",
+   "Giá ca máy",
+   "Chi phí gián tiếp, thu nhập chịu thuế tính trước, chi phí quản lý dự án, chi phí tư vấn và một số chi phí khác"
+  ],
+  "a": 3,
+  "e": "Khoản 4 Điều 19: định mức chi phí (tỷ lệ % hoặc giá trị) là cơ sở xác định chi phí gián tiếp, thu nhập chịu thuế tính trước, chi phí QLDA, tư vấn và chi phí khác.",
+  "b": "Khoản 4 Điều 19 NĐ 206/2026/NĐ-CP"
+ },
+ {
+  "id": "d32",
+  "topic": "NĐ 206 – Định mức, giá, chi phí QLDA và tư vấn",
+  "level": 2,
+  "q": "Cơ quan nào ban hành định mức dự toán cho công tác xây dựng chuyên ngành chưa có trong hệ thống định mức của Bộ Xây dựng?",
+  "o": [
+   "UBND cấp xã",
+   "Bộ quản lý công trình xây dựng chuyên ngành",
+   "Chủ đầu tư",
+   "Hiệp hội nghề nghiệp"
+  ],
+  "a": 1,
+  "e": "Điểm b khoản 1 Điều 20: bộ quản lý công trình xây dựng chuyên ngành ban hành định mức dự toán cho công tác thuộc chuyên ngành chưa có trong hệ thống của Bộ Xây dựng.",
+  "b": "Điểm b khoản 1 Điều 20 NĐ 206/2026/NĐ-CP"
+ },
+ {
+  "id": "d33",
+  "topic": "NĐ 206 – Định mức, giá, chi phí QLDA và tư vấn",
+  "level": 2,
+  "q": "Theo Điều 22, giá các yếu tố chi phí trực tiếp cấu thành giá công tác xây dựng gồm những gì?",
+  "o": [
+   "Chi phí chung và lợi nhuận",
+   "Suất vốn đầu tư và suất chi phí",
+   "Giá thiết bị công nghệ và chi phí lắp đặt",
+   "Giá vật liệu, giá nhân công, giá ca máy và thiết bị thi công"
+  ],
+  "a": 3,
+  "e": "Khoản 2 Điều 22: gồm giá vật liệu xây dựng, giá nhân công xây dựng, giá ca máy và thiết bị thi công.",
+  "b": "Khoản 2 Điều 22 NĐ 206/2026/NĐ-CP"
+ },
+ {
+  "id": "d34",
+  "topic": "NĐ 206 – Định mức, giá, chi phí QLDA và tư vấn",
+  "level": 3,
+  "q": "\"Suất vốn đầu tư xây dựng\" theo NĐ 206/2026 được hiểu là gì?",
+  "o": [
+   "Giá trị khấu hao hằng năm",
+   "Tỷ lệ vốn chủ sở hữu tối thiểu",
+   "Lãi suất vay vốn đầu tư",
+   "Mức chi phí cần thiết cho một đơn vị diện tích, công suất hoặc năng lực phục vụ của dự án, công trình theo thiết kế"
+  ],
+  "a": 3,
+  "e": "Điểm đ khoản 1 Điều 22: suất vốn đầu tư là mức chi phí cần thiết cho một đơn vị tính theo diện tích, thể tích, chiều dài, công suất hoặc năng lực phục vụ (ví dụ đồng/kW).",
+  "b": "Điểm đ khoản 1 Điều 22 NĐ 206/2026/NĐ-CP"
+ },
+ {
+  "id": "d35",
+  "topic": "NĐ 206 – Định mức, giá, chi phí QLDA và tư vấn",
+  "level": 2,
+  "q": "Cơ quan nào xác định và công bố chỉ số giá xây dựng quốc gia theo năm?",
+  "o": [
+   "Bộ Xây dựng",
+   "Ngân hàng Nhà nước",
+   "Bộ Tài chính",
+   "Tổng cục Thống kê"
+  ],
+  "a": 0,
+  "e": "Điểm a khoản 3 Điều 23: Bộ Xây dựng hướng dẫn phương pháp, xác định và công bố chỉ số giá xây dựng quốc gia theo năm; Sở Xây dựng xác định chỉ số trên địa bàn tỉnh.",
+  "b": "Điểm a khoản 3 Điều 23 NĐ 206/2026/NĐ-CP"
+ },
+ {
+  "id": "d36",
+  "topic": "NĐ 206 – Định mức, giá, chi phí QLDA và tư vấn",
+  "level": 3,
+  "q": "Dự án quan trọng quốc gia có công trình kỹ thuật phức tạp, công nghệ mới, chưa có thông tin giá thiết bị. Người quyết định đầu tư được thành lập tổ chức nào để xác định giá?",
+  "o": [
+   "Ban đơn giá xây dựng công trình",
+   "Tổ công tác liên ngành Bộ Tài chính",
+   "Hội đồng nghiệm thu nhà nước",
+   "Hội đồng thẩm định giá quốc gia"
+  ],
+  "a": 0,
+  "e": "Khoản 5 Điều 24: người quyết định đầu tư được thành lập Ban đơn giá xây dựng công trình; chi phí hoạt động tính trong tổng mức đầu tư.",
+  "b": "Khoản 5 Điều 24 NĐ 206/2026/NĐ-CP"
+ },
+ {
+  "id": "d37",
+  "topic": "NĐ 206 – Định mức, giá, chi phí QLDA và tư vấn",
+  "level": 2,
+  "q": "Chi phí quản lý dự án được xác định bằng phương pháp nào?",
+  "o": [
+   "Theo tỷ lệ cố định 3% tổng mức đầu tư",
+   "Theo báo giá tư vấn",
+   "Bằng định mức tỷ lệ % theo quy định hoặc lập dự toán phù hợp hình thức quản lý, thời gian, quy mô dự án",
+   "Theo lương bình quân ngành"
+  ],
+  "a": 2,
+  "e": "Khoản 1 Điều 25: chi phí QLDA là chi phí tối đa, xác định bằng định mức tỷ lệ % hoặc lập dự toán phù hợp hình thức tổ chức QLDA, thời gian, quy mô dự án.",
+  "b": "Khoản 1 Điều 25 NĐ 206/2026/NĐ-CP"
+ },
+ {
+  "id": "d38",
+  "topic": "NĐ 206 – Định mức, giá, chi phí QLDA và tư vấn",
+  "level": 3,
+  "q": "Hợp đồng EPC giao nhà thầu thực hiện một số công việc QLDA của chủ đầu tư. Chi phí QLDA xử lý thế nào?",
+  "o": [
+   "Chuyển thành chi phí tư vấn không giới hạn",
+   "Nhà thầu không được hưởng",
+   "Tăng thêm chi phí QLDA tương ứng",
+   "Nhà thầu được hưởng một phần chi phí QLDA phù hợp phạm vi công việc được giao, tổng không vượt chi phí QLDA đã duyệt"
+  ],
+  "a": 3,
+  "e": "Khoản 4, 5 Điều 25: nhà thầu EPC được hưởng một phần chi phí QLDA theo thỏa thuận; tổng chi phí QLDA của các bên không vượt chi phí đã duyệt.",
+  "b": "Khoản 4, 5 Điều 25 NĐ 206/2026/NĐ-CP"
+ },
+ {
+  "id": "d39",
+  "topic": "NĐ 206 – Định mức, giá, chi phí QLDA và tư vấn",
+  "level": 2,
+  "q": "Chi phí tư vấn xây dựng đã phê duyệt được điều chỉnh khi nào?",
+  "o": [
+   "Khi lương tối thiểu vùng tăng",
+   "Khi thay đổi phạm vi công việc, điều kiện và tiến độ thực hiện công tác tư vấn",
+   "Không được điều chỉnh",
+   "Bất kỳ lúc nào chủ đầu tư yêu cầu"
+  ],
+  "a": 1,
+  "e": "Khoản 3 Điều 26: chi phí tư vấn đã duyệt là chi phí tối đa, chỉ điều chỉnh khi thay đổi phạm vi công việc, điều kiện và tiến độ thực hiện tư vấn.",
+  "b": "Khoản 3 Điều 26 NĐ 206/2026/NĐ-CP"
+ },
+ {
+  "id": "d40",
+  "topic": "NĐ 206 – Định mức, giá, chi phí QLDA và tư vấn",
+  "level": 2,
+  "q": "Chi phí thuê tư vấn nước ngoài được xác định trên cơ sở nào?",
+  "o": [
+   "Theo dự toán hoặc dữ liệu chi phí thuê tư vấn nước ngoài của dự án tương tự tại Việt Nam",
+   "Theo báo giá duy nhất của tư vấn",
+   "Theo định mức tỷ lệ % của Bộ Xây dựng",
+   "Bằng 2 lần chi phí tư vấn trong nước"
+  ],
+  "a": 0,
+  "e": "Khoản 2 Điều 27: xác định theo dự toán hoặc cơ sở dữ liệu chi phí thuê tư vấn nước ngoài của công trình, dự án tương tự tại Việt Nam.",
+  "b": "Khoản 2 Điều 27 NĐ 206/2026/NĐ-CP"
  }
 ]
