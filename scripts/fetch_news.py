@@ -16,7 +16,7 @@ from pathlib import Path
 OUT = Path(__file__).resolve().parent.parent / "data" / "news.json"
 KEEP_DAYS = 45
 MAX_ITEMS = 300
-UA = "Mozilla/5.0 (so-tay-nang-luong news bot)"
+UA = "Mozilla/5.0 (sotaynangluong news bot)"
 
 
 def gnews(q):
