@@ -27,7 +27,7 @@
 body{background:var(--bg);color:var(--ink);font:15px/1.6 var(--f-body);margin:0}
 .app{display:grid;grid-template-columns:240px minmax(0,1fr);min-height:100vh}
 aside{background:linear-gradient(160deg,rgba(255,255,255,.07),transparent 45%),repeating-linear-gradient(135deg,rgba(255,255,255,.025) 0 2px,transparent 2px 14px),var(--steel);color:#e3eee5;padding-block:24px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:16px;position:sticky;top:0;height:100vh;display:flex;flex-direction:column;gap:20px}
-.brand{font-family:var(--f-display);font-weight:700;font-size:28px;line-height:1.08}
+.brand{font-family:var(--f-display);font-weight:700;font-size:24px;line-height:1.08}
 .brand small{display:block;font:500 11px/1.4 var(--f-mono);letter-spacing:.12em;color:var(--side-hi);margin-top:8px}
 nav{display:flex;flex-direction:column;gap:4px}
 nav a{display:flex;gap:10px;align-items:baseline;color:#d3e3d6;text-decoration:none;padding:9px 10px;border-radius:6px;font-weight:500}
@@ -203,3 +203,6 @@ nav a .k{min-width:28px}
 .side-info a{color:var(--side-hi)}
 .foot a,.hint a{color:var(--accent)}
 .ncard .nbody{padding:14px 16px}
+
+/* Thuật ngữ viết tắt */
+abbr[title] { text-decoration: underline dotted; text-underline-offset: 3px; text-decoration-color: color-mix(in srgb, currentColor 45%, transparent); cursor: help; }

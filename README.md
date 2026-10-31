@@ -1,4 +1,4 @@
-# Sổ tay ngành điện
+# Sổ tay đầu tư xây dựng ngành điện
 
 Sổ tay tra cứu và tự kiểm tra cho phát triển, xây dựng, quản lý dự án năng lượng tại Việt Nam.
 
@@ -57,7 +57,7 @@ Sửa `data/questions.json` trực tiếp trên GitHub (biểu tượng bút ch�
 - Đề bốc ngẫu nhiên từ ngân hàng, đảo thứ tự đáp án.
 - Chỉ đề đủ số câu và chọn "Mọi mức độ" mới tính xếp hạng.
 - Xếp hạng theo điểm cao nhất của mỗi người, bằng điểm thì thời gian ngắn hơn đứng trước.
-- Giới hạn: điểm chấm trên trình duyệt (gói miễn phí). Quy tắc Firestore chặn điểm vượt thang, điểm không khớp số câu đúng và thời gian làm bài dưới 3 giây/câu. Quản trị viên xóa được lượt thi bất thường.
+- Bảng xếp hạng mang tính tham khảo. Giới hạn: điểm chấm trên trình duyệt (gói miễn phí). Quy tắc Firestore chặn điểm vượt thang, điểm không khớp số câu đúng và thời gian làm bài dưới 3 giây/câu. Quản trị viên xóa được lượt thi bất thường.
 
 ## Tin tức
 

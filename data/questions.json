@@ -5,7 +5,7 @@
   "level": 1,
   "q": "Luật Điện lực số 61/2024/QH15 có hiệu lực thi hành từ ngày nào?",
   "o": [
-   "01/07/2024",
+   "01/03/2025",
    "01/01/2025",
    "01/02/2025",
    "01/07/2025"
@@ -20,10 +20,10 @@
   "level": 2,
   "q": "Cơ chế mua bán điện trực tiếp (DPPA) theo NĐ 57/2025/NĐ-CP gồm những hình thức nào?",
   "o": [
-   "Chỉ qua đường dây kết nối riêng",
-   "Chỉ qua lưới điện quốc gia",
+   "Chỉ qua lưới điện quốc gia với EVN làm bên trung gian",
+   "Qua lưới điện quốc gia và qua sàn giao dịch điện năng",
    "Qua đường dây kết nối riêng và qua lưới điện quốc gia",
-   "Qua hợp đồng với EVN làm bên trung gian bắt buộc"
+   "Chỉ qua đường dây kết nối riêng giữa hai bên mua bán"
   ],
   "a": 2,
   "e": "NĐ 57/2025 quy định hai hình thức: mua bán qua đường dây kết nối riêng và mua bán qua lưới điện quốc gia.",
@@ -35,10 +35,10 @@
   "level": 1,
   "q": "Trong hệ thống điện Việt Nam, lưới điện truyền tải là lưới có cấp điện áp:",
   "o": [
-   "Từ 35 kV trở lên",
    "Từ 110 kV trở lên",
+   "Từ 500 kV trở lên",
    "Từ 220 kV trở lên",
-   "Từ 500 kV trở lên"
+   "Từ 35 kV trở lên"
   ],
   "a": 2,
   "e": "Lưới truyền tải gồm cấp điện áp từ 220 kV trở lên; lưới 110 kV trở xuống thuộc lưới phân phối.",
@@ -51,8 +51,8 @@
   "q": "Hệ thống BESS 50 MW / 200 MWh có tỷ số C-rate danh định bằng bao nhiêu?",
   "o": [
    "0,25C",
-   "0,5C",
    "1C",
+   "0,50C",
    "4C"
   ],
   "a": 0,
@@ -65,10 +65,10 @@
   "level": 1,
   "q": "Văn bản nào hướng dẫn quản lý dự án đầu tư xây dựng theo Luật Xây dựng 135/2025/QH15?",
   "o": [
-   "NĐ 15/2021/NĐ-CP",
-   "NĐ 175/2024/NĐ-CP",
+   "NĐ 212/2026/NĐ-CP",
+   "NĐ 206/2026/NĐ-CP",
    "NĐ 217/2026/NĐ-CP",
-   "NĐ 06/2021/NĐ-CP"
+   "NĐ 175/2024/NĐ-CP"
   ],
   "a": 2,
   "e": "NĐ 217/2026/NĐ-CP quy định chi tiết Luật Xây dựng 135/2025 về quản lý dự án, thay thế hệ thống nghị định cũ.",
@@ -81,28 +81,13 @@
   "q": "Theo NĐ 217/2026, đường dây tải điện được xếp vào loại công trình nào sau đây?",
   "o": [
    "Công trình xây dựng theo tuyến",
-   "Công trình ảnh hưởng lớn đến an toàn cộng đồng trong mọi trường hợp",
-   "Công trình chính của dự án",
-   "Công trình xây dựng tạm"
+   "Công trình hạ tầng kỹ thuật khung",
+   "Công trình công nghiệp năng lượng đặc thù",
+   "Công trình ảnh hưởng lớn đến an toàn cộng đồng"
   ],
   "a": 0,
   "e": "Khoản 3 Điều 3 liệt kê đường dây tải điện là ví dụ của công trình xây dựng theo tuyến, cùng với đường bộ, đường ống dẫn dầu khí, đập đầu mối thủy điện…",
   "b": "Khoản 3 Điều 3 NĐ 217/2026/NĐ-CP"
- },
- {
-  "id": "b02",
-  "topic": "NĐ 217 – Phân loại, lập dự án",
-  "level": 1,
-  "q": "Danh mục công trình ảnh hưởng lớn đến an toàn, lợi ích cộng đồng được quy định ở đâu trong NĐ 217/2026?",
-  "o": [
-   "Do Bộ Xây dựng ban hành riêng",
-   "Phụ lục I",
-   "Phụ lục IV",
-   "Phụ lục III"
-  ],
-  "a": 2,
-  "e": "Khoản 2 Điều 3 dẫn chiếu danh mục tại Phụ lục IV ban hành kèm Nghị định.",
-  "b": "Khoản 2 Điều 3 NĐ 217/2026/NĐ-CP"
  },
  {
   "id": "b03",
@@ -110,10 +95,10 @@
   "level": 2,
   "q": "\"Thời gian thực hiện dự án\" theo NĐ 217/2026 được tính từ thời điểm nào đến thời điểm nào?",
   "o": [
-   "Từ khi quyết định đầu tư đến khi hoàn thành, bàn giao đưa công trình vào sử dụng",
-   "Từ khi có chủ trương đầu tư đến khi quyết toán vốn",
-   "Từ khi khởi công đến khi nghiệm thu hoàn thành",
-   "Từ khi được cấp giấy phép xây dựng đến khi hết bảo hành"
+   "Từ quyết định đầu tư đến khi hoàn thành, bàn giao đưa vào sử dụng",
+   "Từ chủ trương đầu tư đến khi quyết toán vốn đầu tư dự án",
+   "Từ khi cấp giấy phép xây dựng đến khi hết thời hạn bảo hành",
+   "Từ ngày khởi công đến khi nghiệm thu hoàn thành toàn bộ công trình"
   ],
   "a": 0,
   "e": "Khoản 6 Điều 3: tính từ thời điểm quyết định đầu tư đến thời điểm hoàn thành, bàn giao đưa vào sử dụng các công trình của dự án.",
@@ -125,10 +110,10 @@
   "level": 1,
   "q": "Công việc nào thuộc giai đoạn chuẩn bị dự án theo Điều 4 NĐ 217/2026?",
   "o": [
-   "Lập, thẩm định thiết kế triển khai sau khi dự án được phê duyệt",
-   "Lập, thẩm định Báo cáo nghiên cứu khả thi và phê duyệt dự án",
-   "Cấp giấy phép xây dựng",
-   "Nghiệm thu hoàn thành công trình"
+   "Cấp giấy phép xây dựng cho các công trình",
+   "Lập, thẩm định BCNCKT và phê duyệt dự án",
+   "Ký kết hợp đồng xây dựng với nhà thầu thi công",
+   "Lập, thẩm định thiết kế triển khai sau phê duyệt"
   ],
   "a": 1,
   "e": "Điểm a khoản 1 Điều 4 xếp việc lập, thẩm định BCNCKT/BCKTKT và phê duyệt dự án vào giai đoạn chuẩn bị dự án; các phương án còn lại thuộc giai đoạn thực hiện.",
@@ -140,9 +125,9 @@
   "level": 2,
   "q": "Với dự án không phải khẩn cấp, cấp bách, PPP hay chìa khóa trao tay, ai quyết định thực hiện tuần tự hay đồng thời các công việc của giai đoạn thực hiện và kết thúc xây dựng?",
   "o": [
+   "Chủ đầu tư dự án",
    "Cơ quan chuyên môn về xây dựng",
-   "Ủy ban nhân dân cấp tỉnh",
-   "Chủ đầu tư",
+   "UBND cấp tỉnh nơi có dự án",
    "Người quyết định đầu tư"
   ],
   "a": 3,
@@ -155,7 +140,7 @@
   "level": 2,
   "q": "Dự án của doanh nghiệp sử dụng vốn ODA, vốn vay ưu đãi nước ngoài được quản lý hoạt động xây dựng theo quy định đối với loại dự án nào?",
   "o": [
-   "Dự án PPP",
+   "Dự án đầu tư theo phương thức PPP",
    "Dự án đầu tư công đặc biệt",
    "Dự án đầu tư công",
    "Dự án đầu tư kinh doanh"
@@ -170,10 +155,10 @@
   "level": 2,
   "q": "Khi NĐ 217/2026 và pháp luật về vốn ODA quy định khác nhau về cùng một vấn đề đối với dự án dùng vốn ODA, áp dụng thế nào?",
   "o": [
-   "Ưu tiên NĐ 217/2026",
-   "Áp dụng văn bản ban hành sau",
-   "Ưu tiên pháp luật về quản lý sử dụng vốn ODA, vốn vay ưu đãi nước ngoài",
-   "Do người quyết định đầu tư lựa chọn"
+   "Ưu tiên áp dụng Nghị định 217/2026/NĐ-CP",
+   "Người quyết định đầu tư lựa chọn văn bản áp dụng",
+   "Ưu tiên pháp luật về quản lý, sử dụng vốn ODA",
+   "Áp dụng văn bản có hiệu lực ban hành sau"
   ],
   "a": 2,
   "e": "Khoản 3 Điều 5: ưu tiên áp dụng pháp luật về quản lý sử dụng vốn ODA, vốn vay ưu đãi nước ngoài.",
@@ -185,8 +170,8 @@
   "level": 1,
   "q": "Dự án đầu tư xây dựng có tổng mức đầu tư tối đa bao nhiêu (không gồm bồi thường, GPMB, tiền sử dụng đất) thì chỉ cần lập Báo cáo kinh tế - kỹ thuật?",
   "o": [
-   "15 tỷ đồng",
    "45 tỷ đồng",
+   "15 tỷ đồng",
    "40 tỷ đồng",
    "20 tỷ đồng"
   ],
@@ -201,9 +186,9 @@
   "q": "Dự án chủ yếu mua sắm, lắp đặt thiết bị chỉ cần lập BCKTKT khi chi phí xây dựng (không gồm thiết bị) đáp ứng điều kiện nào?",
   "o": [
    "Dưới 10% tổng mức đầu tư và không quá 20 tỷ đồng",
+   "Dưới 10% tổng mức đầu tư và không quá 45 tỷ đồng",
    "Dưới 20% tổng mức đầu tư và không quá 40 tỷ đồng",
-   "Không quá 10 tỷ đồng",
-   "Dưới 15% tổng mức đầu tư, không giới hạn giá trị"
+   "Dưới 15% tổng mức đầu tư và không quá 15 tỷ đồng"
   ],
   "a": 0,
   "e": "Điểm đ khoản 2 Điều 27: chi phí xây dựng dưới 10% tổng mức đầu tư và không quá 20 tỷ đồng (trừ dự án quan trọng quốc gia, nhóm A, PPP).",
@@ -216,8 +201,8 @@
   "q": "Một dự án chủ yếu lắp đặt thiết bị, chi phí xây dựng chỉ 5% tổng mức đầu tư và 8 tỷ đồng, nhưng là dự án nhóm A. Dự án phải lập loại báo cáo nào?",
   "o": [
    "Báo cáo kinh tế - kỹ thuật",
-   "Tùy chủ đầu tư lựa chọn",
-   "Không phải lập dự án",
+   "Báo cáo nghiên cứu tiền khả thi",
+   "Báo cáo đề xuất chủ trương đầu tư",
    "Báo cáo nghiên cứu khả thi"
   ],
   "a": 3,
@@ -230,10 +215,10 @@
   "level": 1,
   "q": "Công tác bảo trì thực hiện trên cơ sở thiết kế của công trình hiện hữu có phải lập dự án đầu tư xây dựng không?",
   "o": [
-   "Có, phải lập BCKTKT",
+   "Phải lập khi giá trị bảo trì trên 5 tỷ đồng",
    "Không phải lập dự án đầu tư xây dựng",
-   "Có, phải lập BCNCKT",
-   "Chỉ phải lập khi giá trị trên 5 tỷ đồng"
+   "Phải lập Báo cáo nghiên cứu khả thi",
+   "Phải lập Báo cáo kinh tế - kỹ thuật"
   ],
   "a": 1,
   "e": "Khoản 4 Điều 27: bảo trì trên cơ sở thiết kế của công trình hiện hữu hoặc không cần lập thiết kế xây dựng thì không phải lập dự án.",
@@ -245,10 +230,10 @@
   "level": 3,
   "q": "Dự án thuộc diện chỉ cần lập BCKTKT nhưng người quyết định đầu tư yêu cầu lập BCNCKT (do cần thiết kế cơ sở). Dự án này có phải thẩm định tại cơ quan chuyên môn về xây dựng không?",
   "o": [
-   "Không; người quyết định đầu tư tổ chức thẩm định BCNCKT",
-   "Chỉ khi có công trình cấp I",
-   "Chỉ khi dùng vốn đầu tư công",
-   "Có, bắt buộc"
+   "Không; người quyết định đầu tư tổ chức thẩm định",
+   "Có, nếu dự án có công trình cấp I trở lên",
+   "Có; vì đã chuyển sang lập Báo cáo nghiên cứu khả thi",
+   "Có, nếu dự án sử dụng vốn đầu tư công"
   ],
   "a": 0,
   "e": "Khoản 3 Điều 27: các dự án này không thuộc trường hợp phải thẩm định tại cơ quan chuyên môn về xây dựng; người quyết định đầu tư tổ chức thẩm định BCNCKT.",
@@ -260,10 +245,10 @@
   "level": 2,
   "q": "Với công trình theo tuyến (như đường dây), khi lập BCNCKT được điều chỉnh nội dung nào so với quy hoạch mà vẫn được coi là phù hợp quy hoạch?",
   "o": [
-   "Điều chỉnh cục bộ hướng tuyến, điểm khống chế để đảm bảo yêu cầu kỹ thuật, không đổi mục tiêu dự án",
-   "Thay đổi mục tiêu dự án",
-   "Thay đổi điểm đầu, điểm cuối tuyến",
-   "Tăng quy mô công suất"
+   "Điều chỉnh cục bộ hướng tuyến, điểm khống chế, không đổi mục tiêu",
+   "Thay đổi mục tiêu dự án nhưng giữ nguyên hướng tuyến tổng thể",
+   "Thay đổi điểm đầu, điểm cuối tuyến so với quy hoạch đã duyệt",
+   "Tăng quy mô công suất, cấp điện áp so với chủ trương đầu tư"
   ],
   "a": 0,
   "e": "Điểm b khoản 5 Điều 27: được điều chỉnh ranh giới, diện tích đất, điều chỉnh cục bộ hướng tuyến, điểm khống chế khi không thay đổi mục tiêu dự án.",
@@ -275,10 +260,10 @@
   "level": 2,
   "q": "Dự án xây dựng ở khu vực không phải lập quy hoạch phân khu, quy hoạch chi tiết thì căn cứ lập BCNCKT có thể là gì?",
   "o": [
-   "Phương án tuyến, vị trí công trình, mặt bằng tổng thể được cơ quan có thẩm quyền chấp thuận",
-   "Báo cáo đề xuất của nhà đầu tư",
-   "Giấy chứng nhận quyền sử dụng đất",
-   "Văn bản thỏa thuận đấu nối"
+   "Phương án tuyến, vị trí, mặt bằng tổng thể được chấp thuận",
+   "Báo cáo đề xuất dự án của nhà đầu tư đã được tiếp nhận",
+   "Giấy chứng nhận quyền sử dụng đất của chủ đầu tư dự án",
+   "Văn bản thỏa thuận đấu nối của đơn vị quản lý lưới điện"
   ],
   "a": 0,
   "e": "Điểm h khoản 1 Điều 26: phương án tuyến công trình, vị trí công trình, mặt bằng tổng thể được cơ quan có thẩm quyền chấp thuận.",
@@ -290,10 +275,10 @@
   "level": 2,
   "q": "Dự án cải tạo, nâng cấp công trình hiện có nhưng giữ nguyên mục tiêu, địa điểm, quy mô có phải căn cứ quy hoạch để lập, thẩm định BCNCKT không?",
   "o": [
-   "Có, phải căn cứ quy hoạch tỉnh",
-   "Có, phải căn cứ quy hoạch chi tiết",
+   "Có, phải căn cứ quy hoạch sử dụng đất cấp xã",
+   "Có, phải căn cứ quy hoạch tỉnh hiện hành",
    "Không yêu cầu căn cứ vào quy hoạch",
-   "Chỉ cần căn cứ quy hoạch sử dụng đất"
+   "Có, phải căn cứ quy hoạch chi tiết 1/500"
   ],
   "a": 2,
   "e": "Khoản 2 Điều 26: trường hợp này không yêu cầu căn cứ vào quy hoạch để lập, thẩm định BCNCKT, BCKTKT.",
@@ -305,8 +290,8 @@
   "level": 3,
   "q": "Dự án thành phần độc lập có được lập Báo cáo kinh tế - kỹ thuật không?",
   "o": [
-   "Chỉ được với dự án đầu tư kinh doanh",
-   "Không; quy mô dự án thành phần độc lập không thuộc trường hợp được lập BCKTKT",
+   "Được, nếu là dự án đầu tư kinh doanh",
+   "Không; không thuộc trường hợp được lập BCKTKT",
    "Được, nếu người quyết định đầu tư đồng ý",
    "Được, nếu tổng mức đầu tư dưới 40 tỷ đồng"
   ],
@@ -320,10 +305,10 @@
   "level": 3,
   "q": "Khi BCNCKT lập thiết kế FEED hoặc thiết kế kỹ thuật và dự định lựa chọn nhà thầu ngay sau phê duyệt dự án, thuyết minh phải bổ sung nội dung gì?",
   "o": [
-   "Kế hoạch bảo trì 10 năm",
-   "Đề xuất kế hoạch tổng thể lựa chọn nhà thầu, phương án phân chia gói thầu thi công, EPC, EC, EP",
-   "Phương án vận hành thương mại",
-   "Báo cáo thẩm tra an toàn đập"
+   "Phương án vận hành thương mại và hợp đồng mua bán điện",
+   "Kế hoạch tổng thể lựa chọn nhà thầu và phương án chia gói thầu",
+   "Báo cáo thẩm tra an toàn chịu lực công trình của tư vấn độc lập",
+   "Kế hoạch bảo trì công trình trong 10 năm đầu vận hành"
   ],
   "a": 1,
   "e": "Điểm o khoản 1 Điều 29: đề xuất kế hoạch tổng thể lựa chọn nhà thầu, phương án phân chia gói thầu thi công xây dựng, EPC, EC, EP.",
@@ -335,10 +320,10 @@
   "level": 2,
   "q": "Nội dung nào có trong thuyết minh Báo cáo kinh tế - kỹ thuật theo Điều 30 NĐ 217/2026?",
   "o": [
-   "Kế hoạch tổng thể lựa chọn nhà đầu tư",
-   "Báo cáo nghiên cứu tiền khả thi",
-   "Thiết kế FEED",
-   "Cấp công trình của dự án và phương án phòng cháy chữa cháy (nếu có)"
+   "Kế hoạch tổng thể lựa chọn nhà đầu tư thực hiện dự án",
+   "Báo cáo nghiên cứu tiền khả thi đã được phê duyệt",
+   "Hồ sơ thiết kế FEED và dự toán gói thầu EPC kèm theo",
+   "Cấp công trình và phương án phòng cháy chữa cháy (nếu có)"
   ],
   "a": 3,
   "e": "Điểm e và g khoản 1 Điều 30 yêu cầu nêu cấp công trình và phương án PCCC (nếu có) trong thuyết minh BCKTKT.",
@@ -350,10 +335,10 @@
   "level": 1,
   "q": "Dự án đầu tư kinh doanh nào sau đây thuộc diện cơ quan chuyên môn về xây dựng thẩm định BCNCKT?",
   "o": [
-   "Dự án có công trình ảnh hưởng đến an toàn, lợi ích cộng đồng thuộc Phụ lục IV",
-   "Dự án trong khu công nghiệp",
-   "Mọi dự án đầu tư kinh doanh trên 40 tỷ đồng",
-   "Dự án có vốn nước ngoài"
+   "Có công trình ảnh hưởng lớn đến an toàn, lợi ích cộng đồng",
+   "Có vốn đầu tư nước ngoài chiếm từ 51% vốn điều lệ",
+   "Có tổng mức đầu tư trên 40 tỷ đồng, không phân biệt loại",
+   "Nằm trong khu công nghiệp đã có hạ tầng đồng bộ"
   ],
   "a": 0,
   "e": "Điểm d khoản 1 Điều 32: dự án đầu tư kinh doanh có công trình ảnh hưởng đến an toàn, lợi ích cộng đồng thuộc Phụ lục IV.",
@@ -365,10 +350,10 @@
   "level": 2,
   "q": "Dự án đầu tư kinh doanh nào được coi là \"quy mô lớn\" phải thẩm định BCNCKT tại cơ quan chuyên môn về xây dựng?",
   "o": [
-   "Dự án do Quốc hội, Thủ tướng chấp thuận chủ trương hoặc có tiêu chí của dự án quan trọng quốc gia",
-   "Dự án do UBND cấp tỉnh chấp thuận chủ trương",
-   "Dự án có vốn trên 1.000 tỷ đồng",
-   "Dự án nhóm B trở lên"
+   "Do Quốc hội, Thủ tướng chấp thuận chủ trương đầu tư",
+   "Thuộc nhóm B trở lên theo pháp luật đầu tư công",
+   "Do UBND cấp tỉnh chấp thuận chủ trương đầu tư",
+   "Có tổng vốn đầu tư từ 1.000 tỷ đồng trở lên"
   ],
   "a": 0,
   "e": "Điểm c khoản 1 Điều 32: dự án do Quốc hội, Thủ tướng chấp thuận chủ trương đầu tư hoặc đáp ứng tiêu chí dự án quan trọng quốc gia.",
@@ -380,10 +365,10 @@
   "level": 2,
   "q": "Dự án nhà máy điện gió có tuyến đường dây đấu nối đi qua địa bàn 02 tỉnh, thuộc diện thẩm định tại cơ quan chuyên môn. Cơ quan nào thẩm định BCNCKT?",
   "o": [
-   "UBND cấp tỉnh nơi có trạm biến áp",
-   "Ban quản lý khu kinh tế",
-   "Cơ quan chuyên môn về xây dựng thuộc bộ quản lý công trình xây dựng chuyên ngành",
-   "Sở Công Thương nơi đặt nhà máy"
+   "Cơ quan chuyên môn về xây dựng thuộc UBND tỉnh đặt nhà máy",
+   "Ban quản lý khu kinh tế nơi đặt trạm biến áp nâng áp",
+   "Cơ quan chuyên môn về xây dựng thuộc bộ quản lý chuyên ngành",
+   "Cơ quan chuyên môn về xây dựng thuộc UBND tỉnh có trạm biến áp"
   ],
   "a": 2,
   "e": "Khoản 2 Điều 32: dự án đầu tư xây dựng trên địa bàn hành chính từ 02 tỉnh, thành phố trở lên do cơ quan chuyên môn thuộc bộ quản lý công trình chuyên ngành thẩm định.",
@@ -395,10 +380,10 @@
   "level": 2,
   "q": "Dự án trong khu công nghiệp thuộc diện thẩm định tại cơ quan chuyên môn, có công trình cấp I, nằm trọn trong 1 tỉnh. Cơ quan nào thẩm định BCNCKT?",
   "o": [
-   "Sở Kế hoạch và Đầu tư",
-   "Bộ Xây dựng",
-   "Ban Quản lý khu công nghiệp được giao quản lý địa bàn",
-   "UBND cấp xã"
+   "Cơ quan chuyên môn về xây dựng thuộc Bộ Xây dựng",
+   "Cơ quan chuyên môn về xây dựng thuộc UBND cấp xã",
+   "Ban quản lý khu công nghiệp được giao quản lý địa bàn",
+   "Cơ quan chuyên môn về xây dựng thuộc UBND cấp tỉnh"
   ],
   "a": 2,
   "e": "Khoản 3 Điều 32: Ban Quản lý KCN, KCX, KCNC, KKT thẩm định dự án trên địa bàn được giao quản lý, trừ dự án thuộc khoản 2 (cấp đặc biệt, liên tỉnh…).",
@@ -410,10 +395,10 @@
   "level": 2,
   "q": "Theo NĐ 217/2026, cơ quan chuyên môn về xây dựng thuộc UBND cấp tỉnh thẩm định BCNCKT trong trường hợp nào?",
   "o": [
-   "Chỉ dự án nhóm C",
-   "Dự án thuộc diện thẩm định trên địa bàn tỉnh, trừ dự án thuộc thẩm quyền của bộ, Ban quản lý khu và UBND cấp xã",
-   "Chỉ dự án đầu tư công do tỉnh quyết định",
-   "Mọi dự án trên địa bàn tỉnh"
+   "Chỉ dự án nhóm C và dự án nhóm B không có công trình cấp I trở lên",
+   "Dự án trên địa bàn tỉnh, trừ dự án thuộc bộ, Ban quản lý khu, UBND xã",
+   "Mọi dự án trên địa bàn tỉnh, kể cả dự án có công trình cấp đặc biệt",
+   "Chỉ dự án đầu tư công do UBND tỉnh quyết định đầu tư trên địa bàn"
   ],
   "a": 1,
   "e": "Khoản 5 Điều 32: thẩm định dự án trên địa bàn tỉnh, trừ dự án quy định tại khoản 2, 3 và 4 Điều 32.",
@@ -425,10 +410,10 @@
   "level": 3,
   "q": "Dự án công trình theo chức năng quản lý của Bộ Công Thương xây dựng trên biển, nằm ngoài phạm vi quản lý của UBND cấp tỉnh (ví dụ điện gió ngoài khơi). Cơ quan nào thẩm định BCNCKT?",
   "o": [
-   "Bộ Nông nghiệp và Môi trường",
-   "Bộ Xây dựng",
+   "Cơ quan chuyên môn thuộc Bộ Nông nghiệp và Môi trường",
+   "Cơ quan chuyên môn về xây dựng thuộc Bộ Xây dựng",
    "Cơ quan chuyên môn về xây dựng thuộc Bộ Công Thương",
-   "UBND tỉnh ven biển gần nhất"
+   "Cơ quan chuyên môn thuộc UBND tỉnh ven biển gần nhất"
   ],
   "a": 2,
   "e": "Điểm d khoản 1 Điều 33: cơ quan chuyên môn về xây dựng thuộc Bộ Công Thương thẩm định dự án công trình trên biển ngoài phạm vi quản lý của UBND cấp tỉnh.",
@@ -440,9 +425,9 @@
   "level": 2,
   "q": "Cơ quan chuyên môn về xây dựng thuộc Bộ Xây dựng thẩm định BCNCKT của các dự án thuộc lĩnh vực nào theo điểm b khoản 1 Điều 33?",
   "o": [
-   "Hạ tầng viễn thông",
-   "Năng lượng, dầu khí",
-   "Thủy lợi, đê điều",
+   "Hạ tầng viễn thông và hạ tầng số quốc gia",
+   "Năng lượng, dầu khí và công nghiệp nặng",
+   "Thủy lợi, đê điều có phạm vi liên tỉnh",
    "Hàng không, đường sắt quốc gia và hàng hải"
   ],
   "a": 3,
@@ -455,10 +440,10 @@
   "level": 3,
   "q": "Dự án đầu tư kinh doanh trên địa bàn Hà Nội, có công trình cấp I, không thuộc các trường hợp riêng của bộ. Cơ quan nào thẩm định BCNCKT?",
   "o": [
-   "Bộ Công Thương",
-   "Bộ Xây dựng",
-   "UBND cấp xã nơi có dự án",
-   "Cơ quan chuyên môn về xây dựng thuộc UBND thành phố Hà Nội"
+   "Cơ quan chuyên môn về xây dựng thuộc Bộ Công Thương",
+   "Cơ quan chuyên môn về xây dựng thuộc UBND cấp xã",
+   "Cơ quan chuyên môn về xây dựng thuộc Bộ Xây dựng",
+   "Cơ quan chuyên môn về xây dựng thuộc UBND TP Hà Nội"
   ],
   "a": 3,
   "e": "Điểm e khoản 1 Điều 33: cơ quan chuyên môn thuộc UBND TP Hà Nội, TP HCM thẩm định dự án trên địa bàn, trừ công trình cấp đặc biệt do người đứng đầu cơ quan trung ương quyết định đầu tư và các trường hợp điểm a, b, c, d.",
@@ -470,10 +455,10 @@
   "level": 2,
   "q": "Dự án gồm nhiều công trình với loại, cấp khác nhau thì thẩm quyền thẩm định được xác định theo công trình nào?",
   "o": [
-   "Công trình có giá trị lớn nhất",
-   "Công trình chính, hoặc công trình chính có cấp cao nhất nếu có nhiều công trình chính",
-   "Công trình phụ trợ có cấp cao nhất",
-   "Công trình được khởi công đầu tiên"
+   "Công trình được khởi công đầu tiên theo tiến độ",
+   "Công trình chính, hoặc công trình chính có cấp cao nhất",
+   "Công trình phụ trợ có cấp cao nhất trong dự án",
+   "Công trình có giá trị xây lắp lớn nhất trong dự án"
   ],
   "a": 1,
   "e": "Khoản 3 Điều 33: xác định theo công trình chính, hoặc công trình chính có cấp cao nhất khi dự án có nhiều công trình chính.",
@@ -486,9 +471,9 @@
   "q": "Dự án chia thành dự án thành phần không độc lập và trình thẩm định theo giai đoạn. Thẩm quyền thẩm định xác định thế nào?",
   "o": [
    "Theo quy mô nhóm và cấp công trình của toàn bộ dự án",
-   "Theo dự án thành phần có tổng mức đầu tư lớn nhất",
+   "Theo lựa chọn của người quyết định đầu tư dự án",
    "Theo nhóm và cấp công trình của từng dự án thành phần",
-   "Do người quyết định đầu tư lựa chọn"
+   "Theo dự án thành phần có tổng mức đầu tư lớn nhất"
   ],
   "a": 0,
   "e": "Khoản 5 Điều 33: trường hợp này thẩm quyền xác định theo quy mô nhóm và cấp công trình của toàn bộ dự án.",
@@ -500,10 +485,10 @@
   "level": 2,
   "q": "Hội đồng thẩm định BCNCKT được thành lập cho loại dự án nào?",
   "o": [
-   "Mọi dự án nhóm A",
-   "Dự án quan trọng quốc gia, dự án do Quốc hội quyết định hoặc chấp thuận chủ trương đầu tư",
-   "Dự án liên tỉnh",
-   "Dự án có công trình cấp đặc biệt"
+   "Dự án đầu tư xây dựng trên địa bàn từ 02 tỉnh trở lên",
+   "Dự án quan trọng quốc gia, dự án Quốc hội quyết định chủ trương",
+   "Mọi dự án nhóm A có công trình cấp I trở lên trên phạm vi cả nước",
+   "Dự án có công trình cấp đặc biệt do bộ quyết định đầu tư"
   ],
   "a": 1,
   "e": "Khoản 2 Điều 33 và khoản 1 Điều 34: thành lập Hội đồng thẩm định cho dự án quan trọng quốc gia, dự án do Quốc hội quyết định hoặc chấp thuận chủ trương.",
@@ -515,10 +500,10 @@
   "level": 3,
   "q": "Kết luận cuối cùng thông qua nội dung thẩm định BCNCKT của Hội đồng thẩm định cần tối thiểu bao nhiêu thành viên thông qua?",
   "o": [
-   "Ít nhất 3/4 số thành viên",
-   "Trên 50% số thành viên",
+   "Trên 50% số thành viên Hội đồng",
+   "Ít nhất 3/4 số thành viên Hội đồng",
    "Ít nhất 2/3 số thành viên Hội đồng",
-   "Toàn bộ thành viên có mặt"
+   "Toàn bộ thành viên có mặt tại phiên họp"
   ],
   "a": 2,
   "e": "Khoản 7 Điều 34: kết luận cuối cùng phải được ít nhất 2/3 số thành viên Hội đồng thẩm định thông qua; phiên họp hợp lệ khi có ít nhất 50% thành viên.",
@@ -531,8 +516,8 @@
   "q": "Thời gian thẩm định BCNCKT tại cơ quan chuyên môn về xây dựng đối với dự án nhóm B có công trình cấp I trở lên là bao lâu?",
   "o": [
    "Không quá 16 ngày làm việc",
+   "Không quá 15 ngày làm việc",
    "Không quá 25 ngày làm việc",
-   "Không quá 30 ngày",
    "Không quá 20 ngày làm việc"
   ],
   "a": 3,
@@ -545,10 +530,10 @@
   "level": 1,
   "q": "Thời gian thẩm định BCNCKT đối với dự án nhóm A có công trình cấp I trở lên là bao lâu?",
   "o": [
-   "Không quá 60 ngày",
+   "Không quá 40 ngày làm việc",
    "Không quá 25 ngày làm việc",
-   "Không quá 40 ngày",
-   "Không quá 20 ngày làm việc"
+   "Không quá 20 ngày làm việc",
+   "Không quá 30 ngày làm việc"
   ],
   "a": 1,
   "e": "Điểm b khoản 1 Điều 37: không quá 25 ngày làm việc; nhóm A còn lại không quá 20 ngày làm việc.",
@@ -560,10 +545,10 @@
   "level": 2,
   "q": "Thời gian thẩm định BCNCKT dự án quan trọng quốc gia và số lần được gia hạn là bao nhiêu?",
   "o": [
-   "Không quá 90 ngày; không được gia hạn",
-   "Không quá 60 ngày; được gia hạn 01 lần, không quá thời gian thẩm định tương ứng",
-   "Không quá 45 ngày; gia hạn 01 lần 15 ngày",
-   "Không quá 60 ngày làm việc; gia hạn tối đa 02 lần"
+   "Không quá 90 ngày; không được gia hạn thời gian thẩm định",
+   "Không quá 60 ngày; gia hạn 01 lần, không quá thời gian thẩm định",
+   "Không quá 60 ngày làm việc; được gia hạn tối đa 02 lần",
+   "Không quá 45 ngày làm việc; gia hạn 01 lần, tối đa thêm 15 ngày"
   ],
   "a": 1,
   "e": "Điểm a khoản 1 và khoản 2 Điều 37: không quá 60 ngày; chỉ được gia hạn 01 lần, thời gian gia hạn không quá thời gian thẩm định tương ứng.",
@@ -575,10 +560,10 @@
   "level": 2,
   "q": "Trong bao lâu sau khi tiếp nhận hồ sơ, cơ quan chuyên môn về xây dựng phải gửi một lần yêu cầu bổ sung hồ sơ trình thẩm định BCNCKT?",
   "o": [
-   "03 ngày làm việc",
+   "10 ngày làm việc",
    "05 ngày làm việc",
-   "07 ngày làm việc",
-   "10 ngày làm việc"
+   "03 ngày làm việc",
+   "07 ngày làm việc"
   ],
   "a": 1,
   "e": "Khoản 3 Điều 36: trong 05 ngày làm việc sau khi tiếp nhận, xem xét, gửi một lần yêu cầu bổ sung thành phần hồ sơ.",
@@ -591,8 +576,8 @@
   "q": "Cơ quan chuẩn bị dự án không bổ sung hồ sơ theo yêu cầu trong thời hạn bao lâu thì cơ quan chuyên môn dừng thẩm định?",
   "o": [
    "10 ngày làm việc",
-   "30 ngày",
    "15 ngày làm việc",
+   "30 ngày làm việc",
    "20 ngày làm việc"
   ],
   "a": 3,
@@ -605,10 +590,10 @@
   "level": 2,
   "q": "Trong quá trình thẩm định BCNCKT, cơ quan chuyên môn về xây dựng được tạm dừng thẩm định tối đa bao nhiêu lần?",
   "o": [
+   "Không quá 02 lần",
    "Không được tạm dừng",
-   "Không giới hạn",
    "Không quá 01 lần",
-   "Không quá 02 lần"
+   "Không giới hạn số lần"
   ],
   "a": 2,
   "e": "Khoản 4 Điều 36: có quyền tạm dừng thẩm định không quá 01 lần, có văn bản nêu lỗi, sai sót về thông tin, số liệu.",
@@ -620,10 +605,10 @@
   "level": 1,
   "q": "Văn bản nào thuộc hồ sơ trình thẩm định BCNCKT tại cơ quan chuyên môn về xây dựng theo Điều 35?",
   "o": [
-   "Văn bản thỏa thuận, xác nhận về đấu nối hạ tầng kỹ thuật của dự án (nếu có)",
-   "Hợp đồng EPC đã ký",
-   "Giấy phép xây dựng",
-   "Biên bản nghiệm thu hoàn thành"
+   "Văn bản thỏa thuận, xác nhận đấu nối hạ tầng kỹ thuật (nếu có)",
+   "Biên bản nghiệm thu hoàn thành hạng mục san nền dự án",
+   "Giấy phép xây dựng công trình chính của dự án đã được cấp",
+   "Hợp đồng EPC đã ký kết với nhà thầu được lựa chọn"
   ],
   "a": 0,
   "e": "Điểm đ khoản 2 Điều 35: các văn bản thỏa thuận, xác nhận về đấu nối hạ tầng kỹ thuật; văn bản chấp thuận độ cao công trình (nếu có).",
@@ -635,10 +620,10 @@
   "level": 3,
   "q": "Chủ đầu tư nhận chuyển nhượng toàn bộ dự án đã được cơ quan chuyên môn thẩm định BCNCKT, không điều chỉnh dự án. Có phải thẩm định lại không?",
   "o": [
-   "Phải thẩm định lại toàn bộ",
-   "Chỉ thẩm định lại tổng mức đầu tư",
-   "Phải thẩm định lại thiết kế cơ sở",
-   "Không; tổ chức nhận chuyển nhượng được kế thừa kết quả thẩm định"
+   "Có; phải thẩm định lại phần tổng mức đầu tư của dự án",
+   "Có; phải thẩm định lại toàn bộ Báo cáo nghiên cứu khả thi",
+   "Có; phải thẩm định lại thiết kế cơ sở trong hồ sơ",
+   "Không; tổ chức nhận chuyển nhượng được kế thừa kết quả"
   ],
   "a": 3,
   "e": "Khoản 7 Điều 38: tổ chức nhận chuyển nhượng, góp vốn, hình thành sau chia tách, sáp nhập được kế thừa kết quả thẩm định, trừ trường hợp điều chỉnh dự án theo khoản 2 Điều 40.",
@@ -650,9 +635,9 @@
   "level": 3,
   "q": "Dự án đầu tư kinh doanh điều chỉnh trường hợp nào sau đây phải thẩm định BCNCKT điều chỉnh tại cơ quan chuyên môn về xây dựng?",
   "o": [
-   "Chuẩn xác lại số liệu tính toán",
-   "Cắt giảm một hạng mục độc lập đã được người quyết định đầu tư chấp thuận",
-   "Thay đổi nhà thầu tư vấn giám sát",
+   "Chuẩn xác lại số liệu tính toán trong thuyết minh dự án",
+   "Cắt giảm hạng mục độc lập đã được người quyết định đồng ý",
+   "Thay đổi nhà thầu tư vấn giám sát thi công xây dựng",
    "Thay đổi giải pháp kết cấu chính của thiết kế tại BCNCKT"
   ],
   "a": 3,
@@ -665,29 +650,14 @@
   "level": 3,
   "q": "Dự án chỉ lập BCKTKT (loại tổng mức đầu tư không quá 40 tỷ đồng) điều chỉnh làm tăng tổng mức đầu tư vượt bao nhiêu thì phải lập BCNCKT điều chỉnh?",
   "o": [
-   "Vượt 15% mức quy định",
+   "Vượt 20% mức quy định",
    "Vượt 5% mức quy định",
    "Vượt 10% mức quy định",
-   "Vượt 20% mức quy định"
+   "Vượt 15% mức quy định"
   ],
   "a": 2,
   "e": "Điểm a khoản 6 Điều 40: tăng tổng mức đầu tư vượt quá 10% mức quy định đối với dự án chỉ lập BCKTKT thì phải lập BCNCKT điều chỉnh.",
   "b": "Điểm a khoản 6 Điều 40 NĐ 217/2026/NĐ-CP"
- },
- {
-  "id": "c01",
-  "topic": "NĐ 217 – Khảo sát, thiết kế xây dựng",
-  "level": 1,
-  "q": "Trình tự khảo sát xây dựng theo Điều 10 NĐ 217/2026 bắt đầu bằng bước nào?",
-  "o": [
-   "Lập, phê duyệt phương án kỹ thuật khảo sát",
-   "Thực hiện khảo sát hiện trường",
-   "Nghiệm thu kết quả khảo sát",
-   "Lập, phê duyệt nhiệm vụ khảo sát xây dựng"
-  ],
-  "a": 3,
-  "e": "Điều 10: (1) lập, phê duyệt nhiệm vụ khảo sát; (2) lập, phê duyệt phương án kỹ thuật khảo sát; (3) thực hiện khảo sát; (4) nghiệm thu, phê duyệt kết quả.",
-  "b": "Điều 10 NĐ 217/2026/NĐ-CP"
  },
  {
   "id": "c02",
@@ -695,10 +665,10 @@
   "level": 1,
   "q": "Ai lập phương án kỹ thuật khảo sát xây dựng?",
   "o": [
-   "Nhà thầu tư vấn thiết kế",
+   "Nhà thầu tư vấn giám sát khảo sát",
    "Nhà thầu khảo sát xây dựng",
-   "Chủ đầu tư",
-   "Cơ quan chuyên môn về xây dựng"
+   "Nhà thầu tư vấn thiết kế",
+   "Chủ đầu tư hoặc cơ quan chuẩn bị dự án"
   ],
   "a": 1,
   "e": "Khoản 1 Điều 12: nhà thầu khảo sát xây dựng lập phương án kỹ thuật khảo sát phù hợp với nhiệm vụ khảo sát được phê duyệt.",
@@ -710,10 +680,10 @@
   "level": 2,
   "q": "Trường hợp nào nhiệm vụ khảo sát xây dựng được sửa đổi, bổ sung?",
   "o": [
-   "Khi giá vật liệu tăng",
-   "Khi chủ đầu tư thay đổi nhà thầu khảo sát",
-   "Khi trong thi công phát hiện yếu tố địa chất khác thường, không đáp ứng nhiệm vụ khảo sát đã duyệt",
-   "Khi chậm tiến độ khảo sát quá 30 ngày"
+   "Tiến độ khảo sát chậm quá 30 ngày so với hợp đồng đã ký",
+   "Chủ đầu tư thay đổi nhà thầu khảo sát xây dựng giữa chừng hợp đồng",
+   "Thi công phát hiện địa chất khác thường, nhiệm vụ không đáp ứng",
+   "Giá vật liệu xây dựng biến động vượt 10% so với dự toán"
   ],
   "a": 2,
   "e": "Điểm c khoản 5 Điều 11: phát hiện yếu tố địa chất khác thường trong thi công, nhiệm vụ khảo sát đã duyệt không đáp ứng, có thể ảnh hưởng chất lượng công trình hoặc biện pháp thi công.",
@@ -725,9 +695,9 @@
   "level": 2,
   "q": "Chủ đầu tư có quyền gì khi phát hiện nhà thầu khảo sát không thực hiện đúng phương án khảo sát đã duyệt?",
   "o": [
-   "Tự ý thay nhà thầu không cần căn cứ hợp đồng",
-   "Báo cáo Sở Xây dựng xử lý",
+   "Tự giảm trừ giá trị hợp đồng khảo sát",
    "Chỉ được nhắc nhở bằng văn bản",
+   "Báo cáo Sở Xây dựng xử phạt nhà thầu",
    "Đình chỉ công việc khảo sát"
   ],
   "a": 3,
@@ -740,10 +710,10 @@
   "level": 2,
   "q": "Việc chủ đầu tư phê duyệt Báo cáo kết quả khảo sát ảnh hưởng thế nào đến trách nhiệm của nhà thầu khảo sát?",
   "o": [
-   "Chia đều trách nhiệm giữa hai bên",
-   "Miễn trách nhiệm cho nhà thầu sau 12 tháng",
-   "Không thay thế và không làm giảm trách nhiệm về chất lượng khảo sát của nhà thầu",
-   "Chuyển toàn bộ trách nhiệm sang chủ đầu tư"
+   "Chuyển toàn bộ trách nhiệm chất lượng sang chủ đầu tư",
+   "Chia đều trách nhiệm chất lượng giữa chủ đầu tư và nhà thầu",
+   "Không thay thế, không làm giảm trách nhiệm của nhà thầu",
+   "Miễn trách nhiệm cho nhà thầu sau 12 tháng kể từ phê duyệt"
   ],
   "a": 2,
   "e": "Khoản 2 Điều 15: nhà thầu khảo sát chịu trách nhiệm toàn diện; việc phê duyệt không thay thế, không làm giảm trách nhiệm của nhà thầu.",
@@ -755,10 +725,10 @@
   "level": 1,
   "q": "Ai quyết định số bước thiết kế xây dựng trước hoặc khi phê duyệt dự án?",
   "o": [
-   "Sở Xây dựng",
+   "Nhà thầu tư vấn thiết kế",
    "Cơ quan chuyên môn về xây dựng",
    "Người quyết định đầu tư",
-   "Nhà thầu tư vấn thiết kế"
+   "Sở Xây dựng nơi có công trình"
   ],
   "a": 2,
   "e": "Khoản 2 Điều 16: người quyết định đầu tư quyết định số bước thiết kế; nếu được giao tại quyết định phê duyệt dự án thì chủ đầu tư quyết định số bước thiết kế triển khai sau.",
@@ -771,8 +741,8 @@
   "q": "Thiết kế một bước theo NĐ 217/2026 là loại thiết kế nào?",
   "o": [
    "Thiết kế FEED",
-   "Thiết kế cơ sở",
    "Thiết kế kỹ thuật",
+   "Thiết kế cơ sở kèm dự toán",
    "Thiết kế bản vẽ thi công"
   ],
   "a": 3,
@@ -785,10 +755,10 @@
   "level": 2,
   "q": "Tổ hợp nào sau đây là thiết kế hai bước theo NĐ 217/2026?",
   "o": [
-   "Thiết kế bản vẽ thi công + chỉ dẫn kỹ thuật",
-   "Thiết kế cơ sở + thiết kế kỹ thuật + thiết kế bản vẽ thi công",
-   "Thiết kế FEED + thiết kế bản vẽ thi công",
-   "Thiết kế sơ bộ + thiết kế cơ sở"
+   "Thiết kế sơ bộ và thiết kế cơ sở",
+   "Thiết kế kỹ thuật và chỉ dẫn kỹ thuật kèm theo",
+   "Thiết kế FEED và thiết kế bản vẽ thi công",
+   "Thiết kế cơ sở và thiết kế FEED"
   ],
   "a": 2,
   "e": "Điểm b khoản 3 Điều 16: thiết kế hai bước gồm TKCS + TKBVTC; FEED + TKBVTC; TKKT + TKBVTC.",
@@ -802,7 +772,7 @@
   "o": [
    "10 ngày làm việc",
    "05 ngày làm việc",
-   "15 ngày",
+   "07 ngày làm việc",
    "03 ngày làm việc"
   ],
   "a": 1,
@@ -815,10 +785,10 @@
   "level": 3,
   "q": "Với công trình theo tuyến (như đường dây), thay đổi nào ở thiết kế triển khai sau KHÔNG được coi là phù hợp với bước thiết kế trước?",
   "o": [
-   "Thay đổi giải pháp kết cấu chính của công trình chính thuộc dự án (không phải cục bộ)",
-   "Thay đổi vật liệu hoàn thiện",
-   "Chuẩn xác lại số liệu tính toán",
-   "Thay đổi cục bộ giải pháp kết cấu"
+   "Thay đổi giải pháp kết cấu chính của công trình chính (không cục bộ)",
+   "Thay đổi cục bộ giải pháp kết cấu tại một số vị trí cột trên tuyến",
+   "Chuẩn xác lại số liệu tính toán trong thuyết minh thiết kế bước sau",
+   "Thay đổi chủng loại vật liệu hoàn thiện, cùng thông số kỹ thuật"
   ],
   "a": 0,
   "e": "Điểm a khoản 6 Điều 16: với công trình theo tuyến, thay đổi quy mô đầu tư (trừ chuẩn xác số liệu) hoặc thay đổi giải pháp kết cấu chính của công trình chính (trừ thay đổi cục bộ) thì không còn phù hợp bước trước.",
@@ -830,10 +800,10 @@
   "level": 2,
   "q": "Nhiệm vụ thiết kế xây dựng theo Điều 17 phải có yêu cầu nào liên quan đến chuyển đổi số?",
   "o": [
-   "Yêu cầu chứng thư số của nhà thầu thi công",
-   "Yêu cầu nộp hồ sơ giấy 08 bộ",
-   "Yêu cầu về mức độ, nhu cầu thông tin trong mô hình BIM của dự án",
-   "Yêu cầu sử dụng phần mềm do Bộ Xây dựng chỉ định"
+   "Số bộ hồ sơ giấy nộp cơ quan chuyên môn về xây dựng",
+   "Phần mềm thiết kế bắt buộc theo danh mục của Bộ Xây dựng",
+   "Mức độ, nhu cầu thông tin trong mô hình BIM của dự án",
+   "Chứng thư số của nhà thầu thi công tham gia dự án"
   ],
   "a": 2,
   "e": "Điểm g khoản 3 Điều 17: nhiệm vụ thiết kế gồm các yêu cầu về mức độ, nhu cầu thông tin trong mô hình BIM của dự án.",
@@ -845,29 +815,14 @@
   "level": 3,
   "q": "Nội dung nào là riêng của nhiệm vụ thiết kế FEED so với nhiệm vụ thiết kế thông thường?",
   "o": [
-   "Mục tiêu xây dựng công trình",
-   "Yêu cầu về chi phí, định hướng biện pháp, kế hoạch thi công tổng thể và quản lý rủi ro của dự án",
-   "Căn cứ lập nhiệm vụ thiết kế",
-   "Địa điểm xây dựng"
+   "Yêu cầu quy mô, thời hạn sử dụng và công năng công trình",
+   "Yêu cầu chi phí, kế hoạch thi công tổng thể, quản lý rủi ro",
+   "Căn cứ lập nhiệm vụ thiết kế và quy hoạch làm căn cứ",
+   "Mục tiêu xây dựng công trình và địa điểm xây dựng dự kiến"
   ],
   "a": 1,
   "e": "Điểm c khoản 4 Điều 17: nhiệm vụ thiết kế FEED có thêm yêu cầu về chi phí, định hướng biện pháp, kế hoạch thi công tổng thể và quản lý rủi ro.",
   "b": "Điểm c khoản 4 Điều 17 NĐ 217/2026/NĐ-CP"
- },
- {
-  "id": "c13",
-  "topic": "NĐ 217 – Khảo sát, thiết kế xây dựng",
-  "level": 1,
-  "q": "Khung tên bản vẽ thiết kế xây dựng phải có chữ ký của những ai?",
-  "o": [
-   "Giám đốc tổ chức tư vấn và đại diện cơ quan thẩm định",
-   "Chỉ chủ nhiệm thiết kế",
-   "Chủ đầu tư và nhà thầu thi công",
-   "Người trực tiếp thiết kế, người kiểm tra thiết kế, chủ trì thiết kế, chủ nhiệm thiết kế"
-  ],
-  "a": 3,
-  "e": "Khoản 2 Điều 18: khung tên có tên, chữ ký của người trực tiếp thiết kế, người kiểm tra, chủ trì thiết kế, chủ nhiệm thiết kế; tổ chức tư vấn ký, đóng dấu.",
-  "b": "Khoản 2 Điều 18 NĐ 217/2026/NĐ-CP"
  },
  {
   "id": "c14",
@@ -875,10 +830,10 @@
   "level": 1,
   "q": "Thiết kế sơ bộ được lập ở đâu?",
   "o": [
-   "Tại hồ sơ đề nghị cấp giấy phép xây dựng",
-   "Tại Báo cáo nghiên cứu tiền khả thi hoặc trong giai đoạn chuẩn bị dự án",
-   "Tại hồ sơ mời thầu thi công",
-   "Tại hồ sơ hoàn công"
+   "Tại hồ sơ mời thầu thi công xây dựng công trình",
+   "Tại BCNCTKT hoặc trong giai đoạn chuẩn bị dự án",
+   "Tại hồ sơ hoàn công sau khi nghiệm thu công trình",
+   "Tại hồ sơ đề nghị cấp giấy phép xây dựng công trình"
   ],
   "a": 1,
   "e": "Khoản 1 Điều 19: thiết kế sơ bộ được lập tại BCNCTKT hoặc trong giai đoạn chuẩn bị dự án làm cơ sở cho các bước thiết kế tiếp theo.",
@@ -890,9 +845,9 @@
   "level": 2,
   "q": "Với công trình theo tuyến, bản vẽ thiết kế cơ sở thay tổng mặt bằng bằng bản vẽ gì?",
   "o": [
-   "Bản đồ địa chính",
-   "Sơ đồ tổ chức thi công",
-   "Bản vẽ hoàn công",
+   "Bản vẽ hoàn công tuyến công trình",
+   "Bản đồ địa chính khu vực dự án",
+   "Sơ đồ tổ chức thi công trên tuyến",
    "Bản vẽ phương án tuyến công trình"
   ],
   "a": 3,
@@ -905,9 +860,9 @@
   "level": 2,
   "q": "Thiết kế FEED được lập cho loại dự án nào?",
   "o": [
-   "Dự án chỉ lập BCKTKT",
    "Dự án nhà ở riêng lẻ",
-   "Mọi dự án nhóm A",
+   "Mọi dự án nhóm A trở lên của bộ",
+   "Dự án chỉ lập BCKTKT",
    "Dự án có thiết kế công nghệ"
   ],
   "a": 3,
@@ -920,10 +875,10 @@
   "level": 3,
   "q": "Thuyết minh tính toán kết cấu ở thiết kế kỹ thuật phải có bảng tổng hợp kết quả tính toán thể hiện tiêu chí nào?",
   "o": [
-   "Chỉ tổng khối lượng thép",
-   "Chi phí kết cấu theo từng hạng mục",
-   "Chỉ hệ số an toàn tổng thể",
-   "Ổn định, chuyển vị, biến dạng giới hạn của nền móng; khả năng chịu lực, biến dạng của cấu kiện chịu lực, có đối chiếu quy chuẩn, tiêu chuẩn"
+   "Hệ số an toàn tổng thể của công trình theo kinh nghiệm thiết kế",
+   "Chi phí kết cấu theo từng hạng mục và tiến độ thi công dự kiến",
+   "Tổng khối lượng thép, bê tông và đơn giá vật liệu từng cấu kiện",
+   "Ổn định, chuyển vị, biến dạng nền móng; khả năng chịu lực cấu kiện"
   ],
   "a": 3,
   "e": "Điểm c khoản 2 Điều 22: bảng tổng hợp thể hiện tiêu chí đánh giá an toàn kết cấu, đối chiếu thông số tương ứng tại quy chuẩn kỹ thuật, tiêu chuẩn.",
@@ -935,10 +890,10 @@
   "level": 2,
   "q": "Chỉ dẫn kỹ thuật bắt buộc lập riêng đối với công trình nào?",
   "o": [
-   "Công trình cấp đặc biệt, cấp I hoặc quy mô lớn, kỹ thuật phức tạp theo yêu cầu chủ đầu tư",
-   "Chỉ công trình cấp III, IV",
-   "Mọi công trình",
-   "Chỉ công trình nhà ở riêng lẻ"
+   "Công trình cấp đặc biệt, cấp I hoặc quy mô lớn, kỹ thuật phức tạp",
+   "Mọi công trình thuộc dự án đầu tư công, không phân biệt cấp công trình",
+   "Công trình cấp III, cấp IV và công trình nhà ở riêng lẻ",
+   "Công trình có tổng mức đầu tư từ 40 tỷ đồng trở lên"
   ],
   "a": 0,
   "e": "Khoản 3 Điều 24: lập riêng với công trình cấp đặc biệt, cấp I hoặc quy mô lớn, kỹ thuật phức tạp theo yêu cầu chủ đầu tư; công trình khác có thể lập riêng hoặc nêu trong thuyết minh.",
@@ -950,9 +905,9 @@
   "level": 1,
   "q": "Chỉ dẫn kỹ thuật được phê duyệt có vai trò gì trong đấu thầu?",
   "o": [
-   "Thay thế hồ sơ thiết kế bản vẽ thi công",
-   "Không liên quan đến đấu thầu",
-   "Chỉ dùng cho nghiệm thu",
+   "Thay thế hồ sơ thiết kế bản vẽ thi công khi đấu thầu",
+   "Là tài liệu tham khảo, không bắt buộc trong đấu thầu",
+   "Là căn cứ duy nhất để nghiệm thu hoàn thành công trình",
    "Là một thành phần của hồ sơ mời thầu thi công xây dựng"
   ],
   "a": 3,
@@ -965,10 +920,10 @@
   "level": 1,
   "q": "Ai thẩm định bước thiết kế được triển khai ngay trước khi lựa chọn nhà thầu thi công, EPC, EC, EP?",
   "o": [
-   "Sở Xây dựng",
    "Cơ quan chuyên môn về xây dựng",
+   "Người quyết định đầu tư",
    "Chủ đầu tư",
-   "Người quyết định đầu tư"
+   "Sở Xây dựng nơi có công trình"
   ],
   "a": 2,
   "e": "Khoản 1 Điều 41: chủ đầu tư thẩm định bước thiết kế triển khai ngay trước khi lựa chọn nhà thầu thi công, EPC, EC, EP làm cơ sở phê duyệt.",
@@ -980,10 +935,10 @@
   "level": 2,
   "q": "Với các bước thiết kế triển khai sau còn lại (không phải bước ngay trước khi chọn nhà thầu), chủ đầu tư xử lý thế nào?",
   "o": [
-   "Không cần kiểm soát",
-   "Quyết định việc kiểm soát thiết kế theo hợp đồng xây dựng và quy định pháp luật",
-   "Bắt buộc trình cơ quan chuyên môn thẩm định",
-   "Trình người quyết định đầu tư phê duyệt"
+   "Bắt buộc trình cơ quan chuyên môn về xây dựng thẩm định lại",
+   "Chủ đầu tư quyết định kiểm soát thiết kế theo hợp đồng, pháp luật",
+   "Không phải kiểm soát vì đã thẩm định ở bước thiết kế trước",
+   "Bắt buộc trình người quyết định đầu tư phê duyệt từng bước thiết kế"
   ],
   "a": 1,
   "e": "Khoản 1 Điều 41: các bước thiết kế còn lại do chủ đầu tư quyết định việc kiểm soát thiết kế theo hợp đồng xây dựng và quy định pháp luật.",
@@ -996,9 +951,9 @@
   "q": "Với công trình thuộc dự án đầu tư kinh doanh của doanh nghiệp nhà nước, việc thẩm định, xác định dự toán xây dựng do ai quyết định?",
   "o": [
    "Chủ đầu tư tự quyết định, bảo đảm hiệu quả sử dụng vốn",
-   "Cơ quan chuyên môn về xây dựng",
-   "Bộ Tài chính",
-   "Kiểm toán nhà nước"
+   "Bộ Tài chính theo phân cấp quản lý vốn nhà nước",
+   "Cơ quan đại diện chủ sở hữu vốn nhà nước tại doanh nghiệp",
+   "Cơ quan chuyên môn về xây dựng thuộc bộ chuyên ngành"
   ],
   "a": 0,
   "e": "Điểm d khoản 2 Điều 41: chủ đầu tư tự quyết định việc thẩm định, xác định dự toán xây dựng bảo đảm hiệu quả sử dụng vốn của doanh nghiệp.",
@@ -1011,9 +966,9 @@
   "q": "Khi Báo cáo kết quả thẩm tra thiết kế chưa đủ cơ sở kết luận, đơn vị thẩm định có quyền gì?",
   "o": [
    "Yêu cầu bổ sung, hoàn thiện Báo cáo kết quả thẩm tra",
-   "Chuyển hồ sơ lên Bộ Xây dựng",
-   "Hủy hợp đồng thẩm tra",
-   "Tự kết luận thay thẩm tra"
+   "Chấm dứt hợp đồng và chọn đơn vị thẩm tra khác",
+   "Tự kết luận thẩm định thay cho đơn vị tư vấn thẩm tra",
+   "Chuyển hồ sơ lên cơ quan chuyên môn về xây dựng"
   ],
   "a": 0,
   "e": "Điểm b khoản 4 Điều 41: đơn vị thẩm định được quyền yêu cầu bổ sung, hoàn thiện Báo cáo kết quả thẩm tra.",
@@ -1025,9 +980,9 @@
   "level": 1,
   "q": "Quyết định phê duyệt thiết kế triển khai sau khi dự án được phê duyệt phải nêu nội dung nào?",
   "o": [
-   "Tiến độ giải ngân theo quý",
-   "Giá gói thầu tư vấn giám sát đã ký",
-   "Danh sách công nhân thi công",
+   "Kế hoạch giải ngân vốn theo từng quý của dự án",
+   "Giá gói thầu tư vấn giám sát đã ký hợp đồng",
+   "Danh sách nhân sự chủ chốt của nhà thầu thi công",
    "Giá trị dự toán xây dựng theo từng khoản mục chi phí"
   ],
   "a": 3,
@@ -1041,9 +996,9 @@
   "q": "Chủ đầu tư được ủy quyền cho Ban quản lý dự án phê duyệt thiết kế xây dựng, trừ trường hợp nào?",
   "o": [
    "Áp dụng hình thức thuê tư vấn quản lý dự án",
-   "Công trình cấp I",
-   "Dự án có vốn ODA",
-   "Dự án đầu tư công"
+   "Dự án sử dụng vốn đầu tư công từ ngân sách",
+   "Dự án sử dụng vốn ODA, vốn vay ưu đãi nước ngoài",
+   "Công trình cấp I trở lên thuộc dự án nhóm A"
   ],
   "a": 0,
   "e": "Khoản 3 Điều 42: được ủy quyền cho Ban quản lý dự án phê duyệt thiết kế, trừ trường hợp thuê tư vấn quản lý dự án.",
@@ -1055,10 +1010,10 @@
   "level": 2,
   "q": "Chưa thi công, chủ đầu tư muốn điều chỉnh thiết kế triển khai sau, không dẫn đến điều chỉnh dự án. Chủ đầu tư phải làm gì trước?",
   "o": [
-   "Báo cáo người quyết định đầu tư xem xét, chấp thuận trước khi thực hiện",
-   "Xin ý kiến cơ quan chuyên môn về xây dựng",
-   "Không cần làm gì",
-   "Xin điều chỉnh giấy phép xây dựng"
+   "Báo cáo người quyết định đầu tư xem xét, chấp thuận",
+   "Đề nghị điều chỉnh giấy phép xây dựng trước khi sửa",
+   "Xin ý kiến cơ quan chuyên môn về xây dựng thẩm định",
+   "Tự điều chỉnh, phê duyệt và báo cáo sau khi hoàn thành"
   ],
   "a": 0,
   "e": "Khoản 2 Điều 43: chủ đầu tư báo cáo người quyết định đầu tư xem xét, chấp thuận trước khi thực hiện.",
@@ -1070,10 +1025,10 @@
   "level": 1,
   "q": "Hình thức quản lý dự án đối với dự án đầu tư công theo NĐ 217/2026 là gì?",
   "o": [
-   "Tổng thầu EPC quản lý",
+   "Thuê tổ chức tư vấn quản lý dự án",
    "Ban quản lý dự án đầu tư xây dựng",
-   "Chủ đầu tư tự quản lý",
-   "Thuê tư vấn quản lý dự án"
+   "Tổng thầu EPC thực hiện quản lý",
+   "Chủ đầu tư tự thực hiện quản lý"
   ],
   "a": 1,
   "e": "Khoản 2 Điều 44: dự án đầu tư công áp dụng hình thức Ban quản lý dự án đầu tư xây dựng (có ngoại lệ khi Ban không đủ điều kiện).",
@@ -1085,10 +1040,10 @@
   "level": 2,
   "q": "Hình thức quản lý dự án của dự án đầu tư kinh doanh do ai quyết định?",
   "o": [
-   "Người quyết định đầu tư, phù hợp yêu cầu quản lý và điều kiện cụ thể",
-   "Nhà thầu thi công",
-   "Sở Xây dựng",
-   "Ngân hàng cho vay"
+   "Người quyết định đầu tư, phù hợp yêu cầu và điều kiện dự án",
+   "Cơ quan đăng ký đầu tư, ghi tại giấy chứng nhận đầu tư",
+   "Tổ chức tín dụng cho vay vốn, theo hợp đồng tín dụng",
+   "Sở Xây dựng nơi có dự án, theo phân cấp quản lý nhà nước"
   ],
   "a": 0,
   "e": "Khoản 3 Điều 44: người quyết định đầu tư quyết định hình thức quản lý dự án theo khoản 1 Điều 32 Luật XD 2025.",
@@ -1100,10 +1055,10 @@
   "level": 2,
   "q": "Với dự án dùng vốn ODA, hình thức tổ chức quản lý dự án áp dụng theo đâu trước tiên?",
   "o": [
-   "Theo hướng dẫn của Sở Tài chính",
-   "Theo NĐ 217/2026",
-   "Theo điều ước quốc tế, văn bản thỏa thuận về vốn ODA, vốn vay ưu đãi",
-   "Theo quyết định của chủ đầu tư"
+   "Theo quyết định của chủ đầu tư sau khi ký hiệp định vay",
+   "Theo Nghị định 217/2026/NĐ-CP, không xét điều ước quốc tế",
+   "Theo điều ước quốc tế, thỏa thuận về vốn ODA, vốn vay ưu đãi",
+   "Theo hướng dẫn của Bộ Tài chính về quản lý vốn vay nợ công"
   ],
   "a": 2,
   "e": "Khoản 4 Điều 44: áp dụng theo điều ước quốc tế, văn bản thỏa thuận về vốn ODA; không có quy định cụ thể mới theo NĐ 217.",
@@ -1115,10 +1070,10 @@
   "level": 3,
   "q": "Ban quản lý dự án trực thuộc chủ đầu tư (Điều 47) chấm dứt hoạt động thế nào?",
   "o": [
-   "Tự giải thể sau khi hoàn thành công việc quản lý dự án được giao",
-   "Chuyển thành đơn vị sự nghiệp công lập",
-   "Tồn tại vô thời hạn",
-   "Do UBND tỉnh quyết định giải thể"
+   "Tự giải thể sau khi hoàn thành công việc quản lý được giao",
+   "Chuyển thành đơn vị sự nghiệp công lập sau dự án",
+   "Do UBND cấp tỉnh ra quyết định giải thể theo đề nghị",
+   "Tồn tại vô thời hạn để tiếp tục quản lý các dự án tiếp theo"
   ],
   "a": 0,
   "e": "Khoản 7 Điều 47: Ban quản lý dự án trực thuộc chủ đầu tư tự giải thể sau khi hoàn thành công việc được giao.",
@@ -1130,10 +1085,10 @@
   "level": 2,
   "q": "Ban quản lý dự án trực thuộc chủ đầu tư có đặc điểm pháp lý nào?",
   "o": [
-   "Là pháp nhân độc lập với chủ đầu tư",
-   "Phải đăng ký kinh doanh",
-   "Có con dấu riêng, được mở tài khoản tại Kho bạc hoặc ngân hàng thương mại",
-   "Không có con dấu, dùng con dấu của chủ đầu tư"
+   "Không có con dấu riêng, sử dụng con dấu của chủ đầu tư",
+   "Phải đăng ký kinh doanh như một doanh nghiệp độc lập",
+   "Có con dấu riêng, được mở tài khoản tại Kho bạc hoặc ngân hàng",
+   "Là pháp nhân độc lập, tự chịu trách nhiệm trước pháp luật"
   ],
   "a": 2,
   "e": "Khoản 2 Điều 47: có con dấu riêng và được mở tài khoản tại Kho bạc Nhà nước hoặc ngân hàng thương mại để thực hiện nhiệm vụ được giao.",
@@ -1145,9 +1100,9 @@
   "level": 1,
   "q": "Thời hạn khởi công công trình ghi trong giấy phép xây dựng là bao lâu?",
   "o": [
+   "Không quá 24 tháng kể từ ngày cấp hoặc gia hạn",
    "Không quá 06 tháng kể từ ngày cấp hoặc gia hạn",
-   "Không quá 24 tháng",
-   "Không quá 18 tháng",
+   "Không quá 18 tháng kể từ ngày cấp hoặc gia hạn",
    "Không quá 12 tháng kể từ ngày cấp hoặc gia hạn"
   ],
   "a": 3,
@@ -1160,10 +1115,10 @@
   "level": 1,
   "q": "Cơ quan nào cấp giấy phép xây dựng cho công trình trong khu công nghiệp, khu kinh tế?",
   "o": [
-   "Ban quản lý khu công nghiệp, khu chế xuất, khu công nghệ cao, khu kinh tế",
-   "Bộ Xây dựng",
-   "Sở Xây dựng",
-   "UBND cấp xã"
+   "Ban quản lý khu được giao quản lý",
+   "Sở Xây dựng nơi có khu công nghiệp",
+   "Bộ Xây dựng theo thẩm quyền chung",
+   "UBND cấp xã nơi có khu công nghiệp"
   ],
   "a": 0,
   "e": "Khoản 2 Điều 53: Ban quản lý các khu cấp giấy phép xây dựng cho công trình trong phạm vi được giao quản lý.",
@@ -1175,10 +1130,10 @@
   "level": 2,
   "q": "UBND cấp xã cấp giấy phép xây dựng cho công trình nào?",
   "o": [
-   "Công trình cấp I trở lên",
-   "Mọi công trình trên địa bàn",
-   "Công trình cấp III, cấp IV và nhà ở riêng lẻ trên địa bàn (trừ công trình trong các khu)",
-   "Chỉ công trình tạm"
+   "Công trình cấp I, II trên địa bàn (trừ công trình trong các khu)",
+   "Chỉ công trình xây dựng tạm phục vụ thi công trên địa bàn",
+   "Công trình cấp III, IV và nhà ở riêng lẻ (trừ trong các khu)",
+   "Mọi công trình trên địa bàn không phân biệt loại và cấp"
   ],
   "a": 2,
   "e": "Khoản 1 Điều 53: UBND cấp xã cấp phép công trình cấp III, IV, nhà ở riêng lẻ trên địa bàn, trừ công trình thuộc khoản 2.",
@@ -1190,10 +1145,10 @@
   "level": 2,
   "q": "Dự án có nhiều công trình với loại, cấp khác nhau thì thẩm quyền cấp giấy phép xây dựng xác định theo đâu?",
   "o": [
-   "Do chủ đầu tư lựa chọn",
+   "Công trình được khởi công đầu tiên",
    "Công trình có cấp cao nhất của dự án",
-   "Công trình có giá trị lớn nhất",
-   "Công trình khởi công đầu tiên"
+   "Công trình do chủ đầu tư lựa chọn",
+   "Công trình có giá trị lớn nhất của dự án"
   ],
   "a": 1,
   "e": "Điểm c khoản 4 Điều 53: xác định theo công trình có cấp cao nhất của dự án.",
@@ -1206,8 +1161,8 @@
   "q": "Thời gian cấp giấy phép xây dựng mới cho công trình không phải nhà ở riêng lẻ là bao lâu kể từ khi nhận đủ hồ sơ hợp lệ?",
   "o": [
    "10 ngày làm việc",
+   "15 ngày làm việc",
    "07 ngày làm việc",
-   "20 ngày",
    "09 ngày làm việc"
   ],
   "a": 0,
@@ -1220,10 +1175,10 @@
   "level": 2,
   "q": "Mỗi giấy phép xây dựng được gia hạn tối đa mấy lần, mỗi lần bao lâu?",
   "o": [
-   "02 lần, mỗi lần 06 tháng",
-   "02 lần, mỗi lần 12 tháng",
    "03 lần, mỗi lần 06 tháng",
-   "01 lần, 12 tháng"
+   "02 lần, mỗi lần 12 tháng",
+   "01 lần, tối đa 12 tháng",
+   "02 lần, mỗi lần 06 tháng"
   ],
   "a": 1,
   "e": "Điểm a khoản 3 Điều 63: mỗi giấy phép xây dựng chỉ được gia hạn tối đa 02 lần, mỗi lần 12 tháng.",
@@ -1235,10 +1190,10 @@
   "level": 3,
   "q": "Thay đổi nào trong thiết kế bắt buộc chủ đầu tư phải đề nghị điều chỉnh giấy phép xây dựng?",
   "o": [
-   "Thay đổi nhà thầu thi công",
-   "Thay đổi số tầng hoặc giải pháp kết cấu chính của công trình",
+   "Thay đổi màu sơn, vật liệu hoàn thiện nội thất",
+   "Thay đổi số tầng hoặc giải pháp kết cấu chính",
    "Thay đổi nhà cung cấp thiết bị cùng thông số",
-   "Thay đổi màu sơn nội thất"
+   "Thay đổi nhà thầu thi công và tư vấn giám sát"
   ],
   "a": 1,
   "e": "Điểm b khoản 1 Điều 63: thay đổi vị trí xây dựng, diện tích xây dựng, số tầng, giải pháp kết cấu chính phải điều chỉnh giấy phép.",
@@ -1250,10 +1205,10 @@
   "level": 2,
   "q": "Chủ đầu tư không nộp lại giấy phép xây dựng trong bao lâu kể từ ngày có quyết định thu hồi thì giấy phép bị hủy?",
   "o": [
-   "15 ngày",
-   "05 ngày làm việc",
+   "30 ngày làm việc",
+   "15 ngày làm việc",
    "10 ngày làm việc",
-   "30 ngày"
+   "05 ngày làm việc"
   ],
   "a": 2,
   "e": "Khoản 2 Điều 65: hủy giấy phép khi chủ đầu tư không nộp lại trong vòng 10 ngày làm việc kể từ ngày có quyết định thu hồi.",
@@ -1265,10 +1220,10 @@
   "level": 1,
   "q": "Cơ quan cấp giấy phép xây dựng phải công khai nội dung giấy phép trên trang thông tin điện tử tối thiểu bao lâu?",
   "o": [
-   "03 tháng",
+   "03 tháng kể từ ngày cấp hoặc gia hạn",
    "12 tháng kể từ ngày cấp hoặc gia hạn",
-   "Trong suốt thời gian thi công",
-   "06 tháng"
+   "24 tháng kể từ ngày cấp hoặc gia hạn",
+   "06 tháng kể từ ngày cấp hoặc gia hạn"
   ],
   "a": 1,
   "e": "Khoản 1 Điều 66: công bố công khai tối thiểu 12 tháng kể từ ngày cấp hoặc gia hạn; chủ đầu tư công khai tại công trường suốt quá trình thi công.",
@@ -1281,9 +1236,9 @@
   "q": "NĐ 206/2026/NĐ-CP có hiệu lực thi hành từ ngày nào và thay thế văn bản nào?",
   "o": [
    "01/7/2026, thay NĐ 10/2021/NĐ-CP",
-   "15/6/2026, thay NĐ 15/2021",
-   "01/01/2026, thay NĐ 68/2019",
-   "01/7/2026, thay NĐ 175/2024"
+   "15/6/2026, thay NĐ 10/2021/NĐ-CP",
+   "01/7/2026, thay NĐ 68/2019/NĐ-CP",
+   "01/1/2026, thay NĐ 175/2024/NĐ-CP"
   ],
   "a": 0,
   "e": "Khoản 1, 3 Điều 38: hiệu lực từ 01/7/2026; NĐ 10/2021/NĐ-CP về quản lý chi phí đầu tư xây dựng hết hiệu lực từ ngày này.",
@@ -1295,9 +1250,9 @@
   "level": 2,
   "q": "Nội dung nào KHÔNG thuộc phạm vi điều chỉnh của NĐ 206/2026?",
   "o": [
-   "Dự toán xây dựng",
-   "Định mức và chỉ số giá xây dựng",
-   "Tổng mức đầu tư xây dựng",
+   "Tổng mức đầu tư và dự toán xây dựng",
+   "Định mức xây dựng và chỉ số giá xây dựng",
+   "Chi phí quản lý dự án và tư vấn xây dựng",
    "Thanh toán, quyết toán hợp đồng xây dựng"
   ],
   "a": 3,
@@ -1310,10 +1265,10 @@
   "level": 2,
   "q": "Dự án đầu tư kinh doanh (vốn tư nhân) áp dụng NĐ 206/2026 thế nào?",
   "o": [
-   "Chỉ áp dụng phần định mức",
-   "Không được áp dụng",
-   "Tham khảo để xác định và quản lý chi phí, tự chịu trách nhiệm về quyết định của mình",
-   "Bắt buộc áp dụng toàn bộ"
+   "Chỉ bắt buộc áp dụng phần định mức và chỉ số giá xây dựng",
+   "Bắt buộc áp dụng toàn bộ như dự án sử dụng vốn đầu tư công",
+   "Tham khảo để xác định chi phí, tự chịu trách nhiệm quyết định",
+   "Không được áp dụng, phải theo quy định riêng của doanh nghiệp"
   ],
   "a": 2,
   "e": "Khoản 2 Điều 2: tổ chức, cá nhân của các dự án ngoài khoản 1 (đầu tư công, PPP, chi thường xuyên NSNN) tham khảo Nghị định và chịu trách nhiệm về quyết định của mình.",
@@ -1325,10 +1280,10 @@
   "level": 1,
   "q": "Sơ bộ tổng mức đầu tư xây dựng gồm những khoản mục chi phí nào?",
   "o": [
-   "Chỉ chi phí xây dựng và thiết bị",
-   "Chi phí thiết bị và dự phòng",
-   "Chi phí xây dựng, lãi vay, thuế",
-   "Bồi thường, hỗ trợ, tái định cư; xây dựng; thiết bị; quản lý dự án; tư vấn; chi phí khác; dự phòng"
+   "Bồi thường; xây dựng; thiết bị; chi phí vận hành năm đầu; dự phòng",
+   "Xây dựng; thiết bị; QLDA; tư vấn; vốn lưu động ban đầu; dự phòng",
+   "Xây dựng; thiết bị; lãi vay trong thời gian xây dựng; thuế; dự phòng",
+   "Bồi thường; xây dựng; thiết bị; QLDA; tư vấn; chi phí khác; dự phòng"
   ],
   "a": 3,
   "e": "Khoản 1 Điều 4: gồm chi phí bồi thường, hỗ trợ và tái định cư (nếu có); xây dựng; thiết bị (nếu có); quản lý dự án; tư vấn xây dựng; chi phí khác và dự phòng.",
@@ -1340,10 +1295,10 @@
   "level": 2,
   "q": "Sơ bộ tổng mức đầu tư được dự tính trên cơ sở nào?",
   "o": [
-   "Báo giá của nhà thầu EPC đã ký",
-   "Kết quả đấu thầu",
-   "Quy mô, công suất theo phương án thiết kế sơ bộ và suất vốn đầu tư, suất chi phí hoặc dữ liệu dự án tương tự",
-   "Thiết kế bản vẽ thi công"
+   "Khối lượng theo thiết kế bản vẽ thi công và đơn giá chi tiết từng công tác",
+   "Báo giá của nhà thầu EPC đã ký hợp đồng và chi phí dự phòng kèm theo",
+   "Quy mô theo thiết kế sơ bộ và suất vốn đầu tư hoặc dữ liệu tương tự",
+   "Kết quả lựa chọn nhà thầu các gói thầu chính và chi phí quản lý dự án"
   ],
   "a": 2,
   "e": "Khoản 2 Điều 4: dự tính trên cơ sở quy mô, công suất theo thiết kế sơ bộ và suất vốn đầu tư, suất chi phí, giá nhóm công tác, giá bộ phận kết cấu hoặc dữ liệu công trình tương tự.",
@@ -1355,10 +1310,10 @@
   "level": 3,
   "q": "Dự án dùng công nghệ mới chưa phổ biến ở Việt Nam, chưa có suất vốn đầu tư và dữ liệu tương tự trong nước. Sơ bộ tổng mức đầu tư xác định thế nào?",
   "o": [
-   "Lấy bằng 120% dự án gần nhất",
-   "Không được lập",
-   "Chờ Bộ Xây dựng ban hành suất vốn",
-   "Tham khảo, sử dụng giá, định mức nước ngoài và dữ liệu dự án tương tự ở nước ngoài, có phân tích, quy đổi phù hợp điều kiện Việt Nam"
+   "Sử dụng báo giá của nhà cung cấp công nghệ mà không cần phân tích",
+   "Lấy bằng 120% chi phí của dự án tương tự gần nhất đã thực hiện",
+   "Không được lập, phải chờ Bộ Xây dựng công bố suất vốn đầu tư phù hợp",
+   "Tham khảo giá, định mức, dữ liệu nước ngoài, quy đổi về điều kiện VN"
   ],
   "a": 3,
   "e": "Khoản 2 Điều 4: được tham khảo, sử dụng giá, định mức nước ngoài và dữ liệu chi phí dự án tương tự ở nước ngoài, có phân tích, tính toán phù hợp mặt bằng giá và điều kiện thực hiện tại Việt Nam.",
@@ -1370,10 +1325,10 @@
   "level": 2,
   "q": "Việc thẩm định, phê duyệt sơ bộ tổng mức đầu tư được thực hiện vào thời điểm nào?",
   "o": [
-   "Khi lập dự toán gói thầu",
-   "Khi quyết toán dự án",
+   "Khi lập dự toán gói thầu đầu tiên của dự án",
+   "Sau khi phê duyệt dự án, cùng với tổng mức đầu tư",
    "Đồng thời với thẩm định, quyết định chủ trương đầu tư",
-   "Sau khi phê duyệt dự án"
+   "Khi thẩm định thiết kế triển khai sau phê duyệt"
   ],
   "a": 2,
   "e": "Khoản 4 Điều 4: thực hiện đồng thời với quá trình thẩm định, quyết định chủ trương đầu tư dự án.",
@@ -1385,10 +1340,10 @@
   "level": 2,
   "q": "Chi phí sử dụng đất, thuê đất tính trong thời gian xây dựng thuộc khoản mục nào của tổng mức đầu tư?",
   "o": [
-   "Chi phí xây dựng",
-   "Chi phí quản lý dự án",
+   "Chi phí xây dựng các công trình tạm, phụ trợ",
+   "Chi phí khác của dự án đầu tư xây dựng",
    "Chi phí bồi thường, hỗ trợ và tái định cư",
-   "Chi phí khác"
+   "Chi phí quản lý dự án của chủ đầu tư"
   ],
   "a": 2,
   "e": "Điểm a khoản 1 Điều 5: chi phí sử dụng đất, thuê đất trong thời gian xây dựng thuộc chi phí bồi thường, hỗ trợ và tái định cư.",
@@ -1400,10 +1355,10 @@
   "level": 2,
   "q": "Chi phí chạy thử thiết bị theo yêu cầu kỹ thuật thuộc khoản mục nào?",
   "o": [
-   "Chi phí xây dựng",
+   "Chi phí tư vấn",
    "Chi phí thiết bị",
-   "Chi phí dự phòng",
-   "Chi phí tư vấn"
+   "Chi phí khác",
+   "Chi phí xây dựng"
   ],
   "a": 1,
   "e": "Điểm c khoản 1 Điều 5: chi phí thiết bị gồm mua sắm, lắp đặt, thí nghiệm, hiệu chỉnh, chạy thử theo yêu cầu kỹ thuật, vận chuyển, bảo hiểm, thuế…",
@@ -1415,10 +1370,10 @@
   "level": 1,
   "q": "Chi phí dự phòng trong tổng mức đầu tư gồm những phần nào?",
   "o": [
-   "Chỉ dự phòng trượt giá",
-   "Dự phòng bảo hành công trình",
-   "Dự phòng cho khối lượng, công việc phát sinh và dự phòng cho yếu tố trượt giá",
-   "Dự phòng rủi ro tỷ giá và lãi vay"
+   "Dự phòng trượt giá và dự phòng bảo hành công trình",
+   "Dự phòng rủi ro tỷ giá và dự phòng biến động lãi vay",
+   "Dự phòng khối lượng phát sinh và dự phòng trượt giá",
+   "Dự phòng khối lượng phát sinh và dự phòng bất khả kháng"
   ],
   "a": 2,
   "e": "Điểm g khoản 1 Điều 5: dự phòng cho khối lượng, công việc phát sinh và dự phòng cho yếu tố trượt giá trong thời gian thực hiện dự án.",
@@ -1430,10 +1385,10 @@
   "level": 2,
   "q": "Với dự án chỉ lập Báo cáo kinh tế - kỹ thuật, tổng mức đầu tư gồm những gì?",
   "o": [
-   "Dự toán xây dựng công trình, chi phí bồi thường, hỗ trợ, tái định cư (nếu có) và chi phí liên quan tính chung cho dự án",
-   "Chỉ chi phí xây dựng",
-   "Sơ bộ tổng mức đầu tư nhân hệ số 1,1",
-   "Giá gói thầu thi công"
+   "Dự toán công trình, bồi thường (nếu có), chi phí chung của dự án",
+   "Giá gói thầu thi công cộng chi phí dự phòng và chi phí khác",
+   "Sơ bộ tổng mức đầu tư nhân hệ số điều chỉnh theo chỉ số giá",
+   "Chi phí xây dựng, thiết bị theo báo giá và dự phòng 10%"
   ],
   "a": 0,
   "e": "Khoản 6 Điều 5: gồm dự toán xây dựng công trình theo Điều 12, chi phí bồi thường, hỗ trợ, tái định cư (nếu có) và chi phí liên quan tính chung cho dự án.",
@@ -1445,10 +1400,10 @@
   "level": 2,
   "q": "Chi phí dự phòng cho khối lượng, công việc phát sinh trong tổng mức đầu tư được tính thế nào?",
   "o": [
-   "Bằng chỉ số giá xây dựng nhân thời gian",
-   "Bằng tỷ lệ % trên tổng các chi phí bồi thường, xây dựng, thiết bị, QLDA, tư vấn và chi phí khác",
-   "Bằng số tiền cố định do Bộ Tài chính quy định",
-   "Bằng 10% chi phí thiết bị"
+   "Chỉ số giá xây dựng nhân với thời gian thực hiện dự án dự kiến",
+   "Tỷ lệ % trên tổng chi phí bồi thường, xây dựng, thiết bị, QLDA, tư vấn, khác",
+   "Số tiền cố định theo nhóm dự án do Bộ Tài chính quy định hằng năm",
+   "Tỷ lệ 10% trên tổng chi phí thiết bị cộng chi phí xây dựng của toàn bộ dự án"
   ],
   "a": 1,
   "e": "Điểm g khoản 2 Điều 6: tính bằng tỷ lệ % trên tổng các khoản mục chi phí tại điểm a, b, c, d, đ, e; dự phòng trượt giá tính theo thời gian thực hiện và chỉ số giá.",
@@ -1460,10 +1415,10 @@
   "level": 3,
   "q": "Không có giá vật liệu, thiết bị phù hợp từ các nguồn thông tin, chủ đầu tư được làm gì để xác định giá?",
   "o": [
-   "Lấy giá cao nhất trong các báo giá",
-   "Tự ấn định giá",
-   "Thuê tổ chức thẩm định giá có năng lực, kinh nghiệm theo pháp luật về giá",
-   "Chờ Sở Xây dựng công bố"
+   "Lấy giá cao nhất trong các báo giá đã thu thập được",
+   "Chờ Sở Xây dựng công bố giá trong kỳ công bố tới",
+   "Thuê tổ chức thẩm định giá có năng lực, kinh nghiệm",
+   "Tự ấn định giá trên cơ sở kinh nghiệm của chủ đầu tư"
   ],
   "a": 2,
   "e": "Điểm đ khoản 5 Điều 6: trường hợp không có giá hoặc có nhưng không phù hợp, chủ đầu tư được thuê tổ chức thẩm định giá có năng lực, kinh nghiệm.",
@@ -1475,10 +1430,10 @@
   "level": 2,
   "q": "Thẩm tra tổng mức đầu tư xây dựng được thực hiện khi nào và bởi ai?",
   "o": [
-   "Trước khi thẩm định, bởi tổ chức tư vấn có năng lực, kinh nghiệm về quản lý chi phí",
-   "Sau quyết toán, bởi kiểm toán",
-   "Sau thẩm định, bởi cơ quan chuyên môn",
-   "Đồng thời với cấp phép xây dựng, bởi Sở Xây dựng"
+   "Trước thẩm định, do tư vấn có năng lực về quản lý chi phí",
+   "Đồng thời cấp phép xây dựng, do Sở Xây dựng thực hiện",
+   "Sau quyết toán, do kiểm toán nhà nước hoặc độc lập thực hiện",
+   "Sau thẩm định, do cơ quan chuyên môn về xây dựng thực hiện"
   ],
   "a": 0,
   "e": "Khoản 1 Điều 8: thẩm tra do tổ chức tư vấn có năng lực, kinh nghiệm trong lĩnh vực quản lý chi phí thực hiện trước khi thẩm định.",
@@ -1490,10 +1445,10 @@
   "level": 1,
   "q": "Tổng mức đầu tư xây dựng được phê duyệt có ý nghĩa gì?",
   "o": [
-   "Là giá hợp đồng EPC",
-   "Là chi phí tối đa để chủ đầu tư thực hiện dự án",
-   "Là giá trị quyết toán",
-   "Là chi phí tham khảo"
+   "Giá trị quyết toán vốn đầu tư khi kết thúc dự án",
+   "Chi phí tối đa để chủ đầu tư thực hiện dự án",
+   "Giá trị hợp đồng tổng thầu EPC của dự án",
+   "Chi phí tham khảo, được vượt nếu có lý do hợp lý"
   ],
   "a": 1,
   "e": "Khoản 2 Điều 9: tổng mức đầu tư được phê duyệt là chi phí tối đa để chủ đầu tư thực hiện dự án đầu tư xây dựng.",
@@ -1505,10 +1460,10 @@
   "level": 3,
   "q": "Dự án chia dự án thành phần; một dự án thành phần tăng tổng mức đầu tư nhưng không vượt tổng mức đầu tư toàn dự án, không đổi mục tiêu, quy mô. Xử lý thế nào?",
   "o": [
-   "Phải điều chỉnh tổng mức đầu tư tại BCNCKT toàn dự án",
-   "Chủ đầu tư điều chỉnh tổng mức đầu tư dự án thành phần, không phải điều chỉnh tổng mức đầu tư toàn dự án",
-   "Phải dừng dự án thành phần",
-   "Phải xin lại chủ trương đầu tư"
+   "Phải dừng thực hiện dự án thành phần cho đến khi điều chỉnh dự án",
+   "Chủ đầu tư điều chỉnh TMĐT dự án thành phần, không điều chỉnh toàn dự án",
+   "Phải điều chỉnh TMĐT tại BCNCKT toàn dự án trước khi thực hiện tiếp",
+   "Phải trình cấp có thẩm quyền điều chỉnh chủ trương đầu tư của dự án"
   ],
   "a": 1,
   "e": "Khoản 3 Điều 10: chủ đầu tư tổ chức điều chỉnh tổng mức đầu tư dự án thành phần, không phải điều chỉnh tại BCNCKT; nếu vượt tổng mức toàn dự án thì báo cáo người quyết định đầu tư.",
@@ -1520,10 +1475,10 @@
   "level": 2,
   "q": "Ai lập, thẩm định, phê duyệt dự toán chi phí chuẩn bị dự án?",
   "o": [
-   "Cơ quan chuyên môn về xây dựng",
-   "UBND cấp tỉnh",
-   "Bộ Tài chính",
-   "Cơ quan được giao chuẩn bị dự án hoặc chủ đầu tư (nếu đã xác định)"
+   "Cơ quan chuyên môn về xây dựng theo phân cấp thẩm định",
+   "UBND cấp tỉnh nơi thực hiện dự án đầu tư xây dựng",
+   "Bộ Tài chính hoặc Sở Tài chính theo nguồn vốn của dự án",
+   "Cơ quan chuẩn bị dự án hoặc chủ đầu tư (nếu đã xác định)"
   ],
   "a": 3,
   "e": "Khoản 2 Điều 11: cơ quan, tổ chức được giao chuẩn bị dự án hoặc chủ đầu tư (nếu đã xác định) lập, thẩm định, phê duyệt dự toán chi phí chuẩn bị dự án.",
@@ -1535,10 +1490,10 @@
   "level": 1,
   "q": "Chi phí xây dựng trong dự toán công trình gồm những thành phần nào?",
   "o": [
-   "Chi phí trực tiếp và lợi nhuận",
-   "Vật liệu, nhân công, máy",
-   "Chi phí trực tiếp, chi phí gián tiếp, thu nhập chịu thuế tính trước, thuế GTGT, chi phí nhà tạm để ở và điều hành thi công",
-   "Chi phí xây dựng và thiết bị"
+   "Trực tiếp, chi phí chung, lãi vay, bảo hiểm và dự phòng",
+   "Xây dựng, thiết bị, quản lý dự án, tư vấn và chi phí khác",
+   "Trực tiếp, gián tiếp, thu nhập chịu thuế tính trước, VAT, nhà tạm",
+   "Vật liệu, nhân công, máy thi công, lợi nhuận định mức và dự phòng phí"
   ],
   "a": 2,
   "e": "Khoản 2 Điều 12: chi phí xây dựng gồm chi phí trực tiếp, gián tiếp, thu nhập chịu thuế tính trước, thuế GTGT và chi phí nhà tạm để ở và điều hành thi công.",
@@ -1550,10 +1505,10 @@
   "level": 2,
   "q": "Chi phí gián tiếp trong dự toán được xác định thế nào?",
   "o": [
-   "Bằng 5% chi phí trực tiếp cố định",
+   "Bằng 5% chi phí trực tiếp, áp dụng cho mọi công trình",
    "Bằng định mức tỷ lệ % theo quy định hoặc lập dự toán",
-   "Theo báo giá nhà cung cấp",
-   "Theo khối lượng thiết kế"
+   "Theo báo giá của nhà cung cấp và nhà thầu thi công",
+   "Theo khối lượng thiết kế nhân đơn giá công tác xây dựng"
   ],
   "a": 1,
   "e": "Điểm b khoản 2 Điều 12: chi phí gián tiếp (chi phí chung, chi phí công việc không xác định được khối lượng) xác định bằng định mức tỷ lệ % hoặc lập dự toán.",
@@ -1565,10 +1520,10 @@
   "level": 2,
   "q": "Khi thiết kế triển khai sau là thiết kế FEED hoặc thiết kế kỹ thuật, chi phí trực tiếp được xác định theo đâu?",
   "o": [
-   "Theo tổng mức đầu tư nhân hệ số",
-   "Theo khối lượng và giá nhóm công tác, giá bộ phận, đơn vị kết cấu, giá công tác, suất chi phí",
-   "Theo giá hợp đồng tương tự",
-   "Chỉ theo giá công tác xây dựng chi tiết"
+   "Theo tổng mức đầu tư được duyệt nhân hệ số phân bổ cho từng hạng mục",
+   "Khối lượng và giá nhóm công tác, bộ phận kết cấu, giá công tác, suất chi phí",
+   "Theo giá hợp đồng của công trình tương tự đã thực hiện trong 5 năm",
+   "Chỉ theo giá công tác xây dựng chi tiết lập từ định mức dự toán của Bộ"
   ],
   "a": 1,
   "e": "Điểm a khoản 2 Điều 12: với FEED/TKKT, chi phí trực tiếp theo khối lượng và giá nhóm công tác, giá bộ phận, đơn vị kết cấu, giá công tác, suất chi phí.",
@@ -1580,10 +1535,10 @@
   "level": 2,
   "q": "Dự toán gói thầu xây dựng có thể gồm các công việc nào?",
   "o": [
-   "Chỉ mua sắm thiết bị",
-   "Tư vấn xây dựng, thi công, cung cấp vật tư, thiết bị lắp đặt vào công trình và công việc liên quan",
-   "Chỉ thi công xây dựng",
-   "Chỉ bồi thường giải phóng mặt bằng"
+   "Chỉ công việc bồi thường, hỗ trợ, tái định cư và rà phá bom mìn",
+   "Tư vấn, thi công, cung cấp vật tư thiết bị lắp đặt và việc liên quan",
+   "Chỉ công việc mua sắm thiết bị công nghệ của dây chuyền chính",
+   "Chỉ công việc thi công xây dựng công trình và hạng mục phụ trợ"
   ],
   "a": 1,
   "e": "Khoản 1 Điều 13: dự toán gói thầu gồm một hoặc một số công việc: tư vấn, thi công, cung cấp vật tư, thiết bị lắp đặt vào công trình và các công việc liên quan.",
@@ -1595,10 +1550,10 @@
   "level": 2,
   "q": "Dự toán công việc xây dựng (Điều 14) dùng cho trường hợp nào?",
   "o": [
-   "Chỉ công việc thi công phần ngầm",
-   "Chỉ công việc khảo sát",
-   "Công việc trong tổng mức đầu tư chưa có định mức hoặc hướng dẫn xác định bằng dự toán",
-   "Mọi công việc có định mức"
+   "Chỉ công việc khảo sát xây dựng phục vụ lập dự án đầu tư",
+   "Mọi công việc đã có định mức xây dựng do Bộ Xây dựng ban hành",
+   "Công việc trong TMĐT chưa có định mức hoặc hướng dẫn xác định",
+   "Chỉ công việc thi công phần ngầm có điều kiện địa chất phức tạp"
   ],
   "a": 2,
   "e": "Khoản 1 Điều 14: dự toán chi phí cho công việc trong tổng mức đầu tư chưa được quy định định mức xây dựng hoặc hướng dẫn xác định bằng dự toán.",
@@ -1610,10 +1565,10 @@
   "level": 1,
   "q": "Giá gói thầu xây dựng là gì?",
   "o": [
-   "Giá trúng thầu",
-   "Dự toán chưa gồm thuế",
-   "Giá trị quyết toán gói thầu",
-   "Giá trị gói thầu được phê duyệt trong kế hoạch lựa chọn nhà thầu, gồm cả dự phòng, phí, lệ phí và thuế"
+   "Giá trúng thầu ghi trong quyết định phê duyệt kết quả lựa chọn",
+   "Dự toán gói thầu chưa gồm thuế và chi phí dự phòng",
+   "Giá trị quyết toán gói thầu sau khi hoàn thành hợp đồng",
+   "Giá trị gói thầu duyệt trong KHLCNT, gồm dự phòng, phí, thuế"
   ],
   "a": 3,
   "e": "Khoản 1 Điều 15: giá gói thầu là giá trị gói thầu được phê duyệt trong kế hoạch lựa chọn nhà thầu, gồm toàn bộ chi phí, kể cả dự phòng, phí, lệ phí và thuế.",
@@ -1625,10 +1580,10 @@
   "level": 2,
   "q": "Dự toán xây dựng do chủ đầu tư lập được thẩm định cùng với thủ tục nào?",
   "o": [
-   "Thẩm định chủ trương đầu tư",
-   "Nghiệm thu hoàn thành",
-   "Cấp giấy phép xây dựng",
-   "Thẩm định thiết kế xây dựng triển khai sau khi dự án được phê duyệt"
+   "Thủ tục cấp giấy phép xây dựng công trình tại Sở Xây dựng",
+   "Thẩm định Báo cáo nghiên cứu khả thi tại cơ quan chuyên môn",
+   "Thủ tục nghiệm thu hoàn thành công trình đưa vào sử dụng",
+   "Thẩm định thiết kế triển khai sau khi dự án được phê duyệt"
   ],
   "a": 3,
   "e": "Khoản 1 Điều 16: dự toán được thẩm định cùng thẩm định thiết kế xây dựng triển khai sau khi dự án được phê duyệt.",
@@ -1640,10 +1595,10 @@
   "level": 3,
   "q": "Dự án dùng thiết kế FEED tại BCNCKT và đã chọn nhà thầu EPC. Có phải thẩm định dự toán xây dựng công trình ở bước triển khai sau không?",
   "o": [
-   "Chỉ thẩm định phần thiết bị",
-   "Chỉ thẩm định khi vượt 10% giá hợp đồng",
+   "Có, nhưng chỉ thẩm định phần chi phí thiết bị",
+   "Có, bắt buộc thẩm định toàn bộ dự toán xây dựng",
    "Không phải thẩm định dự toán ở bước triển khai sau",
-   "Có, bắt buộc"
+   "Có, khi giá trị phát sinh vượt 10% giá hợp đồng"
   ],
   "a": 2,
   "e": "Khoản 11 Điều 16: dự án dùng FEED/TKKT tại BCNCKT và đã lựa chọn nhà thầu EPC, EC, EP, thi công thì không phải thẩm định dự toán ở bước triển khai sau.",
@@ -1655,10 +1610,10 @@
   "level": 2,
   "q": "Việc thẩm tra dự toán xây dựng công trình do ai quyết định?",
   "o": [
-   "Chủ đầu tư quyết định căn cứ đặc điểm, tính chất và sự cần thiết",
-   "Cơ quan chuyên môn về xây dựng",
-   "Bộ Tài chính",
-   "Bắt buộc với mọi công trình"
+   "Chủ đầu tư quyết định theo đặc điểm và sự cần thiết",
+   "Cơ quan chuyên môn về xây dựng yêu cầu khi thẩm định",
+   "Bộ Tài chính quy định theo nhóm dự án và nguồn vốn",
+   "Bắt buộc với mọi công trình thuộc dự án đầu tư công"
   ],
   "a": 0,
   "e": "Khoản 8 Điều 16: việc thẩm tra dự toán do chủ đầu tư quyết định căn cứ đặc điểm, tính chất và sự cần thiết.",
@@ -1670,10 +1625,10 @@
   "level": 3,
   "q": "Cơ quan nào quy định chi phí thẩm tra, thẩm định dự toán và cơ quan nào quy định phí thẩm định dự toán?",
   "o": [
-   "Bộ Xây dựng quy định chi phí thẩm tra, thẩm định; Bộ Tài chính quy định phí thẩm định",
-   "Cả hai do Bộ Tài chính",
-   "UBND tỉnh quy định cả hai",
-   "Cả hai do Bộ Xây dựng"
+   "Bộ Xây dựng quy định chi phí; Bộ Tài chính quy định phí thẩm định",
+   "Bộ Xây dựng quy định cả chi phí thẩm tra, thẩm định và phí thẩm định",
+   "Bộ Tài chính quy định chi phí; Bộ Xây dựng quy định phí thẩm định",
+   "UBND cấp tỉnh quy định cả chi phí và phí thẩm định trên địa bàn"
   ],
   "a": 0,
   "e": "Khoản 10 Điều 16: Bộ Xây dựng quy định chi phí thẩm tra, thẩm định dự toán; Bộ Tài chính quy định phí thẩm định dự toán.",
@@ -1686,9 +1641,9 @@
   "q": "Dự toán gói thầu do chủ đầu tư phê duyệt có tác dụng gì đối với kế hoạch lựa chọn nhà thầu?",
   "o": [
    "Thay thế giá gói thầu trong kế hoạch lựa chọn nhà thầu",
-   "Thay thế giá hợp đồng",
-   "Thay thế tổng mức đầu tư",
-   "Không liên quan"
+   "Thay thế giá hợp đồng đã ký với nhà thầu trúng thầu",
+   "Thay thế tổng mức đầu tư trong quyết định phê duyệt dự án",
+   "Thay thế dự toán xây dựng công trình đã được phê duyệt"
   ],
   "a": 0,
   "e": "Khoản 3 Điều 17: chủ đầu tư phê duyệt dự toán gói thầu để thay thế giá gói thầu trong kế hoạch lựa chọn nhà thầu theo pháp luật đấu thầu.",
@@ -1700,10 +1655,10 @@
   "level": 3,
   "q": "Gói thầu đã ký hợp đồng cần điều chỉnh dự toán. Chủ đầu tư xác định dự toán điều chỉnh căn cứ vào đâu?",
   "o": [
-   "Nội dung hợp đồng xây dựng phù hợp pháp luật về hợp đồng và quy định quản lý chi phí tại thời điểm điều chỉnh",
-   "Ý kiến nhà thầu",
-   "Mặt bằng giá tại thời điểm điều chỉnh, bỏ qua hợp đồng",
-   "Dự toán ban đầu cộng 10%"
+   "Nội dung hợp đồng và quy định quản lý chi phí tại thời điểm điều chỉnh",
+   "Dự toán đã phê duyệt ban đầu cộng thêm 10% chi phí dự phòng",
+   "Đề xuất của nhà thầu thi công kèm báo giá vật liệu mới nhất",
+   "Mặt bằng giá tại thời điểm điều chỉnh, không xét nội dung hợp đồng"
   ],
   "a": 0,
   "e": "Điểm b khoản 1 Điều 18: với gói thầu đã ký hợp đồng, căn cứ nội dung hợp đồng xây dựng phù hợp pháp luật về hợp đồng và quy định quản lý chi phí tại thời điểm điều chỉnh.",
@@ -1715,10 +1670,10 @@
   "level": 1,
   "q": "Hệ thống định mức xây dựng gồm những loại nào?",
   "o": [
-   "Định mức dự toán và suất vốn đầu tư",
-   "Định mức kinh tế - kỹ thuật (định mức cơ sở, định mức dự toán) và định mức chi phí",
-   "Định mức cơ sở và đơn giá",
-   "Định mức vật liệu và định mức lao động"
+   "Định mức dự toán, suất chi phí và chỉ số giá xây dựng công trình",
+   "Định mức kinh tế - kỹ thuật (cơ sở, dự toán) và định mức chi phí",
+   "Định mức cơ sở, đơn giá xây dựng và suất vốn đầu tư xây dựng",
+   "Định mức vật liệu, định mức lao động và định mức ca máy thi công"
   ],
   "a": 1,
   "e": "Khoản 1 Điều 19: gồm định mức kinh tế - kỹ thuật (định mức cơ sở và định mức dự toán) và định mức chi phí.",
@@ -1730,10 +1685,10 @@
   "level": 2,
   "q": "Định mức chi phí là cơ sở để xác định khoản chi phí nào?",
   "o": [
-   "Giá nhân công",
-   "Chi phí vật liệu chính",
-   "Giá ca máy",
-   "Chi phí gián tiếp, thu nhập chịu thuế tính trước, chi phí quản lý dự án, chi phí tư vấn và một số chi phí khác"
+   "Giá nhân công theo nhóm công tác và bậc thợ trên địa bàn",
+   "Giá ca máy, giá thuê thiết bị thi công và chi phí nhiên liệu",
+   "Chi phí vật liệu chính, vật liệu phụ và vật liệu luân chuyển",
+   "Chi phí gián tiếp, thu nhập chịu thuế tính trước, QLDA, tư vấn"
   ],
   "a": 3,
   "e": "Khoản 4 Điều 19: định mức chi phí (tỷ lệ % hoặc giá trị) là cơ sở xác định chi phí gián tiếp, thu nhập chịu thuế tính trước, chi phí QLDA, tư vấn và chi phí khác.",
@@ -1745,10 +1700,10 @@
   "level": 2,
   "q": "Cơ quan nào ban hành định mức dự toán cho công tác xây dựng chuyên ngành chưa có trong hệ thống định mức của Bộ Xây dựng?",
   "o": [
-   "UBND cấp xã",
+   "Chủ đầu tư của dự án có công tác chuyên ngành",
    "Bộ quản lý công trình xây dựng chuyên ngành",
-   "Chủ đầu tư",
-   "Hiệp hội nghề nghiệp"
+   "Hiệp hội nghề nghiệp của ngành có liên quan",
+   "UBND cấp tỉnh nơi có công trình chuyên ngành"
   ],
   "a": 1,
   "e": "Điểm b khoản 1 Điều 20: bộ quản lý công trình xây dựng chuyên ngành ban hành định mức dự toán cho công tác thuộc chuyên ngành chưa có trong hệ thống của Bộ Xây dựng.",
@@ -1760,9 +1715,9 @@
   "level": 2,
   "q": "Theo Điều 22, giá các yếu tố chi phí trực tiếp cấu thành giá công tác xây dựng gồm những gì?",
   "o": [
-   "Chi phí chung và lợi nhuận",
-   "Suất vốn đầu tư và suất chi phí",
-   "Giá thiết bị công nghệ và chi phí lắp đặt",
+   "Chi phí chung, thu nhập chịu thuế tính trước và thuế GTGT",
+   "Suất vốn đầu tư, suất chi phí và giá bộ phận kết cấu công trình",
+   "Giá thiết bị công nghệ, chi phí lắp đặt và chạy thử thiết bị",
    "Giá vật liệu, giá nhân công, giá ca máy và thiết bị thi công"
   ],
   "a": 3,
@@ -1775,10 +1730,10 @@
   "level": 3,
   "q": "\"Suất vốn đầu tư xây dựng\" theo NĐ 206/2026 được hiểu là gì?",
   "o": [
-   "Giá trị khấu hao hằng năm",
-   "Tỷ lệ vốn chủ sở hữu tối thiểu",
-   "Lãi suất vay vốn đầu tư",
-   "Mức chi phí cần thiết cho một đơn vị diện tích, công suất hoặc năng lực phục vụ của dự án, công trình theo thiết kế"
+   "Lãi suất vay vốn đầu tư xây dựng bình quân áp dụng cho dự án đầu tư công",
+   "Tỷ lệ vốn chủ sở hữu tối thiểu trên tổng mức đầu tư của dự án kinh doanh",
+   "Giá trị khấu hao hằng năm của tài sản cố định hình thành sau đầu tư",
+   "Chi phí cần thiết cho một đơn vị diện tích, công suất hoặc năng lực phục vụ"
   ],
   "a": 3,
   "e": "Điểm đ khoản 1 Điều 22: suất vốn đầu tư là mức chi phí cần thiết cho một đơn vị tính theo diện tích, thể tích, chiều dài, công suất hoặc năng lực phục vụ (ví dụ đồng/kW).",
@@ -1791,9 +1746,9 @@
   "q": "Cơ quan nào xác định và công bố chỉ số giá xây dựng quốc gia theo năm?",
   "o": [
    "Bộ Xây dựng",
-   "Ngân hàng Nhà nước",
+   "Sở Xây dựng các tỉnh",
    "Bộ Tài chính",
-   "Tổng cục Thống kê"
+   "Cục Thống kê"
   ],
   "a": 0,
   "e": "Điểm a khoản 3 Điều 23: Bộ Xây dựng hướng dẫn phương pháp, xác định và công bố chỉ số giá xây dựng quốc gia theo năm; Sở Xây dựng xác định chỉ số trên địa bàn tỉnh.",
@@ -1806,9 +1761,9 @@
   "q": "Dự án quan trọng quốc gia có công trình kỹ thuật phức tạp, công nghệ mới, chưa có thông tin giá thiết bị. Người quyết định đầu tư được thành lập tổ chức nào để xác định giá?",
   "o": [
    "Ban đơn giá xây dựng công trình",
-   "Tổ công tác liên ngành Bộ Tài chính",
-   "Hội đồng nghiệm thu nhà nước",
-   "Hội đồng thẩm định giá quốc gia"
+   "Hội đồng nghiệm thu cấp nhà nước",
+   "Tổ công tác liên ngành về giá thiết bị",
+   "Hội đồng thẩm định giá cấp nhà nước"
   ],
   "a": 0,
   "e": "Khoản 5 Điều 24: người quyết định đầu tư được thành lập Ban đơn giá xây dựng công trình; chi phí hoạt động tính trong tổng mức đầu tư.",
@@ -1820,10 +1775,10 @@
   "level": 2,
   "q": "Chi phí quản lý dự án được xác định bằng phương pháp nào?",
   "o": [
-   "Theo tỷ lệ cố định 3% tổng mức đầu tư",
-   "Theo báo giá tư vấn",
-   "Bằng định mức tỷ lệ % theo quy định hoặc lập dự toán phù hợp hình thức quản lý, thời gian, quy mô dự án",
-   "Theo lương bình quân ngành"
+   "Báo giá của tổ chức tư vấn quản lý dự án được chủ đầu tư mời",
+   "Quỹ lương bình quân ngành nhân với số cán bộ quản lý dự kiến",
+   "Định mức tỷ lệ % hoặc lập dự toán phù hợp hình thức, quy mô dự án",
+   "Tỷ lệ cố định 3% tổng mức đầu tư, áp dụng cho mọi loại dự án"
   ],
   "a": 2,
   "e": "Khoản 1 Điều 25: chi phí QLDA là chi phí tối đa, xác định bằng định mức tỷ lệ % hoặc lập dự toán phù hợp hình thức tổ chức QLDA, thời gian, quy mô dự án.",
@@ -1835,10 +1790,10 @@
   "level": 3,
   "q": "Hợp đồng EPC giao nhà thầu thực hiện một số công việc QLDA của chủ đầu tư. Chi phí QLDA xử lý thế nào?",
   "o": [
-   "Chuyển thành chi phí tư vấn không giới hạn",
-   "Nhà thầu không được hưởng",
-   "Tăng thêm chi phí QLDA tương ứng",
-   "Nhà thầu được hưởng một phần chi phí QLDA phù hợp phạm vi công việc được giao, tổng không vượt chi phí QLDA đã duyệt"
+   "Chuyển toàn bộ chi phí QLDA sang chi phí tư vấn, không giới hạn",
+   "Nhà thầu không được hưởng; chi phí QLDA chỉ dành cho chủ đầu tư",
+   "Tăng thêm chi phí QLDA tương ứng phần việc giao cho nhà thầu EPC",
+   "Nhà thầu hưởng một phần chi phí QLDA, tổng không vượt mức đã duyệt"
   ],
   "a": 3,
   "e": "Khoản 4, 5 Điều 25: nhà thầu EPC được hưởng một phần chi phí QLDA theo thỏa thuận; tổng chi phí QLDA của các bên không vượt chi phí đã duyệt.",
@@ -1850,10 +1805,10 @@
   "level": 2,
   "q": "Chi phí tư vấn xây dựng đã phê duyệt được điều chỉnh khi nào?",
   "o": [
-   "Khi lương tối thiểu vùng tăng",
-   "Khi thay đổi phạm vi công việc, điều kiện và tiến độ thực hiện công tác tư vấn",
-   "Không được điều chỉnh",
-   "Bất kỳ lúc nào chủ đầu tư yêu cầu"
+   "Bất kỳ lúc nào chủ đầu tư có yêu cầu bằng văn bản",
+   "Khi thay đổi phạm vi, điều kiện và tiến độ công tác tư vấn",
+   "Khi mức lương tối thiểu vùng thay đổi trong năm thực hiện hợp đồng",
+   "Không được điều chỉnh trong mọi trường hợp đã ký"
   ],
   "a": 1,
   "e": "Khoản 3 Điều 26: chi phí tư vấn đã duyệt là chi phí tối đa, chỉ điều chỉnh khi thay đổi phạm vi công việc, điều kiện và tiến độ thực hiện tư vấn.",
@@ -1865,10 +1820,10 @@
   "level": 2,
   "q": "Chi phí thuê tư vấn nước ngoài được xác định trên cơ sở nào?",
   "o": [
-   "Theo dự toán hoặc dữ liệu chi phí thuê tư vấn nước ngoài của dự án tương tự tại Việt Nam",
-   "Theo báo giá duy nhất của tư vấn",
-   "Theo định mức tỷ lệ % của Bộ Xây dựng",
-   "Bằng 2 lần chi phí tư vấn trong nước"
+   "Theo dự toán hoặc dữ liệu chi phí dự án tương tự tại Việt Nam",
+   "Bằng hai lần chi phí tư vấn trong nước cho cùng công việc",
+   "Theo báo giá duy nhất của tổ chức tư vấn nước ngoài đề xuất",
+   "Theo định mức tỷ lệ % do Bộ Xây dựng ban hành cho tư vấn"
   ],
   "a": 0,
   "e": "Khoản 2 Điều 27: xác định theo dự toán hoặc cơ sở dữ liệu chi phí thuê tư vấn nước ngoài của công trình, dự án tương tự tại Việt Nam.",

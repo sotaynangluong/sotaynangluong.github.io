@@ -1,7 +1,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
 import { getAuth, GoogleAuthProvider, signInWithPopup, signInWithRedirect, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 import { getFirestore, collection, addDoc, getDocs, deleteDoc, doc, query as fq, where, orderBy, limit, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
-import { firebaseConfig, ADMIN_UIDS } from "./firebase-config.js?v=15";
+import { firebaseConfig, ADMIN_UIDS } from "./firebase-config.js?v=16";
 
 /* ---------- Khởi tạo ---------- */
 const configured = !!firebaseConfig.projectId;
@@ -24,6 +24,24 @@ const store = {
 };
 const hit = (...p) => !query || p.join(" ").toLowerCase().includes(query);
 const hl = s => { const t = esc(s); if (!query) return t; const i = t.toLowerCase().indexOf(query); return i < 0 ? t : t.slice(0, i) + "<mark>" + t.slice(i, i + query.length) + "</mark>" + t.slice(i + query.length); };
+/* Thuật ngữ viết tắt: hiện chú giải khi rê chuột/chạm, và bảng tra trong mục IV */
+const ABBR = {
+  BCNCTKT: "Báo cáo nghiên cứu tiền khả thi", BCNCKT: "Báo cáo nghiên cứu khả thi", BCKTKT: "Báo cáo kinh tế - kỹ thuật",
+  TKCS: "Thiết kế cơ sở", TKKT: "Thiết kế kỹ thuật", TKBVTC: "Thiết kế bản vẽ thi công",
+  FEED: "Thiết kế tổng thể giai đoạn đầu (Front-End Engineering Design), lập cho dự án có thiết kế công nghệ",
+  EPC: "Hợp đồng thiết kế – cung cấp thiết bị, vật tư – thi công xây dựng (Engineering, Procurement, Construction)",
+  EP: "Hợp đồng thiết kế – cung cấp thiết bị, vật tư", EC: "Hợp đồng thiết kế – thi công xây dựng",
+  TMĐT: "Tổng mức đầu tư", QLDA: "Quản lý dự án", KHLCNT: "Kế hoạch lựa chọn nhà thầu", GPMB: "Giải phóng mặt bằng",
+  BIM: "Mô hình thông tin công trình (Building Information Modeling)", ODA: "Hỗ trợ phát triển chính thức (vốn vay ưu đãi nước ngoài)",
+  PPP: "Đầu tư theo phương thức đối tác công tư", NSNN: "Ngân sách nhà nước", UBND: "Ủy ban nhân dân",
+  PCCC: "Phòng cháy, chữa cháy", GTGT: "Giá trị gia tăng", VAT: "Thuế giá trị gia tăng",
+  KCN: "Khu công nghiệp", KCX: "Khu chế xuất", KCNC: "Khu công nghệ cao", KKT: "Khu kinh tế",
+  DPPA: "Mua bán điện trực tiếp (Direct Power Purchase Agreement)", BESS: "Hệ thống lưu trữ điện năng bằng pin (Battery Energy Storage System)",
+  EVN: "Tập đoàn Điện lực Việt Nam", NSMO: "Công ty TNHH MTV Vận hành hệ thống điện và thị trường điện quốc gia",
+  "NĐ": "Nghị định", "TT": "Thông tư", "QĐ": "Quyết định"
+};
+const ABBR_RE = new RegExp("(^|[^\\p{L}\\d])(" + Object.keys(ABBR).sort((a, b) => b.length - a.length).join("|") + ")(?![\\p{L}\\d])", "gu");
+const ab = html => html.replace(ABBR_RE, (m, pre, k) => `${pre}<abbr title="${ABBR[k]}">${k}</abbr>`);
 const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
 const fmtTime = s => `${String(Math.floor(s / 60)).padStart(2, "0")}:${String(s % 60).padStart(2, "0")}`;
 const topics = () => [...new Set(DATA.questions.map(q => q.topic))];
@@ -104,17 +122,17 @@ function paneOptions(q, chosen, reveal, cls = "") {
     let c = cls;
     if (reveal) c = j === q.a ? "right" : (j === chosen ? "wrong" : "");
     else if (j === chosen) c = "sel";
-    return `<button class="opt ${c}" type="button" data-j="${j}" ${reveal ? "disabled" : ""}><span class="l">${"ABCD"[j]}</span><span>${hl(o)}</span></button>`;
+    return `<button class="opt ${c}" type="button" data-j="${j}" ${reveal ? "disabled" : ""}><span class="l">${"ABCD"[j]}</span><span>${ab(hl(o))}</span></button>`;
   }).join("");
 }
 
 function paneOptionsExplain(q, chosen) {
-  return `<div class="explain"><b>${chosen === q.a ? "Đúng." : chosen === undefined ? "Chưa trả lời." : "Chưa đúng."}</b> ${esc(q.e)}<br>Căn cứ: ${esc(q.b)}</div>`;
+  return `<div class="explain"><b>${chosen === q.a ? "Đúng." : chosen === undefined ? "Chưa trả lời." : "Chưa đúng."}</b> ${ab(esc(q.e))}<br>Căn cứ: ${esc(q.b)}</div>`;
 }
 
 function paneQuestionCard(q, chosen, reveal, extraHead = "") {
   return `<article class="card" data-q="${q.id}"><div class="r-head"><span class="eyebrow">${esc(q.topic)} · ${LEVELS[q.level] || ""}</span>${extraHead}</div>
-    <p class="q">${hl(q.q)}</p><div class="opts">${paneOptions(q, chosen, reveal)}</div>${reveal ? paneOptionsExplain(q, chosen) : ""}</article>`;
+    <p class="q">${ab(hl(q.q))}</p><div class="opts">${paneOptions(q, chosen, reveal)}</div>${reveal ? paneOptionsExplain(q, chosen) : ""}</article>`;
 }
 
 /* Luyện tập */
@@ -255,7 +273,7 @@ function needLogin(msg) {
 async function paneRank() {
   if (!configured) { $("#pane").innerHTML = `<p class="empty">Trang chưa kết nối Firebase.</p>`; return; }
   const keys = ["Tất cả", ...topics()].flatMap(t => [10, 20, 40].map(n => examKey(t, n)));
-  $("#pane").innerHTML = `<div class="form"><label for="rk">Bộ đề<select id="rk">${keys.map(k => `<option value="${esc(k)}" ${k === rankKey ? "selected" : ""}>${esc(k.replace("|", " · "))} câu</option>`).join("")}</select></label></div><div id="rk-body"><p class="empty">Đang tải…</p></div>`;
+  $("#pane").innerHTML = `<div class="form"><label for="rk">Bộ đề<select id="rk">${keys.map(k => `<option value="${esc(k)}" ${k === rankKey ? "selected" : ""}>${esc(k.replace("|", " · "))} câu</option>`).join("")}</select></label></div><div id="rk-body"><p class="empty">Đang tải…</p></div><p class="hint">Bảng xếp hạng mang tính tham khảo: điểm chấm trên trình duyệt của người thi. Quản trị viên rà soát và xóa lượt thi bất thường.</p>`;
   $("#rk").onchange = e => { rankKey = e.target.value; paneRank(); };
   try {
     const rows = (await fetchAttempts()).filter(a => a.key === rankKey && a.ranked);
@@ -283,10 +301,11 @@ async function paneOverall() {
     const pending = all.filter(p => p.t < 10);
     const me = user ? all.find(p => p.uid === user.uid) : null;
     $("#pane").innerHTML = `${me ? `<div class="card"><div class="score"><span class="big num">${me.avg.toFixed(1)}</span><span>Điểm trung bình của anh/chị · <b class="num">${me.n}</b> lượt · đúng <b class="num">${me.c}/${me.t}</b> câu · cao nhất <b class="num">${me.best.toFixed(1)}</b>${me.t < 10 ? " · cần làm đủ 10 câu để vào bảng" : ` · hạng <b class="num">${list.findIndex(p => p.uid === user?.uid) + 1}/${list.length}</b>`}</span></div></div>` : (user ? `<p class="hint">Anh/chị chưa có lượt thi nào. Vào tab Thi để bắt đầu.</p>` : `<p class="hint">Đăng nhập Google để lưu kết quả thi và có tên trên bảng xếp hạng.</p>`)}
-    <h2>Bảng xếp hạng tổng</h2>
+    <h2>Bảng xếp hạng tổng (tham khảo)</h2>
     ${list.length ? `<div class="tbl-wrap"><table><thead><tr><th>Hạng</th><th>Người thi</th><th>Điểm TB</th><th>Đúng / tổng câu</th><th>Số lượt</th><th>Cao nhất</th></tr></thead><tbody>
       ${list.map((p, i) => `<tr class="${i === 0 ? "rank1" : ""} ${p.uid === user?.uid ? "me-row" : ""}"><td class="num">${i + 1}</td><td>${esc(p.name)}</td><td class="num">${p.avg.toFixed(2)}</td><td class="num">${p.c}/${p.t}</td><td class="num">${p.n}</td><td class="num">${p.best.toFixed(1)}</td></tr>`).join("")}
       </tbody></table></div>` : `<p class="empty">Chưa có ai đủ điều kiện xếp hạng.</p>`}
+    <p class="hint">Bảng xếp hạng mang tính tham khảo: điểm chấm trên trình duyệt của người thi. Quản trị viên rà soát và xóa lượt thi bất thường.</p>
     <p class="hint">Điểm TB = tổng câu đúng / tổng câu đã thi × 10, gộp mọi lượt thi (kể cả đề không xếp hạng theo bộ đề). Cần tối thiểu 10 câu để vào bảng. Bằng điểm thì ai làm nhiều câu hơn đứng trước.${pending.length ? ` Có ${pending.length} người chưa đủ 10 câu.` : ""}</p>`;
   } catch (e) { $("#pane").innerHTML = `<p class="empty">Không tải được: ${esc(e.message)}</p>`; }
 }
@@ -403,6 +422,8 @@ function renderLookup() {
   <h2>Cấp giấy phép xây dựng</h2>
   ${table(["Cơ quan cấp", "Phạm vi", "Căn cứ"], L.permit)}
   <ul class="hint">${(L.permitNotes || []).map(n => `<li>${esc(n)}</li>`).join("")}</ul>
+  <h2>Thuật ngữ viết tắt</h2>
+  <div class="tbl-wrap"><table><thead><tr><th>Viết tắt</th><th>Nghĩa</th></tr></thead><tbody>${Object.entries(ABBR).filter(([k]) => hit(k, ABBR[k])).map(([k, v]) => `<tr><td><b>${k}</b></td><td>${hl(v)}</td></tr>`).join("")}</tbody></table></div>
   <h2>Văn bản pháp luật</h2>${table(["Lĩnh vực", "Loại", "Số hiệu", "Trích yếu", "Xem"], L.docs, [2], 4)}
   <p class="hint">Link dẫn đến cổng thông tin cơ quan nhà nước hoặc trang tra cứu pháp luật. Đối chiếu bản gốc có chữ ký số trước khi viện dẫn chính thức.</p>`;
   wireGate();
