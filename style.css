@@ -1,5 +1,5 @@
 /* Layout: thanh điều hướng trái màu xanh thương hiệu + vùng nội dung sáng; điện thoại: tab ngang trên cùng.
-   Bảng màu theo nhận diện BIM Group: xanh lá đậm, xanh rừng, trắng, xám nhạt; tiêu đề serif kiểu Bodoni. */
+   Bảng màu theo nhận diện BIM Group: xanh lá đậm, xanh rừng, trắng, xám nhạt; tiêu đề serif Playfair Display (hỗ trợ đầy đủ dấu tiếng Việt). */
 :root{
   --bg:#f4f6f3; --panel:#ffffff; --ink:#1c241e; --muted:#5f6b62; --line:#dde3dc;
   --accent:#006030;       /* xanh BIM */
@@ -8,7 +8,7 @@
   --side-hi:#a9d8b4;      /* điểm nhấn trên nền xanh đậm */
   --ok:#2f7d4f; --warn:#a86f0b; --crit:#b23a32;
   --ok-soft:#e1f1e7; --warn-soft:#f7ecd2; --crit-soft:#f6dedb;
-  --f-display:"Bodoni Moda","Bodoni 72","Didot",Georgia,serif;
+  --f-display:"Playfair Display",Georgia,"Times New Roman",serif;
   --f-body:"Be Vietnam Pro",system-ui,-apple-system,"Segoe UI",sans-serif;
   --f-mono:"JetBrains Mono",ui-monospace,Consolas,monospace;
 }
@@ -25,9 +25,9 @@
 
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--ink);font:15px/1.6 var(--f-body);margin:0}
-.app{display:grid;grid-template-columns:240px minmax(0,1fr);min-height:100vh}
+.app{display:grid;grid-template-columns:272px minmax(0,1fr);min-height:100vh}
 aside{background:linear-gradient(160deg,rgba(255,255,255,.07),transparent 45%),repeating-linear-gradient(135deg,rgba(255,255,255,.025) 0 2px,transparent 2px 14px),var(--steel);color:#e3eee5;padding-block:24px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:16px;position:sticky;top:0;height:100vh;display:flex;flex-direction:column;gap:20px}
-.brand{font-family:var(--f-display);font-weight:700;font-size:24px;line-height:1.08}
+.brand{font-family:var(--f-display);font-weight:700;font-size:23px;line-height:1.15;text-wrap:balance}
 .brand small{display:block;font:500 11px/1.4 var(--f-mono);letter-spacing:.12em;color:var(--side-hi);margin-top:8px}
 nav{display:flex;flex-direction:column;gap:4px}
 nav a{display:flex;gap:10px;align-items:baseline;color:#d3e3d6;text-decoration:none;padding:9px 10px;border-radius:6px;font-weight:500}
@@ -291,3 +291,5 @@ abbr[title] { text-decoration: underline dotted; text-underline-offset: 3px; tex
 .tcol span{position:absolute;bottom:calc(100% + 2px);left:50%;transform:translateX(-50%);font:11px var(--f-mono);white-space:nowrap}
 .ty em{font:11px var(--f-mono);color:var(--muted);font-style:normal}
 @media (max-width:760px){.prow,.trend .tgroup{flex-direction:column;align-items:stretch}.plab{flex:none;padding:0 0 3px}.ptrack{padding-right:70px}.tyears{max-width:none}}
+nav a{font-size:15px;text-wrap:balance}
+h1,h2,h3,.tcard h3{text-wrap:balance}
