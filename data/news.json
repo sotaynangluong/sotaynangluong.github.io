@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T07:52:02.938788+00:00",
+ "updated": "2026-10-31T08:02:46.908785+00:00",
  "count": 300,
  "errors": [],
  "items": [
@@ -9,7 +9,11 @@
    "source": "Báo Dân trí",
    "group": "Báo chí",
    "topic": "Dự án",
-   "date": "2026-10-31T03:13:20+00:00"
+   "date": "2026-10-31T03:13:20+00:00",
+   "enriched": true,
+   "url": "https://dantri.com.vn/kinh-doanh/sieu-du-an-dien-mat-troi-14-ty-usd-cua-doanh-nghiep-viet-nam-o-kyrgyzstan-20261030095330110.htm",
+   "image": "https://cdnphoto.dantri.com.vn/CD1O-7gREzu7fyuTmVUMwl16gZ0=/zoom/1200_630/2026/10/30/a1rox-issyk-kul-solar-farm-cropped-cropped-1793327458220.jpg",
+   "excerpt": "(Dân trí) - Một doanh nghiệp đa ngành Việt Nam đang triển khai nhiều dự án tại Kyrgyzstan, trong đó có nhà máy điện mặt trời 1.900 MW, trong định hướng Go Global của doanh nghiệp Việt."
   },
   {
    "title": "Đắk Lắk có thêm nhà máy điện gió công suất 77MW",
@@ -17,7 +21,11 @@
    "source": "Báo Thanh Niên",
    "group": "Báo chí",
    "topic": "Dự án",
-   "date": "2026-10-31T02:31:00+00:00"
+   "date": "2026-10-31T02:31:00+00:00",
+   "enriched": true,
+   "url": "https://thanhnien.vn/dak-lak-co-them-nha-may-dien-gio-cong-suat-77mw-185261031090209051.htm",
+   "image": "https://images2.thanhnien.vn/zoom/1200_630/528068263637045248/2026/10/31/2aobor9gqsxxhk7e7w8mpksdumqhfx8xgsniv3a0-17934119105801828795686-105-0-1705-2560-crop-179341192469163088335.jpg",
+   "excerpt": "UBND tỉnh Đắk Lắk vừa ban hành Quyết định số 3517, chấp thuận chủ trương đầu tư đồng thời chấp thuận nhà đầu tư đối với dự án Nhà máy điện gió Ea Sin, có tổng vốn đầu tư 2.893 tỉ đồng, công suất thiết kế 77 MW."
   },
   {
    "title": "Trungnam được chấp thuận đầu tư dự án điện gió 2.900 tỷ đồng ở Đắk Lắk",
@@ -25,7 +33,11 @@
    "source": "CafeF",
    "group": "Báo chí",
    "topic": "Dự án",
-   "date": "2026-10-31T01:45:00+00:00"
+   "date": "2026-10-31T01:45:00+00:00",
+   "enriched": true,
+   "url": "https://cafef.vn/trungnam-duoc-chap-thuan-dau-tu-du-an-dien-gio-2900-ty-dong-o-dak-lak-188261031084344908.chn",
+   "image": "https://cafefcdn.com/thumb_w/1200/203337114487263232/2026/10/31/avatar1793410725340-17934107273621296620522.jpg",
+   "excerpt": "UBND tỉnh Đắk Lắk ban hành Quyết định số 3517/QĐ-UBND về việc chấp thuận chủ trương đầu tư đồng thời chấp thuận nhà đầu tư đối với dự án Nhà máy điện gió Ea Sin."
   },
   {
    "title": "Đắk Lắk chấp thuận đầu tư dự án điện gió hơn 2.893 tỷ đồng",
@@ -33,7 +45,11 @@
    "source": "CafeF",
    "group": "Báo chí",
    "topic": "Dự án",
-   "date": "2026-10-31T01:29:00+00:00"
+   "date": "2026-10-31T01:29:00+00:00",
+   "enriched": true,
+   "url": "https://cafef.vn/dak-lak-chap-thuan-dau-tu-du-an-dien-gio-hon-2893-ty-dong-188261031072841499.chn",
+   "image": "https://cafefcdn.com/thumb_w/1200/203337114487263232/2026/10/31/avatar1793406483665-17934064842991726075857.jpg",
+   "excerpt": "Ngày 30/10, UBND tỉnh Đắk Lắk ban hành quyết định về việc chấp thuận chủ trương đầu tư, đồng thời chấp thuận nhà đầu tư dự án Nhà máy điện gió Ea Sin, công suất thiết kế 77 MW, với tổng vốn đầu tư hơn 2.893 tỷ đồng."
   },
   {
    "title": "Tập đoàn Trung Nam tiếp tục rót gần 2.900 tỷ đồng làm điện gió ở Đắk Lắk",
@@ -41,7 +57,11 @@
    "source": "baodautu",
    "group": "Báo chí",
    "topic": "Dự án",
-   "date": "2026-10-31T01:01:00+00:00"
+   "date": "2026-10-31T01:01:00+00:00",
+   "enriched": true,
+   "url": "https://baodautu.vn/tap-doan-trung-nam-tiep-tuc-rot-gan-2900-ty-dong-lam-dien-gio-o-dak-lak-d734087.html",
+   "image": "https://media.baodautu.vn/thumb_x470x250/Images/thanhhuong/2026/10/31/tap-doan-trung-nam-tiep-tuc-rot-gan-2900-ty-dong-lam-dien-gio-o-dak-lak1793408046.jpg",
+   "excerpt": "Sau dự án điện gió hơn 400 MW tại Đắk Lắk, Tập đoàn Trung Nam tiếp tục đầu tư Nhà máy điện gió Ea Sin công suất 77 MW, tổng vốn 2.893 tỷ đồng, khẳng định chiến lược phát triển năng lượng tái tạo dài hạn tại Tây Nguyên."
   },
   {
    "title": "Hà Nội hỗ trợ tối đa 6 triệu đồng lắp điện mặt trời mái nhà",
@@ -49,7 +69,11 @@
    "source": "Báo và Phát thanh Truyền hình Hà Nội",
    "group": "Báo chí",
    "topic": "NLTT – Lưu trữ",
-   "date": "2026-10-30T23:58:00+00:00"
+   "date": "2026-10-30T23:58:00+00:00",
+   "enriched": true,
+   "url": "https://hanoionline.vn/ha-noi-ho-tro-toi-da-6-trieu-dong-lap-dien-mat-troi-mai-nha-246261031065348006.htm",
+   "image": "https://hanoionline.mediacdn.vn/thumb_w/1200/247013415983136768/2026/10/30/hanoimoi-com-vn-uploads-images-tuandiep-2023-03-24-lap-dat-he-thong-dien-mat-t-17934044025121568082964-0-96-315-600-crop-17934044062051327894965.jpg",
+   "excerpt": "Các hộ gia đình có nhà ở riêng lẻ tại Hà Nội khi lắp đặt hệ thống điện mặt trời mái nhà tự sản xuất, tự tiêu thụ có thể được thành phố hỗ trợ tối đa 6 triệu đồng nếu lắp đặt đồng bộ cả hệ thống pin lưu trữ điện. Chính…"
   },
   {
    "title": "Điện mặt trời mái nhà: Giải pháp tiết kiệm điện, hướng đến năng lượng bền vững",
@@ -57,7 +81,11 @@
    "source": "Báo Văn Hóa",
    "group": "Báo chí",
    "topic": "Vận hành",
-   "date": "2026-10-30T14:17:43+00:00"
+   "date": "2026-10-30T14:17:43+00:00",
+   "enriched": true,
+   "url": "https://baovanhoa.vn/dien-mat-troi-mai-nha-giai-phap-tiet-kiem-dien-huong-den-nang-luong-ben-vung-280564.html",
+   "image": "https://cdn.baovanhoa.vn/1200x630/uploaded/images/2026/10/31/01a18f6b-863e-7419-8830-9778796154d1.jpg",
+   "excerpt": "Điện mặt trời mái nhà tại Quảng Ngãi giúp hộ gia đình, doanh nghiệp tiết kiệm chi phí tiền điện, chủ động nguồn năng lượng và hướng đến phát triển xanh, bền vững."
   },
   {
    "title": "Đoàn Thanh niên EVN thăm, tặng quà CBNV trực tiếp sản xuất tại Công ty Nhiệt điện Phú Mỹ",
@@ -65,7 +93,11 @@
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
    "group": "EVN",
    "topic": "Khác",
-   "date": "2026-10-30T12:31:00+00:00"
+   "date": "2026-10-30T12:31:00+00:00",
+   "enriched": true,
+   "url": "https://www.evn.com.vn/d/vi-VN/news/Doan-Thanh-nien-EVN-tham-tang-qua-CBNV-truc-tiep-san-xuat-tai-Cong-ty-Nhiet-dien-Phu-My-60-2031-510165",
+   "image": "https://www.evn.com.vn/userfile/User/nghiapm/images/2026/10/291026tangqua-20261030193223948.jpg",
+   "excerpt": "Sáng 30/10, tại TP. Hồ Chí Minh, Đoàn Thanh niên Tập đoàn Điện lực Việt Nam (EVN) tổ chức thăm hỏi, tặng quà, động viên cán bộ, nhân viên (CBNV) trực tiếp sản xuất tại các nhà máy thuộc Công ty Nhiệt điện Phú Mỹ."
   },
   {
    "title": "Đoàn Thanh niên EVN bồi dưỡng kiến thức, kỹ năng cho 106 cán bộ Đoàn",
@@ -73,7 +105,11 @@
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
    "group": "EVN",
    "topic": "Khác",
-   "date": "2026-10-30T12:28:00+00:00"
+   "date": "2026-10-30T12:28:00+00:00",
+   "enriched": true,
+   "url": "https://www.evn.com.vn/d/vi-VN/news/Doan-Thanh-nien-EVN-boi-duong-kien-thuc-ky-nang-cho-106-can-bo-Doan-60-2031-510164",
+   "image": "https://www.evn.com.vn/userfile/User/nghiapm/images/2026/10/291026taphuan2-20261030192825054.jpg",
+   "excerpt": "Kiến thức về điện mặt trời mái nhà, kỹ năng truyền thông và tổ chức hoạt động Đoàn là những nội dung được Đoàn Thanh niên Tập đoàn Điện lực Việt Nam (EVN) trang bị cho 106 cán bộ Đoàn chủ chốt trong Tập đoàn. Chương…"
   },
   {
    "title": "EVNHCMC bổ sung tiện ích về tra cứu nguồn điện mặt trời mái nhà",
@@ -81,7 +117,9 @@
    "source": "Báo Nhân Dân điện tử",
    "group": "Báo chí",
    "topic": "NLTT – Lưu trữ",
-   "date": "2026-10-30T12:25:47+00:00"
+   "date": "2026-10-30T12:25:47+00:00",
+   "enriched": true,
+   "url": "https://nhandan.vn/evnhcmc-bo-sung-tien-ich-ve-tra-cuu-nguon-dien-mat-troi-mai-nha-post999154.html"
   },
   {
    "title": "Điện mặt trời mái nhà giúp tiết kiệm hơn 60% tiền điện",
@@ -89,7 +127,11 @@
    "source": "Báo Thanh Niên",
    "group": "Báo chí",
    "topic": "NLTT – Lưu trữ",
-   "date": "2026-10-30T09:03:00+00:00"
+   "date": "2026-10-30T09:03:00+00:00",
+   "enriched": true,
+   "url": "https://thanhnien.vn/dien-mat-troi-mai-nha-giup-tiet-kiem-hon-60-tien-dien-18526103016145939.htm",
+   "image": "https://images2.thanhnien.vn/zoom/1200_630/528068263637045248/2026/10/30/3010-dien-mat-troi-mai-nha-1-17933510797091865733197-0-0-590-1126-crop-17933511216171630696402.jpg",
+   "excerpt": "Điện mặt trời mái nhà đang trở thành giải pháp giúp người dân, doanh nghiệp giảm chi phí tiền điện."
   },
   {
    "title": "Huế dự kiến hỗ trợ đến 3 triệu đồng mỗi hộ lắp điện mặt trời mái nhà",
@@ -97,7 +139,11 @@
    "source": "Tuổi Trẻ",
    "group": "Báo chí",
    "topic": "NLTT – Lưu trữ",
-   "date": "2026-10-30T09:00:00+00:00"
+   "date": "2026-10-30T09:00:00+00:00",
+   "enriched": true,
+   "url": "https://tuoitre.vn/hue-du-kien-ho-tro-den-3-trieu-dong-moi-ho-lap-dien-mat-troi-mai-nha-100261030105553344.htm",
+   "image": "https://cdn2.tuoitre.vn/zoom/1200_630/471584752817336320/2026/10/30/dien-mat-troi-ap-mai-1793332325977301169674-517-633-971-1500-crop-1793332400229809951361.jpeg",
+   "excerpt": "TP Huế dự kiến dành khoảng 52 tỉ đồng hỗ trợ các hộ gia đình lắp đặt điện mặt trời mái nhà và hệ thống lưu trữ điện trong giai đoạn 2027 - 2030. Mỗi hộ có thể được hỗ trợ tối đa 3 triệu đồng."
   },
   {
    "title": "Điện mặt trời giúp người tiêu dùng chủ động nguồn cung và tiết kiệm chi phí sinh hoạt như thế nào?",
@@ -105,7 +151,11 @@
    "source": "Tin tức 24h",
    "group": "Báo chí",
    "topic": "NLTT – Lưu trữ",
-   "date": "2026-10-30T08:06:00+00:00"
+   "date": "2026-10-30T08:06:00+00:00",
+   "enriched": true,
+   "url": "https://www.24h.com.vn/thi-truong-tieu-dung/dien-mat-troi-giup-nguoi-tieu-dung-chu-dong-nguon-cung-va-tiet-kiem-chi-phi-sinh-hoat-nhu-the-nao-c52a1806992.html",
+   "image": "https://cdn.24h.com.vn/upload/4-2026/images/2026-10-30/adt1793345090-cf7fecb202-dien-mat-troi-24160-101-0__anh_cat_3_2-auto-crop-watermark.jpg",
+   "excerpt": "Điện mặt trời mái nhà tự sản xuất, tự tiêu thụ, góp phần chủ động nguồn điện tại chỗ, sử dụng năng lượng hiệu quả và hướng tới mục tiêu phát triển xanh, bền vững."
   },
   {
    "title": "Ban Quản lý dự án Điện 1: 30 năm trưởng thành cùng những công trình điện trọng điểm",
@@ -113,7 +163,11 @@
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
    "group": "EVN",
    "topic": "Dự án",
-   "date": "2026-10-30T07:11:00+00:00"
+   "date": "2026-10-30T07:11:00+00:00",
+   "enriched": true,
+   "url": "https://www.evn.com.vn/d/vi-VN/news/Ban-Quan-ly-du-an-Dien-1-30-nam-truong-thanh-cung-nhung-cong-trinh-dien-trong-diem-60-12-510158",
+   "image": "https://www.evn.com.vn/userfile/User/ngoctuantuoitre/images/2026/10/30102026evnpmb1kyniem30namngaythanhlap7-20261030141949931.jpg",
+   "excerpt": "Trải qua 30 năm xây dựng và phát triển (01/11/1996 – 01/11/2026), Ban Quản lý dự án Điện 1 (EVNPMB1) đã từng bước khẳng định năng lực quản lý, ghi dấu ấn tại nhiều công trình điện trọng điểm quốc gia. Trước những yêu…"
   },
   {
    "title": "Bộ Công Thương điều chỉnh phương án đấu nối Nhà máy điện gió Đông Hải 3",
@@ -121,7 +175,11 @@
    "source": "Tạp chí Công Thương",
    "group": "Báo chí",
    "topic": "Dự án",
-   "date": "2026-10-30T05:30:00+00:00"
+   "date": "2026-10-30T05:30:00+00:00",
+   "enriched": true,
+   "url": "https://tapchicongthuong.vn/bo-cong-thuong-dieu-chinh-phuong-an-dau-noi-nha-may-dien-gio-dong-hai-3-562194.htm",
+   "image": "https://imgcdn.tapchicongthuong.vn/tcct-media/26/10/30/dien-gio-vinh-long_6ae41390b108d.jpg",
+   "excerpt": "Thứ trưởng Bộ Công Thương Trương Thanh Hoài vừa ký Quyết định số 2832/QĐ-BCT ngày 27/10/2026 về việc phê duyệt điều chỉnh cập nhật phương án đấu nối dự án Nhà máy điện gió Đông Hải 3 (Vị trí V3-3) trong Quy hoạch phát…"
   },
   {
    "title": "PVEP, Vietsovpetro và PTSC thúc đẩy hợp tác phát triển điện gió ngoài khơi",
@@ -129,7 +187,11 @@
    "source": "Báo Thế giới và Việt Nam",
    "group": "Báo chí",
    "topic": "NLTT – Lưu trữ",
-   "date": "2026-10-30T04:37:32+00:00"
+   "date": "2026-10-30T04:37:32+00:00",
+   "enriched": true,
+   "url": "https://baoquocte.vn/pvep-vietsovpetro-va-ptsc-thuc-day-hop-tac-phat-trien-dien-gio-ngoai-khoi-461457.html",
+   "image": "https://cdn.baoquocte.vn/stores/news_dataimages/2026/102026/27/16/in_social/pvep-vietsovpetro-va-ptsc-thuc-day-hop-tac-phat-trien-dien-gio-ngoai-khoi-20261027162115.jpg?v=2.720260814091259",
+   "excerpt": "Ngày 23/10, tại TP. Hồ Chí Minh, PVEP, VSP và PTSC đã tổ chức cuộc họp trao đổi về hợp tác nghiên cứu, phát triển và đầu tư trong lĩnh vực điện gió ng"
   },
   {
    "title": "Cà Mau đẩy mạnh đầu tư điện gió, bổ sung nguồn cung năng lượng tái tạo",
@@ -137,7 +199,9 @@
    "source": "moitruong.net.vn",
    "group": "Báo chí",
    "topic": "Dự án",
-   "date": "2026-10-30T04:00:01+00:00"
+   "date": "2026-10-30T04:00:01+00:00",
+   "enriched": true,
+   "url": "https://moitruong.net.vn/ca-mau-day-manh-dau-tu-dien-gio-bo-sung-nguon-cung-nang-luong-tai-tao-103614.html"
   },
   {
    "title": "Đà Nẵng xin hướng dẫn triển khai Tổ hợp điện gió gần bờ, tổng vốn 1,2 tỷ USD",
@@ -145,7 +209,11 @@
    "source": "Tin nhanh chứng khoán",
    "group": "Báo chí",
    "topic": "Dự án",
-   "date": "2026-10-30T03:37:22+00:00"
+   "date": "2026-10-30T03:37:22+00:00",
+   "enriched": true,
+   "url": "https://www.tinnhanhchungkhoan.vn/da-nang-xin-huong-dan-trien-khai-to-hop-dien-gio-gan-bo-tong-von-12-ty-usd-post400467.html",
+   "image": "https://image.tinnhanhchungkhoan.vn/1200x630/Uploaded/2026/wpxlcdjwi/2026_10_30/thang-binh-8224-7119.jpg",
+   "excerpt": "Dự án Tổ hợp điện gió gần bờ kết hợp sản xuất Hydro xanh và Amoniac tại vùng biển xã Thăng Trường có tổng vốn dự kiến 1,2 tỷ USD đang được thành phố Đà Nẵng xin hướng dẫn để triển khai."
   },
   {
    "title": "Thông tin chung về vận hành hệ thống điện Quốc gia ngày 29/10/2026",
@@ -153,7 +221,11 @@
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
    "group": "EVN",
    "topic": "Vận hành",
-   "date": "2026-10-30T03:24:00+00:00"
+   "date": "2026-10-30T03:24:00+00:00",
+   "enriched": true,
+   "url": "https://www.evn.com.vn/d/vi-VN/news/Thong-tin-chung-ve-van-hanh-he-thong-dien-Quoc-gia-ngay-29102026-60-2015-510156",
+   "image": "https://www.evn.com.vn",
+   "excerpt": "- Thông tin chung về vận hành hệ thống điện Quốc gia ngày 29/10/2026"
   },
   {
    "title": "Đoàn Thanh niên EVN phát động Chương trình “1+2 Chủ động năng lượng - Lợi ích lâu dài” thúc đẩy phát triển điện mặt trời mái nhà",
@@ -161,7 +233,11 @@
    "source": "Tạp chí Công Thương",
    "group": "Báo chí",
    "topic": "NLTT – Lưu trữ",
-   "date": "2026-10-30T02:00:00+00:00"
+   "date": "2026-10-30T02:00:00+00:00",
+   "enriched": true,
+   "url": "https://tapchicongthuong.vn/doan-thanh-nien-evn-phat-dong-chuong-trinh--1-2-chu-dong-nang-luong-loi-ich-lau-dai--thuc-day-phat-trien-dien-mat-troi-mai-nha-562003.htm",
+   "image": "https://imgcdn.tapchicongthuong.vn/tcct-media/26/10/29/doa--n-thanh-nie--n-evn-pha--t-do--ng-chu--o--ng-tri--nh--1-2__6ae32b2c9baea.jpg",
+   "excerpt": "Sáng 29/10/2026, tại TP. Hồ Chí Minh, Đoàn Thanh niên Tập đoàn Điện lực Việt Nam (EVN) tổ chức Lễ phát động Chương trình “1+2 Chủ động năng lượng - Lợi ích lâu dài”, thúc đẩy phát triển điện mặt trời mái nhà trong đoàn…"
   },
   {
    "title": "VinEnergo vận hành hệ thống điện mặt trời mái nhà kết hợp pin lưu trữ năng lượng tại Hà Tĩnh",
@@ -169,7 +245,11 @@
    "source": "VietQ.vn",
    "group": "Báo chí",
    "topic": "Vận hành",
-   "date": "2026-10-30T01:04:00+00:00"
+   "date": "2026-10-30T01:04:00+00:00",
+   "enriched": true,
+   "url": "https://vietq.vn/vinenergo-van-hanh-he-thong-dien-mat-troi-mai-nha-ket-hop-pin-luu-tru-nang-luong-tai-ha-tinh-d245050.html",
+   "image": "https://media.vietq.vn/thumb_x500x263/upload/2026/10/29/vinenergo-van-hanh-he-thong-dien-mat-troi-mai-nha-ket-hop-pin-luu-tru-nang-luong-tai-ha-tinh_fb38.jpg",
+   "excerpt": "Công ty Cổ phần Năng lượng VinEnergo chính thức đưa vào vận hành hệ thống điện mặt trời mái nhà kết hợp pin lưu trữ năng lượng (BESS) để cung cấp điện sạch"
   },
   {
    "title": "Cổng thông tin điện tử Bộ Tài Chính",
@@ -177,7 +257,9 @@
    "source": "Cổng thông tin điện tử Bộ Tài Chính",
    "group": "Bộ Tài chính",
    "topic": "Khác",
-   "date": "2026-10-30T01:01:07+00:00"
+   "date": "2026-10-30T01:01:07+00:00",
+   "enriched": true,
+   "url": "https://mof.gov.vn/chuyen-doi-so/bo-tai-chinh-chuyen-doi-so/hien-dai-hoa-"
   },
   {
    "title": "Thư chúc mừng của đồng chí Bí thư Đảng ủy, Chủ tịch Hội đông thành viên Tập đoàn Điện lực Việt Nam nhân ngày Pháp luật Việt Nam (09/11)",
@@ -185,7 +267,11 @@
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
    "group": "EVN",
    "topic": "Chính sách",
-   "date": "2026-10-30T00:00:00+00:00"
+   "date": "2026-10-30T00:00:00+00:00",
+   "enriched": true,
+   "url": "https://www.evn.com.vn/d/vi-VN/news/Thu-chuc-mung-cua-dong-chi-Bi-thu-Dang-uy-Chu-tich-Hoi-dong-thanh-vien-Tap-doan-Dien-luc-Viet-Nam-nhan-ngay-Phap-luat-Viet-Nam-0911-60-12-510134",
+   "image": "https://www.evn.com.vn/userfile/User/tcdl/images/2026/10/thuchucmung301026web-20261030073319211.jpg",
+   "excerpt": "- Thư chúc mừng của đồng chí Bí thư Đảng ủy, Chủ tịch Hội đồng thành viên Tập đoàn Điện lực Việt Nam nhân ngày Pháp luật Việt Nam (09/11)"
   },
   {
    "title": "Công nghệ châu Âu \"góp sức\" cho điện gió Việt Nam",
@@ -193,7 +279,9 @@
    "source": "Báo Diễn đàn Doanh nghiệp",
    "group": "Báo chí",
    "topic": "NLTT – Lưu trữ",
-   "date": "2026-10-29T20:34:01+00:00"
+   "date": "2026-10-29T20:34:01+00:00",
+   "enriched": true,
+   "url": "https://diendandoanhnghiep.vn/cong-nghe-chau-au-gop-suc-cho-dien-gio-viet-nam-10186750.html"
   },
   {
    "title": "Đánh thức nguồn điện từ mỗi mái nhà",
@@ -201,7 +289,11 @@
    "source": "Vietnam.vn",
    "group": "NSMO",
    "topic": "Khác",
-   "date": "2026-10-29T14:44:42+00:00"
+   "date": "2026-10-29T14:44:42+00:00",
+   "enriched": true,
+   "url": "https://www.vietnam.vn/bn/danh-thuc-nguon-dien-tu-moi-mai-nha",
+   "image": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/10/29/1793269689166_img-0346-png.webp",
+   "excerpt": "TPO - Chỉ thị 10 được Thủ tướng Chính phủ ban hành ngày 30/3/2026 đặt ra yêu cầu tiết kiệm tối thiểu 3% tổng điện năng tiêu thụ toàn quốc trong năm 2026, đồng thời thúc đẩy điện mặt trời mái nhà tự sản xuất, tự tiêu…"
   },
   {
    "title": "Bộ Công Thương và Bộ Nông nghiệp và Môi trường chủ trì họp tăng cường phối hợp công tác vì mục tiêu bảo đảm cung ứng điện 2027",
@@ -209,7 +301,11 @@
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
    "group": "EVN",
    "topic": "Vận hành",
-   "date": "2026-10-29T13:52:00+00:00"
+   "date": "2026-10-29T13:52:00+00:00",
+   "enriched": true,
+   "url": "https://www.evn.com.vn/d/vi-VN/news/Bo-Cong-Thuong-va-Bo-Nong-nghiep-va-Moi-truong-chu-tri-hop-tang-cuong-phoi-hop-cong-tac-vi-muc-tieu-bao-dam-cung-ung-dien-2027-60-12-510155",
+   "image": "https://www.evn.com.vn/userfile/User/ngoctuantuoitre/images/2026/10/29102026hoinghitraodoivecongtacphoihoptrongquanlynhanuoc5-20261029205758618.jpg",
+   "excerpt": "Trước những dự báo khó khăn về nguồn nước và khả năng huy động các nguồn điện, Bộ Công Thương cùng Bộ Nông nghiệp và Môi trường trao đổi các giải pháp phối hợp trong vận hành hồ chứa, sử dụng hiệu quả tài nguyên nước và…"
   },
   {
    "title": "Pin lưu trữ giúp người dùng giảm áp lực chi phí khi áp giá điện theo giờ",
@@ -217,7 +313,11 @@
    "source": "PetroTimes",
    "group": "Báo chí",
    "topic": "Giá điện",
-   "date": "2026-10-29T13:28:35+00:00"
+   "date": "2026-10-29T13:28:35+00:00",
+   "enriched": true,
+   "url": "https://petrotimes.vn/pin-luu-tru-giup-nguoi-dung-giam-ap-luc-chi-phi-khi-ap-gia-dien-theo-gio-747283.html",
+   "image": "https://cdn.petrotimes.vn/stores/news_dataimages/2026/102026/29/17/in_social/gg-power-m4a20261029174706.jpg?randTime=1793433547",
+   "excerpt": "Trước áp lực bảo đảm cung ứng điện trong những năm tới, pin lưu trữ năng lượng (BESS) được kỳ vọng góp phần giảm công suất đỉnh, hỗ trợ điều độ hệ thống điện và thúc đẩy phát triển năng lượng tái tạo. Đây là chia sẻ của…"
   },
   {
    "title": "Hà Nội hỗ trợ tối đa 6 triệu đồng cho hộ gia đình lắp điện mặt trời mái nhà kèm hệ thống lưu trữ",
@@ -225,7 +325,23 @@
    "source": "LuatVietnam",
    "group": "Báo chí",
    "topic": "NLTT – Lưu trữ",
-   "date": "2026-10-29T13:20:34+00:00"
+   "date": "2026-10-29T13:20:34+00:00",
+   "enriched": true,
+   "url": "https://luatvietnam.vn/tin-van-ban-moi/ha-noi-ho-tro-toi-da-6-trieu-dong-cho-ho-gia-dinh-lap-dien-mat-troi-mai-nha-kem-he-thong-luu-tru-186-114776-article.html",
+   "image": "https://image3.luatvietnam.vn/uploaded/images/original/2026/10/29/ha-noi-ho-tro-toi-da-6-trieu-dong-cho-ho-gia-dinh-lap-dien-mat-troi-mai-nha-kem-he-thong-luu-tru_2910201926.jpg",
+   "excerpt": "Hà Nội hỗ trợ tối đa 6 triệu đồng cho hộ gia đình lắp điện mặt trời mái nhà kèm hệ thống lưu trữ theo Nghị quyết mới được thông qua."
+  },
+  {
+   "title": "11 dự án nhà máy tiêu biểu trong hơn 5.000 hệ thống điện mặt trời trên cả nước do Việt Nam Solar là tổng thầu EPC",
+   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQYUEwYmZzVGZsQjN4OWF5WlRoeFhyWUVQaFlRd21qTUM5eDhPNkZ4b1lCVE1hTzRCTGg5RElWVjFuT21YaE82SFBUMEJONmVKdGwxMmN5V3ZiLTlDcExIT1lmSXFIdXRIaERoTmNUOHNGV0dUV0FndU11QjRVczY3cEFLektPLWI5SVk5MWdrSlZnSTlFSUpoSUJ0MjVEVVBidDJnd24yWHN3V3J1YzVZUFZDWkQ2cjRubG9HaF9BbTB3ZVAtRkNheV9jNDVRY1pRV3k3Q0dkcWd2X0hqT3hWMVd3?oc=5",
+   "source": "Baolangson.vn",
+   "group": "Báo chí",
+   "topic": "Dự án",
+   "date": "2026-10-29T11:04:02+00:00",
+   "enriched": true,
+   "url": "https://baolangson.vn/11-du-an-nha-may-tieu-bieu-trong-hon-5-000-he-thong-dien-mat-troi-tren-ca-nuoc-do-viet-nam-solar-la-tong-thau-epc-5107164.html",
+   "image": "https://mediabls.mediatech.vn/upload/image/202610/thumbnail/703221_1_14512524.jpg",
+   "excerpt": "Tin tức mới nhất, chính thống, chính xác"
   },
   {
    "title": "Gia Lai: Điện gió Ia Pech mở cửa đón dân, hướng tới phát triển bền vững",
@@ -233,7 +349,21 @@
    "source": "Báo Văn Hóa",
    "group": "Báo chí",
    "topic": "NLTT – Lưu trữ",
-   "date": "2026-10-29T11:00:00+00:00"
+   "date": "2026-10-29T11:00:00+00:00",
+   "enriched": true,
+   "url": "https://baovanhoa.vn/kinh-te/gia-lai-dien-gio-ia-pech-mo-cua-don-dan-huong-toi-phat-trien-ben-vung-280207.html",
+   "image": "https://cdn.baovanhoa.vn/1200x630/uploaded/images/2026/10/31/01a18f6d-0c13-74a4-9aee-8816e1e5dfea.jpg",
+   "excerpt": "Ngày 29.10, tại xã Gào, tỉnh Gia Lai, Công ty CP Đầu tư Năng lượng Điện Xanh Gia Lai đã tổ chức chương trình “Ngày hội mở cửa Ia Pech năm 2026” (Ia Pech Open Day 2026) với chủ đề “Chung sức đồng lòng – Kiến tạo tương…"
+  },
+  {
+   "title": "Đoàn thanh niên EVN phát động chương trình vận động người dân lắp điện mặt trời mái nhà",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQM3lUN0RIRXhPclNHNl80a1lqMTl0Ulo2QkUxZ29WSlJCQU5MN3RLWkJkd1V1b1BoTE1JVEZSNTRqa1d0ei0wQ2w4aVM3bFFfUy1PVzZEUFlMbFJJbmRIaC1jS09KR2FLYmY1MW96WW9MMVdYdnF1alVUSU50SHYwbkFwRGpPZkxxa0xUZS0yRnZjc0VuazlLTDQyODhkOWJfRkc3X0ZlV2RkMXpsak1SdDRTVEVQb1VsRnpqcFJXY2RSdw?oc=5",
+   "source": "Báo Tiền Phong",
+   "group": "Báo chí",
+   "topic": "NLTT – Lưu trữ",
+   "date": "2026-10-29T10:58:40+00:00",
+   "enriched": true,
+   "url": "https://tienphong.vn/doan-thanh-nien-evn-phat-dong-chuong-trinh-van-dong-nguoi-dan-lap-dien-mat-troi-mai-nha-post1889734.tpo"
   },
   {
    "title": "Đoàn Thanh niên EVN phát động Chương trình “1+2” thúc đẩy phát triển điện mặt trời mái nhà",
@@ -241,7 +371,11 @@
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
    "group": "EVN",
    "topic": "NLTT – Lưu trữ",
-   "date": "2026-10-29T09:30:00+00:00"
+   "date": "2026-10-29T09:30:00+00:00",
+   "enriched": true,
+   "url": "https://www.evn.com.vn/d/vi-VN/news/Doan-Thanh-nien-EVN-phat-dong-Chuong-trinh-12-thuc-day-phat-trien-dien-mat-troi-mai-nha-60-2031-510152",
+   "image": "https://www.evn.com.vn/userfile/User/nghiapm/images/2026/10/291026phatdong-20261029163131833.jpg",
+   "excerpt": "Sáng 29/10, tại TP. Hồ Chí Minh, Đoàn Thanh niên Tập đoàn Điện lực Việt Nam (EVN) tổ chức Lễ phát động Chương trình “1+2 Chủ động năng lượng – Lợi ích lâu dài”, thúc đẩy phát triển điện mặt trời mái nhà trong đoàn viên…"
   },
   {
    "title": "Úc tiến gần hợp pháp hóa điện Mặt Trời ban công",
@@ -249,7 +383,23 @@
    "source": "Tuổi Trẻ",
    "group": "Báo chí",
    "topic": "NLTT – Lưu trữ",
-   "date": "2026-10-29T09:28:00+00:00"
+   "date": "2026-10-29T09:28:00+00:00",
+   "enriched": true,
+   "url": "https://tuoitre.vn/uc-tien-gan-hop-phap-hoa-dien-mat-troi-ban-cong-100261030122940274.htm",
+   "image": "https://cdn2.tuoitre.vn/zoom/1200_630/471584752817336320/2026/10/30/thumb-photo-1793338065584-1793338065903711489472-17933380766421090299688-73-0-701-1200-crop-17933380933481127692802.jpeg",
+   "excerpt": "Úc đang tiến gần tới việc hợp pháp hóa điện Mặt Trời ban công, cho phép người thuê nhà và cư dân chung cư sử dụng các tấm pin nhỏ mà không cần sở hữu mái nhà để lắp đặt hệ thống điện này."
+  },
+  {
+   "title": "Luật Thủ đô quy định thời gian các công trình vi phạm tại Hà Nội được cấp lại điện, nước",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNS3JQcXZpMnNHVlpPZVVGcS1PRC1IakY4X29PdjgwdUtzQTYwODJRVllBaFJGRWhvSFUtb3ZRMmRzcFBsSTdyZzRVbVJseTBsQlJCRUVtZ0JodnVHVmxGTHo3cWpaUXNLM1IxR2QtcjZKdWFoQTRpYVBLX3hycEViTG9kdmZuR25hUk5FNlpuaUlQRExZbU9hXzY5c3J5UEtSQ2x5ZFN4UWg5bk9HOHZWeXA2SGY3b1A0czJpTmJ0cVU3eld0T1FZbXM1OTNFSFFIeUFtNHF4RQ?oc=5",
+   "source": "thanglong.chinhphu.vn",
+   "group": "Chính phủ",
+   "topic": "Chính sách",
+   "date": "2026-10-29T09:04:00+00:00",
+   "enriched": true,
+   "url": "https://thanglong.chinhphu.vn/luat-thu-do-quy-dinh-thoi-gian-cac-cong-trinh-vi-pham-tai-ha-noi-duoc-cap-lai-dien-nuoc-103261029125041188.htm",
+   "image": "https://tl.cdnchinhphu.vn/zoom/600_315/344445545208135680/2026/10/29/cap-dien-17932526489251511669640-142-0-1392-2000-crop-17932526660391325127087.jpg",
+   "excerpt": "Theo quy định cụ thể hóa Luật Thủ đô năm 2026, công trình, cơ sở sản xuất, kinh doanh bị ngừng cung cấp điện, nước có thể được khôi phục dịch vụ khi đáp ứng các điều kiện khắc phục vi phạm."
   },
   {
    "title": "Điện mặt trời mái nhà: Giải pháp tiết kiệm điện và năng lượng bền vững",
@@ -257,7 +407,9 @@
    "source": "Báo Tin tức và Dân tộc",
    "group": "Báo chí",
    "topic": "Vận hành",
-   "date": "2026-10-29T08:46:21+00:00"
+   "date": "2026-10-29T08:46:21+00:00",
+   "enriched": true,
+   "url": "https://baotintuc.vn/dien-mat-troi-mai-nha-giai-phap-tiet-kiem-dien-va-nang-luong-ben-vung-post1398363.html"
   },
   {
    "title": "Đề xuất hỗ trợ lắp đặt điện mặt trời mái nhà tối đa 3 triệu đồng/hộ",
@@ -265,7 +417,33 @@
    "source": "HueNgayNay",
    "group": "Báo chí",
    "topic": "NLTT – Lưu trữ",
-   "date": "2026-10-29T08:35:00+00:00"
+   "date": "2026-10-29T08:35:00+00:00",
+   "enriched": true,
+   "url": "https://huengaynay.vn/kinh-te/de-xuat-ho-tro-lap-dat-dien-mat-troi-mai-nha-toi-da-3-trieu-dong-ho-171275.html",
+   "image": "https://file.huengaynay.vn/data/0/images/2026/10/29/upload_3846/img-9221-2.jpg?w=400",
+   "excerpt": "Khi nghị quyết trên được HĐND thành phố thông qua, sẽ tạo thêm động lực mới để người dân quan tâm đầu tư ĐMTMN, chủ động sử dụng điện tại chỗ, góp phần tiết kiệm chi phí và giảm áp lực lên lưới điện địa phương."
+  },
+  {
+   "title": "Đề xuất sửa thời hạn áp dụng biểu giá bán lẻ điện cho sạc xe điện",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNGh1T0QzUEhrZklwelVaNmgtVHRTYnY2ZDEwME02LVFtYjVXZmNzb1djTXlIM2RGRElGaWtUQmpEeXQ0YnBBV1JmRVpYTTJmVzM0MkhZWDdmTzRfUVgwd3BwS3dJQnhJQkk4RVhPT3Jtcy1xcl9OZmtQa3h0dnpSWk5CWWtobjkwclJzS09yUENvZWJhUHk2OUxiNE5ObTRsZGFIWkZ3QjJZdzZBTENwd3hIUzNLVnNHYkRpZ2xHWTZXeVU?oc=5",
+   "source": "xaydungchinhsach.chinhphu.vn",
+   "group": "Chính phủ",
+   "topic": "Giá điện",
+   "date": "2026-10-29T07:57:00+00:00",
+   "enriched": true,
+   "url": "https://xaydungchinhsach.chinhphu.vn/de-xuat-sua-thoi-han-ap-dung-bieu-gia-ban-le-dien-cho-sac-xe-dien-119261029145214879.htm"
+  },
+  {
+   "title": "Hà Nội: Thông qua chính sách hỗ trợ hộ gia đình lắp đặt điện mặt trời mái nhà tự sản xuất, tự tiêu thụ",
+   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOWi15QUpoX3RYdWhjMHBYWXZ3cHF1NjFDZmdDd1prZUtNRlpQemVNYllpSm02dWVud2dqSnQtOTY1WWdvNElvWVRvYnlBLWNZOWxsRjhiU1N0cjJxMWU5S2lBcC1SOWluT29Ca2Ytd3ZtTXlfOHRwNkNSNVRVZEd4WERkb19ObjlZN0dSYjhWZXUxY3ZXQmdzUEw0OFdHaDNxblpVaDdTZWp3dUdMU0kwdkR2MjIxSUh6VENVYkpwMUxGQW1aVTYxWVlLWVNNYXJiTnJTbk83aC1BSFlZb2dMQ1VVZ3g0OFNiSEJGZjFMYw?oc=5",
+   "source": "Năng lượng sạch Việt Nam",
+   "group": "Báo chí",
+   "topic": "Chính sách",
+   "date": "2026-10-29T07:36:00+00:00",
+   "enriched": true,
+   "url": "https://nangluongsachvietnam.vn/d6/vi-VN/news/Ha-Noi-Thong-qua-chinh-sach-ho-tro-ho-gia-dinh-lap-dat-dien-mat-troi-mai-nha-tu-san-xuat-tu-tieu-thu-0-165-36832",
+   "image": "https://nangluongsachvietnam.vn//userfile/User/dohuong/images/2026/10/17/ava-mai-20261029142933493.png",
+   "excerpt": "HĐND thành phố Hà Nội vừa thông qua Nghị quyết quy định chính sách hỗ trợ hộ gia đình lắp đặt điện mặt trời mái nhà tự sản xuất, tự tiêu thụ và hệ thống lưu trữ điện trên địa bàn thành phố."
   },
   {
    "title": "Công suất điện gió và điện mặt trời của Trung Quốc đạt kỷ lục",
@@ -273,7 +451,11 @@
    "source": "VTV.vn",
    "group": "Báo chí",
    "topic": "NLTT – Lưu trữ",
-   "date": "2026-10-29T07:02:00+00:00"
+   "date": "2026-10-29T07:02:00+00:00",
+   "enriched": true,
+   "url": "https://vtv.vn/cong-suat-dien-gio-va-dien-mat-troi-cua-trung-quoc-dat-ky-luc-100261029094834356.htm",
+   "image": "https://cdn-images.vtv.vn/fb_thumb_bn/66349b6076cb4dee98746cf1/2026/10/29/tq-52370790348134698340502-66282721776569008100219.png",
+   "excerpt": "VTV.vn - Tổng công suất lắp đặt điện gió và điện mặt trời của Trung Quốc đạt 2,01 tỷ Kilowatt (kW) vào cuối tháng 9 năm nay, mức cao kỷ lục mới."
   },
   {
    "title": "Góp ý phản biện hồ sơ hai dự án đầu tư điện gió và điện mặt trời",
@@ -281,7 +463,11 @@
    "source": "Báo Đắk Lắk điện tử",
    "group": "Báo chí",
    "topic": "Dự án",
-   "date": "2026-10-29T05:40:00+00:00"
+   "date": "2026-10-29T05:40:00+00:00",
+   "enriched": true,
+   "url": "https://baodaklak.vn/khoa-hoc-cong-nghe/202610/gop-y-phan-bien-ho-so-hai-du-an-dau-tu-dien-gio-va-dien-mat-troi-da80907/",
+   "image": "https://baodaklak.vn/file/fb9e3a03798789de0179a1704dea238e/102026/dsc03223_20261029104252.jpg?width=600",
+   "excerpt": "Liên hiệp các Hội khoa học và kỹ thuật tỉnh góp ý phản biện hồ sơ đầu tư điện gió và điện mặt trời"
   },
   {
    "title": "Hà Tĩnh khuyến khích lắp đặt điện mặt trời mái nhà, tiết kiệm chi phí và chủ động nguồn điện",
@@ -289,7 +475,11 @@
    "source": "Cổng thông tin điện tử tỉnh Hà Tĩnh",
    "group": "Báo chí",
    "topic": "NLTT – Lưu trữ",
-   "date": "2026-10-29T05:25:40+00:00"
+   "date": "2026-10-29T05:25:40+00:00",
+   "enriched": true,
+   "url": "https://hatinh.gov.vn/vi/bai-viet/ha-tinh-khuyen-khich-lap-dat-dien-mat-troi-mai-nha-tiet-kiem-chi-phi-va-chu-dong-nguon-dien",
+   "image": "https://hatinh.gov.vn/Files/Others/99a9204b-7f17-49d1-905d-696c3ba76cc8/742832124_122098698267393252_5224053399425729005_n.jpg",
+   "excerpt": "Hệ thống chính sách mới của Trung ương cùng Kế hoạch số 563/KH-UBND của UBND tỉnh Hà Tĩnh đang tạo hành lang pháp lý ngày càng thuận lợi để người dân, cơ quan, đơn vị và doanh nghiệp đầu tư điện mặt trời mái nhà tự sản…"
   },
   {
    "title": "Hà Nội hỗ trợ tối đa 6 triệu đồng cho hộ lắp điện mặt trời mái nhà",
@@ -297,7 +487,9 @@
    "source": "VOV.VN",
    "group": "Báo chí",
    "topic": "NLTT – Lưu trữ",
-   "date": "2026-10-29T04:59:51+00:00"
+   "date": "2026-10-29T04:59:51+00:00",
+   "enriched": true,
+   "url": "https://vov.vn/xa-hoi/ha-noi-ho-tro-toi-da-6-trieu-dong-cho-ho-lap-dien-mat-troi-mai-nha-post1345572.vov"
   },
   {
    "title": "Phê duyệt Kế hoạch cơ cấu lại vốn nhà nước tại doanh nghiệp giai đoạn 2026 - 2030",
@@ -305,7 +497,23 @@
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
    "group": "EVN",
    "topic": "Khác",
-   "date": "2026-10-29T03:50:00+00:00"
+   "date": "2026-10-29T03:50:00+00:00",
+   "enriched": true,
+   "url": "https://www.evn.com.vn/d/vi-VN/news/Phe-duyet-Ke-hoach-co-cau-lai-von-nha-nuoc-tai-doanh-nghiep-giai-doan-2026-2030-60-2025-510149",
+   "image": "https://www.evn.com.vn/userfile/User/giangtcdl/images/2026/10/2910kehoach-20261029105229341.jpg",
+   "excerpt": "Phó Thủ tướng Nguyễn Văn Thắng ký Quyết định số 2054/QĐ-TTg ngày 27/10/2026 phê duyệt Kế hoạch cơ cấu lại vốn nhà nước tại doanh nghiệp giai đoạn 2026 - 2030 đối với doanh nghiệp quy định tại khoản 1 Điều 5 Quyết định…"
+  },
+  {
+   "title": "Bài toán dòng tiền của thị trường BESS",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9abnZkMXJRY3J1VlMxZlFGWFJBQzdBeVNDTFJYLWtyWlgzLVRFaHpzRDdDTzZSX0pnMVRtaE92emp5VXVsbFF1NHlWa0JuVXhGWnhDeUpOallXMGkyLVg0cGZDZ19KdExIbHpORk1oM19lbVRQdnpkZW51ZWM?oc=5",
+   "source": "Mekong ASEAN",
+   "group": "Báo chí",
+   "topic": "NLTT – Lưu trữ",
+   "date": "2026-10-29T03:45:02+00:00",
+   "enriched": true,
+   "url": "https://mekongasean.vn/bai-toan-dong-tien-cua-thi-truong-bess-61214.html",
+   "image": "https://mekongasean.vn/stores/news_dataimages/2026/102026/28/20/in_social/bess-can-duoc-tra-tien-cho-su-linh-hoat-khong-chi-cho-so-dien-ban-ra-20261028203513.jpg?randTime=1793433615",
+   "excerpt": "Bài toán lớn nhất của thị trường lưu trữ năng lượng bằng pin (BESS) hiện nay không phải công nghệ mà là cơ chế ghi nhận và thanh toán các giá trị mà hệ thống này mang lại."
   },
   {
    "title": "Hà Nội hỗ trợ đến 6 triệu đồng khi lắp điện mặt trời mái nhà",
@@ -313,7 +521,11 @@
    "source": "VnBusiness",
    "group": "Báo chí",
    "topic": "NLTT – Lưu trữ",
-   "date": "2026-10-29T03:43:45+00:00"
+   "date": "2026-10-29T03:43:45+00:00",
+   "enriched": true,
+   "url": "https://vnbusiness.vn/ha-noi-ho-tro-den-6-trieu-dong-khi-lap-dien-mat-troi-mai-nha.html",
+   "image": "https://media.vnbusiness.vn/files/uploads/2026/10/29/05d92a1b1c6f47f5bc11585f31f6b6ec-19154.jpg?w=1200&h=630&mode=crop&anchor=top-center",
+   "excerpt": "Hà Nội hỗ trợ tối đa 6 triệu đồng cho hộ gia đình lắp điện mặt trời mái nhà, góp phần phát triển năng lượng sạch từ 2026-2030."
   },
   {
    "title": "Phòng Thương mại Iceland đề xuất cải cách toàn diện khung pháp lý để thúc đẩy phát triển các dự án điện",
@@ -321,7 +533,10 @@
    "source": "moit.gov.vn",
    "group": "Bộ Công Thương",
    "topic": "Dự án",
-   "date": "2026-10-29T03:35:00+00:00"
+   "date": "2026-10-29T03:35:00+00:00",
+   "enriched": true,
+   "url": "https://thitruongnuocngoai.moit.gov.vn/tin-tuc/phong-thuong-mai-iceland-de-xuat-cai-cach-toan-dien-khung-phap-ly-de-thuc-day-phat-trien-cac-du-an-dien",
+   "excerpt": "Cổng dữ liệu là nơi quản lý và cung cấp thông tin về các trang, bài viết và nội dung khác trong hệ thống."
   },
   {
    "title": "Thông tin chung về vận hành hệ thống điện Quốc gia ngày 28/10/2026",
@@ -329,7 +544,11 @@
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
    "group": "EVN",
    "topic": "Vận hành",
-   "date": "2026-10-29T03:21:00+00:00"
+   "date": "2026-10-29T03:21:00+00:00",
+   "enriched": true,
+   "url": "https://www.evn.com.vn/d/vi-VN/news/Thong-tin-chung-ve-van-hanh-he-thong-dien-Quoc-gia-ngay-28102026-60-2015-510146",
+   "image": "https://www.evn.com.vn",
+   "excerpt": "- Thông tin chung về vận hành hệ thống điện Quốc gia ngày 28/10/2026"
   },
   {
    "title": "Đánh giá năng lực cung ứng thiết bị điện phục vụ ngành điện lực",
@@ -337,7 +556,11 @@
    "source": "moit.gov.vn",
    "group": "Bộ Công Thương",
    "topic": "Khác",
-   "date": "2026-10-29T03:14:09+00:00"
+   "date": "2026-10-29T03:14:09+00:00",
+   "enriched": true,
+   "url": "https://moit.gov.vn/tin-tuc/phat-trien-cong-nghiep/danh-gia-nang-luc-cung-ung-thiet-bi-dien-phuc-vu-nganh-dien-luc.html",
+   "image": "https://moit.gov.vn/upload/2005517/20261029/1793174218742_1583592039257462834_8762153132014753617_212a4d738dcf69737fec44cd73466daf_88221.jpg",
+   "excerpt": "Thực hiện Nghị định 344/2026/NĐ-CP, Cục Công nghiệp (Bộ Công Thương) khảo sát tại Tổng công ty Thiết bị điện Đông Anh - CTCP ..."
   },
   {
    "title": "Hà Nội hỗ trợ tối đa 6 triệu đồng với hộ gia đình lắp điện mặt trời mái nhà",
@@ -345,7 +568,11 @@
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
    "group": "EVN",
    "topic": "NLTT – Lưu trữ",
-   "date": "2026-10-29T03:07:00+00:00"
+   "date": "2026-10-29T03:07:00+00:00",
+   "enriched": true,
+   "url": "https://www.evn.com.vn/d/vi-VN/news/Ha-Noi-ho-tro-toi-da-6-trieu-dong-voi-ho-gia-dinh-lap-dien-mat-troi-mai-nha-60-17-510147",
+   "image": "https://www.evn.com.vn/userfile/User/nguyethatcdl/images/2026/10/291026_thongqua_NQ_dienMTMN-20261029112159327.jpg",
+   "excerpt": "Hộ gia đình tại Hà Nội lắp đặt đồng bộ điện mặt trời mái nhà tự sản xuất, tự tiêu thụ và hệ thống lưu trữ điện sẽ được hỗ trợ tối đa 6 triệu đồng khi đáp ứng các điều kiện của chính sách vừa được HĐND thành phố thông…"
   },
   {
    "title": "Điện hóa và tự hành định hình lại ngành ô tô và xe máy",
@@ -353,7 +580,9 @@
    "source": "moit.gov.vn",
    "group": "Bộ Công Thương",
    "topic": "Khác",
-   "date": "2026-10-29T02:45:49+00:00"
+   "date": "2026-10-29T02:45:49+00:00",
+   "enriched": true,
+   "url": "https://moit.gov.vn/tin-tuc/dien-hoa-va-tu-hanh-dinh-hinh-lai-nganh-o-to-va-xe-may.html"
   },
   {
    "title": "Phấn đấu đóng điện Trạm biến áp 500kV Củ Chi trong năm 2026",
@@ -361,7 +590,11 @@
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
    "group": "EVN",
    "topic": "Dự án",
-   "date": "2026-10-29T02:13:00+00:00"
+   "date": "2026-10-29T02:13:00+00:00",
+   "enriched": true,
+   "url": "https://www.evn.com.vn/d/vi-VN/news/Phan-dau-dong-dien-Tram-bien-ap-500kV-Cu-Chi-trong-nam-2026-60-13-510145",
+   "image": "https://www.evn.com.vn/userfile/User/ngoctuantuoitre/images/2026/10/Anh5PTGDkiemtra28102026-20261029091521153.jpg",
+   "excerpt": "Tổng công ty Truyền tải điện Quốc gia (EVNNPT) yêu cầu các nhà thầu bổ sung nhân lực, thiết bị, tổ chức thi công đồng bộ, đáp ứng mục tiêu đóng điện Trạm biến áp 500kV Củ Chi (TP.HCM) trong năm 2026."
   },
   {
    "title": "Hướng dẫn các nền tảng thương mại điện tử triển khai định danh, liên kết tài khoản",
@@ -369,7 +602,9 @@
    "source": "moit.gov.vn",
    "group": "Bộ Công Thương",
    "topic": "Khác",
-   "date": "2026-10-29T02:01:00+00:00"
+   "date": "2026-10-29T02:01:00+00:00",
+   "enriched": true,
+   "url": "https://moit.gov.vn/tin-tuc/cuc-thuong-mai-dien-tu-to-chuc-buoi-lam-viec-huong-dan-cac-nen-tang-tmdt-trien-khai-dinh-danh-xac-thuc-dien-tu.html"
   },
   {
    "title": "Điện mặt trời có thể lắp ngay ở ban công nhà dân",
@@ -377,7 +612,11 @@
    "source": "Báo Dân trí",
    "group": "Báo chí",
    "topic": "NLTT – Lưu trữ",
-   "date": "2026-10-29T00:38:00+00:00"
+   "date": "2026-10-29T00:38:00+00:00",
+   "enriched": true,
+   "url": "https://dantri.com.vn/kinh-doanh/dien-mat-troi-co-the-lap-ngay-o-ban-cong-nha-dan-20261029002532932.htm",
+   "image": "https://cdnphoto.dantri.com.vn/hV0yFXo5vJ47gz2QRc0PB-G6wFY=/zoom/1200_630/2026/10/29/lap-dat-dien-mat-troi-cropped-cropped-1793208268103.jpg",
+   "excerpt": "(Dân trí) - Ngoài mái nhà, pin điện mặt trời có thể được lắp tại ban công, sân thượng với công suất từ 1 kW, kết hợp hệ thống lưu trữ để tăng khả năng sử dụng điện tại chỗ và giảm chi phí tiền điện."
   },
   {
    "title": "[Video] Hà Nội hỗ trợ tối đa 6 triệu đồng với hộ gia đình lắp điện mặt trời mái nhà",
@@ -385,7 +624,9 @@
    "source": "Báo Nhân Dân điện tử",
    "group": "Báo chí",
    "topic": "NLTT – Lưu trữ",
-   "date": "2026-10-28T23:16:00+00:00"
+   "date": "2026-10-28T23:16:00+00:00",
+   "enriched": true,
+   "url": "https://nhandan.vn/video-ha-noi-ho-tro-toi-da-6-trieu-dong-voi-ho-gia-dinh-lap-dien-mat-troi-mai-nha-post998674.html"
   },
   {
    "title": "Điện mặt trời mái nhà - Kỳ vọng đảm bảo nguồn cung năng lượng tại chỗ",
@@ -393,7 +634,11 @@
    "source": "Tạp Chí Điện Tử Thiên Nhiên Và Môi Trường",
    "group": "Báo chí",
    "topic": "NLTT – Lưu trữ",
-   "date": "2026-10-28T22:10:00+00:00"
+   "date": "2026-10-28T22:10:00+00:00",
+   "enriched": true,
+   "url": "https://thiennhienmoitruong.vn/dien-mat-troi-mai-nha-ky-vong-dam-bao-nguon-cung-nang-luong-tai-cho.html",
+   "image": "https://thiennhienmoitruong.vn/upload2026/images/btv6/bvt6.2/btv62b/bvt62/bvt63a/24c1ec48-8b52-4fe0-9d74-3300ec860c7e.jpg",
+   "excerpt": "TMO - Cùng với việc đầu tư phát triển nguồn và lưới điện, đẩy mạnh sử dụng điện tiết kiệm, hiệu quả và phát triển điện mặt trời mái nhà tự sản xuất, tự tiêu thụ được xem là giải pháp căn cơ nhằm giảm áp lực cho hệ..."
   },
   {
    "title": "Đoàn công tác EVN làm việc với UBND tỉnh Khánh Hoà về Dự án Nhà máy Thuỷ điện tích năng Bác Ái",
@@ -401,7 +646,11 @@
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
    "group": "EVN",
    "topic": "Dự án",
-   "date": "2026-10-28T16:50:00+00:00"
+   "date": "2026-10-28T16:50:00+00:00",
+   "enriched": true,
+   "url": "https://evn.com.vn/d/vi-VN/news/Doan-cong-tac-EVN-lam-viec-voi-UBND-tinh-Khanh-Hoa-ve-Du-an-Nha-may-Thuy-dien-tich-nang-Bac-Ai-60-13-510143",
+   "image": "https://evn.com.vn/userfile/User/lenatt/images/2026/10/281026khanhhoa1-20261029003223442.jpg",
+   "excerpt": "Tiếp tục chương trình làm việc tại tỉnh Khánh Hoà, chiều 28/10, đoàn công tác Tập đoàn Điện lực Việt Nam (EVN) do Phó Tổng giám đốc EVN Phạm Hồng Phương làm trưởng đoàn có buổi làm việc với UBND tỉnh Khánh Hoà về tình…"
   },
   {
    "title": "Bộ Công Thương tổ chức Hội thảo “Sử dụng năng lượng tiết kiệm và hiệu quả - Giải pháp thúc đẩy tăng ...",
@@ -409,7 +658,11 @@
    "source": "moit.gov.vn",
    "group": "Bộ Công Thương",
    "topic": "Khác",
-   "date": "2026-10-28T16:19:28+00:00"
+   "date": "2026-10-28T16:19:28+00:00",
+   "enriched": true,
+   "url": "https://moit.gov.vn/tin-tuc/bo-cong-thuong-to-chuc-hoi-thao-su-dung-nang-luong-tiet-kiem-va-hieu-qua-giai-phap-thuc-day-tang-truong-xanh-va-phat-tri.html",
+   "image": "https://moit.gov.vn/upload/2005517/20261028/hoi-thao_53b58.jpg",
+   "excerpt": "Ngày 28/10, tại Hưng Yên, Cục Năng lượng - Dầu khí (Bộ Công Thương) tổ chức Hội thảo “Sử dụng năng lượng tiết kiệm và hiệu quả ..."
   },
   {
    "title": "Điện mặt trời mái nhà: Lắp đúng nhu cầu để tối ưu hiệu quả đầu tư",
@@ -417,7 +670,23 @@
    "source": "baodautu",
    "group": "Báo chí",
    "topic": "Dự án",
-   "date": "2026-10-28T14:51:00+00:00"
+   "date": "2026-10-28T14:51:00+00:00",
+   "enriched": true,
+   "url": "https://baodautu.vn/dien-mat-troi-mai-nha-lap-dung-nhu-cau-de-toi-uu-hieu-qua-dau-tu-d732841.html",
+   "image": "https://media.baodautu.vn/thumb_x470x250/Images/thanhhuong/2026/10/28/dien-mat-troi-mai-nha-lap-dung-nhu-cau-de-toi-uu-hieu-qua-dau-tu1793191059.jpg",
+   "excerpt": "Điện mặt trời mái nhà tự sản xuất, tự tiêu thụ giúp giảm chi phí điện, nhưng hiệu quả đầu tư phụ thuộc vào khả năng sử dụng điện tại chỗ, thay vì chạy theo công suất lắp đặt."
+  },
+  {
+   "title": "Hà Nội hỗ trợ tối đa 6 triệu đồng lắp điện mặt trời mái nhà và lưu trữ điện",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPT1hkZ2g0SjA1TGFsVGhadUxLVk5EUXpNV0hhc2VKbWl1a1o3OGF5WkgtUk1JTERtZEh0NTJPTnA4eUl2ZHROSmtlUXBfNnU3ZzF6UUszREw3Nnh0dF9zY09Lb01nRFF1cGlNN2xNM1lzakpLYld3SVctTzliMjA4aFE2RWR4MVFwLVJhQms2TVhPZlBLQkFyNW9TMUJjM2c2YnpCN0JmY0I0M3Fi?oc=5",
+   "source": "baodautu",
+   "group": "Báo chí",
+   "topic": "NLTT – Lưu trữ",
+   "date": "2026-10-28T14:47:00+00:00",
+   "enriched": true,
+   "url": "https://baodautu.vn/ha-noi-ho-tro-toi-da-6-trieu-dong-lap-dien-mat-troi-mai-nha-va-luu-tru-dien-d732879.html",
+   "image": "https://media.baodautu.vn/thumb_x470x250/Images/honghanh/2026/10/28/ha-noi-ho-tro-toi-da-6-trieu-dong-lap-dien-mat-troi-mai-nha-va-luu-tru-dien1793193249.jpeg",
+   "excerpt": "Hộ gia đình tại Hà Nội lắp đặt điện mặt trời mái nhà được hỗ trợ tối đa 3 triệu đồng; nếu lắp đồng bộ hệ thống lưu trữ điện, tổng mức hỗ trợ tối đa là 6 triệu đồng, theo điều kiện quy định."
   },
   {
    "title": "Lãnh đạo EVN đôn đốc công tác thi công Dự án Nhà máy thuỷ điện tích năng Bác Ái",
@@ -425,7 +694,11 @@
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
    "group": "EVN",
    "topic": "Dự án",
-   "date": "2026-10-28T13:17:00+00:00"
+   "date": "2026-10-28T13:17:00+00:00",
+   "enriched": true,
+   "url": "https://evn.com.vn/d/vi-VN/news/Lanh-dao-EVN-don-doc-cong-tac-thi-cong-Du-an-Nha-may-thuy-dien-tich-nang-Bac-Ai-60-12-510142",
+   "image": "https://evn.com.vn/userfile/User/lenatt/images/2026/10/281026Bacai2-20261028205811590.jpg",
+   "excerpt": "Để đảm bảo các mục tiêu đặt ra đối với thi công quý IV, tiến tới hoàn thành kế hoạch cả năm 2026, Phó Tổng giám đốc EVN Phạm Hồng Phương yêu cầu Ban Quản lý dự án Điện 3 (EVNPMB3) tập trung tối đa trong việc giám sát và…"
   },
   {
    "title": "VinEnergo đưa hệ thống điện mặt trời vào vận hành, VinFast trở thành khách hàng đầu tiên",
@@ -433,7 +706,9 @@
    "source": "nguoiquansat.vn",
    "group": "Báo chí",
    "topic": "Vận hành",
-   "date": "2026-10-28T12:27:01+00:00"
+   "date": "2026-10-28T12:27:01+00:00",
+   "enriched": true,
+   "url": "https://nguoiquansat.vn/vinenergo-dua-he-thong-dien-mat-troi-vao-van-hanh-vinfast-tro-thanh-khach-hang-dau-tien-324755.html"
   },
   {
    "title": "VinEnergo vận hành hệ thống điện mặt trời tại Hà Tĩnh",
@@ -441,7 +716,9 @@
    "source": "Znews",
    "group": "Báo chí",
    "topic": "Vận hành",
-   "date": "2026-10-28T10:35:58+00:00"
+   "date": "2026-10-28T10:35:58+00:00",
+   "enriched": true,
+   "url": "https://znews.vn/vinenergo-van-hanh-he-thong-dien-mat-troi-tai-ha-tinh-post1692708.html"
   },
   {
    "title": "VinEnergo vận hành hệ thống điện mặt trời kết hợp pin lưu trữ tại Vũng Áng",
@@ -449,7 +726,11 @@
    "source": "Mekong ASEAN",
    "group": "Báo chí",
    "topic": "Vận hành",
-   "date": "2026-10-28T10:25:41+00:00"
+   "date": "2026-10-28T10:25:41+00:00",
+   "enriched": true,
+   "url": "https://mekongasean.vn/vinenergo-van-hanh-he-thong-dien-mat-troi-ket-hop-pin-luu-tru-tai-vung-ang-61201.html",
+   "image": "https://mekongasean.vn/stores/news_dataimages/2026/102026/28/16/in_social/a320261028162824.jpg?randTime=1793433727",
+   "excerpt": "Ngày 28/10, VinEnergo đưa vào vận hành hệ thống điện mặt trời mái nhà kết hợp pin lưu trữ năng lượng (BESS) tại Khu kinh tế Vũng Áng, tỉnh Hà Tĩnh."
   },
   {
    "title": "Tỷ phú Phạm Nhật Vượng chính thức cho vận hành hệ thống tạo ra 39 triệu kWh điện sạch một năm",
@@ -457,7 +738,11 @@
    "source": "CafeF",
    "group": "Báo chí",
    "topic": "Vận hành",
-   "date": "2026-10-28T10:13:00+00:00"
+   "date": "2026-10-28T10:13:00+00:00",
+   "enriched": true,
+   "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-chinh-thuc-cho-van-hanh-he-thong-tao-ra-39-trieu-kwh-dien-sach-mot-nam-188261028171436655.chn",
+   "image": "https://cafefcdn.com/thumb_w/1200/203337114487263232/2026/10/28/avatar1778489589115-17784895893531719554555-17931824006811792876294-0-0-720-1152-crop-17931824053141070545746.png",
+   "excerpt": "Hệ thống có tổng công suất lên tới 22 MWp điện mặt trời và 45 MWh pin lưu trữ năng lượng (BESS) giúp VinEnergo đảm bảo cung cấp nguồn điện ổn định với chi phí tối ưu cho các đối tác, đồng thời góp phần giảm tải cho lưới…"
   },
   {
    "title": "Dự kiến triển khai 12 tiểu dự án di dời công trình điện phục vụ xây dựng đường sắt Lào Cai - Hà Nội - Hải Phòng",
@@ -465,7 +750,11 @@
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
    "group": "EVN",
    "topic": "Dự án",
-   "date": "2026-10-28T10:01:00+00:00"
+   "date": "2026-10-28T10:01:00+00:00",
+   "enriched": true,
+   "url": "https://www.evn.com.vn/d/vi-VN/news/Du-kien-trien-khai-12-tieu-du-an-di-doi-cong-trinh-dien-phuc-vu-xay-dung-duong-sat-Lao-Cai-Ha-Noi-Hai-Phong-60-13-510130",
+   "image": "https://www.evn.com.vn/userfile/User/nguyethatcdl/images/2026/10/271026_EVN_lamviecvoiBoxaydung.JPG",
+   "excerpt": "EVN dự kiến 12 tiểu dự án di dời công trình điện có điện áp từ 110kV trở lên sẽ hoàn thành toàn bộ vào quý IV/2027 để phục vụ dự án đầu tư xây dựng tuyến đường sắt Lào Cai - Hà Nội - Hải Phòng."
   },
   {
    "title": "VinEnergo vận hành điện mặt trời kết hợp pin lưu trữ tại Hà Tĩnh",
@@ -473,7 +762,11 @@
    "source": "VnExpress",
    "group": "Báo chí",
    "topic": "Vận hành",
-   "date": "2026-10-28T10:00:00+00:00"
+   "date": "2026-10-28T10:00:00+00:00",
+   "enriched": true,
+   "url": "https://vnexpress.net/vinenergo-van-hanh-dien-mat-troi-ket-hop-pin-luu-tru-tai-ha-tinh-5137975.html",
+   "image": "https://vcdn1-kinhdoanh.vnecdn.net/2026/10/28/a1-1793179321-5692-1793181364.jpg?w=1200&h=675&q=100&dpr=1&fit=crop&s=RMNux1VoGZiFvtKGGhkhcQ",
+   "excerpt": "Hà Tĩnh- Hệ thống điện mặt trời mái nhà kết hợp pin lưu trữ năng lượng (BESS) giúp các doanh nghiệp tự chủ năng lượng, tiết kiệm gần 3,5 tỷ đồng mỗi năm và giảm hơn 25.000 tấn khí thải CO2."
   },
   {
    "title": "EVNHCMC có thêm 18 Kỹ sư chuyên nghiệp ASEAN",
@@ -481,7 +774,11 @@
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
    "group": "EVN",
    "topic": "Khác",
-   "date": "2026-10-28T09:57:00+00:00"
+   "date": "2026-10-28T09:57:00+00:00",
+   "enriched": true,
+   "url": "https://www.evn.com.vn/d/vi-VN/news/EVNHCMC-co-them-18-Ky-su-chuyen-nghiep-ASEAN-60-12-510141",
+   "image": "https://www.evn.com.vn/userfile/User/lenatt/images/2026/10/291026evnhcmc-20261029111215179.jpg",
+   "excerpt": "Thêm 18 kỹ sư của Tổng công ty Điện lực TP. Hồ Chí Minh (EVNHCMC) vừa đạt được chứng nhận Kỹ sư chuyên nghiệp ASEAN (AER), nâng tổng số lên 289 kỹ sư của đơn vị đã đạt danh hiệu này."
   },
   {
    "title": "Nâng cao hiệu quả dự báo phụ tải nhằm đảm bảo an ninh cung ứng điện quốc gia",
@@ -489,7 +786,11 @@
    "source": "Vietnam.vn",
    "group": "Báo chí",
    "topic": "Vận hành",
-   "date": "2026-10-28T08:56:41+00:00"
+   "date": "2026-10-28T08:56:41+00:00",
+   "enriched": true,
+   "url": "https://www.vietnam.vn/nang-cao-hieu-qua-du-bao-phu-tai-nham-dam-bao-an-ninh-cung-ung-dien-quoc-gia",
+   "image": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/10/27/1793088443863_ava_6ade88280fece.jpeg",
+   "excerpt": "TCCT Việc nâng cao hiệu quả dự báo phụ tải kết hợp với các giải pháp quản lý nhu cầu sử dụng năng lượng chặt chẽ đóng vai trò quan trọng trong việc tháo gỡ khó khăn về cân đối cung cầu, qua đó hiện thực hóa mục tiêu đảm…"
   },
   {
    "title": "Săn mây giữa cánh đồng điện gió ở Quảng Trị",
@@ -497,7 +798,23 @@
    "source": "Tuổi Trẻ",
    "group": "Báo chí",
    "topic": "NLTT – Lưu trữ",
-   "date": "2026-10-28T08:52:00+00:00"
+   "date": "2026-10-28T08:52:00+00:00",
+   "enriched": true,
+   "url": "https://tuoitre.vn/video/san-may-giua-canh-dong-dien-gio-o-quang-tri-203926.htm",
+   "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/10/28/thumb-5-1793176055609432761438-11-0-1019-1920-crop-1793176094197285791258.png",
+   "excerpt": "Ở độ cao khoảng 500m, cánh đồng điện gió Amaccao tại tỉnh Quảng Trị thu hút giới trẻ bởi khung cảnh biển mây bồng bềnh giữa núi rừng. Mỗi sớm bình minh, nơi đây lại khoác lên mình vẻ đẹp khiến du khách mê mẩn."
+  },
+  {
+   "title": "Australia tiến gần hợp pháp hóa điện Mặt Trời ban công",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTGdBbThRR1ZFLTVHLVZZejZHRC1fYVRTZUJ1WUcxUnA4Qlh2UjZDNmxlUDN1MlVrYzJBT1pYbkw2SE80OFNZMWtDVkNKblhVRVpjaWZPQXdqd0dqUjNaSWpzMlR4WUNDRTJWVUpyM2J1TUYwU04xM1JLVi0zYzRVX2t6aldCTTB6NXZR?oc=5",
+   "source": "Bnews.vn",
+   "group": "Báo chí",
+   "topic": "NLTT – Lưu trữ",
+   "date": "2026-10-28T08:46:00+00:00",
+   "enriched": true,
+   "url": "https://bnews.vn/australia-tien-gan-hop-phap-hoa-dien-mat-troi-ban-cong/442231.html",
+   "image": "https://image.bnews.vn/MediaUpload/Medium/2026/10/28/dien-20261028153900.jpg",
+   "excerpt": "Australia đang tiến gần hơn tới việc hợp pháp hóa điện Mặt Trời ban công, cho phép người thuê nhà và cư dân chung cư sử dụng các tấm pin nhỏ mà không cần sở hữu mái nhà để lắp đặt hệ thống điện này."
   },
   {
    "title": "Hà Tĩnh khai thác tiềm năng điện mặt trời mái nhà, thúc đẩy phát triển năng lượng xanh",
@@ -505,7 +822,9 @@
    "source": "moitruong.net.vn",
    "group": "Báo chí",
    "topic": "NLTT – Lưu trữ",
-   "date": "2026-10-28T08:00:01+00:00"
+   "date": "2026-10-28T08:00:01+00:00",
+   "enriched": true,
+   "url": "https://moitruong.net.vn/ha-tinh-khai-thac-tiem-nang-dien-mat-troi-mai-nha-thuc-day-phat-trien-nang-luong-xanh-103589.html"
   },
   {
    "title": "EVN Members Council Chairman Meets with Contractors for Bac Ai Pumped Storage Hydropower Project",
@@ -564,6 +883,14 @@
    "date": "2026-10-27T14:17:07+00:00"
   },
   {
+   "title": "Đóng điện dự án hệ thống pin lưu trữ năng lượng (BESS) tại Trạm biến áp 110kV Uông Bí",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPb1RfX2pJVXJHZGQxMERwbE5MbnBmN1VxSTZjRFhKZm55NmtQYjBYZ19NcFNxVUpESk1TTW1oU21Ma0thbnVBSWRSWXNsYzVta00yajdaN3oxY3JjSlJOY29vWDFnWVY3MEJoakFkM3FfM3BUdjJpbTFseF8tbXphYVpkbUF1TlFIbzlTbjNLUFZPYnpyWkVuRUdPR2Qwamx3WnRILVROMVdRQW5aWnJjRHd6Z2hCRU5KWHN3Nw?oc=5",
+   "source": "uongbi.gov.vn",
+   "group": "Báo chí",
+   "topic": "Dự án",
+   "date": "2026-10-27T14:10:22+00:00"
+  },
+  {
    "title": "Điện gió, điện mặt trời tăng tốc trong cơ cấu nguồn điện Việt Nam",
    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMzJvSFBqNUNRLUVyYlVWZzZJazNjREwySlRYRW5QUUg3V1FwaThvMkpJMkpDRTdGRy1OSE5FWXpiOWlSMG9UNkFpWFRqWWNhTTBWWm9kSkVXYTkyR2NDMjEwNWR3cm1QSElkZm83NGE2d2JMSUZZbzd1ZEswa0FyWlJiLVVqbWY5UUJQeFRIb1YzcW1JR3VycS14TDJPRE1JelE?oc=5",
    "source": "Công Luận",
@@ -612,6 +939,14 @@
    "date": "2026-10-27T11:17:17+00:00"
   },
   {
+   "title": "Hơn 1.000 doanh nghiệp lựa chọn Việt Nam Solar là đối tác phân phối thiết bị điện mặt trời",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQemhhRnVmcnF4YVh1SHJKWnRQdkUwNjY5cExCdmt5VVlGNDM5a1V4NmlBRk5Cc3g0ejFxNlFZWUZfcVBydWI4RU9UMUREZnZLaHZhdGdwYTFMMHFLQ1lmNGN0aDJac085c0dOalVaY2NvUlhTb1dNLUR3MkxvbzBKamlhcFpMS2lIQWdOTW1XOTZEU2ZFVVZCS29jVkdjSHc0X1NsUnhFSGctZXpnajFXNUFhYm1QckczMHd0ZnY5dw?oc=5",
+   "source": "Báo Phú Thọ",
+   "group": "Báo chí",
+   "topic": "NLTT – Lưu trữ",
+   "date": "2026-10-27T11:15:00+00:00"
+  },
+  {
    "title": "Sà lan điện, điện mặt trời được tính vào bài toán logistics xanh",
    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdXl5dXN2VE5LaUVzY2tlMXFfb3l1ZHFhQzhPSjB0RDRKSVlYWm5uTS03c0NMcVJ0Mlprb3FiYUVOLWk0Y1kwWHZ3UUR5ak9iZ0tia3VDMFljRjMtd1RacmJOZC1wc0NPaVZ1Qms2SGFCb3JDTEpIWHFRenBhWkZUV3dHWXYwSDN1SmFEc0JMbS16ZDVUUDBwWWRqaFRKb1M2X2VaaEJlVkNqLVR2dm1uM1B4T1FSeWh0RUE?oc=5",
    "source": "Báo Dân trí",
@@ -650,6 +985,14 @@
    "group": "Báo chí",
    "topic": "NLTT – Lưu trữ",
    "date": "2026-10-27T07:39:07+00:00"
+  },
+  {
+   "title": "CME Solar hợp tác Uni-President Việt Nam triển khai điện mặt trời áp mái công suất 6.601 kWp",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdWNJeVZfZV8yaGZPSS1uZnk5RlF6WXhnUXVfSVNDaTdNaHVtbzBhbDhIN3AzS3Bzdmc5Nk5iM0h2Zmg0dlVvTVpGelQ0VkZnX2ZTSUhSSG45Y1hvNHNVWW5zQUtDQ2VWWDRNelpXZi1JYWI0UmQyMS1idy1lUDREQmlMeDNMOHphbjFhNS1uWFZYUVNyZl84aHJ2UHB6N1RaUmk4TGFXYUYtWmtWZmFiczYtVEMyR3NvTFNxTmN2bzFkVEp4Uk1aOWtjdm16Zw?oc=5",
+   "source": "Tạp chí Doanh nghiệp và Hội nhập",
+   "group": "Báo chí",
+   "topic": "NLTT – Lưu trữ",
+   "date": "2026-10-27T07:28:41+00:00"
   },
   {
    "title": "Bản tin EVN số 41 năm 2026",
@@ -716,6 +1059,14 @@
    "date": "2026-10-27T01:30:00+00:00"
   },
   {
+   "title": "Năng lượng xanh hóa “ác mộng”, nông dân điêu đứng vì điện mặt trời phủ kín làng quê",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTW5mMldjdEpzX1ZQVy1VQjBNOHJ3bm5BZlhFZFVtY3hrWUY1Z3RGU0dKUjJUc0JXTlk4anBzd3dHN2REcWFyMWEwcHVNMGZpZG8tbVYtRHNFVkdtajJ4bzFVZ0hmOE8ySWVBbEsyTmRmNVRqUHNtUXlncjBsRXI4RVVEWjlqOUxxZGtuXy1vZEVIdUVvWHNrWHh2UnlZUEY4N1ZyNFVvQXVpSGY5M0l5N1BpY0tMa2VGbUYw?oc=5",
+   "source": "Báo Dân Việt",
+   "group": "Báo chí",
+   "topic": "NLTT – Lưu trữ",
+   "date": "2026-10-26T22:39:12+00:00"
+  },
+  {
    "title": "Đoàn đại biểu Ủy ban Kinh tế và Năng lượng của Quốc hội Liên bang Đức làm việc tại EVN",
    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQX1RTNmtpNGVROUx2eXdyMmtWT1M2a2d1NElJRndjZ19qVE8zTW1BLUptcjc3YVo0a3VxN3dJSU5hTHgtRk85ZE1hYmNQcC1PNlVZNVhVTGV5cjFCVzhkRjBBVF8yUFVrY1JMWFN2YWlROXpyOUlwTUkwY0tZc3RLR1hXc0s2S0dod3JPSm9mZDZKN2tkelZNbjF2blRwZkRKYnNrZ1A1R0R1S0V6NWJfUFo3Z1F2S0s5ZGlUZDY2QkZfYzd1Q1R5MUctOFZMUXcw?oc=5",
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
@@ -762,6 +1113,14 @@
    "group": "Bộ Công Thương",
    "topic": "Khác",
    "date": "2026-10-26T12:00:00+00:00"
+  },
+  {
+   "title": "Việt Nam Solar là đối tác chiến lược của hơn 20 thương hiệu điện mặt trời toàn cầu",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPU2k3NFlhV0p6YktBRWk5enJvUGRtcWVocXBYSVpwUXNoNE93UTRYa0UxQ3dNRUJlZFlZUHYyTVVBWU9kSmNwTlRiMERLRWdNYmpmSi1Jb2huRkpCUFRhVmI2X25yUHFUVlVpWmFWVEZrZmVfU3FwVEJmRS1kS1ZncXNsRUttV0Y2N1ZWU2JPZ1cxRjJZWTNxakU1c1pFSkxCZXJ4SWEzRWpYVEMyUXFWRC1uekM3MUE?oc=5",
+   "source": "Báo Lâm Đồng",
+   "group": "Báo chí",
+   "topic": "NLTT – Lưu trữ",
+   "date": "2026-10-26T10:03:01+00:00"
   },
   {
    "title": "EVNHANOI: Khai mạc Giải bóng đá truyền thống năm 2026",
@@ -828,6 +1187,14 @@
    "date": "2026-10-26T06:14:00+00:00"
   },
   {
+   "title": "Việt Nam Solar tổng thầu EPC dự án điện mặt trời 1.803 kWp tại 10 showroom Toyota",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUFFEODdSbVhOU3cyUkVtQ1lJazBONzlLVHdJN2E4MFY2aFJ3ODRoSk1IY1lvaHBxT1NQdGV5aHJ6YWkzNWtSdHhSYWJTYm5vUDNpY3cwRXlIRnFyNWJTZlMtSjdTREtHS2xGbFBRZ09DZFNhOTNnVjdRUlBMaHVqYkg3czFsRktEcHE4S1RIejdhQXhSYkM2d0NUZnY0U25uRnR2Tm9GdnBTNDhvakpjZndJQWZEeEg1?oc=5",
+   "source": "Báo Hà Tĩnh",
+   "group": "Báo chí",
+   "topic": "Dự án",
+   "date": "2026-10-26T05:02:00+00:00"
+  },
+  {
    "title": "VinEnergo sắp khởi công nhà máy điện mặt trời hơn 6.000 tỷ",
    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYkNqcmsxQ1Y1c24wWEphQzdka1poMW0ySEdZV1N0cG1iMHNZSDc4bjNITUE2ZkxoVUp6bzZmczg5LTJpYVdaUFZiaVZSS0xvNkplWnNkUGs4LThkQlMyeTNVLVcyX1phTmEyVHFDaXNObW13UlRTWlhOU3BHYXhqR2VidXRUOUZDZlVLUks1ekhveUtkcG41T1hR?oc=5",
    "source": "nguoiquansat.vn",
@@ -850,6 +1217,14 @@
    "group": "EVN",
    "topic": "Khác",
    "date": "2026-10-26T02:56:00+00:00"
+  },
+  {
+   "title": "Chủ động nguồn điện, tiết kiệm chi phí với điện mặt trời mái nhà",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMXExR2VrbFVNN1hWRk1CSzZyeGRUZEpJZjZ3c0RGSi1GVHpFY2JQcDYtV1ZlbUNIRGJtRDBZSmhKNzhWbE1XeEEzeTNRRWxwY3FQSG4xVUFIUkN6UzdCSVN2UmdOWGRTMHNMNHgwZV8ycktfQjNQeDF0WGdpdnBtU1JJTlQ1UWFBYkROUUpzWnJ4MkdiZDVnVGFSYm9UalhBbU9nQlRSTEtfYmVmT0FoZl93?oc=5",
+   "source": "Báo Sức khỏe & Đời sống",
+   "group": "Báo chí",
+   "topic": "NLTT – Lưu trữ",
+   "date": "2026-10-26T02:30:00+00:00"
   },
   {
    "title": "Sản lượng điện mặt trời của Singapore giảm do khói mù",
@@ -876,6 +1251,14 @@
    "date": "2026-10-25T22:23:00+00:00"
   },
   {
+   "title": "Hơn 20 thương hiệu điện mặt trời toàn cầu là đối tác chiến lược của Việt Nam Solar",
+   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPVmdGM3BxUVJrQjdEX1Rzb19WblI4RkwyU0FjNjk0Nzc4cFVyRGRXcUl4Y0Rkdl9LbjIzY0NwdFNoMnd1WmNrQm5LbnNFT2VhamJqeEVEY09OSkNoalhHaFR4cE1qM2NCZnhVSzFFbnhBdGR3WFMwWEJjMEJxa2RYS2I1UFVOVjRBV0NJbVQ1cEJERjVFdUFObWJMeHBiMUh6MldkazRuN1NvZ1MwMWxmVTZOUmdNb3lFVDRKTl9ScEJsRDEtQmxWdnc1dV8tcDgtckVtbjU0LTVzdnZnQUNMYWxDdkxKdms?oc=5",
+   "source": "Báo và phát thanh, truyền hình Quảng Trị",
+   "group": "Báo chí",
+   "topic": "NLTT – Lưu trữ",
+   "date": "2026-10-25T14:54:00+00:00"
+  },
+  {
    "title": "Điện mặt trời mái nhà: Chủ động nguồn điện, tiết kiệm chi phí, hướng tới năng lượng xanh",
    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUkJTZDBoNi1zdFJ2amxPaG1GS05lbkxkb2dvMk16elZWWF9jcGlzVUM3a2FvVzBvdFVCZktWdzh4bjE1R2c0bjBJdzhTMUt3U2kxSjRIbHl0RmpNRmMta2VhV1pKQS1QMG1rYVlIYWh3V01LTkdtYkcwbmJVVVhpdVZMYVozT0dIQzcxVWMwdUF4TTk5WFBIMWpSZms0U0p2VzJYbEpZdnFLMVprYzRUSGVLa0xJSU9vdm1R?oc=5",
    "source": "Báo và phát thanh, truyền hình Tây Ninh",
@@ -892,12 +1275,28 @@
    "date": "2026-10-25T07:09:00+00:00"
   },
   {
+   "title": "Nhà máy điện mặt trời Bản Chát 2 dự kiến vận hành cuối năm 2028",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZWRsNFNMQUdvTm5BeTZYRm5EeWVtVzktRl9YME1fMG5nSEZMSjB6bkdlMlpweXJrNjdlYU5vM1NPRWhBNEJGLTE0Q3dnTENMaTV4dWp6aXh4dzJ2SUEtS21XVUlkc09pblVpUjhNaTdCWlA4bzlHci04VmNJSmZuUlB4eXVXYVN2bklfS202MkhhVFBpT1VZblBRTE9LUTNGUXAzYVd6OFpNZzVqMU1nZw?oc=5",
+   "source": "PetroTimes",
+   "group": "Báo chí",
+   "topic": "Dự án",
+   "date": "2026-10-25T03:00:32+00:00"
+  },
+  {
    "title": "Ai sẽ bán dịch vụ phụ trợ cho Công ty Vận hành Hệ thống điện và Thị trường điện Quốc gia?",
    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSGNLdkZySENXcEJidWl1Zm1sQUtnck5kUW5tbUtUNE5mcmN5QmJCbjFIbzRtUk9DVEI0LTBGSzJUMkdFWWJtaERTcVYxLUFxbnJBbE56ZUVFdGc5T095bkRtaGJ0RGRfTWlSYmcwYlNNX3JOTVhDb0trTzlXMjQ1SVNmZHhSa09CVTVwWGRYaW10bmNFUTl5M3ZtMTJoMWhQeXRTcnRIdGFDWEpJU1puVGZYMVR2ZlA1bEtoeWd0NDZHMkFka0E?oc=5",
    "source": "Năng lượng Việt Nam Online",
    "group": "NSMO",
    "topic": "Vận hành",
    "date": "2026-10-25T02:55:57+00:00"
+  },
+  {
+   "title": "Mạng lưới phân phối thiết bị điện mặt trời của Việt Nam Solar",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONDdyN1Njd1RvSDROY2lBeE8xT2QyR21aQjNzZWIycUNYRWlmR3dGRWtQWGJ0aDdaS0ozb0otaGFuZWNKdm94QjRNd0hTVTl1VHJvVEFvT3JPSi11MEFURkhfOGg2VVNuLXhaS2E4aVktd0xqRndEdS04UUt2N0NwbUhxd0NYTl94NjZ0SUE5R1hkbXNkZmZkUDdHcw?oc=5",
+   "source": "Báo Thanh Hóa",
+   "group": "Báo chí",
+   "topic": "NLTT – Lưu trữ",
+   "date": "2026-10-24T08:34:00+00:00"
   },
   {
    "title": "Kết nối “ba nhà” phát triển thương mại điện tử",
@@ -924,6 +1323,14 @@
    "date": "2026-10-24T02:19:00+00:00"
   },
   {
+   "title": "Trên hành trình chinh phục điện gió ngoài khơi (Bài 4): Từ biển Baltic đến tương lai công nghiệp năng lượng Việt Nam",
+   "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNWnVUVXk1M2N4dm5KMDJueGNFdkJLNGhvejB2a0RnTVhpcmFMLVc5eXVjQlRkNmhmZjBmcmcwNWNvWEFZcERCSmpBTXhyNGdmb093WjVFX2hWdHpFTVJONUJTMU8teU5xdDFvSTlrRVhSbXBuOVVONFllXzc1Z2owMVRQalBqZHhVSEw5dlNlRF9wSGFUbjNzclg1YlV6bXdsT3l3RGdvbVloOTFxTi11Z0ZNRGJyZGhWbVZYakFWUEFaSzBWdXRQY1NTQUFjMmJObWVUU3pNWDBMYnNQQm53bDBJTXpreXNJZ0VCRWVVcTVJdw?oc=5",
+   "source": "PetroTimes",
+   "group": "Báo chí",
+   "topic": "NLTT – Lưu trữ",
+   "date": "2026-10-24T01:04:32+00:00"
+  },
+  {
    "title": "Việt Nam đứng đầu Đông Nam Á về hút vốn vào năng lượng tái tạo",
    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYmdWY2E4YlhNejdweVpyUXdnZTd3QUxFUjEwODlGemlOUXcxbHBNTE50VlRwLXJIMUxMN3pZRGZKQXhRRUVGTDlDTlFhajItV2x3a291X3BPN0M1XzJmck1JTFhwSEVnNVFqSmFNY2x3RUMxcGc3dzFMRGZNUlV4UXgwUWpFWWpUWkpUTElDeTBtUEtoUGpxd3Mwc1VBTUUxUGF3eE4tTWJPakw2UE9qTTlVcFVQZw?oc=5",
    "source": "Doanh nghiệp và Tiếp thị",
@@ -940,6 +1347,22 @@
    "date": "2026-10-24T00:37:00+00:00"
   },
   {
+   "title": "Lạng Sơn chấp thuận dự án nhà máy điện gió hơn 4.000 tỉ đồng",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPeTJydHQ3R2t2VC1OYXhBVnUxOXhCNVdETXgtLTlQNldkLVFsZEI3RGM2TlZtdFlfVGcwTlVFcDVidnI2X1NUTDQzek9yV3p4cHBjTGs4Uko5bTZ1ZTZLTG5iZXA2SkVYNk1fOFgzN1JVck5YcHZyLVpTbHloLTFrYWtvRzNtazMwVkgwUWNpSFlMeTQ?oc=5",
+   "source": "Tạp chí Điện tử Luật sư Việt Nam",
+   "group": "Báo chí",
+   "topic": "Dự án",
+   "date": "2026-10-24T00:19:00+00:00"
+  },
+  {
+   "title": "Tập đoàn Cao su đề xuất làm nhà máy điện mặt trời tại núi Lò Vôi, Côn Đảo",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYXN0aEx4QXVBVl81UFdGb0hxWF9mdW9zdElwNl8zdjY4eU8wT2dwV1pXTzZmMXFFSU5mYmJiQzN6WE5lY0NQUExFaXN3M2JqMHNhLVJIeURmZ0VDWWc2eXBpeWdVdjNwRTl0VlhWZG9nLUlTVk5xTVhlc2JYakFzRzZWSkw0RWFpZUo3RGpjMVVGZzE2emZpVGdFRDVzYmQ1cTlvTmswMU9PRUR2cXJ1NzZ6dmdiX21S?oc=5",
+   "source": "Vietstock",
+   "group": "Báo chí",
+   "topic": "Dự án",
+   "date": "2026-10-24T00:18:00+00:00"
+  },
+  {
    "title": "EVNGENCO2: Trao đổi kinh nghiệm nâng cao năng lực quản trị trong công ty cổ phần",
    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNY2Z6UGRIcV9scDhBUjdkU3hMMk8zeEJEMUtTZjVsdURWeUdjajFuaVptRnN1UXd4S0NTenNuLXBya21lNGdLeDlicDk0OHhteC11aUVqMmJ3ai11YUg5czZVTXJkVzJkMDBWWG9tQ2hhNWFsb1VxZHRTejhNZUJHVVkwTXhBSGJtM2RtdDlTMEN2VVhBbnZsYlYtY3hwcDAySEEzc3hISmVMUFlPYzJsbm1aM3FxakRRY016LWJtSXRScmdLSkZrR2hn?oc=5",
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
@@ -954,6 +1377,14 @@
    "group": "EVN",
    "topic": "Khác",
    "date": "2026-10-23T15:08:00+00:00"
+  },
+  {
+   "title": "Tổng thống Donald Trump tiếp tục gây sức ép với điện gió ngoài khơi, đe dọa cải cách cấp phép năng lượng",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcllNRW5UXzV1V1l4QmE2U3VZV3dNSmJIYUt5bV9LeEE5ZEVndjJkX2MtNmRDdHNOYWVMVnNTdktMNi02THdkQWM0Qm1wbjF5a1MyZzA2U0ZJYUZTQ3FVUEVLcmpjaTQ4RkNrOV8tT2k4T05LVVRjdEZzSXZxcEJNYy14Z1hjdXVWaGpLM0Qyd3E1MU84NGR6LVR4UWM0d0EtcHFQcXd3SGFIMms5bWY5VXRDcjN2elFtcGJIekp4SGlNWVk0R2Iw?oc=5",
+   "source": "VnEconomy",
+   "group": "Báo chí",
+   "topic": "NLTT – Lưu trữ",
+   "date": "2026-10-23T10:53:19+00:00"
   },
   {
    "title": "Quảng Trị hỗ trợ hộ gia đình lắp đặt điện mặt trời mái nhà giai đoạn 2026 – 2030",
@@ -1012,6 +1443,14 @@
    "date": "2026-10-23T08:17:00+00:00"
   },
   {
+   "title": "[Video] Các địa phương phải ban hành chính sách hỗ trợ điện mặt trời mái nhà trong tháng 12",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRjhzRWhZS3VqRnlqNUhWTXdGaWFXdmZBMUw3di11eW5NMEd2QUl6ZjJzVmtCN2VoNUpfaDhKS2JVOF80SWhITVRoNWNDd1Aya3pwckNORGN3Z1VjcUQ5TjNVbGJ1RnVjS1IwQVh1NHJldnFpZlhVMFVNUjdGN0V0QUlIbEpMTDFFQXFXOWc3aGFzdmZ2ZWtBSXVvWnZfLVZ5Zm14MEM2UnNRTnB1RUswcnYyaldNa2hRT1NucXpTU3hsQQ?oc=5",
+   "source": "Báo Nhân Dân điện tử",
+   "group": "Báo chí",
+   "topic": "Chính sách",
+   "date": "2026-10-23T07:59:27+00:00"
+  },
+  {
    "title": "Việt Nam dẫn đầu Đông Nam Á về hút vốn vào năng lượng tái tạo",
    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNb1pDX29UclZmWllRS0dXLWh1alExbTdtbVBmUDVrSUYzeFVXZFBOQzVKTmFXMzlsTHlHUzNJc051LVJad3B6eWVuemM5aGlwVzN5NDU4SmZpX201VWM5UW82ZXNmUm5LdkdKVFBNekJ1VlZCS0xuOGRBNnJoNkFaaGFCd1I3WGRLdGdPVkozV2NyOGJKNUVaNmNBanJiUExMQmc?oc=5",
    "source": "CafeF",
@@ -1060,6 +1499,14 @@
    "date": "2026-10-23T05:27:00+00:00"
   },
   {
+   "title": "Các địa phương phải chốt chính sách hỗ trợ điện mặt trời mái nhà trong tháng 12",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSjQyQW5KUWFHdW95RWZrMGM5RHQ2SEpUaVd0TGdnaWptWWZLWVZ2NHZvVS1WTnJLZk5DNS1iVG5PWmZ3MG5NWjJJRjkxS3F4ZDZFTjJvMnFvbVhCN3lGZXUzLUVobzdWSU5lYW5BQ0JtQTc4NFVlbFA1R1piZEJvaHFhSHFmeXhBSHRwa0lGdkNuSXZ3WlVtTkRsTVhCcnp6Y2ROSUxFalFOYnd1eEEwY0N6WTRxRU1lV2c?oc=5",
+   "source": "VietnamFinance",
+   "group": "Báo chí",
+   "topic": "Chính sách",
+   "date": "2026-10-23T04:30:58+00:00"
+  },
+  {
    "title": "Chuyển đổi số đi vào chiều sâu, nâng cao hiệu quả hoạt động",
    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQzVEMXhKbkNHbUtFdmJqSUxXckRBQ2R0NVQtMmEyZ0xXNXdLNmszdTR6TVJQNGl6VVYxQmVWZ1JybmJQT1VWc3h2VWw2QzM1RmNSY0MxM3dZX3IxVkdKT2tHOXltNy1CcENhQm9Dem1GQ21XRVpRalEzNk5iYWNTZ0pUQ1RyVzc3VHJxVG03akkzOE1zeGpGS3c2WS1iZ0FYQThuV0ZwZGNveTFCNGJwcg?oc=5",
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
@@ -1084,12 +1531,28 @@
    "date": "2026-10-23T03:26:36+00:00"
   },
   {
+   "title": "Khuyến khích sử dụng hệ thống điện mặt trời mái nhà",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZ1FiWFlITU9HVmxzNEFBSEUzOXdOVTlPWXZ4THJVLWJOYWE0a0FhM1k5eXRtd0ZjYk1HbVFDN1hVSTFnbGVKbFNiOFdfVFR2MVE3c2t2cXZ2RHRXQzNjWFhmeEY0NzZMdktwWDhpNzVUZE5xM2w1VWt3aHJoYUlPbnNFVkhZbWphQXgwaTNn?oc=5",
+   "source": "Báo và phát thanh, truyền hình Tây Ninh",
+   "group": "Báo chí",
+   "topic": "Vận hành",
+   "date": "2026-10-23T03:23:04+00:00"
+  },
+  {
    "title": "Mục tiêu tiến độ quý IV các công trình nguồn điện trọng điểm của EVN",
    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNODZ5MkhoQzR2M2x1ME44QWIxUWRRNm1sQXRRWlJfLXNDdW05VU1yckZYeU90MUFfVXdOVnJma3h1ZWhRYTB6ZTBvcEY0SW5Qblk2S0RFTlNZUlJ0QTZMaTV1TXRoV1FWeGpLVmYwN3JXejR3SGlabXhkTnVJMG95c2puTkluNTBaS3dmMGx2MFlnOUtYMEJlWVVnQ0JaVWk5NUZPX1g3cXZVRkRUejh0YzQ1VlgxdlVZQVQ0?oc=5",
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
    "group": "EVN",
    "topic": "Khác",
    "date": "2026-10-23T03:10:00+00:00"
+  },
+  {
+   "title": "Đẩy nhanh điện mặt trời mái nhà, bảo đảm đủ điện năm 2027",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdVVmRWxKNHVnZ1Q3amRjc2tpT3FMLVlvOHNWVTQ2SzNYUkptWUpZQVpWbFNkY0E1UzgxZU9ZbHU3WjY0YkZlSjVIYlBPTEh0SVdCNFhONXQybkFtT1V3WlA4NVJ3NmFMR2NQc05aUWVqNGRON2Y0ajVSWUVTYjdtcGF4THBIZEpUQUJjeGdBZ2lZYlE?oc=5",
+   "source": "Báo Công Lý",
+   "group": "Báo chí",
+   "topic": "NLTT – Lưu trữ",
+   "date": "2026-10-23T03:01:54+00:00"
   },
   {
    "title": "Làm mới chính sách phát triển năng lượng xanh",
@@ -1100,6 +1563,30 @@
    "date": "2026-10-23T03:00:00+00:00"
   },
   {
+   "title": "Điện mặt trời: Lời giải bài toán chi phí của doanh nghiệp Đồng Tháp",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcHRYQVlHdG9NYzZPeEZsbzlLOHAtZ0oySmNUWURobTE4cUFkcG51djBrSnRsTjlqY1NZQUhxcW9KNTZCT2lBWVNYeUFZakxxRzAtcVlUeTBTTVVqLWFQQlg4dTZCQWpia1oxVjB2WXpqd0l3UVVSaGhDTDdVanp1Q3BTTVRJck9MREVtVENPdnFtc3hMWS1ZMTE3MA?oc=5",
+   "source": "Bnews.vn",
+   "group": "Báo chí",
+   "topic": "NLTT – Lưu trữ",
+   "date": "2026-10-23T02:20:00+00:00"
+  },
+  {
+   "title": "Petrovietnam ký thỏa thuận với CIP phát triển điện gió ngoài khơi",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOeFJFdURQdW1NSkFoWUx3cXVMeWR6c2Z4VjNjLUlFWW5kQ1NQSXJoMm5OV3VJV1h2WVJRS2VrMkpISHJUeEo5ckhfN2J0eno1MnU0QkZwUDNWcEJvTG1PRzhUNzdFb2dXazAwaWpGc2s2cVcydEdxVXJOblQ1Z0VxN1ByenNJeDVycFZsUkVRSU8wQzE3RTgwVlFxWHJFTFlob05xRXdmY1NtVEk?oc=5",
+   "source": "Tuổi Trẻ",
+   "group": "Báo chí",
+   "topic": "NLTT – Lưu trữ",
+   "date": "2026-10-23T02:00:00+00:00"
+  },
+  {
+   "title": "Thủ tướng yêu cầu các tỉnh sớm hỗ trợ người dân lắp điện mặt trời mái nhà",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSDhERHU2WUxtbUlKVDhDWlVPVmJJY0lUWldMaXh5WU45TEZPaU15M3BnWGFILXV2TnZUcTl0d1NNTlEyZlJRN1lxLWFvSkZub1E1R2RaTUhLeHNoVGN2a1lCeGpHSWI5eDRVRXFMSnRmZ1RqLUM1YkZXZjdrU1ZtNTQ4dmgwMGQtdHoyUzRXLVpDRXV0V1dJTUFUUFR3Y3lueTFzQnpWd0FmZlZsZmJFME9Yak5XamNnNFA5eWJqWFNuS19NU25R?oc=5",
+   "source": "Báo Dân trí",
+   "group": "Báo chí",
+   "topic": "NLTT – Lưu trữ",
+   "date": "2026-10-23T01:31:51+00:00"
+  },
+  {
    "title": "Chờ gỡ 'nút thắt' bán điện mặt trời mái nhà",
    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM253WEdpTHQ2N3k3Q2N4bzRaTVZSMHZRRnQ1R0FwSFJVanoxUkhrOENLY1RxQk5neV9Ec0dYeVUyaWpWRnJYZWVzNXA2LWw2YzVUV2x3WHlfcW94eDQ3bmtZSlZlT3RNNkxSVENiZGkwem1GVWV4R2hjRlJiX1pYX0ZuNV9wX3dl?oc=5",
    "source": "CafeF",
@@ -1108,12 +1595,44 @@
    "date": "2026-10-23T01:02:00+00:00"
   },
   {
+   "title": "Trên hành trình chinh phục điện gió ngoài khơi (Bài 3): Thành quả của bản lĩnh và sức mạnh đoàn kết",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOejY2LS1FM2tVSzlQZWlGTU1CZExmTE5nTDNpMVZLWmpJUUVCVEU0WjdLZnNZNEZkcVJTNVVjRm1mY2hacTU0NmFIdzd4cFlILTMtM1pTOHZpX2tRcEpfQ0hJTzBmeE13bEJ0bDltb0lNTGtFUUtRaldjcTI4ZHBCZGUxTXRqemtzZjFEUkFwN2lLZE14QlJqeGFubV94SXEzRGFmNENjam9kU3QxZC1rN0NzM081Z0dORGdDOTU0MnNzS2Izam44dE92bmN2Yll3eWV0QkxvNjN5T0k?oc=5",
+   "source": "PetroTimes",
+   "group": "Báo chí",
+   "topic": "NLTT – Lưu trữ",
+   "date": "2026-10-23T00:18:31+00:00"
+  },
+  {
+   "title": "Doanh nghiệp Đồng Tháp góp phần “sản xuất xanh” thông qua điện mặt trời",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVFhTU2RiWGMtcVl3SXlmYU81Z1BwQk40d2lsaEV3bXc0QmYzWjBsMk1GaG83djVQc3lNNlNQOUstTUJGR1hjY2VIbFRuZDYyVklXbDI3bEd4Q0J6QjdFRjlCTElxazA2QTN3OUZEejlYejVwdDBQWU1VZGg5TDU0eXB4LXpDa29zUnlOWGhiUG5fUUlHQ3FSRjVuWUZ5N1AwNU81aVRVLVFtdzdybzdFS2trLUZxMEFkTFJfcDRxWURNNmdVa1Nn?oc=5",
+   "source": "Thông tấn xã Việt Nam",
+   "group": "Báo chí",
+   "topic": "NLTT – Lưu trữ",
+   "date": "2026-10-23T00:00:00+00:00"
+  },
+  {
    "title": "Vietnam s National Assembly Reviews Proposed Amendments to the Electricity Law",
    "link": "https://vietnamenergy.vn/vietnams-national-assembly-reviews-proposed-amendments-to-the-electricity-law-36802.html",
    "source": "Tạp chí Năng lượng VN",
    "group": "Tạp chí Năng lượng VN",
    "topic": "Khác",
    "date": "2026-10-22T17:01:55+00:00"
+  },
+  {
+   "title": "Cà Mau: Khởi công 11 dự án điện gió trong năm 2026",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWHY5UFptZ2R5RlBWN1g0Nk1FZTVBelZPMU1DMnFVTUdENlVlWjQzZnhFQkpiUWk0RVJNVDN6SXEwdVdLb1FWM3NveVlxdWFSRnppb1o0WnotTHgzMXVPNTdZZ0ZvVVFQY3d1Y3BZMWVFM1BVYVNPNkNIWkh3c1dxV2FaUzNvN1BROURHSGhUb2NEb2M?oc=5",
+   "source": "BÁO SÀI GÒN GIẢI PHÓNG",
+   "group": "Báo chí",
+   "topic": "Dự án",
+   "date": "2026-10-22T13:12:15+00:00"
+  },
+  {
+   "title": "Cà Mau chấp thuận chủ trương đầu tư nhà máy điện gió gần 4.000 tỷ đồng",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObjUxMC1odVZjTGhvVjEzMGZwNmlXMXJsRl9tckF0ZHY5Tms5Y0lwMS1tTlo4a2VWQ0VvQkE0OFJ0aXd6bUtGUXplZzFyRU15ckcyNWpkVVdnclIyeFF1UlJLTTlaR0NBdmFra1E5bEc0NENOUV9OQWVqclQxd0pDYUREMjFHV0lSaFFYRnFlV3p3Rk5zVEtrdmNOU2l4eTBOTlltRVMxcGtwajJlVVVKLXRlOA?oc=5",
+   "source": "Báo Cà Mau",
+   "group": "Báo chí",
+   "topic": "Dự án",
+   "date": "2026-10-22T11:07:00+00:00"
   },
   {
    "title": "Quy định của Bộ Chính trị về kiểm điểm và đánh giá, xếp loại chất lượng đối với tập thể, cá nhân trong hệ thống chính trị và trong toàn Đảng",
@@ -1138,6 +1657,14 @@
    "group": "EVN",
    "topic": "Khác",
    "date": "2026-10-22T07:20:00+00:00"
+  },
+  {
+   "title": "Doanh nghiệp đề xuất đầu tư dự án điện gió hơn 15.000 tỷ đồng tại Đắk Lắk",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOM0ZjaXM5ellUTlRBTnpvYlpKRWFfQUdLSllJZ1hoQncyOE0yaDRPVDRjcDN5N0dESFBDbnNoMVVBeU8zdVVId09ZZXNnbE94eDk4a0V4MnlEOUxEV3ZRTTVXVDNmVUhzRU5ucVlHUWU2ZWZqTXdaNC01YzBlaHdXckVscGRkUmNjX1ROZkhpUTdhdEd3MVdlb3Fhem5JQmQ5MWtYeUZuQjdheDAyVnZ0cU53V1hEZDkxd0gzUllPd9IBuwFBVV95cUxQS3U3YWktTWtKU2lHZC14b2NCb1RUVEdmOE1XVlFHYzNRenNJRnZET3hyY19ZSXZuUWxFWk1XcHUyQ1Vyem8yUlRxY2Q1X2N5X0dpUGREVHo0Y2c3WTBqUm1mc0J5ck96djhBUEY0YmRwcVJ0NEJKQ0dQWlZWVE81azlQeHRzWXhSTTEtV3VBT0UxNWdNRXVad1VHOFFnUzZhbDAwWXk2S3ZfdGFzR1gwQS1FQ0lqUERlMFVR?oc=5",
+   "source": "Tin nhanh chứng khoán",
+   "group": "Báo chí",
+   "topic": "Dự án",
+   "date": "2026-10-22T07:17:25+00:00"
   },
   {
    "title": "Ý: Sản lượng điện mặt trời đạt 5,32TWh trong tháng 9",
@@ -1172,6 +1699,38 @@
    "date": "2026-10-22T07:00:00+00:00"
   },
   {
+   "title": "Khuyến khích phát triển điện mặt trời mái nhà tại Hà Nội",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQy1UQWt1ekpTbUkxSjZsOHFIT3RQbTNwQlBTdE1ZOFRJNmtaalZIZmFHYnc3X1IzRVJmdmtaTFdlbGhSZ3NuV1dfckNTTV9mWTFYNGhtTTRmOTNMaVFjMjlGWWo2blNyNTJ4UldhWWpJQldmS2pfWFdTcEhzMmRoaTFEQ2trdkk?oc=5",
+   "source": "Báo Nhân Dân điện tử",
+   "group": "Báo chí",
+   "topic": "NLTT – Lưu trữ",
+   "date": "2026-10-22T07:00:00+00:00"
+  },
+  {
+   "title": "Điện mặt trời mái nhà tiếp sức doanh nghiệp sản xuất xanh tại Đồng Tháp",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMFBkZ1FUUVVUeTZFRnRMbFRsT1V4azE2RjNPZ0RwVXVDTlRaQ0s3UUl6Z0lETVN5RDU5ZlYzMDZBT2dKLU1EV1NiT3pIdzdYRU5jeGJZcjV2eUdwQXBLVUhTVERVS01iZ3lLcC1UOGRXeXNOeWt5cFd1dTJsX3N3bGwxMGh1YVVRSjdzTDVtYVZWYlhDcUVfbGdGY0VGd1VxQXlRN25oUjRGQ3NnMEJqandmVTQ?oc=5",
+   "source": "Vietnam+ (VietnamPlus)",
+   "group": "Báo chí",
+   "topic": "NLTT – Lưu trữ",
+   "date": "2026-10-22T07:00:00+00:00"
+  },
+  {
+   "title": "Triển khai ngay điện mặt trời trên hồ thủy điện Sơn La, Lai Châu để giải tỏa áp lực nguồn điện miền Bắc",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQeUNTYS1QZHB3UGlQSUg2TXZGTTFrUlluZy0zMmNNZ1JRTUNYR3A4MENwYmxJbDdYY1Y2ME83N1AwcXRBUHV4aTRrRkxCVWJxd181MFFhdmN3RWxzYjlnMVEwVDZvOEFmX3o0WDlKeHBxakRDWS1Xb2pRMGhaR0diS1BENWQ3Q0UzeGxMSFhWcEF4OFk4ZGpuMS1NSU9PZnlXMEdubHZST0cxcF8xdnVXNXlJRFgwREMyREEwZ3NHRUlWZG5PUDF5S2xPaWpReHdHVTg1cQ?oc=5",
+   "source": "Công Luận",
+   "group": "Báo chí",
+   "topic": "NLTT – Lưu trữ",
+   "date": "2026-10-22T07:00:00+00:00"
+  },
+  {
+   "title": "Petrovietnam tiên phong cùng các đối tác Đan Mạch phát triển điện gió ngoài khơi",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZlhnTGkxTVV4ampBUHVwT192NktobXBneTQ4RjlNTnR6ZDdlZGoyVm9tSUs3NlctU1JOUVJubDVfZWk1UzQ3ckh5akZBemRuV1FreFZubUVUaUlZOVJ2R2xnSWl2TWJWcl9lc25sS3dEa3c0cV9adEM5Q2s2Yk95T0w2X0hQb25ueGxzaFJpdDJmbXh6clNsdlVaVTRRYnYxUTJtVlRXdUJTYjh3R3lCYkg1eGRMSnJFUmROTVg0VQ?oc=5",
+   "source": "Laodong.vn",
+   "group": "Báo chí",
+   "topic": "NLTT – Lưu trữ",
+   "date": "2026-10-22T07:00:00+00:00"
+  },
+  {
    "title": "Lãnh đạo Tập đoàn kiểm tra tiến độ 2 dự án truyền tải điện tại Điện Biên",
    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUW9XYU1fSmg5dTNlaURqWmw5U29SdGNDM1NIQkNwVE5jWUMzc21LbWhERktRNFFWdGE0N2MyOGNOZ2lKdUQzWEsxZVZHbzQ0Z0k3d0dCdUVjSEVvX1ZKajFXOW1DV3RPSFRGTWlDTmhYNFQxYmVnUjBSbjdfcmwydE9WRlRrR24xaUdKQ0ZpSFc4d0lNMWFNRGh6STJ2cF9ZUGlaOUNXbUEyT0VJNXFtR09xajk0ZF9mQmNKSXZn?oc=5",
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
@@ -1180,12 +1739,28 @@
    "date": "2026-10-22T05:41:00+00:00"
   },
   {
+   "title": "Ấn Độ xây dựng chính sách kết hợp phát triển điện Mặt trời với nông nghiệp",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcGhDRTQ1NmdXd2w4akUxU2JaRTlBUnZhVkR2OXRaUEI2X3NYQmphWWc2ck9DaVBrM3hJZzNiT0IzeFp5cnl6RzM2N0d5dFliMWpWY0RHQlVhekI3dnlfVWF0YUdZblNFaTBNTXVLMUU5bHJtdERtc1NWcDg4d2VpUV9oMTMyYUZmRWxNMjJqOU9aLW9yQ1RFVnRwdUc4Rkx5cjVHamZuN1U3M00?oc=5",
+   "source": "Báo Thế giới và Việt Nam",
+   "group": "Báo chí",
+   "topic": "Chính sách",
+   "date": "2026-10-22T03:24:01+00:00"
+  },
+  {
    "title": "Để học sinh “thuộc bài” an toàn điện",
    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcnBnYTBLaFR2aXNkYkh6OElGbFdvTHRmSnpyc18tSlhZTnMtVy1mMWFuVzZkaG1RaGE5Sk8tRTdjY181NlpfbXFSRnhWeUo0SHhvMHMyNlU4ZVZrYnZ1LVgtQV93WTh0YkdDTGprT1NTZHRLVnlkSVJvNkIya1lYNFQ1YUNnSUFpT1JqLW53?oc=5",
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
    "group": "EVN",
    "topic": "Khác",
    "date": "2026-10-22T03:23:00+00:00"
+  },
+  {
+   "title": "Trên hành trình chinh phục điện gió ngoài khơi (Bài 2): Vượt qua thử thách",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbEd2WUh6Qk5IU1dlbEF1YUYxMlhhU2YyWGQ5NkVkYjduNkJ3UVVOaFVnMVkzWXVqZ3pwR1dVRE5WMjRwUDVmbHlPV25tRGxPSThuaVNOT0Jab2hWUGdZSmVNcjREeEEzXzRhNFlhN1F6ZU9VVFpsM1V0TmpMd1I5bDBYY3JYQnMxRXN6VjdocTZsRmJYUEtUSFNwaE9kMVBuRGE2T1ZuNmo5TFJ5ekxMVUU3RzJCYVYzU3c?oc=5",
+   "source": "PetroTimes",
+   "group": "Báo chí",
+   "topic": "NLTT – Lưu trữ",
+   "date": "2026-10-22T00:25:02+00:00"
   },
   {
    "title": "Phó Tổng giám đốc EVN Phạm Hồng Phương kiểm tra tiến độ một số dự án truyền tải điện tại Tây Bắc",
@@ -1202,6 +1777,14 @@
    "group": "Bộ Công Thương",
    "topic": "Chính sách",
    "date": "2026-10-21T14:07:16+00:00"
+  },
+  {
+   "title": "Đưa hệ thống pin lưu trữ năng lượng BESS tại Trạm biến áp 110kV Tràng Bạch vào vận hành",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNblhKYXYzVUg5SWNkZWVXSjhPR3VGZ250ZTFwSnM4dmZBbEpOeWFiVmZVeXpvNmdfcEN6SFVfRjhNT004cnR6VTl6MWJlX1ZHQVAwNUhJZUFXREdMaHBnRU1SYkZBM3FWRlVkXzFYdHQ2UHE0YjhQOEJMcjlGMU4zd3pWWGRLbnV3NF9GV1pmd2JzcmNqUXZJeEVRYnZ1RHNvbjZrQWFsMWNELVExVjdWNTJHMWJfM1NXVmUzZjRHNGNzM1dEbE51UkdVSG4tZF95aUV1VEhB?oc=5",
+   "source": "Tổng công ty Điện lực miền Bắc",
+   "group": "Báo chí",
+   "topic": "Vận hành",
+   "date": "2026-10-21T13:49:00+00:00"
   },
   {
    "title": "Xúc tiến thương mại mặt hàng điện tử Việt Nam vào chuỗi cung ứng Singapore",
@@ -1226,6 +1809,14 @@
    "group": "Báo chí",
    "topic": "Chính sách",
    "date": "2026-10-21T08:38:00+00:00"
+  },
+  {
+   "title": "Trên hành trình chinh phục điện gió ngoài khơi (Bài 1): Khi người dầu khí hướng ra \"biển gió\"",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPaGIyLVRsUVA3UEVleV9Cc211NmFGZ1hfcG5ZNzlfSU9zcEJwQmV4dUJPVHNRZ01QNUVBcDVtWkJqUXBaN1BMVmxaOW93VmZaeC1PRm5LNnRTeFJFQ3VTNWFFaHo4a29lVV9UUS01emdLMXplUFh6Uk1nTm5PaHFieG9jRW5KbDRzRUhObHE4QzhxZmlmTnNxSDhiMjlpZ3ctN2trNkg0SkFja0hGQ2FYQlFhdzlueDNjQnNGNDNQSVFoZ3RjMVlMc1BpazhNd0F5?oc=5",
+   "source": "PetroTimes",
+   "group": "Báo chí",
+   "topic": "NLTT – Lưu trữ",
+   "date": "2026-10-21T08:10:05+00:00"
   },
   {
    "title": "93 nữ công nhân, viên chức, lao động EVNHCMC được tuyên dương",
@@ -1297,6 +1888,54 @@
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
    "group": "EVN",
    "topic": "Khác",
+   "date": "2026-10-21T07:00:00+00:00"
+  },
+  {
+   "title": "Petronas muốn đưa điện gió Việt Nam sang Malaysia và Singapore",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQY2JCUC1JXy1peDJiRFR6dFUtaDZfQk1aZ3JMc19FYVI0MFNmZFZGUEZZSXVNUDZhMXJkU3ZyNkUtcGpoR1NkeTNkNWhZLUpBZFFyaTdIYTV5VWwwWmhza0F3bFNtQ3hqVXhNYk5tdWh2REc4ZENkYzdwX3NOTzJMcmMtVnpiSWNLX1NnVVZXa25pVDJkWEdFVV93XzU2QQ?oc=5",
+   "source": "VnExpress",
+   "group": "Báo chí",
+   "topic": "NLTT – Lưu trữ",
+   "date": "2026-10-21T07:00:00+00:00"
+  },
+  {
+   "title": "Nhà thầu nội chiếm ưu thế tại các gói thầu BESS",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZzJfSnppN0FwTUlCQUlQM29Za3hfaktMSUQwcnBKRGF6RjVMbDNVMzdNX3dReFJ2Ql84YnVZaTY0ZmpxaVlZU1A4dlp3bEFGRmg4d1dLUjRsd3lIR05SQy03MkZCdjVfcmpvdklnZkFhX2MtLUQ0dXhxUEd1Z2duYmpjWjltT0pVYm1XLWtB?oc=5",
+   "source": "Báo Đấu thầu",
+   "group": "Báo chí",
+   "topic": "NLTT – Lưu trữ",
+   "date": "2026-10-21T07:00:00+00:00"
+  },
+  {
+   "title": "Việt Nam Solar tổng thầu EPC dự án điện mặt trời 990 kwp tại nhà máy Thiết Lập",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUG5Wa0ZyWHZmUDZMUUgtMUptODVWWGFGMnJwSTZiX1Y0OV9EZG5NMlJmdF9HZjdlcWExZ0tvMnVGenVOVGdKZFlPT19RQU9LSllxTmdJV0UxaDI5dmdYTlpWSnZkSjliNkU4NVA4b1RnbE96Wk04QTFKWGNvLUUzLUszX29aZDlIZkI4VHpuR2dVcDVfYXVQcFZpdFZ2aEh1ZkJfYk1n?oc=5",
+   "source": "Báo và Phát thanh, truyền hình Thái Nguyên",
+   "group": "Báo chí",
+   "topic": "Dự án",
+   "date": "2026-10-21T07:00:00+00:00"
+  },
+  {
+   "title": "Đào tạo chuyên sâu về hệ thống pin lưu trữ năng lượng BESS tại EVN",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZ3NKZC05RHgyVlRTMmJza0J1ODlLNWMyQktwazRlVXR6YUxmUUJodDdrbWFKMzVodTVrbmNDS0dlaTcyS2JZMGp0VmJJcXIyd2ZsdUhwcTlSUDFrakdZcHotN24wb2tDUmlHb05kTTFwSEdRZndKRGVQdHp4WWpMUU4zZlJ3cFdsandLdEhDMG4wZS1BTno3UUowRQ?oc=5",
+   "source": "Bnews.vn",
+   "group": "Báo chí",
+   "topic": "NLTT – Lưu trữ",
+   "date": "2026-10-21T07:00:00+00:00"
+  },
+  {
+   "title": "VCC khẳng định 'năng lực xanh' với 690 MWp điện mặt trời đã triển khai",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObWstWEVxSlBVSVY4R0NKSVotVGc0NEt0Y0lFUkdWY1lETk9jclgzV2IycHppMkZ4TUFMaFRaNC1LWnlzcWhTMGtLQzkwcXdtd0o5WEVnbUpIeHo4ZV91NGxuc3gzVFZ3Q2MzZjBOTl9jVDJSNXNJc25JaEhvWkNSU2tkN0pLd2x6bENwc0VTZlB2QTN2UEcyMWE1RzRsbmdQeFN0bl9MNWN5cmx5UVZKTFA3TU5wMXZ6VU5BY285UzNSZ3F6ZlRSZg?oc=5",
+   "source": "Viettel Family",
+   "group": "Báo chí",
+   "topic": "NLTT – Lưu trữ",
+   "date": "2026-10-21T07:00:00+00:00"
+  },
+  {
+   "title": "EVNNPC vượt kế hoạch phát triển điện mặt trời mái nhà",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUTF2OEZGMjZIaEZQSkZoTmMtRjFqcjJ3TUZNV2o0ZVF4Z2U3UDBnVUppbDYtb1dlUHZIZ3Q1TFRnVmpFVjRneWxkQ0Fkb0NHaUNpNk5YcEJKVlNHUkl3NWEzUkdHUE11dXNWaVpNcmhIQ2tEQUpjQi0ycDEySmYxcExvTEs2bjBsbUpPLVRmZDRncDZmT3lPX01DMU5vRHpRTVpv?oc=5",
+   "source": "Trung tâm Nội dung số và Truyền thông",
+   "group": "Báo chí",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-21T07:00:00+00:00"
   },
   {
@@ -1460,6 +2099,22 @@
    "date": "2026-10-20T07:00:00+00:00"
   },
   {
+   "title": "Việt Nam Solar tổng thầu EPC dự án điện mặt trời 1038 kwp tại nhà máy ở Tây Ninh",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQLWRlNENuSkUxVXpFVmw5SHluUkk3UWhRekFnbWhheE5sNUVfM1RXT2F0ZUVVNkZNZi1oeXU4NWRTbF9PUnZEOE5OZXZ6N3lvTnVpZnhrMVRkVWZ1M1liZVBGcTRmTklRcjlGVjJqenlMS1Z5SnItdkZjRDVCdmZMVHgzb0ZGS3l0eTJQSUdYejBaYnluNzV3aU9nMF8yTWkyUXEyWUl4QkxZQWV4TUt4T2duX0R1c296MVIxcjR3?oc=5",
+   "source": "Báo Quảng Ninh",
+   "group": "Báo chí",
+   "topic": "Dự án",
+   "date": "2026-10-20T07:00:00+00:00"
+  },
+  {
+   "title": "Thủ tướng: Có thể rút thời gian làm thủ tục điện gió ngoài khơi từ 10 năm xuống 5 năm",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUUxDN19GZC1WamZIX1hWek5zaGJQU3psT2JSekZpdXFCUThlSGR2LTJTcmNzY2N1WGdYQ2RyV29hYnJpR1F4MjBNRXlaVHNVLUhpdFJaOGNNOWVlMUZsRlhqT1k3dlNpU2U4TnkxRFRLRGpEZzUzSl81cnNsUU1SRGtua1pMb19EQkc0d21JUlVFdmtpbGJDelJzdnVSZTlzQ0lHRVQ3eDJyeFNOdTFDTzIzZzNiemFjOG1hVlR3?oc=5",
+   "source": "VIETTIMES",
+   "group": "Báo chí",
+   "topic": "NLTT – Lưu trữ",
+   "date": "2026-10-20T07:00:00+00:00"
+  },
+  {
    "title": "Dấu ấn sáng tạo của phụ nữ EVN",
    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTEV4RGtBNkFzZ0NtUWhqakgwR2hUM1VoQmJvMWdTRzBKNDZKaDNGWjV2VzM4VGZRMmt6RzdYbnh6Qnk0X1JhOUJ4Zl9RNGJyanJqSXpxbmtIcnR4dTBiSUphSUp0MkZHY2pqbTNwUC1zM3VGSnY4TnV1LVlDaExjMU9NaVpWWW5n?oc=5",
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
@@ -1577,6 +2232,22 @@
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
    "group": "EVN",
    "topic": "Khác",
+   "date": "2026-10-19T07:00:00+00:00"
+  },
+  {
+   "title": "Nhà máy nhiệt điện Mặt trời giữa sa mạc Gobi",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRWFOeVBidmZxTzFnQ1J1ZEtBTFNMU3N0SjJKOW5VTXdvRzNMT3dfS2o3RURhdWdBTmtZbkx1WUNKQUFJWUdhSUYxMjFLVUlMbmlGMjVfdjJ1WjVlcTVTRFdyOXh1LXdIZ09nSzM5c2dzLVRQd2h4cnY4cm1pS3NrUHJvTWVudw?oc=5",
+   "source": "VTV.vn",
+   "group": "Báo chí",
+   "topic": "Dự án",
+   "date": "2026-10-19T07:00:00+00:00"
+  },
+  {
+   "title": "Đưa điện Mặt trời đến \"ngôi nhà cô độc nhất thế giới\"",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOM3lFZm5fQTlQM2lVYXRhcHZpYTNtQl9MV2VPbHVvYmpOX0IwR2k2OVpUMjZ4Ry1xQ2w1cTItQVJRUWRKamRjc3ZZcVgxemQ1LU1IN2tDdjZ0bW1ZdEQwTUZtcHQzME5PZHRHQVNHZmJYYzhEQWdkZHVvQnl3Yy1KeE5lQWJkZTFrNjd2dXBjSQ?oc=5",
+   "source": "VTV.vn",
+   "group": "Báo chí",
+   "topic": "NLTT – Lưu trữ",
    "date": "2026-10-19T07:00:00+00:00"
   },
   {
@@ -1986,422 +2657,6 @@
    "group": "Báo chí",
    "topic": "Dự án",
    "date": "2026-10-13T07:00:00+00:00"
-  },
-  {
-   "title": "Thủ tướng yêu cầu rà soát các dự án điện chậm tiến độ, định hướng điều chỉnh Quy hoạch điện VIII",
-   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWFRIalZ0d2hmZ2lJRXJZTG9wdUpYVGJsOW53eFF6bDJHc0xPQzdZTHdtYXJSRXZFelMyQ2hwSldQNEh0UWFYMnpzN0p1LWpyYjZvdlloR2w2d0xrRG1kdl9tMWdobDZUbzVvNmhWeUZyRHNlZzZwejkyVy1wTkZfY19DM2ZSV2JqM2ZGZ3JsUTd4aThudDNtakpmOEJSaHVpM29YMWNqSmQwaEdJSTNsUVM0VkoxeDZoUEtDQ3dLWjQycEFLRjhVSzMtZ2lmMEFCZzY4?oc=5",
-   "source": "VietnamBiz",
-   "group": "Báo chí",
-   "topic": "Chính sách",
-   "date": "2026-10-13T07:00:00+00:00"
-  },
-  {
-   "title": "Trang thông tin điện tử tổng hợp - Tập đoàn Điện lực Việt Nam",
-   "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE53RnI5UTRLMjFxcmFNbTR4eTJXbjA5aHJ2U0xyNW5OeUU5eVRqNWlWd0xEbVRVT2tsQzlnWVY2QTJEMk15alNfaFp2bjN2QQ?oc=5",
-   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
-   "group": "EVN",
-   "topic": "Khác",
-   "date": "2026-10-12T18:12:16+00:00"
-  },
-  {
-   "title": "EVN tổ chức chương trình đào tạo về quản trị công ty theo OECD trong doanh nghiệp nhà nước",
-   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPMWI0M1gtX2ZmY3QyMGxJWHMwZUM0Z2lidWllQ0pMRFRXOWJ3cE00ZlM2MGNRamxGRnhyRWU3b21ZQnFCNTJnemhBV3paZGhodGpCSFl3eVNrV3I4N1F5WDNyU1AtZzNFTDU5d0l6M25JTE1jYWdwSW5iMUkyTG9ZdzVndV9uNFlHQnhibl85WnJXd0FFa3pqSEcwRHJ4cENuekRxRW56REprbi1oeXhMd0xjWkxpejA5Sk83SGlRY2x5OFB5anNVSDhyQk5NTklLYmFoNXhn?oc=5",
-   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
-   "group": "EVN",
-   "topic": "Khác",
-   "date": "2026-10-12T07:00:00+00:00"
-  },
-  {
-   "title": "99% hồ sơ hoàn thuế tiếp nhận qua phương thức điện tử",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUWxJUG1Ueld0eFdYTDhkUjA1OW81Zm41NE03REVRRnZGeVMzWGozNGduNWNGaWFVQm1tSEFITmJJTjNpZ211SVBORE00bEFLRmlLeDBCNFNsMzItRC1TdlFVRmFNWU5zMzhzVkFudTFfcF9jamt6YURWcTlBb2pHY3N6MnBTNHA3V1BXY1hxQ3IzVmYyOWZIVzBIcko5cFBYdWhTWWFzbkk5NjVtcndETmp1Mk84NDR3cWw1MXFlVU0?oc=5",
-   "source": "Bộ Tài chính",
-   "group": "Bộ Tài chính",
-   "topic": "Khác",
-   "date": "2026-10-12T07:00:00+00:00"
-  },
-  {
-   "title": "Việt Nam Solar cung cấp giải pháp điện mặt trời cho trạm sạc xe điện",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSWRHY2JRWWM1RzYtdU5lc3lQd1NURVdpNXlnMWNxTVRQUjQzSGpBMllFT21HR0xGMGRubXNyRk96UE1YNW1NbzN5bFhoSHhVcEZ5Z0k5d1N6RVY4ZDMzbDEwX0Z5UFRoV3RmLUhjdVl6eEk2bEFsdUU1U0hBNVBfcDJrbGJBZkhsbnlscHBmZTBUMWM5SE9KdkJlM3JDcnkwMW10c1ZGTU9CNkZDZ3Bv?oc=5",
-   "source": "Tuổi Trẻ",
-   "group": "Báo chí",
-   "topic": "NLTT – Lưu trữ",
-   "date": "2026-10-12T07:00:00+00:00"
-  },
-  {
-   "title": "Cụm điện gió Savan của T&T Group tại Lào góp thêm nguồn lực cho tăng trưởng",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVU1WNzFVZG0xTjFLVXMzY1NDclY0UkYyR3NnNkVmYVRJR3piWHV5QTRjR2dnNFQzZW10T18yanItLUFIT0lRd3M2VjdxV01GZ21kZkt0UjFvSEdwQzQ4NVdmeVVoaWZRbjB4c1VtS1JUdmhySER6S3Jua3ozbGVyLVQ2aWVBRW53STBySVFXRHhxYkgxMUdCQUdYb2xRRURyOFp4TUNzbkJqY1l6SmpwallVVW9hbjQ?oc=5",
-   "source": "Laodong.vn",
-   "group": "Báo chí",
-   "topic": "NLTT – Lưu trữ",
-   "date": "2026-10-12T07:00:00+00:00"
-  },
-  {
-   "title": "Thủ tướng yêu cầu đẩy nhanh tiến độ các dự án điện, đáp ứng mục tiêu tăng trưởng hai con số",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNXzFtQUhjSXE1MktYX2FqZmxhYWduazVHVE1CcTlLaVVGT3o0WTJ0bUYyNnBtVXJ0Qnl1VG1YOTFxV2ZCbloxdzVlbDBmbC1LQUdpUTc1bGFrR05WNFREZDlMTTZTODEwbVEtMXdYczFGS1VKODVscnE5Q2d4Z3FiRTNndGI3TlBLc1kyblBxTEhMTThTUUhXTVFyX0JSbXRtNE1iSnJLUU1xTzdVcE5hbXpsWDZkWnNVaXFCU2VaUnV4eVR1eDBv?oc=5",
-   "source": "Báo Đấu thầu",
-   "group": "Báo chí",
-   "topic": "Dự án",
-   "date": "2026-10-12T07:00:00+00:00"
-  },
-  {
-   "title": "Cụm điện gió Savan của T&T Group tại Lào bổ sung nguồn lực cho tăng trưởng",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQlM4YzFuVV9nRlB1bnpjNTlsZXZHa0tzU1lJMjlhbjF0MDhzV0hIQkVpbl9XcWlheExabUJJb19RUGlBZlJqVklFcEhqRVloa2JxT1BwWFRuYlRCX0N3MVg2dGJVRUJvSTNFRUdib3RFaGlwQWhEVk1XLUx2a0RQZHdTTkxqUHdtWEJEaUI2blZ2MEFjTHFBMHVYbTRQRUdEVUFuWFltd213Zw?oc=5",
-   "source": "baodautu",
-   "group": "Báo chí",
-   "topic": "NLTT – Lưu trữ",
-   "date": "2026-10-12T07:00:00+00:00"
-  },
-  {
-   "title": "Có nên mở rộng cơ chế DPPA cho nguồn điện LNG?",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRFAzSEhtTVBpOWFrNXQwbk1UWVh4Ry01WmVHS2d0eXljUEt1dFRkTGdIT1ZWcmNfS29GZ2hYeks2d1hTaERnZEVKQXVvUkpaX0xlZS1jOFdJQ3Z4VklJRV9YcmdmWHZNd2dLMHFLQ0x3MWRWY095ejc3MHVEbmQ5X1hLUFBPY05zbXdyRWFlTDdCcFE?oc=5",
-   "source": "Báo Diễn đàn Doanh nghiệp",
-   "group": "Báo chí",
-   "topic": "Chính sách",
-   "date": "2026-10-11T07:00:00+00:00"
-  },
-  {
-   "title": "Nhà máy dùng CO₂ lưu trữ điện gió, điện mặt trời nhiều ngày thay vì vài giờ",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTGhlTEE1SkdlbXhVTWwweTRPanFVc1h6X0xVZnBWZ0RMUEs1VVRlbUZxV0RiSkJIX2p1dTl6UmUxNllzQ1c3YWp6ZG5zTTJqR1plRWRGdGw3NmZCQmtHZEYxMG1QbkxaT09KeGNETmJneENwRlNBaTNsb1haVjdqM0x0S1B2VTBJbmY2MXNxMThYR2RCSnp3SFRjNXpQRXlCaEpBUlUxQVIzWHc3?oc=5",
-   "source": "Báo VietNamNet",
-   "group": "Báo chí",
-   "topic": "Dự án",
-   "date": "2026-10-10T07:00:00+00:00"
-  },
-  {
-   "title": "Bộ Công Thương thông tin loạt vấn đề về cung ứng điện và tái cơ cấu ngành điện",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaU5MQVZCblU0ZmxTZzdZN1E4ZlZyUkx3bzAxaWxqX3ltVHpPTjJ6N2szMzB5Y3VhRFhUa3JSc3lFUHktZjh5NXhpbFNxRE9yMWk5UHZWYU9rTkgtaG16NVU2elcyeWFnRWNWZnMxNjE0VmRxT1hwZmcwdTdIWjJJcEp2clotcVZyZnB2ZFUtc1V3SXJjVkx0Mm5PWklocTR2eHk4UEVCT1RTcEcwLWNOUkFyb2EwaTE3?oc=5",
-   "source": "Tạp chí Công Thương",
-   "group": "Báo chí",
-   "topic": "Vận hành",
-   "date": "2026-10-10T07:00:00+00:00"
-  },
-  {
-   "title": "EVN đẩy mạnh chuyển đổi số, lấy khách hàng làm trung tâm",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQLTJWTkR6cTkzcmFBUS1RMjdfTVp0N3loM0QyTThFVVNCOWJINm11Q0lIb2ZrRVIwZkd6ZE9hbUZvNjJYTjlfUkQzSER5anRUZjJOWlpNbGx4U0ZYeXozVUZXYVVneEtFQ1MwdG9KbXVHOFVMaVhFNUN2QUIzZHYyZm1OQzdYV09PbjYwWXhzNFJHTThORkp4RTN6TEh1b0ZXbWg1TUw0dngxUQ?oc=5",
-   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
-   "group": "EVN",
-   "topic": "Khác",
-   "date": "2026-10-10T07:00:00+00:00"
-  },
-  {
-   "title": "EVNNPT Seeks Financing for 8 Power Transmission Projects Worth Over EUR 200 Million",
-   "link": "https://vietnamenergy.vn/evnnpt-seeks-financing-for-8-power-transmission-projects-worth-over-eur-200-million-36753.html",
-   "source": "Tạp chí Năng lượng VN",
-   "group": "Tạp chí Năng lượng VN",
-   "topic": "Khác",
-   "date": "2026-10-09T14:07:22+00:00"
-  },
-  {
-   "title": "Bộ Công Thương tập trung bảo đảm điện, thúc đẩy sản xuất và xuất khẩu",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSjVNT0phOWtmQjVUcFBtMFo0RUN1eHVzbXpybUNpbTA5WDEwMmJfdzhIeV85S0hLR3dncGhzWXVabldfWEVrZmlEMlFmNTNBZFNJLXQ1bWJqc2ZIV21XNklDaEJoN0x3TGJIb2dtV2xnYy1uekxqWXcxUmZRMEVNdGNFTTJyWG5IWkQ2NHIwYkVkNEpvVldwczJHRVJVWlh1c0NpdWtON2k?oc=5",
-   "source": "moit.gov.vn",
-   "group": "Bộ Công Thương",
-   "topic": "Khác",
-   "date": "2026-10-09T07:00:00+00:00"
-  },
-  {
-   "title": "Nâng cao năng lực thương mại điện tử, thúc đẩy chuyển đổi số và mở rộng thị trường tại Huế",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQbWg2d2dfbE1kYTNMNU10QWEzbEZTWjF2NFdZN2ZCN1JPNGYtRXNqNkNUMWp5UERiSC1iSUFhMHVXRjJmV0VTNkdBOXZNdnBWdlNoX3BNMmhNekRvQWNDcEFwYmgwZk1ZemNfcWpMTHoyWjRWdVVJbUgzV3lkMEtZNHZRdm5vWGlVclRBTHpVSlktZGFzcDh0TE1xSGxDVVFMTVdHS0JIekVOLVp5dXItc2lseVFIVVMtQkFld21pYw?oc=5",
-   "source": "moit.gov.vn",
-   "group": "Bộ Công Thương",
-   "topic": "Khác",
-   "date": "2026-10-09T07:00:00+00:00"
-  },
-  {
-   "title": "Doanh nghiệp vận hành thị trường điện làm ăn ra sao sau khi tách khỏi EVN",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObFQ4WmFPMEs5T3R4UTUzaUx4OXdhd2pUUkxVNFhlMVVGUFZEa1JlSTh6YzlUeEpiTVFPY2hWRmFCWTgtZUN5R09mbW5IZFJndUZ2S2FsVVB0bzBRNTVwOUg3Tm5RSy1SWVRwVDRnSjdFOHhYYWNBRW9yQU5qYXJ0UHk5eG1DRGM3SkNTcEVRaW13S0dsUVpFZG42bVhUaVg2RjRqd3poOWFMYVB1MjU1eHF2aU5jUQ?oc=5",
-   "source": "Laodong.vn",
-   "group": "NSMO",
-   "topic": "Vận hành",
-   "date": "2026-10-09T07:00:00+00:00"
-  },
-  {
-   "title": "Đầu tư thêm điện gió Savan 2, T&T Group sẽ cung cấp thêm gần 1 GW điện từ Lào về Việt Nam",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWlRIX21FQTc2aWY0TERtOGZacU40Slk5RkVtcUNrb21hYVA5dEtzWGl6UjVMWk96Nk9JM1AzYm1KQXhuTkJYZHh3c0JsOGJibmdkd21IZE95U0Z5SDJkR1hvWFFfZzVkWEt4R1RNTGRaR0s5Vi1hSUtJci1XZjl2MnFpSldaR2NVanVhMlFMdHI0Z2htTlRmVHNXenhTczY5VEtzN0xHclZhbU5NM1dRRWpWcVFCMmd4TExtNXNiaGFrUXprOXNNWg?oc=5",
-   "source": "Laodong.vn",
-   "group": "Báo chí",
-   "topic": "Dự án",
-   "date": "2026-10-09T07:00:00+00:00"
-  },
-  {
-   "title": "Bộ Công Thương thúc tiến độ các dự án điện Thủ đô",
-   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSHNrdFdRd1RaQ21Nakh0VnBOM0d4ZmN4YlF1LTdEb0pnMWZ2MUtEX1RjQVJPWDNtUDgtUGpnbUxZVkozbHhCbmxpRTdrSVFuZmlDZFQ5ODlxbkVyenJtMUtrQVlrWGJDQi0wR3VwYnhRZXlMdkNfNm1lNC0zLWw0dDFKbHRsbGM5c2hJMW5fZjd6Zkw5OC00YTB4OUZ4a2pFeDJncDU2NHBydXhoeUlpcmpweWg5UlNUaTRtZEZRMmx4ZTVYbXZIR3V5OUI?oc=5",
-   "source": "moit.gov.vn",
-   "group": "Bộ Công Thương",
-   "topic": "Dự án",
-   "date": "2026-10-08T07:14:12+00:00"
-  },
-  {
-   "title": "Triển khai các giải pháp chuyển đổi số, nâng cao hiệu quả sản xuất kinh doanh lĩnh vực công nghiệp năng lượng",
-   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOMVVvWS13VU5DUndMVWp3RzZ2SmFMNjdJRTkyd21pODBTaE1LWFZBSk42TXRDX3MxdFZTUjM0MFNTeHVpYTBqVUdfT1BDVW9YWE5Ra1owd3B0RnV0RFNkc2F3RHdzN1AzeVltS1BENkF6QmpZUG5zVVNPazktSzl3aE15dkRYMmJ1ZWkwZktZSlpUSTdmZXlMQ0owV0ZkQmpBVFliSmJZOXI1TzF1bnVtX1R1VzlsbGl3X21RUTBNODVkWEtFWHBXSEtSeVZOY3U4OHdRZ0VEdmNBb1JUZER0UUhVcEs0Zw?oc=5",
-   "source": "moit.gov.vn",
-   "group": "Bộ Công Thương",
-   "topic": "Khác",
-   "date": "2026-10-08T07:00:00+00:00"
-  },
-  {
-   "title": "EVNNPT seeks funding for 8 power transmission projects",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObjFucjlUZTEzWER2Q25mNG9tRUVNMVZSOV9ZZWx2U2hJRnl4eC1qLVlCVXhKRHc4ZVFoZlBpOVhMT0dpZUlLSV9ZZnJrMU9iTkl4a0FaVVc5M21MR1VnSThpdWRZbjV5WGxNMDF0QjN5c0NYM1huNFdFYVZCR2NwRVN4Z0k5ZHk0M2JEYThNSkN4NmY3TFZnOEE2RmhXbHRpbWJ3ejRB?oc=5",
-   "source": "Vietnam Electricity",
-   "group": "EVN",
-   "topic": "Khác",
-   "date": "2026-10-08T07:00:00+00:00"
-  },
-  {
-   "title": "Công đoàn Điện lực Việt Nam hỗ trợ 233 người lao động có hoàn cảnh có khăn, bị bệnh hiểm nghèo",
-   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPS0JzLWRyR1NqQlFHMTdoOXlMNEJtLWhTV1hHVlBDWF9Ta2JOVHQ0dXZQYml6SUVUYTdBSWRIRHhMVnRRSFJNYnpQMUNTb1JVNWdSSU9nQ1N4NnNsQktaTFlxVWFwa25ONV8xbDVYSzJCaFFGOWJDV0g2U01ZNERRVFdkM2hMaW12WDlGaHFzbmpMOE1kMUxpNGRoenpWdld6d25SVmF5VTdvVE82bUlGZDdlaEpxYzFac19nMlRzZkdTVlRDdklKX09GRnZOLXdTSnpFbGlHWERSQnZP?oc=5",
-   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
-   "group": "EVN",
-   "topic": "Khác",
-   "date": "2026-10-08T07:00:00+00:00"
-  },
-  {
-   "title": "AI thay đổi cuộc chơi, hết thời điện mặt trời chỉ bán ban ngày",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObGdhZ1Q0UUR0eDJPUEd1d1d5VWFUd1hNY3E1SG9rampfNXZVdXJLRFpFT1hQYXktNjBGUHBJR0hFWXZYdnF2ZUsxVW5vc1BDWUFTYkNOalVaYlNiMnpkVDdwVUk3R1FCc3Y0UF9laTR6ZWlaTG05RklKQmNUaF9kMWI5WlJSalgwaVpGZ0o2ek9UU1lCdkdoQ2ozeG1wdWh4b1dfOTU3ajkxb3NIcVljYmg2WVVCSG8?oc=5",
-   "source": "Báo Dân trí",
-   "group": "Báo chí",
-   "topic": "NLTT – Lưu trữ",
-   "date": "2026-10-08T07:00:00+00:00"
-  },
-  {
-   "title": "Điện Mặt Trời trở thành nguồn điện có quy mô lắp đặt lớn nhất Trung Quốc",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQWJtZHJxOXNrX2l2Z0J2N2RVc3J4a1hYUFJEQTFsb1EzdW1LeDZUSWlOeE9lMVBGNllrUmphNmpoajlmeU1DZ2Vya00xWUNaT2JXUzNLZlVLTU5XMG9yTjVqRUZMU0lOTWFfNGd0VHZUcG1HLWFRT2pPSHVKTVV2VUxUZW1WWkg5M29TVDN2bnIwTjFIRF9lV1llRWsteC1Ma2pkdHJoSW93dHBvbnVOaDRlbTRFTU9a?oc=5",
-   "source": "Vietstock",
-   "group": "Báo chí",
-   "topic": "NLTT – Lưu trữ",
-   "date": "2026-10-08T07:00:00+00:00"
-  },
-  {
-   "title": "Sau Savan 1, T&T Group tiếp tục đầu tư điện gió Savan 2 gần 500 MW tại Lào",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOODJyOU82NUlVQV85ZHlBNS1pWmM3VVFEZk0wemRVd2JXaDhFMnkyQ3ZSdVpWWWJFRnc2X25zZTl1Z19nakZwaXNRakMxaDE2TFQ1UmVsdVRKSnN4LS1Za3VkZVVwam9FeGhFN0JvcGZFOEV5TG14YWV3ejJmal8tQkJzOUgyMTVTMHdSR01UdldUVjM1QlY3Vjl2VkhTTlZLUC1iRkxLdGtYUW1uWGxRSmZld1VvWW5mU3c?oc=5",
-   "source": "baochinhphu.vn",
-   "group": "Báo chí",
-   "topic": "Dự án",
-   "date": "2026-10-08T07:00:00+00:00"
-  },
-  {
-   "title": "Mua bán điện trực tiếp: Tháo gỡ điểm nghẽn, mở rộng thị trường",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaFp4TW55cG8wMzdua1FkY3Y3TVVfWmd3RjVWaU1YbEtpcHg3ekJjalVOYzZtaWNsdlZLMlYxblJPbG1LUDh2YVJUR3hUN28tdFdURE85dTl0LTN1d0xNU2RmeWlDYWpBejBpVHg2VlJrMkhCa1I0dE90WFQ4OGJCenR5LVh3NEMzWnJMSUp5ZWVMVVRqaW40WnRMeWpfODg?oc=5",
-   "source": "VTV.vn",
-   "group": "Báo chí",
-   "topic": "Khác",
-   "date": "2026-10-08T07:00:00+00:00"
-  },
-  {
-   "title": "Điện Biên rà soát, đề xuất bổ sung quy hoạch điện VIII",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWUJBcFktSm9LNm5lcFFyV0tVMW5mRS1ublpwUTZDYjBpRjRJeW0zRmM4YVpaZDJvWGF6aG0zZ0lFRkY0OXNMTVpoVGhiOWJvOW1oMUIyM1BwZU5xWl9fX2FCSjE4QldKVWVBMmZPQjZpSjctV3g4V29XOEtWSEU4TVVDc2U1TzZFRjJUNkwtOXR4ejk5bi1FejR2OXhVQQ?oc=5",
-   "source": "Báo Điện Biên Phủ",
-   "group": "Báo chí",
-   "topic": "Chính sách",
-   "date": "2026-10-08T07:00:00+00:00"
-  },
-  {
-   "title": "Xe điện, trung tâm dữ liệu tăng tốc, lưới điện cần \"bộ đệm\" pin lưu trữ",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUmdVYmlSNEdnVEhhMkdNTUVtbzRsX0tlMklLM0xxYW91UGJhdWRWN0pwcXhzWF9wR25vaG52WnAyMmxGUFAxV2l1RWQwV1JFblBKS3RjS0dnOVpPQTQ5aFNLbGNhNnQyRnNxM3dQSTlXX2JIeXBCWGZBUGN5VldCSmRlbFZZV29kVGVwb0ZmeUwzTkdteFI3TzA5bW1CaWp4Snc?oc=5",
-   "source": "baodautu",
-   "group": "Báo chí",
-   "topic": "Vận hành",
-   "date": "2026-10-08T07:00:00+00:00"
-  },
-  {
-   "title": "Nguồn điện chậm tiến độ, lấy gì bù thiếu hụt?",
-   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSXA1Uk9vd1I2Q3BkdEIzTV90Y2FaTVpEUkxrbHM3YUlSNDR2TEpHemhQdXZnRkdITDRBSFIzTUNfeXlJN2c3SDkzUm5feWd4M0gwRjRmNW01SzNDY2Z6aEN6ejFERnE1UmtJZ0xWN0FhZ2FQeXBuTjBZaERSU3VRajFjcHBSUDZ5X2hn?oc=5",
-   "source": "CafeF",
-   "group": "Báo chí",
-   "topic": "Khác",
-   "date": "2026-10-08T07:00:00+00:00"
-  },
-  {
-   "title": "EVN làm việc với EVNHCMC về công tác đầu tư xây dựng",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPM2laTGM0RFUyMGNRZWVUYkNzZWZxMGtvb1F6NDk0MEhaaVl3UW1kYTdtMTE1SmxhTXE1QzZHR1ZORWdkYzNUSlFMYWpBYl9KdW5BR29PUnRNWXFnci13UDZ0ZGpDRVVNYXBsa2J2U0VQZ0o5dHozTmMxVUxfZnpGMDJBQ3F5eHJkbmRFZmpqS0N2b2F2NnY0YWtsdjZmS0U2R1lz?oc=5",
-   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
-   "group": "EVN",
-   "topic": "Dự án",
-   "date": "2026-10-08T07:00:00+00:00"
-  },
-  {
-   "title": "Hội nghị Ban Chấp hành Đảng bộ EVN lần thứ 7, sơ kết công tác 9 tháng năm 2026",
-   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaU00NjhoNFVMd3B6Y083dElmRGF2c2VWRTZfMzVkQ29ISjVKZktMMU1zRzN5cDdJUmIyc1JHSVhPTlp0MmE1MG55ZUt6OE9TWTd5bGxsOWtUNUduS3Q4MUs1Tjc4SHZ6RUNHWE04eFN1YnlRWGtQSlR4WmI3SlI5NDIxbDN2MTdJSTFLZ2I3TkpvQ0Z5Y2tnUGdvRFNtNjJVT3lSM0RtNzJnNkN1Ym82YVhmWWV4Vkh2Y3UyVzF3YlhnTXg5c2c?oc=5",
-   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
-   "group": "EVN",
-   "topic": "Khác",
-   "date": "2026-10-08T07:00:00+00:00"
-  },
-  {
-   "title": "Quyết liệt đẩy nhanh tiến độ các dự án tại Trung tâm Điện lực Quảng Trạch",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTlhTQmZFemIyajhPM1c0OUs5X0hiemFudnVvREFCT3plZXRyTEFLa2pnVk9JTTF5dXNPWVQwX1hPal9UYnZDT0ItQ1A2cXpwOE9vQ2xVMG5haVFLOGU4YkgzSmF3MmxHZGVfVEg2cDhpeFhBV3luOXBTWHhrWER5cnl3ZU9yeDFjWk1lX1M1LXEwdy1vTm0xdU5yX3o4dTNqSVVjd0RWeUtIb3ZoMGJZ?oc=5",
-   "source": "moit.gov.vn",
-   "group": "Bộ Công Thương",
-   "topic": "Dự án",
-   "date": "2026-10-07T07:00:00+00:00"
-  },
-  {
-   "title": "Mở rộng các hợp đồng mua bán điện trực tiếp",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOT0NYNjNLUktBb1RQaFhMdU5TLWtJcDJDUE55SGNCOEhNNEFYY0ZaaGNBNVVPZTVmME1jblBvLUZBTU5EZTJBeGJnOWVDWm5nLXRTMVVSY3BFQjlsR2dJQlRaMFA2S3VUa2h0amdvWWxmX2hWVS12NHFabnQ3bHlXVkFCR2s?oc=5",
-   "source": "VTV.vn",
-   "group": "Báo chí",
-   "topic": "Khác",
-   "date": "2026-10-07T07:00:00+00:00"
-  },
-  {
-   "title": "Mua bán điện trực tiếp qua lưới điện quốc gia",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOXzhUS2FBLW5aX29fTXhEdWlnWFA1YkhlVzJDNTVIVUc4QUwzNlFqcEFwU0o0RDh3c0ROblU1Um8zN1Y5OVZVRnNSRVhmcVowVms1dzJKT0ViaWY0RUl3UkVfZUctbWhjUFpOaHdQMFlVM0xaLUF6dVdwcnQ2UmVwU3NfNFR4cXc?oc=5",
-   "source": "VTV.vn",
-   "group": "Báo chí",
-   "topic": "Vận hành",
-   "date": "2026-10-07T07:00:00+00:00"
-  },
-  {
-   "title": "Bộ Công Thương cùng Hà Nội rà soát tiến độ các dự án trong Quy hoạch điện VIII điều chỉnh",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPalJ0T25NX1VSOFRKSDNneTd1bXpjalRDMWxTajNXcjVHRjR3RU04Z2U4V3UxdHhicjRkSHl0c1YteHpqTTBNNjlXUmtIRmJ2U1F1OXlDbEFHUC0taXVYT2xYUUt2ME9nZmVlV1J2c0sxSmZ6VmszQXB3UnBqV3JkeW1EMjJEc1hac1RORkhxY1pHYjNFRHk5ZmtmV0pLU2dDdGlsSmQwZE9ubS01UVJUM3I3b1E0WVV0Um43eU1abGk?oc=5",
-   "source": "Báo Công Thương",
-   "group": "Báo chí",
-   "topic": "Chính sách",
-   "date": "2026-10-07T07:00:00+00:00"
-  },
-  {
-   "title": "EVN đề nghị Hà Nội tháo gỡ vướng mắc các dự án truyền tải điện",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPR2M3eXd3bWNrQXNkXzZha0NWZmhLWmlqX0l4akhCd3RZeFFWSVVuM3NmN1ZhX0E0MzRPVGVIazY5U3dHVVQyR3B2Y3JhMGJEaHBDX2VmalB1T0RTUXhIMDU1Ni1hWkV0eWtjcVZpelBOcW15V2UtOGVuZmxyNE0taFBLcFp5aWFFb1dFMmRiMkRBS1JvcEo2NFhzVXV5WEdNYk1TWURIOVJiWS01U0x4SA?oc=5",
-   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
-   "group": "Báo chí",
-   "topic": "Dự án",
-   "date": "2026-10-07T07:00:00+00:00"
-  },
-  {
-   "title": "Hà Nội đồng hành cùng EVNNPT gỡ điểm nghẽn cho loạt dự án truyền tải điện",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPV0huODU0REpwS3ltNmNJZGRmQ1RIWUxLU09vY19SNFlwWUpIVE9nZjJCeWFIR21vQXVLZzFqSnBDeWJEbEYtSG5pMlY4N1dfZjVndmZDdDlBWXFMMS1KVjlxNlA3aTNhcjAyMnAzbU05dDY1eWZNRkdJTFdIZ1l3SGZRYTd3cEhWd0x5cmh2Y0RocGF2NTQ4ZDdraUdSWTFHTUs1cldoZ1p4UQ?oc=5",
-   "source": "baodautu",
-   "group": "Báo chí",
-   "topic": "Dự án",
-   "date": "2026-10-07T07:00:00+00:00"
-  },
-  {
-   "title": "Bộ Công Thương nêu giải pháp bảo đảm an ninh năng lượng và cung ứng điện giai đoạn 2027-2030",
-   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTlhwd2xSVzNmWVhWb09YTnFKYlhMZ3pTSkFVWHgyOVVjSWdVQ1NGNXdDQ1NVQThoUXZVZmZfUjhmSnRoRXBJNGJkV1hVamEzODJvVGE2SWtjWmVMQ0hTS19nU0dUVjM3Y21FMEg4MHNoV0FWZVpESUczTXJxMTJSVnZHWFJ1bHNwaU1JSXhoNE9ZMWpvaG0zdzJydVNwNVpqSUw1QUJpOUJMSnF0aloyeExGaG1qMnRrVjg4YXNydmlyOXFxZ2hyRmF3ZTRSUjQ?oc=5",
-   "source": "Thông tấn xã Việt Nam",
-   "group": "Báo chí",
-   "topic": "Vận hành",
-   "date": "2026-10-07T07:00:00+00:00"
-  },
-  {
-   "title": "Năm trung tâm chăm sóc khách hàng EVN trao đổi kinh nghiệm nâng cao chất lượng phục vụ",
-   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOSmtVZjk4ZE11c0duTHMwRnN4VlJSOE5KUjY4eE1kNlFUQTJoRDdTZUNYZTdUR3dxZG1kSnl1ejdBUlhyTnB5VUhrRnpNcW5RU1pHRUh3Q0F1T1U1TExwLVVYYUtSLXdvb2FtdS1QQUZ3Z2ljcks1LTByaFVuZF95XzRHSHlOZGI4Y1NNOVdBNWxoY2lXeHVVaEc3RkFqX25wM0s3am5IN2dHV3NwRklEX1ZJYUw4WFc1VmdGRDZDVUo1SDN1QkpxZlgxUzB1amE0azBj?oc=5",
-   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
-   "group": "EVN",
-   "topic": "Khác",
-   "date": "2026-10-07T07:00:00+00:00"
-  },
-  {
-   "title": "Bộ Công Thương lấy ý kiến về đề xuất 14 giải pháp ngăn cháy nhà dân do chập điện",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMVBnbGRsdVAtSDNQZ0Uta0lxR1gyTmE1aXpySTdIWFFiSG53VXEwRWRGR2lBVDNWeVhDV0JkT1Qzb2FsczdrWUF2cEJjMGhxZTVQQlRKbUlkZl9OdUpPRWJGaXdYRVNrTUxkbk1sUV9hekVFV0NMRW5ldlZQbHhCWmRaUWdUSUp1ZUVGQVZVSkJWOTk2Wks3SEozZGU4V0xXWmJocmttTzA2ZjFzOVFRVlNTYw?oc=5",
-   "source": "moit.gov.vn",
-   "group": "Bộ Công Thương",
-   "topic": "Khác",
-   "date": "2026-10-06T07:00:00+00:00"
-  },
-  {
-   "title": "Cảnh báo ma túy “núp bóng” thuốc lá điện tử",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQX0loMHlTWHMwVkdya1lTR0pvdWQtNUV3cFVsZjBBSjh4VTJTMW5aZXhmUjFZN1pPSy10OGFkbmRxcUU5blc4MjBFM2diTWhtSVpNLVFzMUItTGRoLVZwWURVMU1XTkVTdWxkc09fR2tQSUw5cG15a24yRnRqTjZ2SjhiZ1dPUS1WSTBXT2dIekVIOWpW?oc=5",
-   "source": "tphcm.chinhphu.vn",
-   "group": "Chính phủ",
-   "topic": "Khác",
-   "date": "2026-10-06T07:00:00+00:00"
-  },
-  {
-   "title": "Ký hợp đồng tín dụng dự án điện mặt trời Dầu Tiếng 5 có tổng vốn đầu tư 7.786 tỉ đồng",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQUNUbHdaYXA4Z3hqYmpnZ3VBTG1BbXZVc2JuOXJXd3ZZMFJxNTU4NGRmTXJzWndzYlFwaE1vMC1NNFVLbmJSbU10dUJVOWVrSHNPTV9JTmUtMXFCRmN6MDVYNkRHalRZcm5vdE5Bd0xjOVIwVjNCMzMxRTZ3NE9CdV9sbENBZVNPbEM4UXJ5bFZyNlBubDk3ZFFWQ1l0WVFXNlpaSmEtMXhSYTk0OWtHbGxhWldXUjlOdlppaTVSbFh1dWRJ?oc=5",
-   "source": "Báo Tuổi Trẻ",
-   "group": "Báo chí",
-   "topic": "Dự án",
-   "date": "2026-10-06T07:00:00+00:00"
-  },
-  {
-   "title": "Hội nghị các Hiệp hội Công nghiệp Điện mặt trời và Lưu trữ pin Toàn cầu 2026 tại Hoa Kỳ - Góc nhìn thực tiễn cho Việt Nam",
-   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQR2hNOTY1T21DZmt0MkJIeE43YjdnR0hlX3lrZ1pWdjhkc0UybTdZS3dKUW5uYzllVGVST0tUUUpkeUJ5VC1ubUYxZWN5cXlJVXl3LWVDQUtNZFlEWVdzNm9rYXRMcW0yNDNVNmJ3MmZrdHdqeHQyVU0tVWwzR2hodWFVZ1VMb0MtVlFZWTNPb1Z0Rm9LSWpHU0ZrVlVjWlZmcjN0YlJ5RVEyQTRCM2ZlREpSeGowRkdNbzluVnpmaHVLMXZNRGJoWG0tc1AtLWdtWWgtSG12N3lVa3A0NVMxaEJIQnAta2dHTFB4TmszRQ?oc=5",
-   "source": "Năng lượng Việt Nam Online",
-   "group": "Báo chí",
-   "topic": "NLTT – Lưu trữ",
-   "date": "2026-10-06T07:00:00+00:00"
-  },
-  {
-   "title": "Tối ưu hiệu quả từ điện mặt trời kết hợp lưu trữ",
-   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMU1IdjlWdklWZk5mVlhqMHl0SjhoZjR4dkcxaWNzeV9WMjFGWEgxMlByQy1tTV9zM2pIajNETnVDc1c4TTBpMlZEVDU0eTZWdGUzOE42ZnFEUXN0dlhoZmdJQ1FZRjEtS29nUDVYUjNKRG1LUW9NQWVmdlhFT0xNcEpMT24xZHlNalE?oc=5",
-   "source": "Báo Lâm Đồng",
-   "group": "Báo chí",
-   "topic": "NLTT – Lưu trữ",
-   "date": "2026-10-06T07:00:00+00:00"
-  },
-  {
-   "title": "Quy hoạch điện VIII: Vestas cung cấp 16 tua-bin V163 cho hai dự án điện gió mới tại Việt Nam",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOejBucHRDTENMamRDNEVSYjhwYzJ4ZG1lTFVVU1BFVjA1WHRPOTBGWGtKOE9aTEJLUk1BYV9zWkFJX21BTFdReU83cnZLTjZ4VVh2dVJ5TTNaekdZeVAxRjV3ZVBLTGhEdHpxM0N2VXhwcGtFVjByS2tRN19DOThKMmh6N3RkYUhBU2xuVmc5SVQ1Z1R6YjlFQnFFTGdONkYtc1M0LWdram1HRlNFQ1RYSHNZWC0xQlhjWl9RcA?oc=5",
-   "source": "Bnews.vn",
-   "group": "Báo chí",
-   "topic": "Chính sách",
-   "date": "2026-10-06T07:00:00+00:00"
-  },
-  {
-   "title": "Đoàn Thanh niên EVN phát động chương trình ‘Thu pin cũ – Đổi cây xanh’",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUWJlelJLQmxOckFwYVVnUWFIM2dsYnNfLUpxdHhZRklfS1lzeGswUnFHMDhmV2VFbFBpeXJWOHJrdHgxT2RRRXhleWFEcEpIMGVNODlLeFE0aFY3R3VJZExhdjJvVWtIS20wNVNkVENLNWxZbWRqRjFLbkNHV0pwejlCVTkyQVFrUXRleDY0OGVBMUdIN0ZlT2p1QkJmcy1GQXVfSFo2LWJUVXpDTWlZaUJSZGxXUFZf?oc=5",
-   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
-   "group": "EVN",
-   "topic": "Khác",
-   "date": "2026-10-06T07:00:00+00:00"
-  },
-  {
-   "title": "EVN đặt mục tiêu phát điện thương mại 2 tổ máy Nhiệt điện Quảng Trạch I trong quý IV",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMUh6VnFLX1V5cWt6WVhUaWtfU3ROampabnNVODNkLTdUX1piWW55TGFsVEFlZEh4SlAwRHhYbHBZYTNOS2hvd3ptREZDOEMxTE9Pb3ZXLUV3dVRZMmUwU2dZUGlCTlpFbjQ2SWZ6RkdVd0gtZGFKNzhyQWs1dHdmRVZKRFdJbEZudi1xcWFjeXBjUGRLQUxVQlpVLXE3MUIteW5LNEw0ZGlScHo3Umt3SUFjMA?oc=5",
-   "source": "Bnews.vn",
-   "group": "NSMO",
-   "topic": "Khác",
-   "date": "2026-10-06T07:00:00+00:00"
-  },
-  {
-   "title": "Bộ trưởng Bộ Công Thương Lê Mạnh Hùng chỉ đạo đẩy nhanh tiến độ các dự án tại Trung tâm Điện lực Quảng Trạch",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUFpuSlVxYUdmUjZfb2pzSTJNT21za3pNUkNhYWk4S2FRclFzX1Z0UkJ6TTB0RktGQ3Vfc25xV2V2S0xoMk5KMGEwTHhZelg1NUh5OG16OVlOOXB3WkZWX3J1enYzeGYxMUtlZXg2SFQwU3J5WnBuaXVzOEpLd21xQkxLekUtUUdta1BZYnRKOVk4aGM3aUV6aERJVlU1c2xUTUlZNFFVbjZ6NWpud0dFZXlHNS10RFN1dDd6QnowZ0dQWE1Q?oc=5",
-   "source": "moit.gov.vn",
-   "group": "Bộ Công Thương",
-   "topic": "Dự án",
-   "date": "2026-10-05T07:00:00+00:00"
-  },
-  {
-   "title": "EVN muốn đàm phán lại giá mua điện, loạt doanh nghiệp điện gió, điện mặt trời xoay xở lo nợ xấu",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPODNaOTh3U0VpWnFaZzFDd3VmRWlnVjhJVmc1cVFRNk0wVzFsYXF2N2lBVS1JclMzcDZwWnJnZDNHODdmWktSSW1UX0JFaUtZUFZ4ZWVlRV9vVzBaUTJoczF4TXd5cXg4dTBEY3BoUVBfQ1VIUExfQmF3dkMzbFJDc2J4TVJhUkphTlhtVy1JeGQ5THNfaHNfRUtPTlY0NUgtdmFoUUJ3S0Q2MklhaWxYUWVRbUxWMGdTOEs0Sm0wMi1hR2lKMWxYMDh3X0FqRnNu?oc=5",
-   "source": "Tuổi Trẻ",
-   "group": "Báo chí",
-   "topic": "NLTT – Lưu trữ",
-   "date": "2026-10-05T07:00:00+00:00"
-  },
-  {
-   "title": "Mở chuỗi giá trị mới từ hai trung tâm công nghiệp - năng lượng tái tạo",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxONmxsdXFkbVFzZmROcG56cFdJZlZON1hqNWNRcDMyYlZMV1RyYzMwR21odVVDdUoyc1lOZUdzeDQyZWRyR0Z1VXBWd0FWZzFKOU5yOEhKRXNBaHgtTGRRbWgwbWVTdTJfM3pTR05PTlgxdmc3YTFOSFNMSERkTjByYXFFNGhiclJDMWtVY19BZGJ1dWU1aGZ2bnVZOWk2Zw?oc=5",
-   "source": "Bnews.vn",
-   "group": "Báo chí",
-   "topic": "NLTT – Lưu trữ",
-   "date": "2026-10-05T07:00:00+00:00"
-  },
-  {
-   "title": "EVN ủng hộ 1 tỷ đồng hỗ trợ phụ nữ, trẻ em mắc bệnh hiểm nghèo",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWGYtRlJhOHRGanF4cHZ0b0tPeENTSHNweEdWcTR4eTZLeFcyNEVsVHpfNi02Q203UjdXR1lRNHpWZ2Rrb016cE1La0VlbjJINGpnOUVXT3NWYW5yTXBmekFzUlZFVS1ZLVV2RjVqRU80bFdjY0lYLTBpNkhreTlpVjVSUzFPZ0xnOVdwYmVnand3SGZSRWlHWHF6bWM5SW1uUkhiZWYxbnNkcWxPV3FJ?oc=5",
-   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
-   "group": "EVN",
-   "topic": "Dự án",
-   "date": "2026-10-05T07:00:00+00:00"
-  },
-  {
-   "title": "Bộ Công Thương thúc địa phương hỗ trợ điện mặt trời mái nhà",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNa084N3lfUVduYzFiSHJfRDBodmxxbnV0UkRFTG9iUVppWmVYOTRsNXF0dnJ1WEFDMmh3TDVYNlU3ODItZ1AxTi1jd2tPTW9rdV9TOGZ1ZEk3cTNQSXhrV1pEaWhfdkUtZlpFdmJ4bU4zSFhHdzVOdDllZE9lbmVqMnhLa3R2OFJCT0tqY0g1RTVxNWJibS00TGlR?oc=5",
-   "source": "VnExpress",
-   "group": "Báo chí",
-   "topic": "NLTT – Lưu trữ",
-   "date": "2026-10-03T07:00:00+00:00"
-  },
-  {
-   "title": "Cơ chế đặc thù điện gió, mặt trời: 172 dự án được tháo gỡ, dự kiến thu 50.000 tỉ đồng",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNc2pCVzFRRU9HOXlraW5tYjAzZjhyS18tT1BtcmlvM2lYS1VoRFctV1ZEcS0wWDFEZVFGUDJQUWtETnFwX3hZbXUzbzRtSWdEUnY2aXRaOV93OHU3QTFnSGNuSllBZ3hqRFA4NE1ad2RGOXNNUUUwMGhseWRkZWlZakt2VE03YWliVHlDZnk1OWk4akRzVWR0THlkWTh1M3F3WHNBVXRJX3FCXzdaMndLeHMtbElFVGdjWjU5Mkxydjk?oc=5",
-   "source": "Tuổi Trẻ",
-   "group": "Báo chí",
-   "topic": "Chính sách",
-   "date": "2026-10-03T07:00:00+00:00"
   }
  ]
 }
