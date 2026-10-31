@@ -1,0 +1,186 @@
+[
+ {
+  "type": "ĐMT mặt đất",
+  "items": [
+   [
+    "c",
+    "Đất đai",
+    "Chậm chuyển mục đích sử dụng đất lúa, đất rừng",
+    "Rà soát quy hoạch SDĐ cấp tỉnh trước khi đề xuất"
+   ],
+   [
+    "w",
+    "Đấu nối",
+    "Quá tải lưới khu vực, cắt giảm công suất",
+    "Tính toán PSS/E kịch bản N-1, cân nhắc BESS"
+   ],
+   [
+    "o",
+    "Kỹ thuật",
+    "Suy giảm hiệu suất tấm pin",
+    "Bảo hành hiệu suất trong hợp đồng cung cấp"
+   ]
+  ]
+ },
+ {
+  "type": "ĐMT nổi",
+  "items": [
+   [
+    "c",
+    "Pháp lý",
+    "Chồng lấn chức năng hồ thủy lợi/thủy điện",
+    "Thỏa thuận sớm với chủ hồ, đơn vị vận hành"
+   ],
+   [
+    "w",
+    "Kỹ thuật",
+    "Neo phao chịu dao động mực nước lớn",
+    "Khảo sát mực nước nhiều năm, thiết kế neo linh hoạt"
+   ],
+   [
+    "w",
+    "Môi trường",
+    "Ảnh hưởng chất lượng nước",
+    "ĐTM có quan trắc nền"
+   ]
+  ]
+ },
+ {
+  "type": "Điện gió trên bờ",
+  "items": [
+   [
+    "c",
+    "Đấu nối",
+    "Chậm tiến độ đường dây đấu nối",
+    "Đồng bộ tiến độ với kế hoạch lưới truyền tải"
+   ],
+   [
+    "w",
+    "Vận chuyển",
+    "Đường vận chuyển cánh, tháp không đáp ứng",
+    "Khảo sát tuyến vận chuyển trong FS"
+   ],
+   [
+    "w",
+    "Tài nguyên",
+    "Sai lệch số liệu gió",
+    "Đo gió tối thiểu 12 tháng, đối chiếu dữ liệu dài hạn"
+   ]
+  ]
+ },
+ {
+  "type": "Gió gần bờ / ngoài khơi",
+  "items": [
+   [
+    "c",
+    "Pháp lý",
+    "Khung giao khu vực biển chưa đồng bộ",
+    "Theo dõi văn bản hướng dẫn, chuẩn bị hồ sơ sớm"
+   ],
+   [
+    "c",
+    "Tài chính",
+    "Suất đầu tư cao, rủi ro tỷ giá",
+    "Cơ cấu vốn đa nguồn, bảo hiểm tỷ giá"
+   ],
+   [
+    "w",
+    "Thi công",
+    "Phụ thuộc thời tiết biển",
+    "Kế hoạch cửa sổ thi công theo mùa"
+   ]
+  ]
+ },
+ {
+  "type": "Thủy điện",
+  "items": [
+   [
+    "c",
+    "Thủy văn",
+    "Dòng chảy thấp hơn thiết kế",
+    "Chuỗi số liệu thủy văn dài hạn, kịch bản khô hạn"
+   ],
+   [
+    "w",
+    "An toàn đập",
+    "Yêu cầu quy trình vận hành liên hồ",
+    "Phối hợp xây dựng quy trình vận hành"
+   ],
+   [
+    "w",
+    "Xã hội",
+    "Tái định cư",
+    "Kế hoạch tái định cư sớm"
+   ]
+  ]
+ },
+ {
+  "type": "BESS",
+  "items": [
+   [
+    "c",
+    "Thương mại",
+    "Chưa có cơ chế giá dịch vụ phụ trợ ổn định",
+    "Mô hình doanh thu đa dòng, kịch bản thận trọng"
+   ],
+   [
+    "w",
+    "PCCC",
+    "Yêu cầu PCCC cho hệ thống pin lithium",
+    "Thiết kế theo tiêu chuẩn PCCC, thẩm duyệt sớm"
+   ],
+   [
+    "w",
+    "Kỹ thuật",
+    "Suy giảm dung lượng pin",
+    "Bảo hành dung lượng, kế hoạch bổ sung pin"
+   ]
+  ]
+ },
+ {
+  "type": "Nhiệt điện / LNG",
+  "items": [
+   [
+    "c",
+    "Nhiên liệu",
+    "Biến động giá và nguồn cung LNG",
+    "Hợp đồng nhiên liệu dài hạn, cơ chế chuyển giá"
+   ],
+   [
+    "c",
+    "Thương mại",
+    "Đàm phán sản lượng hợp đồng tối thiểu",
+    "Đàm phán Qc trong PPA"
+   ],
+   [
+    "w",
+    "Môi trường",
+    "Phát thải, nước làm mát",
+    "ĐTM, công nghệ xử lý phát thải"
+   ]
+  ]
+ },
+ {
+  "type": "Lưới truyền tải",
+  "items": [
+   [
+    "c",
+    "Đất đai",
+    "Giải phóng mặt bằng hành lang tuyến",
+    "Phối hợp địa phương, bồi thường theo quy định"
+   ],
+   [
+    "w",
+    "Tiến độ",
+    "Phụ thuộc dự án nguồn đấu nối",
+    "Đồng bộ kế hoạch nguồn – lưới"
+   ],
+   [
+    "o",
+    "Kỹ thuật",
+    "Tổn thất, quá tải cục bộ",
+    "Tính toán chế độ vận hành, lựa chọn tiết diện"
+   ]
+  ]
+ }
+]

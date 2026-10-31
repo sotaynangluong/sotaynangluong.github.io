@@ -1,0 +1,88 @@
+{
+ "voltage": [
+  [
+   "Truyền tải",
+   "500 kV, 220 kV",
+   "Đơn vị truyền tải (NPT)"
+  ],
+  [
+   "Phân phối cao áp",
+   "110 kV",
+   "Tổng công ty điện lực"
+  ],
+  [
+   "Phân phối trung áp",
+   "35, 22, 10, 6 kV",
+   "Công ty điện lực tỉnh"
+  ],
+  [
+   "Phân phối hạ áp",
+   "0,4 kV",
+   "Công ty điện lực tỉnh"
+  ]
+ ],
+ "group": [
+  [
+   "Quan trọng quốc gia",
+   "Theo tiêu chí Luật Đầu tư công",
+   "Quốc hội"
+  ],
+  [
+   "Nhóm A",
+   "Dự án điện: từ 4.600 tỷ đồng",
+   "Thủ tướng / Bộ, UBND tỉnh"
+  ],
+  [
+   "Nhóm B",
+   "Dự án điện: 240 – dưới 4.600 tỷ đồng",
+   "Bộ, UBND tỉnh"
+  ],
+  [
+   "Nhóm C",
+   "Dự án điện: dưới 240 tỷ đồng",
+   "Bộ, UBND tỉnh, cấp dưới"
+  ]
+ ],
+ "docs": [
+  [
+   "Luật",
+   "135/2025/QH15",
+   "Luật Xây dựng"
+  ],
+  [
+   "Luật",
+   "61/2024/QH15",
+   "Luật Điện lực"
+  ],
+  [
+   "Nghị định",
+   "217/2026/NĐ-CP",
+   "Quy định chi tiết Luật Xây dựng về quản lý dự án đầu tư xây dựng"
+  ],
+  [
+   "Nghị định",
+   "206/2026/NĐ-CP",
+   "Quy định liên quan hoạt động điện lực"
+  ],
+  [
+   "Nghị định",
+   "57/2025/NĐ-CP",
+   "Cơ chế mua bán điện trực tiếp (DPPA)"
+  ],
+  [
+   "Nghị định",
+   "58/2025/NĐ-CP",
+   "Phát triển điện năng lượng tái tạo, năng lượng mới"
+  ],
+  [
+   "Thông tư",
+   "05/2025/TT-BCT",
+   "Quy định hệ thống điện truyền tải"
+  ],
+  [
+   "Thông tư",
+   "34/2026/TT-BXD",
+   "Hướng dẫn hoạt động xây dựng"
+  ]
+ ]
+}

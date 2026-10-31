@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Sổ tay Dự án Năng lượng</title>
+<meta name="description" content="Sổ tay tra cứu và tự kiểm tra cho phát triển, xây dựng, quản lý dự án năng lượng tại Việt Nam.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Be+Vietnam+Pro:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <aside>
+    <div class="brand">Sổ tay<br>Dự án Năng lượng<small>PHÁT TRIỂN · XÂY DỰNG · QUẢN LÝ</small></div>
+    <nav id="nav">
+      <a href="#tu-kiem-tra" data-v="tu-kiem-tra"><span class="k">01</span>Tự kiểm tra</a>
+      <a href="#rui-ro" data-v="rui-ro"><span class="k">02</span>Cẩm nang rủi ro</a>
+      <a href="#tra-cuu" data-v="tra-cuu"><span class="k">03</span>Tra cứu nhanh</a>
+    </nav>
+    <div class="side-foot" id="version">v0.2</div>
+  </aside>
+  <main>
+    <div class="top">
+      <label class="search" for="q"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="q" type="search" placeholder="Tìm câu hỏi, rủi ro, văn bản…" autocomplete="off"></label>
+      <button class="btn" id="theme" type="button">Sáng/Tối</button>
+      <div class="userbox" id="userbox"></div>
+    </div>
+    <section id="view"><p class="empty">Đang tải dữ liệu…</p></section>
+  </main>
+</div>
+<script type="module" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+[
+ {
+  "id": "q1",
+  "topic": "Điện lực – Quy hoạch",
+  "level": 1,
+  "q": "Luật Điện lực số 61/2024/QH15 có hiệu lực thi hành từ ngày nào?",
+  "o": [
+   "01/07/2024",
+   "01/01/2025",
+   "01/02/2025",
+   "01/07/2025"
+  ],
+  "a": 2,
+  "e": "Luật Điện lực 61/2024/QH15 được Quốc hội thông qua ngày 30/11/2024, có hiệu lực từ 01/02/2025.",
+  "b": "Luật Điện lực 61/2024/QH15"
+ },
+ {
+  "id": "q2",
+  "topic": "PPA/DPPA",
+  "level": 2,
+  "q": "Cơ chế mua bán điện trực tiếp (DPPA) theo NĐ 57/2025/NĐ-CP gồm những hình thức nào?",
+  "o": [
+   "Chỉ qua đường dây kết nối riêng",
+   "Chỉ qua lưới điện quốc gia",
+   "Qua đường dây kết nối riêng và qua lưới điện quốc gia",
+   "Qua hợp đồng với EVN làm bên trung gian bắt buộc"
+  ],
+  "a": 2,
+  "e": "NĐ 57/2025 quy định hai hình thức: mua bán qua đường dây kết nối riêng và mua bán qua lưới điện quốc gia.",
+  "b": "NĐ 57/2025/NĐ-CP"
+ },
+ {
+  "id": "q3",
+  "topic": "Đấu nối – Vận hành",
+  "level": 1,
+  "q": "Trong hệ thống điện Việt Nam, lưới điện truyền tải là lưới có cấp điện áp:",
+  "o": [
+   "Từ 35 kV trở lên",
+   "Từ 110 kV trở lên",
+   "Từ 220 kV trở lên",
+   "Từ 500 kV trở lên"
+  ],
+  "a": 2,
+  "e": "Lưới truyền tải gồm cấp điện áp từ 220 kV trở lên; lưới 110 kV trở xuống thuộc lưới phân phối.",
+  "b": "TT 05/2025/TT-BCT (quy định hệ thống điện truyền tải)"
+ },
+ {
+  "id": "q4",
+  "topic": "Kỹ thuật NLTT – BESS",
+  "level": 2,
+  "q": "Hệ thống BESS 50 MW / 200 MWh có tỷ số C-rate danh định bằng bao nhiêu?",
+  "o": [
+   "0,25C",
+   "0,5C",
+   "1C",
+   "4C"
+  ],
+  "a": 0,
+  "e": "C-rate = Công suất / Dung lượng = 50 / 200 = 0,25C, tương ứng thời gian xả danh định 4 giờ.",
+  "b": "IEC 62933 (khái niệm)"
+ },
+ {
+  "id": "q5",
+  "topic": "Đầu tư – Xây dựng",
+  "level": 1,
+  "q": "Văn bản nào hướng dẫn quản lý dự án đầu tư xây dựng theo Luật Xây dựng 135/2025/QH15?",
+  "o": [
+   "NĐ 15/2021/NĐ-CP",
+   "NĐ 175/2024/NĐ-CP",
+   "NĐ 217/2026/NĐ-CP",
+   "NĐ 06/2021/NĐ-CP"
+  ],
+  "a": 2,
+  "e": "NĐ 217/2026/NĐ-CP quy định chi tiết Luật Xây dựng 135/2025 về quản lý dự án, thay thế hệ thống nghị định cũ.",
+  "b": "NĐ 217/2026/NĐ-CP"
+ }
+]
