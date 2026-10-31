@@ -1,13 +1,13 @@
-// Dán cấu hình Firebase của dự án vào đây (Project settings → Your apps → Web app).
-// Đây là thông tin công khai, không phải mật khẩu. Bảo mật do firestore.rules quyết định.
+// Cấu hình Firebase (thông tin công khai theo thiết kế của Firebase; bảo mật do firestore.rules quyết định).
 export const firebaseConfig = {
-  apiKey: "",
-  authDomain: "",
-  projectId: "",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: ""
+  apiKey: "AIzaSyCqUxNFcvL5-6VxWvMuOinZiBba_FDm7Mg",
+  authDomain: "so-tay-nang-luong.firebaseapp.com",
+  projectId: "so-tay-nang-luong",
+  storageBucket: "so-tay-nang-luong.firebasestorage.app",
+  messagingSenderId: "526900219399",
+  appId: "1:526900219399:web:cbf4a62627db70827724a2"
 };
 
-// Email quản trị: được xem và xóa mọi lượt thi. Phải khớp với danh sách trong firestore.rules.
-export const ADMIN_EMAILS = ["EMAIL_QUAN_TRI@gmail.com"];
+// UID quản trị (xem ở Firebase Console → Authentication → Users). Phải khớp với firestore.rules.
+// Dùng UID thay vì email để không lộ email trong mã nguồn công khai.
+export const ADMIN_UIDS = [];

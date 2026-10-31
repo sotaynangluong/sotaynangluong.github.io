@@ -1,12 +1,12 @@
 rules_version = '2';
 // Quy tắc bảo mật Firestore cho Sổ tay Dự án Năng lượng.
 // Dán toàn bộ nội dung này vào Firebase Console → Firestore Database → Rules → Publish.
-// Thay EMAIL_QUAN_TRI@gmail.com bằng email quản trị (giống firebase-config.js).
+// Thay UID_QUAN_TRI bằng UID quản trị (giống ADMIN_UIDS trong firebase-config.js).
 service cloud.firestore {
   match /databases/{database}/documents {
 
     function isAdmin() {
-      return request.auth != null && request.auth.token.email in ['EMAIL_QUAN_TRI@gmail.com'];
+      return request.auth != null && request.auth.uid in ['UID_QUAN_TRI'];
     }
 
     match /attempts/{id} {

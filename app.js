@@ -1,7 +1,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
 import { getAuth, GoogleAuthProvider, signInWithPopup, signInWithRedirect, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 import { getFirestore, collection, addDoc, getDocs, deleteDoc, doc, query as fq, where, orderBy, limit, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
-import { firebaseConfig, ADMIN_EMAILS } from "./firebase-config.js";
+import { firebaseConfig, ADMIN_UIDS } from "./firebase-config.js";
 
 /* ---------- Khởi tạo ---------- */
 const configured = !!firebaseConfig.projectId;
@@ -11,7 +11,7 @@ if (configured) {
   auth = getAuth(app);
   db = getFirestore(app);
 }
-const isAdmin = () => !!user && ADMIN_EMAILS.includes(user.email);
+const isAdmin = () => !!user && ADMIN_UIDS.includes(user.uid);
 
 const $ = s => document.querySelector(s);
 const view = $("#view");

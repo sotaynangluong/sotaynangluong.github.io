@@ -23,8 +23,8 @@ Công nghệ: HTML/JS tĩnh trên GitHub Pages, đăng nhập Google và lưu k�
 
 1. **Firebase**
    - Tạo dự án, bật Authentication → Google, tạo Firestore (Singapore, production mode).
-   - Lấy `firebaseConfig` dán vào `firebase-config.js`; điền email quản trị vào `ADMIN_EMAILS`.
-2. **Quy tắc bảo mật:** mở Firestore → Rules, dán nội dung `firestore.rules` (thay email quản trị), bấm **Publish**.
+   - Lấy `firebaseConfig` dán vào `firebase-config.js`; điền UID quản trị vào `ADMIN_UIDS` (Authentication → Users, sau khi đăng nhập lần đầu).
+2. **Quy tắc bảo mật:** mở Firestore → Rules, dán nội dung `firestore.rules` (thay UID quản trị), bấm **Publish**.
 3. **Tên miền được phép:** Authentication → Settings → Authorized domains → **Add domain** → `<tên-tài-khoản>.github.io`.
 4. **GitHub Pages:** repo → Settings → Pages → Source: *Deploy from a branch* → Branch `main`, thư mục `/ (root)` → Save. Sau 1–2 phút trang chạy tại `https://<tên-tài-khoản>.github.io/so-tay-nang-luong/`.
 
