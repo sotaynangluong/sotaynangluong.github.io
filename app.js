@@ -1,7 +1,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
 import { getAuth, GoogleAuthProvider, signInWithPopup, signInWithRedirect, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 import { getFirestore, collection, addDoc, getDocs, deleteDoc, doc, query as fq, where, orderBy, limit, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
-import { firebaseConfig, ADMIN_UIDS } from "./firebase-config.js?v=6";
+import { firebaseConfig, ADMIN_UIDS } from "./firebase-config.js?v=7";
 
 /* ---------- Khởi tạo ---------- */
 const configured = !!firebaseConfig.projectId;
@@ -52,20 +52,19 @@ async function login() {
 
 /* ---------- 01. Tự kiểm tra ---------- */
 let tab = "luyen-tap", topicFilter = "Tất cả";
-let practice = store.get("stnl-ans", {});
 let exam = null;      // đề đang làm
 let result = null;    // kết quả vừa nộp
 let timerId = null;
 
 function renderQuizSection() {
-  const tabs = [["luyen-tap", "Luyện tập"], ["thi", "Thi"], ["xep-hang", "Xếp hạng"], ["lich-su", "Lịch sử của tôi"]];
+  const tabs = [["luyen-tap", "Luyện tập"], ["thi", "Thi"], ["bang-tong", "Bảng xếp hạng"], ["xep-hang", "Xếp hạng theo đề"], ["lich-su", "Lịch sử của tôi"]];
   if (isAdmin()) tabs.push(["quan-tri", "Quản trị"]);
   view.innerHTML = `<h1>Tự kiểm tra</h1>
     <p class="lede">Luyện tập tự do, hoặc tạo đề thi có tính giờ để chấm điểm và xếp hạng. Ngân hàng hiện có <b class="num">${DATA.questions.length}</b> câu hỏi.</p>
     <div class="tabs" role="tablist">${tabs.map(([k, l]) => `<button role="tab" type="button" data-tab="${k}" aria-selected="${k === tab}">${l}</button>`).join("")}</div>
     <div id="pane"></div>`;
-  view.querySelectorAll("[data-tab]").forEach(b => b.onclick = () => { if (exam && !confirmLeave()) return; tab = b.dataset.tab; renderQuizSection(); });
-  ({ "luyen-tap": panePractice, "thi": paneExam, "xep-hang": paneRank, "lich-su": paneHistory, "quan-tri": paneAdmin }[tab] || panePractice)();
+  view.querySelectorAll("[data-tab]").forEach(b => b.onclick = () => { if (exam && !confirmLeave()) return; tab = b.dataset.tab; if (tab === "luyen-tap") practiceSet = null; renderQuizSection(); });
+  ({ "luyen-tap": panePractice, "thi": paneExam, "bang-tong": paneOverall, "xep-hang": paneRank, "lich-su": paneHistory, "quan-tri": paneAdmin }[tab] || panePractice)();
 }
 const confirmLeave = () => confirm("Bài thi đang làm sẽ bị hủy. Tiếp tục?") && (stopTimer(), exam = null, true);
 
@@ -91,16 +90,28 @@ function paneQuestionCard(q, chosen, reveal, extraHead = "") {
 function paneOptionsChips() {
   return `<div class="chips">${["Tất cả", ...topics()].map(t => `<button class="chip" type="button" aria-pressed="${t === topicFilter}" data-t="${esc(t)}">${esc(t)}</button>`).join("")}</div>`;
 }
+let practiceSet = null, practiceAns = {};
+function newPracticeSet() {
+  const pool = DATA.questions.filter(q => topicFilter === "Tất cả" || q.topic === topicFilter);
+  practiceSet = shuffle(pool).slice(0, 5).map(q => q.id);
+  practiceAns = {};
+}
 function panePractice() {
-  const list = DATA.questions.filter(q => (topicFilter === "Tất cả" || q.topic === topicFilter) && hit(q.q, q.topic, q.o.join(" ")));
-  const done = Object.keys(practice).length, right = DATA.questions.filter(q => practice[q.id] === q.a).length;
-  $("#pane").innerHTML = `<div class="meter"><span>Đã làm <b class="num">${done}/${DATA.questions.length}</b> · Đúng <b class="num">${right}</b></span>
-    <div class="bar"><i style="width:${DATA.questions.length ? done / DATA.questions.length * 100 : 0}%"></i></div>
-    <button class="btn" id="reset" type="button">Làm lại</button></div>${paneOptionsChips()}
-    <div class="stack">${list.map(q => paneQuestionCard(q, practice[q.id], practice[q.id] !== undefined)).join("") || `<p class="empty">Không có câu hỏi phù hợp.</p>`}</div>`;
-  $("#pane").querySelectorAll(".chip").forEach(b => b.onclick = () => { topicFilter = b.dataset.t; panePractice(); });
-  $("#pane").querySelectorAll(".opt").forEach(b => b.onclick = () => { practice[b.closest("[data-q]").dataset.q] = +b.dataset.j; store.set("stnl-ans", practice); panePractice(); });
-  $("#reset").onclick = () => { practice = {}; store.set("stnl-ans", practice); panePractice(); };
+  if (!practiceSet) newPracticeSet();
+  const byId = Object.fromEntries(DATA.questions.map(q => [q.id, q]));
+  const searching = !!query;
+  const list = searching
+    ? DATA.questions.filter(q => (topicFilter === "Tất cả" || q.topic === topicFilter) && hit(q.q, q.topic, q.o.join(" "))).slice(0, 20)
+    : practiceSet.map(id => byId[id]).filter(Boolean);
+  const done = list.filter(q => practiceAns[q.id] !== undefined).length, right = list.filter(q => practiceAns[q.id] === q.a).length;
+  $("#pane").innerHTML = `<div class="meter"><span>${searching ? `Kết quả tìm kiếm: <b class="num">${list.length}</b> câu` : `Bộ 5 câu ngẫu nhiên · Đã trả lời <b class="num">${done}/${list.length}</b> · Đúng <b class="num">${right}</b>`}</span>
+    <div class="bar"><i style="width:${list.length ? done / list.length * 100 : 0}%"></i></div>
+    <button class="btn primary" id="reroll" type="button">5 câu khác</button></div>${paneOptionsChips()}
+    ${!searching && done === list.length && list.length ? `<p class="hint">Hoàn thành: đúng ${right}/${list.length}. Bấm "5 câu khác" để luyện tiếp.</p>` : ""}
+    <div class="stack">${list.map(q => paneQuestionCard(q, practiceAns[q.id], practiceAns[q.id] !== undefined)).join("") || `<p class="empty">Không có câu hỏi phù hợp.</p>`}</div>`;
+  $("#pane").querySelectorAll(".chip").forEach(b => b.onclick = () => { topicFilter = b.dataset.t; newPracticeSet(); panePractice(); });
+  $("#pane").querySelectorAll(".opt").forEach(b => b.onclick = () => { practiceAns[b.closest("[data-q]").dataset.q] = +b.dataset.j; panePractice(); });
+  $("#reroll").onclick = () => { newPracticeSet(); panePractice(); window.scrollTo({ top: 0, behavior: "smooth" }); };
 }
 
 /* Thi */
@@ -190,7 +201,7 @@ function renderResult() {
     <p class="hint">${save}</p><div class="top"><button class="btn primary" id="again" type="button">Tạo đề mới</button><button class="btn" id="torank" type="button">Xem xếp hạng</button></div></div>
     <h2>Xem lại bài làm</h2><div class="stack">${r.qs.map(q => paneQuestionCard(q, r.ans[q.id], true)).join("")}</div>`;
   $("#again").onclick = () => { result = null; paneExam(); };
-  $("#torank").onclick = () => { tab = "xep-hang"; rankKey = examKey(r.topic, r.n); renderQuizSection(); };
+  $("#torank").onclick = () => { tab = "bang-tong"; renderQuizSection(); };
 }
 
 /* Xếp hạng: lấy 500 lượt gần nhất, tính điểm cao nhất mỗi người (không cần chỉ mục ghép) */
@@ -218,6 +229,29 @@ async function paneRank() {
       ${list.map((a, i) => `<tr class="${i === 0 ? "rank1" : ""} ${a.uid === user.uid ? "me-row" : ""}"><td class="num">${i + 1}</td><td>${esc(a.name)}</td><td class="num">${a.score.toFixed(1)}</td><td class="num">${fmtTime(a.duration)}</td><td class="num">${a.count}</td></tr>`).join("")}
       </tbody></table></div><p class="hint">Xếp theo điểm cao nhất, bằng điểm thì thời gian ngắn hơn đứng trước.</p>` : `<p class="empty">Chưa có lượt thi nào cho bộ đề này.</p>`;
   } catch (e) { $("#rk-body").innerHTML = `<p class="empty">Không tải được: ${esc(e.message)}</p>`; }
+}
+/* Bảng xếp hạng tổng hợp theo người: gộp mọi lượt thi đã lưu */
+async function paneOverall() {
+  if (needLogin("Đăng nhập để xem bảng xếp hạng.")) return;
+  $("#pane").innerHTML = `<p class="empty">Đang tải…</p>`;
+  try {
+    const per = {};
+    (await fetchAttempts()).forEach(a => {
+      const p = per[a.uid] ||= { uid: a.uid, name: a.name, n: 0, c: 0, t: 0, best: 0, last: 0 };
+      p.n++; p.c += a.correct; p.t += a.total; p.best = Math.max(p.best, +a.score);
+      const ts = a.createdAt?.seconds || 0; if (ts > p.last) { p.last = ts; p.name = a.name; }
+    });
+    const all = Object.values(per).map(p => ({ ...p, avg: p.t ? p.c / p.t * 10 : 0 }));
+    const list = all.filter(p => p.t >= 10).sort((a, b) => b.avg - a.avg || b.t - a.t || b.best - a.best);
+    const pending = all.filter(p => p.t < 10);
+    const me = all.find(p => p.uid === user.uid);
+    $("#pane").innerHTML = `${me ? `<div class="card"><div class="score"><span class="big num">${me.avg.toFixed(1)}</span><span>Điểm trung bình của anh/chị · <b class="num">${me.n}</b> lượt · đúng <b class="num">${me.c}/${me.t}</b> câu · cao nhất <b class="num">${me.best.toFixed(1)}</b>${me.t < 10 ? " · cần làm đủ 10 câu để vào bảng" : ` · hạng <b class="num">${list.findIndex(p => p.uid === user.uid) + 1}/${list.length}</b>`}</span></div></div>` : `<p class="hint">Anh/chị chưa có lượt thi nào. Vào tab Thi để bắt đầu.</p>`}
+    <h2>Bảng xếp hạng tổng</h2>
+    ${list.length ? `<div class="tbl-wrap"><table><thead><tr><th>Hạng</th><th>Người thi</th><th>Điểm TB</th><th>Đúng / tổng câu</th><th>Số lượt</th><th>Cao nhất</th></tr></thead><tbody>
+      ${list.map((p, i) => `<tr class="${i === 0 ? "rank1" : ""} ${p.uid === user.uid ? "me-row" : ""}"><td class="num">${i + 1}</td><td>${esc(p.name)}</td><td class="num">${p.avg.toFixed(2)}</td><td class="num">${p.c}/${p.t}</td><td class="num">${p.n}</td><td class="num">${p.best.toFixed(1)}</td></tr>`).join("")}
+      </tbody></table></div>` : `<p class="empty">Chưa có ai đủ điều kiện xếp hạng.</p>`}
+    <p class="hint">Điểm TB = tổng câu đúng / tổng câu đã thi × 10, gộp mọi lượt thi (kể cả đề không xếp hạng theo bộ đề). Cần tối thiểu 10 câu để vào bảng. Bằng điểm thì ai làm nhiều câu hơn đứng trước.${pending.length ? ` Có ${pending.length} người chưa đủ 10 câu.` : ""}</p>`;
+  } catch (e) { $("#pane").innerHTML = `<p class="empty">Không tải được: ${esc(e.message)}</p>`; }
 }
 async function paneHistory() {
   if (needLogin("Đăng nhập để xem lịch sử thi.")) return;
@@ -333,6 +367,7 @@ let current = "";
 function route() {
   const v = routes[location.hash.slice(1)] ? location.hash.slice(1) : "tin-tuc";
   if (current === "tu-kiem-tra" && v !== current && exam && !confirmLeave()) { history.replaceState(null, "", "#tu-kiem-tra"); return; }
+  if (v === "tu-kiem-tra" && current !== v) practiceSet = null;
   current = v;
   document.querySelectorAll("#nav a").forEach(a => a.dataset.v === v ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current"));
   routes[v]();
