@@ -2,8 +2,8 @@ name: Cập nhật tin tức ngành điện
 
 on:
   schedule:
-    - cron: "0 23 * * *"   # 06:00 giờ Việt Nam
-    - cron: "0 7 * * *"    # 14:00 giờ Việt Nam
+    - cron: "0 1 * * *"    # 08:00 giờ Việt Nam
+    - cron: "0 11 * * *"   # 18:00 giờ Việt Nam
   workflow_dispatch:
   push:
     branches: [main]

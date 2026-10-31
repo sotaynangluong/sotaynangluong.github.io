@@ -2,10 +2,10 @@
 
 Sổ tay tra cứu và tự kiểm tra cho phát triển, xây dựng, quản lý dự án năng lượng tại Việt Nam.
 
-- **01 Tin tức ngành điện:** tự động tổng hợp tiêu đề và link từ Bộ Công Thương, EVN, NSMO, Bộ Tài chính, Chính phủ, báo chí năng lượng.
-- **02 Tự kiểm tra:** luyện tập, tạo đề thi có tính giờ, chấm điểm, bảng xếp hạng, lịch sử, quản trị.
-- **03 Cẩm nang rủi ro:** ma trận rủi ro theo 8 loại hình dự án.
-- **04 Tra cứu nhanh:** giá điện 2025, khung giá phát điện, cấp điện áp, nhóm dự án, văn bản pháp luật có link.
+- **I. Tin tức ngành điện:** tự động tổng hợp tiêu đề và link từ cổng thông tin Bộ Công Thương, Chính phủ, Bộ Tài chính, EVN, NSMO, EVNNPT (không lấy tin báo chí, không chép ảnh, nội dung).
+- **II. Tự kiểm tra:** luyện tập, tạo đề thi có tính giờ, chấm điểm, bảng xếp hạng, lịch sử, quản trị.
+- **III. Cẩm nang rủi ro:** ma trận rủi ro theo 8 loại hình dự án.
+- **IV. Tra cứu nhanh:** giá điện 2026, khung giá phát điện, thẩm quyền, thời hạn, văn bản pháp luật có link.
 
 Công nghệ: HTML/JS tĩnh trên GitHub Pages, đăng nhập Google và lưu kết quả bằng Firebase (gói miễn phí Spark).
 
@@ -20,7 +20,7 @@ Công nghệ: HTML/JS tĩnh trên GitHub Pages, đăng nhập Google và lưu k�
 | `data/risks.json` | Cẩm nang rủi ro |
 | `data/lookup.json` | Bảng tra cứu, giá điện, văn bản |
 | `data/news.json` | Tin tức (do GitHub Actions tự ghi) |
-| `scripts/fetch_news.py`, `.github/workflows/news.yml` | Lấy tin tự động lúc 6h và 14h |
+| `scripts/fetch_news.py`, `.github/workflows/news.yml` | Lấy tin tự động lúc 8h và 18h |
 
 ## Cài đặt lần đầu
 
@@ -61,5 +61,5 @@ Sửa `data/questions.json` trực tiếp trên GitHub (biểu tượng bút ch�
 
 ## Tin tức
 
-- Chạy tự động lúc 6h và 14h (giờ Việt Nam). Chạy tay: tab **Actions** → *Cập nhật tin tức ngành điện* → **Run workflow**.
+- Chạy tự động lúc 8h và 18h (giờ Việt Nam); GitHub có thể chạy trễ 5–30 phút giờ cao điểm. Chạy tay: tab **Actions** → *Cập nhật tin tức ngành điện* → **Run workflow**.
 - Thêm/bớt nguồn: sửa danh sách `FEEDS` trong `scripts/fetch_news.py`.

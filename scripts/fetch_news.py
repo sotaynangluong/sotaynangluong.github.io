@@ -1,9 +1,8 @@
-"""Lấy tin ngành điện từ RSS, ghi data/news.json.
+"""Lấy tin ngành điện từ cổng thông tin cơ quan nhà nước, doanh nghiệp ngành điện; ghi data/news.json.
 
 Chạy bằng GitHub Actions (.github/workflows/news.yml). Chỉ lưu tiêu đề, nguồn, ngày, link;
 không lưu nội dung bài để tôn trọng bản quyền của các trang nguồn.
 """
-import html
 import json
 import re
 import time
@@ -26,17 +25,16 @@ def gnews(q):
 
 
 # (tên nhóm nguồn, URL, có cần lọc từ khóa ngành điện hay không)
+# Chỉ lấy tin từ cổng thông tin của cơ quan nhà nước và doanh nghiệp ngành điện (không lấy tin báo chí).
 FEEDS = [
     ("Bộ Công Thương", gnews("site:moit.gov.vn điện"), True),
+    ("Chính phủ", gnews("site:chinhphu.vn điện"), True),
+    ("Bộ Tài chính", gnews("site:mof.gov.vn điện"), True),
     ("EVN", gnews("site:evn.com.vn"), False),
     ("NSMO", gnews("site:nsmo.vn"), False),
-    ("NSMO", gnews("NSMO hệ thống điện"), True),
-    ("Bộ Tài chính", gnews("site:mof.gov.vn điện"), True),
-    ("Chính phủ", gnews("site:chinhphu.vn điện lực"), True),
-    ("Tạp chí Năng lượng VN", "https://vietnamenergy.vn/rss_feed/electricity", False),
-    ("Báo chí", gnews('"điện gió" OR "điện mặt trời" OR "pin lưu trữ" OR BESS'), True),
-    ("Báo chí", gnews('"mua bán điện trực tiếp" OR DPPA OR "quy hoạch điện VIII" OR "khung giá phát điện"'), True),
+    ("EVNNPT", gnews("site:npt.com.vn"), False),
 ]
+ALLOWED_GROUPS = {g for g, _, _ in FEEDS}
 
 POWER_KW = ["điện", "năng lượng", "evn", "nsmo", "bess", "dppa", "lưới", "tuabin", "tua-bin", "kwh", "mw"]
 
@@ -79,26 +77,8 @@ def clean_title(title, source):
     return title
 
 
-ENRICH_DAYS = 3        # chỉ lấy ảnh/trích dẫn cho tin trong 3 ngày gần nhất
+ENRICH_DAYS = 3        # chỉ giải mã link gốc cho tin trong 3 ngày gần nhất
 ENRICH_MAX = 90        # giới hạn số bài xử lý mỗi lần chạy
-EXCERPT_LEN = 220      # trích dẫn ngắn, cắt theo từ
-
-
-def meta(page, *names):
-    for n in names:
-        for pat in (rf'<meta[^>]+(?:property|name)=["\']{n}["\'][^>]*content=["\']([^"\']+)',
-                    rf'<meta[^>]+content=["\']([^"\']+)["\'][^>]*(?:property|name)=["\']{n}["\']'):
-            m = re.search(pat, page, re.I)
-            if m:
-                return html.unescape(m.group(1)).strip()
-    return ""
-
-
-def short(text, n=EXCERPT_LEN):
-    text = re.sub(r"\s+", " ", text).strip()
-    if len(text) <= n:
-        return text
-    return text[:n].rsplit(" ", 1)[0].rstrip(",.;:–-") + "…"
 
 
 def resolve(link):
@@ -113,28 +93,11 @@ def resolve(link):
 
 
 def enrich(item):
-    """Thêm url gốc, ảnh đại diện và trích dẫn ngắn từ thẻ chia sẻ (og:*) của bài viết."""
+    """Chỉ giải mã link gốc của bài; không tải trang, không lấy ảnh hay trích đoạn."""
     item["enriched"] = True
     url = resolve(item["link"])
-    if not url:
-        return
-    item["url"] = url
-    try:
-        req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "vi"})
-        with urllib.request.urlopen(req, timeout=15) as r:
-            page = r.read(600_000).decode("utf-8", "ignore")
-    except Exception:
-        return
-    img = meta(page, "og:image", "twitter:image")
-    if img.startswith("//"):
-        img = "https:" + img
-    if img.startswith("http://"):
-        img = "https://" + img[7:]
-    if img.startswith("https://"):
-        item["image"] = img
-    desc = meta(page, "og:description", "description", "twitter:description")
-    if desc:
-        item["excerpt"] = short(desc)
+    if url:
+        item["url"] = url
 
 
 def main():
@@ -144,7 +107,13 @@ def main():
             old = json.loads(OUT.read_text(encoding="utf-8")).get("items", [])
         except Exception:
             old = []
-    items = {i["link"]: {**i, "topic": topic_of(i["title"])} for i in old}
+    items = {}
+    for i in old:
+        if i.get("group") not in ALLOWED_GROUPS:
+            continue  # bỏ tin từ nguồn đã ngừng lấy (báo chí)
+        i = {k: v for k, v in i.items() if k not in ("image", "excerpt")}
+        i["topic"] = topic_of(i["title"])
+        items[i["link"]] = i
     cutoff = datetime.now(timezone.utc) - timedelta(days=KEEP_DAYS)
     errors = []
 
@@ -190,7 +159,7 @@ def main():
     for n, i in enumerate(todo, 1):
         enrich(i)
         time.sleep(0.5)
-    print(f"Bổ sung ảnh/trích dẫn: {len(todo)} bài; có ảnh {sum(1 for i in todo if i.get('image'))}")
+    print(f"Giải mã link gốc: {len(todo)} bài")
 
     OUT.write_text(json.dumps({
         "updated": datetime.now(timezone.utc).isoformat(),

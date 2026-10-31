@@ -1,7 +1,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
 import { getAuth, GoogleAuthProvider, signInWithPopup, signInWithRedirect, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 import { getFirestore, collection, addDoc, getDocs, deleteDoc, doc, query as fq, where, orderBy, limit, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
-import { firebaseConfig, ADMIN_UIDS } from "./firebase-config.js?v=13";
+import { firebaseConfig, ADMIN_UIDS } from "./firebase-config.js?v=14";
 
 /* ---------- Khởi tạo ---------- */
 const configured = !!firebaseConfig.projectId;
@@ -50,6 +50,28 @@ async function login() {
   }
 }
 
+/* ---------- Dữ liệu cá nhân: đồng ý và tên hiển thị ---------- */
+const consentKey = () => user ? "stnl-consent-" + user.uid : "";
+const getConsent = () => user ? store.get(consentKey(), null) : null;
+function shortName(n) {
+  const w = String(n || "").trim().split(/\s+/).filter(Boolean);
+  if (w.length < 2) return w[0] || "Ẩn danh";
+  return w.slice(0, -1).map(x => x[0].toUpperCase() + ".").join("") + " " + w[w.length - 1];
+}
+const publicName = () => { const c = getConsent(); const n = user?.displayName || "Ẩn danh"; return c?.nameMode === "short" ? shortName(n) : n; };
+function consentCard() {
+  const full = esc(user.displayName || "Ẩn danh"), sh = esc(shortName(user.displayName));
+  return `<div class="card consent">
+    <h3>Thông báo xử lý dữ liệu cá nhân</h3>
+    <p>Khi anh/chị dùng chức năng thi, trang lưu trên Firebase (Google, máy chủ Singapore) các dữ liệu: mã người dùng Google, tên hiển thị, ảnh đại diện, kết quả và thời gian làm bài. Mục đích: chấm điểm, lưu lịch sử và lập bảng xếp hạng. Trang không lưu email, không chia sẻ cho bên thứ ba. Quản trị viên xem và xóa được các lượt thi. Muốn xóa toàn bộ dữ liệu của mình, liên hệ email ở thanh bên.</p>
+    <fieldset class="nm"><legend>Tên hiển thị trên bảng xếp hạng</legend>
+      <label><input type="radio" name="nm" value="full" id="nm-full" checked> Họ tên đầy đủ: <b>${full}</b></label>
+      <label><input type="radio" name="nm" value="short" id="nm-short"> Viết tắt: <b>${sh}</b></label>
+    </fieldset>
+    <div class="top"><button class="btn primary" id="agree" type="button">Đồng ý và tiếp tục</button><button class="btn" id="decline" type="button">Không đồng ý (đăng xuất)</button></div>
+    <p class="hint">Xem đầy đủ tại <a href="#chinh-sach">Chính sách dữ liệu và bản quyền</a>.</p></div>`;
+}
+
 /* ---------- Yêu cầu đăng nhập ---------- */
 function gateBanner(msg) {
   if (user || !configured) return "";
@@ -66,6 +88,12 @@ let timerId = null;
 function renderQuizSection() {
   const tabs = [["luyen-tap", "Luyện tập"], ["thi", "Thi"], ["bang-tong", "Bảng xếp hạng"], ["xep-hang", "Xếp hạng theo đề"], ["lich-su", "Lịch sử của tôi"]];
   if (isAdmin()) tabs.push(["quan-tri", "Quản trị"]);
+  if (user && configured && !getConsent()) {
+    view.innerHTML = `<h1>Tự kiểm tra</h1>${consentCard()}`;
+    $("#agree").onclick = () => { store.set(consentKey(), { at: new Date().toISOString(), nameMode: view.querySelector('input[name="nm"]:checked').value }); renderQuizSection(); };
+    $("#decline").onclick = () => signOut(auth);
+    return;
+  }
   view.innerHTML = `<h1>Tự kiểm tra</h1>
     <p class="lede">Luyện tập tự do, hoặc tạo đề thi có tính giờ để chấm điểm và xếp hạng. Ngân hàng hiện có <b class="num">${DATA.questions.length}</b> câu hỏi.</p>
     ${gateBanner("Đăng nhập để thi, lưu kết quả, xem bảng xếp hạng và lịch sử. Chưa đăng nhập chỉ luyện tập được bộ 5 câu.")}
@@ -194,7 +222,7 @@ async function submitExam(timeout) {
   if (configured && user) {
     try {
       await addDoc(collection(db, "attempts"), {
-        uid: user.uid, name: user.displayName || "Ẩn danh", photo: user.photoURL || "",
+        uid: user.uid, name: publicName(), photo: user.photoURL || "",
         key: examKey(e.topic, e.n), topic: e.topic, level: e.level, ranked: e.ranked,
         total, correct, score: result.score, duration, createdAt: serverTimestamp()
       });
@@ -269,7 +297,10 @@ async function paneHistory() {
   try {
     const snap = await getDocs(fq(collection(db, "attempts"), where("uid", "==", user.uid), limit(200)));
     const rows = snap.docs.map(d => d.data()).sort((a, b) => (b.createdAt?.seconds || 0) - (a.createdAt?.seconds || 0));
-    $("#pane").innerHTML = rows.length ? attemptTable(rows, false) : `<p class="empty">Anh/chị chưa có lượt thi nào.</p>`;
+    const nm = getConsent()?.nameMode || "full";
+    $("#pane").innerHTML = `<div class="form"><label for="nm-sel">Tên hiển thị cho các lượt thi mới<select id="nm-sel"><option value="full" ${nm === "full" ? "selected" : ""}>Họ tên đầy đủ</option><option value="short" ${nm === "short" ? "selected" : ""}>Viết tắt (${esc(shortName(user.displayName))})</option></select></label></div>`
+      + (rows.length ? attemptTable(rows, false) : `<p class="empty">Anh/chị chưa có lượt thi nào.</p>`);
+    $("#nm-sel").onchange = e => { const c = getConsent() || {}; c.nameMode = e.target.value; store.set(consentKey(), c); };
   } catch (e) { $("#pane").innerHTML = `<p class="empty">Không tải được: ${esc(e.message)}</p>`; }
 }
 function attemptTable(rows, admin) {
@@ -304,35 +335,31 @@ function renderRisk() {
 let newsGroup = "Tất cả", newsTopic = "Tất cả", newsDays = 3, newsLayout = store.get("stnl-news-layout", "grid");
 const RANGES = [[3, "3 ngày"], [7, "7 ngày"], [45, "45 ngày"]];
 const ago = d => { const h = Math.round((Date.now() - new Date(d)) / 36e5); return h < 1 ? "vừa xong" : h < 24 ? `${h} giờ trước` : new Date(d).toLocaleDateString("vi-VN"); };
+const NEWS_GROUPS = ["Bộ Công Thương", "Chính phủ", "Bộ Tài chính", "EVN", "NSMO", "EVNNPT"];
 function newsCard(i) {
   const href = esc(i.url || i.link);
-  const pic = i.image
-    ? `<img src="${esc(i.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentElement.classList.add('noimg');this.remove()">`
-    : "";
   return `<article class="ncard">
-    <a class="nimg ${i.image ? "" : "noimg"}" href="${href}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">${pic}<span>${esc((i.source || "?").slice(0, 1))}</span></a>
     <div class="nbody">
       <div class="nmeta"><span>${esc(i.source)}</span><span class="num">${ago(i.date)}</span></div>
       <h3><a href="${href}" target="_blank" rel="noopener">${hl(i.title)}</a></h3>
-      ${i.excerpt ? `<p>${hl(i.excerpt)}</p>` : ""}
       <span class="tag">${esc(i.topic)}</span>
     </div></article>`;
 }
 function renderNews() {
   const N = DATA.news || { items: [] };
-  const all = N.items || [];
+  const all = (N.items || []).filter(i => NEWS_GROUPS.includes(i.group));
   const since = Date.now() - newsDays * 864e5;
   const items = all.filter(i => new Date(i.date) >= since);
   const groups = ["Tất cả", ...new Set(items.map(i => i.group))];
   const tops = ["Tất cả", ...new Set(items.map(i => i.topic))];
   if (!groups.includes(newsGroup)) newsGroup = "Tất cả";
   if (!tops.includes(newsTopic)) newsTopic = "Tất cả";
-  const list = items.filter(i => (newsGroup === "Tất cả" || i.group === newsGroup) && (newsTopic === "Tất cả" || i.topic === newsTopic) && hit(i.title, i.source, i.topic, i.excerpt || ""));
+  const list = items.filter(i => (newsGroup === "Tất cả" || i.group === newsGroup) && (newsTopic === "Tất cả" || i.topic === newsTopic) && hit(i.title, i.source, i.topic, ""));
   const chips = (arr, cur, key) => `<div class="chips">${arr.map(t => { const [v, l] = Array.isArray(t) ? t : [t, t]; return `<button class="chip" type="button" aria-pressed="${v === cur}" data-${key}="${esc(v)}">${esc(l)}</button>`; }).join("")}</div>`;
   const upd = N.updated ? new Date(N.updated).toLocaleString("vi-VN") : "chưa cập nhật";
   const empty = `<p class="empty">${all.length ? "Không có tin phù hợp." : "Chưa có tin. Hệ thống sẽ tự cập nhật trong lần chạy tới."}</p>`;
   view.innerHTML = `<h1>Tin tức ngành điện</h1>
-  <p class="lede">Tổng hợp tự động từ Bộ Công Thương, EVN, NSMO, Bộ Tài chính, Cổng TTĐT Chính phủ và báo chí năng lượng. Trích dẫn ngắn lấy từ thẻ chia sẻ của bài; bấm tiêu đề để đọc bài gốc.</p>
+  <p class="lede">Tổng hợp tự động tiêu đề tin từ cổng thông tin của Bộ Công Thương, Cổng TTĐT Chính phủ, Bộ Tài chính, EVN, NSMO và EVNNPT. Trang chỉ hiển thị tiêu đề, nguồn và link; bấm tiêu đề để đọc bài gốc tại trang nguồn. Cập nhật lúc 8h và 18h hằng ngày.</p>
   <div class="nbar"><span class="hint">Cập nhật: <b class="num">${esc(upd)}</b> · <b class="num">${list.length}</b> tin</span>
     <div class="seg" role="group" aria-label="Kiểu hiển thị"><button type="button" data-l="grid" aria-pressed="${newsLayout === "grid"}">Lưới</button><button type="button" data-l="list" aria-pressed="${newsLayout === "list"}">Danh sách</button></div></div>
   <div class="frow"><span class="eyebrow">Thời gian</span>${chips(RANGES, newsDays, "d")}</div>
@@ -382,8 +409,26 @@ function renderLookup() {
   wireGate();
 }
 
+/* ---------- Chính sách dữ liệu và bản quyền ---------- */
+function renderPolicy() {
+  view.innerHTML = `<h1>Chính sách dữ liệu và bản quyền</h1>
+  <div class="stack policy">
+    <section class="card"><h3>1. Dữ liệu cá nhân</h3>
+      <p>Đăng nhập bằng Google chỉ để xác định người thi. Trang lưu trên Firebase (Google, máy chủ Singapore): mã người dùng, tên hiển thị (đầy đủ hoặc viết tắt theo lựa chọn), ảnh đại diện, kết quả, thời gian làm bài. Trang không lưu email, không bán hay chia sẻ dữ liệu cho bên thứ ba.</p>
+      <p>Mục đích: chấm điểm, lưu lịch sử, lập bảng xếp hạng. Người dùng có thể đổi cách hiển thị tên ở tab "Lịch sử của tôi" và yêu cầu xóa dữ liệu qua email liên hệ.</p></section>
+    <section class="card"><h3>2. Tin tức</h3>
+      <p>Mục Tin tức chỉ hiển thị tiêu đề, tên nguồn, ngày đăng và đường dẫn đến bài gốc trên cổng thông tin của cơ quan nhà nước, doanh nghiệp ngành điện. Trang không sao chép nội dung, hình ảnh của bài viết.</p></section>
+    <section class="card"><h3>3. Văn bản và đường dẫn</h3>
+      <p>Đường dẫn trong mục Tra cứu dẫn đến nơi đăng văn bản gốc hoặc trang tra cứu pháp luật. Bản quyền nội dung tại các trang đó thuộc chủ sở hữu tương ứng.</p></section>
+    <section class="card"><h3>4. Yêu cầu gỡ bỏ</h3>
+      <p>Chủ sở hữu nội dung cần gỡ đường dẫn, hoặc người dùng cần xóa dữ liệu, xin liên hệ <b>Nghiêm Trọng Việt</b>, email <span class="mail">nghiemtrongviet@gmail.com</span>. Yêu cầu hợp lệ sẽ được xử lý trong thời gian sớm nhất.</p></section>
+    <section class="card"><h3>5. Miễn trừ</h3>
+      <p>Nội dung phục vụ học tập và tra cứu trong lĩnh vực năng lượng. Khi áp dụng cho trường hợp cụ thể, hãy đối chiếu văn bản gốc và hướng dẫn mới nhất của cơ quan có thẩm quyền.</p></section>
+  </div>`;
+}
+
 /* ---------- Điều hướng ---------- */
-const routes = { "tin-tuc": renderNews, "tu-kiem-tra": renderQuizSection, "rui-ro": renderRisk, "tra-cuu": renderLookup };
+const routes = { "tin-tuc": renderNews, "tu-kiem-tra": renderQuizSection, "rui-ro": renderRisk, "tra-cuu": renderLookup, "chinh-sach": renderPolicy };
 let current = "";
 function route() {
   const v = routes[location.hash.slice(1)] ? location.hash.slice(1) : "tin-tuc";

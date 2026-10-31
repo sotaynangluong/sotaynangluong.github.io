@@ -195,3 +195,11 @@ nav a .k{min-width:28px}
 /* Yêu cầu đăng nhập */
 .gate{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;background:var(--accent-soft);border:1px solid var(--accent);border-radius:10px;padding:12px 14px;margin-bottom:18px;font-size:14px}
 .lock{font:500 12px var(--f-body);border:1px dashed var(--accent);background:transparent;color:var(--accent);border-radius:6px;padding:3px 8px;cursor:pointer;white-space:nowrap}
+
+.consent h3,.policy h3{font:700 20px/1.25 var(--f-display);margin:0 0 8px;color:var(--accent)}
+.consent p,.policy p{margin:0 0 10px;max-width:75ch}
+.nm{border:1px solid var(--line);border-radius:8px;padding:10px 14px;margin:6px 0 14px;display:flex;flex-direction:column;gap:6px}
+.nm legend{font-weight:600;font-size:13px;color:var(--muted);padding:0 4px}
+.side-info a{color:var(--side-hi)}
+.foot a,.hint a{color:var(--accent)}
+.ncard .nbody{padding:14px 16px}
