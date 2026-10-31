@@ -1,7 +1,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
 import { getAuth, GoogleAuthProvider, signInWithPopup, signInWithRedirect, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 import { getFirestore, collection, addDoc, getDocs, deleteDoc, doc, query as fq, where, orderBy, limit, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
-import { firebaseConfig, ADMIN_UIDS } from "./firebase-config.js?v=26";
+import { firebaseConfig, ADMIN_UIDS } from "./firebase-config.js?v=27";
 
 /* ---------- Khởi tạo ---------- */
 const configured = !!firebaseConfig.projectId;
@@ -339,12 +339,17 @@ async function paneAdmin() {
   } catch (e) { $("#pane").innerHTML = `<p class="empty">Không tải được: ${esc(e.message)}</p>`; }
 }
 
+/* Danh sách truy cập nhanh: nút cuộn tới mục trong trang (không dùng #id vì # dành cho điều hướng) */
+const slug = t => t.normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/đ/g, "d").replace(/Đ/g, "D").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+const quickNav = (items, label = "Truy cập nhanh") => items.length ? `<div class="qnavbar" role="navigation" aria-label="${esc(label)}"><span class="qlabel">${esc(label)}</span>${items.map(([id, t]) => `<button type="button" class="chip" data-jump="${esc(id)}">${esc(t)}</button>`).join("")}</div>` : "";
+view.addEventListener("click", e => { const b = e.target.closest("[data-jump]"); if (!b) return; const el = document.getElementById(b.dataset.jump); if (el) el.scrollIntoView({ behavior: "smooth", block: "start" }); });
+
 /* ---------- III. Cẩm nang công nghệ ---------- */
 const SEV = { c: "CAO", w: "TB", o: "THẤP" };
 const riskBlock = types => {
   const rs = (DATA.risks || []).filter(r => types.includes(r.type));
   if (!rs.length) return "";
-  return `<section class="card"><h3>Rủi ro phát triển dự án</h3><p class="hint">Do Sổ tay tổng hợp từ thực tế, không thuộc tài liệu nguồn.</p>
+  return `<section class="card" id="t-risk"><h3>Rủi ro phát triển dự án</h3><p class="hint">Do Sổ tay tổng hợp từ thực tế, không thuộc tài liệu nguồn.</p>
     ${rs.map(r => `${rs.length > 1 ? `<div class="eyebrow">${esc(r.type)}</div>` : ""}${r.items.map(i => `<div class="risk"><span class="sev ${i[0]}">${SEV[i[0]]}</span><div><b>${hl(i[1])}:</b> ${hl(i[2])}</div><div class="m">→ ${hl(i[3])}</div></div>`).join("")}`).join("")}</section>`;
 };
 const srcLine = (T, t) => { const s = T.sources[t.src]; return `${esc(s.title)}, ${esc(t.chapter)}, trang ${esc(t.pages)} (số trang theo file PDF). ${esc(s.org)}. ${esc(s.date)}.`; };
@@ -379,7 +384,7 @@ function potentialBlock(t) {
   const trend = capexTrend(t);
   if (!p && !trend) return "";
   const tb = p && p.table ? `<div class="tbl-wrap"><table><thead><tr>${p.table.head.map(h => `<th>${esc(h)}</th>`).join("")}</tr></thead><tbody>${p.table.rows.map(r => `<tr>${r.map((c, i) => `<td class="${i ? "num" : ""}">${esc(c)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>` : "";
-  return `<section class="card"><h3>${p ? "Tiềm năng và số liệu trực quan" : "Biểu đồ trực quan"}</h3>
+  return `<section class="card" id="t-pot"><h3>${p ? "Tiềm năng và số liệu trực quan" : "Biểu đồ trực quan"}</h3>
     ${kp}${p && p.maps ? `<div class="pmaps">${p.maps.map(m => `<figure class="pmap"><a href="${esc(m[0])}" target="_blank" rel="noopener"><img src="${esc(m[0])}" alt="${esc(m[1])}" loading="lazy"></a><figcaption><b>${esc(m[1])}</b><br>${esc(m[2])}. Trích từ ${esc(DATA.tech.sources[t.src].title)}, trang ${esc(m[3])}.</figcaption></figure>`).join("")}</div>` : ""}${p && p.chart ? hbars(p.chart) : ""}${tb}${trend}
     ${p && p.map ? `<p><a class="btn" href="${esc(p.map[1])}" target="_blank" rel="noopener">🗺 ${esc(p.map[0])} ↗</a></p>` : ""}
     ${p && p.note ? `<p class="hint">${esc(p.note)}${p.page ? ` Trang ${esc(p.page)} tài liệu nguồn.` : ""}</p>` : ""}</section>`;
@@ -387,7 +392,7 @@ function potentialBlock(t) {
 function renderTech(sub) {
   const T = DATA.tech;
   if (!T || !T.items) { view.innerHTML = `<h1>Cẩm nang công nghệ</h1><p class="empty">Chưa tải được dữ liệu.</p>`; return; }
-  const disc = `<section class="card disclaimer"><h3>Nguồn và miễn trừ trách nhiệm</h3>
+  const disc = `<section class="card disclaimer" id="t-disc"><h3>Nguồn và miễn trừ trách nhiệm</h3>
     <p><b>Nguồn:</b></p><ul>${Object.values(T.sources).map(s => `<li>${esc(s.title)} – ${esc(s.org)}, ${esc(s.date)}. ${esc(s.note)}.</li>`).join("")}</ul>
     <p class="hint">Tài liệu nguồn cho phép sử dụng, chia sẻ, in tái bản với điều kiện ghi rõ nguồn.</p>
     <p><b>Miễn trừ trách nhiệm:</b></p><ul>${T.disclaimer.map(d => `<li>${esc(d)}</li>`).join("")}</ul></section>`;
@@ -396,6 +401,7 @@ function renderTech(sub) {
     const list = T.items.filter(x => hit(x.name, x.summary, x.group));
     view.innerHTML = `<h1>Cẩm nang công nghệ</h1>
     <p class="lede">Tóm lược đặc tính kỹ thuật, chi phí và xu hướng đến 2050 của từng loại hình công nghệ, theo Cẩm nang Công nghệ Việt Nam 2026 của Cục Điện lực và Cục Năng lượng Đan Mạch (EAV & DEA). Chi phí tính bằng USD năm 2025.</p>
+    <div class="qtech">${T.groups.map(g => `<div class="qgroup"><span class="qlabel">${esc(g)}</span>${T.items.filter(x => x.group === g).map(x => `<a class="chip" href="#cong-nghe/${x.id}">${esc(x.name)}</a>`).join("")}</div>`).join("")}</div>
     ${T.groups.map(g => { const it = list.filter(x => x.group === g); return it.length ? `<h2>${g}</h2><div class="tgrid">${it.map(x => {
       const cap = firstVal(x, /^Suất đầu tư/), cf = firstVal(x, /^Hệ số công suất|^Hiệu suất/);
       return `<a class="card tcard" href="#cong-nghe/${x.id}"><h3>${hl(x.name)}</h3><p>${hl(x.summary.split(". ")[0].replace(/\.$/, ""))}.</p>
@@ -410,19 +416,22 @@ function renderTech(sub) {
   view.innerHTML = `<p class="crumb"><a href="#cong-nghe">Cẩm nang công nghệ</a> / ${esc(t.group)}</p>
   <h1>${esc(t.name)}</h1>
   <p class="lede">${hl(t.summary)}</p>
+  <div class="qswitch"><label>Chuyển nhanh đến công nghệ <select id="tswitch">${T.groups.map(g => `<optgroup label="${esc(g)}">${T.items.filter(x => x.group === g).map(x => `<option value="${x.id}" ${x.id === t.id ? "selected" : ""}>${esc(x.name)}</option>`).join("")}</optgroup>`).join("")}</select></label></div>
+  ${quickNav([["t-vn", "Đặc điểm tại Việt Nam"], ["t-pot", "Tiềm năng, biểu đồ"], ["t-data", "Bảng số liệu"], ["t-pc", "Ưu, nhược điểm"], ["t-risk", "Rủi ro dự án"], ["t-src", "Nguồn"], ["t-disc", "Miễn trừ"]].filter(([id]) => id !== "t-vn" || (t.vn && t.vn.length)).filter(([id]) => id !== "t-risk" || (t.risk && t.risk.length && DATA.risks.some(r => t.risk.includes(r.type)))).filter(([id]) => id !== "t-data" || t.sheets.length).filter(([id]) => id !== "t-pot" || t.potential || t.sheets.some(sh => sh.rows.some(r => /^Suất đầu tư/.test(r[0])))))}
   <div class="stack">
-    ${t.vn && t.vn.length ? `<section class="card"><h3>Đặc điểm tại Việt Nam và giả định chính</h3><ul>${t.vn.map(v => `<li>${hl(v)}</li>`).join("")}</ul></section>` : ""}
+    ${t.vn && t.vn.length ? `<section class="card" id="t-vn"><h3>Đặc điểm tại Việt Nam và giả định chính</h3><ul>${t.vn.map(v => `<li>${hl(v)}</li>`).join("")}</ul></section>` : ""}
     ${potentialBlock(t)}
-    ${t.sheets.length ? `<section class="card"><h3>Bảng số liệu chính</h3><p class="hint">Giá trị trung tâm; chi phí USD năm 2025, chưa gồm VAT. Khoảng bất định xem bản gốc.</p>${t.sheets.map(techSheet).join("")}</section>` : ""}
-    <div class="pc"><section class="card pro"><h3>Ưu điểm</h3><ul>${t.pros.map(v => `<li>${hl(v)}</li>`).join("")}</ul></section>
+    ${t.sheets.length ? `<section class="card" id="t-data"><h3>Bảng số liệu chính</h3><p class="hint">Giá trị trung tâm; chi phí USD năm 2025, chưa gồm VAT. Khoảng bất định xem bản gốc.</p>${t.sheets.map(techSheet).join("")}</section>` : ""}
+    <div class="pc" id="t-pc"><section class="card pro"><h3>Ưu điểm</h3><ul>${t.pros.map(v => `<li>${hl(v)}</li>`).join("")}</ul></section>
     <section class="card con"><h3>Nhược điểm</h3><ul>${t.cons.map(v => `<li>${hl(v)}</li>`).join("")}</ul></section></div>
     ${t.sheets.length ? "" : `<section class="card"><p class="hint">Tài liệu nguồn chưa xây dựng bảng số liệu cho công nghệ này.</p></section>`}
     ${riskBlock(t.risk || [])}
-    <section class="card src"><h3>Nguồn tài liệu</h3><p>${srcLine(T, t)}</p></section>
+    <section class="card src" id="t-src"><h3>Nguồn tài liệu</h3><p>${srcLine(T, t)}</p></section>
     ${disc}
     <div class="tnext">${others.map(x => `<a class="chip" href="#cong-nghe/${x.id}">${esc(x.name)}</a>`).join("")}</div>
   </div>`;
-}
+
+  $("#tswitch").onchange = e => { location.hash = "#cong-nghe/" + e.target.value; };}
 
 /* ---------- 01. Tin tức ngành điện ---------- */
 let newsGroup = "Tất cả", newsTopic = "Tất cả", newsDays = 3, newsLayout = store.get("stnl-news-layout", "grid");
@@ -504,31 +513,24 @@ function genChart(rows) {
 }
 function renderLookup() {
   const L = DATA.lookup;
+  const secs = [["q-gen", "Khung giá phát điện 2026"], ["q-other", "Cơ chế giá khác"], ["q-docs", "Văn bản pháp luật"], ["q-abbr", "Thuật ngữ viết tắt"]];
+  const fields = [...new Set((L.docs || []).map(r => r[0]))];
   view.innerHTML = `<h1>Tra cứu nhanh</h1>
-  <p class="lede">Giá điện, thẩm quyền, thời hạn và văn bản thường dùng. Bấm "Xem" để mở văn bản hoặc nguồn tham chiếu.</p>
+  <p class="lede">Khung giá phát điện, cơ chế giá, văn bản pháp luật và thuật ngữ thường dùng. Bấm "Xem" để mở văn bản hoặc nguồn tham chiếu.</p>
+  ${quickNav(secs)}
   ${gateBanner("Đăng nhập để mở link văn bản gốc và nguồn tham chiếu.")}
-  <h2>Giá bán lẻ điện 2026</h2>${table(["Nội dung", "Mức / phạm vi", "Thời điểm", "Văn bản", "Xem"], L.retail, [], 4)}
-  <h2>Khung giá phát điện 2026</h2>
+  <h2 id="q-gen">Khung giá phát điện 2026</h2>
   <p class="hint">Giá tối đa, đồng/kWh, chưa gồm VAT.</p>
   ${genChart(L.gen)}
   <details class="gtable"><summary>Xem dạng bảng và văn bản căn cứ</summary>${table(["Loại hình", "Miền Bắc", "Miền Trung", "Miền Nam", "Năm", "Văn bản", "Xem"], L.gen, [1, 2, 3, 4], 6)}</details>
   <ul class="hint">${(L.genNotes || []).map(n => `<li>${esc(n)}</li>`).join("")}</ul>
-  <h2>Cơ chế giá khác</h2>${table(["Đối tượng", "Cơ chế", "Văn bản", "Xem"], L.other, [], 3)}
-  <h2>Cấp điện áp và quản lý lưới</h2>${table(["Phân loại", "Cấp điện áp", "Đơn vị quản lý"], L.voltage, [1])}
-  <h2>Thẩm định BCNCKT tại cơ quan chuyên môn – thời hạn</h2>
-  <p class="hint">Theo NĐ 217/2026/NĐ-CP.</p>
-  ${table(["Nhóm dự án", "Có công trình cấp I trở lên", "Các dự án còn lại", "Căn cứ"], L.apprTime, [1, 2])}
-  <ul class="hint">${(L.apprNotes || []).map(n => `<li>${esc(n)}</li>`).join("")}</ul>
-  <h2>Thẩm định BCNCKT tại cơ quan chuyên môn – thẩm quyền</h2>
-  <ul class="hint">${(L.apprScope || []).map(n => `<li>${esc(n)}</li>`).join("")}</ul>
-  ${table(["Trường hợp", "Cơ quan thẩm định", "Căn cứ"], L.apprAuth)}
-  <h2>Cấp giấy phép xây dựng</h2>
-  ${table(["Cơ quan cấp", "Phạm vi", "Căn cứ"], L.permit)}
-  <ul class="hint">${(L.permitNotes || []).map(n => `<li>${esc(n)}</li>`).join("")}</ul>
-  <h2>Thuật ngữ viết tắt</h2>
-  <div class="tbl-wrap"><table><thead><tr><th>Viết tắt</th><th>Nghĩa</th></tr></thead><tbody>${Object.entries(ABBR).filter(([k]) => hit(k, ABBR[k])).map(([k, v]) => `<tr><td><b>${k}</b></td><td>${hl(v)}</td></tr>`).join("")}</tbody></table></div>
-  <h2>Văn bản pháp luật</h2>${table(["Lĩnh vực", "Loại", "Số hiệu", "Trích yếu", "Xem"], L.docs, [2], 4)}
-  <p class="hint">Link dẫn đến cổng thông tin cơ quan nhà nước hoặc trang tra cứu pháp luật. Đối chiếu bản gốc có chữ ký số trước khi viện dẫn chính thức.</p>`;
+  <h2 id="q-other">Cơ chế giá khác</h2>${table(["Đối tượng", "Cơ chế", "Văn bản", "Xem"], L.other, [], 3)}
+  <h2 id="q-docs">Văn bản pháp luật</h2>
+  ${quickNav(fields.map(f => ["q-doc-" + slug(f), f]), "Lĩnh vực")}
+  ${fields.map(f => `<h3 id="q-doc-${slug(f)}" class="dochead">${esc(f)}</h3>${table(["Loại", "Số hiệu", "Trích yếu", "Xem"], L.docs.filter(r => r[0] === f).map(r => r.slice(1)), [1], 3)}`).join("")}
+  <p class="hint">Link dẫn đến cổng thông tin cơ quan nhà nước hoặc trang tra cứu pháp luật. Đối chiếu bản gốc có chữ ký số trước khi viện dẫn chính thức.</p>
+  <h2 id="q-abbr">Thuật ngữ viết tắt</h2>
+  <div class="tbl-wrap"><table><thead><tr><th>Viết tắt</th><th>Nghĩa</th></tr></thead><tbody>${Object.entries(ABBR).filter(([k]) => hit(k, ABBR[k])).map(([k, v]) => `<tr><td><b>${k}</b></td><td>${hl(v)}</td></tr>`).join("")}</tbody></table></div>`;
   wireGate();
 }
 

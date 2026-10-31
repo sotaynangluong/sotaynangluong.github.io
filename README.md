@@ -5,7 +5,7 @@ Sổ tay tra cứu và tự kiểm tra cho phát triển, xây dựng, quản l�
 - **I. Tin tức ngành điện:** tự động tổng hợp tiêu đề và link từ cổng thông tin Bộ Công Thương, Chính phủ, Bộ Tài chính, EVN, NSMO, EVNNPT (không lấy tin báo chí, không chép ảnh, nội dung).
 - **II. Kiểm tra kiến thức:** luyện tập, tạo đề thi có tính giờ, chấm điểm, bảng xếp hạng, lịch sử, quản trị.
 - **III. Cẩm nang công nghệ:** tóm lược từng loại hình công nghệ theo Cẩm nang Công nghệ Việt Nam 2026 (EAV & DEA), kèm rủi ro phát triển dự án.
-- **IV. Tra cứu nhanh:** giá điện 2026, khung giá phát điện, thẩm quyền, thời hạn, văn bản pháp luật có link.
+- **IV. Tra cứu nhanh:** khung giá phát điện (đồ thị), cơ chế giá khác, văn bản pháp luật theo lĩnh vực, thuật ngữ viết tắt; có danh sách truy cập nhanh.
 
 Công nghệ: HTML/JS tĩnh trên GitHub Pages, đăng nhập Google và lưu kết quả bằng Firebase (gói miễn phí Spark).
 
