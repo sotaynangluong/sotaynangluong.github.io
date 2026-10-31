@@ -1,7 +1,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
 import { getAuth, GoogleAuthProvider, signInWithPopup, signInWithRedirect, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 import { getFirestore, collection, addDoc, getDocs, deleteDoc, doc, query as fq, where, orderBy, limit, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
-import { firebaseConfig, ADMIN_UIDS } from "./firebase-config.js?v=24";
+import { firebaseConfig, ADMIN_UIDS } from "./firebase-config.js?v=25";
 
 /* ---------- Khởi tạo ---------- */
 const configured = !!firebaseConfig.projectId;
@@ -586,3 +586,6 @@ async function boot() {
   });
 }
 boot();
+
+/* Nút lên đầu trang */
+{ const b = $("#totop"); if (b) { const f = () => b.classList.toggle("show", scrollY > 500); addEventListener("scroll", f, { passive: true }); f(); b.onclick = () => scrollTo({ top: 0, behavior: "smooth" }); } }
