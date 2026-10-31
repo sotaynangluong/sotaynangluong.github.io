@@ -1,7 +1,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
 import { getAuth, GoogleAuthProvider, signInWithPopup, signInWithRedirect, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 import { getFirestore, collection, addDoc, getDocs, deleteDoc, doc, query as fq, where, orderBy, limit, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
-import { firebaseConfig, ADMIN_UIDS } from "./firebase-config.js?v=16";
+import { firebaseConfig, ADMIN_UIDS } from "./firebase-config.js?v=17";
 
 /* ---------- Khởi tạo ---------- */
 const configured = !!firebaseConfig.projectId;
@@ -400,6 +400,33 @@ function table(head, rows, monoCols = [], linkCol = -1) {
   const r = (rows || []).filter(x => hit(x.join(" ")));
   return `<div class="tbl-wrap"><table><thead><tr>${head.map(h => `<th>${h}</th>`).join("")}</tr></thead><tbody>${r.map(x => `<tr>${x.map((c, i) => i === linkCol ? `<td>${linkCell(c)}</td>` : `<td class="${monoCols.includes(i) ? "num" : ""}">${hl(c)}</td>`).join("")}</tr>`).join("") || `<tr><td colspan="${head.length}" class="empty">Không có kết quả.</td></tr>`}</tbody></table></div>`;
 }
+/* Khung giá phát điện dạng đồ thị thanh ngang: loại hình có giá theo miền vẽ 3 thanh, còn lại 1 thanh toàn quốc */
+const GEN_GROUPS = [["Điện mặt trời", /ĐMT/], ["Điện gió", /gió/i], ["Thủy điện", /Thủy điện/], ["Nhiệt điện", /Nhiệt điện|Tuabin khí/], ["Sinh khối, chất thải", /sinh khối|chất thải/i]];
+const num = s => parseFloat(String(s).replace(/\./g, "").replace(",", "."));
+function genChart(rows) {
+  const r = (rows || []).filter(x => hit(x.join(" ")));
+  if (!r.length) return `<p class="empty">Không có kết quả.</p>`;
+  const max = Math.ceil(Math.max(...r.flatMap(x => [1, 2, 3].map(i => num(x[i])))) / 500) * 500;
+  const ticks = []; for (let t = 0; t <= max; t += 1000) ticks.push(t);
+  const fmt = v => v.toLocaleString("vi-VN", { maximumFractionDigits: 2 });
+  const bar = (v, cls, lab) => `<div class="gbar ${cls}" style="--w:${(v / max * 100).toFixed(2)}%"><span>${lab ? `<i>${lab}</i> ` : ""}${fmt(v)}</span></div>`;
+  const row = x => {
+    const v = [1, 2, 3].map(i => num(x[i])), same = v.every(y => y === v[0]);
+    return `<div class="grow"><div class="glab">${hl(x[0])} <span class="tag">${esc(x[4])}</span></div>
+      <div class="gtrack">${same ? bar(v[0], "g-all", "") : bar(v[0], "g-n", "Bắc") + bar(v[1], "g-c", "Trung") + bar(v[2], "g-s", "Nam")}</div></div>`;
+  };
+  const used = new Set();
+  const groups = GEN_GROUPS.map(([g, re]) => {
+    const items = r.filter(x => !used.has(x) && re.test(x[0])).sort((a, b) => Math.max(num(b[1]), num(b[2]), num(b[3])) - Math.max(num(a[1]), num(a[2]), num(a[3])));
+    items.forEach(x => used.add(x));
+    return items.length ? `<div class="ggroup"><div class="ghead">${g}</div>${items.map(row).join("")}</div>` : "";
+  }).join("") + (r.filter(x => !used.has(x)).map(row).join(""));
+  return `<div class="gchart" role="img" aria-label="Đồ thị giá tối đa khung giá phát điện theo loại hình, đồng/kWh">
+    <div class="glegend"><span><b class="g-n"></b>Miền Bắc</span><span><b class="g-c"></b>Miền Trung</span><span><b class="g-s"></b>Miền Nam</span><span><b class="g-all"></b>Áp dụng chung cả nước</span></div>
+    <div class="gaxis">${ticks.map(t => `<span style="--x:${(t / max * 100).toFixed(2)}%">${fmt(t)}</span>`).join("")}</div>
+    <div class="gbody" style="--grid:${(1000 / max * 100).toFixed(3)}%">${groups}</div>
+    <p class="hint">Đơn vị: đồng/kWh, giá tối đa, chưa gồm VAT. Nhãn năm cho biết khung giá áp dụng (2025 hoặc 2026).</p></div>`;
+}
 function renderLookup() {
   const L = DATA.lookup;
   view.innerHTML = `<h1>Tra cứu nhanh</h1>
@@ -408,7 +435,8 @@ function renderLookup() {
   <h2>Giá bán lẻ điện 2026</h2>${table(["Nội dung", "Mức / phạm vi", "Thời điểm", "Văn bản", "Xem"], L.retail, [], 4)}
   <h2>Khung giá phát điện 2026</h2>
   <p class="hint">Giá tối đa, đồng/kWh, chưa gồm VAT.</p>
-  ${table(["Loại hình", "Miền Bắc", "Miền Trung", "Miền Nam", "Năm", "Văn bản", "Xem"], L.gen, [1, 2, 3, 4], 6)}
+  ${genChart(L.gen)}
+  <details class="gtable"><summary>Xem dạng bảng và văn bản căn cứ</summary>${table(["Loại hình", "Miền Bắc", "Miền Trung", "Miền Nam", "Năm", "Văn bản", "Xem"], L.gen, [1, 2, 3, 4], 6)}</details>
   <ul class="hint">${(L.genNotes || []).map(n => `<li>${esc(n)}</li>`).join("")}</ul>
   <h2>Cơ chế giá khác</h2>${table(["Đối tượng", "Cơ chế", "Văn bản", "Xem"], L.other, [], 3)}
   <h2>Cấp điện áp và quản lý lưới</h2>${table(["Phân loại", "Cấp điện áp", "Đơn vị quản lý"], L.voltage, [1])}

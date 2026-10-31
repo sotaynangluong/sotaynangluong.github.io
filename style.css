@@ -206,3 +206,36 @@ nav a .k{min-width:28px}
 
 /* Thuật ngữ viết tắt */
 abbr[title] { text-decoration: underline dotted; text-underline-offset: 3px; text-decoration-color: color-mix(in srgb, currentColor 45%, transparent); cursor: help; }
+
+/* Đồ thị khung giá phát điện */
+:root{--g-n:#00532a;--g-c:#3f9a62;--g-s:#9ccfac;--g-all:#b9892f}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--g-n:#8fd1a2;--g-c:#4fa86f;--g-s:#2c6b45;--g-all:#d9ab52}}
+:root[data-theme="dark"]{--g-n:#8fd1a2;--g-c:#4fa86f;--g-s:#2c6b45;--g-all:#d9ab52}
+.gchart{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px;margin:8px 0 12px}
+.glegend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;color:var(--muted);margin-bottom:10px}
+.glegend b{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+.gchart .g-n{background:var(--g-n)}.gchart .g-c{background:var(--g-c)}.gchart .g-s{background:var(--g-s)}.gchart .g-all{background:var(--g-all)}
+.gaxis,.gtrack{margin-left:260px;position:relative}
+.gaxis{margin-right:110px}
+.grow .gtrack{padding-right:110px}
+.gaxis{height:18px;font:11px var(--f-mono);color:var(--muted);border-bottom:1px solid var(--line)}
+.gaxis span{position:absolute;left:var(--x);transform:translateX(-50%)}
+.gaxis span:first-child{transform:none}
+.gbody{position:relative}
+.ghead{font-weight:600;font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--accent);padding:12px 0 4px;border-bottom:1px dashed var(--line)}
+.grow{display:flex;align-items:center;gap:0;padding:6px 0;border-bottom:1px solid var(--line)}
+.grow:last-child{border-bottom:0}
+.glab{flex:0 0 260px;padding-right:12px;font-size:14px;line-height:1.35}
+.glab .tag{font-size:10px;padding:1px 6px}
+.grow .gtrack{flex:1;margin-left:0;display:grid;gap:2px}
+.gbar{height:16px;width:var(--w);border-radius:0 4px 4px 0;position:relative;min-width:2px}
+.gbar span{position:absolute;left:calc(100% + 6px);top:50%;transform:translateY(-50%);font:12px var(--f-mono);white-space:nowrap;color:var(--ink)}
+.gbar span i{font:11px var(--f-body);color:var(--muted);font-style:normal}
+.gtable summary{cursor:pointer;color:var(--accent);font-weight:500;margin:4px 0 8px}
+@media (max-width:760px){
+  .gaxis{margin-left:0}
+  .grow{flex-direction:column;align-items:stretch}
+  .glab{flex:none;padding:0 0 4px}
+  .gaxis{margin-right:96px}
+  .grow .gtrack{padding-right:96px}
+}
