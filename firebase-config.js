@@ -10,4 +10,4 @@ export const firebaseConfig = {
 
 // UID quản trị (xem ở Firebase Console → Authentication → Users). Phải khớp với firestore.rules.
 // Dùng UID thay vì email để không lộ email trong mã nguồn công khai.
-export const ADMIN_UIDS = [];
+export const ADMIN_UIDS = ["FGHJtWDW8RTqoL0m2gfFT3ntN1K3"];
