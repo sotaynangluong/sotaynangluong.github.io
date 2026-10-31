@@ -1369,6 +1369,1438 @@
    ]
   },
   {
+   "id": "nhiet-dien-cfb",
+   "group": "Phát điện",
+   "name": "Nhiệt điện lò hơi tầng sôi tuần hoàn (CFB)",
+   "src": "gen",
+   "chapter": "Chương 2",
+   "pages": "67–77",
+   "risk": [
+    "Nhiệt điện / LNG"
+   ],
+   "summary": "Nhiên liệu cháy trong lớp hạt rắn (cát, tro, đá vôi) được thổi tầng sôi ở 800–900°C. Lò CFB đốt được nhiều loại nhiên liệu, kể cả than chất lượng thấp, phát thải NOx thấp và khử SO₂ ngay trong lò bằng đá vôi.",
+   "vn": [
+    "Lò CFB đã dùng nhiều năm tại Việt Nam, chủ yếu cho than antraxit chất lượng thấp.",
+    "Tài liệu có thêm bảng số liệu đồng đốt sinh khối 20% và 100% trong lò CFB (trang 74–77)."
+   ],
+   "pros": [
+    "Đốt được nhiều loại nhiên liệu, kể cả nhiên liệu cấp thấp và hỗn hợp; không cần nghiền mịn, sấy khô như lò than phun.",
+    "Kiểm soát khí thải chi phí thấp: nhiệt độ cháy thấp hạn chế NOx, khử SO₂ bằng đá vôi trong lò.",
+    "Nhiệt độ buồng đốt thấp hơn lò than phun nên chi phí vật liệu thấp hơn; yêu cầu bảo dưỡng thấp."
+   ],
+   "cons": [
+    "Điện tự dùng cao hơn lò than phun do quạt công suất lớn tạo tầng sôi.",
+    "Khả năng điều chỉnh phụ tải thấp hơn một chút so với nhiệt điện than phun.",
+    "Vẫn phát thải CO₂ cao như các nhà máy nhiệt điện than khác."
+   ],
+   "sheets": [
+    {
+     "name": "Lò hơi CFB trên siêu tới hạn",
+     "page": 72,
+     "rows": [
+      [
+       "Công suất một tổ máy",
+       "MWe",
+       "600",
+       "600",
+       "600",
+       "600"
+      ],
+      [
+       "Công suất nhà máy điển hình",
+       "MWe",
+       "1.200",
+       "1.200",
+       "1.200",
+       "1.200"
+      ],
+      [
+       "Hiệu suất điện thuần, danh định",
+       "%",
+       "41",
+       "42",
+       "43",
+       "43"
+      ],
+      [
+       "Vòng đời kỹ thuật",
+       "năm",
+       "30",
+       "30",
+       "30",
+       "30"
+      ],
+      [
+       "Thời gian xây dựng",
+       "năm",
+       "3,75",
+       "3",
+       "3",
+       "3"
+      ],
+      [
+       "Suất đầu tư",
+       "triệu USD/MWe",
+       "1,90",
+       "1,88",
+       "1,85",
+       "1,81"
+      ],
+      [
+       "Chi phí O&M cố định",
+       "USD/MWe/năm",
+       "50.920",
+       "50.413",
+       "49.413",
+       "48.434"
+      ],
+      [
+       "Chi phí O&M biến đổi",
+       "USD/MWh",
+       "1,30",
+       "1,39",
+       "1,36",
+       "1,33"
+      ]
+     ]
+    }
+   ],
+   "potential": {
+    "page": "69–70",
+    "table": {
+     "head": [
+      "Nhà máy dùng lò CFB",
+      "Công suất",
+      "Ghi chú"
+     ],
+     "rows": [
+      [
+       "Na Dương",
+       "110 MW (2 × 55)",
+       "Hoàn thành 2005; nhà máy đặt tại mỏ, dùng than khai thác tại chỗ"
+      ],
+      [
+       "Cao Ngạn",
+       "115 MW (2 × 57,5)",
+       "Hoàn thành 2007; tổng mức đầu tư 124 triệu USD; than antraxit"
+      ],
+      [
+       "Cẩm Phả",
+       "Giai đoạn 1: 340 MW",
+       "Xây dựng 2 giai đoạn"
+      ]
+     ]
+    },
+    "note": "Ví dụ dự án hiện có tại Việt Nam theo tài liệu nguồn."
+   }
+  },
+  {
+   "id": "ccs",
+   "group": "Phát điện",
+   "name": "Thu giữ, sử dụng và lưu trữ CO₂ (CCUS)",
+   "src": "gen",
+   "chapter": "Chương 4",
+   "pages": "103–115",
+   "risk": [],
+   "summary": "Chuỗi công nghệ thu giữ CO₂ từ khói thải nhà máy nhiệt điện (trước đốt, sau đốt hoặc đốt nhiên liệu oxy), nén, vận chuyển rồi sử dụng (ví dụ tăng thu hồi dầu) hoặc lưu trữ trong địa tầng. Áp dụng cho sinh khối có thể tạo phát thải âm.",
+   "vn": [
+    "Bảng số liệu thể hiện phần chi phí tăng thêm khi lắp CCS (cải tạo sau đốt) so với nhà máy cùng loại không có CCS.",
+    "Đông Nam Á còn ít dự án CCUS; Việt Nam mới có hai dự án thí điểm gắn với tăng thu hồi dầu."
+   ],
+   "pros": [
+    "Thu giữ sau đốt áp dụng được cho hầu hết nhà máy nhiệt điện hiện có.",
+    "Thu giữ trước đốt: CO₂ ở áp suất riêng cao, giảm chi phí nén và chi phí vận hành.",
+    "Đốt nhiên liệu oxy cho khói thải nồng độ CO₂ rất cao, tách CO₂ bằng ngưng tụ hơi nước đơn giản; có thể cải tạo nhà máy cũ."
+   ],
+   "cons": [
+    "Thu giữ sau đốt: CO₂ loãng ở áp suất khí quyển, khó tách; cần nhiều nhiệt để tái sinh dung môi.",
+    "Thu giữ trước đốt: thiết bị đắt, đòi hỏi hệ thống phụ trợ phức tạp.",
+    "Làm giảm công suất phát và hiệu suất nhà máy; chi phí đầu tư tăng đáng kể."
+   ],
+   "sheets": [
+    {
+     "name": "Nhiệt điện than siêu tới hạn có CCS – phần tăng thêm",
+     "page": 112,
+     "cols": [
+      "2025",
+      "2030",
+      "2050"
+     ],
+     "rows": [
+      [
+       "Suất đầu tư tăng thêm",
+       "triệu USD/MWe",
+       "+3,61",
+       "+3,32",
+       "+2,63"
+      ]
+     ]
+    },
+    {
+     "name": "CCGT có CCS – phần tăng thêm",
+     "page": 114,
+     "cols": [
+      "2025",
+      "2030",
+      "2050"
+     ],
+     "rows": [
+      [
+       "Công suất một tổ máy",
+       "MWe",
+       "−40",
+       "−40",
+       "−40"
+      ],
+      [
+       "Suất đầu tư tăng thêm",
+       "triệu USD/MWe",
+       "+1,86",
+       "+1,57",
+       "+1,21"
+      ],
+      [
+       "Chi phí O&M cố định tăng thêm",
+       "USD/MWe/năm",
+       "+11.703",
+       "+11.205",
+       "+10.956"
+      ],
+      [
+       "Chi phí O&M biến đổi tăng thêm",
+       "USD/MWh",
+       "+1,55",
+       "+1,50",
+       "+1,46"
+      ]
+     ]
+    }
+   ],
+   "potential": {
+    "page": "110",
+    "table": {
+     "head": [
+      "Dự án tại Việt Nam",
+      "Mô tả theo tài liệu"
+     ],
+     "rows": [
+      [
+       "Bạch Hổ",
+       "Hợp tác Mitsubishi Heavy Industries, Marubeni, Vietsovpetro; thu CO₂ từ nhà máy điện khí chu trình hỗn hợp, bơm vào mỏ Bạch Hổ tăng thu hồi dầu; đường ống ngầm 144 km, lưu trữ ở độ sâu 4 km"
+      ],
+      [
+       "Rạng Đông",
+       "Dự án thí điểm thu hồi, cất giữ CO₂ kết hợp tăng thu hồi dầu (CO₂-EOR) quy mô nhỏ"
+      ]
+     ]
+    },
+    "note": "Ví dụ dự án theo tài liệu nguồn."
+   }
+  },
+  {
+   "id": "dong-phat",
+   "group": "Phát điện",
+   "name": "Nhiệt điện đồng phát công nghiệp (CHP)",
+   "src": "gen",
+   "chapter": "Chương 5",
+   "pages": "116–125",
+   "risk": [],
+   "summary": "Sản xuất đồng thời điện và nhiệt cho quy trình công nghiệp. Tài liệu xét hai dạng: lò hơi CHP đốt sinh khối (bã mía, trấu, vỏ cà phê…) và hệ thống thu hồi nhiệt thải từ quy trình sản xuất, điển hình là nhà máy xi măng.",
+   "vn": [
+    "Trong nhà máy xi măng, khoảng 35% năng lượng đầu vào thất thoát qua dòng nhiệt thải, là nguồn cho phát điện thu hồi nhiệt."
+   ],
+   "pros": [
+    "Tăng đáng kể tổng hiệu suất năng lượng nhờ tận dụng nhiệt quy trình vốn bị bỏ phí.",
+    "Tận dụng phụ phẩm sinh khối tại chỗ của nhà máy đường, chế biến nông sản."
+   ],
+   "cons": [
+    "Hiệu suất phát điện của nhiều quy trình đồng phát tương đối thấp nên không phải lúc nào cũng là phương án đầu tư có lợi nhất."
+   ],
+   "sheets": [
+    {
+     "name": "Đồng phát đốt sinh khối",
+     "page": 123,
+     "cols": [
+      "2025",
+      "2030",
+      "2050"
+     ],
+     "rows": [
+      [
+       "Công suất nhà máy điển hình",
+       "MWe",
+       "25",
+       "25",
+       "25"
+      ],
+      [
+       "Vòng đời kỹ thuật",
+       "năm",
+       "25",
+       "25",
+       "25"
+      ],
+      [
+       "Thời gian xây dựng",
+       "năm",
+       "2",
+       "2",
+       "2"
+      ],
+      [
+       "Suất đầu tư",
+       "triệu USD/MWe",
+       "2,2",
+       "2,0",
+       "1,8"
+      ]
+     ]
+    },
+    {
+     "name": "Đồng phát thu hồi nhiệt thải nhà máy xi măng",
+     "page": 125,
+     "cols": [
+      "2025",
+      "2030",
+      "2050"
+     ],
+     "rows": [
+      [
+       "Công suất một tổ máy",
+       "MWe",
+       "8",
+       "8",
+       "8"
+      ],
+      [
+       "Hiệu suất điện thuần",
+       "%",
+       "18",
+       "18",
+       "18"
+      ],
+      [
+       "Suất đầu tư",
+       "triệu USD/MWe",
+       "3,11",
+       "3,11",
+       "3,11"
+      ],
+      [
+       "Chi phí O&M biến đổi",
+       "USD/MWh",
+       "15,56",
+       "15,56",
+       "15,56"
+      ]
+     ]
+    }
+   ],
+   "potential": {
+    "page": "121",
+    "table": {
+     "head": [
+      "Dự án ví dụ",
+      "Công suất",
+      "Ghi chú"
+     ],
+     "rows": [
+      [
+       "Nhà máy điện sinh khối An Khê (Gia Lai)",
+       "95 MW (40 + 55)",
+       "Tại nhà máy đường An Khê; đốt bã mía và sinh khối Tây Nguyên (vỏ cà phê, trấu, mùn cưa); vận hành 01/2018; hơi 100 bar, 540°C"
+      ]
+     ]
+    },
+    "note": "Ví dụ dự án theo tài liệu nguồn."
+   }
+  },
+  {
+   "id": "thuy-trieu",
+   "group": "Phát điện",
+   "name": "Điện thủy triều",
+   "src": "gen",
+   "chapter": "Chương 10",
+   "pages": "199–213",
+   "risk": [],
+   "summary": "Khai thác chênh lệch mực nước (kiểu đập) hoặc động năng dòng triều (kiểu dòng chảy, tua bin đặt dưới nước). Thủy triều do lực hấp dẫn của mặt trăng, mặt trời nên dự báo được chính xác.",
+   "vn": [
+    "Tổng công suất thủy triều kiểu đập có thể khai thác ở Việt Nam khoảng 5 GW, điện năng khoảng 1.753 GWh/năm.",
+    "Toàn thế giới đến 2024 mới có hơn 500 MW năng lượng biển (thủy triều, sóng và loại khác)."
+   ],
+   "pros": [
+    "Năng lượng sạch, không phát thải khi phát điện.",
+    "Mật độ năng lượng cao hơn gió (nước nặng hơn không khí khoảng 830 lần) nên rô to nhỏ hơn.",
+    "Mực nước, vận tốc dòng triều dự báo được, tính tuần hoàn cao hơn gió và sóng.",
+    "Tuổi thọ dài hơn điện gió."
+   ],
+   "cons": [
+    "Công nghệ còn sơ khai, khả năng thương mại cần đánh giá thêm.",
+    "Suất đầu tư ban đầu rất cao.",
+    "Kiểu đập tác động lớn đến môi trường cửa sông, hệ sinh thái."
+   ],
+   "sheets": [
+    {
+     "name": "Điện thủy triều – kiểu đập",
+     "page": 211,
+     "cols": [
+      "2025",
+      "2030",
+      "2050"
+     ],
+     "rows": [
+      [
+       "Công suất một tổ máy",
+       "MWe",
+       "1",
+       "10",
+       "25"
+      ],
+      [
+       "Hiệu suất điện thuần",
+       "%",
+       "90",
+       "90",
+       "90"
+      ],
+      [
+       "Vòng đời kỹ thuật",
+       "năm",
+       "40",
+       "40",
+       "50"
+      ],
+      [
+       "Thời gian xây dựng",
+       "năm",
+       "5",
+       "5",
+       "4"
+      ],
+      [
+       "Hệ số công suất (lý thuyết)",
+       "%",
+       "35",
+       "35",
+       "40"
+      ],
+      [
+       "Suất đầu tư",
+       "triệu USD/MWe",
+       "6,8",
+       "6,4",
+       "6,3"
+      ],
+      [
+       "Chi phí O&M cố định",
+       "USD/MWe/năm",
+       "88.145",
+       "77.811",
+       "44.446"
+      ]
+     ]
+    },
+    {
+     "name": "Điện thủy triều – kiểu dòng chảy",
+     "page": 213,
+     "cols": [
+      "2025",
+      "2030",
+      "2050"
+     ],
+     "rows": [
+      [
+       "Vòng đời kỹ thuật",
+       "năm",
+       "25",
+       "25",
+       "30"
+      ],
+      [
+       "Hệ số công suất (lý thuyết)",
+       "%",
+       "33",
+       "35",
+       "37"
+      ],
+      [
+       "Suất đầu tư",
+       "triệu USD/MWe",
+       "7,1",
+       "5,7",
+       "4,2"
+      ]
+     ]
+    }
+   ],
+   "potential": {
+    "page": "204, 209",
+    "kpis": [
+     [
+      "≈5 GW",
+      "Công suất thủy triều kiểu đập có thể khai thác"
+     ],
+     [
+      "1.753 GWh/năm",
+      "Điện năng có thể khai thác"
+     ]
+    ],
+    "chart": {
+     "type": "bar",
+     "title": "So sánh suất đầu tư 2025, thủy triều kiểu đập (triệu USD/MW)",
+     "unit": "triệu USD/MW",
+     "cats": [
+      "Cẩm nang Việt Nam 2023",
+      "Cẩm nang Việt Nam 2026",
+      "Cẩm nang Indonesia 2024"
+     ],
+     "series": [
+      {
+       "name": "2025",
+       "values": [
+        6.96,
+        6.8,
+        6.13
+       ]
+      }
+     ]
+    },
+    "note": "Bảng so sánh chi phí đầu tư trong tài liệu nguồn (giá trị 2025 của từng ấn phẩm)."
+   }
+  },
+  {
+   "id": "song-bien",
+   "group": "Phát điện",
+   "name": "Điện sóng biển",
+   "src": "gen",
+   "chapter": "Chương 11",
+   "pages": "214–225",
+   "risk": [],
+   "summary": "Thiết bị chuyển đổi năng lượng sóng (WEC) khai thác chuyển động của mặt biển: cột nước dao động, phao hấp thụ điểm, thiết bị tràn sóng… Công nghệ đang ở giai đoạn tiền thương mại, chủ yếu là dự án trình diễn.",
+   "vn": [
+    "Việt Nam có bờ biển hơn 3.000 km; thông lượng năng lượng sóng ngoài khơi khoảng 40–411 kW/m.",
+    "Một nghiên cứu ước tính tiềm năng năng lượng sóng dọc bờ biển Việt Nam khoảng 212 TWh/năm."
+   ],
+   "pros": [
+    "Năng lượng tái tạo, không phát thải; ít ảnh hưởng cảnh quan.",
+    "Tài nguyên sóng dễ dự báo hơn gió.",
+    "Giảm chiều cao sóng, góp phần bảo vệ bờ biển; kết hợp được với điện gió, dòng triều."
+   ],
+   "cons": [
+    "Công nghệ còn sơ khai, chưa hội tụ về thiết kế chuẩn; cần triển khai hàng loạt để giảm chi phí.",
+    "Chi phí vận hành, bảo dưỡng và đấu nối lưới cao.",
+    "Vòng đời kỹ thuật hiện ngắn."
+   ],
+   "sheets": [
+    {
+     "name": "Điện sóng biển",
+     "page": 224,
+     "cols": [
+      "2025",
+      "2030",
+      "2050"
+     ],
+     "rows": [
+      [
+       "Vòng đời kỹ thuật",
+       "năm",
+       "10",
+       "15",
+       "25"
+      ],
+      [
+       "Thời gian xây dựng",
+       "năm",
+       "3",
+       "3",
+       "3"
+      ],
+      [
+       "Hệ số công suất (lý thuyết)",
+       "%",
+       "30",
+       "32",
+       "38"
+      ],
+      [
+       "Suất đầu tư",
+       "triệu USD/MWe",
+       "13,4",
+       "10,6",
+       "6,8"
+      ]
+     ]
+    }
+   ],
+   "potential": {
+    "page": "217",
+    "kpis": [
+     [
+      "212 TWh/năm",
+      "Tiềm năng năng lượng sóng dọc bờ biển"
+     ],
+     [
+      "40–411 kW/m",
+      "Thông lượng năng lượng sóng ngoài khơi"
+     ],
+     [
+      "> 3.000 km",
+      "Chiều dài bờ biển"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "sinh-khoi",
+   "group": "Phát điện",
+   "name": "Điện sinh khối",
+   "src": "gen",
+   "chapter": "Chương 12",
+   "pages": "226–236",
+   "risk": [],
+   "summary": "Đốt sinh khối rắn (bã mía, trấu, gỗ, rơm…) trong lò hơi, chạy tua bin hơi theo chu trình Rankine. Nhiệt trị thấp và hàm lượng khoáng trong tro giới hạn thông số hơi nên hiệu suất điện thường 15–35%.",
+   "vn": [
+    "Tổng tiềm năng kỹ thuật điện sinh khối cho phát điện đến năm 2030 ước tính hơn 7 GW."
+   ],
+   "pros": [
+    "Công nghệ chín muồi, phổ biến.",
+    "Đốt sinh khối bền vững được coi là trung tính về CO₂.",
+    "Tận dụng phụ phẩm nông, lâm nghiệp giá rẻ."
+   ],
+   "cons": [
+    "Nguồn sinh khối sẵn có phụ thuộc địa phương, hữu hạn; cạnh tranh với thực phẩm, giao thông, công nghiệp.",
+    "Quy mô dưới 10 MW chịu bất lợi lớn về quy mô kinh tế.",
+    "Clo, lưu huỳnh trong nhiên liệu gây ăn mòn, đóng cặn lò hơi."
+   ],
+   "sheets": [
+    {
+     "name": "Nhà máy điện sinh khối",
+     "page": 235,
+     "rows": [
+      [
+       "Công suất nhà máy điển hình",
+       "MWe",
+       "25",
+       "25",
+       "25",
+       "25"
+      ],
+      [
+       "Hiệu suất điện thuần, danh định",
+       "%",
+       "32",
+       "32",
+       "32",
+       "32"
+      ],
+      [
+       "Vòng đời kỹ thuật",
+       "năm",
+       "25",
+       "25",
+       "25",
+       "25"
+      ],
+      [
+       "Thời gian xây dựng",
+       "năm",
+       "2",
+       "2",
+       "2",
+       "2"
+      ],
+      [
+       "Suất đầu tư",
+       "triệu USD/MWe",
+       "2,23",
+       "2,19",
+       "2,14",
+       "2,12"
+      ],
+      [
+       "Chi phí O&M cố định",
+       "USD/MWe/năm",
+       "61.627",
+       "60.745",
+       "59.371",
+       "58.744"
+      ]
+     ]
+    }
+   ],
+   "potential": {
+    "page": "226, 232",
+    "kpis": [
+     [
+      "> 7 GW",
+      "Tiềm năng kỹ thuật điện sinh khối đến 2030"
+     ]
+    ],
+    "table": {
+     "head": [
+      "Dự án ví dụ",
+      "Công suất",
+      "Ghi chú"
+     ],
+     "rows": [
+      [
+       "KCP Phú Yên",
+       "60 MW (2 × 30)",
+       "Tại nhà máy đường Hòa Sơn, đốt bã mía; tổ máy 1 vận hành 4/2017, vừa phát điện vừa cấp hơi"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": "rac-thai",
+   "group": "Phát điện",
+   "name": "Điện từ chất thải rắn đô thị và khí bãi rác",
+   "src": "gen",
+   "chapter": "Chương 13",
+   "pages": "237–247",
+   "risk": [],
+   "summary": "Đốt trực tiếp chất thải rắn đô thị để sinh hơi phát điện, hoặc thu khí methane từ bãi chôn lấp chạy động cơ phát điện. Các công nghệ khác gồm nhiệt phân, khí hóa, plasma.",
+   "vn": [
+    "Nhà máy đốt rác thường được đầu tư vì lợi ích môi trường hơn là vì phát điện; suất đầu tư rất cao."
+   ],
+   "pros": [
+    "Giảm khối lượng rác chôn lấp, chi phí vận chuyển, thuế bãi rác; loại bỏ nước rỉ rác.",
+    "Thu khí bãi rác tránh phát thải methane; giảm phát thải carbon.",
+    "Tro xỉ dùng được trong xây dựng; tận dụng phụ phẩm làm phân bón."
+   ],
+   "cons": [
+    "Xây dựng, vận hành, bảo dưỡng tốn kém.",
+    "Khói, tro chứa chất ô nhiễm nếu không xử lý đạt chuẩn.",
+    "Thành phần rác biến động, nhiệt trị thấp."
+   ],
+   "sheets": [
+    {
+     "name": "Đốt trực tiếp rác thải rắn đô thị",
+     "page": 244,
+     "rows": [
+      [
+       "Công suất nhà máy điển hình",
+       "MWe",
+       "22",
+       "22",
+       "22",
+       "23"
+      ],
+      [
+       "Hiệu suất điện thuần, danh định",
+       "%",
+       "29",
+       "30",
+       "30",
+       "31"
+      ],
+      [
+       "Vòng đời kỹ thuật",
+       "năm",
+       "25",
+       "25",
+       "25",
+       "25"
+      ],
+      [
+       "Thời gian xây dựng",
+       "năm",
+       "2,5",
+       "2,5",
+       "2,5",
+       "2,5"
+      ],
+      [
+       "Suất đầu tư",
+       "triệu USD/MWe",
+       "6,97",
+       "6,47",
+       "6,10",
+       "5,73"
+      ]
+     ]
+    },
+    {
+     "name": "Đốt khí bãi rác",
+     "page": 246,
+     "rows": [
+      [
+       "Công suất nhà máy điển hình",
+       "MWe",
+       "1",
+       "1",
+       "1",
+       "1"
+      ],
+      [
+       "Hiệu suất điện thuần, danh định",
+       "%",
+       "35",
+       "35",
+       "35",
+       "35"
+      ],
+      [
+       "Vòng đời kỹ thuật",
+       "năm",
+       "25",
+       "25",
+       "25",
+       "25"
+      ],
+      [
+       "Thời gian xây dựng",
+       "năm",
+       "1,5",
+       "1,5",
+       "1,5",
+       "1,5"
+      ],
+      [
+       "Suất đầu tư",
+       "triệu USD/MWe",
+       "3,24",
+       "3,20",
+       "3,14",
+       "3,08"
+      ]
+     ]
+    }
+   ],
+   "potential": {
+    "page": "241",
+    "table": {
+     "head": [
+      "Dự án ví dụ",
+      "Công suất",
+      "Ghi chú"
+     ],
+     "rows": [
+      [
+       "Đốt rác Nam Sơn (Hà Nội)",
+       "1,93 MW",
+       "Vận hành 4/2017; 75 tấn rác/ngày; đầu tư 29,2 triệu USD (15,1 triệu USD/MW)"
+      ],
+      [
+       "Đốt rác Cần Thơ",
+       "7,5 MW",
+       "Vận hành 12/2018; 400 tấn rác/ngày"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": "khi-sinh-hoc",
+   "group": "Phát điện",
+   "name": "Điện khí sinh học",
+   "src": "gen",
+   "chapter": "Chương 14",
+   "pages": "248–253",
+   "risk": [],
+   "summary": "Khí sinh học (50–72% methane) sinh ra từ phân hủy yếm khí phân, chất thải hữu cơ, được đốt trong động cơ hoặc tổ máy CHP. Cần nồng độ methane tối thiểu 40–45% để phát điện.",
+   "vn": [
+    "Việc dùng khí sinh học quy mô lớn để phát điện tại Việt Nam còn hạn chế do chi phí đầu tư cao."
+   ],
+   "pros": [
+    "Chi phí giảm phát thải CO₂ thấp vì giảm được methane từ phân.",
+    "Tiết kiệm chi phí xử lý, lưu trữ phân; tái phân bổ dinh dưỡng nitơ, phốt pho.",
+    "Phân bón sau phân hủy có giá trị cao hơn phân tươi."
+   ],
+   "cons": [
+    "Suất đầu tư cao so với quy mô nhỏ.",
+    "Phụ thuộc nguồn nguyên liệu tập trung, ổn định.",
+    "Chi phí vận hành, bảo dưỡng cố định lớn trên mỗi MW."
+   ],
+   "sheets": [
+    {
+     "name": "Nhà máy điện đốt khí sinh học",
+     "page": 252,
+     "rows": [
+      [
+       "Công suất nhà máy điển hình",
+       "MWe",
+       "1",
+       "1",
+       "1",
+       "1"
+      ],
+      [
+       "Hiệu suất điện thuần, danh định",
+       "%",
+       "35",
+       "35",
+       "35",
+       "35"
+      ],
+      [
+       "Vòng đời kỹ thuật",
+       "năm",
+       "25",
+       "25",
+       "25",
+       "25"
+      ],
+      [
+       "Thời gian xây dựng",
+       "năm",
+       "1,5",
+       "1,5",
+       "1,5",
+       "1,5"
+      ],
+      [
+       "Suất đầu tư",
+       "triệu USD/MWe",
+       "3,6",
+       "3,6",
+       "3,5",
+       "3,4"
+      ],
+      [
+       "Chi phí O&M cố định",
+       "USD/MWe/năm",
+       "125.494",
+       "123.699",
+       "120.900",
+       "119.625"
+      ],
+      [
+       "Chi phí O&M biến đổi",
+       "USD/MWh",
+       "0,12",
+       "0,12",
+       "0,12",
+       "0,12"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dong-co-dot-trong",
+   "group": "Phát điện",
+   "name": "Nhà máy điện động cơ đốt trong (ICE)",
+   "src": "gen",
+   "chapter": "Chương 15",
+   "pages": "254–263",
+   "risk": [
+    "Nhiệt điện / LNG"
+   ],
+   "summary": "Động cơ pít-tông gắn trực tiếp máy phát, chạy khí thiên nhiên, LNG, dầu hoặc nhiên liệu kép. Khởi động nhanh, hiệu suất cao khi non tải, phù hợp vai trò nguồn linh hoạt hỗ trợ năng lượng tái tạo.",
+   "vn": [
+    "Dự án Nhà máy điện linh hoạt Ninh Bình quy hoạch 1.500 MW thay nhà máy nhiệt điện Ninh Bình hiện hữu; giai đoạn I 300 MW đã được chấp thuận chủ trương, dùng động cơ đốt trong chạy LNG."
+   ],
+   "pros": [
+    "Ít chịu ảnh hưởng của nhiệt độ, độ cao môi trường.",
+    "Khởi động nhanh, thời gian ngừng máy không phụ thuộc quy mô nhà máy; hiệu suất cao khi non tải.",
+    "Dạng mô-đun, bảo dưỡng từng tổ vẫn phát điện được; xây dựng nhanh (khoảng 10 tháng); tin cậy, dễ sửa chữa."
+   ],
+   "cons": [
+    "Khoảng một nửa nhiệt thải ở nhiệt độ thấp, khó tận dụng sinh hơi áp suất cao như tua bin khí.",
+    "Chi phí vận hành, bảo dưỡng biến đổi cao hơn tua bin khí.",
+    "Phát thải NOx cần xử lý."
+   ],
+   "sheets": [
+    {
+     "name": "Động cơ đốt trong, nhiên liệu kép (dầu và khí)",
+     "page": 258,
+     "rows": [
+      [
+       "Công suất một tổ máy",
+       "MWe",
+       "20",
+       "20",
+       "20",
+       "20"
+      ],
+      [
+       "Công suất nhà máy điển hình",
+       "MWe",
+       "100",
+       "100",
+       "100",
+       "100"
+      ],
+      [
+       "Vòng đời kỹ thuật",
+       "năm",
+       "50",
+       "50",
+       "50",
+       "50"
+      ],
+      [
+       "Thời gian xây dựng",
+       "năm",
+       "1,5",
+       "1,5",
+       "1,5",
+       "1,5"
+      ],
+      [
+       "Suất đầu tư",
+       "triệu USD/MWe",
+       "0,91",
+       "0,90",
+       "0,88",
+       "0,87"
+      ],
+      [
+       "Chi phí O&M biến đổi",
+       "USD/MWh",
+       "8,89",
+       "8,80",
+       "8,63",
+       "8,46"
+      ]
+     ]
+    },
+    {
+     "name": "Động cơ đốt trong, khí thiên nhiên",
+     "page": 260,
+     "rows": [
+      [
+       "Công suất một tổ máy",
+       "MWe",
+       "20",
+       "20",
+       "20",
+       "20"
+      ],
+      [
+       "Thời gian xây dựng",
+       "năm",
+       "2",
+       "1,5",
+       "1,5",
+       "1,5"
+      ],
+      [
+       "Suất đầu tư",
+       "triệu USD/MWe",
+       "0,85",
+       "0,84",
+       "0,82",
+       "0,81"
+      ],
+      [
+       "Chi phí O&M biến đổi",
+       "USD/MWh",
+       "8,09",
+       "8,01",
+       "7,85",
+       "7,70"
+      ]
+     ]
+    },
+    {
+     "name": "Động cơ đốt trong, dầu",
+     "page": 262,
+     "rows": [
+      [
+       "Thời gian xây dựng",
+       "năm",
+       "2",
+       "1,5",
+       "1,5",
+       "1,5"
+      ],
+      [
+       "Suất đầu tư",
+       "triệu USD/MWe",
+       "0,80",
+       "0,79",
+       "0,78",
+       "0,76"
+      ],
+      [
+       "Chi phí O&M biến đổi",
+       "USD/MWh",
+       "8,09",
+       "8,01",
+       "7,85",
+       "7,70"
+      ]
+     ]
+    }
+   ],
+   "potential": {
+    "page": "256",
+    "kpis": [
+     [
+      "1.500 MW",
+      "Quy hoạch Nhà máy điện linh hoạt Ninh Bình"
+     ],
+     [
+      "300 MW",
+      "Giai đoạn I, động cơ đốt trong chạy LNG"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "dia-nhiet",
+   "group": "Phát điện",
+   "name": "Điện địa nhiệt",
+   "src": "gen",
+   "chapter": "Chương 16",
+   "pages": "264–273",
+   "risk": [],
+   "summary": "Dùng nhiệt từ bể nước, hơi nước ngầm nóng để phát điện: hơi khô, hơi giãn áp (flash) hoặc chu trình nhị phân cho nguồn nhiệt độ thấp. Hệ thống chia theo nhiệt độ bể: thấp (< 125°C), trung bình (125–225°C), cao (> 225°C).",
+   "vn": [
+    "Tiềm năng điện địa nhiệt Việt Nam khá khiêm tốn, khoảng 300–400 MW; các điểm thăm dò có enthalpy thấp, nhiệt độ không quá 100°C.",
+    "Đã phát hiện hơn 300 điểm khoáng nóng (đến 105°C) và hơn 100 nguồn nước nóng (đến 148°C); 6 vùng triển vọng: Tây Bắc, Đông Bắc, Đồng bằng Bắc Bộ, Bắc Trung Bộ, Nam Trung Bộ, Nam Bộ."
+   ],
+   "pros": [
+    "Khả dụng rất cao (> 98%, khoảng 7.500 giờ/năm), không phụ thuộc thời tiết, phù hợp phụ tải nền.",
+    "Ít tác động hệ sinh thái bề mặt, cảnh quan; tái bơm chất lỏng nên hầu như không ô nhiễm.",
+    "Không cần nhiên liệu, chi phí vận hành thấp, phát thải CO₂ thấp, tuổi thọ dài."
+   ],
+   "cons": [
+    "Chi phí thăm dò, khoan giếng và đầu tư ban đầu cao, rủi ro tài nguyên lớn.",
+    "Nguồn nhiệt độ thấp ở Việt Nam cho hiệu suất điện thấp.",
+    "Thiếu kinh nghiệm triển khai trong nước."
+   ],
+   "sheets": [
+    {
+     "name": "Địa nhiệt – hệ thống nhỏ (chu trình nhị phân)",
+     "page": 270,
+     "rows": [
+      [
+       "Công suất một tổ máy",
+       "MWe",
+       "10",
+       "10",
+       "10",
+       "10"
+      ],
+      [
+       "Hiệu suất điện thuần, danh định",
+       "%",
+       "10",
+       "11",
+       "12",
+       "12"
+      ],
+      [
+       "Vòng đời kỹ thuật",
+       "năm",
+       "30",
+       "30",
+       "30",
+       "30"
+      ],
+      [
+       "Hệ số công suất (lý thuyết)",
+       "%",
+       "90",
+       "90",
+       "90",
+       "90"
+      ],
+      [
+       "Suất đầu tư",
+       "triệu USD/MWe",
+       "5,85",
+       "5,67",
+       "5,42",
+       "5,26"
+      ],
+      [
+       "Chi phí O&M biến đổi",
+       "USD/MWh",
+       "0,47",
+       "0,46",
+       "0,44",
+       "0,43"
+      ]
+     ]
+    },
+    {
+     "name": "Địa nhiệt – hệ thống lớn (hơi giãn áp hoặc hơi khô)",
+     "page": 272,
+     "rows": [
+      [
+       "Công suất một tổ máy",
+       "MWe",
+       "55",
+       "55",
+       "55",
+       "55"
+      ],
+      [
+       "Hiệu suất điện thuần, danh định",
+       "%",
+       "16",
+       "16",
+       "16",
+       "16"
+      ],
+      [
+       "Vòng đời kỹ thuật",
+       "năm",
+       "30",
+       "30",
+       "30",
+       "30"
+      ],
+      [
+       "Hệ số công suất (lý thuyết)",
+       "%",
+       "90",
+       "90",
+       "90",
+       "90"
+      ],
+      [
+       "Suất đầu tư",
+       "triệu USD/MWe",
+       "4,5",
+       "4,34",
+       "4,15",
+       "4,03"
+      ],
+      [
+       "Chi phí O&M biến đổi",
+       "USD/MWh",
+       "0,32",
+       "0,31",
+       "0,30",
+       "0,29"
+      ]
+     ]
+    }
+   ],
+   "potential": {
+    "page": "265, 267",
+    "kpis": [
+     [
+      "300–400 MW",
+      "Tiềm năng điện địa nhiệt ước tính"
+     ],
+     [
+      "> 300",
+      "Điểm khoáng nóng, đến 105°C"
+     ],
+     [
+      "> 100",
+      "Nguồn nước nóng, đến 148°C"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "hat-nhan",
+   "group": "Phát điện",
+   "name": "Điện hạt nhân",
+   "src": "gen",
+   "chapter": "Chương 17",
+   "pages": "274–301",
+   "risk": [],
+   "summary": "Nhiệt từ phản ứng phân hạch hạt nhân sinh hơi chạy tua bin. Tài liệu xét lò nước áp lực (PWR) công suất lớn và lò mô-đun nhỏ (SMR), kèm thông số các thiết kế lò thế hệ mới.",
+   "vn": [
+    "Ngày 26/6/2025, HĐND tỉnh Ninh Thuận (nay thuộc tỉnh Khánh Hòa) thông qua quy hoạch đất cho Nhà máy điện hạt nhân Ninh Thuận 1 và 2.",
+    "Bảng số liệu SMR chưa có giá trị 2025 (công nghệ chưa thương mại hóa rộng rãi)."
+   ],
+   "pros": [
+    "Công nghệ lò truyền thống đã được kiểm chứng; an toàn được nâng cao nhờ tiến bộ kỹ thuật.",
+    "Mật độ năng lượng lớn, cần ít đất hơn điện mặt trời, điện gió.",
+    "Không phát thải khí nhà kính khi vận hành; phát thải vòng đời rất thấp; phụ tải nền ổn định."
+   ],
+   "cons": [
+    "Thời gian xây dựng dài, tiến độ khó chắc chắn.",
+    "Suất đầu tư rất cao và khó ước tính chính xác; chi phí bảo dưỡng cao.",
+    "Hạn chế địa điểm: gần nguồn nước, tránh vùng địa chấn; yếu tố địa chính trị, chuỗi cung ứng, quản lý nhiên liệu đã qua sử dụng."
+   ],
+   "sheets": [
+    {
+     "name": "Điện hạt nhân lò lớn PWR",
+     "page": 298,
+     "rows": [
+      [
+       "Công suất một tổ máy",
+       "MWe",
+       "1.200",
+       "1.200",
+       "1.200",
+       "1.200"
+      ],
+      [
+       "Công suất nhà máy điển hình",
+       "MWe",
+       "2.400",
+       "2.400",
+       "2.400",
+       "2.400"
+      ],
+      [
+       "Hiệu suất điện thuần, danh định",
+       "%",
+       "36",
+       "38",
+       "40",
+       "42"
+      ],
+      [
+       "Hệ số công suất (gồm ngừng máy)",
+       "%",
+       "76",
+       "78",
+       "80",
+       "83"
+      ],
+      [
+       "Vòng đời kỹ thuật",
+       "năm",
+       "60",
+       "60",
+       "60",
+       "60"
+      ],
+      [
+       "Thời gian xây dựng",
+       "năm",
+       "7,4",
+       "7,4",
+       "7,4",
+       "7,4"
+      ],
+      [
+       "Suất đầu tư",
+       "triệu USD/MWe",
+       "6,50",
+       "6,00",
+       "5,50",
+       "5,00"
+      ],
+      [
+       "Chi phí O&M cố định",
+       "USD/MWe/năm",
+       "127.000",
+       "122.000",
+       "118.000",
+       "113.000"
+      ],
+      [
+       "Chi phí O&M biến đổi",
+       "USD/MWh",
+       "2,4",
+       "2,3",
+       "2,2",
+       "2,1"
+      ]
+     ]
+    },
+    {
+     "name": "Điện hạt nhân SMR",
+     "page": 300,
+     "rows": [
+      [
+       "Công suất một tổ máy",
+       "MWe",
+       "100",
+       "100",
+       "100",
+       "100"
+      ],
+      [
+       "Công suất nhà máy điển hình",
+       "MWe",
+       "300",
+       "300",
+       "300",
+       "300"
+      ],
+      [
+       "Hiệu suất điện thuần, danh định",
+       "%",
+       "33",
+       "34",
+       "35",
+       "36"
+      ],
+      [
+       "Vòng đời kỹ thuật",
+       "năm",
+       "40",
+       "45",
+       "50",
+       "55"
+      ],
+      [
+       "Thời gian xây dựng",
+       "năm",
+       "9",
+       "8",
+       "6",
+       "4"
+      ],
+      [
+       "Suất đầu tư",
+       "triệu USD/MWe",
+       "–",
+       "7,50",
+       "6,00",
+       "5,00"
+      ],
+      [
+       "Chi phí O&M cố định",
+       "USD/MWe/năm",
+       "–",
+       "110.000",
+       "105.000",
+       "102.000"
+      ]
+     ]
+    }
+   ],
+   "potential": {
+    "page": "292",
+    "table": {
+     "head": [
+      "Thông tin",
+      "NMĐHN Ninh Thuận 1",
+      "NMĐHN Ninh Thuận 2"
+     ],
+     "rows": [
+      [
+       "Tổng diện tích (ha)",
+       "883,68",
+       "758,54"
+      ],
+      [
+       "Diện tích đất (ha)",
+       "443,11",
+       "380,91"
+      ],
+      [
+       "Diện tích trên biển (ha)",
+       "440,57",
+       "377,63"
+      ],
+      [
+       "Số tổ máy",
+       "4",
+       "4"
+      ],
+      [
+       "Công suất mỗi tổ máy (MWe)",
+       "1.000–1.600",
+       "1.000–1.600"
+      ],
+      [
+       "Tổng công suất (MWe)",
+       "4.000–6.400",
+       "4.000–6.400"
+      ]
+     ]
+    },
+    "note": "Bảng 35 tài liệu nguồn: ước tính nhu cầu sử dụng đất các dự án điện hạt nhân tại Việt Nam."
+   }
+  },
+  {
    "id": "pin-lithium-ion",
    "group": "Lưu trữ điện năng",
    "name": "Pin Lithium-ion (BESS)",

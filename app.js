@@ -1,7 +1,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
 import { getAuth, GoogleAuthProvider, signInWithPopup, signInWithRedirect, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 import { getFirestore, collection, addDoc, getDocs, deleteDoc, doc, query as fq, where, orderBy, limit, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
-import { firebaseConfig, ADMIN_UIDS } from "./firebase-config.js?v=22";
+import { firebaseConfig, ADMIN_UIDS } from "./firebase-config.js?v=23";
 
 /* ---------- Khởi tạo ---------- */
 const configured = !!firebaseConfig.projectId;
@@ -368,9 +368,9 @@ function hbars(c) {
 function capexTrend(t) {
   const rows = t.sheets.map(sh => { const r = sh.rows.find(x => /^Suất đầu tư/.test(x[0])); return r ? { name: sh.name.replace(/ \(cột đầu là 2030\)/, ""), unit: r[1], cols: sh.cols || ["2025", "2030", "2040", "2050"], v: r.slice(2).map(num), raw: r.slice(2) } : null; }).filter(Boolean);
   if (!rows.length) return "";
-  const max = Math.max(...rows.flatMap(r => r.v));
+  const max = Math.max(...rows.flatMap(r => r.v).filter(Number.isFinite));
   return `<figure class="pchart trend"><figcaption>Xu hướng suất đầu tư (${esc(rows[0].unit)}, USD 2025)</figcaption>
-    ${rows.map(r => `<div class="tgroup"><div class="plab">${esc(r.name)}</div><div class="tyears">${r.v.map((v, i) => `<div class="ty"><div class="tcol"><div style="--h:${(v / max * 100).toFixed(1)}%"><span>${esc(r.raw[i])}</span></div></div><em>${r.cols[i]}</em></div>`).join("")}</div></div>`).join("")}
+    ${rows.map(r => `<div class="tgroup"><div class="plab">${esc(r.name)}</div><div class="tyears">${r.v.map((v, i) => `<div class="ty"><div class="tcol"><div style="--h:${Number.isFinite(v) ? (v / max * 100).toFixed(1) : 0}%"><span>${esc(r.raw[i])}</span></div></div><em>${r.cols[i]}</em></div>`).join("")}</div></div>`).join("")}
   </figure>`;
 }
 function potentialBlock(t) {
@@ -400,7 +400,7 @@ function renderTech(sub) {
         <div class="tkpi">${cap ? `<span><b class="num">${esc(cap.v)}</b> ${esc(cap.u)} <i>(${cap.y})</i></span>` : ""}${cf ? `<span><b class="num">${esc(cf.v)}%</b> ${/Hiệu suất/.test(x.sheets[0].rows.map(r => r[0]).join()) && !/Hệ số công suất/.test(x.sheets[0].rows.map(r => r[0]).join()) ? "hiệu suất" : "hệ số công suất"}</span>` : ""}</div>
         <span class="hint">${esc(x.chapter)} · trang ${esc(x.pages)}</span></a>`; }).join("")}</div>` : ""; }).join("") || `<p class="empty">Không có công nghệ phù hợp.</p>`}
     <h2>Rủi ro chung – dự án lưới truyền tải</h2>${riskBlock(["Lưới truyền tải"])}
-    <p class="hint">Đợt 1: 8 công nghệ cốt lõi. Các công nghệ còn lại (điện sinh khối, rác thải, địa nhiệt, hạt nhân, pin dòng vanadium, hydrogen, ammonia xanh…) đang được bổ sung.</p>
+    <p class="hint">Đã có 17 công nghệ phát điện và 2 công nghệ lưu trữ. Các công nghệ lưu trữ, nhiên liệu tái tạo và Power-to-X còn lại (pin dòng vanadium, hydrogen, khí nén, bánh đà, pin nhiên liệu, điện phân, ammonia xanh, methanol…) đang được bổ sung.</p>
     ${disc}`;
     return;
   }
