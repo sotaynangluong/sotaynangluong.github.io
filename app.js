@@ -1,7 +1,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
 import { getAuth, GoogleAuthProvider, signInWithPopup, signInWithRedirect, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 import { getFirestore, collection, addDoc, getDocs, deleteDoc, doc, query as fq, where, orderBy, limit, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
-import { firebaseConfig, ADMIN_UIDS } from "./firebase-config.js?v=10";
+import { firebaseConfig, ADMIN_UIDS } from "./firebase-config.js?v=11";
 
 /* ---------- Khởi tạo ---------- */
 const configured = !!firebaseConfig.projectId;
@@ -50,6 +50,13 @@ async function login() {
   }
 }
 
+/* ---------- Yêu cầu đăng nhập ---------- */
+function gateBanner(msg) {
+  if (user || !configured) return "";
+  return `<div class="gate"><span>${msg}</span><button class="btn primary" type="button" data-login>Đăng nhập Google</button></div>`;
+}
+function wireGate(root = view) { root.querySelectorAll("[data-login]").forEach(b => b.onclick = login); }
+
 /* ---------- 01. Tự kiểm tra ---------- */
 let tab = "luyen-tap", topicFilter = "Tất cả";
 let exam = null;      // đề đang làm
@@ -61,8 +68,10 @@ function renderQuizSection() {
   if (isAdmin()) tabs.push(["quan-tri", "Quản trị"]);
   view.innerHTML = `<h1>Tự kiểm tra</h1>
     <p class="lede">Luyện tập tự do, hoặc tạo đề thi có tính giờ để chấm điểm và xếp hạng. Ngân hàng hiện có <b class="num">${DATA.questions.length}</b> câu hỏi.</p>
+    ${gateBanner("Đăng nhập để thi, lưu kết quả, xem bảng xếp hạng và lịch sử. Chưa đăng nhập chỉ luyện tập được bộ 5 câu.")}
     <div class="tabs" role="tablist">${tabs.map(([k, l]) => `<button role="tab" type="button" data-tab="${k}" aria-selected="${k === tab}">${l}</button>`).join("")}</div>
     <div id="pane"></div>`;
+  wireGate();
   view.querySelectorAll("[data-tab]").forEach(b => b.onclick = () => { if (exam && !confirmLeave()) return; tab = b.dataset.tab; if (tab === "luyen-tap") practiceSet = null; renderQuizSection(); });
   ({ "luyen-tap": panePractice, "thi": paneExam, "bang-tong": paneOverall, "xep-hang": paneRank, "lich-su": paneHistory, "quan-tri": paneAdmin }[tab] || panePractice)();
 }
@@ -117,6 +126,7 @@ function panePractice() {
 /* Thi */
 const examKey = (topic, n) => `${topic}|${n}`;
 function paneExam() {
+  if (needLogin("Đăng nhập Google để tạo đề thi, chấm điểm và tham gia xếp hạng.")) return;
   if (exam) return renderExam();
   if (result) return renderResult();
   const pool = t => DATA.questions.filter(q => t === "Tất cả" || q.topic === t);
@@ -340,7 +350,7 @@ function renderNews() {
 }
 
 /* ---------- 04. Tra cứu nhanh ---------- */
-const linkCell = u => u ? `<a href="${esc(u)}" target="_blank" rel="noopener">Xem ↗</a>` : `<span class="hint">–</span>`;
+const linkCell = u => !u ? `<span class="hint">–</span>` : (user || !configured) ? `<a href="${esc(u)}" target="_blank" rel="noopener">Xem ↗</a>` : `<button class="lock" type="button" data-login title="Đăng nhập để mở văn bản">🔒 Đăng nhập</button>`;
 function table(head, rows, monoCols = [], linkCol = -1) {
   const r = (rows || []).filter(x => hit(x.join(" ")));
   return `<div class="tbl-wrap"><table><thead><tr>${head.map(h => `<th>${h}</th>`).join("")}</tr></thead><tbody>${r.map(x => `<tr>${x.map((c, i) => i === linkCol ? `<td>${linkCell(c)}</td>` : `<td class="${monoCols.includes(i) ? "num" : ""}">${hl(c)}</td>`).join("")}</tr>`).join("") || `<tr><td colspan="${head.length}" class="empty">Không có kết quả.</td></tr>`}</tbody></table></div>`;
@@ -348,7 +358,8 @@ function table(head, rows, monoCols = [], linkCol = -1) {
 function renderLookup() {
   const L = DATA.lookup;
   view.innerHTML = `<h1>Tra cứu nhanh</h1>
-  <p class="lede">Giá điện, phân cấp, nhóm dự án và văn bản thường dùng. Bấm "Xem" để mở văn bản hoặc nguồn tham chiếu.</p>
+  <p class="lede">Giá điện, thẩm quyền, thời hạn và văn bản thường dùng. Bấm "Xem" để mở văn bản hoặc nguồn tham chiếu.</p>
+  ${gateBanner("Đăng nhập để mở link văn bản gốc và nguồn tham chiếu.")}
   <h2>Giá bán lẻ điện 2025</h2>${table(["Nội dung", "Mức / phạm vi", "Thời điểm", "Văn bản", "Xem"], L.retail, [], 4)}
   <h2>Khung giá phát điện 2025</h2>
   <p class="hint">Giá tối đa, đồng/kWh, chưa gồm VAT.</p>
@@ -368,6 +379,7 @@ function renderLookup() {
   <ul class="hint">${(L.permitNotes || []).map(n => `<li>${esc(n)}</li>`).join("")}</ul>
   <h2>Văn bản pháp luật</h2>${table(["Loại", "Số hiệu", "Trích yếu", "Xem"], L.docs, [1], 3)}
   <p class="hint">Link dẫn đến cổng thông tin cơ quan nhà nước hoặc trang tra cứu pháp luật. Đối chiếu bản gốc có chữ ký số trước khi viện dẫn chính thức.</p>`;
+  wireGate();
 }
 
 /* ---------- Điều hướng ---------- */
@@ -402,7 +414,7 @@ async function boot() {
   route();
   if (configured) onAuthStateChanged(auth, u => {
     user = u; renderUser();
-    if (current === "tu-kiem-tra" && !exam && tab !== "luyen-tap") renderQuizSection();
+    if (!exam && (current === "tu-kiem-tra" || current === "tra-cuu")) route();
   });
 }
 boot();
