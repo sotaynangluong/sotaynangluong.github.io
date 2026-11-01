@@ -1,8 +1,38 @@
 {
- "updated": "2026-11-01T01:50:26.887402+00:00",
- "count": 266,
+ "updated": "2026-11-01T11:23:22.273110+00:00",
+ "count": 271,
  "errors": [],
  "items": [
+  {
+   "title": "Giảm giá điện, góp phần ổn định kinh tế và bảo đảm an sinh xã hội",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVW1hZEpNSHhHdXd2MzltSFBfU1B6QTRkQmkySGVnRklXQ1dpcW9pWVBoVlo3NkNBQlAzWUFUSkRmY0cxNlJEV0daMG1xRzlVa1ZpSDYxZmxxdzl6RUNhT1ZsT0NmNlVMaVVjWFZJemotM3dpT1duMTBSUlhPNk0yZTUtd216RWZ6NEw1WnJKUDdFMV9yZnNsUXhmTnFwbk5kMUVnMnM3S3RDdw?oc=5",
+   "source": "media.chinhphu.vn",
+   "group": "Chính phủ",
+   "topic": "Giá điện",
+   "date": "2026-11-01T08:22:00+00:00",
+   "enriched": true,
+   "url": "https://media.chinhphu.vn/video/giam-gia-dien-gop-phan-on-dinh-kinh-te-va-bao-dam-an-sinh-xa-hoi-27360.htm"
+  },
+  {
+   "title": "Nỗ lực giảm áp lực chi phí năng lượng",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOR1o2R2xCdDU2b0pEOGRDMzFaWEpRbXFPOFRJWFZFd0NTUEhlbEJ5UHRmTW9LYmQ0a2tGbzRHMm4zVVdRSkZ0QW1MS0JZNF8yMWdvVXZHTFlsN256aVdPaEYzSUs3aE1ENzRmaGo2Y2FYUVc3MVp1b0x6dVN4bDJrR29lTHZVdw?oc=5",
+   "source": "media.chinhphu.vn",
+   "group": "Chính phủ",
+   "topic": "Khác",
+   "date": "2026-11-01T07:43:00+00:00",
+   "enriched": true,
+   "url": "https://media.chinhphu.vn/video/no-luc-giam-ap-luc-chi-phi-nang-luong-27361.htm"
+  },
+  {
+   "title": "Thông tin chung về vận hành hệ thống điện Quốc gia ngày 31/10/2026",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZVhGNW14U3NDYTdXNGpaODVQXzdISDlGZXNCWmRTUXNRVHdoakxHeTVmUGNwUVU2c013QWVTc1NUSGN4WlVpclMtWXk2bWsxN0Nsck12eF80RmxqWktNYVdsci1OMjE1dXU1WVRTZXNYVVhMakRFSEFuSmtOdkw5R0FqZjlaX0dVZ3JocjkxaGRMbWNKZjMzR0p1ZVJwUFAzR0lfUEpPNUxfYlFRanA1MTlOSGtKQQ?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Vận hành",
+   "date": "2026-11-01T04:00:00+00:00",
+   "enriched": true,
+   "url": "https://www.evn.com.vn/d/vi-VN/news/Thong-tin-chung-ve-van-hanh-he-thong-dien-Quoc-gia-ngay-31102026-60-2015-510176"
+  },
   {
    "title": "Điều chỉnh giảm giá bán lẻ điện bình quân từ ngày 1/11/2026",
    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbG9VVHMtalUzNXUzanlkLS10cktBOUt5SUd3a05hb1hWeUNaaWFaX21kMHVrVnV6Zk45ZjktLWFrRzFyVlR2a29kUU9qWEJBeFVhMmVqR0stU0NJX1dXVDRGdzE1bUJyaFNCVmt5Zl9CcXppQVlTWm9UMkRXTlFXM3dycmRSTThfaHMxRE9XbjZZa2hjd01vQm9HOVdfRjBnanhKazZlWDVwZW9GR2VjLTJIWlpCc2ZqU1lj?oc=5",
@@ -42,6 +72,16 @@
    "date": "2026-10-31T04:00:00+00:00",
    "enriched": true,
    "url": "https://www.evn.com.vn/d/vi-VN/news/Thong-tin-chung-ve-van-hanh-he-thong-dien-Quoc-gia-ngay-30102026-60-2015-510168"
+  },
+  {
+   "title": "Đóng điện máy biến áp 900MVA, nâng công suất Trạm 500kV Di Linh lên 1.350MVA",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSWpCYm1KMnZrX1loRXdmNkpSUXlVUUpHQ0EwMnE5MG4yR2lTbEpnd0lGb3YxOEg4N0Z4LW5ZMTczZkNqMVM5S2NfWHU0TVR0QnhJZ2JWVG9WTS1FQUtSb2tGNkZvcmNrMmRKcTRqX19KYVJYZjBQZkNNcENJU0xZd01ZOHluNHhpelhVQ2ZnaVJkaXpON1pacFdSNGhjMzlXZ3AzNUNFRGduSVNQOUliWVhSMVc3OGliTGszODd5bDk?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Dự án",
+   "date": "2026-10-31T04:00:00+00:00",
+   "enriched": true,
+   "url": "https://www.evn.com.vn/d/vi-VN/news/Dong-dien-may-bien-ap-900MVA-nang-cong-suat-Tram-500kV-Di-Linh-len-1350MVA-60-13-510166"
   },
   {
    "title": "Đóng điện thành công máy biến áp AT1 Trạm biến áp 500kV Di Linh, nâng công suất của Trạm lên 1.350MVA",
@@ -92,6 +132,16 @@
    "date": "2026-10-30T12:28:00+00:00",
    "enriched": true,
    "url": "https://www.evn.com.vn/d/vi-VN/news/Doan-Thanh-nien-EVN-boi-duong-kien-thuc-ky-nang-cho-106-can-bo-Doan-60-2031-510164"
+  },
+  {
+   "title": "EEMC mở rộng hợp tác với POSCO International để phát triển thị trường quốc tế",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaVBUOHQtVkJuSmtJeTZnVlNQcTZhZmdvZ29mZnZKTnBPdjhTaUd3RGtaTjg2N2MzSS1Ba2FPekltdkVZN0pIOW4zTkVNWmp6OWN1VmJTaWJqdTFvSTk3Rk9DZVJGdy1xV0YzejhkekVuQVhvbHBFblBNaHFQVURPaHpjX1Z6WFFOVGtVbFBSYXlDSTV0RTFtNGFYM2xBZzQ4WERTcl8ycUJMdWdwR2ZFT3lhNjVfamt6Q2I2QXU5aS1zUmVF?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Khác",
+   "date": "2026-10-30T07:49:00+00:00",
+   "enriched": true,
+   "url": "https://www.evn.com.vn/d/vi-VN/news/EEMC-mo-rong-hop-tac-voi-POSCO-International-de-phat-trien-thi-truong-quoc-te-60-12-510160"
   },
   {
    "title": "Ban Quản lý dự án Điện 1: 30 năm trưởng thành cùng những công trình điện trọng điểm",
@@ -756,6 +806,14 @@
    "date": "2026-10-25T01:26:00+00:00"
   },
   {
+   "title": "Hướng dẫn theo dõi lượng điện dùng hàng ngày với ứng dụng EVN CSKH",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQU3gwbW81ZmpJYUdvOFRvb0xkU29ZX3FLMGQ4d1lybk9BRHMxWWRuQXJONzctXzRxcFJfd1NXSm4wNTcwRC16VXNzcFBjMkZqd1ZIZWRvWVBvY0hPdzhiMk03N2hvRDVlbUtEdldBZFNuZDhKeVFzdUd6SE1yZlF2MFhBNmctZXVsQUxOSE1paWVPcC1lamF4dXdONE9Mc3A5ZUxJU09EVmU4T1Zoa00taVR3Y1djQQ?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Khác",
+   "date": "2026-10-24T23:30:07+00:00"
+  },
+  {
    "title": "Triển khai toàn quốc 12 dịch vụ công ngành điện trên VNeID",
    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaUFEUjZ4UlBjWWZfdWw2YTcxVjlWVXQtNGxTZzkzTUVHaHBOU3V6ZlMyenh3RWE3Vl8zOGFfSEFWYjdHVWdGb2tveXNEczJtd1RKWkk3ekkwNnUzQ3ZZdnk2YUdoOGZFdGhOWGx2Mm1PRFYxZWtSLWFlSlA1WklGYjB4OWdTcWJpVDRqN0xRb0g0YlRudGtpUlF1VTRZLXkyZWc?oc=5",
    "source": "media.chinhphu.vn",
@@ -850,14 +908,6 @@
    "group": "EVN",
    "topic": "Khác",
    "date": "2026-10-23T09:29:00+00:00"
-  },
-  {
-   "title": "Hướng dẫn theo dõi lượng điện dùng hàng ngày với ứng dụng EVN CSKH",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNLUJlcWNtazlSeTAzNkFZaXhWVVYwQlFyd2FTSkdObnFnQ3dPNnhfZ09iNGJFbURXUGh2REN1NEZSOEtidkVZUm9YZldBNl9qUGpMSkk4OF8ycVBXRXVycjlwQWVXeGs4Xy1yMVZzdncxRnUxOXJrMkhRQUpSS0ppSGxfQUgxTDB0OC1wTkhwZXY4WTJIVEsxLTV3cVl6eXgxTHRZVGl3eU45MXFycGVxNjhTYUV5bElO?oc=5",
-   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
-   "group": "EVN",
-   "topic": "Khác",
-   "date": "2026-10-23T09:08:00+00:00"
   },
   {
    "title": "'An ninh năng lượng cho chuyển đổi xanh trong kỷ nguyên số'",
@@ -2117,11 +2167,11 @@
   },
   {
    "title": "Thông tư số 14/2026/TT-BTP của Bộ Tư pháp: Hướng dẫn về thực hiện thủ tục hành chính trên môi trường điện tử",
-   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9WRWtXdjFwbmxiTWFLS0xkNEpXVzNURjd0SG5KcDdhSjd2WGoyMDR5STF2OW1oOFcxVVlWMGh0OXBzdFZzWW5nemZUVVdiR0trejRMVDNpcWVTeU9JcHBveTViNA?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB4QTJtWThmUTRrZDNyTEZQZWhGWWYzdnRieFlWckVBX0p6MUtrdmhLV0t0amRuLUNwSjJDWWJWTmdERi0xNXpQeGlkc2NTRHRYcndfc0QxdVpzSVdqVVM3cGx3bmZiaFZTbGlDRU5qbGxYbzZldFpyZnB3?oc=5",
    "source": "Cổng Thông tin điện tử Chính phủ",
    "group": "Chính phủ",
    "topic": "Chính sách",
-   "date": "2026-10-05T10:08:17+00:00"
+   "date": "2026-10-05T11:39:09+00:00"
   },
   {
    "title": "Bộ trưởng Bộ Công Thương Lê Mạnh Hùng chỉ đạo đẩy nhanh tiến độ các dự án tại Trung tâm Điện lực Quảng Trạch",
