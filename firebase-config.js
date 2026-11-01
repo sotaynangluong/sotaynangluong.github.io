@@ -5,7 +5,8 @@ export const firebaseConfig = {
   projectId: "so-tay-nang-luong",
   storageBucket: "so-tay-nang-luong.firebasestorage.app",
   messagingSenderId: "526900219399",
-  appId: "1:526900219399:web:cbf4a62627db70827724a2"
+  appId: "1:526900219399:web:cbf4a62627db70827724a2",
+  measurementId: "G-YV09K4LX56"
 };
 
 // UID quản trị (xem ở Firebase Console → Authentication → Users). Phải khớp với firestore.rules.

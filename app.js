@@ -1,7 +1,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/12.11.0/firebase-app.js";
 import { getAuth, GoogleAuthProvider, signInWithPopup, signInWithRedirect, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/12.11.0/firebase-auth.js";
-import { getFirestore, collection, addDoc, getDocs, deleteDoc, doc, query as fq, where, orderBy, limit, serverTimestamp } from "https://www.gstatic.com/firebasejs/12.11.0/firebase-firestore.js";
-import { firebaseConfig, ADMIN_UIDS, RECAPTCHA_SITE_KEY, AI_MODEL } from "./firebase-config.js?v=30";
+import { getFirestore, collection, addDoc, getDocs, deleteDoc, doc, setDoc, query as fq, where, orderBy, limit, serverTimestamp } from "https://www.gstatic.com/firebasejs/12.11.0/firebase-firestore.js";
+import { firebaseConfig, ADMIN_UIDS, RECAPTCHA_SITE_KEY, AI_MODEL } from "./firebase-config.js?v=31";
 
 /* ---------- Khởi tạo ---------- */
 const configured = !!firebaseConfig.projectId;
@@ -326,12 +326,23 @@ function attemptTable(rows, admin) {
     ${rows.map(a => `<tr><td class="num">${a.createdAt ? new Date(a.createdAt.seconds * 1000).toLocaleString("vi-VN") : "–"}</td>${admin ? `<td>${esc(a.name)}</td>` : ""}<td>${esc((a.key || "").replace("|", " · "))}${a.ranked ? "" : " <span class='tag'>không xếp hạng</span>"}</td><td class="num">${(+a.score).toFixed(1)}</td><td class="num">${a.correct}/${a.total}</td><td class="num">${fmtTime(a.duration)}</td>${admin ? `<td><button class="btn danger" type="button" data-del="${a.id}">Xóa</button></td>` : ""}</tr>`).join("")}
     </tbody></table></div>`;
 }
+async function loadSubscribers() {
+  try {
+    const snap = await getDocs(fq(collection(db, "subscribers"), orderBy("createdAt", "desc"), limit(2000)));
+    const rows = snap.docs.map(d => d.data());
+    const csv = "email,ngay_dang_ky,nguon\n" + rows.map(r => [r.email, r.createdAt ? new Date(r.createdAt.seconds * 1000).toISOString() : "", r.source || ""].join(",")).join("\n");
+    $("#subs").innerHTML = `<p class="hint"><b class="num">${rows.length}</b> email. <a download="nguoi-dang-ky.csv" href="data:text/csv;charset=utf-8,${encodeURIComponent("\ufeff" + csv)}">Tải CSV</a></p>
+      <div class="tbl-wrap"><table><thead><tr><th>Email</th><th>Ngày đăng ký</th><th>Nguồn</th><th></th></tr></thead><tbody>${rows.slice(0, 200).map(r => `<tr><td>${esc(r.email)}</td><td class="num">${r.createdAt ? new Date(r.createdAt.seconds * 1000).toLocaleDateString("vi-VN") : "–"}</td><td>${esc(r.source || "")}</td><td><button class="btn danger" type="button" data-unsub="${esc(r.email)}">Xóa</button></td></tr>`).join("")}</tbody></table></div>`;
+    $("#subs").querySelectorAll("[data-unsub]").forEach(b => b.onclick = async () => { if (!confirm("Xóa email " + b.dataset.unsub + "?")) return; try { await deleteDoc(doc(db, "subscribers", b.dataset.unsub)); loadSubscribers(); } catch (e) { alert(e.message); } });
+  } catch (e) { $("#subs").innerHTML = `<p class="empty">Không tải được: ${esc(e.message)}</p>`; }
+}
 async function paneAdmin() {
   if (!isAdmin()) return paneRank();
   $("#pane").innerHTML = `<p class="empty">Đang tải…</p>`;
   try {
     const rows = await fetchAttempts();
-    $("#pane").innerHTML = `<p class="hint">${rows.length} lượt thi gần nhất. Xóa lượt thi không hợp lệ (gian lận, thi thử).</p>` + attemptTable(rows, true);
+    $("#pane").innerHTML = `<h3>Người đăng ký nhận tin</h3><div id="subs"><p class="empty">Đang tải…</p></div><h3>Lượt thi</h3><p class="hint">${rows.length} lượt thi gần nhất. Xóa lượt thi không hợp lệ (gian lận, thi thử).</p>` + attemptTable(rows, true);
+    loadSubscribers();
     $("#pane").querySelectorAll("[data-del]").forEach(b => b.onclick = async () => {
       if (!confirm("Xóa lượt thi này?")) return;
       try { await deleteDoc(doc(db, "attempts", b.dataset.del)); paneAdmin(); } catch (e) { alert("Không xóa được: " + e.message); }
@@ -544,6 +555,9 @@ function renderPolicy() {
       <p>Mục đích: chấm điểm, lưu lịch sử, lập bảng xếp hạng công khai (hiển thị tên đã chọn và điểm). Người dùng có thể đổi cách hiển thị tên ở tab "Lịch sử của tôi" và yêu cầu xóa dữ liệu qua email liên hệ.</p></section>
     <section class="card"><h3>1a. Trợ lý hỏi đáp AI</h3>
       <p>Trợ lý dùng mô hình Gemini của Google qua Firebase AI Logic. Câu hỏi của người dùng cùng các đoạn nội dung liên quan của Sổ tay được gửi tới Google để tạo câu trả lời; Sổ tay không lưu lịch sử hỏi đáp trên máy chủ. Không nhập thông tin cá nhân, bí mật kinh doanh vào ô hỏi đáp. Câu trả lời do AI tạo, có thể sai, chỉ mang tính tham khảo.</p></section>
+    <section class="card"><h3>1b. Đo lượt truy cập và bản tin email</h3>
+      <p>Trang chỉ bật Google Analytics (cookie của Google) khi người xem bấm "Đồng ý"; dữ liệu là số liệu thống kê lượt xem, thiết bị, khu vực, không gắn với tên hay email. Có thể đổi lựa chọn bằng cách xóa dữ liệu trang trong trình duyệt.</p>
+      <p>Email đăng ký nhận tin chỉ dùng để gửi bản tin của Sổ tay, lưu trên Firebase (Google), chỉ quản trị viên xem được, không chia sẻ cho bên thứ ba. Muốn hủy, gửi yêu cầu tới email liên hệ; email sẽ được xóa.</p></section>
     <section class="card"><h3>2. Tin tức</h3>
       <p>Mục Tin tức chỉ hiển thị tiêu đề, tên nguồn, ngày đăng và đường dẫn đến bài gốc trên cổng thông tin của cơ quan nhà nước, doanh nghiệp ngành điện. Trang không sao chép nội dung, hình ảnh của bài viết.</p></section>
     <section class="card"><h3>3. Văn bản và đường dẫn</h3>
@@ -690,10 +704,44 @@ function chatUI() {
       let txt = "";
       for await (const ch of res.stream) { txt += ch.text(); out.innerHTML = renderAnswer(txt, ctx); log.scrollTop = log.scrollHeight; }
       out.innerHTML = renderAnswer(txt || "Không nhận được câu trả lời.", ctx) + `<div class="ai-src">Tư liệu: ${ctx.slice(0, 5).map((c, i) => `<a href="${c.link}">[${i + 1}] ${esc(c.title)}</a>`).join(" · ")}</div>`;
-      store.set(usageKey(), used + 1);
+      store.set(usageKey(), used + 1); track("ai_question");
     } catch (err) {
       out.innerHTML = `Không gọi được trợ lý AI (${esc(err.message || err)}). Vui lòng thử lại sau.`;
     } finally { aiBusy = false; }
   };
 }
 if (configured) chatUI();
+
+/* ---------- Đăng ký nhận tin ---------- */
+{ const f = $("#sub-form");
+  if (f) f.onsubmit = async e => {
+    e.preventDefault();
+    const msg = $("#sub-msg"), em = $("#sub-email").value.trim().toLowerCase();
+    if (!/^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/.test(em) || em.length > 120) { msg.textContent = "Email chưa đúng định dạng."; return; }
+    if (!$("#sub-ok").checked) { msg.textContent = "Vui lòng tích ô đồng ý lưu email."; return; }
+    if (!configured) { msg.textContent = "Trang chưa kết nối máy chủ."; return; }
+    msg.textContent = "Đang gửi…";
+    try { await setDoc(doc(db, "subscribers", em), { email: em, consent: true, source: current || "trang", createdAt: serverTimestamp() }); msg.textContent = "Đã đăng ký. Cảm ơn anh/chị!"; f.reset(); track("sign_up", { method: "newsletter" }); }
+    catch (err) { msg.textContent = err.code === "permission-denied" ? "Email này đã đăng ký trước đó." : "Chưa gửi được, vui lòng thử lại sau."; }
+  };
+}
+
+/* ---------- Đo lượt truy cập (Google Analytics qua Firebase), chỉ bật khi người xem đồng ý ---------- */
+let analytics = null, logEv = null;
+function track(name, params = {}) { if (analytics && logEv) try { logEv(analytics, name, params); } catch {} }
+async function startAnalytics() {
+  if (analytics || !configured || !firebaseConfig.measurementId) return;
+  try {
+    const m = await import(FB + "firebase-analytics.js");
+    if (!(await m.isSupported())) return;
+    analytics = m.getAnalytics(app); logEv = m.logEvent;
+    trackPage();
+  } catch {}
+}
+function trackPage() { track("page_view", { page_title: document.title + " – " + (current || ""), page_location: location.href, page_path: "/" + (location.hash || "#tin-tuc") }); }
+addEventListener("hashchange", () => setTimeout(trackPage, 50));
+{ const bar = $("#consent-bar"), c = store.get("stnl-analytics", null);
+  if (c === "yes") startAnalytics();
+  else if (c === null && bar && firebaseConfig.measurementId) bar.hidden = false;
+  bar?.querySelectorAll("[data-consent]").forEach(b => b.onclick = () => { store.set("stnl-analytics", b.dataset.consent); bar.hidden = true; if (b.dataset.consent === "yes") startAnalytics(); });
+}

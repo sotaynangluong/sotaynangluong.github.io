@@ -30,5 +30,18 @@ service cloud.firestore {
       allow update: if false;
       allow delete: if isAdmin();
     }
+
+    // Đăng ký nhận tin: ai cũng tạo được (không cần đăng nhập), mã tài liệu = email; chỉ quản trị viên đọc, xóa.
+    match /subscribers/{email} {
+      allow create: if request.resource.data.keys().hasOnly(['email','consent','source','createdAt'])
+        && request.resource.data.email == email
+        && email.size() <= 120
+        && email.matches('^[a-z0-9._%+-]+@[a-z0-9.-]+[.][a-z]{2,}$')
+        && request.resource.data.consent == true
+        && request.resource.data.source is string && request.resource.data.source.size() <= 30
+        && request.resource.data.createdAt == request.time;
+      allow read, delete: if isAdmin();
+      allow update: if false;
+    }
   }
 }

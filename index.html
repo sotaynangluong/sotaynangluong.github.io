@@ -8,7 +8,7 @@
 <meta name="description" content="Sổ tay đầu tư xây dựng ngành điện: tin tức, kiểm tra kiến thức, cẩm nang rủi ro và tra cứu nhanh cho dự án điện tại Việt Nam.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Be+Vietnam+Pro:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap">
-<link rel="stylesheet" href="style.css?v=30">
+<link rel="stylesheet" href="style.css?v=31">
 </head>
 <body>
 <div class="app">
@@ -35,6 +35,15 @@
       <div class="userbox" id="userbox"></div>
     </div>
     <section id="view"><p class="empty">Đang tải dữ liệu…</p></section>
+    <section class="subscribe" aria-labelledby="sub-h">
+      <div><h2 id="sub-h">Nhận bản tin cập nhật</h2><p class="hint">Thông báo khi có văn bản pháp lý mới, bộ câu hỏi và cẩm nang mới. Tối đa 1–2 email mỗi tháng.</p></div>
+      <form id="sub-form" novalidate>
+        <input id="sub-email" type="email" inputmode="email" autocomplete="email" placeholder="Email của anh/chị" maxlength="120" required>
+        <button class="btn primary" type="submit">Đăng ký</button>
+        <label class="sub-consent"><input id="sub-ok" type="checkbox" required> Tôi đồng ý để Sổ tay lưu email này nhằm gửi bản tin; có thể hủy bất kỳ lúc nào qua email liên hệ. <a href="#chinh-sach">Chính sách dữ liệu</a></label>
+        <p id="sub-msg" class="hint" role="status"></p>
+      </form>
+    </section>
     <footer class="foot">
       <div><b>Sổ tay đầu tư xây dựng ngành điện</b> · <span class="ver">Phiên bản V.01 · Pháp lý cập nhật đến ngày 30/10/2026</span></div>
       <div>Liên hệ: <b>Nghiêm Trọng Việt</b> · Email: <span class="mail">nghiemtrongviet@gmail.com</span></div>
@@ -42,7 +51,11 @@
     </footer>
   </main>
 </div>
-<script type="module" src="app.js?v=30"></script>
+<script type="module" src="app.js?v=31"></script>
 <button id="totop" class="totop" type="button" aria-label="Lên đầu trang" title="Lên đầu trang"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M12 5l-7 7m7-7l7 7M12 5v14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+<div id="consent-bar" class="consent-bar" hidden role="dialog" aria-label="Đồng ý cookie">
+  <p>Sổ tay dùng Google Analytics (cookie) để đếm lượt truy cập ẩn danh, giúp cải thiện nội dung. Anh/chị có đồng ý không? <a href="#chinh-sach">Chi tiết</a></p>
+  <div><button class="btn" type="button" data-consent="no">Từ chối</button><button class="btn primary" type="button" data-consent="yes">Đồng ý</button></div>
+</div>
 </body>
 </html>
