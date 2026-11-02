@@ -1,8 +1,18 @@
 {
- "updated": "2026-11-01T11:23:22.273110+00:00",
- "count": 271,
+ "updated": "2026-11-02T01:51:50.935960+00:00",
+ "count": 276,
  "errors": [],
  "items": [
+  {
+   "title": "Giá điện giảm 2%, còn 2.159,9 đồng/kWh",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPOWZhU2tUZVI5bkU0QlVjNE9Ic0hGb2tsRU5wYS04RU1BOF9nSVVvS0pEMHMyLU4yel90MzBkSjUyTG5MT0cxNXpIVlZjYzFzTGVrR2VPVzBiUWNMbks4VTk2bS1XSFlUbmI2cklmdjhiaDk2V21VRDgtak1WZHE3UXRB?oc=5",
+   "source": "media.chinhphu.vn",
+   "group": "Chính phủ",
+   "topic": "Giá điện",
+   "date": "2026-11-01T11:48:00+00:00",
+   "enriched": true,
+   "url": "https://media.chinhphu.vn/video/gia-dien-giam-2-con-21599-dong-kwh-27364.htm"
+  },
   {
    "title": "Giảm giá điện, góp phần ổn định kinh tế và bảo đảm an sinh xã hội",
    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVW1hZEpNSHhHdXd2MzltSFBfU1B6QTRkQmkySGVnRklXQ1dpcW9pWVBoVlo3NkNBQlAzWUFUSkRmY0cxNlJEV0daMG1xRzlVa1ZpSDYxZmxxdzl6RUNhT1ZsT0NmNlVMaVVjWFZJemotM3dpT1duMTBSUlhPNk0yZTUtd216RWZ6NEw1WnJKUDdFMV9yZnNsUXhmTnFwbk5kMUVnMnM3S3RDdw?oc=5",
@@ -34,6 +44,26 @@
    "url": "https://www.evn.com.vn/d/vi-VN/news/Thong-tin-chung-ve-van-hanh-he-thong-dien-Quoc-gia-ngay-31102026-60-2015-510176"
   },
   {
+   "title": "Tháo gỡ bất cập trong hoạt động thu phí điện tử đường bộ",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOWNPa0dvS2dqeDZScGljYnRnRDRsMnkyMFZFeEhpN0JsdW5qZEczdVNBelN5ZnBEd0JTY3cwWWMyRlBMWDUxOFpsWW1aRXN0WVJtS2JBRjRtcmNtMWxWdTYtSEJPYlRyZ1MyVkJyaGx4cEJIdHpJNTNndDU5YUgtbXlvaXA2Mkxjb2F1TmdRMHVMUVFwUDM4dnM4b1U2aUE?oc=5",
+   "source": "media.chinhphu.vn",
+   "group": "Chính phủ",
+   "topic": "Khác",
+   "date": "2026-11-01T04:00:00+00:00",
+   "enriched": true,
+   "url": "https://media.chinhphu.vn/video/thao-go-bat-cap-trong-hoat-dong-thu-phi-dien-tu-duong-bo-27352.htm"
+  },
+  {
+   "title": "Cổng thông tin điện tử Bộ Công Thương",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSWZnOExRdklOSFlBeDBnZlhjU25MNDRLRVFWbTdXdFZYZnBEckdIX3hydW54ZDJCRTlwaTRuWFBXS0hGZUlBaGJQUjdWdExBcVJpM3htUS1manN4TDhST0ZLQmZxWm1mQ0tva0lCdEhaaXZrRjJXakRQZEp4LS0zR0ROdzRqMHVKcXNHbGNuUTItb0JwME0wVFpSb3huRV84cXFUQWREdnE?oc=5",
+   "source": "moit.gov.vn",
+   "group": "Bộ Công Thương",
+   "topic": "Khác",
+   "date": "2026-11-01T02:45:56+00:00",
+   "enriched": true,
+   "url": "https://moit.gov.vn/?page=search&keyword=WA-0821-1305-0400-Penyedia-Gravel-Paver-Wilayah-Tangerang-Banten"
+  },
+  {
    "title": "Điều chỉnh giảm giá bán lẻ điện bình quân từ ngày 1/11/2026",
    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbG9VVHMtalUzNXUzanlkLS10cktBOUt5SUd3a05hb1hWeUNaaWFaX21kMHVrVnV6Zk45ZjktLWFrRzFyVlR2a29kUU9qWEJBeFVhMmVqR0stU0NJX1dXVDRGdzE1bUJyaFNCVmt5Zl9CcXppQVlTWm9UMkRXTlFXM3dycmRSTThfaHMxRE9XbjZZa2hjd01vQm9HOVdfRjBnanhKazZlWDVwZW9GR2VjLTJIWlpCc2ZqU1lj?oc=5",
    "source": "xaydungchinhsach.chinhphu.vn",
@@ -52,16 +82,6 @@
    "date": "2026-10-31T14:30:00+00:00",
    "enriched": true,
    "url": "https://evn.com.vn/d/vi-VN/news/Dieu-chinh-gia-ban-le-dien-binh-quan-tu-ngay-01-thang-11-nam-2026-60-142-510169"
-  },
-  {
-   "title": "Cổng thông tin điện tử Bộ Công Thương",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPbVQwWEhKRWNZTTNBQWVkRzdhcUpmemU4Y05POUFCYkN6Q01neFc1N0M3S3FyR0tnN0tJR1QzWXZlV3N4dDBvQWV2RnB1YjY4WHVOLWZ5S0tmM0ZmejdzenY3cFlLOHVacW1zYndyWVBUaXRaOXNmcGZKTWRKaEdlTlpBRlo0aTRiZ0g5RjhLcEpybVFCZVFXMnR4eWcwaUxNcndmdFN4QjVFeWgybDF0SFhDaGwzTHljSXNuaTZtdl9nRF9n?oc=5",
-   "source": "moit.gov.vn",
-   "group": "Bộ Công Thương",
-   "topic": "Khác",
-   "date": "2026-10-31T08:15:28+00:00",
-   "enriched": true,
-   "url": "https://moit.gov.vn/?page=search&keyword=WA+0821+1305+0400+Biaya+Sewa+XRF+Bruker+S1+Titan+Wilayah+Mamuju+Tengah+Sulawesi+Barat"
   },
   {
    "title": "Thông tin chung về vận hành hệ thống điện Quốc gia ngày 30/10/2026",
@@ -162,6 +182,16 @@
    "date": "2026-10-30T07:00:00+00:00",
    "enriched": true,
    "url": "https://www.mof.gov.vn/chuyen-doi-so/tin-tuc-su-kien/99percent-ho-so-hoan-thue-tiep-nhan-qua-phuong-thuc-dien-tu"
+  },
+  {
+   "title": "EVNHCMC chia sẻ kinh nghiệm vận hành lưới điện linh hoạt tại diễn đàn quốc tế",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOeDh4VGhOQ2dDRUZMWU8yeDRhSzJjSm1ocFBXOVROS3FwVnQ3bW9kRTdTcUJLRTlWMXZYRWxLTm5IZng3TGg2YXJnbXBXS0RBRk5mWk5XLUNaTG5aTmdnbUNVSVY0ZEoyQTNET1d5eGhmaDFmREtXdF9leU5NUUFxc3FHZUxkcFIwZm1UUE9QakF5Ulg4eWwyZUVUdUVzN2VLaEs4dXFYUWY5d0pYZF9PZEF4VzdFd1JrdFJEM2dpdDdoU2lr?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Vận hành",
+   "date": "2026-10-30T04:05:00+00:00",
+   "enriched": true,
+   "url": "https://www.evn.com.vn/d/vi-VN/news/EVNHCMC-chia-se-kinh-nghiem-van-hanh-luoi-dien-linh-hoat-tai-dien-dan-quoc-te-60-12-510157"
   },
   {
    "title": "Thông tin chung về vận hành hệ thống điện Quốc gia ngày 29/10/2026",
@@ -726,6 +756,14 @@
    "date": "2026-10-26T06:53:00+00:00"
   },
   {
+   "title": "EVNNPT được chấp thuận là nhà đầu tư Dự án đường dây 220kV Mỏ Cày – Mỹ Tho",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOak9JRHdPTnZyVmxOXzlyZVl4ZzVlQ1pkTGpkTjEyejdCYmZiNG10X0I1TUkwQktVTFVhblFMeHR5NzVyMWtqY1o3Y0trS1doWmI4T3p0MUlPQUQ3NHVRR21QSlJVRS1KQmxiQy16SkdWVHJGckUySlUyeW5lUFJ2TEhSQzZIQzZaLXFac0hKMWV4LVRrM3NfZE1lZjhBNUo5RGMtZEh0MnMydzd3QzFVNGJwZUZRQzgyX1AzLURn?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Dự án",
+   "date": "2026-10-26T06:42:00+00:00"
+  },
+  {
    "title": "Chủ tịch HĐTV EVN Đặng Hoàng An làm việc với liên danh nhà thầu cung cấp thiết bị cơ điện Dự án Thủy điện tích năng Bác Ái",
    "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOczF4QUlKNDJXUktfX3lteU1ka2Q1bU85TTVPVTlOdm54WS0wZXZrMG1UQU00d2V1c2Z1SkJnQjFiRG9JalRsVzYtMGdfUWI1cWVaazI5d3VPRzNJalZlWUZ5elpWZmMwMzZmVHVkdzlubU5YNnowR0V1YUVFMUU1UWE4eDNOUXdOMG9EbTAtTnVHekN2Y0RsN2NpUjI3YVowX3RSUWlFNG95RDNIS1l2MmEtN1BEbUN2c3RieTV1NWxFQ2VpYTNYcG91NWtBOXBxOWUyb05aMlk1cEV1ZzBYM2ZIQ0tRVEc2NHFsRDVmMTVELWtFWTNJM0VrYmVKUm9R?oc=5",
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
@@ -774,14 +812,6 @@
    "date": "2026-10-25T11:10:00+00:00"
   },
   {
-   "title": "EVNNPT được chấp thuận là nhà đầu tư Dự án đường dây 220kV Mỏ Cày – Mỹ Tho",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNW9aUU5EMTBzMzFiakhmRXlDdDEyNENtYk8tcEpjU3BySS16WEUxU1cxVk9IQlJwV09sUDB0Z2lLVUFPV3pyMFhNdFpPQTZBU3c4dVhkR09WYlRobURIZEI5X1hiNW5tcl9CQVVxNlR4aWxydU11V3ZWMFllX3VRQ0lDbmtGcC0xcHM4TUNmUkYzQWNSRjZsWWptWDBsVHNJbGRQcGpLa2d3YjNWUnVxYy0tYVNydE9nZE80bDh3?oc=5",
-   "source": "Tổng công ty Truyền tải điện Quốc gia",
-   "group": "EVNNPT",
-   "topic": "Dự án",
-   "date": "2026-10-25T04:09:00+00:00"
-  },
-  {
    "title": "Thông tin chung về vận hành hệ thống điện Quốc gia ngày 24/10/2026",
    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPazgweURnb3FCU0JMNjA0cENJcWZTRmxxNjItcGlwWGJTS2J5OUNQT1gyd1FSRGVYYU8yQTdxMXBJRFZSOWtTcld2WmZqM1NhY1hRQVdlQndBQzJzSWVlQkxJNWh2NVBzLTRQSExDYmVSNXVYRk43RUtNLUNtZDNQcmZscGtyYVh0bFdLUVBZODNRWjE5azVTangxdk9wTnhhcG5IY3BUV1JFV1RKcG9vTUdIR3BXZw?oc=5",
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
@@ -812,6 +842,14 @@
    "group": "EVN",
    "topic": "Khác",
    "date": "2026-10-24T23:30:07+00:00"
+  },
+  {
+   "title": "Gần 400 vận động viên EVNNPT tham gia giải chạy bộ “Sau những bước chân là ánh sáng” tại rừng Cúc Phương",
+   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPUFVld3VFeVp1TFdyMjVDRlBjQko5M1o4TXZ2bnJ0eExzOVhnUHMxZ2ZhQWRwQVMyb3QtbWk4YnJlaFp5b1NOTXNKeE9PekNzNEllVUJVb0hJeFpWeUY2WmR5dUQ5dnh3TjVoRnNGQTRaRnA2MVdmR0FlM2F3WWRBYUhzeTZmck1iUllybWxCeVUyTGVncE5nMlFLMHdiMERrMGJIYjgxamtoUTYwUnljSzEyQlVmWGxSdDBPWE5jcXVKTjBfMkxFQi1OSXc2ZW9wa19yRGpFTjJvT3NUMnQxTEtXRGxBUQ?oc=5",
+   "source": "Tổng công ty Truyền tải điện Quốc gia",
+   "group": "EVNNPT",
+   "topic": "Khác",
+   "date": "2026-10-24T10:14:00+00:00"
   },
   {
    "title": "Triển khai toàn quốc 12 dịch vụ công ngành điện trên VNeID",
@@ -1140,6 +1178,14 @@
    "group": "Bộ Công Thương",
    "topic": "Khác",
    "date": "2026-10-21T11:17:34+00:00"
+  },
+  {
+   "title": "Thứ trưởng Trương Thanh Hoài làm việc với Bộ Khí hậu, Năng lượng và Hạ tầng kỹ thuật Đan Mạch, ký ...",
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNSnVSRlNJLVN3cTg4VmZ6RlQ1SlBJRVBpLUxFZG1qMnBmQTdhcmhXbldpTV83RnVkRFdjVGZfWkVWaVBhRmJ1MXhtQ3lKUWxCc2lxU2txMHBvVTV4Z1lHUFFFX0gzMGNrSWRlWDIyQjY1TlItdzMxMWVPRldXT2RISUFvU3FqSDdmWXNERUpOV19VcndfSE9IWDI2Qm8zOWEwaVFqVENJTnh5b09sWWtmQmJLN1lGM183eHlhMEliLVJWTGdta0pvNjdVUHVsa3FpQ0RKX3FkZE1adG1YdkpQWlY3UXp2TzdX?oc=5",
+   "source": "moit.gov.vn",
+   "group": "Bộ Công Thương",
+   "topic": "Khác",
+   "date": "2026-10-21T10:47:31+00:00"
   },
   {
    "title": "Công ty Thủy điện Ialy bàn giao nhà tình thương cho hộ nghèo tại xã Ia Ly",
