@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T11:27:00.463264+00:00",
+ "updated": "2026-11-09T01:57:06.264131+00:00",
  "count": 300,
  "errors": [],
  "items": [
@@ -12,6 +12,16 @@
    "date": "2026-11-08T08:24:00+00:00",
    "enriched": true,
    "url": "https://www.evn.com.vn/d/vi-VN/news/Hai-giai-phap-cua-doan-vien-thanh-nien-EVNCPC-dat-Giai-thuong-Tuoi-tre-sang-tao-toan-quoc-nam-2026-60-2031-510236"
+  },
+  {
+   "title": "Cổng thông tin điện tử Bộ Công Thương",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNMkhyRklFT3BUb2J0UmFzU1pxUzhudHA5R05HV3NPZ1ZHNTlfWkppTXpSTnV4aFFHR3FZY1FobjR0cWZtQXNwLWl5ZnRNbTNGZWdwamcybmt0Y3ZpRXdYWTJBQ1JRYlRlWVBaa2ZHVF9jY2xhTnZUcGFJYmdsc3oyTjhHcm9TQ1NTSlZFUVJlbzBUeGZES1VWeEJrblA4b3lpR000dkNXRDA4MjNMTFhxRXI3TXFwemRtV3BGS1ZkbVlLLUI5U3lUTU1vdWlONzgtbkgza1kwaHJyeVE2LTRV?oc=5",
+   "source": "moit.gov.vn",
+   "group": "Bộ Công Thương",
+   "topic": "Khác",
+   "date": "2026-11-08T04:48:28+00:00",
+   "enriched": true,
+   "url": "https://moit.gov.vn/?page=search&keyword=WA+0859+3970+0884++%5B%5BHatiga+Moulding%5D%5D++Cari+Pembuat+Wall+Molding+Hotel+Terpercaya+Sawit+Boyolali"
   },
   {
    "title": "Thông tin chung về vận hành hệ thống điện Quốc gia ngày 07/11/2026",
@@ -154,14 +164,14 @@
    "url": "https://www.evn.com.vn/d/vi-VN/news/EVNHCMC-xuc-tien-gioi-thieu-ung-dung-tong-dai-cham-soc-khach-hang-tai-VSIF-2026-60-3557-510232"
   },
   {
-   "title": "Cổng thông tin điện tử Bộ Công Thương",
-   "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPSi1uUTJxLVo4cnBHT0NZXzEzREtaVGwyZjBVcGw2c1lMa0Q3cjZIeWJXcWdtVW5rUm9jZUt4Y0p5RTRTZ1pWNlRLd3R1aHBPSWFHNHZYbGhaVl91cUwzekFOdFhjeTB3VTFhSEphaUFVUmNjNU9lSWViQnEtUktMMDhtQVJJVmlZc3JwZlhKQ1RpU1N2SzVNWUxZZ2diU1NzYkQ0V2JmaVY3eVpnQkgxQ1FRMWFOWS1uSWZlUGRjNGk5UmtPeWRfcXUyQ2NwR2RiWTE3ZG96anhNLTQ0V09yNEtnTFZ4WTdzaUMzaWNtbzA?oc=5",
-   "source": "moit.gov.vn",
-   "group": "Bộ Công Thương",
+   "title": "CỔNG THÔNG TIN ĐIỆN TỬ BỘ TÀI CHÍNH",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNWTlqVklPR1NjOVJONXJnVGljVGRDYUhJM1oybWtVR0tsX3hLZy1fTEpqb3BNT2JqRWMzQ1kwaHB4WmpxbUJVZlJSalV5NWoyaG16NmRnYkhzSExKcGltbWRHYm14NFdxc29FQWZTSlpXNWlPcHNkb0stODMzODNzZDBSYUU0SlBGMndROGtQQklmOUppZUJQNnMtLTBNSFhDSzVRSTB3ZDhJTFhRUTZrbjVmM2pReGs3OVVicTZpUFJDWkVnUkNiTFJTdGhSeEk?oc=5",
+   "source": "Cổng thông tin điện tử Bộ Tài Chính",
+   "group": "Bộ Tài chính",
    "topic": "Khác",
-   "date": "2026-11-06T15:49:13+00:00",
+   "date": "2026-11-06T19:51:01+00:00",
    "enriched": true,
-   "url": "https://moit.gov.vn/?page=search&keyword=WA+0852+2611+9277++%5B%5BGLORION%5D%5D++Biaya+Borongan+Bangun+Plafon+Gypsum+Yang+Terbaru+Murah+Kemayoran+Jakarta+Pusat"
+   "url": "https://www.mof.gov.vn/tin-tuc-tai-chinh/thoi-su/thuc-day-va-nhan-rong-kinh-te-tuan-hoan-tu-doanh-nghiep-nho-va-vua-den-cac-nganh-hang"
   },
   {
    "title": "Áp dụng biểu giá bán lẻ điện riêng cho sạc xe điện",
@@ -432,16 +442,6 @@
    "date": "2026-11-05T00:58:00+00:00",
    "enriched": true,
    "url": "https://www.npt.com.vn/d6/vi-VN/news/Dang-bo-Cong-ty-Truyen-tai-dien-3-trao-tang-Huy-hieu-35-nam-tuoi-Dang-cho-dang-vien-Nguyen-Xuan-Manh-6-191-12785"
-  },
-  {
-   "title": "Cổng thông tin điện tử Bộ Tài Chính",
-   "link": "https://news.google.com/rss/articles/CBMixwJBVV95cUxOaDZNaE5oWlE4OUNVUVZwOE1oZGFXMzB4TmJmZzJWZ3V4TkRzcldITTVZMEpEZlVXUEdrQmpkc2FIdlpVR25jcldMTHNPRlNpSXdrbTM3c2tIdlFGNzU0cllUcmxzcWFKY2U0RldyR0R2OXBrY2Z6QUx0LUwxMEdDRXpfNTdGLTBGWk9LN2Rncml5QXRwQWpXaXZZdkxDNDJVTGQ4eXdRUDRqX1JUOVVTc0tFVllXR1c4S1hHQi1IOS1pYzZCc09leTBYX2I1cFFTWW1ta2FDQ0xhbThYVlRrZHBINU9VLWhjT21nN3hBOEUza1NybkZ1bmdLV2lQVEsyLWpUWFNaLXo0ZDc5YkpvaFNBVV94T2hubjNySW1qX2l3eTBLN2tnRXJpM2JtYlVZOXlMTWs5ejdMWFFUY2tzeGZjVEVXMlk?oc=5",
-   "source": "Cổng thông tin điện tử Bộ Tài Chính",
-   "group": "Bộ Tài chính",
-   "topic": "Khác",
-   "date": "2026-11-04T12:10:26+00:00",
-   "enriched": true,
-   "url": "https://www.mof.gov.vn/bo-tai-chinh/thong-bao-chi-dao-dieu-hanh/bao-hiem-xa-hoi-tinh-dien-bien-co-so-muong-ang-thong-bao-ve-phan-dien-tich-tru-so-lon-so-voi-tieu-chuan-dinh-muc-de-co-quan-to-chuc-co-nhu-cau-dang-ky-tiep-nhan"
   },
   {
    "title": "Tác động của việc áp dụng biểu giá điện sinh hoạt mới và giảm 2% giá điện",
@@ -1332,6 +1332,14 @@
    "url": "https://www.npt.com.vn/d6/vi-VN/news/Nong-Van-Quang-nguoi-linh-truyen-tai-dien-tro-lai-duong-chay-sau-bien-co-sinh-tu-6-191-12762"
   },
   {
+   "title": "Người lính truyền tải điện trở lại đường chạy sau biến cố \"sinh tử\"",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSmwwUlVIdndBUktSUTN0bmZGblFuNllGdUs4Nl9YMzJESVVjMnFhTjlnVzZKQXpFTkhkYzlhOVVteEtpU0ozcXFCcW1VQXY1TERHTk9yZGVKWThkbm1lNlJDbzRyUVRIUFI4aDZrS1U3ekdrQjVvb0Q2UzgyWGw0eXRJXzhORTk1bm9uZ2gtd0xlVlAwYTZMR2dleFF2dExoX3h4UUlsSEJnU0I3SEJ3d0tLM3E?oc=5",
+   "source": "Tổng công ty Truyền tải điện Quốc gia",
+   "group": "EVNNPT",
+   "topic": "Khác",
+   "date": "2026-10-29T00:00:00+00:00"
+  },
+  {
    "title": "Truyền tải điện Đông Bắc 3 tuyên truyền bảo vệ hành lang an toàn lưới điện cho gần 600 học sinh",
    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQdmlDY0hPQXJqalh2WmN5anhuZGY4WDRPVWNuTzJUeF94V3lfVmkyQXhyZTdleXVjbThoTTF2R09jTWJ2Yk5Hd19FcTJLeDFHZ0VTbGhBbE1OeVpDenlmdVBGZ3FWQlNMV054SV9WQlNaY1Uzb21hOThQaWtFdU43MDJrQjRwYlpKbkhPR2lfNDBlWjV3YXlidjF5cUZEZWg4cVY0N1dMOVBOS19fX2hsRFJmeWpsMUd0NXA0UmJkd0JCZ1g4b1I5SkJFeExSdHFEMGQ0d2dCTVJtR2hY?oc=5",
    "source": "Tổng công ty Truyền tải điện Quốc gia",
@@ -1502,6 +1510,14 @@
    "group": "Bộ Công Thương",
    "topic": "Vận hành",
    "date": "2026-10-27T10:38:34+00:00"
+  },
+  {
+   "title": "Hơn 1.000 cán bộ công nhân viên EVNNPT được đào tạo AI thực chiến: Bước đi mạnh mẽ trong chuyển đổi số",
+   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQOFBhOGdpLXZ4cnBJOTQzS2FYVnp2SFF0RFlMcUJ2c0tQVEJoZDI4NzllcmZtUzYwVUlBT3JwZHUyajBnMWRmM21SdURnSVFtZmdrWS1lNjdtTFBUb2tfR2dvc3owU3Z4M2tkd1QwS0N6LS1RVXFaTUF3WExKMkZjVXZJX25HZktWV0Y2U3A2Z2VLV2dLdjFZMGV5UGxoM3RZWTZacUZfSjNXYTJxM3gtd3dfQk03T2s4QlppTlRXbUdiR2tUMkFKQkJab196ckFpTTBtejdQVjJjNEdHNFJMM0Nzbw?oc=5",
+   "source": "Tổng công ty Truyền tải điện Quốc gia",
+   "group": "EVNNPT",
+   "topic": "Khác",
+   "date": "2026-10-27T09:18:43+00:00"
   },
   {
    "title": "Bản tin EVN số 41 năm 2026",
@@ -2646,22 +2662,6 @@
    "group": "EVN",
    "topic": "Khác",
    "date": "2026-10-18T07:00:00+00:00"
-  },
-  {
-   "title": "Hoàn thành kế hoạch cắt điện giai đoạn 2 Dự án đường dây 220kV Krông Búk – Nha Trang mạch 2",
-   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNMExuWS12a3IwcDVmVW5MbnpLRHA0cjI0UEVQUkRmVEwzZEp5ZlRWMDNKRzgzekFmUFU2REt6QkljNlNBb2FzYWFTOWczbThOLUxPVGRCeFo1WWRxdUJpX3N1N3BoUGlkenpRcW94cWJkX2hOR2FxT1VOODE3UGRBNEJuejZ1bkFueDBTM0FxTzlTUXQ4U0l1NG9wRnRtcUo4d2xsOHFJMUc4RnJRd1ZkXzR5bWRxcGZXSkFubnZUT3QwenpCR1hVVnpUaE9GTDBJa1F1aQ?oc=5",
-   "source": "Tổng công ty Truyền tải điện Quốc gia",
-   "group": "EVNNPT",
-   "topic": "Dự án",
-   "date": "2026-10-18T01:15:00+00:00"
-  },
-  {
-   "title": "Truyền tải điện Đắk Lắk: Lan tỏa niềm tin Công đoàn",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdU1hWXkwWW5XR1lXc2V6ZXhHUld6TjdyUnQ3TkZpRWlyX1V1MlJDeGZ5d1kwRmhDekVzRzJOSUxGTWU4YkEzUE1jZDFRSzdwbUNpelR6akVLM0FLRzBodTdWYWRLb01mZmQxczFUY05tMlRYWnpLeTNtWFlvWXViVW9xV3pENTNnMzNteC14RGpVa0lyVG5TeUFoZU1WN2lF?oc=5",
-   "source": "Tổng công ty Truyền tải điện Quốc gia",
-   "group": "EVNNPT",
-   "topic": "Khác",
-   "date": "2026-10-18T00:00:00+00:00"
   }
  ]
 }
