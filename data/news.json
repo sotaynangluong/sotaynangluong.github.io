@@ -1,8 +1,28 @@
 {
- "updated": "2026-11-15T01:54:12.518814+00:00",
+ "updated": "2026-11-15T11:29:38.545954+00:00",
  "count": 300,
  "errors": [],
  "items": [
+  {
+   "title": "EVNHANOI phát động chiến dịch “Mái nhà đón nắng”",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQU1AtTmliYi1RYXVndU5pREdpS0dmSnVOXzMxTjF6V012NHNOb0w5VUJUMFlSUjZmQURDVEVDSUFrU1czRUxhQjhsa1pnNDkxczBkX2RhZ1lqVHdMWWtJSmEyM3RGX0JtM2hsWkU2MjBHNzg3VkhWblVHb1EycWpjUFJCbDJBOVFBYlhKRzAxR2lFT3VTMFp2dWZHSQ?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Khác",
+   "date": "2026-11-15T04:25:00+00:00",
+   "enriched": true,
+   "url": "https://www.evn.com.vn/d/vi-VN/news/EVNHANOI-phat-dong-chien-dich-Mai-nha-don-nang-60-12-510317"
+  },
+  {
+   "title": "Thông tin chung về vận hành hệ thống điện Quốc gia ngày 14/11/2026",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPa2lCRU9vMkgyUk1rdHhReHdEWVN4OF9zbUU0VllzYmFNbXgwYXAtX1ZUZ1gtZ1pLZVJkelpDbzBVTDBiWnRvbWtWUEpmVFdDWVhmeFpzdmMyMld2d2pud3d2WkpraHQ0dklkTDVQeGFHX29mcDZycXZLTWZTdmw0Ni1YSWRwY25hU1pzQnN4Wl96YlAtVEJKZGVobTBoNGpaQVIzdDIxb25WdjY0SnlEZ29yVURVQQ?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Vận hành",
+   "date": "2026-11-15T04:00:00+00:00",
+   "enriched": true,
+   "url": "https://www.evn.com.vn/d/vi-VN/news/Thong-tin-chung-ve-van-hanh-he-thong-dien-Quoc-gia-ngay-14112026-60-2015-510322"
+  },
   {
    "title": "Trường Đại học Điện lực kỷ niệm 60 năm truyền thống",
    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPN2NBMWhORFlRTkNqc3FqRHFPQngyQldzYXBxQzF4aE1vYV9qNzNBcmtIeTU1WGxBdk9PTi1tN0Z2bmZoWHgwUjBaWm1PZk0yYVZETlRSQmZjSkNuZ3ZmZ1pjRERKSnpyRGlYRG1CUkx5S1hwaC1oZnZNcUh5TjBkdnlhRUJydUFqRjR5MnVwR3ZzRGRia0pFa25WZ0thZzNKN3hGZGFsaGdxcVRrOXhxVlYwY1NNOEZNTHc?oc=5",
@@ -12,6 +32,26 @@
    "date": "2026-11-14T05:59:51+00:00",
    "enriched": true,
    "url": "https://moit.gov.vn/tin-tuc/60-nam-truong-dai-hoc-dien-luc-va-su-menh-dao-tao-nhan-luc-cho-chuyen-dich-nang-luong.html"
+  },
+  {
+   "title": "Thông tin chung về vận hành hệ thống điện Quốc gia ngày 13/11/2026",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTDQ4a0RRT1BWaXk0Q01WVDhuTnlVaUVTMnlXbnQ4VUVqOGhKTzFwa1FfVmRKZ2pCMzlUQ243N0NHZzJzQUVmblFKNk9yLTlNNjVZVFgzY2gtLVhEVWpZd3NEQWtGb1B2Y0c1N2Y3TmRYVFFVOUdLUXYyRVJFMjc5VEFEZTZHSU83MVc2OG1GeFVWZXNSMU9ISVFTYlNJdERTQkZESkI3Mkt1Snk5U0I1T1B4WndSUQ?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Vận hành",
+   "date": "2026-11-14T04:00:00+00:00",
+   "enriched": true,
+   "url": "https://www.evn.com.vn/d/vi-VN/news/Thong-tin-chung-ve-van-hanh-he-thong-dien-Quoc-gia-ngay-13112026-60-2015-510321"
+  },
+  {
+   "title": "Đoàn Thanh niên EVNNPC bồi dưỡng kỹ năng giao tiếp, thuyết trình và tổ chức sự kiện cho 100 cán bộ Đoàn chủ chốt",
+   "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNR1YxZXpSUmlra05WVmRSdDU1YkUtWlZOb2V2aW9WSFNxRDg2YndVdGE0VUZpMjNKVHFTWGZHM0JkeDI4ZFFWOTZEUXRBenZ1YVI4dmlsYjVROF9zZzdmblB4WGVyN3c5NHdpVms0Slh4cUhZSzRVOFR4WWtjM21PWXpOTHJPb1ZiMVNqUlJpR2ZQcFBuXzNLYXI1bzh2R0NmMndDT2RXWGU3Y19wNXZ0YlMwQlFpclJ6ZHNpQzBDTGZQdVRCRGFmR1RUd0ljcXRIcW42VlpJeXZRNFFCNk84SHVWdWFpYVVJQVlwM29zelp1STdz?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Khác",
+   "date": "2026-11-13T14:29:00+00:00",
+   "enriched": true,
+   "url": "https://www.evn.com.vn/d/vi-VN/news/Doan-Thanh-nien-EVNNPC-boi-duong-ky-nang-giao-tiep-thuyet-trinh-va-to-chuc-su-kien-cho-100-can-bo-Doan-chu-chot-60-2031-510314"
   },
   {
    "title": "PC Đắk Lắk khôi phục cấp điện cho toàn bộ khách hàng sau mưa lũ",
@@ -2804,38 +2844,6 @@
    "group": "EVN",
    "topic": "Khác",
    "date": "2026-10-24T07:00:00+00:00"
-  },
-  {
-   "title": "Kết nối “ba nhà” phát triển thương mại điện tử",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPYW50N0ZxdGNGNHkweXZZaktvVDFhWjE1YXladnQ2MV8yRGVFRDFTbHVWQzIyWS1iQkhJRDhGZmtrTVIwS25wa1VnNVZwR09rcl9kTERZeW1jYWlmWEM3MF9ZMENlcWJXbFJoYmE1ekVWUHpwbjRSc1AzTGg4MTI4LTU5dTNLdXNlS3NBa0JyVDlrYmxUQWY3cC1oWTUyLUFvdnpv?oc=5",
-   "source": "moit.gov.vn",
-   "group": "Bộ Công Thương",
-   "topic": "Khác",
-   "date": "2026-10-24T06:08:46+00:00"
-  },
-  {
-   "title": "Lãnh đạo Sở Công Thương Cao Bằng thúc đẩy tiêu thụ đặc sản qua thương mại điện tử",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVUlQTkdBbWtiSnBHOV94UXpvZDF6WGNrZVdmR3VqRmVQc2JIVjNOZ0VHMHpTT1M4cERvZjQ5Z2JaZHdfMzhlczA3SHB6cDhwa3hMRlVZOXdnRGZhVl9TSDBEeEtwankyZEsySThwcHNVVjh5YURnYUFXMXBHX3JKZHNMdjF5enNmaWZsSmhRMHpjaHRlUUdodzIzdGxmZ1EtLW1obDIzZmJGNGtKanlqUFcyeUc?oc=5",
-   "source": "moit.gov.vn",
-   "group": "Bộ Công Thương",
-   "topic": "Khác",
-   "date": "2026-10-24T05:32:14+00:00"
-  },
-  {
-   "title": "Thông tin chung về vận hành hệ thống điện Quốc gia ngày 23/10/2026",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNC0zR3hpQ3BhMF81WjlydlM5cVF4MDZXT0ZCcnJjYVloQ0tzM1JDeC05ajJtUTJCUXBnVEh0VGlncHFVQWItQnpjSjhQNEpVd3ZmQ0xLY0gwYk1WVmgzclkyR0I4Z0k2LVptYTFyZ0dEX1lNV2NMU0Vwa3pacjNPck02cVpRWGRpRE9mYmp1LUtRRGVJcmQyQW1yQ00xX3hpd3RmbDVqR2RTWEM0RzdHUThxamFaUQ?oc=5",
-   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
-   "group": "EVN",
-   "topic": "Vận hành",
-   "date": "2026-10-24T04:00:00+00:00"
-  },
-  {
-   "title": "Mua thiết bị điện gia dụng cũ: Giá rẻ có thực sự tiết kiệm?",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNmM4cHJsWFdrMzhmSjlleDNZLWRtTXFPMFRjQ2VhOXBscnBxdUctZG1wUlV1MzZmZWpvaC1Rek9ycUl4cllOUTJJdzctRGdPVGpnZHpWcm04VmQwQ0ZRenVHU2pvdTh5UUh4eS1fX04tcnJHWldjMUluMEdkWXA2UXdJcGFQTXAyajI5U2haV0hUam9uMDhCc3ppeFFsenR4RFJGZmI5MHE2eFk?oc=5",
-   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
-   "group": "EVN",
-   "topic": "Khác",
-   "date": "2026-10-24T02:19:00+00:00"
   }
  ]
 }
