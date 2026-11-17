@@ -1,11 +1,108 @@
 {
- "updated": "2026-11-17T02:00:08.272038+00:00",
+ "updated": "2026-11-17T11:42:13.798825+00:00",
  "count": 300,
- "errors": [
-  "Chính phủ: HTTP Error 429: Too Many Requests",
-  "EVNNPT: HTTP Error 429: Too Many Requests"
- ],
+ "errors": [],
  "items": [
+  {
+   "title": "Chủ động phòng ngừa, ngăn chặn ma túy xâm nhập học đường tại Điện Biên",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMFNWdW83ZkFSRWFSUnM5VjBKOFRfUndFQmtMNHNWTUxIZUV5UUg0Y0VNbEFENWpRSkZSQTNzUzd4NnZaQXVmX09jWDNHM0FrOHBuSDFYc2xjRTM1R1k4aFZ4dEIwS3dxcFpyQUQwNTl4ak41UjB1c2NTTnNBRlNIeU4zeFl3WHlvUTRGZFNvRmFBSUhOdlVJRVpCbGxLSDhIaTQxeGo3UGZMQkJuVUcwM0k1R2NqQXZwTTUzOFhWdEFTdw?oc=5",
+   "source": "tiengchuong.chinhphu.vn",
+   "group": "Chính phủ",
+   "topic": "Khác",
+   "date": "2026-11-17T10:16:00+00:00",
+   "enriched": true,
+   "url": "https://tiengchuong.chinhphu.vn/chu-dong-phong-ngua-ngan-chan-ma-tuy-xam-nhap-hoc-duong-tai-dien-bien-113261117152410172.htm"
+  },
+  {
+   "title": "Khai giảng khóa đào tạo cán bộ quản lý cấp 3 khu vực miền Nam năm 2026",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZThiN1ZUbkZpZHBDYXZKNllXemp6VVpfWExQNHdLN25nOHNUc3lkSFBtTGEySXpYZ2ZoSWdWWjNnemRURVBEcHFKS0ttaElicEh0emVlYXdqUU5CQkFwZ2ktQ3RvV00zc3BNb1cybGN1MEk2UklhWElDUlVuR3RCZ1U1dk55TWxKUmx1OVlZQ1QyS2RUeElkaVlQcHI2Yk1LVlZ2NzlJNHJJOG4zSUY1MDgyU1ppRE9zZmlJ?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Khác",
+   "date": "2026-11-17T09:22:00+00:00",
+   "enriched": true,
+   "url": "https://www.evn.com.vn/d/vi-VN/news/Khai-giang-khoa-dao-tao-can-bo-quan-ly-cap-3-khu-vuc-mien-Nam-nam-2026-60-12-510352"
+  },
+  {
+   "title": "Công ty Điện lực Huế tổ chức hội thao nhân kỷ niệm 50 năm thành lập",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRWtlZnpWNnktT3VNY3cyeXhDSm9HVmpzMW9XN3JlSXhWV1JEN1VjUHhYYlR0X2xSdE9KQXUyMHdRT1FlUkh3X2NtdDBCM1hhV2JaZ0szTHZDUmNaUDNnNTlaREw2Q3F2UFpVQVBLcWxYTDhlMGo3WlRQNzYxRmRKYlJZTk9VM1JxTVJmOWJCbDhMNUQ1a3p4Y0VNb0hXWUx1Rmc1RnA3SEVfU05GbklKVDlCcWthaW1Ra1E?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Khác",
+   "date": "2026-11-17T07:40:00+00:00",
+   "enriched": true,
+   "url": "https://www.evn.com.vn/d/vi-VN/news/Cong-ty-Dien-luc-Hue-to-chuc-hoi-thao-nhan-ky-niem-50-nam-thanh-lap-60-2005-510350"
+  },
+  {
+   "title": "Thanh Hóa chấp thuận chủ trương đầu tư, nhà đầu tư Dự án Thủy điện Trung Sơn mở rộng",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNQXhOWkZ5STlmSFNLVjZxVGlKY0RKbTVDemlsSW0wWTRIeWwtZ1A2RHJJTEdsRnE2a2pCeUZkTjMycUtHdFhLN1IxcThBWTJYUDM0cERMMGF6LTl5VW5oYWplU2FidHJHSTF0bzd5X3laaVVVOG9TQjRndl9SektfLUpyYWxZa29VdFpqUUc2bDR4ZkRFcE11Z2hnZHRkQkFyeEpJSlluWWEyV3pMcEpzZWFGMUxQNXdINHhWTjlxSVViVldkNjFhdDJCcmU?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Dự án",
+   "date": "2026-11-17T06:03:00+00:00",
+   "enriched": true,
+   "url": "https://www.evn.com.vn/d/vi-VN/news/Thanh-Hoa-chap-thuan-chu-truong-dau-tu-nha-dau-tu-Du-an-Thuy-dien-Trung-Son-mo-rong-60-13-510348"
+  },
+  {
+   "title": "EVN đứng thứ 3 trong Top 500 doanh nghiệp lớn nhất Việt Nam năm 2026",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWnlkbUU1MGlacklrOTFmNkgzWUJCYlpLUTFOd25ILTd5b3BwWnF6MDNnNE51TzRuQmR5N2R4amY1cEd0enRlSmhObkRSc2R0RWdvYjhCMlBqdWxWd1dIZmR0YkVIX0RMclF3NUFRTFZPbzZCMldqWnNtQko4YWxyWFJKRUQ4bjB2ZVhpQzZQQnNfTXhPZzk3Yl9DTkpKX05BN2UtbkFzMkFDS2s5TnN1Y0p1OE1JRG9i?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Khác",
+   "date": "2026-11-17T04:44:00+00:00",
+   "enriched": true,
+   "url": "https://www.evn.com.vn/d/vi-VN/news/EVN-dung-thu-3-trong-Top-500-doanh-nghiep-lon-nhat-Viet-Nam-nam-2026-60-12-510347"
+  },
+  {
+   "title": "Lãnh đạo EVN kiểm tra tiến độ các dự án lưới điện trọng điểm tại Quảng Ninh",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcUJJdWRkTUtxaTFRSHlYc3VwTFJNXzZwS09fdk82LW9SQ01wSUhVUTJZV2tiU2F2Vl9BWW9HUVh3X1NaVlNZUlVXM2w1OHRXemw4UzVKaFZGZ04xRW0weHEyYmVkSUQ0R3BFX2xaeTRtaUNnbS1yanVVQXZsTEZfelNSTEhrQUR2VVp6RFJsSDlydGpvNUpOeTJ3b3BHM0VXVjlTWVJlR0dHVU9UVHM3UG5ubDNfX0RydVBHeDNBVVBVQQ?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Dự án",
+   "date": "2026-11-17T03:34:00+00:00",
+   "enriched": true,
+   "url": "https://www.evn.com.vn/d/vi-VN/news/Lanh-dao-EVN-kiem-tra-tien-do-cac-du-an-luoi-dien-trong-diem-tai-Quang-Ninh-60-43-510346"
+  },
+  {
+   "title": "Thông tin chung về vận hành hệ thống điện Quốc gia ngày 16/11/2026",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQTUzbEpLYkh5bUw4a2E4Y1pERG9qZ3lXcXdGUllpUy1KYUZmVHM1NWcydWlHMjJ0bU9fQmV4d3dodkRyRXFXT1BsRWVtb2FSUE1xa2hHZzlIQWJvWXFNWmN0U1JGWklfZmRlWVpMWVZFczRuQVNEWjBrUDFOVUtmaDB0d1ZxTXZscUNWVWxkYlFKZEI4QzhXYmZNa1dfYUN5MUNJdDA4aUdZVG10dmxTU0RRY2FaQQ?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Vận hành",
+   "date": "2026-11-17T03:33:00+00:00",
+   "enriched": true,
+   "url": "https://www.evn.com.vn/d/vi-VN/news/Thong-tin-chung-ve-van-hanh-he-thong-dien-Quoc-gia-ngay-16112026-60-2015-510345"
+  },
+  {
+   "title": "Sinh viên Trường Đại học Công nghệ Đông Á hào hứng lan tỏa kiến thức tiết kiệm năng lượng",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQMk5uYndoTWxHcHRyQThwaTNDbTdyaGVJMFc0Z3FuZDllM1FfMXBBMS1yUHdtVGpuYkRfUTFMb0g5R2p6YnNUVTg2dVVzdjZCcGFuU3VGaW9yTEM0c1p5SWJvNmhUeEZzMWZHLUtueXpkNHFxQVE0VzhmTlhtUjd2ODNMRGFsOU5RTExuYV85dkFMUGlRVGMwZEZPVDNacS1KRm9wam5vYzZZQTgyR1E3ajBlM1Fsc2k5WHFxMWxGRE1PZU81YXVxNHZFYjhaS0M0U2pya0J3?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Khác",
+   "date": "2026-11-17T02:59:00+00:00",
+   "enriched": true,
+   "url": "https://www.evn.com.vn/d/vi-VN/news/Sinh-vien-Truong-Dai-hoc-Cong-nghe-Dong-A-hao-hung-lan-toa-kien-thuc-tiet-kiem-nang-luong-60-666-510342"
+  },
+  {
+   "title": "Công đoàn Điện lực Việt Nam thăm hỏi, động viên người lao động Điện lực Mường Nhé",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQb0ZpSDdyNXFENTNQNS1rbXZBZ25jSzZ1ZWJvZ0FlZ0l2UEU0OTM2XzhaZDY2QWx1WFc5WUZlcUpXZkNaYWs1b3ZSQmxHM20ybHhVTzkzT3YwbzNXOF9oRmQ4QTFyZ2VMSlRweXB5b3VjMkhIZnRDQmY2Y0JKbWR1TTd3T3dqb29SXzZfR3ZwNHlhNVFJaDNYM2xxUDNBdTRLTWdjbGk0QnN1X3BBa3dqajdfVy1fX285eGJlZGI1Uk5UMndQSTBXSG1Faw?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Khác",
+   "date": "2026-11-16T10:32:00+00:00",
+   "enriched": true,
+   "url": "https://www.evn.com.vn/d/vi-VN/news/Cong-doan-Dien-luc-Viet-Nam-tham-hoi-dong-vien-nguoi-lao-dong-Dien-luc-Muong-Nhe-60-2030-510340"
+  },
+  {
+   "title": "Đảng ủy EVN chỉ đạo tuyên truyền các sự kiện văn hóa, lịch sử trọng điểm trong tháng 11",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOajhKdzZYeEZNa3lNdDdEX05yZTVIYmtEb1N6bFY0OEYwYkxvc296YkhVcTJaN2ZLeDZhbDVVWWRMR0ZDS1BJY01sWXoxd3BEV3FXZEk0Z19JZlpSS3Z0YzIwNDVwRWwySlVDY2w1cnRGUVlKTHdFQmFnMHNGUTJwZlpRTWMtZlhSbFVfN2hiYzRTZE5qUVdDRXlvSkxNaGNCNXV6WmNvMHg5MkZzaEl1elNWa3pMS2x6LXNCQ09YYUstcWdLcE11cUpadVY2OFlkZFE?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Khác",
+   "date": "2026-11-16T08:16:00+00:00",
+   "enriched": true,
+   "url": "https://www.evn.com.vn/d/vi-VN/news/Dang-uy-EVN-chi-dao-tuyen-truyen-cac-su-kien-van-hoa-lich-su-trong-diem-trong-thang-11-60-183-510337"
+  },
   {
    "title": "EVN phát động Tháng hành động vì bình đẳng giới 2026",
    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUkthak14YmxjeGdpQTljWEtkTHNHMmdkTG5fcHAzSUZQU0V6QXFBc3A4SXJIcU1iVFg5dDQ0X2hCRTMtaERhbVFYeS14U3VYZTFKcGliVXZPS1p3ejFTdVJyc283Q1JVb195VHR2dUpWREtycXhiWmxocGRzZ0RrSVNSazNpbUhxRUcxVGdFRWRPRk9fR1FJUXlOamlHQklWVXZZ?oc=5",
@@ -55,6 +152,16 @@
    "date": "2026-11-16T03:48:00+00:00",
    "enriched": true,
    "url": "https://www.npt.com.vn/d6/vi-VN/news/Chi-Nguyen-Thanh-Thu-Nguoi-giu-lua-tan-tam-va-lan-toa-yeu-thuong-6-191-12817"
+  },
+  {
+   "title": "Trang thông tin điện tử Tổng công ty Truyền tải điện Quốc gia Việt Nam",
+   "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBCcHZValJDTGFpbGlDRnNnNC1CNmVyWlFfX2o2VHdWQzF6ejJJcXhpcXVqV2h6M21WRkZpaVpyTlFndmhPTjAtVmo4bFI?oc=5",
+   "source": "Tổng công ty Truyền tải điện Quốc gia",
+   "group": "EVNNPT",
+   "topic": "Khác",
+   "date": "2026-11-16T03:48:00+00:00",
+   "enriched": true,
+   "url": "https://www.npt.com.vn/vi-VN/tin-hot"
   },
   {
    "title": "Thông tin chung về vận hành hệ thống điện Quốc gia ngày 15/11/2026",
@@ -285,6 +392,14 @@
    "date": "2026-11-13T08:28:00+00:00",
    "enriched": true,
    "url": "https://www.evn.com.vn/d/vi-VN/news/Thong-nhat-cac-yeu-cau-trong-tam-day-nhanh-tien-do-Du-an-Thuy-dien-tich-nang-Bac-Ai-60-13-510304"
+  },
+  {
+   "title": "Công văn số 945-CV/ĐU ngày 13/11/2026: Quán triệt và triển khai các văn bản của Đảng tháng 11",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPY002a1dIS3ZhUEVYUmZrcHozTk5mektxU0xmYmRSSzExTkhGUy1aRzRTbDdpVWhQXzVteDdKV1pYb3NSakRnMk54WGRpZ1NYWmpNVWVmeGRJQkhja0dpdjRFdzdwNEt2YkFhZUMyWFg4TVlaMzdvLUNMTnFHRUQ1TW1wZS1YRHZwekh1VnhyTHA3TEZaWFVrWjIzdG1yYzcyVXlQMFlqUDBfWDBMZF9lRmdDblBGUjE3b1BFbnA0eTJrVXV1NDNhZTVfWDQ3ZnZVZklRTVNR?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Khác",
+   "date": "2026-11-13T08:00:00+00:00"
   },
   {
    "title": "Biên bản đối thoại tại nơi làm việc và biên bản về việc thương lượng tập thể cấp EVNNPT năm 2026",
@@ -2775,102 +2890,6 @@
    "group": "EVN",
    "topic": "Khác",
    "date": "2026-10-27T03:48:00+00:00"
-  },
-  {
-   "title": "Mở rộng mô hình ESCO, thúc đẩy tiết kiệm năng lượng",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPV2ZvY3QtM0ZYN3Qxd2gyeUpRb1c4dHltc0ZWVkFtR0lha2lFeXZIV2FaNHVwUFMxRW93MFVZbUw5clJvUWdHZmRBMHl1OHpiLVYzdFJuZ2YzUHlxcEpXWW5Zakdzcl9wV05iMVF0dTlZVENsbnR3WmhtVW1qWmZKY0VvRUNkeVp6RUN2NGpYdk50SjEzZDkyUTFqdHNpUU1MSmc?oc=5",
-   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
-   "group": "EVN",
-   "topic": "Khác",
-   "date": "2026-10-27T03:48:00+00:00"
-  },
-  {
-   "title": "Trần Thị Lệ: Từ huy chương vàng giải bơi đến đến huy chương vàng giải chạy",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNRHV0M1ZaZXhLem0zdGVyU2I3bUhqdUktTXlJSTdQQWNtZS01dDEySWhZQTVwdHZoUmpXRUZLemxLR2xEOTZhVVhOR1NMcElhVXFjV0lncnJRelgzb2FMWGZGSC1yLTZUd3NkOUE0OHhxNHI0YjAzbDQzcDI5M09zTjYxd2VkdjVHLVhLbE5GcXBMclBveWRJd2owVlVmNi1sYXdTU3hRV3VvYTkzb3YzOTBQWlZDd1kzZ3FxNV82dw?oc=5",
-   "source": "Tổng công ty Truyền tải điện Quốc gia",
-   "group": "EVNNPT",
-   "topic": "Khác",
-   "date": "2026-10-27T01:00:00+00:00"
-  },
-  {
-   "title": "PTC3 học tập và trao đổi kinh nghiệm với các đơn vị ngành Điện tại khu vực phía Bắc",
-   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQV1FpLUpNdnEyQmw5UzdZYm50NWJFZVd5NFVVZEhseDVieEh6ZV84c2ZhUTNLMmZNdWhJSUExMWk5VF9EOFJxY3ZDUmVFQ1UzOFNTMVZzNTdEcThsTVhYRjBwSURIWEJoeWpBdjRZVjExa1hqMjdfa2N5ZFFIbFBaUzF4Nk01SHRzNzJZVnVYSGgyTUl4VFJtT1dYYzVwbGVTZTcyYWxRR3RDT0JzQVR1WmxNb1NMcVdraFl5anFUVXpKYTYxbjZIUk5BVlA?oc=5",
-   "source": "Tổng công ty Truyền tải điện Quốc gia",
-   "group": "EVNNPT",
-   "topic": "Khác",
-   "date": "2026-10-27T00:00:00+00:00"
-  },
-  {
-   "title": "Đoàn đại biểu Ủy ban Kinh tế và Năng lượng của Quốc hội Liên bang Đức làm việc tại EVN",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQX1RTNmtpNGVROUx2eXdyMmtWT1M2a2d1NElJRndjZ19qVE8zTW1BLUptcjc3YVo0a3VxN3dJSU5hTHgtRk85ZE1hYmNQcC1PNlVZNVhVTGV5cjFCVzhkRjBBVF8yUFVrY1JMWFN2YWlROXpyOUlwTUkwY0tZc3RLR1hXc0s2S0dod3JPSm9mZDZKN2tkelZNbjF2blRwZkRKYnNrZ1A1R0R1S0V6NWJfUFo3Z1F2S0s5ZGlUZDY2QkZfYzd1Q1R5MUctOFZMUXcw?oc=5",
-   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
-   "group": "EVN",
-   "topic": "Khác",
-   "date": "2026-10-26T16:41:00+00:00"
-  },
-  {
-   "title": "EVN và 4 Tổng công ty trực thuộc có trụ sở tại Hà Nội ủng hộ Quỹ “Vì người nghèo” và an sinh xã hội Thành phố Hà Nội năm 2026 tổng số tiền 3 tỷ đồng",
-   "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxPM0ozQms1dWlBU19UVUdQUDBCRkJ0dFJ2NXN3VmpxVUlBODRvMzJHWWEwQlRZSHdfLVhpV1pwY1pQVFNqb25sRDZuV2JKNDlYUF82ekNFQ0FHdDVadXdEYzd6bDdrZk5jYjlXam5xaWZKOGc2TFY1SUFMQ2g3VU52NXBmZ0VrTXp0OWRMQVJZTU8xcDMzSUxqYXI2WUhLcndnYzdIdzRKUWpWMXhqVzQ5Mk5FRnVXN0p2T1BtMEZCQ0pzTXRXMmJSMUVkay16R05iUHRwR1djUFB5WmdsWVZkZzYzZjNrV2dRWkkydjlsOW9hXzdrX0tpdm5reDc4QzVGWlJPbW5VMGtDTktxclZvWlZabkM4N0F4eHYwaXM3MWh3Z0k?oc=5",
-   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
-   "group": "EVN",
-   "topic": "Dự án",
-   "date": "2026-10-26T14:57:59+00:00"
-  },
-  {
-   "title": "Bộ Công Thương trao quyết định bổ nhiệm Viện trưởng Viện Năng lượng",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSk41S1J1ZEJtQTRpdVZqMHpZVFZWR3VtMUR3aXFpOFR2RDgyeUx0RjYzZWk4aWpGZ1dRRnJLUm5OMWJYVFFMN095NGxzVGc5WGw2MC1GNHVnTTFhT0QwNWhxZk5TWmhISkJFVlIyTjVFZTJqRm9EdmRyRjlwN00yOUlwX3d1emszWElvVW5jUjF0MERIQ2V6cFFQbEVZcEJDVEE?oc=5",
-   "source": "moit.gov.vn",
-   "group": "Bộ Công Thương",
-   "topic": "Chính sách",
-   "date": "2026-10-26T14:51:14+00:00"
-  },
-  {
-   "title": "Thứ trưởng Trương Thanh Hoài làm việc với Đoàn đại biểu Ủy ban Kinh tế và Năng lượng của Quốc hội Liên bang Đức",
-   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQdmtXTklUcWV6WV9KcWFXdXVaLUF5UXlzX3V3U2dEd0tueWxrcmtZOHU1eTQyRWE5ZmV5M0lVTzI4SFJVYU9BYWdZSl9IRXl2ZVl6b3dBVkxTa1pKRmdGMm0xRWdYVTJEdTRMVHI0dWFIVkptVzFpN1Q5Y3pFdUlLM3pEZ29ta0lneVJGUG9rVkxPN0lMTGM1UFlaVHRjbV9oUHJWR1QxMlFZN2JKdTNRY1J6UFRPTTVQekdrOVloZEdKMUdqaGo4cDd0VDR3SElUV3ZIUlpMbnFVaHNLOXJzRVB2UmxQdw?oc=5",
-   "source": "moit.gov.vn",
-   "group": "Bộ Công Thương",
-   "topic": "Khác",
-   "date": "2026-10-26T12:00:00+00:00"
-  },
-  {
-   "title": "EVNHANOI: Khai mạc Giải bóng đá truyền thống năm 2026",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQd2x6Sm9zbmhwRHBlU3pZcE9WRTlQRm4wVWRCaXhDcE1GdDdDYmNYNVh6d1BzcEo2eXNMZjE3bXRqYkZpU1ZXdjVxRTJHcmlrWWxBcFowbWk1cV9EVGpWbHVxcHJ5SkVDbk9lSjFDal9mTXlqZVZ2SkNFWTFYLXJ4eG5mTjJPZERDaDM0c1pwdEEyVDNfTDU4VnJjaF9fYThJVHZKZFNR?oc=5",
-   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
-   "group": "EVN",
-   "topic": "Khác",
-   "date": "2026-10-26T09:54:00+00:00"
-  },
-  {
-   "title": "Phát động cuộc thi tìm hiểu pháp luật về sử dụng năng lượng tiết kiệm và hiệu quả năm 2026",
-   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNWGI0bkE1VFY0bk1uTnJUTEoxa2F1eTZtUHpOTkZrSXB5dDhGSlFzY05LTFUwU19QV184bWJfSDhEcndHRS05LWN4ZDdYdlNJU1ppX0t3RGpNRWNGbkt6NDRmTWl3OW9lVHRUdldodUVaWXNHTlItQTVNc0FSYWxQQTE5MGYtWHVPYVRoRmFGSW5fbHh0TjRjd2xpX05MdTNCZzltZEphd0RQclgxeEZEa0lBT1IzRk1OcmRwdW9fbnBuWkZUYUZJdGtsZWFpZ0Z4ck40anozYw?oc=5",
-   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
-   "group": "EVN",
-   "topic": "Chính sách",
-   "date": "2026-10-26T09:22:00+00:00"
-  },
-  {
-   "title": "Quy định xử phạt vi phạm hành chính về kinh doanh trò chơi điện tử có thưởng cho người nước ngoài",
-   "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQbnFoaFpIQjVGWGM0dlFfcnVaTzRoa21vb3hjdmJaREwweDJzdS1UQkpZNE92ODBJdVJiQlJfNlZ2aGEtZTZRX0hULU5CN0FaQWdzTExLVmZqRjNVMTQwQmtnbkdoMjVsMjFfYk42OWRyVWI4dTBoSUswRTJsb3kzb0FOVnRTUVIzSllBSU9CSHduOGFIQmk5Q1JSR0lLcjdsS29DN05vTjhFTU5ScFcwdTU5NmZtNEpweDVpV3RUNWllTG9xZTRVMFZ5TkdPejlMNURLS01rbExHeFNMYXBGZ29McEo2c2tLM1o0WjFR?oc=5",
-   "source": "xaydungchinhsach.chinhphu.vn",
-   "group": "Chính phủ",
-   "topic": "Khác",
-   "date": "2026-10-26T08:57:00+00:00"
-  },
-  {
-   "title": "Thẩm tra dự án Luật Định danh và xác thực điện tử",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOc1NhRXlFZmEzcXN0cUlWQm5EWklpNHRqNk9DdU5mU0tONUdCUmZRdktYQi1sMVlxYUJ3ZERiT2dlWFNqWGRYSlRmRy1OcU9KTlBrSDNOVW5vTmlibmJYR3I4WEY0NWVvalMtSGhtNTRwRXVTUnl2Y2s5aloyUHRMTWxhZGNyenRZUEZPX3ZLNFV1V1dHS1dISTF4dFAxRXVneHJOTnFaNnJ3LUU?oc=5",
-   "source": "xaydungchinhsach.chinhphu.vn",
-   "group": "Chính phủ",
-   "topic": "Chính sách",
-   "date": "2026-10-26T08:16:00+00:00"
-  },
-  {
-   "title": "EVN ký kết gói thầu cung cấp thiết bị cơ điện cho Dự án Nhà máy thủy điện tích năng Bác Ái",
-   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQanMzVWwyZG1wc2pFa1N4bzMwRUJkY21yVUptN01BX0dtOF91WjRiR1lvZHAyN0VKX3kzcVk1UUYxR0JZUlJDYzVCclE5c0RTZjc3bEZMVjhLdE15M0U5Z3VYaFVNTEpMTFN0Q0JxRUVpYVQxREcxNVR4dUlPbmhPTC1TX3FpR2MwQ1hUSGxrd0dHMTVNRDJjS2s4cWJ3OVZLZDBqeGZjbk5ndllBT2RpajNjTWp4TEVnTk9LeVhuVjZaSkZnOF9UNTFQZkxvZGhpclhqLUpR?oc=5",
-   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
-   "group": "EVN",
-   "topic": "Dự án",
-   "date": "2026-10-26T08:10:00+00:00"
   }
  ]
 }
