@@ -1,7 +1,10 @@
 {
- "updated": "2026-11-16T11:57:24.311407+00:00",
+ "updated": "2026-11-17T02:00:08.272038+00:00",
  "count": 300,
- "errors": [],
+ "errors": [
+  "Chính phủ: HTTP Error 429: Too Many Requests",
+  "EVNNPT: HTTP Error 429: Too Many Requests"
+ ],
  "items": [
   {
    "title": "EVN phát động Tháng hành động vì bình đẳng giới 2026",
@@ -708,6 +711,14 @@
    "url": "https://www.evn.com.vn/d/vi-VN/news/Cap-dien-tro-lai-cho-toan-bo-khach-hang-bi-anh-huong-boi-mua-lu-tai-Thanh-Hoa-60-3557-510271"
   },
   {
+   "title": "Nữ đoàn viên, người lao động EVN gặp gỡ qua nghệ thuật cắm hoa",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNamhHRE9vdmhFRnVVR1ZZc2xwV1lWZzY1ZXlrenpRSU14dmZqaHVjS2x5OVY4NHZiYlJfQmg4NGdFZDMtcnl5VzV2YVdVMlJWUzBKMk10OFpYZ09OUWEyVE94LWtnbnpDbWg0b0lNSXA2YUNXRVRwaHNHYzRMRzhiZ2xxZEdEbk9ZbTRyRHIzVE1YNjR3bHFsSm9DazF0czMxQkVDZ0dPTmVVeFdlNnlpTw?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Khác",
+   "date": "2026-11-11T08:42:00+00:00"
+  },
+  {
    "title": "Đóng điện thành công đường dây 220kV Thanh Hóa – Sầm Sơn",
    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQ1VUQjlFRHVpbHNKeWNmZG9BOWFObDM3a2ZieEtLVGFQTWlMQ0V1eFB6RUdQTEl6ZG5IM3luWEU0LS1UODV2NS1RakNMa1VZdVRuekhWZjJaQ3ZvYktpSHJMcDFVS1NpekpWOHNKRURpbFRpbzBkMUJYb1VVZHVPdzZHNWo5RmlRNFNZUkhaTXdzLXh0c3I5LUphbjlFRGprdVJCYWV3?oc=5",
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
@@ -962,6 +973,14 @@
    "date": "2026-11-09T15:29:17+00:00",
    "enriched": true,
    "url": "https://moit.gov.vn/tin-tuc/ky-hop-lan-thu-8-uy-ban-hon-hop-viet-nam-nhat-ban-ve-hop-tac-cong-nghiep-thuong-mai-va-nang-luong.html"
+  },
+  {
+   "title": "Công điện về việc chủ động ứng phó với mưa lớn, lũ, ngập lụt, lũ quét, sạt lở đất khu vực Trung Bộ",
+   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPb1ZVLUJuY0gzX3N2dWxmX3NfdzVFQUw2cWJpbC16WG85OHlMLWc1eERjNWxHRjNLemhmZHJYcmVXTFNmRkp3MDFBUzRERkVfQ01Jb09ocmVaS05KUTctLW9xaXdNbDlSbTViUm1OVF9nMVBvRDNGeHJOZUJZWWNNUFJVUkZrVEs0X1B2MlhFRUMzeEJuT0NYQXl5S00zZ2JsZWIyNGlNZ3BVYmtfQ1VXeGVYMFVzeFd1a0xYWkZJOHQwUXpYam14SG5wWUFOejhBVEc2TkFuRjBZT2xHTF8yOFdpbkx2S05VdEE?oc=5",
+   "source": "moit.gov.vn",
+   "group": "Bộ Công Thương",
+   "topic": "Khác",
+   "date": "2026-11-09T13:12:33+00:00"
   },
   {
    "title": "Công đoàn Điện lực toàn Nga thăm, trao đổi kinh nghiệm với Công đoàn Điện lực Việt Nam",
@@ -2852,22 +2871,6 @@
    "group": "EVN",
    "topic": "Dự án",
    "date": "2026-10-26T08:10:00+00:00"
-  },
-  {
-   "title": "Văn bản hợp nhất số 28/2026/VBHN-QĐ-BKHCN của Bộ Khoa học và Công nghệ: Về mã định danh điện tử của các cơ quan, tổ chức phục vụ kết nối, chia sẻ dữ liệu với các bộ, ngành, địa phương",
-   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBXbmUyWXVRTXBYaGlYV0pBdVFCb1F2SUQ5VjVIdExJbXV0ekpvdkNKbXBzcFVLZDZ0ZGVnNTdFTGNQUER0UjZqTXl1d1F4M043Nzl3UjFNY1dCYmJHYkZZdGZRYw?oc=5",
-   "source": "Cổng Thông tin điện tử Chính phủ",
-   "group": "Chính phủ",
-   "topic": "Khác",
-   "date": "2026-10-26T08:03:09+00:00"
-  },
-  {
-   "title": "Lễ ký kết Hợp đồng Gói thầu số 01TB-BA: Cung cấp thiết bị cơ điện - Dự án thủy điện tích năng Bác Ái, tỉnh Khánh Hòa",
-   "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPLXpFME45NGhubUlfT25ITDlGaHlFM2VkNWpXSTAzZVM3ME50Mkl0bUdfallYOFpHd2NUZDk0TUx5WFRrLWFaRkZOeXdYVEQxYjZwTmJmTXZ5d2FIb2ZuNlZPNk5MODFPclBWa21zT1k2WXhKeDRtTkhzNHk1eUg5TGNVWGY1Q2JTUFBGN0l6ZXNRRzNnOTZHNGZzYWtON1pPR2oyMHVxTURKd3d6YjZIWXczZjNrcmVjWGVGS2t5ck8wYU9KSERlam1HVHluNXpiazJudzFxSDdVZ20yVTYtaURNcWp2V0NVWVNoWXBTWjJfdkpa?oc=5",
-   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
-   "group": "EVN",
-   "topic": "Dự án",
-   "date": "2026-10-26T08:00:00+00:00"
   }
  ]
 }
