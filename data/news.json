@@ -1,8 +1,38 @@
 {
- "updated": "2026-11-18T11:51:15.867110+00:00",
+ "updated": "2026-11-19T02:05:22.409447+00:00",
  "count": 300,
  "errors": [],
  "items": [
+  {
+   "title": "Cổng thông tin điện tử Bộ Tài Chính",
+   "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQcVQ5bnB4UHg2YU1jZ1lMbzQzTG1OdVhKTDJHczRxbElmQWVhUzByX1ZQRDIwcElic1lYUDRJdXRJcjdCcC1xTUFWcWZ1MUFqdU9NMkRub1c2Ty1fU3g0SkpFSzA0ODhtQkd0VVRpWXpMWTN5U1pDXzZucVRQRVpwdThEY0gxRHhlbFhWdFFuOTA4RjVMVUR2S3BLbUtEeVpMb3NTNm9QdEhNX0hpUGg5R05NRW1xRUJkVjlNU0lSZ0NyRVphQzZzUkItekdZZE4tWmpaMW5lUnliNVVlMkNQNzMzZDhwajJ6aHp0S1gtc0M3dzVa?oc=5",
+   "source": "Cổng thông tin điện tử Bộ Tài Chính",
+   "group": "Bộ Tài chính",
+   "topic": "Khác",
+   "date": "2026-11-18T19:48:27+00:00",
+   "enriched": true,
+   "url": "https://www.mof.gov.vn/cong-nghe-thong-tin-va-chuyen-doi-so/tin-tuc-su-kien-3/bo-tai-chinh-day-manh-ung-dung-cong-nghe-thong-tin-trong-tuyen-truyen-binh-dang-gioi"
+  },
+  {
+   "title": "Tổng kết và trao giải cuộc thi “Hiểu đồng nghiệp - Hiểu EVN” năm 2026",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWC1BSW1iSUpuUVQ4dmQ3VmtWdnltX195YlJXTUwzQ3g0ZkkxdWkwNS1xbnRQX3VCTG9FdENGZ3VJeDZWZTdHUGtnaV9wVVNkMmgxYllETEpiUFRBRVRCVDAzbkFxSTNWXzVEVXVNSF9QNXQ0MGZKX3BiWW9NZzltRU82MnkzV3JsSTkyTElTdjd2ZjNGNE5YbXNBcVh5cndhZzMzakhudnJacTNOOUJFc1pvM1NKcW8?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Khác",
+   "date": "2026-11-18T14:23:00+00:00",
+   "enriched": true,
+   "url": "https://www.evn.com.vn/d/vi-VN/news/Tong-ket-va-trao-giai-cuoc-thi-Hieu-dong-nghiep-Hieu-EVN-nam-2026-60-2005-510367"
+  },
+  {
+   "title": "EVN vinh danh 34 giảng viên nội bộ giỏi năm 2026",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOblNrcWhNMFkyeWZEczhSNHExQUgtUTFoQWxKcHh5ZUZJQ0tRd1FXOW53UEdtSHptMDZGV1R4RlJ5d2lnY1dfOWE4eGRBdGJlMGNEMUZ6a2tYSHdXVlBsX21iYlU5cllLQTBCTFRTS0NaVjg3NEdHVmdMYWF5X1lGM1lCM0gxelBpdEVralc3bUg5aEoydEVEQXlvMzRrQQ?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Khác",
+   "date": "2026-11-18T11:34:00+00:00",
+   "enriched": true,
+   "url": "https://www.evn.com.vn/d/vi-VN/news/EVN-vinh-danh-34-giang-vien-noi-bo-gioi-nam-2026-60-12-510365"
+  },
   {
    "title": "Chuyển đổi văn bản công chứng giấy sang văn bản điện tử phải đáp ứng các yêu cầu nào?",
    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPVk1EQ1hhcHFoME15d1EwYzZhdTFJOWd6NDJmQ3pZbXNzeUdULVBRRTh4dzBMSVJkYjZEVkNoZVdackJYdHdEd3F5cjl2YUZPNWVIZWRoSkxKVWRtWHBtenV5Y1FFYnpEbWxVVW1xYy1BLXBzaFhqcHQwcGFubXpYR19HUm1QbFJHQUJidW9TcG1zSUlTY1dRLTllcTBFQTVuOVlHZFNKWVFSNDlqV2k0OXlPMGVBcXFWSFczMXNJTU9DYnRFTkhEQnFMNkN3Q0RiX2lyR29jTE9XcWZH?oc=5",
@@ -12,6 +42,16 @@
    "date": "2026-11-18T11:26:00+00:00",
    "enriched": true,
    "url": "https://xaydungchinhsach.chinhphu.vn/chuyen-doi-van-ban-cong-chung-giay-sang-van-ban-dien-tu-phai-dap-ung-cac-yeu-cau-nao-119261118171216093.htm"
+  },
+  {
+   "title": "Tập trung nguồn lực, phấn đấu hoàn thành đóng điện Trạm biến áp 500kV Thái Bình và Hải Phòng trước mùa nắng nóng năm 2027",
+   "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPZXh2b3FZNjJjb1BibjhCeFJYTGI1SHhERi02NF9SUjNiZXJMbUJfY0pUSHVyRmdwZVFuTnZlS2VocHBYa0o4UzhZNUZYQWxHcEItNGV0S1RRX3Fpay02Y2o2c1E4eFBWdmtMZnhCLV9BZ2NzT1FKUkZLb0NyaGdKUWRpd1RXTXl2WXk3anJ0LVBLc0ViQlRhSFgycFhXV1Nib0JxMjFCbXdNb2ZhNFVld2tQU1RfcVpyd3p5cGJDNHNsekFwcGhjNDViZ0lHc0VTMkd2ZkFNako5MHcya0VKci05SWI0VlRNdU5DWGFRdUQ1SE94Z0VCU2lyT1Bvdw?oc=5",
+   "source": "Tổng công ty Truyền tải điện Quốc gia",
+   "group": "EVNNPT",
+   "topic": "Dự án",
+   "date": "2026-11-18T08:45:00+00:00",
+   "enriched": true,
+   "url": "https://www.npt.com.vn/d6/vi-VN/news/Tap-trung-nguon-luc-phan-dau-hoan-thanh-dong-dien-Tram-bien-ap-500kV-Thai-Binh-va-Hai-Phong-truoc-mua-nang-nong-nam-2027-6-191-12824"
   },
   {
    "title": "174 người tham gia diễn tập phòng cháy chữa cháy và cứu nạn cứu hộ tại Tòa nhà EVN",
@@ -62,6 +102,16 @@
    "url": "https://www.evn.com.vn/d/vi-VN/news/Thong-tin-chung-ve-van-hanh-he-thong-dien-Quoc-gia-ngay-17112026-60-2015-510359"
   },
   {
+   "title": "EVNNPT tạo đột phá từ khoa học công nghệ và chuyển đổi số",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQckdFLTJPdUlpRm0tSVFPdmZlUTdoYVBTdmVJbFRDLWlFem13QWFlVGZGemstUXowZXppQnIwTF9YS2JLY0RnWjJJdlZaUmVTSi1iWXdOWW5zMGVfUUdBd0M4eDBhMDU3Zy1ZWUl1SU9zcHpPV1M3dVBtQkM4T3lRT3NGSFNfU1RUd0JvYldqdUxMOUhtWXk4WkRfVG1icW5rRFZzYXZKUk56QQ?oc=5",
+   "source": "Tổng công ty Truyền tải điện Quốc gia",
+   "group": "EVNNPT",
+   "topic": "Khác",
+   "date": "2026-11-18T03:23:00+00:00",
+   "enriched": true,
+   "url": "https://www.npt.com.vn/d6/vi-VN/news/EVNNPT-tao-dot-pha-tu-khoa-hoc-cong-nghe-va-chuyen-doi-so-6-191-12822"
+  },
+  {
    "title": "Bộ nhận diện Tuần lễ hồng EVN lần thứ XII - năm 2026",
    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONlpHdUoyOWtlc2xEOEViUDViSm5LOWJpWldrNzMtRDZfOExCaHVRdWxtZjUwV0hmSXg2S094bWtwV29EaVJDVFlzY2Zkb19icW5PemNVV2tjcEJOQkJZLU1VdHlJZ2NOT0hoUXgtSW5aMk85R0pyM0ZVRGt2SlZraGZsU2FtNkk2bGRsUzhVNmRJbU5iZ05JdW9lYS1EUXpFM2c?oc=5",
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
@@ -72,14 +122,14 @@
    "url": "https://www.evn.com.vn/d/vi-VN/news/Bo-nhan-dien-Tuan-le-hong-EVN-lan-thu-XII-nam-2026-60-811-510358"
   },
   {
-   "title": "Cổng thông tin điện tử Bộ Tài Chính",
-   "link": "https://news.google.com/rss/articles/CBMizAJBVV95cUxQczFBeldOaEZuMXpPdjNqNkVLb3JIN3FkXzNqYmxGdlNQMmpTTmRlWXh6YlQzRlgyT0dMdGpEaFRnbWphYWtmWnBYbzNXOUs5c1JleGFub0xXWXpTMTl4SC1aWEhzNjlMdnlGYmcyUTUyLXFobE0zQXJyYkk1Q1U5cXhQajV2NEpBajRmODVlRmxvN2xKWGc2LUJQWWxVS2ctQzhCRmdJdlZaeDFsRXVfZ1ZCVnFVY2haam40V0ZJWlRjNXBubG1zdFF5eC1CZHZNenRybkplb3dVa3pITV9VamJ0bFpSTUtLdFM4aVBWaW9OR1V2V3F6VW04QnZMM0x4V1ZLT1ZGaVhJUTdhYW5MY0tNaXZsOVUzeGQ2Q2NCcncwZktHcEt1M3BoQTQwbXhqR2J3bjhwRUg1QXdyeXVVVUNxZDUxZjR0Y1BjWQ?oc=5",
-   "source": "Cổng thông tin điện tử Bộ Tài Chính",
-   "group": "Bộ Tài chính",
-   "topic": "Khác",
-   "date": "2026-11-17T17:36:45+00:00",
+   "title": "Quyết liệt tháo gỡ vướng mắc, bảo đảm tiến độ các dự án truyền tải điện tại Quảng Ninh",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOc2dEX2tURE9feHdGMHRVT1htbnNDcXRjSElKNEY0YkMyNFFMRlBocllpYXlBRnB5ODVIRHpGWFU3TmVxdG1LYkFMaUJ3NHdfSVN3VFNnYm9UbHdqZ2lsTU53M1p6V0RjS1gzZmJCc3RJOTUxMUU4M3pCWmdTT2ljUGRJdkdEUXpYd0lOa202bDZKSHpiWGs3WktzSkFyZkhWeTNIWHl6c1RxMXlVV3BTeTdwZV9NajdZRUkzVDRGLVlrRkNCQVFYbXhpQWNmV0E?oc=5",
+   "source": "Tổng công ty Truyền tải điện Quốc gia",
+   "group": "EVNNPT",
+   "topic": "Dự án",
+   "date": "2026-11-18T02:00:00+00:00",
    "enriched": true,
-   "url": "https://www.mof.gov.vn/bo-tai-chinh/dong-gop-y-kien-du-thao-van-ban/du-thao-thong-tu-thay-the-thong-tu-so-362019tt-btc-ngay-1762019-huong-dan-hoat-dong-kinh-doanh-xo-so-tu-chon-so-dien-toan-va-xo-so-ky-thuat-so-biet-ket-qua-ngay"
+   "url": "https://www.npt.com.vn/d6/vi-VN/news/Quyet-liet-thao-go-vuong-mac-bao-dam-tien-do-cac-du-an-truyen-tai-dien-tai-Quang-Ninh-6-191-12823"
   },
   {
    "title": "Dấu ấn EVN tại VIFOTEC: 4 công trình được vinh danh",
@@ -2872,56 +2922,6 @@
    "group": "EVNNPT",
    "topic": "Khác",
    "date": "2026-10-29T00:00:00+00:00"
-  },
-  {
-   "title": "Truyền tải điện Đông Bắc 3 tuyên truyền bảo vệ hành lang an toàn lưới điện cho gần 600 học sinh",
-   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQdmlDY0hPQXJqalh2WmN5anhuZGY4WDRPVWNuTzJUeF94V3lfVmkyQXhyZTdleXVjbThoTTF2R09jTWJ2Yk5Hd19FcTJLeDFHZ0VTbGhBbE1OeVpDenlmdVBGZ3FWQlNMV054SV9WQlNaY1Uzb21hOThQaWtFdU43MDJrQjRwYlpKbkhPR2lfNDBlWjV3YXlidjF5cUZEZWg4cVY0N1dMOVBOS19fX2hsRFJmeWpsMUd0NXA0UmJkd0JCZ1g4b1I5SkJFeExSdHFEMGQ0d2dCTVJtR2hY?oc=5",
-   "source": "Tổng công ty Truyền tải điện Quốc gia",
-   "group": "EVNNPT",
-   "topic": "Vận hành",
-   "date": "2026-10-28T23:34:00+00:00",
-   "enriched": true,
-   "url": "https://www.npt.com.vn/d6/vi-VN/news/Truyen-tai-dien-Dong-Bac-3-tuyen-truyen-bao-ve-hanh-lang-an-toan-luoi-dien-cho-gan-600-hoc-sinh-6-191-12764"
-  },
-  {
-   "title": "Đoàn công tác EVN làm việc với UBND tỉnh Khánh Hoà về Dự án Nhà máy Thuỷ điện tích năng Bác Ái",
-   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxObUVrSGFMVDh5VDJXNlZUX3dXd3JVRWxfR3dwb28yZzZUTEVETlhtVmhQZWtPM1Vsc213NUZZWS1sR09OWUs3VFBPZEJHQXBnSGNoVmFjMHQ5VWxFdjFra2JPc2pSUmprV0ZIU0RDQ3ZwM1NqQnNnYmdQYUJ5M1ZrQnhKTGNSaUZCVlVid3kxcEYxSHhQdFk0eFQ0dlRJOUNhR3Z4N1hmbUdGVGhFaVl4QW55M0dIc3VZTVI4YThFNWVxM3VYWTBfY2t0Q2ZJRmtUNmhmLWl3?oc=5",
-   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
-   "group": "EVN",
-   "topic": "Dự án",
-   "date": "2026-10-28T16:50:00+00:00",
-   "enriched": true,
-   "url": "https://evn.com.vn/d/vi-VN/news/Doan-cong-tac-EVN-lam-viec-voi-UBND-tinh-Khanh-Hoa-ve-Du-an-Nha-may-Thuy-dien-tich-nang-Bac-Ai-60-13-510143"
-  },
-  {
-   "title": "Bộ Công Thương tổ chức Hội thảo “Sử dụng năng lượng tiết kiệm và hiệu quả - Giải pháp thúc đẩy tăng ...",
-   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPUnhFdGdxeTJLZnlRVXVKejdZUkVHLW1JSGtNb3ZPb0lwTUI5RHB3TGh0ejZqVlJ4ZkJMQ2JGQU1OdE85ZWxQdnl0b0FPUHVVaW8zbkUwSUE3MVFyZU1IbjI0T2Zfdm4wVE1JVDQyaDFhcHc4TzZPenpYSUp3ZlJhOWxmZGlWRTB6amk1M1cyNWdyc2Fvb29MYm52cVgyTlpGbXoyWkNZTjVlZkxkUUY1N05VUGpvM0phTXVFamZ3YVU3MlFURzJnbXdNVk1oSkRwdU5tR1ZnYkJGX1NxdzVUTnNOSEFTUlJQ?oc=5",
-   "source": "moit.gov.vn",
-   "group": "Bộ Công Thương",
-   "topic": "Khác",
-   "date": "2026-10-28T16:19:28+00:00",
-   "enriched": true,
-   "url": "https://moit.gov.vn/tin-tuc/bo-cong-thuong-to-chuc-hoi-thao-su-dung-nang-luong-tiet-kiem-va-hieu-qua-giai-phap-thuc-day-tang-truong-xanh-va-phat-tri.html"
-  },
-  {
-   "title": "Lãnh đạo EVN đôn đốc công tác thi công Dự án Nhà máy thuỷ điện tích năng Bác Ái",
-   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUExVVEVUQ1ctTjJrUDBKOHYyWU1lbE12eUdyc3FCb3ROTXluRGtRSEttWVZYQ3czMWVSZkYtUENLSDhTMmRiZVZQWVdaMjJlbXVwWXNGQjg0VllsMGpPUVRQOTMyaFo2blNvSFFrYlhCdGNvbVI2SWM2SlJQc281aHB4TWtvcllsNFhEeXlYazh6N1pCUFo0WDhwUDlFY3YzZ0tZbEtveFdFZVdLUVA4eS1Na0ktZFBNRnZQcm1jOHVmZw?oc=5",
-   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
-   "group": "EVN",
-   "topic": "Dự án",
-   "date": "2026-10-28T13:17:00+00:00",
-   "enriched": true,
-   "url": "https://evn.com.vn/d/vi-VN/news/Lanh-dao-EVN-don-doc-cong-tac-thi-cong-Du-an-Nha-may-thuy-dien-tich-nang-Bac-Ai-60-12-510142"
-  },
-  {
-   "title": "Dự kiến triển khai 12 tiểu dự án di dời công trình điện phục vụ xây dựng đường sắt Lào Cai - Hà Nội - Hải Phòng",
-   "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxONTBwNkxDdjB4ejR4Z2tTXzBKUGgtMERBaXdBRGlHc01CWF81WjVuUVVzRHZkUkR2M2NxX2QwN0UwVDRYZng3dThZbS04bFY4Mjd4WFhMbGR1ODNvN0VmVHNvSlBGcjJvRlQ2MEFZSkZfSGl6VWw0eVVSemE0UHlHWm1iTC15eG1aa1hoT2hqcnAzZ3JGRmdtZGVfSUJtakpsMGJ3b0JRUGhaZnFiYm8wM0xfTHdGY0UyeDU1OHZJRmtUb1cwNGJZMTdFQ1B6cUtqOV8zRE9OT3FoMmlibFAyZzIxSkVNcEI5N3pqNQ?oc=5",
-   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
-   "group": "EVN",
-   "topic": "Dự án",
-   "date": "2026-10-28T10:01:00+00:00",
-   "enriched": true,
-   "url": "https://www.evn.com.vn/d/vi-VN/news/Du-kien-trien-khai-12-tieu-du-an-di-doi-cong-trinh-dien-phuc-vu-xay-dung-duong-sat-Lao-Cai-Ha-Noi-Hai-Phong-60-13-510130"
   }
  ]
 }
