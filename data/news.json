@@ -1,7 +1,14 @@
 {
- "updated": "2026-11-20T01:58:06.486869+00:00",
+ "updated": "2026-11-20T11:48:38.639680+00:00",
  "count": 300,
- "errors": [],
+ "errors": [
+  "Bộ Công Thương: HTTP Error 503: Service Unavailable",
+  "Chính phủ: HTTP Error 503: Service Unavailable",
+  "Bộ Tài chính: HTTP Error 503: Service Unavailable",
+  "EVN: HTTP Error 503: Service Unavailable",
+  "NSMO: HTTP Error 503: Service Unavailable",
+  "EVNNPT: HTTP Error 503: Service Unavailable"
+ ],
  "items": [
   {
    "title": "Thanh Hóa đồng hành tháo gỡ vướng mắc, đẩy nhanh tiến độ các dự án truyền tải điện",
