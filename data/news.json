@@ -1,10 +1,58 @@
 {
- "updated": "2026-11-25T09:25:04.607797+00:00",
+ "updated": "2026-11-25T20:21:56.394036+00:00",
  "count": 300,
- "errors": [
-  "EVN: HTTP Error 429: Too Many Requests"
- ],
+ "errors": [],
  "items": [
+  {
+   "title": "Thợ điện dũng cảm hỗ trợ khống chế đám cháy nhà trọ tại TP Đà Nẵng",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdnJaMWoxY3dpaHJhM2QtMEZ1bHVxSGUzOV90UlI0YjlrNFlpVGJia2J5WDlCYnM1UjVvN1NrdUV3N1ZaUEFrSHhoeXBKMkdyaTV1VVczQ1FsdUV1djhqUmZFYUR5UEpGU2lncjRkY0oxOGdQak9HN1dNRFEzUHE5cmxUWGJQTkF4WFdENW5ZVnhuclhnd08zaEpGQWZHN3VISXZHeXZrNmx4THZWbWlRamY5Z2t2OVk?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Khác",
+   "date": "2026-11-25T10:38:00+00:00",
+   "enriched": true,
+   "url": "https://www.evn.com.vn/d/vi-VN/news/Tho-dien-dung-cam-ho-tro-khong-che-dam-chay-nha-tro-tai-TP-Da-Nang-60-846-510435"
+  },
+  {
+   "title": "Củng cố nguồn cung trong nước, hướng tới tự chủ năng lượng quốc gia",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRnl1QmsyU1JjUkxPcC12VENjcDQ2bUdRZTdNX2thaHNNdDJZTm55a1dnQmowWXpYQmhWcXZYamtRQkdTU1Q5eEJGVi1sdjAtZ0lmNlNKRk1udHNhM09ERDV0N0tEYnhFMUJGQUhNb0s4ZnhZQnhiSEJmTWFpYmJkWTc2eENFeTNlWDc4bEtVdTB5cTJpcEhEbnpBNXE0QjlMSnd4Q0N3?oc=5",
+   "source": "moit.gov.vn",
+   "group": "Bộ Công Thương",
+   "topic": "Khác",
+   "date": "2026-11-25T10:04:00+00:00",
+   "enriched": true,
+   "url": "https://moit.gov.vn/media/video/cung-co-nguon-cung-trong-nuoc-huong-toi-tu-chu-nang-luong-quoc-gia.html"
+  },
+  {
+   "title": "Triển khai thi công Dự án lắp đặt 2 ngăn lộ 110kV tại TBA 220kV Cần Đước",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeGhPVmR4NXUwTGI4LUVCSjdnaDg5Qi1tNkd4RHpoMThKNzQ1dTk3eXdQUmJ3M09hTFJGLS1uM2huN2VGQ1AxR1RUazdnblpKOWRUMWYwNnppUDlSWU1Fek40bTFpNzJSQ1AyT28zLXFuNXJjbi1STk1UZ0pCR0dkQURIS1lkVG4tRy02T1NFZDhXbC1iUTFBWTNpNUhlSGdBbDJ3VDFCREZFME1zZGRxMEF3XzB4SUJMdC1oRF9B?oc=5",
+   "source": "Tổng công ty Truyền tải điện Quốc gia",
+   "group": "EVNNPT",
+   "topic": "Dự án",
+   "date": "2026-11-25T10:00:00+00:00",
+   "enriched": true,
+   "url": "https://www.npt.com.vn/d6/vi-VN/news/Trien-khai-thi-cong-Du-an-lap-dat-2-ngan-lo-110kV-tai-TBA-220kV-Can-Duoc-6-191-12851"
+  },
+  {
+   "title": "EVNNPT được chấp thuận là nhà đầu tư Dự án đường dây 220kV Mỹ Tho - rẽ Mỹ Tho 500kV - Cần Đước (mạch 2)",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOWWNMSWJUeU1JZUV5cDh4NHp4cDVpal9ha2RndWZlT2xTN0xDT1pNWmVJUHRCeVMxVi1WNUJSdlI4azM2UXU5RmV1QlVWLV93d3IzNTdCb05oRjZZOUJmeUpMdHpSMEIyUW16b2VFTmVfM1gzMXZ3ZHhBUTJES0EyZXJNOWQycHhpeWF0clpVRFZOX2MwSjZ3aEpQeDRreGl4TVNDZ1VoVzJsTjdIcjR6U2QxblIxZTByaUkxWnBPNlM3VU5ad0JST1Vmc2hoZFBrbEpNbGRFRVRyVXJfRy1Z?oc=5",
+   "source": "Tổng công ty Truyền tải điện Quốc gia",
+   "group": "EVNNPT",
+   "topic": "Dự án",
+   "date": "2026-11-25T08:32:00+00:00",
+   "enriched": true,
+   "url": "https://www.npt.com.vn/d6/vi-VN/news/EVNNPT-duoc-chap-thuan-la-nha-dau-tu-Du-an-duong-day-220kV-My-Tho-re-My-Tho-500kV-Can-Duoc-mach-2-6-191-12850"
+  },
+  {
+   "title": "Thông tin chung về vận hành hệ thống điện Quốc gia ngày 24/11/2026",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUm5obE1Pcml2ZUdCUEMtQkNfVlNrTUs3Vl9QNVVVQzVVcFhHYWZEaW5JRmZ4Vm0zRWozb0RQU1lpWjFtVnl4UHhVdWRObjFuWkMyYkgwUnRIRVhIS1lUUktweWVLZUJWaWlMdUNnNUI4UG1MTXJXR2MyY3Jra0ljQ2pfeGlEUGF3dllGQ2R3clI0TVdZWFVzR19aLWdTTFBJN3J6LUtWaUR4cENxQWlMNzNIcWhCdw?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Vận hành",
+   "date": "2026-11-25T03:26:00+00:00",
+   "enriched": true,
+   "url": "https://www.evn.com.vn/d/vi-VN/news/Thong-tin-chung-ve-van-hanh-he-thong-dien-Quoc-gia-ngay-24112026-60-2015-510433"
+  },
   {
    "title": "Sáng kiến khôi phục giám sát nhiệt độ máy biến áp tại Trạm 220kV Sóc Trăng",
    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOOGkxZThPbDUwRW9kQUFZX2M2LTB6QVVyZGRaMy1rMXBiNjBjeWFReVR6Q09keURZYk83RmdpanNndU9DVlEtenpHbzc5aGp4cTdWX2hUazJuUjNGVXVPN0lZclgyVEp4eUxyZERicURJbm9MbXNqWFlKYjlYRXhGWVlGZWhIY3NteG9lVVBsMHhVQ1Y1V3ppSjRkRDRhWlBPNG5COWd2U0ROLWVJbEJhVGFvSmlWWTNmc3FKd1pTY0s?oc=5",
@@ -33,6 +81,16 @@
    "date": "2026-11-24T09:53:00+00:00",
    "enriched": true,
    "url": "https://media.chinhphu.vn/luat-dinh-danh-va-xac-thuc-dien-tu-khong-yeu-cau-xuat-trinh-giay-to-da-duoc-dinh-danh-dien-tu-102261124100407586.htm"
+  },
+  {
+   "title": "Nữ nhân viên Điện lực Thanh Trì được tôn vinh sau hơn 130 lần hiến máu, hiến tiểu cầu",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMGRTb0JGQUdCNVZkTGtfWmM4SVRHM3NOQWNoWkd6Zmlhbks0SEUzdWFTeHNlYXlHem1vLU5BblNXOGduVV9xWVk4T1lJbklMQ2YyV29MOFZQWFhjSUgxZnl6ejBGbElnZFNGVHBva3lTdUlLZ0c1dlYzdDdHZ0R3Mjhkb25mbDVmalNzU2loS2xNek81bmF1bEdtN2h3Sko0dWtjQlVfLUhoUkhZMU9CNUMzeFlqeVBmdGpXRE4tSlR1T2puaFdhS3VRdE8yY1E?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Khác",
+   "date": "2026-11-24T08:54:00+00:00",
+   "enriched": true,
+   "url": "https://www.evn.com.vn/d/vi-VN/news/Nu-nhan-vien-Dien-luc-Thanh-Tri-duoc-ton-vinh-sau-hon-130-lan-hien-mau-hien-tieu-cau-60-846-510422"
   },
   {
    "title": "PTC3 phát huy văn hóa doanh nghiệp trong thực hiện nhiệm vụ truyền tải điện",
@@ -65,6 +123,16 @@
    "url": "https://moit.gov.vn/tin-tuc/bo-cong-thuong-lay-y-kien-dieu-chinh-quy-hoach-dien-viii.html"
   },
   {
+   "title": "Hai đơn vị EVNGENCO1 triển khai hoạt động an sinh xã hội tại Lâm Đồng và Quảng Ninh",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQaGY4WlhsU0N4SU9HRGF3Ym1WV25KUWRwclB4MlZJVGxjWThKd2VCc1UweVJBcEYzRG80NG54REhuRHNzWGtUNk9NWWdWY3d6YkNsUHNrekFhTF8tZ0VpT19ia19CeHMwZW9uZXhvNlZkLU5LNFN1ZUF2OTN2MzU1WHNVRWpONzl4bi05RVBCS0dDSnZPaE5nN2VuS3hKV1FGbWJaR1haNGEzWTF6UmlLaEJIbEVTWXg2a3ZBbjR0cXVUWnQ3S05XNncwUmZRaXc?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Khác",
+   "date": "2026-11-24T02:39:00+00:00",
+   "enriched": true,
+   "url": "https://www.evn.com.vn/d/vi-VN/news/Hai-don-vi-EVNGENCO1-trien-khai-hoat-dong-an-sinh-xa-hoi-tai-Lam-Dong-va-Quang-Ninh-60-2024-510419"
+  },
+  {
    "title": "Thông tin chung về vận hành hệ thống điện Quốc gia ngày 23/11/2026",
    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMTJSSERZakF5a0U1QVFTaWxkUjNfY01wUXByMzFYUG1pQ3BrTm82ZEZhT1NXWDFHOTI5TkYxZWIwcE1tR2dBUEV2NzdQR3dWdVYxcm85TGdtMUZoUEY3bjhZdVNBbWlGZ1Z6MVpzLTUxbjlmcG5OVlEwek0ybS1Wem9OcVJWdFdrWlducmxLMW1FbHZGT1BZbUZ1VDVvLWlpdWN2LVNpd0xUbGEwVjZGT1ktQTh1QQ?oc=5",
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
@@ -83,6 +151,16 @@
    "date": "2026-11-24T02:30:00+00:00",
    "enriched": true,
    "url": "https://www.evn.com.vn/d/vi-VN/news-pdf/Ban-tin-EVN-so-45-nam-2026-60-194-510417"
+  },
+  {
+   "title": "Khách hàng tại Thủ đô cần tư vấn an toàn điện - gửi yêu cầu ngay trên iHanoi",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPd255aGZRNndvalU5SUk5MXBGcmFKQTRjRmR6bUJPT2hlRml4dmplQ1RsbUg1SkFjcHhmSy1jNTR4M2RoNEh3VHFrU0g0YzBoVFIxU3dnbm9LUzdRcDJKXzVLa0luNUdnVmp3Q2plVGVSRktQTjY4aXRpQS1FbzdkX1dmd0JjRzVNZGtEcW1qWmFPZ2k4cnd6NWg0blhEOXNMT0xTTGN2MS1NZlFiT0xNSUtvN3pERk5DRVQ2OTd5UHplWFU?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Khác",
+   "date": "2026-11-24T02:23:00+00:00",
+   "enriched": true,
+   "url": "https://www.evn.com.vn/d/vi-VN/news/Khach-hang-tai-Thu-do-can-tu-van-an-toan-dien-gui-yeu-cau-ngay-tren-iHanoi-60-2021-510341"
   },
   {
    "title": "Đảng ủy Công ty Truyền tải điện 3 trao Huy hiệu 35 năm tuổi Đảng cho đồng chí Lê Hồng Duật và đồng chí Lê Đình Đặng",
@@ -335,6 +413,14 @@
    "url": "https://moit.gov.vn/tin-tuc/luat-dien-luc-sua-doi-mo-duong-cho-dien-di-truoc-mot-buoc.html"
   },
   {
+   "title": "Công ty Nhiệt điện Cần Thơ diễn tập ứng phó sự cố hóa chất năm 2026",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaHIyXzFVUGRneVpyNnNxMXI2YVNNR3FKMmxSOEw0Q0lyaEF5UXlFeWV4THFiQW1yZU9TVTkxWHNDTC1kQWhnRS1FQXhiRlhiakVEMm9lWnNPRWFtVGlIUlMxd0pkNWppdkNBZzFEZ21BVEtHZzY1QVhuMmZzeUttWkVoZDdWTDRGWE8yMTYzcXNmM2NhWjVzZ0RmeVZyc3BRQUxVOFFxRUVYd2FXQUhmU05QUHByY2c?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Khác",
+   "date": "2026-11-21T04:50:00+00:00"
+  },
+  {
    "title": "Công ty Điện lực AES Mông Dương cảm ơn EVN, EVNNPT đã hỗ trợ liên quan đến biến điện áp 500kV",
    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNb3o2Y3B0T0YyenVRMzg2dFJNbG83QWdZcGVhSUw1SWlDXzhFOV9OZlVrV3V2aEdGWkdfdmlPWG1PQkRCcVEzQnBHakItX1l0cloxVzdmd3FUTGpUY19nQ21RUGlmS1lSQWVDU3VsbXoxcEQtZ21HelZtUzRfTW5pbHliMzJhZWNIXzhVdC03b0hMSkU3TUNMWW5ZMzlmQUExLUFHb2FybTlCLXBJSm1zS3VWYkZteTVfMGRqSXUwbzlsakkwa1dtbl9CbUdCWkkzUzlnV01lSVE?oc=5",
    "source": "Tổng công ty Truyền tải điện Quốc gia",
@@ -503,6 +589,14 @@
    "url": "https://evn.com.vn/d/vi-VN/news/Tong-giam-doc-EVN-tiep-va-lam-viec-voi-Dai-su-Hoa-Ky-tai-Viet-Nam-60-12-510379"
   },
   {
+   "title": "Xiaomi ra mắt máy giặt sấy ba lồng độc lập, tiết kiệm năng lượng",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOS0EwdUgtem1PdF9QYTd3YVlrYjJhY3Itb0N4Z283bU1SVElycGVpTm5lVDZqT1pTQnlPXzY2cDl5ZXc1cXRIbXBMdTNJZHJVM1NhUUh5Y2RueWJLdU1YajVaMUNaTkdSNlE0NzNLZTN0LUw5cmZ3LTNiT1VBS0p3WUExb2dJZlNKN3A0RWd4ekdINWRKNEZyY3o4SE1NeE9oQklZd1dXT0hmOTZYM2RiYXFINA?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Khác",
+   "date": "2026-11-19T09:50:00+00:00"
+  },
+  {
    "title": "Truyền tải điện Đà Nẵng tập huấn kỹ năng tuyên truyền bảo vệ hành lang an toàn lưới điện truyền tải và xử lý vi phạm an toàn điện.",
    "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNLVMwOXpEaTQycHBMdm80VU5DaVMyXzN4OVJGZzd3dU02MWRMTHprWWp3YWYtSzRJSVQ2WVlRX1ZqaE9JQWpra0NIY3JQNkdrbWNCRHdzcjFSc3NVc2NMVmdCWUNQOFlCdm92QVdlUk56WC1ia1dnMWFWNTJqNUFRRzNHclJ1Q2RrdHBDUEhDd3ZiQXdjMTlqQ282ZjRBOWd2VWVhZEZSZ2NaaFhiR0tsdW5wcjBPeGZHaUwycHIwMkpSSW9iakdzd242VVFQOGt3TTFyZmVpenBjQ0l2UXRnMXJXeUN2cjBsMlp1dzFyTnRMTmQ3THFIVmlCRmxWdE5WU200N3c2Z3pfQQ?oc=5",
    "source": "Tổng công ty Truyền tải điện Quốc gia",
@@ -541,6 +635,14 @@
    "date": "2026-11-19T04:08:00+00:00",
    "enriched": true,
    "url": "https://www.npt.com.vn/d6/vi-VN/news/EVNNPT-dat-giai-o-ba-vong-thi-Hieu-dong-nghiep-Hieu-EVN-hai-giang-vien-noi-bo-duoc-vinh-danh-6-191-12827"
+  },
+  {
+   "title": "EVNNPT tạo đột phá từ khoa học công nghệ và chuyển đổi số",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTHA3QW1nZ0Q2Qncxc2p6YXp3NWNYMWs3aDd5YXhCQ2dDSzlBRy03TkdfVUpzaTJxTk1SLVRTUjJRN2prZkJJQWRhMWtqT2lXR1BrczdmZ3RkNmhtOWI2alk1SE1fWi1kclBwYWN3a2ZvUm5XaVZFOF9iMy0zck9nOWtqLXRvNVoyQWlreUFoTDVhZjgyeGJadWNSNExBbkRJd1F1TXZMY2xYQQ?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Khác",
+   "date": "2026-11-19T04:08:00+00:00"
   },
   {
    "title": "Thông tin chung về vận hành hệ thống điện Quốc gia ngày 18/11/2026",
@@ -592,13 +694,11 @@
   },
   {
    "title": "- Tập đoàn Điện lực Việt Nam (EVN)",
-   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9qVnRkNnN1UVVLRklERHRHT1BSZW00bmpOdDQ4cHo1VUFRYlByeC03b3U2ZTFKTnVNMENRN1NGY0VRbGtXSWh6eTdYazNxWGRjZktiVEZUUXJUd2hRSWhRR0N3T24?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5PajFYUlJ1Q0lyMzVBWVE2RkZNUVlQbVZNOGd1bUVtbGJKZXpSSDhlaFVmQVBrQ3Z2S3ZYN1ZUZVpIeHBzdlRoZTBNTkpwQjNx?oc=5",
    "source": "Tập đoàn Điện lực Việt Nam (EVN)",
    "group": "EVN",
    "topic": "Khác",
-   "date": "2026-11-18T18:18:21+00:00",
-   "enriched": true,
-   "url": "https://elearninglms.evn.com.vn/student/course/list/my"
+   "date": "2026-11-18T19:33:21+00:00"
   },
   {
    "title": "EVN góp ý điều chỉnh, cập nhật Quy hoạch điện VIII",
@@ -649,6 +749,14 @@
    "date": "2026-11-18T11:26:00+00:00",
    "enriched": true,
    "url": "https://xaydungchinhsach.chinhphu.vn/chuyen-doi-van-ban-cong-chung-giay-sang-van-ban-dien-tu-phai-dap-ung-cac-yeu-cau-nao-119261118171216093.htm"
+  },
+  {
+   "title": "Tham khảo một số hệ thống quản lý năng lượng toà nhà hiệu quả trên thế giới",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPalRYYUlZV1FuaVJSMFM1WFd1VkRobVh5RkJGOXVkZVBWcjd4MkduM29wdGctR0NqcXpTVVFYMjk5U0NxVFlYUTAwdTJSRXhRRUdUc2lyV2sxM2FwcXJnMUo3a1B4eWJvLWNDbURON0tFRDhycllBT0tDVmx3ZVBPSEdYeU94RE8ycWtxdXpLNGpsNi05Wkt5dHBIZTVGRmVxMVZZZUxFTjdSWnFfUndPb2wzenlDWlpndEVNbmVTLWpRQ2ZY?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Khác",
+   "date": "2026-11-18T10:08:00+00:00"
   },
   {
    "title": "Tập trung nguồn lực, phấn đấu hoàn thành đóng điện Trạm biến áp 500kV Thái Bình và Hải Phòng trước mùa nắng nóng năm 2027",
@@ -716,16 +824,6 @@
    "date": "2026-11-18T03:28:00+00:00",
    "enriched": true,
    "url": "https://www.evn.com.vn/d/vi-VN/news/Thong-tin-chung-ve-van-hanh-he-thong-dien-Quoc-gia-ngay-17112026-60-2015-510359"
-  },
-  {
-   "title": "EVNNPT tạo đột phá từ khoa học công nghệ và chuyển đổi số",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQckdFLTJPdUlpRm0tSVFPdmZlUTdoYVBTdmVJbFRDLWlFem13QWFlVGZGemstUXowZXppQnIwTF9YS2JLY0RnWjJJdlZaUmVTSi1iWXdOWW5zMGVfUUdBd0M4eDBhMDU3Zy1ZWUl1SU9zcHpPV1M3dVBtQkM4T3lRT3NGSFNfU1RUd0JvYldqdUxMOUhtWXk4WkRfVG1icW5rRFZzYXZKUk56QQ?oc=5",
-   "source": "Tổng công ty Truyền tải điện Quốc gia",
-   "group": "EVNNPT",
-   "topic": "Khác",
-   "date": "2026-11-18T03:23:00+00:00",
-   "enriched": true,
-   "url": "https://www.npt.com.vn/d6/vi-VN/news/EVNNPT-tao-dot-pha-tu-khoa-hoc-cong-nghe-va-chuyen-doi-so-6-191-12822"
   },
   {
    "title": "Bộ nhận diện Tuần lễ hồng EVN lần thứ XII - năm 2026",
@@ -2788,116 +2886,6 @@
    "date": "2026-11-05T07:08:00+00:00",
    "enriched": true,
    "url": "https://www.evn.com.vn/d/vi-VN/news/EVNNPT-can-tiep-tuc-ra-soat-tang-cuong-an-toan-van-hanh-luoi-dien-truyen-tai-60-14-510213"
-  },
-  {
-   "title": "PTC3 ứng dụng AI, đổi mới tuyên truyền bảo vệ an toàn lưới điện",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdU90WGptdXFQaDZSV04xdDVxdFNESG5yX3NuVFg4dFNySzdialUxUW5CTTIwSi0tNzZOT1VtUEJ3QVZLQ3drTFl5YnFYUjRvZHBaTE45ZjIzbkhqbzRaOENTY3JiZm1CdDMwNTc5MDR2b241clF5cC0tdHFET1Q1enlNcGJ4V2hSMmlwVmtTMzdQVG9oYVEyVzZ6aThuUkNTaVdjYmRSbE1VOXJrUmptNA?oc=5",
-   "source": "Tổng công ty Truyền tải điện Quốc gia",
-   "group": "EVNNPT",
-   "topic": "Vận hành",
-   "date": "2026-11-05T07:01:00+00:00",
-   "enriched": true,
-   "url": "https://www.npt.com.vn/d6/vi-VN/news/PTC3-ung-dung-AI-doi-moi-tuyen-truyen-bao-ve-an-toan-luoi-dien-6-191-12789"
-  },
-  {
-   "title": "Thông tin chung về vận hành hệ thống điện Quốc gia ngày 04/11/2026",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNY04xZ05waVJxT3JDcHQ1NzMtdXVkc3Z5VTJ1QmNHWFNsSlpQWnFHMVAwMXo3ZnRPVjEySTdRNDJmUHZWNHdjU0xraHA2VE0zZ0duU0tlanRSQTF6MHRKUHBaMHhSbVZPYlptcXliWnFnOHc0RzFLOEhsMm1xUXJvUE55bXI5LWszWDVRWUs5TVFWSVJJcE9yallRdGhxdE5BVlhNd25nY3diVy1DR1p5TjNjaE9nZw?oc=5",
-   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
-   "group": "EVN",
-   "topic": "Vận hành",
-   "date": "2026-11-05T03:16:00+00:00",
-   "enriched": true,
-   "url": "https://www.evn.com.vn/d/vi-VN/news/Thong-tin-chung-ve-van-hanh-he-thong-dien-Quoc-gia-ngay-04112026-60-2015-510212"
-  },
-  {
-   "title": "45 năm NPMB – Hành trình khát vọng, tiếp nối những trang sử tự hào",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQl9jM1diWjFhUERuQ2J4eWFjNEk2RGt0eFl4dk13UVVzRE5Cak9yaGtibHphblhKQkFfLUNUazZCYlY4ell2cmswWFF2NEs2d3J1SEdJVmhTbHhWbVJmbGtYMks5SDVPa1NoMVdlWnFraUpWOGNEdEc0ZUtEVWxTVXpfNU01akp2RWdQQUM5MkJ6aU9nYXVtTmJGNG4zdXZOcUxFOTJwY0pMdU9ZazRqVTFR?oc=5",
-   "source": "Tổng công ty Truyền tải điện Quốc gia",
-   "group": "EVNNPT",
-   "topic": "Khác",
-   "date": "2026-11-05T02:26:00+00:00",
-   "enriched": true,
-   "url": "https://www.npt.com.vn/d6/vi-VN/news/45-nam-NPMB-Hanh-trinh-khat-vong-tiep-noi-nhung-trang-su-tu-hao-6-191-12788"
-  },
-  {
-   "title": "Điện Biên: Mở rộng đầu ra cho nông sản vùng đồng bào dân tộc thiểu số",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdkJ4RTNIUUpPS191Wk14V3ZJTk5wTERJM2pFT3A4ZG5nX1c1MTE2M2pBZEdSWmlEVEp5UkVveVNjZGZLc1ZYejh1cDdZamlTMS1qTVFGWG1LRmRocGJOMGEtVVhjSkluZkt6cGhycVhzQ3JTTi1WR3RCQ3RsX3JyNlNRSEEwM3JVMnJEQzR5V0dQWU5RSHE2YmNxSVhXU1NJdU9SV0VHSXllbDR0M09sNDhMOVZ6eGdEeDZvei03RGs?oc=5",
-   "source": "moit.gov.vn",
-   "group": "Bộ Công Thương",
-   "topic": "Khác",
-   "date": "2026-11-05T02:05:36+00:00",
-   "enriched": true,
-   "url": "https://moit.gov.vn/tin-tuc/thi-truong-trong-nuoc/dien-bien-mo-rong-dau-ra-cho-nong-san-vung-dong-bao-dan-toc-thieu-so.html"
-  },
-  {
-   "title": "Đảng bộ Công ty Truyền tải điện 3 trao tặng Huy hiệu 35 năm tuổi Đảng cho đảng viên Nguyễn Xuân Mạnh",
-   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNR3ppQ3NnNVlDT3Yzd1JDaXZtdnp4RUZtemxyTk1HSE5fOW1UV0s3dV9Cbi1qUXFaU3p3QXJ1SlJYMWJJWFRmc3ZaRFJGYmIxZHFLZ1VDMHkyVnA4Wk03elp6SE5HQTc0UGRTcDJPSkQtWmZ2bF9BMWc5RnBKSGE3SVpCLUlwckN3R2NXdEdKcmdRRzNoYldWVUtIWWM4MnJ1ck1YcVdOcWpxRFdBcWJlLV9YQ18za2JaaHBxeE44bTBNZWxCUDRhb2pFQmhxbUkxa0QwN2RWN3h2SkZlZEVUc3BkVQ?oc=5",
-   "source": "Tổng công ty Truyền tải điện Quốc gia",
-   "group": "EVNNPT",
-   "topic": "Khác",
-   "date": "2026-11-05T00:58:00+00:00",
-   "enriched": true,
-   "url": "https://www.npt.com.vn/d6/vi-VN/news/Dang-bo-Cong-ty-Truyen-tai-dien-3-trao-tang-Huy-hieu-35-nam-tuoi-Dang-cho-dang-vien-Nguyen-Xuan-Manh-6-191-12785"
-  },
-  {
-   "title": "Tác động của việc áp dụng biểu giá điện sinh hoạt mới và giảm 2% giá điện",
-   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQ3E1QVlaRkY3eHhfYUN1eVRqT0lpa29HNFVoMFkwNUJrNVIzTV9iN3JaajNKZDZGYm0wWEdFOEZjc2pYVXFKblIwWlMwZ3NsYmE0ZnVpWDVSdkFuaU90RElsZmlpN0g5dWdGM05KQjBNcGg1NlU0b2xGdlFTYjFMdkZFNWUwN2o0X3F6SEN4WXFwMmNvSXo1UDRIY05UZFNTdjhlS2FhQk42QXJEQVl1VEJoMXZIUHNfXzczR0VQb2Y0X0E5ZTZub0VIWmI?oc=5",
-   "source": "xaydungchinhsach.chinhphu.vn",
-   "group": "Chính phủ",
-   "topic": "Giá điện",
-   "date": "2026-11-04T09:24:00+00:00",
-   "enriched": true,
-   "url": "https://xaydungchinhsach.chinhphu.vn/tac-dong-cua-viec-ap-dung-bieu-gia-dien-sinh-hoat-moi-va-giam-2-gia-dien-119261104162138786.htm"
-  },
-  {
-   "title": "Giá bán điện cho các đơn vị bán lẻ điện từ 1/11",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVk10NlFDRURtR2dwTDczbVRKM1hNNWVwcDZrVngwNTBTZ2NMemJwaDJpbVdZV3ExRHhlRlhzaU5ibjNxYnJJM1E4V2tVY0JXaUN5NWptWGlrc3NSM2NHSW1OZS0yS0ZKOVNrZ3FPU0ZKWFNfdnY3RGxUcWRqd3oydVB6VTZJY0V5UE5vMWZ3M2RYSjZJdnZTOFZNVGoyaWdDRjdIR1RWYVpxVjg?oc=5",
-   "source": "xaydungchinhsach.chinhphu.vn",
-   "group": "Chính phủ",
-   "topic": "Giá điện",
-   "date": "2026-11-04T09:23:00+00:00",
-   "enriched": true,
-   "url": "https://xaydungchinhsach.chinhphu.vn/gia-ban-dien-cho-cac-don-vi-ban-le-dien-tu-1-11-119261104154541304.htm"
-  },
-  {
-   "title": "Lãnh đạo EVN kiểm tra, thúc tiến độ Dự án Trạm biến áp 220 kV Yên Dũng và đường dây đấu nối",
-   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOUkdQMmpfaS1vOFRVNnh1QkhUVEwwaU1yOWRrSHNaQjBzQmFPM214LWswWXBoSjdiVTR4d1RxRkFxVGRHS19vZUZtVUNhaDNrNHhJSWliSVpobXlPN0NtNm1NZ1ROWmVXb1R6bzZ3azBlelhpUVZMeXhyWWtXXzJFWGVVOXR1ZDdaV3lleUIzak9ySWNNdmM0ZldKQUJmQ3Rvc2loMTE5dndoaWFhZkNROEpaN2FMNWk5dmMzOGlZYUg2TzlPRThtSXFuc09Pd09MdnlCRGRB?oc=5",
-   "source": "Tổng công ty Truyền tải điện Quốc gia",
-   "group": "EVNNPT",
-   "topic": "Dự án",
-   "date": "2026-11-04T08:36:00+00:00",
-   "enriched": true,
-   "url": "https://www.npt.com.vn/d6/vi-VN/news/Lanh-dao-EVN-kiem-tra-thuc-tien-do-Du-an-Tram-bien-ap-220-kV-Yen-Dung-va-duong-day-dau-noi-6-191-12783"
-  },
-  {
-   "title": "Chi tiết giá bán lẻ điện cho sinh hoạt, sản xuất, kinh doanh từ 1/11",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQS0ZYRVNlN3pzem9lS09UakhYTWIyU2JSUUJvZFNQZFVDWGRuVFFueVk5M2hDT3BRYzFRc3Vra25kX3hGQk9jakFIbE9iYVRpSE56eUtOVGx0THhNNzh5TGZGaWVfUTVWdGhRd2FEbTlnaDlHdWJXRzBxS2JhckpTZ2NLWFA2WWl2YkFoSWs0T0RlQXdUR3ZIUlZmSFlFVWpRNk1ISHMzSUp4MFp6cVJHNDJIdFJDQjlvUUNYV0R6bkxxc055?oc=5",
-   "source": "xaydungchinhsach.chinhphu.vn",
-   "group": "Chính phủ",
-   "topic": "Giá điện",
-   "date": "2026-11-04T08:32:00+00:00",
-   "enriched": true,
-   "url": "https://xaydungchinhsach.chinhphu.vn/chi-tiet-gia-ban-le-dien-cho-sinh-hoat-san-xuat-kinh-doanh-tu-1-11-119261104152055059.htm"
-  },
-  {
-   "title": "Điều chỉnh biểu giá điện, hướng tới sử dụng năng lượng hiệu quả",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPejhRVUVFOFNKNV9BUEU0YUhnVU5CaXhhUjlScTNoQnltU2h1NVo3dldmaUpIOUhabUYtMGlqb0FocnE1cUxZRUtRNFJBWDVvZ2RZVzB1dVlaUVljZTlWMHVhMUxSS2ZVYmxyc2s2Sk1LZ1k2azVhREFKYzN2R1ptT3ZOZ05QWjh4dTl2MnFWWEpNd0tWRzlydkJNV3A5c0VCMnpfWmh3aw?oc=5",
-   "source": "media.chinhphu.vn",
-   "group": "Chính phủ",
-   "topic": "Giá điện",
-   "date": "2026-11-04T08:30:00+00:00",
-   "enriched": true,
-   "url": "https://media.chinhphu.vn/video/dieu-chinh-bieu-gia-dien-huong-toi-su-dung-nang-luong-hieu-qua-27393.htm"
-  },
-  {
-   "title": "CPMB phát động thi đua, quyết tâm đưa Dự án Trạm biến áp 220kV Sầm Sơn về đích",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZ0gtbFl3ajhBa3M4dUtpbjNmYW9CaWNLbmd4Zjd2X1VTaVFORTdrWFo1bk9nalFPdmJrc0VnYmxLVWp2bmtQVnl2NGhHOUprdGpVQ3Zza1BwSDVTNVZjdjJURHQyLVZDamtvUTBnQk0yOG1INUE2SzlRa05MemF2NzVWMHB2XzUwNS1OWE5OOEgwbThQVkZIOWppSEpkQk8yRzFMM3pUdGhrWGt0eGdlSVNQbXpfM0NOMHhvMjNqOXBNc1Nq?oc=5",
-   "source": "Tổng công ty Truyền tải điện Quốc gia",
-   "group": "EVNNPT",
-   "topic": "Dự án",
-   "date": "2026-11-04T08:30:00+00:00",
-   "enriched": true,
-   "url": "https://www.npt.com.vn/d6/vi-VN/news/CPMB-phat-dong-thi-dua-quyet-tam-dua-Du-an-Tram-bien-ap-220kV-Sam-Son-ve-dich-6-191-12784"
   }
  ]
 }
