@@ -1,8 +1,28 @@
 {
- "updated": "2026-11-27T09:20:02.502406+00:00",
+ "updated": "2026-11-27T19:46:38.916938+00:00",
  "count": 300,
  "errors": [],
  "items": [
+  {
+   "title": "Bổ sung kiến thức về điện hạt nhân cho đội ngũ cán bộ EVN",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTmFBTlRhdXRRdVZBcWhtTkZOaEtzX0Rkd2NLQjgyRFZrQ0VtSGdUWjlHMEFpUG05N3dnVXdEemthOFFZVTZFVHlMZ1Qwc2RFM0FsaEtxa19nOWtHazNTQWZfdGZuRlJDTzBaUTVRS09IUlVzc0FaSXpaS2ZmamFBM1htNlAydDFFX0FXaF8ybEpPRHptMlRDbHhUeGFuZE4zTHZKZEFvTXJlc2FZ?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "NLTT – Lưu trữ",
+   "date": "2026-11-27T08:23:00+00:00",
+   "enriched": true,
+   "url": "https://www.evn.com.vn/d/vi-VN/news/Bo-sung-kien-thuc-ve-dien-hat-nhan-cho-doi-ngu-can-bo-EVN-60-3573-510463"
+  },
+  {
+   "title": "Tập trung đầu tư lưới điện phục vụ tăng trưởng kinh tế tại Bắc Ninh",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRUxpbnJqUzdxcndWb0FIUTRGdm1zUFl4NmpqNU8wekl4VG40akxuSG9YR3l2UE02eFdqNFcwdkhtQlNnYVE4Sm5vUDN5NklIeGZvbE81T0tqQWdaUHU2Sl9Hb093TDZmRVgxOHE5NUt0d1c4dmFMS1NXR3poVElmYllqVVpDR1puOVlqelZSYVRRblRNeEtsN1Z0WkplX2ZVUmZJbW14ZnZzaThleS1WV29B?oc=5",
+   "source": "Tập đoàn Điện lực Việt Nam (EVN)",
+   "group": "EVN",
+   "topic": "Dự án",
+   "date": "2026-11-27T08:13:00+00:00",
+   "enriched": true,
+   "url": "https://evn.com.vn/d/vi-VN/news/Tap-trung-dau-tu-luoi-dien-phuc-vu-tang-truong-kinh-te-tai-Bac-Ninh-60-13-510462"
+  },
   {
    "title": "Thông tin chung về vận hành hệ thống điện Quốc gia ngày 26/11/2026",
    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNX196VFBEbXp2X0hBa1ZKMV9jd0g3d1VzNjFFcThkX2J6UzVwTlRoZE5RaDNrUU9CZ1oweG5fdjNuTGRkQ291UE96dk1kUU16Q0JHMmw0TFYzVTlXN25ISjhVTXdPWmhlUXBpSlZRUU5lb0lxWU9NOXFEYkxJYmIyTWNLcDZQbklZWkhlbWpmTEpJcXpQRkVLZTcyR0tjMXROVTFFRk9aMEVnVFUtek1hWGdMa2l2dw?oc=5",
@@ -72,6 +92,16 @@
    "date": "2026-11-26T11:04:00+00:00",
    "enriched": true,
    "url": "https://www.npt.com.vn/d6/vi-VN/news/Tap-trung-nguon-luc-quyet-tam-dua-hai-du-an-truyen-tai-dien-500kV-tai-phia-Nam-ve-dich-trong-thang-122026-6-191-12855"
+  },
+  {
+   "title": "EVN Chairman Dang Hoang An meets with China's Mingyang Smart Energy Group",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNd0V4cnh3SF9zeXlvdXQ2eUhoXzd1RS1ucVk0SjNJODUxbDEwWW13VnRXdjhZaEZqWTVEOHFpcHlJZDkzVHNvekdQclVxNDZzZXpKR0g1TGN3Q3kxa0N5dWFqRXVUbFVJMThLeFpjTEZVM3pFODJkRzEzMnphZzhPLXVyQ0owQXZIaEY5OWZ1ZWFkVGVOeGZ2NUZNQzVaNG1VOGRDNGFBcm1qWE9iUHFpR0lnS0dGdEMza0lwVQ?oc=5",
+   "source": "Vietnam Electricity",
+   "group": "EVN",
+   "topic": "Khác",
+   "date": "2026-11-26T10:21:00+00:00",
+   "enriched": true,
+   "url": "https://en.evn.com.vn/d/en-US/news/EVN-Chairman-Dang-Hoang-An-meets-with-Chinas-Mingyang-Smart-Energy-Group-60-12-501809"
   },
   {
    "title": "Công ty Truyền tải điện 2 tăng tốc hoàn thành các dự án trọng điểm năm 2026",
@@ -2846,36 +2876,6 @@
    "date": "2026-11-08T04:00:00+00:00",
    "enriched": true,
    "url": "https://www.evn.com.vn/d/vi-VN/news/Thong-tin-chung-ve-van-hanh-he-thong-dien-Quoc-gia-ngay-07112026-60-2015-510238"
-  },
-  {
-   "title": "PTC1 tổ chức kỳ thi nâng bậc nghề quản lý vận hành đường dây năm 2026",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQU1Jjb3ZFSXJaV3U1anRqTUcwS3lmdGR4NDhzX1dHdnV6QVprbzE2TUdvY3gtbmJLM1o5cGpGUzROQ1dYUEhtRzRwLTRmb0NaZVd1YklyTGUzcVp2VWQ2Z1RKaGx6aTFxNXdvYVFWYWtBWlIxTjYzaURJaFNNVEFFaWt5RzFiOTRrMGNUYV9VN0o0ZHktaTg0eE5QQ0Q5dUVQc2xtS3JxMkJzYV9tNkgzSV80RkhPZy1rUXc?oc=5",
-   "source": "Tổng công ty Truyền tải điện Quốc gia",
-   "group": "EVNNPT",
-   "topic": "Vận hành",
-   "date": "2026-11-08T03:33:00+00:00",
-   "enriched": true,
-   "url": "https://www.npt.com.vn/d6/vi-VN/news/PTC1-to-chuc-ky-thi-nang-bac-nghe-quan-ly-van-hanh-duong-day-nam-2026-6-191-12797"
-  },
-  {
-   "title": "Triển khai xây dựng Đề án về quản lý sử dụng điện thoại thông minh, mạng xã hội tại các cơ sở giáo dục",
-   "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNQjdocnVPWF9xNTJubGQ2Y2xVOVVxR3lDSW9QZVhEeUdzZFpjbUp4MngtRkloRWxqZkF4VFZvZGlBN19obHhWeWpncmJqVjRHTEJLeHhmcGo4WWFUY25uWUR5al9Ub2ZFa2cwY0RjbGpxNDNSbmV2bVExM2t4T2dyUUR6azRCb0E2WV9NczRjMXVoYTJxSGtZTHU0Y2ZMaVR3bXlka1U5Q0stQkM0VHZBOXdhY1BQUXNZZXQ0bGVxUWdHVkRjQ1hicEF2UTZRY3FWTDF1SHYzNm1STHcyakowRV93dmQ1bzhWOGFQYlZybGJvZzg?oc=5",
-   "source": "xaydungchinhsach.chinhphu.vn",
-   "group": "Chính phủ",
-   "topic": "Khác",
-   "date": "2026-11-08T00:06:00+00:00",
-   "enriched": true,
-   "url": "https://xaydungchinhsach.chinhphu.vn/trien-khai-xay-dung-de-an-ve-quan-ly-su-dung-dien-thoai-thong-minh-mang-xa-hoi-tai-cac-co-so-giao-duc-119261108052611994.htm"
-  },
-  {
-   "title": "Bộ Công Thương chủ động các giải pháp bảo đảm cung ứng điện năm 2027-2028",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNl9KYUxiZEY2SXlzdFNNc2tBaTI5WUJpUksySUY2MVp0Q1FoVFA5MEI3NVBoS2ozN0x6Z1dvWHJRSjBvb0RPMlNoSWtLODNzWXFyc3dPVW54TjU4dUtxUjBMZnRvVm1YQzJ6blpfbi1LUE9icjB0Skh2UWU3MHMxZGVNbC1ERldWUk1WcDlWaUVaYzVNVHRoNmN4SjJ1dkY0ZVlNOUNsLVNCZTlLWm0w?oc=5",
-   "source": "moit.gov.vn",
-   "group": "Bộ Công Thương",
-   "topic": "Vận hành",
-   "date": "2026-11-07T15:59:00+00:00",
-   "enriched": true,
-   "url": "https://moit.gov.vn/media/video/bo-cong-thuong-chu-dong-cac-giai-phap-bao-dam-cung-ung-dien-nam-2027-2028.html"
   }
  ]
 }
